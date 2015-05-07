@@ -1,14 +1,14 @@
 @font-face {font-family: 'ElegantIcons'; src: url('css/fonts/ElegantIcons.eot'); src: url('css/fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'), url('css/fonts/ElegantIcons.woff') format('woff'), url('css/fonts/ElegantIcons.ttf') format('truetype'), url('css/fonts/ElegantIcons.svg#ElegantIcons') format('svg'); font-weight: normal; font-style: normal}
-.data-icon::before, .Filterparameter a::before, .Icon::before, .Bullet-Haekchen li::before, .Editieren::after, .royalSlider .arrow_carrot-left_alt2::before, .royalSlider .icon_pause_alt2::before, .royalSlider .arrow_triangle-right_alt2::before, .royalSlider .arrow_carrot-right_alt2::before, .Link-Liste a::before, .Vorteile li::before, .Info-Icon::before, .icon_chat_alt:before, .icon_phone::before {font: normal normal normal 1rem/1rem 'ElegantIcons'; speak: none; -webkit-font-smoothing: antialiased}
+.data-icon::before, .Filterparameter a::before, .Icon::before, .Bullet-Haekchen li::before, .Editieren::after, .royalSlider .arrow_carrot-left_alt2::before, .royalSlider .icon_pause_alt2::before, .royalSlider .arrow_triangle-right_alt2::before, .royalSlider .arrow_carrot-right_alt2::before, .Link-Liste a::before, .Vorteile li::before, .Info-Icon::before, .icon_chat_alt:before, .icon_phone::before, .controls label::before {font: normal normal normal 1rem/1rem 'ElegantIcons'; speak: none; -webkit-font-smoothing: antialiased;}
 
 /* Allgemeine Definitionen */
-body {font: normal normal 13px/1.25rem Arial, Verdana, Helvetica, sans-serif; color: #3e3e3e; padding: 0; margin: 0 auto; max-width: 1024px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
+body {font: normal normal 13px/1.25rem Arial, Verdana, Helvetica, sans-serif; color: #3e3e3e; padding: 0; margin: 0 auto; max-width: 1024px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
 img {max-width: 100%; border: 0}
 td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .popup {width: 95%}
 
 /* CSS Images */
-.Button-close, .NL-Layer .Container .NL-Layer-Button .arrow, .cc-slider-pfeil-links-rechts :checked ~ .controls label {background: url('/images/Allgemein/Buttons/Buttons.png') 0 0 no-repeat}
+.Button-close, .NL-Layer .Container .NL-Layer-Button .arrow {background: url('/images/Allgemein/Buttons/Buttons.png') 0 0 no-repeat}
 
 /* Hidden elements */
 .Link-Mehr-Infos, .Bild-sw, .Produkttabelle #warenkorbItems, .Produkttabelle hr, #socialshareprivacy .settings_info, .Hinweis-NL-Pflichtfelder, .ui-helper-hidden, .ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle, .Zwei-Spalter-Sidebar-left .Sidebar-right, .Zwei-Spalter-Sidebar-right .Sidebar-left, #nav-home, nav .Hotline, .cc-slider input, .toggle input, .toggle .toggle1:checked ~ .controls label:nth-child(1), .toggle .toggle2:checked ~ .controls label:nth-child(2), .Designcode-Artikelauswahl-NJS .royalSlider .bugaga .rsCaption, .Designcode-Artikelauswahl-NJS .royalSlider .Rotating-image, .Designcode-Artikelauswahl .Kopfnummerninfos .Tabs, .Factfinder-Copyright, .Auflistung-Produkte .Edit-Info, .Schildersuche .PUES-Subnavigation-Kategorien .Title2, .Schildersuche .Anzahl-Artikel, .Checkout-Adresseingabe .editable_textarea, .Checkout-Print .Anzahl-JS img, .Checkout-Print .Anzahl a, .Checkout-Print .Anzahl-JS a, .Checkout-Print .Anzahl-JS .updateLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto img, .Print .Einzelpreis-abzgl-Rabatt-netto .buttonAsLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto .Datei-Upload, .Checkout-Print .vortn, .Checkout-Print .Dankeschoen-Geschenk input, .Themenheadline, .smallreadonly, .Kopfnummerninfos-Tabs .Tabs, .Teaser-Blog .updated, .Footer .Trusted-Shop .hreview-aggregate, .ui-dialog-titlebar-close, p:empty, .rsCaption:empty, .Hauptkategorie-Text:empty, .Tab-Content:empty, .cc-slider:empty, #Produktbeschreibung:empty, .LV_validation_message:empty, .Hinweistext:empty, #SEO-Footer:empty, #Footer_Bereichstext:empty, #cc-slider-top-kategorien .cc-slides .overflow::after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow::after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow .inner::before, .cc-slider .controls, .Artikel-pro-Seite, .recs, .pure-toggle, .pure-toggle-label, .hidden {display: none}
@@ -26,25 +26,25 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .rsFullscreen .rsContainer .rsSlide img, .rsFullscreen .rsSlide .Rotating-image {-webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0)}
 
 /* Text */
-p, .Tab-Content, .Content-Box {margin: 0 0 .5rem}
-h1, h2, h3, h4, h5, .Title1, .Title2, .Title3, .Title4, .Title5, .Teaser-Title, .Titel-Newsletter-abonnieren {font-weight: 400; color: #3a3a3a; line-height: 1.5rem; margin: 0 0 .25rem 0}
+p, .Tab-Content, .Content-Box {margin: 0 0 .5rem;}
+h1, h2, h3, h4, h5, .Title1, .Title2, .Title3, .Title4, .Title5, .Teaser-Title, .Titel-Newsletter-abonnieren {font-weight: 400; color: #3a3a3a; line-height: 1.5rem; margin: 0 0 .25rem 0;}
 h1, .h1, h1 a, .Title1 a, .Warenkorb-Reminder .Title1, .Teaser-Title, .Titel-Newsletter-abonnieren {/* font-size: 1rem; */}
 h2, .h2, .Tab-Title {/* font-size: 1rem; */}
-h3, .h3, .Title3 a {padding: 0; margin: 0 0 .5rem 0}
+h3, .h3, .Title3 a {padding: 0; margin: 0 0 .5rem 0;}
 h4, .h4, h4 a, .Title4 a {}
 h5, .h5, h5 a, .Title5 a {font-size: 9pt; margin: 0 0 .3rem 0}
 [class^="Sidebar"] .Title1 {font-size: 1.1rem}
 aside .Titel-Balken-hellgrau {border-bottom: 1px solid #ccc; font-weight: bold}
 article .Titel-Balken-hellgrau, #lastSeenProducts .Titel-Balken-hellgrau, .Produkttabelle th, .Grid-Themen-Index p, .Block h2, .Grid-System-Sitemap .Title4 {background: #eee; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 5px .75rem 3px; margin: .5rem 0 .5rem 0; clear: both}
 .Titel-Balken-hellgrau img {vertical-align: middle}
-.Tab-Title, .Titel-unterstrichen {border-bottom: 1px solid #ccc}
-.Teaser p, .Teaser .p {margin: 0}
+.Tab-Title, .Titel-unterstrichen {border-bottom: 1px solid #ccc;}
+.Teaser p, .Teaser .p {margin: 0;}
 .Homepage .Teaser p, .Footer .Teaser-Newsletter p {float: left; max-width: 50%}
 .Footer .Teaser-Newsletter p {max-width: 65%}
 .nowrap {white-space: nowrap}
 .Trenner {height: 1px; margin: 20px 0; background: #DDEAF6; clear: both; line-height: 0; font-size: 0; overflow: hidden}
 .Drucken {cursor: pointer}
-.Klein, #Header .Meta-Navi, #Breadcrumbs, .Bildunterschrift2, .hreview-aggregate .rating, .Vorrat, .Info-Link .Info-Text, .Info-Link .Info-Text-JS, .Links .Adobe-Reader, .Bildunterschrift, .Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure, #Header .Hotline span, .product-list-item-left, .Preis-Lieferbarkeit, .MwSt, .ab-st-s, .ab-sst-s, .ib-st-s, .ib-sst-s, .Checkout-Print .Adresseingabe {font-size: .75rem}
+.Klein, #Header .Meta-Navi, #Breadcrumbs, .Bildunterschrift2, .hreview-aggregate .rating, .Vorrat, .Info-Link .Info-Text, .Info-Link .Info-Text-JS, .Links .Adobe-Reader, .Bildunterschrift, .Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure, #Header .Hotline span, .product-list-item-left, .Preis-Lieferbarkeit, .MwSt, .ab-st-s, .ab-sst-s, .ib-st-s, .ib-sst-s, .Checkout-Print .Adresseingabe {font-size: .75rem;}
 .Gross {font-size: 1.25rem}
 .mark1, .mark2 {font-weight: bold}
 .Bildunterschrift span {padding: 1px 0; margin: 2px 0; overflow: visible !important}
@@ -59,7 +59,7 @@ article .Titel-Balken-hellgrau, #lastSeenProducts .Titel-Balken-hellgrau, .Produ
 .Top {float: right; margin: 10px 0 10px 0}
 
 /* Listen */
-ul, .PUES-Subnavigation-Kategorien, .Teaser-Blog ul, .Teaser .Bullet-Haekchen {margin: 0 0 .5rem .75rem; padding: 0; list-style-position: outside}
+ul, .PUES-Subnavigation-Kategorien, .Teaser-Blog ul, .Teaser .Bullet-Haekchen {margin: 0 0 .5rem .75rem; padding: 0; list-style-position: outside;}
 .Teaser-Blog ul {margin: 0}
 .Bullet-Haekchen, .Teaser-Blog ul, .Footer ul {list-style-type: none}
 .Bullet-Haekchen li, .Bullet-Haekchen-weiss li, .Bullet-Plus li, .Bullet-Checkbox li, .Vorteile li {list-style-type: none; margin: 0 0 0 1rem; padding: 0 0 0 .25rem}
@@ -76,8 +76,8 @@ aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 .Ausbildungsangebot dd {padding: 0 0 0 160px; margin: 0 0 10px 0}
 
 /* Tabellen */
-.Grid-Themen-Index, .ui-dialog, .Footer, .Footer-Zuletzt-gesehene-Produkte {padding: 1rem 1.25%; clear: both}
-.Content th, .Content td, .Checkout-Print th, .Checkout-Print td {padding: 3px 5px 2px 5px; box-sizing: border-box}
+.Grid-Themen-Index, .ui-dialog, .Footer, .Footer-Zuletzt-gesehene-Produkte {padding: 1rem 1.25%; clear: both;}
+.Content th, .Content td, .Checkout-Print th, .Checkout-Print td {padding: 3px 5px 2px 5px; box-sizing: border-box;}
 
 /* French DYO*/
 .tab02 [type="text"] {max-width: 220px}
@@ -85,20 +85,20 @@ aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 .SETON-Adressen {font-size: 0.9rem; color: #666; border-top: 1px solid #ccc; margin-top: 30px !important; width: 100%}
 
 /* Produkttabelle */
-.Produkttabelle {width: 100%; border-spacing: 0; border-collapse: collapse; margin: 1rem 0 0}
+.Produkttabelle {width: 100%; border-spacing: 0; border-collapse: collapse; margin: 1rem 0 0;}
 .Produkttabelle th {font-weight: normal}
 .Produkttabelle tr {border-top: 1px solid #ccc}
 .Produkttabelle .no-border {border: 0; padding: 0}
 .Produkttabelle .inactive {color: #888}
 .Produkttabelle .Position {width: 10px}
-.Produkttabelle .Bild {text-align: center; display: block}
+.Produkttabelle .Bild {text-align: center; display: block;}
 .Produkttabelle .Bild a {display: block}
-.Produkttabelle .Bild img {max-height: 80px}
+.Produkttabelle .Bild img {max-height: 80px;}
 .Produkttabelle .Produktinfo p {overflow: hidden; margin: 0}
 .Produkttabelle .Produktinfo .Datei-Upload, .Produkttabelle .Produktinfo .Datei-Uploads {margin: 0.3rem 0}
-.Produkttabelle .editArtikel {display: none}
+.Produkttabelle .editArtikel {display: none;}
 .Produkttabelle .Anzahl-JS .Eingabefeld {width: 50px; margin: 0 5px 3px 0 !important; font-size: 1rem; text-align: right}
-.Produkttabelle .Anzahl .Eingabefeld {width: 2rem; text-align: right; display: inline-block; margin: 0 .25rem 0 0; vertical-align: top}
+.Produkttabelle .Anzahl .Eingabefeld {width: 2rem; text-align: right; display: inline-block; margin: 0 .25rem 0 0; vertical-align: top;}
 .Produkttabelle .Geschenke-in-leerem-WK td {line-height: 0; font-size: 0; height: 3px; overflow: hidden; padding: 0 !important}
 .Produkttabelle .Eingabefeld:hover, .file:hover, .Produkttabelle textarea:hover, .Produkttabelle select:hover {border: 1px solid #BBB}
 
@@ -121,6 +121,15 @@ input.LV_invalid_field {border-color: #F00}
 .Info-Link .Info-Text p, .Info-Link .Info-Text-JS p {margin-top: 0; width: auto !important}
 .Info-Link:hover .Info-Text {display: block}
 
+/*
+.Hinweis p {margin: 0;}
+.Hinweis .Hinweistext, .Hinweis .LV_invalid { display: none; margin: 0 0 0 31%}
+.active .Hinweistext, .active .LV_invalid {display: block}
+.Fehlertext, .Hinweis .Fehlertext, .LV_invalid, .invalid, .Hinweis .Fehlertext, .Hinweis .Fehlermeldung, .Hinweis .FehlermeldungNoJS {color: #F00}
+.valid, .LV_valid {color: #19B201; display: inline;}
+.Hinweis .valid-Newsletter-DOI {color: #666}
+*/
+
 .Checkout .Hinweis {width: 42.5%; display: inline-block; vertical-align:middle }
 .Hinweis .Hinweistext {color:#666; display:none}
 .Hinweis p {margin:0}
@@ -131,10 +140,11 @@ input.LV_invalid_field {border-color: #F00}
 .valid, .LV_valid {color:#19B201}
 .Hinweis .valid-Newsletter-DOI {color:#666}
 
+
 /* New Check-Out styling with enhanced forms*/
-.Checkout fieldset {border: 0 none; clear: both; width: 100%; padding: 0; margin: 0}
-#Add_Lieferadresse ~ fieldset {opacity: 0; max-height: 0; overflow: hidden; visibility: hidden; zoom: 1; -webkit-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: opacity .25s ease-out .25s, max-height .5s ease-out; transition: opacity .25s ease-out .25s, max-height .5s ease-out}
-#Add_Lieferadresse:checked ~ .Add_Lieferadresse, #Add_Rechnungsadresse:checked ~ .Add_Rechnungsadresse {opacity: 1; max-height: 2000px; display: block; visibility: visible; -webkit-transition: opacity .25s ease-in, max-height .5s ease-in; -moz-transition: opacity .25s ease-in, max-height .5s ease-in; -ms-transition: opacity .25s ease-in, max-height .5s ease-in; -o-transition: opacity .25s ease-in, max-height .5s ease-in; transition: opacity .25s ease-in, max-height .5s ease-in}
+.Checkout fieldset {border: 0 none; clear: both; width: 100%; padding: 0; margin: 0;}
+#Add_Lieferadresse ~ fieldset {opacity: 0; max-height: 0; overflow: hidden; visibility: hidden; zoom: 1; -webkit-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: opacity .25s ease-out .25s, max-height .5s ease-out; transition: opacity .25s ease-out .25s, max-height .5s ease-out;}
+#Add_Lieferadresse:checked ~ .Add_Lieferadresse, #Add_Rechnungsadresse:checked ~ .Add_Rechnungsadresse {opacity: 1; max-height: 2000px; display: block; visibility: visible; -webkit-transition: opacity .25s ease-in, max-height .5s ease-in; -moz-transition: opacity .25s ease-in, max-height .5s ease-in; -ms-transition: opacity .25s ease-in, max-height .5s ease-in; -o-transition: opacity .25s ease-in, max-height .5s ease-in; transition: opacity .25s ease-in, max-height .5s ease-in;}
 .Checkout .hidden, fieldset legend {display: none}
 .Checkox-Gewerbe input, .Newsletter input {vertical-align: top}
 .Adresseingabe textarea {width: 50%; max-height: 300px}
@@ -144,12 +154,12 @@ input.LV_invalid_field {border-color: #F00}
 .Checkout span.tooltips, .PDF-Download span.tooltips {bottom: 0; right: auto}
 .Adresseingabe [type="text"], .Adresseingabe [type="tel"], .Adresseingabe [type="email"], #Branche {width: 50%}
 .Checkout .Adresseingabe [type="text"], .Checkout .Adresseingabe [type="tel"], .Checkout .Adresseingabe [type="email"] {width: 30%; vertical-align:middle; display:inline-block }
-.Adresseingabe .Eingabefeld-PLZ, .Checkout .Adresseingabe .Eingabefeld-PLZ[type="text"] {width: 19.5%} 
+.Adresseingabe .Eingabefeld-PLZ, .Checkout .Adresseingabe .Eingabefeld-PLZ[type="text"] {width: 19.5%;} 
 .kundenadr_Bemerkung label {/* display: block */}
 input:required {}
 input:optional {}
-input:valid, .Checkout input.LV_valid_field { border-color: #19B201}
-input:invalid, .LV_invalid_field {border: 1px solid #f00}
+input:valid, .Checkout input.LV_valid_field { border-color: #19B201;}
+input:invalid, .LV_invalid_field {border: 1px solid #f00;}
 input:default {}
 input:in-range {}
 input:out-of-range {}
@@ -181,7 +191,7 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .tooltips-drunter .tooltip::after, #Artikelsuche-Hinweis::after, .Info-Link .Info-Text::after, .Info-Link .Info-Text-JS::after {margin-left: -8px; border-bottom: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
 .tooltips-drunter .tooltip::before, #Artikelsuche-Hinweis::before, .Info-Link .Info-Text::before, .Info-Link .Info-Text-JS::before {margin-left: -12px; border-bottom: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
 .Upsell .tooltip {text-align: center; width: 200px; margin-left: -112px}
-.Upsell .tooltip .h3 {margin-top: 10px; font-size: 1rem; color: #539d37}
+.Upsell .tooltip .h3 {margin-top: 10px; font-size: 1.2rem; color: #539d37}
 .Upsell .tooltip .Upsellnein, .Upsell .tooltip .Upsellja {display: inline-block; padding: 0 5px; color: #0061a0}
 .Upsell .tooltip .Upsellja {font-size: 1.4rem}
 .Upsell .tooltip .Upsellnein:hover, .Upsell .tooltip .Upsellja:hover {text-decoration: underline}
@@ -191,7 +201,6 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 /* Formulare */
 form {margin: 0}
 input[type="text"], input[type="textarea"], input[type="email"], input[type="tel"] {width: 100%}
-#oneTouchSlider1 input {max-width: 20%}
 
 /* Sonstiges */
 hr {border: 0 none; border-top: 1px solid #ccc; margin: 1.5rem 0}
@@ -213,16 +222,16 @@ hr {border: 0 none; border-top: 1px solid #ccc; margin: 1.5rem 0}
 
 /* Columns Layout NEU */
 .Content {position:relative }
-.Content, .Sidebar, #Breadcrumbs, .Blog, .PM {box-sizing: border-box; position: relative}
+.Content, .Sidebar, #Breadcrumbs, .Blog, .PM {box-sizing: border-box; position: relative;}
 .Ein-Spalter .Content, #lastSeenProducts {padding: 0 1.25%}
 
 /* Buttons
 ==========================*/
-button {font-size: .8rem}
+button {font-size: .8rem;}
 .Button-gross, .Button-gross-gruen, .Button-gross-blau, .Button-gross-grau, .Button-klein, .Button-klein-gruen, .Button-klein-blau, .Button-klein-grau, .ui-state-default {display: inline-block; vertical-align:middle}
 [class^="Button"], .Link-Liste a {cursor: pointer; text-decoration: none}
 [class^="Button"]:hover, .Link-Liste a:hover, select:hover {-webkit-box-shadow: 0 0 5px 1px #ccc; -moz-box-shadow: 0 0 5px 1px #ccc; box-shadow: 0 0 5px 1px #ccc; cursor: pointer}
-[type="button"], [type="submit"], [class^="Button-klein"] button, .Link-Liste a {height: 1.5rem}
+[type="button"], [type="submit"], [class^="Button-klein"] button, .Link-Liste a {height: 1.5rem;}
 button.Button-gross, [class^="Button-gross"] [type="submit"], .ui-state-default, .Teaser-Newsletter button {height: 2.25rem}
 button.Button-gruen, button.Button-grau, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Button-klein-blau input, .Button-klein-blau a, button:disabled, .Link-Liste a, .ui-state-default {border: 0 none; color: #fff; padding: 3px 15px; cursor: pointer}
 button.Button-gruen, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .ui-state-default, #Chat {background: #509e2f; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM1MDllMmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMzZjhjMjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #509e2f), color-stop(50%, #3f8c24)); background: -webkit-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -o-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -ms-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: linear-gradient(to bottom, #509e2f 50%, #3f8c24 50%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#509e2f', endColorstr='#3f8c24', GradientType=0 )}
@@ -275,7 +284,7 @@ button.Button-gruen:hover, .Button-gross-gruen input:hover, .Button-gross-gruen 
 	The following rules are the styles that are consistant between themes.
 	Avoid changing this area to maintain compatability with future versions of ColorBox.
 */
-#colorbox, #cboxOverlay, #cboxWrapper {position: absolute; top: 0; left: 0; z-index: 11000; overflow: hidden}
+#colorbox, #cboxOverlay, #cboxWrapper {position: absolute; top: 0; left: 0; z-index: 11000; overflow: hidden;}
 #cboxOverlay {position: fixed; width: 100%; height: 100%}
 #cboxMiddleLeft, #cboxBottomLeft {clear: left}
 #cboxContent {position: relative; overflow: hidden}
@@ -331,12 +340,12 @@ select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVy
 
 /* Skyscraper ==========================*/
 .Skyscraper, #Ostereiersuche {position: fixed; left: 50%; top: 55px; margin-left: 532px}
-#Ostereiersuche {top: 680px; width: 125px; border: .5rem #FFBF00 solid; box-sizing: border-box; text-align: center}
+#Ostereiersuche {top: 680px; width: 125px; border: .5rem #FFBF00 solid; box-sizing: border-box; text-align: center;}
 #Ostereiersuche h6 {background-color: #FFBF00; margin: 0; font-size: 1rem}
 .Skyscraper iframe, .Skyscraper img {position: relative}
 #Chat {text-align: center; width: 30px; height: 30px; display: block; position: absolute; top: 45px; right: -43px; z-index: -1; color: #fff; padding: 1.25rem .5rem 1.5rem .5rem}
 .icon_chat_alt:before {content: "\77"; display: block; font-size: 1.5rem}
-.icon_adjust-horiz:before {content: "\66"; font-size: 3rem}
+.icon_adjust-horiz:before {content: "\66"; font-size: 3rem;}
 .icon_ol:before {content: "\65"; font-size: 3rem}
 
 /* Float-Container */
@@ -376,10 +385,10 @@ select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVy
 #Header {width: 100%; position: relative; z-index:90}
 .Logo, #Header .Artikelsuche {margin: 0 0 .75rem 1.25%; vertical-align: top; display: inline-block}
 .Balken {background: #00609F; height: 1.5rem; margin-bottom: 1rem; padding: 10px 15px 0; display: block; line-height: 1rem}
-#Header button {padding: 0 10px; width: 25%}
+#Header button {padding: 0 10px; width: 25%;}
 
 /* Meta-Navi */
-#Header .Meta-Navi {position: absolute; right: 28%; list-style-type: none; margin: 0}
+#Header .Meta-Navi {position: absolute; right: 28%; list-style-type: none; margin: 0;}
 #Header .Meta-Navi li {float: left; display: inline; margin: 0; padding: 0; border-right: 1px solid #fff}
 #Header .Meta-Navi .last {border: 0}
 #Header .Meta-Navi li a {color: #fff; display: block; padding: 0 10px}
@@ -389,30 +398,30 @@ select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVy
 /*Artikelsuche */
 #Header .Artikelsuche {margin: 0 0 0 5%; width: 45%;
  /* overflow: hidden; */}
-.Artikelsuche .Eingabefeld, .Teaser-Newsletter .Eingabefeld {width: 75%; border: 3px solid #00609F; margin: 0 -4px 0 0;vertical-align: top}
-.Artikelsuche .Eingabefeld {height: 2.5rem}
-#Footer .Teaser-Newsletter .Eingabefeld {max-width: 55%}
-.Artikelsuche button {border: 3px solid #00609F; border-left: 0 none; height: 2.5rem}
+.Artikelsuche .Eingabefeld, .Teaser-Newsletter .Eingabefeld {width: 75%; border: 3px solid #00609F; margin: 0 -4px 0 0;vertical-align: top;}
+.Artikelsuche .Eingabefeld {height: 2.5rem;}
+#Footer .Teaser-Newsletter .Eingabefeld {max-width: 55%;}
+.Artikelsuche button {border: 3px solid #00609F; border-left: 0 none; height: 2.5rem;}
 #Header .Artikelsuche .Button-klein-gruen {display: inline-block}
 #Header .Artikelsuche .suggestLayer {margin-top: 5px}
-.suggestContainer {display: none; width: 100%; top: auto; left: 0; padding: 0; margin: 0; background-color: white; z-index: 10001; position: absolute; border: 3px solid #00609F; box-sizing: border-box}
-.suggestContainer a {display: block; padding: 3px 5px 2px 5px; height: 1.25rem; overflow: hidden; line-height: 1.25rem}
-.suggestContainer a:hover {text-decoration: underline; background-color: #eee; cursor: pointer}
-.suggestContainer .suggestEntry {width: 75%; display: inline-table; overflow: hidden}
+.suggestContainer {display: none; width: 100%; top: auto; left: 0; padding: 0; margin: 0; background-color: white; z-index: 10001; position: absolute; border: 3px solid #00609F; box-sizing: border-box;}
+.suggestContainer a {display: block; padding: 3px 5px 2px 5px; height: 1.25rem; overflow: hidden; line-height: 1.25rem;}
+.suggestContainer a:hover {text-decoration: underline; background-color: #eee; cursor: pointer;}
+.suggestContainer .suggestEntry {width: 75%; display: inline-table; overflow: hidden;}
 .suggestContainer .suggestContent {color: #f00}
 
 /* Direktbestellung */
 #Header .Direktbestellung {font-weight: bold}
 
 /* Hotline */
-#Header .Hotline {float: right; color: #fff; width: 150px}
-#Header .Hotline a {color: #fff; cursor: default; line-height: 1.25rem; letter-spacing: .025rem; font-size: 1rem}
+#Header .Hotline {float: right; color: #fff; width: 150px;}
+#Header .Hotline a {color: #fff; cursor: default; line-height: 1.25rem; letter-spacing: .025rem; font-size: 1rem;}
 #Header .Hotline span {display: block; font-weight: normal; margin-top: .75rem}
 
 /* Warenkorb */
 .Warenkorb {position: absolute; top: 53px; right: 1.5%}
 #Header .Warenkorb b {font-size: 1.1rem}
-#Header .Warenkorb button {width: 190px}
+#Header .Warenkorb button {width: 190px;}
 .Warenkorb :disabled {cursor: default}
 #Header .Warenkorb .Button-klein-grau button:hover {-webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none}
 
@@ -429,18 +438,18 @@ select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVy
 .Warenkorb-Reminder .Bestellung-abschliessen {text-align: center}
 
 /* Hauptnavigation ==========================*/
-.nav-pri { position: relative; z-index:80}
-.nav-pri ul {list-style-type: none; margin: 0; position: relative; z-index:70}
+.nav-pri { position: relative; z-index:80;}
+.nav-pri ul {list-style-type: none; margin: 0; position: relative; z-index:70;}
 .nav-pri > ul > li {float: left; width: 20%}
-.nav-pri [id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc; background-color: #0061a0}
+.nav-pri [id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc; background-color: #0061a0;}
 .nav-pri > ul > li:hover > a {background-color: #ccc}
 .nav-pri li:nth-child(5n+2) a {border-left: 0 none}
-.sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; visibility: hidden; opacity: 0; max-height: 0; z-index:70; position:relative; -webkit-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out}
+.sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; visibility: hidden; opacity: 0; max-height: 0; z-index:70; position:relative; -webkit-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out;}
 li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
  /* iOS: visibility breaks transition but required for touch events and block is not animatable */
-	-webkit-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in; -moz-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in; -ms-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in; -o-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in; transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in}
-.sub a, .Teaser-Blog a, .Footer .Grid-System-Sitemap li a {margin: 0 0 .2rem .2rem; display: inline-block; max-width: 94%; vertical-align: top}
-.sub .Titel, .Thema-Name a {font-weight: bold; margin-left: 0}
+	-webkit-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in; -moz-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in; -ms-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in; -o-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in; transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in;}
+.sub a, .Teaser-Blog a, .Footer .Grid-System-Sitemap li a {margin: 0 0 .2rem .2rem; display: inline-block; max-width: 94%; vertical-align: top;}
+.sub .Titel, .Thema-Name a {font-weight: bold; margin-left: 0;}
 .nav-third li::before, .Teaser-Blog li::before, .Footer .Grid-System-Sitemap ul li::before, .nav-pri .PfeilLink::before, .Direktbestellung::before, .Weiterfuehrender-Link::before {content: "\203A"}
 #Breadcrumbs, .Breadcrumbs {clear: both; padding: 0.5rem 1.25%}
 .toggle label {color: #0061a0; cursor: pointer}
@@ -449,18 +458,18 @@ li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
 
 /* Icons fuer Suche, Warenkorb etc. ==========================*/
 .arrow_carrot-right {margin: 0}
-.icon_search::before, .icon_cart_alt::before, .icon_close {cursor: pointer}
+.icon_search::before, .icon_cart_alt::before, .icon_close {cursor: pointer;}
 .arrow_triangle-down::before {content: "\43"}
-.icon_cart_alt::before {content: "\e015"; margin: 0 .5rem 0 0}
+.icon_cart_alt::before {content: "\e015"; margin: 0 .5rem 0 0;}
 .icon_search::before {content: "\55"}
 .icon_printer::before {content: "\e103"}
 .icon_mail_alt::before {content: "\e010"}
 .icon_close {content: "\4d"}
 .Info-Icon::before {content: "\72"}
 .Bullet-Haekchen li::before, .Vorteile li::before {content: "\4e";
-margin: 0 .25rem 0 -1rem}
+margin: 0 .25rem 0 -1rem;}
 .Bullet-Plus li::before {content: "+"; text-align: center; line-height: 20px; display: inline-block; width: 20px; height: 20px; color: #D90F18; font-weight: bold; font-size: 20px; margin: 0 .5rem 0 -20px; background: #fff; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; box-shadow: 1px 1px 5px #C9C9C9; position: relative; top: 2px}
-.arrow_carrot-right::before, .Link-Liste a::before {content: "\35"; font-size: 1.25rem}
+.arrow_carrot-right::before, .Link-Liste a::before {content: "\35"; font-size: 1.25rem;}
 .Filterparameter a::before {content: "\56"; margin: 0 5px 0 -1.25rem}
 .Filterparameter a:hover::before, .Filterparameter li.active a::before {content: "\5a"; text-decoration: none}
 .Warenkorb .Icon::before {content: "\e015"; font-size: 2rem}
@@ -481,100 +490,99 @@ margin: 0 .25rem 0 -1rem}
 .Sidebar-right .Teaser {margin: 0 15px 15px 0}
 .Teaser-Vorteile-bei-SETON img, .Teaser-Avail-Direkt-mitbestellen .cc-slides {margin: .5rem 0; padding: 0}
 .Teaser-Vorteile .Weiterfuehrender-Link {position: relative; bottom: 0; right: 0; text-align: right}
-.Rahmen {background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMGYwZjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(240, 240, 240, 1))); background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%)}
+.Rahmen {background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMGYwZjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(240, 240, 240, 1))); background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%);}
 .Rahmen {-moz-box-shadow: 0 0 3px rgba(33, 33, 33, 1); -webkit-box-shadow: 0 0 3px rgba(33, 33, 33, 1); box-shadow: 0 0 3px rgba(33, 33, 33, 1)}
-#Warenkorb-Rahmen h1 {font-size: 1.5rem; margin: 0}
+#Warenkorb-Rahmen h1 {font-size: 1.5rem; margin: 0;}
 .Teaser .Kein-Rahmen {padding: 10px 0 15px 0}
 
 /* v1.0.5 */
 /* Core RS CSS file. 95% of time you shouldn't change anything here. */
-.royalSlider {/* width: 600px; */ /* height: 400px; */ position: relative; direction: ltr}
-.royalSlider > * {float: left}
-.rsWebkit3d .rsSlide {-webkit-transform: translateZ(0)}
-.rsFade.rsWebkit3d .rsSlide, .rsFade.rsWebkit3d img, .rsFade.rsWebkit3d .rsContainer {-webkit-transform: none}
-.rsOverflow {width: 100%; height:100%; position: relative; overflow: hidden; float: left; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
-.rsVisibleNearbyWrap {width: 100%; height: 100%; position: relative; overflow: hidden; left: 0; top: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
-.rsVisibleNearbyWrap .rsOverflow {position: absolute; left: 0; top: 0}
-.rsContainer {position: relative; width: 100%; height: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
-.rsArrow, .rsThumbsArrow {cursor: pointer}
-.rsThumb {float: left; position: relative}
-.rsArrow, .rsNav, .rsThumbsArrow {opacity: 1; -webkit-transition: opacity 0.3s linear; -moz-transition: opacity 0.3s linear; -o-transition: opacity 0.3s linear; transition: opacity 0.3s linear}
-.rsHidden {opacity: 0; visibility: hidden; -webkit-transition: visibility 0s linear 0.3s, opacity 0.3s linear; -moz-transition: visibility 0s linear 0.3s, opacity 0.3s linear; -o-transition: visibility 0s linear 0.3s, opacity 0.3s linear; transition: visibility 0s linear 0.3s, opacity 0.3s linear}
-.rsGCaption {width: 100%; float: left; text-align: center}
+.royalSlider {/* width: 600px; */ /* height: 400px; */ position: relative; direction: ltr;}
+.royalSlider > * {float: left;}
+.rsWebkit3d .rsSlide {-webkit-transform: translateZ(0);}
+.rsFade.rsWebkit3d .rsSlide, .rsFade.rsWebkit3d img, .rsFade.rsWebkit3d .rsContainer {-webkit-transform: none;}
+.rsOverflow {width: 100%; height:100%; position: relative; overflow: hidden; float: left; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+.rsVisibleNearbyWrap {width: 100%; height: 100%; position: relative; overflow: hidden; left: 0; top: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+.rsVisibleNearbyWrap .rsOverflow {position: absolute; left: 0; top: 0;}
+.rsContainer {position: relative; width: 100%; height: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+.rsArrow, .rsThumbsArrow {cursor: pointer;}
+.rsThumb {float: left; position: relative;}
+.rsArrow, .rsNav, .rsThumbsArrow {opacity: 1; -webkit-transition: opacity 0.3s linear; -moz-transition: opacity 0.3s linear; -o-transition: opacity 0.3s linear; transition: opacity 0.3s linear;}
+.rsHidden {opacity: 0; visibility: hidden; -webkit-transition: visibility 0s linear 0.3s, opacity 0.3s linear; -moz-transition: visibility 0s linear 0.3s, opacity 0.3s linear; -o-transition: visibility 0s linear 0.3s, opacity 0.3s linear; transition: visibility 0s linear 0.3s, opacity 0.3s linear;}
+.rsGCaption {width: 100%; float: left; text-align: center;}
 
 /* Fullscreen options, very important ^^ */
-.royalSlider.rsFullscreen {position: fixed !important; height: auto !important; width: auto !important; margin: 0 !important; padding: 0 !important; z-index: 1000 !important; top: 0 !important; left: 0 !important; bottom: 0 !important; right: 0 !important}
-.royalSlider .rsSlide.rsFakePreloader {opacity: 1 !important; -webkit-transition: 0s; -moz-transition: 0s; -o-transition: 0s; transition: 0s; display: none}
-.rsSlide {position: absolute; left: 0; top: 0; display: block; overflow: hidden; height: 100%; width: 100%}
-.royalSlider.rsAutoHeight, .rsAutoHeight .rsSlide {height: auto}
-.rsContent {width: 100%; height: 100%; position: relative}
-.rsPreloader {position: absolute; z-index: 0}
-.rsNav {-moz-user-select: -moz-none; -webkit-user-select: none; user-select: none}
-.rsNavItem {-webkit-tap-highlight-color: rgba(0, 0, 0, 0.25)}
-.rsThumbs {cursor: pointer; position: relative; overflow: hidden; float: left; z-index: 22}
-.rsTabs {float: left; background: none !important}
-.rsTabs, .rsThumbs {-webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
-.rsVideoContainer {/*left: 0; top: 0; position: absolute;*/ /*width: 100%; height: 100%; position: absolute; left: 0; top: 0; float: left;*/ width: auto; height: auto; line-height: 0; position: relative}
-.rsVideoFrameHolder {position: absolute; left: 0; top: 0; background: #141414; opacity: 0; -webkit-transition: .3s}
-.rsVideoFrameHolder.rsVideoActive {opacity: 1}
-.rsVideoContainer iframe, .rsVideoContainer video, .rsVideoContainer embed, .rsVideoContainer .rsVideoObj {position: absolute; z-index: 50; left: 0; top: 0; width: 100%; height: 100%}
+.royalSlider.rsFullscreen {position: fixed !important; height: auto !important; width: auto !important; margin: 0 !important; padding: 0 !important; z-index: 1000 !important; top: 0 !important; left: 0 !important; bottom: 0 !important; right: 0 !important;}
+.royalSlider .rsSlide.rsFakePreloader {opacity: 1 !important; -webkit-transition: 0s; -moz-transition: 0s; -o-transition: 0s; transition: 0s; display: none;}
+.rsSlide {position: absolute; left: 0; top: 0; display: block; overflow: hidden; height: 100%; width: 100%;}
+.royalSlider.rsAutoHeight, .rsAutoHeight .rsSlide {height: auto;}
+.rsContent {width: 100%; height: 100%; position: relative;}
+.rsPreloader {position: absolute; z-index: 0;}
+.rsNav {-moz-user-select: -moz-none; -webkit-user-select: none; user-select: none;}
+.rsNavItem {-webkit-tap-highlight-color: rgba(0, 0, 0, 0.25);}
+.rsThumbs {cursor: pointer; position: relative; overflow: hidden; float: left; z-index: 22;}
+.rsTabs {float: left; background: none !important;}
+.rsTabs, .rsThumbs {-webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+.rsVideoContainer {/*left: 0; top: 0; position: absolute;*/ /*width: 100%; height: 100%; position: absolute; left: 0; top: 0; float: left;*/ width: auto; height: auto; line-height: 0; position: relative;}
+.rsVideoFrameHolder {position: absolute; left: 0; top: 0; background: #141414; opacity: 0; -webkit-transition: .3s;}
+.rsVideoFrameHolder.rsVideoActive {opacity: 1;}
+.rsVideoContainer iframe, .rsVideoContainer video, .rsVideoContainer embed, .rsVideoContainer .rsVideoObj {position: absolute; z-index: 50; left: 0; top: 0; width: 100%; height: 100%;}
 
 /* ios controls over video bug, shifting video */
-.rsVideoContainer.rsIOSVideo iframe, .rsVideoContainer.rsIOSVideo video, .rsVideoContainer.rsIOSVideo embed {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding-right: 44px}
-.rsABlock {left: 0; top: 0; position: absolute; z-index: 15}
-img.rsImg {max-width: none}
-.grab-cursor {cursor: url('/css/royalslider/grab.png') 8 8, move}
-.grabbing-cursor {cursor: url('/css/royalslider/grabbing.png') 8 8, move}
-.rsNoDrag {cursor: auto}
-.rsLink {left: 0; top: 0; position: absolute; width: 100%; height: 100%; display: block; z-index: 20; background: url('/css/royalslider/blank.gif')}
+.rsVideoContainer.rsIOSVideo iframe, .rsVideoContainer.rsIOSVideo video, .rsVideoContainer.rsIOSVideo embed {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding-right: 44px;}
+.rsABlock {left: 0; top: 0; position: absolute; z-index: 15;}
+img.rsImg {max-width: none;}
+.grab-cursor {cursor: url('/css/royalslider/grab.png') 8 8, move;}
+.grabbing-cursor {cursor: url('/css/royalslider/grabbing.png') 8 8, move;}
+.rsNoDrag {cursor: auto;}
+.rsLink {left: 0; top: 0; position: absolute; width: 100%; height: 100%; display: block; z-index: 20; background: url('/css/royalslider/blank.gif');}
 
 /* Background */
-.rsMinW, .rsMinW .rsOverflow, .rsMinW .rsSlide, .rsMinW .rsVideoFrameHolder, .rsMinW .rsThumbs {background: #000; color: #FFF}
+.rsMinW, .rsMinW .rsOverflow, .rsMinW .rsSlide, .rsMinW .rsVideoFrameHolder, .rsMinW .rsThumbs {background: #000; color: #FFF;}
 
 /* 1. Arrows */
-.rsMinW .rsArrow {height: 32px; width: 32px; position: absolute; display: block; cursor: pointer; z-index: 21}
-.rsMinW .rsArrowLeft {left: 90px; bottom: 10px}
-.rsMinW .rsArrowRight {left: 120px; bottom: 10px}
-.rsMinW .rsArrowIcn {width: 24px; height: 24px; margin-top: 3px; margin-left: 3px; position: absolute; cursor: pointer; border-radius: 2px}
-.rsMinW .rsArrowIcn, .rsMinW .rsThumbsArrowIcn, .rsMinW .rsFullscreenIcn, .rsMinW .rsPlayBtnIcon,.rsMinW .rsCloseVideoIcn {background: url('/css/royalslider/rs-minimal-white.png') transparent}
+.rsMinW .rsArrow {height: 32px; width: 32px; position: absolute; display: block; cursor: pointer; z-index: 21;}
+.rsMinW .rsArrowLeft {left: 90px; bottom: 10px;}
+.rsMinW .rsArrowRight {left: 120px; bottom: 10px;}
+.rsMinW .rsArrowIcn {width: 24px; height: 24px; margin-top: 3px; margin-left: 3px; position: absolute; cursor: pointer; background: url('/css/royalslider/rs-minimal-white.png') transparent; border-radius: 2px;}
 .rsMinW .rsArrowIcn:hover {}
-.rsMinW.rsHor .rsArrowLeft .rsArrowIcn {background-position: -68px -36px}
-.rsMinW.rsHor .rsArrowRight .rsArrowIcn {background-position: -68px -68px}
-.rsMinW.rsVer .rsArrowLeft .rsArrowIcn {background-position: -100px -36px}
-.rsMinW.rsVer .rsArrowRight .rsArrowIcn {background-position: -100px -68px}
-.rsMinW .rsArrowDisabled .rsArrowIcn {opacity: .3 !important; filter: alpha(opacity=30); *display: none}
+.rsMinW.rsHor .rsArrowLeft .rsArrowIcn {background-position: -68px -36px;}
+.rsMinW.rsHor .rsArrowRight .rsArrowIcn {background-position: -68px -68px;}
+.rsMinW.rsVer .rsArrowLeft .rsArrowIcn {background-position: -100px -36px;}
+.rsMinW.rsVer .rsArrowRight .rsArrowIcn {background-position: -100px -68px;}
+.rsMinW .rsArrowDisabled .rsArrowIcn {opacity: .3 !important; filter: alpha(opacity=30); *display: none;}
 
 /* 2. Bullets */
-.rsMinW .rsBullets {position: absolute; bottom: 18px; left: 10px; z-index: 35; padding-top: 4px; height: auto; text-align: center; line-height: 6px; overflow: hidden}
-.rsMinW .rsBullet {width: 6px; height: 6px; display: inline-block; *display: inline; *zoom: 1; padding: 6px 5px 6px 4px}
-.rsMinW .rsBullet span {display: block; width: 6px; height: 6px; border-radius: 50%; background: #CCC; background: rgba(255, 255, 255, 0.5); box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1)}
-.rsMinW .rsBullet.rsNavSelected span {background: #FFF}
+.rsMinW .rsBullets {position: absolute; bottom: 18px; left: 10px; z-index: 35; padding-top: 4px; height: auto; text-align: center; line-height: 6px; overflow: hidden;}
+.rsMinW .rsBullet {width: 6px; height: 6px; display: inline-block; *display: inline; *zoom: 1; padding: 6px 5px 6px 4px;}
+.rsMinW .rsBullet span {display: block; width: 6px; height: 6px; border-radius: 50%; background: #CCC; background: rgba(255, 255, 255, 0.5); box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);}
+.rsMinW .rsBullet.rsNavSelected span {background: #FFF;}
 
 /* 3. Thumbnails */
-.rsMinW .rsThumbsHor {width: 100%; height: auto}
-.rsMinW .rsThumbsVer {width: 96px; height: 100%; position: absolute; top: 0; right: 0}
-.rsMinW.rsWithThumbsHor .rsThumbsContainer {position: relative; height: 100%}
-.rsMinW.rsWithThumbsVer .rsThumbsContainer {position: relative; width: 100%}
-.rsMinW .rsThumb {float: left; overflow: hidden; width: 96px; height: 72px}
-.rsMinW .rsThumb img {width: 100%; height: 100%}
-.rsMinW .rsThumb.rsNavSelected {background: #333}
-.rsMinW .rsThumb.rsNavSelected img {filter: alpha(opacity=40); opacity: 0.7}
-.rsMinW .rsThumb.rsNavSelected span.thumbIco {position: absolute; top: 0; bottom: 0; left: 0; right: 0; border: 2px solid #FFF; border: 2px solid rgba(255, 255, 255, 0.9); -webkit-backface-visibility: hidden}
-.rsMinW .rsTmb {display: block}
+.rsMinW .rsThumbsHor {width: 100%; height: auto;}
+.rsMinW .rsThumbsVer {width: 96px; height: 100%; position: absolute; top: 0; right: 0;}
+.rsMinW.rsWithThumbsHor .rsThumbsContainer {position: relative; height: 100%;}
+.rsMinW.rsWithThumbsVer .rsThumbsContainer {position: relative; width: 100%;}
+.rsMinW .rsThumb {float: left; overflow: hidden; width: 96px; height: 72px;}
+.rsMinW .rsThumb img {width: 100%; height: 100%;}
+.rsMinW .rsThumb.rsNavSelected {background: #333;}
+.rsMinW .rsThumb.rsNavSelected img {filter: alpha(opacity=40); opacity: 0.7;}
+.rsMinW .rsThumb.rsNavSelected span.thumbIco {position: absolute; top: 0; bottom: 0; left: 0; right: 0; border: 2px solid #FFF; border: 2px solid rgba(255, 255, 255, 0.9); -webkit-backface-visibility: hidden;}
+.rsMinW .rsTmb {display: block;}
 
 /* Thumbnails arrow icons */
-.rsMinW .rsThumbsArrow {height: 100%; width: 20px; position: absolute; display: block; cursor: pointer; z-index: 21}
-.rsMinW.rsWithThumbsVer .rsThumbsArrow {width: 100%; height: 20px}
-.rsMinW.rsWithThumbsVer .rsThumbsArrowLeft {top: 0; left: 0}
-.rsMinW.rsWithThumbsVer .rsThumbsArrowRight {bottom: 0; left: 0}
-.rsMinW.rsWithThumbsHor .rsThumbsArrowLeft {left: 0; top: 0}
-.rsMinW.rsWithThumbsHor .rsThumbsArrowRight {right: 0; top: 0}
-.rsMinW .rsThumbsArrowIcn {width: 16px; height: 16px; top: 50%; left: 50%; margin-top: -8px; margin-left: -8px; position: absolute; cursor: pointer}
-.rsMinW.rsWithThumbsHor .rsThumbsArrowLeft .rsThumbsArrowIcn {background-position: -128px -32px}
-.rsMinW.rsWithThumbsHor .rsThumbsArrowRight .rsThumbsArrowIcn {background-position: -128px -48px}
-.rsMinW.rsWithThumbsVer .rsThumbsArrowLeft .rsThumbsArrowIcn {background-position: -144px -32px}
-.rsMinW.rsWithThumbsVer .rsThumbsArrowRight .rsThumbsArrowIcn {background-position: -144px -48px}
-.rsMinW .rsThumbsArrowDisabled {display: none !important}
+.rsMinW .rsThumbsArrow {height: 100%; width: 20px; position: absolute; display: block; cursor: pointer; z-index: 21;}
+.rsMinW.rsWithThumbsVer .rsThumbsArrow {width: 100%; height: 20px;}
+.rsMinW.rsWithThumbsVer .rsThumbsArrowLeft {top: 0; left: 0;}
+.rsMinW.rsWithThumbsVer .rsThumbsArrowRight {bottom: 0; left: 0;}
+.rsMinW.rsWithThumbsHor .rsThumbsArrowLeft {left: 0; top: 0;}
+.rsMinW.rsWithThumbsHor .rsThumbsArrowRight {right: 0; top: 0;}
+.rsMinW .rsThumbsArrowIcn {width: 16px; height: 16px; top: 50%; left: 50%; margin-top: -8px; margin-left: -8px; position: absolute; cursor: pointer; background: url('/css/royalslider/rs-minimal-white.png');}
+.rsMinW.rsWithThumbsHor .rsThumbsArrowLeft .rsThumbsArrowIcn {background-position: -128px -32px;}
+.rsMinW.rsWithThumbsHor .rsThumbsArrowRight .rsThumbsArrowIcn {background-position: -128px -48px;}
+.rsMinW.rsWithThumbsVer .rsThumbsArrowLeft .rsThumbsArrowIcn {background-position: -144px -32px;}
+.rsMinW.rsWithThumbsVer .rsThumbsArrowRight .rsThumbsArrowIcn {background-position: -144px -48px;}
+.rsMinW .rsThumbsArrowDisabled {display: none !important;}
 
 /* Thumbnails resizing on smaller screens */
 @media screen and (min-width: 0px) and (max-width: 800px) {.rsMinW .rsThumb {width: 59px; height: 44px}
@@ -582,127 +590,126 @@ img.rsImg {max-width: none}
 	.rsMinW .rsThumbsVer {width: 59px} }
 
 /* 4. Tabs */
-.rsMinW .rsTabs {width: 100%; height: auto; margin: 0 auto; text-align: center; overflow: hidden; padding-top: 12px; position: relative}
-.rsMinW .rsTab {display: inline-block; cursor: pointer; text-align: center; height: auto; width: auto; color: #333; padding: 5px 13px 6px; min-width: 72px; border: 1px solid #D9D9DD; border-right: 1px solid #f5f5f5; text-decoration: none; background-color: #000; background-image: -webkit-linear-gradient(top, #fefefe, #f4f4f4); background-image: -moz-linear-gradient(top, #fefefe, #f4f4f4); background-image: linear-gradient(to bottom, #fefefe, #f4f4f4); *display: inline; *zoom: 1}
-.rsMinW .rsTab:first-child {-webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px}
-.rsMinW .rsTab:last-child {-webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; border-right: 1px solid #cfcfcf}
-.rsMinW .rsTab:active {border: 1px solid #D9D9DD; background-color: #f4f4f4; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset}
-.rsMinW .rsTab.rsNavSelected {color: #000; border: 1px solid #999; text-shadow: 1px 1px #838383; box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset; background: #ACACAC; background-image: -webkit-linear-gradient(top, #ACACAC, #BBB); background-image: -moz-llinear-gradient(top, #ACACAC, #BBB); background-image: linear-gradient(to bottom, #ACACAC, #BBB)}
+.rsMinW .rsTabs {width: 100%; height: auto; margin: 0 auto; text-align: center; overflow: hidden; padding-top: 12px; position: relative;}
+.rsMinW .rsTab {display: inline-block; cursor: pointer; text-align: center; height: auto; width: auto; color: #333; padding: 5px 13px 6px; min-width: 72px; border: 1px solid #D9D9DD; border-right: 1px solid #f5f5f5; text-decoration: none; background-color: #000; background-image: -webkit-linear-gradient(top, #fefefe, #f4f4f4); background-image: -moz-linear-gradient(top, #fefefe, #f4f4f4); background-image: linear-gradient(to bottom, #fefefe, #f4f4f4); *display: inline; *zoom: 1;}
+.rsMinW .rsTab:first-child {-webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px;}
+.rsMinW .rsTab:last-child {-webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; border-right: 1px solid #cfcfcf;}
+.rsMinW .rsTab:active {border: 1px solid #D9D9DD; background-color: #f4f4f4; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset;}
+.rsMinW .rsTab.rsNavSelected {color: #000; border: 1px solid #999; text-shadow: 1px 1px #838383; box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset; background: #ACACAC; background-image: -webkit-linear-gradient(top, #ACACAC, #BBB); background-image: -moz-llinear-gradient(top, #ACACAC, #BBB); background-image: linear-gradient(to bottom, #ACACAC, #BBB);}
 
 /* 5. Fullscreen button */
-.rsMinW .rsFullscreenBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 22; display: block; position: absolute; cursor: pointer}
-.rsMinW .rsFullscreenIcn {display: block; margin: 6px; width: 32px; height: 32px; background-position: 0 0}
-.rsMinW .rsFullscreenIcn:hover {opacity: 0.8}
-.rsMinW.rsFullscreen .rsFullscreenIcn {background-position: -32px 0}
+.rsMinW .rsFullscreenBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 22; display: block; position: absolute; cursor: pointer;}
+.rsMinW .rsFullscreenIcn {display: block; margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-minimal-white.png') 0 0 transparent;}
+.rsMinW .rsFullscreenIcn:hover {opacity: 0.8;}
+.rsMinW.rsFullscreen .rsFullscreenIcn {background-position: -32px 0;}
 
 /* 6. Play/close video button */
-.rsMinW .rsPlayBtn {-webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); width: 64px; height: 64px; margin-left: -32px; margin-top: -32px; cursor: pointer}
-.rsMinW .rsPlayBtnIcon {width: 64px; display: block; height: 64px; -webkit-border-radius: 4px; border-radius: 4px; -webkit-transition: .3s; -moz-transition: .3s; transition: .3s; background-position: 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000}
-.rsMinW .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, 0.9)}
-.rsMinW .rsBtnCenterer {position: absolute; left: 50%; top: 50%; width: 20px; height: 20px}
-.rsMinW .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0)}
-.rsMinW .rsCloseVideoBtn.rsiOSBtn {top: -38px; right: -6px}
-.rsMinW .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background-position: -64px 0; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000}
-.rsMinW .rsCloseVideoIcn:hover {background-color: rgba(0, 0, 0, 0.9)}
+.rsMinW .rsPlayBtn {-webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); width: 64px; height: 64px; margin-left: -32px; margin-top: -32px; cursor: pointer;}
+.rsMinW .rsPlayBtnIcon {width: 64px; display: block; height: 64px; -webkit-border-radius: 4px; border-radius: 4px; -webkit-transition: .3s; -moz-transition: .3s; transition: .3s; background: url('/css/royalslider/rs-minimal-white.png') no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000;}
+.rsMinW .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, 0.9);}
+.rsMinW .rsBtnCenterer {position: absolute; left: 50%; top: 50%; width: 20px; height: 20px;}
+.rsMinW .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0);}
+.rsMinW .rsCloseVideoBtn.rsiOSBtn {top: -38px; right: -6px;}
+.rsMinW .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-minimal-white.png') -64px 0; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000;}
+.rsMinW .rsCloseVideoIcn:hover {background-color: rgba(0, 0, 0, 0.9);}
 
 /* 7. Preloader */
-.rsMinW .rsPreloader {width: 20px; height: 20px; background-image: url('/css/preloaders/preloader-white.gif'); left: 50%; top: 50%; margin-left: -10px; margin-top: -10px}
+.rsMinW .rsPreloader {width: 20px; height: 20px; background-image: url('/css/preloaders/preloader-white.gif'); left: 50%; top: 50%; margin-left: -10px; margin-top: -10px;}
 
 /* 8. Global caption */
-.rsMinW .rsGCaption {position: absolute; float: none; bottom: 6px; left: 6px; text-align: left; background: #000; background: rgba(0, 0, 0, 0.75); color: #FFF; padding: 2px 8px; width: auto; font-size: 12px; border-radius: 2px}
+.rsMinW .rsGCaption {position: absolute; float: none; bottom: 6px; left: 6px; text-align: left; background: #000; background: rgba(0, 0, 0, 0.75); color: #FFF; padding: 2px 8px; width: auto; font-size: 12px; border-radius: 2px;}
 .rsMinW, .rsMinW .rsOverflow, .rsMinW .rsSlide, .rsMinW .rsVideoFrameHolder, .rsMinW .rsThumbs, .rsSlide {background: transparent}
 
 /* RoyalSlider Default Skin */
 /* Background */
-.rsDefault, .rsDefault .rsOverflow, .rsDefault .rsSlide, .rsDefault .rsVideoFrameHolder, .rsDefault .rsThumbs {color: #FFF}
+.rsDefault, .rsDefault .rsOverflow, .rsDefault .rsSlide, .rsDefault .rsVideoFrameHolder, .rsDefault .rsThumbs {color: #FFF;}
 .rsFullscreen, .rsFullscreen .rsNav {background: #111 !important}
 
 /* 1. Arrows */
-.rsDefault .rsArrow {height: 100%; width: 44px; position: absolute; display: block; cursor: pointer; z-index: 21}
-.rsDefault.rsVer .rsArrow {width: 100%; height: 44px}
-.rsDefault.rsVer .rsArrowLeft {top: 0; left: 0}
-.rsDefault.rsVer .rsArrowRight {bottom: 0; left: 0}
-.rsDefault.rsHor .rsArrowLeft {left: 0; top: 0}
-.rsDefault.rsHor .rsArrowRight {right: 0; top: 0}
-.rsDefault .rsArrowIcn {width: 32px; height: 32px; top: 50%; left: 50%; margin-top: -16px; margin-left: -16px; position: absolute; cursor: pointer; background: url('/css/royalslider/rs-default.png'); background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000; border-radius: 2px}
-.rsDefault .rsArrowIcn:hover {background-color: rgba(0, 0, 0, 0.9)}
-.rsDefault.rsHor .rsArrowLeft .rsArrowIcn {background-position: -64px -32px}
-.rsDefault.rsHor .rsArrowRight .rsArrowIcn {background-position: -64px -64px}
-.rsDefault.rsVer .rsArrowLeft .rsArrowIcn {background-position: -96px -32px}
-.rsDefault.rsVer .rsArrowRight .rsArrowIcn {background-position: -96px -64px}
-.rsDefault .rsArrowDisabled .rsArrowIcn {opacity: .2; filter: alpha(opacity=20); *display: none}
+.rsDefault .rsArrow {height: 100%; width: 44px; position: absolute; display: block; cursor: pointer; z-index: 21;}
+.rsDefault.rsVer .rsArrow {width: 100%; height: 44px;}
+.rsDefault.rsVer .rsArrowLeft {top: 0; left: 0;}
+.rsDefault.rsVer .rsArrowRight {bottom: 0; left: 0;}
+.rsDefault.rsHor .rsArrowLeft {left: 0; top: 0;}
+.rsDefault.rsHor .rsArrowRight {right: 0; top: 0;}
+.rsDefault .rsArrowIcn {width: 32px; height: 32px; top: 50%; left: 50%; margin-top: -16px; margin-left: -16px; position: absolute; cursor: pointer; background: url('/css/royalslider/rs-default.png'); background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000; border-radius: 2px;}
+.rsDefault .rsArrowIcn:hover {background-color: rgba(0, 0, 0, 0.9);}
+.rsDefault.rsHor .rsArrowLeft .rsArrowIcn {background-position: -64px -32px;}
+.rsDefault.rsHor .rsArrowRight .rsArrowIcn {background-position: -64px -64px;}
+.rsDefault.rsVer .rsArrowLeft .rsArrowIcn {background-position: -96px -32px;}
+.rsDefault.rsVer .rsArrowRight .rsArrowIcn {background-position: -96px -64px;}
+.rsDefault .rsArrowDisabled .rsArrowIcn {opacity: .2; filter: alpha(opacity=20); *display: none;}
 
 /* 2. Bullets */
-.rsDefault .rsBullets {position: absolute; z-index: 35; left: 0; bottom: 0; width: 100%; height: auto; margin: 0 auto; background: #000; background: rgba(0, 0, 0, 0.75); text-align: center; line-height: 8px; overflow: hidden}
-.rsDefault .rsBullet {width: 8px; height: 8px; display: inline-block; *display: inline; *zoom: 1; padding: 6px 5px 6px}
-.rsDefault .rsBullet span {display: block; width: 8px; height: 8px; border-radius: 50%; background: #777; background: rgba(255, 255, 255, 0.5)}
-.rsDefault .rsBullet.rsNavSelected span {background-color: #FFF}
+.rsDefault .rsBullets {position: absolute; z-index: 35; left: 0; bottom: 0; width: 100%; height: auto; margin: 0 auto; background: #000; background: rgba(0, 0, 0, 0.75); text-align: center; line-height: 8px; overflow: hidden;}
+.rsDefault .rsBullet {width: 8px; height: 8px; display: inline-block; *display: inline; *zoom: 1; padding: 6px 5px 6px;}
+.rsDefault .rsBullet span {display: block; width: 8px; height: 8px; border-radius: 50%; background: #777; background: rgba(255, 255, 255, 0.5);}
+.rsDefault .rsBullet.rsNavSelected span {background-color: #FFF;}
 
 /* 3. Thumbnails */
-.rsDefault .rsThumbsHor {width: 100%; height: auto}
-.rsDefault .rsThumbsVer {width: 96px; height: 100%; position: absolute; top: 0; right: 0}
-.rsDefault.rsWithThumbsHor .rsThumbsContainer {position: relative; height: 100%}
-.rsDefault.rsWithThumbsVer .rsThumbsContainer {position: relative; width: 100%}
-.rsDefault .rsThumb {float: left; overflow: hidden; width: 96px; height: 72px}
-.rsDefault .rsThumb img {width: 100%; height: 100%}
-.rsDefault .rsThumb.rsNavSelected {background: #02874a}
-.rsDefault .rsThumb.rsNavSelected img {opacity: 0.3; filter: alpha(opacity=30)}
-.rsDefault .rsTmb {display: block}
+.rsDefault .rsThumbsHor {width: 100%; height: auto;}
+.rsDefault .rsThumbsVer {width: 96px; height: 100%; position: absolute; top: 0; right: 0;}
+.rsDefault.rsWithThumbsHor .rsThumbsContainer {position: relative; height: 100%;}
+.rsDefault.rsWithThumbsVer .rsThumbsContainer {position: relative; width: 100%;}
+.rsDefault .rsThumb {float: left; overflow: hidden; width: 96px; height: 72px;}
+.rsDefault .rsThumb img {width: 100%; height: 100%;}
+.rsDefault .rsThumb.rsNavSelected {background: #02874a;}
+.rsDefault .rsThumb.rsNavSelected img {opacity: 0.3; filter: alpha(opacity=30);}
+.rsDefault .rsTmb {display: block;}
 
 /* Thumbnails with text */
-.rsDefault .rsTmb h5 {font-size: 16px; margin: 0; padding: 0; line-height: 20px; color: #FFF}
-.rsDefault .rsTmb span {color: #DDD; margin: 0; padding: 0; font-size: 13px; line-height: 18px}
+.rsDefault .rsTmb h5 {font-size: 16px; margin: 0; padding: 0; line-height: 20px; color: #FFF;}
+.rsDefault .rsTmb span {color: #DDD; margin: 0; padding: 0; font-size: 13px; line-height: 18px;}
 
 /* Thumbnails arrow icons */
-.rsDefault .rsThumbsArrow {height: 100%; width: 20px; position: absolute; display: block; cursor: pointer; z-index: 21; background: #000; background: rgba(0, 0, 0, 0.75)}
-.rsDefault .rsThumbsArrow:hover {background: rgba(0, 0, 0, 0.9)}
-.rsDefault.rsWithThumbsVer .rsThumbsArrow {width: 100%; height: 20px}
-.rsDefault.rsWithThumbsVer .rsThumbsArrowLeft {top: 0; left: 0}
-.rsDefault.rsWithThumbsVer .rsThumbsArrowRight {bottom: 0; left: 0}
-.rsDefault.rsWithThumbsHor .rsThumbsArrowLeft {left: 0; top: 0}
-.rsDefault.rsWithThumbsHor .rsThumbsArrowRight {right: 0; top: 0}
-.rsDefault .rsThumbsArrowIcn {width: 16px; height: 16px; top: 50%; left: 50%; margin-top: -8px; margin-left: -8px; position: absolute; cursor: pointer; background: url('/css/royalslider/rs-default.png')}
-.rsDefault.rsWithThumbsHor .rsThumbsArrowLeft .rsThumbsArrowIcn {background-position: -128px -32px}
-.rsDefault.rsWithThumbsHor .rsThumbsArrowRight .rsThumbsArrowIcn {background-position: -128px -48px}
-.rsDefault.rsWithThumbsVer .rsThumbsArrowLeft .rsThumbsArrowIcn {background-position: -144px -32px}
-.rsDefault.rsWithThumbsVer .rsThumbsArrowRight .rsThumbsArrowIcn {background-position: -144px -48px}
-.rsDefault .rsThumbsArrowDisabled {display: none !important}
+.rsDefault .rsThumbsArrow {height: 100%; width: 20px; position: absolute; display: block; cursor: pointer; z-index: 21; background: #000; background: rgba(0, 0, 0, 0.75);}
+.rsDefault .rsThumbsArrow:hover {background: rgba(0, 0, 0, 0.9);}
+.rsDefault.rsWithThumbsVer .rsThumbsArrow {width: 100%; height: 20px;}
+.rsDefault.rsWithThumbsVer .rsThumbsArrowLeft {top: 0; left: 0;}
+.rsDefault.rsWithThumbsVer .rsThumbsArrowRight {bottom: 0; left: 0;}
+.rsDefault.rsWithThumbsHor .rsThumbsArrowLeft {left: 0; top: 0;}
+.rsDefault.rsWithThumbsHor .rsThumbsArrowRight {right: 0; top: 0;}
+.rsDefault .rsThumbsArrowIcn {width: 16px; height: 16px; top: 50%; left: 50%; margin-top: -8px; margin-left: -8px; position: absolute; cursor: pointer; background: url('/css/royalslider/rs-default.png');}
+.rsDefault.rsWithThumbsHor .rsThumbsArrowLeft .rsThumbsArrowIcn {background-position: -128px -32px;}
+.rsDefault.rsWithThumbsHor .rsThumbsArrowRight .rsThumbsArrowIcn {background-position: -128px -48px;}
+.rsDefault.rsWithThumbsVer .rsThumbsArrowLeft .rsThumbsArrowIcn {background-position: -144px -32px;}
+.rsDefault.rsWithThumbsVer .rsThumbsArrowRight .rsThumbsArrowIcn {background-position: -144px -48px;}
+.rsDefault .rsThumbsArrowDisabled {display: none !important;}
 
 /* Thumbnails resizing on smaller screens */
-@media screen and (min-width: 0px) and (max-width: 800px) {
-	.rsDefault .rsThumb {width: 59px; height: 44px}
+@media screen and (min-width: 0px) and (max-width: 800px) {.rsDefault .rsThumb {width: 59px; height: 44px}
 	.rsDefault .rsThumbsHor {height: 44px}
 	.rsDefault .rsThumbsVer {width: 59px} }
 
 /* 4. Tabs */
-.rsDefault .rsTabs {width: 100%; height: auto; margin: 0 auto; text-align: center; overflow: hidden; padding-top: 12px; position: relative}
-.rsDefault .rsTab {display: inline-block; cursor: pointer; text-align: center; height: auto; width: auto; color: #333; padding: 5px 13px 6px; min-width: 72px; border: 1px solid #D9D9DD; border-right: 1px solid #f5f5f5; text-decoration: none; background-color: #FFF; background-image: -webkit-linear-gradient(top, #fefefe, #f4f4f4); background-image: -moz-linear-gradient(top, #fefefe, #f4f4f4); background-image: linear-gradient(to bottom, #fefefe, #f4f4f4); -webkit-box-shadow: inset 1px 0 0 #fff; box-shadow: inset 1px 0 0 #fff; *display: inline; *zoom: 1}
-.rsDefault .rsTab:first-child {-webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px}
-.rsDefault .rsTab:last-child {-webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; border-right: 1px solid #cfcfcf}
-.rsDefault .rsTab:active {border: 1px solid #D9D9DD; background-color: #f4f4f4; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset}
-.rsDefault .rsTab.rsNavSelected {color: #FFF; border: 1px solid #999; text-shadow: 1px 1px #838383; box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset; background: #ACACAC; background-image: -webkit-linear-gradient(top, #ACACAC, #BBB); background-image: -moz-llinear-gradient(top, #ACACAC, #BBB); background-image: linear-gradient(to bottom, #ACACAC, #BBB)}
+.rsDefault .rsTabs {width: 100%; height: auto; margin: 0 auto; text-align: center; overflow: hidden; padding-top: 12px; position: relative;}
+.rsDefault .rsTab {display: inline-block; cursor: pointer; text-align: center; height: auto; width: auto; color: #333; padding: 5px 13px 6px; min-width: 72px; border: 1px solid #D9D9DD; border-right: 1px solid #f5f5f5; text-decoration: none; background-color: #FFF; background-image: -webkit-linear-gradient(top, #fefefe, #f4f4f4); background-image: -moz-linear-gradient(top, #fefefe, #f4f4f4); background-image: linear-gradient(to bottom, #fefefe, #f4f4f4); -webkit-box-shadow: inset 1px 0 0 #fff; box-shadow: inset 1px 0 0 #fff; *display: inline; *zoom: 1;}
+.rsDefault .rsTab:first-child {-webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px;}
+.rsDefault .rsTab:last-child {-webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; border-right: 1px solid #cfcfcf;}
+.rsDefault .rsTab:active {border: 1px solid #D9D9DD; background-color: #f4f4f4; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset;}
+.rsDefault .rsTab.rsNavSelected {color: #FFF; border: 1px solid #999; text-shadow: 1px 1px #838383; box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset; background: #ACACAC; background-image: -webkit-linear-gradient(top, #ACACAC, #BBB); background-image: -moz-llinear-gradient(top, #ACACAC, #BBB); background-image: linear-gradient(to bottom, #ACACAC, #BBB);}
 
 /* 5. Fullscreen button */
-.rsDefault .rsFullscreenBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 22; display: block; position: absolute; cursor: pointer}
-.rsDefault .rsFullscreenIcn {display: block; margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-default.png') 0 0; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000; border-radius: 2px}
-.rsDefault .rsFullscreenIcn:hover {background-color: rgba(0, 0, 0, 0.9)}
-.rsDefault.rsFullscreen .rsFullscreenIcn {background-position: -32px 0}
+.rsDefault .rsFullscreenBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 22; display: block; position: absolute; cursor: pointer;}
+.rsDefault .rsFullscreenIcn {display: block; margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-default.png') 0 0; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000; border-radius: 2px;}
+.rsDefault .rsFullscreenIcn:hover {background-color: rgba(0, 0, 0, 0.9);}
+.rsDefault.rsFullscreen .rsFullscreenIcn {background-position: -32px 0;}
 
 /* 6. Play/close video button */
-.rsDefault .rsPlayBtn {-webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); width: 64px; height: 64px; margin-left: -32px; margin-top: -32px; cursor: pointer}
-.rsDefault .rsPlayBtnIcon {width: 64px; display: block; height: 64px; -webkit-border-radius: 4px; border-radius: 4px; -webkit-transition: .3s; -moz-transition: .3s; transition: .3s; background: url(rs-default.png) no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000}
-.rsDefault .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, 0.9)}
-.rsDefault .rsBtnCenterer {position: absolute; left: 50%; top: 50%; width: 20px; height: 20px}
-.rsDefault .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0)}
-.rsDefault .rsCloseVideoBtn.rsiOSBtn {top: -38px; right: -6px}
-.rsDefault .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-default.png') -64px 0; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000}
-.rsDefault .rsCloseVideoIcn:hover {background-color: rgba(0, 0, 0, 0.9)}
+.rsDefault .rsPlayBtn {-webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); width: 64px; height: 64px; margin-left: -32px; margin-top: -32px; cursor: pointer;}
+.rsDefault .rsPlayBtnIcon {width: 64px; display: block; height: 64px; -webkit-border-radius: 4px; border-radius: 4px; -webkit-transition: .3s; -moz-transition: .3s; transition: .3s; background: url(rs-default.png) no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000;}
+.rsDefault .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, 0.9);}
+.rsDefault .rsBtnCenterer {position: absolute; left: 50%; top: 50%; width: 20px; height: 20px;}
+.rsDefault .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0);}
+.rsDefault .rsCloseVideoBtn.rsiOSBtn {top: -38px; right: -6px;}
+.rsDefault .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-default.png') -64px 0; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000;}
+.rsDefault .rsCloseVideoIcn:hover {background-color: rgba(0, 0, 0, 0.9);}
 
 /* 7. Preloader */
-.rsDefault .rsPreloader {width: 20px; height: 20px; background-image: url(/css/preloaders/preloader-white.gif); left: 50%; top: 50%; margin-left: -10px; margin-top: -10px}
+.rsDefault .rsPreloader {width: 20px; height: 20px; background-image: url(/css/preloaders/preloader-white.gif); left: 50%; top: 50%; margin-left: -10px; margin-top: -10px;}
 
 /* 8. Global caption */
-.rsDefault .rsGCaption {position: absolute; float: none; bottom: 6px; left: 6px; text-align: left; background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.75); color: #FFF; padding: 2px 8px; width: auto; font-size: 12px; border-radius: 2px}
+.rsDefault .rsGCaption {position: absolute; float: none; bottom: 6px; left: 6px; text-align: left; background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.75); color: #FFF; padding: 2px 8px; width: auto; font-size: 12px; border-radius: 2px;}
 
 /* Teaser Vorteile bei SETON */
 .Teaser-Vorteile-bei-SETON .Rahmen-Inhalt {padding-bottom: 20px}
@@ -713,7 +720,8 @@ img.rsImg {max-width: none}
 
 /* Teaser Vorteilsnummer */
 .Teaser-Vorteilsnummer #rabatt p, .Teaser-Vorteilsnummer #hinweis p {padding-bottom: 20px; margin-bottom: 0}
-.Checkout .Teaser-Vorteilsnummer {float: left; margin: 10px 0}
+.Checkout .Teaser-Vorteilsnummer {/* width:400px; */
+	float: left; margin: 10px 0}
 .Checkout .Teaser-Vorteilsnummer .Rahmen {-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; border: 1px solid #ccc}
 .Checkout .Teaser-Vorteilsnummer .Eingabefeld {width: 100px; margin-right: 10px}
 .Checkout .Teaser-Vorteilsnummer .Button-klein-T-Hinzufuegen {float: left; margin-top: 10px}
@@ -725,15 +733,15 @@ img.rsImg {max-width: none}
 /* Front page teaser mit Bild */
 .Teaser-Weihnachtsbaum-Gewinnspiel img {position: absolute; left: 0; bottom: 0}
 .Teaser-Neu-bei-SETON img {top: 60px; left: 20px}
-.Teaser-Spar-Angebote img, .Teaser-Katalog img, .col3 .NL-Aktion {position: absolute; right: 1rem; top: 1rem}
+.Teaser-Spar-Angebote img, .Teaser-Katalog img, .col3 .NL-Aktion {position: absolute; right: 1rem; top: 1rem;}
 .Trusted-Shop-Kundenbewertung, .bvh-teaser {text-align: center ; display: block}
 .Trusted-Shop-Kundenbewertung span {font-size: 9px; white-space: nowrap}
 
 /* Teaser Newsletter */
-.Teaser-Newsletter form {position: absolute; clear: both; bottom: .75rem}
-.Teaser-Newsletter .Eingabefeld {border: 1px solid #ccc}
-.Teaser-Newsletter button {height: 32px}
-.Teaser-Newsletter p.LV_validation_message, .Teaser-Newsletter .Hinweistext {position: absolute; bottom: 100%; margin: 0; max-width: 100%}
+.Teaser-Newsletter form {position: absolute; clear: both; bottom: .75rem;}
+.Teaser-Newsletter .Eingabefeld {border: 1px solid #ccc;}
+.Teaser-Newsletter button {height: 32px;}
+.Teaser-Newsletter p.LV_validation_message, .Teaser-Newsletter .Hinweistext {position: absolute; bottom: 100%; margin: 0; max-width: 100%;}
 
 /* Teaser Ostereiersuche */
 .Teaser-Ostereiersuche .Button-klein-T-Zum-Gewinnspiel {position: absolute; bottom: 0; right: 0}
@@ -749,19 +757,19 @@ img.rsImg {max-width: none}
 .Top-Suchbegriffe .SuchbegriffSize4 {font-size: 16pt}
 
 /* Designcode-Artikelauswahl ==========================*/
-.Designcode-Artikelauswahl .label {margin: 0 0 .3rem 0; font-weight: bold}
+.Designcode-Artikelauswahl .label {margin: 0 0 0.3rem 0; font-weight: bold}
 
 /* PDS Produktbilder mit JS */
-.Designcode-Artikelauswahl .royalSlider {width:100%; height: 315px; display: inline-block; margin: 0; max-width: 100%}
+.Designcode-Artikelauswahl .royalSlider {width:100%; height: 315px; display: inline-block; margin: 0; max-width: 100%;}
 .rsFullscreen .rsFullscreenBtn {top: 287px}
 
 /* Pfeile */
-.royalSlider .icon_pause_alt2::before {content: "\5f"; font-size: 2rem}
-.royalSlider .arrow_carrot-left_alt2::before {content: "\3c"; font-size: 2rem}
-.royalSlider .arrow_triangle-right_alt2::before {content: "\49"; font-size: 2rem}
-.royalSlider .arrow_carrot-2right_alt2::before {content: "\3d"; font-size: 2rem}
+.royalSlider .icon_pause_alt2::before {content: "\5f"; font-size: 2rem;}
+.royalSlider .arrow_carrot-left_alt2::before {content: "\3c"; font-size: 2rem;}
+.royalSlider .arrow_triangle-right_alt2::before {content: "\49"; font-size: 2rem;}
+.royalSlider .arrow_carrot-2right_alt2::before {content: "\3d"; font-size: 2rem;}
 .Designcode-Artikelauswahl .rsSlide, .Designcode-Artikelauswahl .rsThumb, .cc-slides .Bild, .Top-Kategorie-Schilder .Bild, .product-list-item a {display: block}
-.Designcode-Artikelauswahl :not([class*="rsFullscreen"]) .rsOverflow { height:243px !important /* rs berechnet Hoehe nicht korrekt */ }
+.Designcode-Artikelauswahl .rsOverflow { height:243px !important /* rs berechnet HÃƒÂ¶he nicht korrekt */ }
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide {width: 100%; height: auto}
 .Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide img, .Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide .Rotating-image {margin: 0 auto !important}
 .rsArrowDisabled {display: none !important}
@@ -792,7 +800,7 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .rsFullscreen .rsArrow {height: 100%; top: 0 !important}
 .Designcode-Artikelauswahl .rsFullscreen .rsThumbsHor {width: 100% !important}
 .Designcode-Artikelauswahl .rsFullscreen, .Designcode-Artikelauswahl .rsFullscreen .rsNav {background: #111 !important}
-.Designcode-Artikelauswahl .rsFullscreen .rsOverflow , .Designcode-Artikelauswahl .rsFullscreen .rsSlide {background: #000 !important; text-align: center}
+.Designcode-Artikelauswahl .rsFullscreen .rsOverflow , .Designcode-Artikelauswahl .rsFullscreen .rsSlide {background: #000 !important; text-align: center;}
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide img {max-width: 100% !important; max-height: 800px !important}
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide iframe {width: 600px !important; height: 600px !important}
 .Designcode-Artikelauswahl .rsFullscreen .rsThumb.rsNavSelected {background: #000 !important}
@@ -827,8 +835,8 @@ img.rsImg {max-width: none}
 #AllgArtMerkTabelle {width: 100%}
 #Kundenwunsch textarea {width: 96%}
 #alle-artikel-anzeigen {padding: 15px 0 0 0; display: block}
-.Produktergebnis-inner, #orderinfo {padding: 1rem 1rem 0 1rem}
-.Artikelnummmer {margin: 0.5rem 0}
+.Produktergebnis-inner, #orderinfo {padding: 1rem 1rem 0 1rem;}
+.Artikelnummmer {margin: 0.5rem 0;}
 .Content .Preisbox {text-align: right}
 .Preisbox .Preis {font-size: 1rem; font-weight: bold; margin-bottom: 5px; white-space: nowrap}
 .Preisbox .zzgl-MwSt {font-size: 0.8rem; margin: 0}
@@ -864,10 +872,11 @@ img.rsImg {max-width: none}
 .Kopfnummerninfos-Tabs .Tabs-Content .Tabs-Content-2 {margin: 10px}
 .Tabs-Content .Weitere-Informationen-item {margin: 0 0 15px 0}
 .Tabs-Content h3 {margin: 0}
-.Services-rund-ums-Produkt {list-style-type: none; margin: 0}
-.Services-rund-ums-Produkt li {display: inline-block; text-align: center; margin: 0 -4px 0 0}
+.Services-rund-ums-Produkt {list-style-type: none; margin: 0; /* font-size:.9rem; */
+	/* display:inline-block */}
+.Services-rund-ums-Produkt li {display: inline-block; text-align: center; margin: 0 -4px 0 0;}
 .Inventarketiketten-Designer .Services-rund-ums-Produkt li {width: 25%}
-.Services-rund-ums-Produkt li a {display: block; height: 90px; padding: 3px; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px}
+.Services-rund-ums-Produkt li a {display: block; height: 90px; padding: 3px; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;}
 .Inventarketiketten-Designer .Services-rund-ums-Produkt li a {height: auto}
 .Services-rund-ums-Produkt li a:hover {background: #F7F7F7; text-decoration: none !important}
 .Services-rund-ums-Produkt li img {display: block; margin: 0 auto; margin-bottom: 3px}
@@ -890,7 +899,7 @@ img.rsImg {max-width: none}
 .Produktliste h2, .Tab-Content h2, .Produktliste h3, .Tab-Content h3 {margin-top: 0}
 #PDS-Content .Wischer {float: right; margin: -5px 0 0 5px}
 #Kopfnummernbeschreibung h2::after {content: ''; border-bottom: 1px solid #ccc; display: block; margin: 0 0 15px 0}
-#Kopfnummernbeschreibung .pds-desc-title {border-bottom: 1px solid #ccc; margin: 0 0 15px 0}
+#Kopfnummernbeschreibung .pds-desc-title {border-bottom: 1px solid #ccc; margin: 0 0 15px 0;}
 #Kopfnummernbeschreibung .pds-desc-title h2::after {border-bottom: 0; margin: 0}
 .Tab-Content table td {padding-left: 0}
 
@@ -904,16 +913,16 @@ img.rsImg {max-width: none}
 .Produkt-Slider .Topseller-Preis {color: #3f3f3f; font-weight: bold; display: block}
 
 /* Subnavi */
-.Filter, .Subnavigation, .Subnavigation > ul, .PUES-Preis-Slider, .PUES-Subnavigation-Kategorien ul {overflow: hidden; position: relative; list-style-type: none;margin-left: 0}
+.Filter, .Subnavigation, .Subnavigation > ul, .PUES-Preis-Slider, .PUES-Subnavigation-Kategorien ul {overflow: hidden; position: relative; list-style-type: none;margin-left: 0;}
 .PUES-Subnavigation-Subsubkategorien ul {margin: 0 0 0 1.25rem}
 .PUES-Subnavigation-Filter .PUES-Preis-Slider {display: none; overflow: visible}
 .PUES-Subnavigation-Filter .PUES-Preis-Slider .fact-finder-onetouchslider-bar .fact-finder-onetouchslider-triangle {display: none !important}
 .PUES-Subnavigation-Filter .PUES-Preis-Slider .fact-finder-onetouchslider-bar img {background: none !important; display: none}
-.Filter, .PUES-Preis-Slider {margin: 1rem 0 0 0}
+.Filter, .PUES-Preis-Slider {margin: 1rem 0 0 0;}
 .Subnavigation li {border-bottom: 1px dashed #ccc}
 aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .Subnavigation ul > li a {padding-left: 0}
-.Filter li a {padding: 0 0 .25rem 0}
+.Filter li a {padding: 0 0 .25rem 0;}
 [class*="PUES-Subnavigation-"] a:hover, [class*="PUES-Subnavigation-"] a.active {text-decoration: underline}
 [class*="PUES-Subnavigation-"] li.Titel-Balken-hellgrau {margin: 0}
 .Subnavigation-Titel span a, .Titel-grauer-Balken span a, .Titel-grauer-Balken a {color: #3e3e3e; font-weight: bold; margin: 0; font-size: 1rem}
@@ -936,7 +945,7 @@ a.Mehr-Filterparameter {display: none; position: absolute; bottom: 0; right: 0; 
 .Homepage-Grid-System li:nth-child(4n+1) {border-left: 0 none}
 
 /* Listenansichten allgemein*/
-.categories .item, .products .item {border-top: 1px solid #ccc; min-height: 260px}
+.categories .item, .products .item {border-top: 1px solid #ccc; min-height: 260px;}
 .grid-view .item:nth-child(-n+3) {border-top: 0 none}
 .list .item {position: relative; box-sizing: border-box; border-right: 1px solid #ccc; padding: 10px; float:left; list-style-type:none}
 .list .item > a {color: #3a3a3a; display: block; height: 100%}
@@ -945,13 +954,13 @@ a.Mehr-Filterparameter {display: none; position: absolute; bottom: 0; right: 0; 
 .list a:hover .Link, .list a:hover .Produkt-Name, .list a:hover .Produktitel, .No-Link:hover .Link {text-decoration: underline}
 
 /* grid-view allgemein */
-.grid-view {margin: 0}
-.Homepage .item, .recs .item, #Crosslink .item, #WeitereArtikel .item, #Crosseller .item, #lastSeenProducts .item {border-top: 0 none; min-height: 100%}
+.grid-view {margin: 0;}
+.Homepage .item, .recs .item, #Crosslink .item, #WeitereArtikel .item, #Crosseller .item, #lastSeenProducts .item {border-top: 0 none; min-height: 100%;}
 .categories .grid-view .item:nth-child(3n), .PUES .grid-view .item:last-child {border-right: 0}
 .grid-view .product-list-item > a {height: 250px; margin: 15px 10px 10px}
 .grid-view .Bild {display: block; text-align: center}
-.grid-view .Bild img {max-height: 100%}
-.grid-view .product-list-item-left, .grid-view .Preis-Lieferbarkeit {position: absolute; bottom: 5px}
+.grid-view .Bild img {max-height: 100%;}
+.grid-view .product-list-item-left, .grid-view .Preis-Lieferbarkeit {position: absolute; bottom: 5px;}
 .grid-view .Preis-Lieferbarkeit {right: 10px}
 
 /* list-view allgemein */
@@ -960,7 +969,7 @@ a.Mehr-Filterparameter {display: none; position: absolute; bottom: 0; right: 0; 
 
 /* Produktliste */
 .list.products .Bild {height: 150px}
-.list.products .Produkt-Name {max-height: 60px; overflow: hidden ; text-align: center; display: block}
+.list.products .Produkt-Name {max-height: 60px; overflow: hidden ; text-align: center; display: block;}
 .list.products span.Preis {color: #3f3f3f}
 .list.products .Rabatt-Preis {display: block; text-align: right}
 .list.products .Edit-Info span {display: block}
@@ -986,17 +995,19 @@ a.Mehr-Filterparameter {display: none; position: absolute; bottom: 0; right: 0; 
 .list.categories .item .Bild img {max-width: 100%; max-height: 100%}
 .list.categories .item .Description p {margin: 0; height: 80px; overflow: hidden}
 .list.categories .item form {float: right}
-.list.categories.buttons .item .Bild {height: 180px}
+.list.categories.buttons .item .Bild {height: 180px;}
 
 /* Feedbackliste */
 .list.feedback .item .Bild {float:right; margin-left:20px }
 
+/* ==========================*/
 /* Pure CSS Slider */
+/* ==========================*/
 .cc-slider {position: relative; -webkit-transform: translateZ(0); -webkit-transition: all 0.1s ease-out; -moz-transition: all 0.1s ease-out; -o-transition: all 0.1s ease-out; transition: all 0.1s ease-out}
-.cc-slider label {color: #ef023f; cursor: pointer; text-decoration: none}
-.cc-slider label:hover {background-color: #DDD}
-.cc-slides {display: inline-block; width: 100%; box-sizing: border-box}
-.cc-slides .inner {width: 1000%; -webkit-transform: translateZ(0); -webkit-transition: all 800ms ease-in-out; -moz-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); -ms-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); -o-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); -webkit-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); -moz-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); -ms-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); -o-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000)}
+.cc-slider label {/* color: #ef023f; */ cursor: pointer; text-decoration: none}
+.cc-slider label:hover {/* background-color: #DDD */}
+.cc-slides {display: inline-block; width: 100%; box-sizing: border-box;}
+.cc-slides .inner {width: 1000%; -webkit-transform: translateZ(0); -webkit-transition: all 800ms ease-in-out; -moz-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); -ms-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); -o-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); -webkit-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); -moz-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); -ms-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); -o-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);}
 
 /* Fuer Thumbnail-Buttons, Verwendung:Testimonials auf Streusalz-Seite */
 .cc-slider-thumbnail-buttons .controls {width: 100%; height: 10px; margin: 0 0 10px 0; display: block}
@@ -1006,12 +1017,11 @@ a.Mehr-Filterparameter {display: none; position: absolute; bottom: 0; right: 0; 
 .cc-slider-thumbnail-buttons .slide5:checked ~ .controls label:nth-child(5) {background-color: #BBB}
 
 /* Sliderpfeile rechts und links */
-.cc-slider-pfeil-links-rechts .controls label {display: none; position: absolute; bottom: 0; width: 11px; height: 20px; top: 50%; margin-top: -10px}
+.cc-slider-pfeil-links-rechts .controls label {display: none; position: absolute; bottom: 0; /* width: 11px; */ height: 20px; top: 50%; margin-top: -10px;}
 .cc-slider-pfeil-links-rechts .Titel-Balken-hellgrau ~ .controls label {display: none; position: absolute; bottom: 0; width: 11px; height: 20px; top: 50%; margin-top: 10px}
 .cc-slider-pfeil-links-rechts #active {margin: 23% 0 0; text-align: center}
 .cc-slider-pfeil-links-rechts #active label {-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; display: inline-block; width: 10px; height: 10px; background: #f89e67}
 .cc-slider-pfeil-links-rechts #active label:hover {background: #ccc; border-color: #777 !important}
-.cc-slider-pfeil-links-rechts .controls label:hover {opacity: .8}
 .slide1:checked ~ .cc-slides .inner {margin-left: 0}
 .slide2:checked ~ .cc-slides .inner {margin-left: -100%}
 .slide3:checked ~ .cc-slides .inner {margin-left: -200%}
@@ -1021,13 +1031,13 @@ a.Mehr-Filterparameter {display: none; position: absolute; bottom: 0; right: 0; 
 .slide7:checked ~ .cc-slides .inner {margin-left: -600%}
 .slide8:checked ~ .cc-slides .inner {margin-left: -700%}
 .slide9:checked ~ .cc-slides .inner {margin-left: -800%}
-.cc-slider-pfeil-links-rechts .slide1:checked ~ .controls label:nth-child(2), .cc-slider-pfeil-links-rechts .slide2:checked ~ .controls label:nth-child(3), 
-.cc-slider-pfeil-links-rechts .slide3:checked ~ .controls label:nth-child(4), .cc-slider-pfeil-links-rechts .slide4:checked ~ .controls label:nth-child(5), 
-.cc-slider-pfeil-links-rechts .slide5:checked ~ .controls label:nth-child(6), .cc-slider-pfeil-links-rechts .slide6:checked ~ .controls label:nth-child(7), 
-.cc-slider-pfeil-links-rechts .slide7:checked ~ .controls label:nth-child(8), .cc-slider-pfeil-links-rechts .slide8:checked ~ .controls label:nth-child(9) {background-position: -696px -27px; right: 0; display: block}
-.cc-slider-pfeil-links-rechts .slide2:checked ~ .controls label:nth-child(1), .cc-slider-pfeil-links-rechts .slide3:checked ~ .controls label:nth-child(2), .cc-slider-pfeil-links-rechts .slide4:checked ~ .controls label:nth-child(3), .cc-slider-pfeil-links-rechts .slide5:checked ~ .controls label:nth-child(4), .cc-slider-pfeil-links-rechts .slide6:checked ~ .controls label:nth-child(5), .cc-slider-pfeil-links-rechts .slide7:checked ~ .controls label:nth-child(6), .cc-slider-pfeil-links-rechts .slide8:checked ~ .controls label:nth-child(7), .cc-slider-pfeil-links-rechts .slide9:checked ~ .controls label:nth-child(4) {background-position: -669px -27px; left: 0; display: block}
-.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .Designcode-Artikelauswahl .Rotating-image .spritespin-canvas {max-height: 100%; display: block; margin: 0 auto; max-width: 100%; height: auto; width: auto !important}
-.cc-slider .item {-webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; text-align: center}
+
+.cc-slider label::before {content: "\44"; font-size: 2rem; color: #696969;}
+.cc-slider-pfeil-links-rechts .slide1:checked ~ .controls label:nth-child(2), .cc-slider-pfeil-links-rechts .slide2:checked ~ .controls label:nth-child(3) { display: block; right: 0; transform: rotate(180deg)}
+.cc-slider-pfeil-links-rechts .slide2:checked ~ .controls label:nth-child(1), .cc-slider-pfeil-links-rechts .slide3:checked ~ .controls label:nth-child(2) { display: block; left: 0 }
+
+.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .Designcode-Artikelauswahl .Rotating-image .spritespin-canvas {max-height: 100%; display: block; margin: 0 auto; max-width: 100%; height: auto; width: auto !important;}
+.cc-slider .item {-webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; text-align: center;}
 .cc-slider .item [class*="-Preis"] {white-space: nowrap}
 .cc-slider.items-1 .item {width: 10%}
 .cc-slider.items-2 .item {width: 5%}
@@ -1068,8 +1078,8 @@ a.Mehr-Filterparameter {display: none; position: absolute; bottom: 0; right: 0; 
 .LP-Intro-Teaser {width: 226px; float: right; margin: 0 10px 10px 10px}
 .Grid-Themen-Index ul {list-style-type: none; margin: 0 0 10px 0; padding: 0}
 .Grid-Themen-Index li {clear: both}
-.Grid-Themen-Index a {display: block; padding: 5px .75rem 3px; text-decoration: none}
-.Grid-Themen-Index img {float: left; margin: 0 .75rem .75rem 0; max-height: 100px; max-width: 30%}
+.Grid-Themen-Index a {display: block; padding: 5px .75rem 3px; text-decoration: none;}
+.Grid-Themen-Index img {float: left; margin: 0 .75rem .75rem 0; max-height: 100px; max-width: 30%;}
 .Kurztext {display: block}
 .Grid-Themen-Index ul li a:hover .Titel {text-decoration: underline}
 #myoutercontainer {position: relative}
@@ -1140,13 +1150,14 @@ a.Mehr-Filterparameter {display: none; position: absolute; bottom: 0; right: 0; 
 
 /* Warenkorb ==========================*/
 .Anzahl .updateLink {display: none}
-.Abrechnung {float: right; border-collapse: collapse; margin: 10px 0}
+.buttonAsLink {/* color:#0061a0; */ /* background:none; */ /* padding:0; */ /* border: 0 none; */ /* margin:0; */}
+.Abrechnung {float: right; border-collapse: collapse; margin: 10px 0;}
 .Abrechnung th {text-align: left; padding: 3px 0; font-weight: normal}
 .Abrechnung td {text-align: right; padding: 3px 0}
 .Abrechnung #Rabatt {color: #F00; display: none}
 .Abrechnung .Gesamtsumme {border-top: 4px double #ccc}
 .Abrechnung .Gesamtsumme th {font-weight: bold}
-.Links {float: right; margin: 40px -160px 0 0}
+.Links {float: right; margin: 40px -160px 0 0;}
 .Links a {display: block}
 .Checkout-Check-and-Send .Links {clear: both; width: 265px !important; float: right; margin: 0; position: relative; top: -20px}
 
@@ -1176,11 +1187,11 @@ a.Mehr-Filterparameter {display: none; position: absolute; bottom: 0; right: 0; 
 
 /* Checkout ==========================*/
 /* Kopfnavigation */
-.Kopfnavigation > div {background: #e7f3fe; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U3ZjNmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiM2QyZjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #e7f3fe 0%, #b3d2f0 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e7f3fe), color-stop(100%, #b3d2f0)); background: -webkit-linear-gradient(top, #e7f3fe 0%, #b3d2f0 100%); background: -o-linear-gradient(top, #e7f3fe 0%, #b3d2f0 100%); background: -ms-linear-gradient(top, #e7f3fe 0%, #b3d2f0 100%); background: linear-gradient(to bottom, #e7f3fe 0%, #b3d2f0 100%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e7f3fe', endColorstr='#b3d2f0', GradientType=0 )}
-.Schritt-1-Adresseingabe, .Schritt-2-Bestellung-pruefen {float: left; line-height: 3.5rem; width: 50%; font-weight: bold; overflow: hidden; height: 3.5rem}
-.Schritt-2-Bestellung-pruefen .Zahl {border-left: 2px solid #fff}
-.Kopfnavigation .Zahl {font-size: 2.5rem; color: #fff; float: left; padding: 0 10px 0 10px}
-input[type="text"], input[type="number"], input[type="tel"], input[type="email"], textarea, select {padding: 3px 5px 2px 5px; border: 1px solid #ccc; border-radius: 0; height: 2rem; box-sizing: border-box; font-size: .85rem}
+.Kopfnavigation > div {background: #e7f3fe; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U3ZjNmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiM2QyZjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #e7f3fe 0%, #b3d2f0 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e7f3fe), color-stop(100%, #b3d2f0)); background: -webkit-linear-gradient(top, #e7f3fe 0%, #b3d2f0 100%); background: -o-linear-gradient(top, #e7f3fe 0%, #b3d2f0 100%); background: -ms-linear-gradient(top, #e7f3fe 0%, #b3d2f0 100%); background: linear-gradient(to bottom, #e7f3fe 0%, #b3d2f0 100%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e7f3fe', endColorstr='#b3d2f0', GradientType=0 );}
+.Schritt-1-Adresseingabe, .Schritt-2-Bestellung-pruefen {float: left; line-height: 3.5rem; width: 50%; font-weight: bold; overflow: hidden; height: 3.5rem;}
+.Schritt-2-Bestellung-pruefen .Zahl {border-left: 2px solid #fff;}
+.Kopfnavigation .Zahl {font-size: 2.5rem; color: #fff; float: left; padding: 0 10px 0 10px;}
+input[type="text"], input[type="number"], input[type="tel"], input[type="email"], textarea, select {padding: 3px 5px 2px 5px; border: 1px solid #ccc; border-radius: 0; height: 2rem; box-sizing: border-box; font-size: .85rem;}
 select {height: 2rem; -webkit-appearance: menulist; -moz-appearance: menulist; appearance: menulist}
 textarea {height: 4rem}
 #direkt_art {width: 56%}
@@ -1188,7 +1199,7 @@ textarea {height: 4rem}
 .Eingabefeld-gross {padding: 8px}
 
 /* Check Out ==========================*/
-.Checkout-Adresseingabe .Schritt-2-Bestellung-pruefen, .Checkout-Check-and-Send .Schritt-1-Adresseingabe {opacity: .5}
+.Checkout-Adresseingabe .Schritt-2-Bestellung-pruefen, .Checkout-Check-and-Send .Schritt-1-Adresseingabe {opacity: .5;}
 .Button-Weiter, .Button-Bestellung-abschicken {float: right}
 
 /* Adresstabelle */
@@ -1303,7 +1314,7 @@ textarea {height: 4rem}
 .ab-st-c, .ab-sst-c, .ib-st-c, .ib-sst-c {text-align: center}
 
 /*Pressemitteilungen und Blog ==========================*/
-.PM, .Blog, .Grid-Themen-Index li {border-bottom: 1px solid #ccc; display: inline-block; margin: 0 0 15px 0; width: 100%}
+.PM, .Blog, .Grid-Themen-Index li {border-bottom: 1px solid #ccc; display: inline-block; margin: 0 0 15px 0; width: 100%;}
 .PM h2, .Blog h3 {margin: 0 0 10px 0; padding: 0}
 .Blog h3 a {font-weight: bold}
 
@@ -1398,7 +1409,7 @@ textarea {height: 4rem}
 /* Formularauswahl mittels JS-Dropdown */
 .Kontaktformulare-Auswahl-JS {display: none; margin: 0 0 10px 0}
 .Kontakt .dropdown, .Kontakt .dropdown dt {width: 280px}
-.Kontakt .Kontaktformulare-Auswahl-JS {width: 50%; margin: 0 0 1rem 31%}
+.Kontakt .Kontaktformulare-Auswahl-JS {width: 50%; margin: 0 0 1rem 31%;}
 
 /* Formularauswahl mittels Links ohne JS */
 .Kontaktformulare-Auswahl {list-style-type: none; margin: 0 0 10px 0 !important; padding: 0}
@@ -1475,17 +1486,17 @@ textarea {height: 4rem}
 img.Praemien {position: absolute; top: 0; right: 0; z-index: -1}
 
 /* Bad URL ==========================*/
-.Bad-URL article.Content {margin-top: 50px; margin-bottom: 50px}
+.Bad-URL article.Content {margin-top: 50px; margin-bottom: 50px;}
 
 /* Footer ==========================*/
 /* Zuletzt gesehene Produkte */
-#lastSeenProducts {position: relative; z-index: 9; clear: both}
+#lastSeenProducts {position: relative; z-index: 9; clear: both;}
 #lastSeenProducts .tooltip {top: 105%}
 .Footer-Zuletzt-gesehene-Produkte {clear: both}
 .Footer-Zuletzt-gesehene-Produkte .Titel-Balken-hellgrau span {min-width: 207px}
 #Artikelsuche-Hinweis {display: none; left: 207px; top: 37px; z-index: 9; width: 230px}
 #Artikelsuche-Hinweis {text-align: center}
-.Footer {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZGZkZmRmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==); background: -moz-linear-gradient(top, #fff 70%, #dfdfdf 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #fff), color-stop(100%, #dfdfdf)); background: -webkit-linear-gradient(top, #fff 70%, #dfdfdf 100%); background: -o-linear-gradient(top, #fff 70%, #dfdfdf 100%); background: -ms-linear-gradient(top, #fff 70%, #dfdfdf 100%); background: linear-gradient(to bottom, #fff 70%, #dfdfdf 100%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dfdfdf', GradientType=0 ); border-bottom: 2rem solid #00609F; clear: both}
+.Footer {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZGZkZmRmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==); background: -moz-linear-gradient(top, #fff 70%, #dfdfdf 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #fff), color-stop(100%, #dfdfdf)); background: -webkit-linear-gradient(top, #fff 70%, #dfdfdf 100%); background: -o-linear-gradient(top, #fff 70%, #dfdfdf 100%); background: -ms-linear-gradient(top, #fff 70%, #dfdfdf 100%); background: linear-gradient(to bottom, #fff 70%, #dfdfdf 100%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dfdfdf', GradientType=0 ); border-bottom: 2rem solid #00609F; clear: both;}
 .Grid-System-Social-Media {border-top: 1px solid #ccc; padding-top: .75rem; margin-top: 1rem}
 .Grid-System-Social-Media .col4 {border-right: 1px solid #ccc; min-height: 120px; margin-bottom: 0; border-collapse: collapse}
 .Grid-System-Social-Media div:last-child {border-right: 0 none}
@@ -1544,7 +1555,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 #ie8msg #ie8msg-close {position: absolute; top: 5px; right: 10px; font-weight: bold; font-size: 1.2rem; cursor: pointer}
 
 /* Grid system:New fluid 12 row ==========================*/
-/* Check:http://www.responsivegridsystem.com/calculator/ */
+/* Check:http://www.responsivegridsystem.com/calculator/*/
 .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12, .Content .col, .Sidebar, .Grid-System [class*="Grid"], .Grid-Themen-Index [class^="Grid"], .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1 {float: left; margin: 0 0 .75rem 1.25%; box-sizing: border-box; position: relative}
 .first, .Grid-first, .Grid24 + [class*="Grid"], .clear + [class*="col"] {margin-left: 0}
 .Auflistung-Unterkategorien li, .grid-view li {margin: 0}
@@ -1553,7 +1564,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 .col3, .Grid-System .Grid-1-4, .Ein-Spalter .Grid6, .Sidebar-left, .Sidebar-right, .Direktverkauf .Content .Grid-last, .Sidebar {width: 24.06%}
 
 /* Spanning 1 of 3 */
-.col4, .Grid-1-3, .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1, .Inventarketiketten-Designer .col-right-2, .Newsletter-Anforderung .article-Newsletter-Abo-Downloads .Grid-1-3 {width: 32.5%}
+.col4, .Grid-1-3, ÃƒÂƒÃ†Â’ÃƒÂ‚Ã†Â’ÃƒÂƒÃ¢Â€ÂšÃƒÂ‚Ã¢Â€Âš .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1, .Inventarketiketten-Designer .col-right-2, .Newsletter-Anforderung .article-Newsletter-Abo-Downloads .Grid-1-3 {width: 32.5%}
 .Services-rund-ums-Produkt li, .Homepage .Avail .item, #cc-slider-streusalz-testimonials .item, .grid-view .item {width: 33.3%}
 .col5, .Grid-System .Grid-2-5 {width: 40.93%}
 .col6, .Ein-Spalter .Grid12, .Drei-Spalter .Content, #Avail-Hauptkategorie-Kunden-kauften-2, #Avail-Kategorie-Topseller-2, .Zwei-Spalter-Sidebar-left .Grid-System .Grid6, .Zwei-Spalter-Sidebar-right .Grid-System .Grid6, .Grid-System .Grid-1-2, .ASR-Teaser, .ASR-Teaser p, .Checkout .Teaser-Vorteilsnummer, .Abrechnung {width: 49.37%}
@@ -1578,9 +1589,9 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	input[type="number"] {-webkit-appearance: textfield; -moz-appearance: textfield; appearance: textfield}
 	input[type="number"]::-webkit-outer-spin-butto, input[type="number"]::-webkit-inner-spin-button {-webkit-appearance: none; -moz-appearance: none; appearance: none}
 	.Checkout nav {background-color: #bababa; height: 3.15rem}
-	.Checkout nav a {display: block;height: 2.5rem; padding: .35rem .5rem .3rem .75rem;color: #fff}
+	.Checkout nav a {display: block;height: 2.5rem; padding: .35rem .5rem .3rem .75rem;color: #fff;}
 	.Checkout nav li {display: none}
-	.Checkout #nav-home {display: block} }
+	.Checkout #nav-home {display: block;} }
 
 @media only screen and (min-width:768px) {
 	#Header .Artikelsuche {position: relative}
@@ -1595,7 +1606,6 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.Drei-Spalter .Content {margin-left: -74.68%; margin-right: 25.31%}
 	.items-1 .item {border: 0 !important}
 	.items-2 :nth-child(2n+2), .items-3 :nth-child(3n+3), .items-4 :nth-child(4n+4), .items-5 :nth-child(5n+5), .items-6 :nth-child(6n+6), .items-7 :nth-child(7n+7), .items-8 :nth-child(8n+8), .items-9 :nth-child(9n+9), .items-10 :nth-child(10n+10), .cc-slider .item:last-child, .grid-view .item:nth-child(3n) {border-right: 0 none}
-	.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 600px !important;}
 	.Produkttabelle .Anzahl {width: 15%}
 	.Produkttabelle .Anzahl .Eingabefeld {float: left}
 	.Anzahl a {float: left}
@@ -1641,7 +1651,7 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.suggestEntry td {width: 210px}
 	.Warenkorb {top: .25rem; right: .5rem}
 	#Breadcrumbs {height: 2.75rem; margin; margin: 0 0 .5rem; text-indent: -99999px; display: block}
-	aside.pure-drawer {padding: 0 .5rem}
+	aside.pure-drawer {padding: 0 .5rem;}
 	aside li a {display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem}
 	.Filter {height: auto !important}
 	.Homepage .Avail .item {width: 130px}
@@ -1650,9 +1660,9 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	#cc-slider-lsp .item:nth-child(-n+3) {border-top: 0 none}
 	#cc-slider-lsp .item {border-top: 1px solid #ccc}
 	#cc_slider_home_page_top_seller .Bild, #cc_slider_home_page_new_products .Bild, #cc-slider-hp-topseller .Bild, #cc-slider-hp-Neuheiten .Bild, #cc-slider-lsp .Bild {height: 130px}
-	nav.pure-drawer[data-position="left"], aside.pure-drawer[data-position="left-bottom"], aside.pure-drawer[data-position="right-bottom"] {z-index: 120; margin: 2.75rem 0; max-width: 400px; width: 100%;top: 0}
+	nav.pure-drawer[data-position="left"], aside.pure-drawer[data-position="left-bottom"], aside.pure-drawer[data-position="right-bottom"] {z-index: 120; margin: 2.75rem 0; max-width: 400px; width: 100%;top: 0;}
 	aside.pure-drawer[data-position="left-bottom"], aside.pure-drawer[data-position="right-bottom"] {border-bottom: 4rem solid #fff}
-	aside.pure-drawer[data-position="right-bottom"] {left: auto; right: 0}
+	aside.pure-drawer[data-position="right-bottom"] {left: auto; right: 0;}
 	.PUES #asideBackground {position: fixed; bottom: 0; background-color: #fff; height: 2.75rem; width: 100%; border-top: 1px solid #ccc; z-index:99 !important}
 	.nav-pri {background-color: #0061a0; z-index:80; position:relative }
 	aside.pure-drawer {background-color: #fff}
@@ -1660,9 +1670,9 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.nav-pri > ul > li, .sub, .col {float: left; width: 100% !important; background-image: none; padding: 0}
 	.sub, .nav-third {border: 0 none; position: initial; visibility: hidden; opacity: 0; max-height: 0; -webkit-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: opacity .25s ease-out .25s, max-height .5s ease-out; transition: opacity .25s ease-out .25s, max-height .5s ease-out}
 	li:hover .sub, .subnav:hover .nav-third {visibility: visible; opacity: 1; max-height: 2000px; -webkit-transition: opacity .25s ease-in, max-height .5s ease-in; -moz-transition: opacity .25s ease-in, max-height .5s ease-in; -ms-transition: opacity .25s ease-in, max-height .5s ease-in; -o-transition: opacity .25s ease-in, max-height .5s ease-in; transition: opacity .25s ease-in, max-height .5s ease-in}
-	.nav-pri [id^="topnav"] > a {border: 0 none; border-top: 1px solid #ccc}
+	.nav-pri [id^="topnav"] > a {border: 0 none; border-top: 1px solid #ccc;}
 	nav .Hotline a {border-top: 1px dashed}
-	nav .Hotline a {color: #fff; display: block; height: 2.5rem; font-size: 1.5rem; padding: .75rem .5rem .3rem .75rem}
+	nav .Hotline a {color: #fff; display: block; height: 2.5rem; font-size: 1.5rem; padding: .75rem .5rem .3rem .75rem;}
 	nav .Hotline a::before {margin: 0 .5rem 0 0; font-size: 1.25rem}
 	#topnav4 .sub, #topnav7 .sub {left: 0}
 	.sub a {padding: .75rem .5rem .4rem 1rem; display: block; margin: 0; height: 2rem}
@@ -1743,7 +1753,7 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 
 /* Mobiles portrait */
 @media only screen and (max-device-width: 768px) and (orientation: portrait) {.article-Dropdowns {width: 66.25%}
-	.Designcode-Artikelauswahl .royalSlider {height: 335px;width: 100%} }
+	.Designcode-Artikelauswahl .royalSlider {height: 335px;width: 100%;} }
 
 @media only screen and (max-device-width: 768px) and (orientation: portrait), (max-device-width: 667px) {.Teaser-Vorteile-bei-SETON-bvh ul, .Teaser-Spar-Angebote p {float: left; max-width: 55%}
 	.Trusted-Shop-Kundenbewertung {width: 38%; float: right} }
@@ -1765,11 +1775,11 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.Checkout .Produkttabelle .Produktinfo {width: 64%; display: inline-block}
 	.Checkout .Produkttabelle td:nth-child(-n+2)::before {display: none}
 	.Adresseingabe textarea {width: 100%; max-height: 300px}
-	.Adresseingabe label, .Checkout .Hinweis { display: block; width: 100%}
-	.Checkox-Gewerbe .Label-Gewerbe, .Newsletter label, .Faxangebot label {width: 90%;display: inline-block}
+	.Adresseingabe label, .Checkout .Hinweis { display: block; width: 100%;}
+	.Checkox-Gewerbe .Label-Gewerbe, .Newsletter label, .Faxangebot label {width: 90%;display: inline-block;}
 	.Adresseingabe [type="text"], .Adresseingabe [type="tel"], .Adresseingabe [type="email"], #Branche {/* width: 50% */}
-	.Checkout .Adresseingabe [type="text"], .Checkout .Adresseingabe [type="tel"], .Checkout .Adresseingabe [type="email"] {width: 100%}
-	.Adresseingabe .Eingabefeld-PLZ, .Checkout .Adresseingabe .Eingabefeld-PLZ[type="text"] {width: 19.5%} }
+	.Checkout .Adresseingabe [type="text"], .Checkout .Adresseingabe [type="tel"], .Checkout .Adresseingabe [type="email"] {width: 100%;}
+	.Adresseingabe .Eingabefeld-PLZ, .Checkout .Adresseingabe .Eingabefeld-PLZ[type="text"] {width: 19.5%;} }
 
 /* iPhone 5 & 6 */
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 320px) and (max-device-width: 667px) {p {font-size: .75rem}
@@ -1796,13 +1806,10 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 /* iPhone 5 strict landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
 	#Header .Artikelsuche {width: 50%}
-	.Homepage .royalSlider {height: 185px}
-	.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 275px !important;} }
+	.Homepage .royalSlider {height: 185px} }
 
 /* iPhone 6 strict landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-	.Homepage .royalSlider {height: 220px}
-	.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 325px !important;} }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {.Homepage .royalSlider {height: 220px} }
 
 /* iPhone 5 and 6 portrait*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait), (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {.Produktergebnis-inner, .Preisstaffel, .Grid-System-Sitemap .col3 {width: 100%}
@@ -1820,37 +1827,37 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {.pure-drawer {/* height: 100%; */ /* overflow-y: scroll; */} }
 @media only screen and (min-width:40.063rem) {.pure-drawer {/* width: 300px; */} }
 @media only screen and (min-width:64.063rem) {.pure-drawer {/* width: 300px; */} }
-.pure-drawer[data-position='right'] {left: auto; right: 0}
-.pure-drawer[data-position='top'] {height: 100%; width: 100%}
+.pure-drawer[data-position='right'] {left: auto; right: 0;}
+.pure-drawer[data-position='top'] {height: 100%; width: 100%;}
 @media only screen and (min-width:40.063rem) {.pure-drawer[data-position='top'] {height: 100%} }
 @media only screen and (min-width:64.063rem) {.pure-drawer[data-position='top'] {height: 100px} }
 
 /* Pusher Container */
-.pure-pusher-container {position: relative; height: 100%; overflow: hidden}
+.pure-pusher-container {position: relative; height: 100%; overflow: hidden;}
 
 /* Pusher */
-.pure-pusher {position: relative; height: 100%; overflow-y: auto; left: 0; z-index: 2; background-color: #fff; transition-property: transform; transition-duration: 500ms; transition-timing-function: ease-out}
+.pure-pusher {position: relative; height: 100%; overflow-y: auto; left: 0; z-index: 2; background-color: #fff; transition-property: transform; transition-duration: 500ms; transition-timing-function: ease-out;}
 
 /* Pusher Overlay */
-.pure-overlay {position: fixed; top: 0; bottom: 0; right: 0; width: 0; height: 0; opacity: 0; background-color: rgba(0, 0, 0, 0.4); transition-property: opacity; transition-duration: 500ms; transition-delay: 500ms; transition-timing-function: ease-in-out}
+.pure-overlay {position: fixed; top: 0; bottom: 0; right: 0; width: 0; height: 0; opacity: 0; background-color: rgba(0, 0, 0, 0.4); transition-property: opacity; transition-duration: 500ms; transition-delay: 500ms; transition-timing-function: ease-in-out;}
 .pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left-bottom'] {/* left: 100%; */}
 @media only screen and (min-width:40.063rem) {.pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left-bottom'] {left: 300px} }
 @media only screen and (min-width:64.063rem) {.pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left-bottom'] {left: 300px} }
-.pure-toggle[data-toggle='right']:checked ~ .pure-overlay[data-overlay='right'], .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-overlay[data-overlay='right-bottom'] {right: 100%}
+.pure-toggle[data-toggle='right']:checked ~ .pure-overlay[data-overlay='right'], .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-overlay[data-overlay='right-bottom'] {right: 100%;}
 @media only screen and (min-width:40.063rem) {.pure-toggle[data-toggle='right']:checked ~ .pure-overlay[data-overlay='right'], .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-overlay[data-overlay='right-bottom'] {right: 300px} }
 @media only screen and (min-width:64.063rem) {.pure-toggle[data-toggle='right']:checked ~ .pure-overlay[data-overlay='right'], .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-overlay[data-overlay='right-bottom'] {right: 300px} }
-.pure-toggle[data-toggle='top']:checked ~ .pure-overlay[data-overlay='top'] {top: 100%}
+.pure-toggle[data-toggle='top']:checked ~ .pure-overlay[data-overlay='top'] {top: 100%;}
 @media only screen and (min-width:40.063rem) {.pure-toggle[data-toggle='top']:checked ~ .pure-overlay[data-overlay='top'] {top: 100%} }
 @media only screen and (min-width:64.063rem) {.pure-toggle[data-toggle='top']:checked ~ .pure-overlay[data-overlay='top'] {top: 100px} }
-.pure-toggle:checked ~ .pure-overlay {width: 100%; height: 100%; opacity: 1; z-index: 2}
+.pure-toggle:checked ~ .pure-overlay {width: 100%; height: 100%; opacity: 1; z-index: 2;}
 
 /* Fallback for older browsers */
-.no-csstransforms3d .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {left: 100%}
+.no-csstransforms3d .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {left: 100%;}
 @media only screen and (min-width:40.063rem) {.no-csstransforms3d .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {left: 300px} }
 @media only screen and (min-width:64.063rem) {.no-csstransforms3d .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {left: 300px} }
-.no-csstransforms3d .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {left: -100%}
+.no-csstransforms3d .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {left: -100%;}
 @media only screen and (min-width:40.063rem) {.no-csstransforms3d .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {left: -300px} }
 @media only screen and (min-width:64.063rem) {.no-csstransforms3d .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {left: -300px} }
-.no-csstransforms3d .pure-toggle[data-toggle='top']:checked ~ .pure-pusher-container .pure-pusher {top: 100%}
+.no-csstransforms3d .pure-toggle[data-toggle='top']:checked ~ .pure-pusher-container .pure-pusher {top: 100%;}
 @media only screen and (min-width:40.063rem) {.no-csstransforms3d .pure-toggle[data-toggle='top']:checked ~ .pure-pusher-container .pure-pusher {top: 100%} }
 @media only screen and (min-width:64.063rem) {.no-csstransforms3d .pure-toggle[data-toggle='top']:checked ~ .pure-pusher-container .pure-pusher {top: 100px} }
