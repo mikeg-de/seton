@@ -1594,6 +1594,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.Drei-Spalter .Content {margin-left: -74.68%; margin-right: 25.31%}
 	.items-1 .item {border: 0 !important}
 	.items-2 :nth-child(2n+2), .items-3 :nth-child(3n+3), .items-4 :nth-child(4n+4), .items-5 :nth-child(5n+5), .items-6 :nth-child(6n+6), .items-7 :nth-child(7n+7), .items-8 :nth-child(8n+8), .items-9 :nth-child(9n+9), .items-10 :nth-child(10n+10), .cc-slider .item:last-child, .grid-view .item:nth-child(3n) {border-right: 0 none}
+	.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 600px !important;}
 	.Produkttabelle .Anzahl {width: 15%}
 	.Produkttabelle .Anzahl .Eingabefeld {float: left}
 	.Anzahl a {float: left}
@@ -1743,7 +1744,7 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 /* Mobiles portrait */
 @media only screen and (max-device-width: 768px) and (orientation: portrait) {
 	.article-Dropdowns {width: 66.25%}
-	.Designcode-Artikelauswahl .royalSlider {height: 335px;width: 100%} }
+	.Designcode-Artikelauswahl .royalSlider {height: 335px; width: 100%} }
 
 @media only screen and (max-device-width: 768px) and (orientation: portrait), (max-device-width: 667px) {
 	.Teaser-Vorteile-bei-SETON-bvh ul, .Teaser-Spar-Angebote p {float: left; max-width: 55%}
@@ -1798,10 +1799,13 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 /* iPhone 5 strict landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
 	#Header .Artikelsuche {width: 50%}
-	.Homepage .royalSlider {height: 185px} }
+	.Homepage .royalSlider {height: 185px}
+	.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 275px !important} }
 
 /* iPhone 6 strict landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {.Homepage .royalSlider {height: 220px} }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+	.Homepage .royalSlider {height: 220px}
+	.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 325px !important;} }
 
 /* iPhone 5 and 6 portrait*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait), (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
