@@ -1,0 +1,1864 @@
+@font-face {font-family: 'ElegantIcons'; src: url('css/fonts/ElegantIcons.eot'); src: url('css/fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'), url('css/fonts/ElegantIcons.woff') format('woff'), url('css/fonts/ElegantIcons.ttf') format('truetype'), url('css/fonts/ElegantIcons.svg#ElegantIcons') format('svg'); font-weight: normal; font-style: normal}
+.data-icon::before, .Filterparameter a::before, .Icon::before, .Bullet-Haekchen li::before, .Editieren::after, .royalSlider .arrow_carrot-left_alt2::before, .royalSlider .icon_pause_alt2::before, .royalSlider .arrow_triangle-right_alt2::before, .royalSlider .arrow_carrot-right_alt2::before, .Link-Liste a::before, .Vorteile li::before, .Info-Icon::before, .icon_chat_alt:before, .icon_phone::before {font: normal normal normal 1rem/1rem 'ElegantIcons'; speak: none; -webkit-font-smoothing: antialiased;}
+
+/* Allgemeine Definitionen */
+body {font: normal normal 13px/1.25rem Arial, Verdana, Helvetica, sans-serif; color: #3e3e3e; padding: 0; margin: 0 auto; max-width: 1024px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+img {max-width: 100%; border: 0}
+td, th {vertical-align: top; text-align: left; padding-right: 10px}
+.popup {width: 95%}
+
+/* CSS Images */
+.Button-close, .NL-Layer .Container .NL-Layer-Button .arrow, .cc-slider-pfeil-links-rechts :checked ~ .controls label {background: url('/images/Allgemein/Buttons/Buttons.png') 0 0 no-repeat}
+
+/* Hidden elements */
+.Link-Mehr-Infos, .Bild-sw, .Produkttabelle #warenkorbItems, .Produkttabelle hr, #socialshareprivacy .settings_info, .Hinweis-NL-Pflichtfelder, .ui-helper-hidden, .ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle, .Zwei-Spalter-Sidebar-left .Sidebar-right, .Zwei-Spalter-Sidebar-right .Sidebar-left, #nav-home, nav .Hotline, .cc-slider input, .toggle input, .toggle .toggle1:checked ~ .controls label:nth-child(1), .toggle .toggle2:checked ~ .controls label:nth-child(2), .Designcode-Artikelauswahl-NJS .royalSlider .bugaga .rsCaption, .Designcode-Artikelauswahl-NJS .royalSlider .Rotating-image, .Designcode-Artikelauswahl .Kopfnummerninfos .Tabs, .Factfinder-Copyright, .Auflistung-Produkte .Edit-Info, .Schildersuche .PUES-Subnavigation-Kategorien .Title2, .Schildersuche .Anzahl-Artikel, .Checkout-Adresseingabe .editable_textarea, .Checkout-Print .Anzahl-JS img, .Checkout-Print .Anzahl a, .Checkout-Print .Anzahl-JS a, .Checkout-Print .Anzahl-JS .updateLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto img, .Print .Einzelpreis-abzgl-Rabatt-netto .buttonAsLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto .Datei-Upload, .Checkout-Print .vortn, .Checkout-Print .Dankeschoen-Geschenk input, .Themenheadline, .smallreadonly, .Kopfnummerninfos-Tabs .Tabs, .Teaser-Blog .updated, .Footer .Trusted-Shop .hreview-aggregate, .ui-dialog-titlebar-close, p:empty, .rsCaption:empty, .Hauptkategorie-Text:empty, .Tab-Content:empty, .cc-slider:empty, #Produktbeschreibung:empty, .LV_validation_message:empty, .Hinweistext:empty, #SEO-Footer:empty, #Footer_Bereichstext:empty, #cc-slider-top-kategorien .cc-slides .overflow::after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow::after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow .inner::before, .cc-slider .controls, .Artikel-pro-Seite, .recs, .pure-toggle, .pure-toggle-label, .hidden {display: none}
+#cc-slider-top-kategorien .controls {display: block}
+
+/* Clear-Fix */
+.clear::after, .content [class*="col"]::after, #Footer [class*="col"]::after, .ASR-Teaser::after {content: "."; display: block; height: 0; clear: both; visibility: hidden}
+#PDS-Content, #produktliste-komplett {clear: both}
+
+/* Overflow hidden */
+.overflow {overflow: hidden}
+
+/* Vertical centered*/
+.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .grid-view.categries h2 + .Bild img, .grid-view.products .Bild img {position: relative; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%)}
+.rsFullscreen .rsContainer .rsSlide img, .rsFullscreen .rsSlide .Rotating-image {-webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0)}
+
+/* Text */
+p, .Tab-Content, .Content-Box {margin: 0 0 .5rem;}
+h1, h2, h3, h4, h5, .Title1, .Title2, .Title3, .Title4, .Title5, .Teaser-Title, .Titel-Newsletter-abonnieren {font-weight: 400; color: #3a3a3a; line-height: 1.5rem; margin: 0 0 .25rem 0;}
+h1, .h1, h1 a, .Title1 a, .Warenkorb-Reminder .Title1, .Teaser-Title, .Titel-Newsletter-abonnieren {/* font-size: 1rem; */}
+h2, .h2, .Tab-Title {/* font-size: 1rem; */}
+h3, .h3, .Title3 a {padding: 0; margin: 0 0 .5rem 0;}
+h4, .h4, h4 a, .Title4 a {}
+h5, .h5, h5 a, .Title5 a {font-size: 9pt; margin: 0 0 .3rem 0}
+[class^="Sidebar"] .Title1 {font-size: 1.1rem}
+aside .Titel-Balken-hellgrau {border-bottom: 1px solid #ccc; font-weight: bold}
+article .Titel-Balken-hellgrau, #lastSeenProducts .Titel-Balken-hellgrau, .Produkttabelle th, .Grid-Themen-Index p, .Block h2, .Grid-System-Sitemap .Title4 {background: #eee; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 5px .75rem 3px; margin: .5rem 0 .5rem 0; clear: both}
+.Titel-Balken-hellgrau img {vertical-align: middle}
+.Tab-Title, .Titel-unterstrichen {border-bottom: 1px solid #ccc;}
+.Teaser p, .Teaser .p {margin: 0;}
+.Homepage .Teaser p, .Footer .Teaser-Newsletter p {float: left; max-width: 50%}
+.Footer .Teaser-Newsletter p {max-width: 65%}
+.nowrap {white-space: nowrap}
+.Trenner {height: 1px; margin: 20px 0; background: #DDEAF6; clear: both; line-height: 0; font-size: 0; overflow: hidden}
+.Drucken {cursor: pointer}
+.Klein, #Header .Meta-Navi, #Breadcrumbs, .Bildunterschrift2, .hreview-aggregate .rating, .Vorrat, .Info-Link .Info-Text, .Info-Link .Info-Text-JS, .Links .Adobe-Reader, .Bildunterschrift, .Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure, #Header .Hotline span, .product-list-item-left, .Preis-Lieferbarkeit, .MwSt, .ab-st-s, .ab-sst-s, .ib-st-s, .ib-sst-s, .Checkout-Print .Adresseingabe {font-size: .75rem;}
+.Gross {font-size: 1.25rem}
+.mark1, .mark2 {font-weight: bold}
+.Bildunterschrift span {padding: 1px 0; margin: 2px 0; overflow: visible !important}
+.Bildunterschrift2 {color: #333}
+.MwSt {text-align: right}
+.Vertikale-Zentrierung-3 img {vertical-align: middle}
+
+/* Bilder */
+.royalSlider img {max-width: 100% !important}
+.Blog img, .PM img {margin: 0 1rem .5rem 0}
+.Bildkontur {border: 1px solid #333; background-color: #fff}
+.Top {float: right; margin: 10px 0 10px 0}
+
+/* Listen */
+ul, .PUES-Subnavigation-Kategorien, .Teaser-Blog ul, .Teaser .Bullet-Haekchen {margin: 0 0 .5rem .75rem; padding: 0; list-style-position: outside;}
+.Teaser-Blog ul {margin: 0}
+.Bullet-Haekchen, .Teaser-Blog ul, .Footer ul {list-style-type: none}
+.Bullet-Haekchen li, .Bullet-Haekchen-weiss li, .Bullet-Plus li, .Bullet-Checkbox li, .Vorteile li {list-style-type: none; margin: 0 0 0 1rem; padding: 0 0 0 .25rem}
+aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
+.Bullet-Haekchen-weiss li .Bullet {background-position: -22px -130px}
+.Bullet-Haekchen-2-spaltig li {width: 180px; float: left}
+.Bullet-Plus li {padding: 0 0 0 20px; margin: 0 0 5px 0}
+.Bullet-Plus li .Bullet {background-position: 0 -155px; height: 26px; width: 26px; top: 0}
+.Vorteile {list-style-type: none}
+.BulletPointBereich {margin: 0; padding: 0; list-style-type: none}
+.BulletPointBereich li {padding: 0 0 0 25px; background-repeat: no-repeat; background-position: 0 4px}
+.Ausbildungsangebot {padding: 0; margin: 0}
+.Ausbildungsangebot dt {float: left; width: 150px; margin-right: 0 10px 10px 0; padding: 0; font-weight: bold; clear: both}
+.Ausbildungsangebot dd {padding: 0 0 0 160px; margin: 0 0 10px 0}
+
+/* Tabellen */
+.Grid-Themen-Index, .ui-dialog, .Footer, .Footer-Zuletzt-gesehene-Produkte {padding: 1rem 1.25%; clear: both;}
+.Content th, .Content td, .Checkout-Print th, .Checkout-Print td {padding: 3px 5px 2px 5px; box-sizing: border-box;}
+
+/* French DYO*/
+.tab02 [type="text"] {max-width: 220px}
+.tab02 :disabled {display: inline-block}
+.SETON-Adressen {font-size: 0.9rem; color: #666; border-top: 1px solid #ccc; margin-top: 30px !important; width: 100%}
+
+/* Produkttabelle */
+.Produkttabelle {width: 100%; border-spacing: 0; border-collapse: collapse; margin: 1rem 0 0;}
+.Produkttabelle th {font-weight: normal}
+.Produkttabelle tr {border-top: 1px solid #ccc}
+.Produkttabelle .no-border {border: 0; padding: 0}
+.Produkttabelle .inactive {color: #888}
+.Produkttabelle .Position {width: 10px}
+.Produkttabelle .Bild {text-align: center; display: block;}
+.Produkttabelle .Bild a {display: block}
+.Produkttabelle .Bild img {max-height: 80px;}
+.Produkttabelle .Produktinfo p {overflow: hidden; margin: 0}
+.Produkttabelle .Produktinfo .Datei-Upload, .Produkttabelle .Produktinfo .Datei-Uploads {margin: 0.3rem 0}
+.Produkttabelle .editArtikel {display: none;}
+.Produkttabelle .Anzahl-JS .Eingabefeld {width: 50px; margin: 0 5px 3px 0 !important; font-size: 1rem; text-align: right}
+.Produkttabelle .Anzahl .Eingabefeld {width: 2rem; text-align: right; display: inline-block; margin: 0 .25rem 0 0; vertical-align: top;}
+.Produkttabelle .Geschenke-in-leerem-WK td {line-height: 0; font-size: 0; height: 3px; overflow: hidden; padding: 0 !important}
+.Produkttabelle .Eingabefeld:hover, .file:hover, .Produkttabelle textarea:hover, .Produkttabelle select:hover {border: 1px solid #BBB}
+
+/* Formulartabelle */
+.Adresseingabe .Gewerbe .Hinweis p {width: 150px}
+.Adresseingabe .Checkox-Gewerbe p {width: 350px}
+.Adresseingabe .Checkbox.Newsletter .Weiterfuehrender-Link {bottom: 0; right: 0}
+input.LV_invalid_field {border-color: #F00}
+.Checkout-Confirmation-Page .Adresseingabe select {width: 150px}
+.Adresseingabe .Newsletter, .Adresseingabe .Faxangebot {margin-top: 10px}
+#checkoutandsend .Adresseingabe td {max-width: 50px}
+#Warenkorb-Rahmen .Hinweis {width: 382px; max-width: 382px}
+.Checkbox input {float: left}
+.Checkbox p {padding-left: 25px; margin: 0}
+.Checkbox h4 {padding-left: 25px; margin: 0; line-height: 19px}
+
+/* Info-Layer */
+.Info-Link {cursor: pointer; display: inline-block}
+.Info-Link .Info-Text-JS .Button-close {display: none}
+.Info-Link .Info-Text p, .Info-Link .Info-Text-JS p {margin-top: 0; width: auto !important}
+.Info-Link:hover .Info-Text {display: block}
+
+/*
+.Hinweis p {margin: 0;}
+.Hinweis .Hinweistext, .Hinweis .LV_invalid { display: none; margin: 0 0 0 31%}
+.active .Hinweistext, .active .LV_invalid {display: block}
+.Fehlertext, .Hinweis .Fehlertext, .LV_invalid, .invalid, .Hinweis .Fehlertext, .Hinweis .Fehlermeldung, .Hinweis .FehlermeldungNoJS {color: #F00}
+.valid, .LV_valid {color: #19B201; display: inline;}
+.Hinweis .valid-Newsletter-DOI {color: #666}
+*/
+
+.Checkout .Hinweis {width: 42.5%; display: inline-block; vertical-align:middle }
+.Hinweis .Hinweistext {color:#666; display:none}
+.Hinweis p {margin:0}
+.Checkout .Hinweis p {}
+
+.Fehlertext, .Hinweis .Fehlertext, .LV_invalid, .invalid, .Hinweis .Fehlertext,
+.Hinweis .Fehlermeldung, .Hinweis .FehlermeldungNoJS {color:#F00}
+.valid, .LV_valid {color:#19B201}
+.Hinweis .valid-Newsletter-DOI {color:#666}
+
+
+/* New Check-Out styling with enhanced forms*/
+.Checkout fieldset {border: 0 none; clear: both; width: 100%; padding: 0; margin: 0;}
+#Add_Lieferadresse ~ fieldset {opacity: 0; max-height: 0; overflow: hidden; visibility: hidden; zoom: 1; -webkit-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: opacity .25s ease-out .25s, max-height .5s ease-out; transition: opacity .25s ease-out .25s, max-height .5s ease-out;}
+#Add_Lieferadresse:checked ~ .Add_Lieferadresse, #Add_Rechnungsadresse:checked ~ .Add_Rechnungsadresse {opacity: 1; max-height: 2000px; display: block; visibility: visible; -webkit-transition: opacity .25s ease-in, max-height .5s ease-in; -moz-transition: opacity .25s ease-in, max-height .5s ease-in; -ms-transition: opacity .25s ease-in, max-height .5s ease-in; -o-transition: opacity .25s ease-in, max-height .5s ease-in; transition: opacity .25s ease-in, max-height .5s ease-in;}
+.Checkout .hidden, fieldset legend {display: none}
+.Checkox-Gewerbe input, .Newsletter input {vertical-align: top}
+.Adresseingabe textarea {width: 50%; max-height: 300px}
+.Checkout .Adresseingabe textarea {min-width: 30%; max-width: 30%}
+.Adresseingabe label {width: 25%; display: inline-block; vertical-align:middle }
+.Checkox-Gewerbe .Label-Gewerbe, .Newsletter label, .Faxangebot label {width: 70%}
+.Checkout span.tooltips, .PDF-Download span.tooltips {bottom: 0; right: auto}
+.Adresseingabe [type="text"], .Adresseingabe [type="tel"], .Adresseingabe [type="email"], #Branche {width: 50%}
+.Checkout .Adresseingabe [type="text"], .Checkout .Adresseingabe [type="tel"], .Checkout .Adresseingabe [type="email"] {width: 30%; vertical-align:middle; display:inline-block }
+.Adresseingabe .Eingabefeld-PLZ, .Checkout .Adresseingabe .Eingabefeld-PLZ[type="text"] {width: 19.5%;} 
+.kundenadr_Bemerkung label {/* display: block */}
+input:required {}
+input:optional {}
+input:valid, .Checkout input.LV_valid_field { border-color: #19B201;}
+input:invalid, .LV_invalid_field {border: 1px solid #f00;}
+input:default {}
+input:in-range {}
+input:out-of-range {}
+tr.Checkox-Gewerbe p.FehlermeldungNoJS {width: 150px}
+.Editieren {height: 15px; margin-left: 2px; cursor: pointer; width: 15px}
+.Editieren-Disabled, .Speichern, .In-Adresseingabe-editieren {width: 15px; height: 15px; overflow: hidden; margin-left: 2px; cursor: pointer}
+.Editieren-Disabled {background: url(/images/Checkout/Eingabe-bearbeiten-disabled.gif) no-repeat; display: none}
+.Speichern {background: url(/images/Checkout/Eingabe-speichern.gif) no-repeat; display: none}
+.In-Adresseingabe-editieren {display: block; background: url(/images/Checkout/Eingabe-bearbeiten.gif) no-repeat}
+
+/* Links */
+a, .Teaser-klickbar .Weiterfuehrender-Link {color: #0061a0; text-decoration: none}
+a:hover, a:hover .Produkt-Name, a:hover p .Link {text-decoration: underline}
+.No-Link {color: #000}
+.No-Link:hover, a:hover p {text-decoration: none}
+a p, .Kurztext {color: #3e3e3e}
+a .Link {color: #0061a0}
+
+/* Tooltips neu 2014 */
+span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor: pointer}
+.tooltips:hover {text-decoration: none}
+.tooltips .tooltip, #Artikelsuche-Hinweis, .Info-Link .Info-Text, .Info-Link .Info-Text-JS {position: absolute; color: #3e3e3e; background: #fff; border: 2px solid #ccc; visibility: hidden; border-radius: 5px; padding: 5px; z-index: 250; text-align: center; left: 0}
+.tooltips-drueber .tooltip {width: 300px; bottom: 30px; left: 50%; margin-left: -160px}
+.tooltips-drueber .tooltip::before, .tooltips-drunter .tooltip::before, .Info-Link .Info-Text::before, .Info-Link .Info-Text-JS::before, .tooltips-drueber .tooltip::after, .tooltips-drunter .tooltip::after, #Artikelsuche-Hinweis::after, .Info-Link .Info-Text::after, .Info-Link .Info-Text-JS::after {content: ''; position: absolute; left: 50%; width: 0; height: 0; text-decoration: none !important}
+.tooltips-drueber .tooltip::before, .tooltips-drueber .tooltip::after {top: 100%}
+.tooltips-drunter .tooltip::before, .tooltips-drunter .tooltip::after, #Artikelsuche-Hinweis::after, .Info-Link .Info-Text::before, .Info-Link .Info-Text::after, .Info-Link .Info-Text-JS::before, .Info-Link .Info-Text-JS::after {bottom: 100%}
+.tooltips-drueber .tooltip::after {margin-left: -8px; border-top: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
+.tooltips-drueber .tooltip::before {margin-left: -12px; border-top: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
+.tooltips-drunter .tooltip::after, #Artikelsuche-Hinweis::after, .Info-Link .Info-Text::after, .Info-Link .Info-Text-JS::after {margin-left: -8px; border-bottom: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
+.tooltips-drunter .tooltip::before, #Artikelsuche-Hinweis::before, .Info-Link .Info-Text::before, .Info-Link .Info-Text-JS::before {margin-left: -12px; border-bottom: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
+.Upsell .tooltip {text-align: center; width: 200px; margin-left: -112px}
+.Upsell .tooltip .h3 {margin-top: 10px; font-size: 1.2rem; color: #539d37}
+.Upsell .tooltip .Upsellnein, .Upsell .tooltip .Upsellja {display: inline-block; padding: 0 5px; color: #0061a0}
+.Upsell .tooltip .Upsellja {font-size: 1.4rem}
+.Upsell .tooltip .Upsellnein:hover, .Upsell .tooltip .Upsellja:hover {text-decoration: underline}
+.Upsell.tooltips:hover .tooltip {visibility: hidden; opacity: 0}
+.tooltip-Dateien-hochladen .tooltip {width: 170px; top: 25px; left: auto; right: 0}
+
+/* Formulare */
+form {margin: 0}
+input[type="text"], input[type="textarea"], input[type="email"], input[type="tel"] {width: 100%}
+
+/* Sonstiges */
+hr {border: 0 none; border-top: 1px solid #ccc; margin: 1.5rem 0}
+.Abschnitt {clear: both; position: relative; z-index: 0; zoom: 1}
+.left {float: left; margin: 0 10px 0 0}
+.right, .Sidebar.right {float: right}
+.Produkttabelle-Etikettendesigner .right {float: none}
+#SEO-Footer, #BlogFeedOriginal {margin: 0 15px; clear: both}
+#Blog {padding: 15px 0}
+.Grid-System-Indivdiuelle-Schilder-Materialien, .Grid-System-Wunschschild-Beispiele {display: table; width: 100%}
+.Grid-System-Indivdiuelle-Schilder-Materialien img, .Grid-System-Wunschschild-Beispiele img {width: 100%}
+.SEO-Text h3 {display: inline; float: left; margin: 0 3px 0 0; font-size: 1rem}
+.SEO-Text p {margin: 0 0 1rem 0}
+
+/* Preise */
+.preisvorher, .Streich-Preis {text-decoration: line-through; font-weight: normal}
+.preisnachher, .Rabatt-Preis {color: #F00}
+.Vorrat {text-align: right}
+
+/* Columns Layout NEU */
+.Content {position:relative }
+.Content, .Sidebar, #Breadcrumbs, .Blog, .PM {box-sizing: border-box; position: relative;}
+.Ein-Spalter .Content, #lastSeenProducts {padding: 0 1.25%}
+
+/* Buttons
+==========================*/
+button {font-size: .8rem;}
+.Button-gross, .Button-gross-gruen, .Button-gross-blau, .Button-gross-grau, .Button-klein, .Button-klein-gruen, .Button-klein-blau, .Button-klein-grau, .ui-state-default {display: inline-block; vertical-align:middle}
+[class^="Button"], .Link-Liste a {cursor: pointer; text-decoration: none}
+[class^="Button"]:hover, .Link-Liste a:hover, select:hover {-webkit-box-shadow: 0 0 5px 1px #ccc; -moz-box-shadow: 0 0 5px 1px #ccc; box-shadow: 0 0 5px 1px #ccc; cursor: pointer}
+[type="button"], [type="submit"], [class^="Button-klein"] button, .Link-Liste a {height: 1.5rem;}
+button.Button-gross, [class^="Button-gross"] [type="submit"], .ui-state-default, .Teaser-Newsletter button {height: 2.25rem}
+button.Button-gruen, button.Button-grau, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Button-klein-blau input, .Button-klein-blau a, button:disabled, .Link-Liste a, .ui-state-default {border: 0 none; color: #fff; padding: 3px 15px; cursor: pointer}
+button.Button-gruen, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .ui-state-default, #Chat {background: #509e2f; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM1MDllMmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMzZjhjMjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #509e2f), color-stop(50%, #3f8c24)); background: -webkit-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -o-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -ms-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: linear-gradient(to bottom, #509e2f 50%, #3f8c24 50%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#509e2f', endColorstr='#3f8c24', GradientType=0 )}
+button.Button-grau, .Button-gross-grau input, .Button-gross-grau button, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Titel-grauer-Balken, .Link-Liste a, .ui-state-default:first-child {background: #8c8c8c; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM4YzhjOGMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM2OTY5NjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #8c8c8c), color-stop(50%, #696969)); background: -webkit-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: -o-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: -ms-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: linear-gradient(to bottom, #8c8c8c 50%, #696969 50%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8c8c8c', endColorstr='#696969', GradientType=0 )}
+.Button-klein-gruen a, .Button-klein-grau-Pfeil input {font-size: 0; display: inline-block; height: 18px}
+.Button-klein-grau-Pfeil input {height: 25px; float: right}
+.Button-klein-gruen a::after {content: "Zu den Produkten"; font-size: 14px}
+button.Button-gruen:hover, .Button-gross-gruen input:hover, .Button-gross-gruen a:hover, .Button-klein-gruen input:hover, .Button-klein-gruen a:hover, .Button-gross-gruen button:hover, .Button-klein-gruen button:hover, #Chat:hover {-webkit-box-shadow: 0 0 5px 1px #80dd36; -moz-box-shadow: 0 0 5px 1px #80dd36; box-shadow: 0 0 5px 1px #80dd36}
+.ui-state-default:nth-child(2n) {margin: 0 0 0 10px}
+.Button-close {cursor: pointer; width: 16px; height: 16px; background-position: -750px -102px}
+.ui-button-text {font-weight: bold}
+.ui-dialog-titlebar-close {height: 25px !important; width: 25px !important; right: 0 !important; top: 10px !important}
+.ui-icon-closethick {background: url(/images/Admin/controls.png) -25px 0 !important; height: 25px !important; width: 25px !important}
+.ui-dialog-buttonpane, .ui-state-focus, .ui-state-active {border: 0}
+.Verlauf-weiss-grau {background: #fff; background: -moz-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #c1c1c1)); background: -webkit-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: -o-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: -ms-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: linear-gradient(to bottom, #fff 0%, #c1c1c1 100%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c1c1c1', GradientType=0 )}
+
+/* Titel blau */
+.Titel-Sichern-Sie-sich-den-Kalender {background-position: -290px -75px}
+
+/* Buttons ==========================*/
+/* Banner 1 - Banner ueber gesamte Breite, mit rechtem farbig hinterlegtem Textblock, aehnlich Gratis-Praemien - bislang noch nicht eingesetzt */
+.Banner-1 {position: relative; display: block; border: 1px solid #afafaf}
+.Banner-1 .Produktbild {margin: 15px; display: block}
+.Banner-1 .Headline {position: absolute; display: block; top: 15px; right: 268px; width: 248px}
+.Banner-1 .Headline p {margin: 0; font-size: 1.7rem; font-weight: bold}
+.Banner-1 .Text {position: absolute; display: block; top: 0; right: 0; background: #afafaf; width: 258px; height: 100%}
+.Banner-1 .Text p, .Banner-1 .Text ul {margin: 0; padding: 15px 15px 0 15px; font-size: 1.2rem; color: #fff}
+.Banner-1 .Text ul li .Bullet {margin-top: 2px}
+.Banner-1 .Banner-Link {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1}
+.Banner-1 .Button {position: absolute; bottom: 15px; right: 268px; z-index: 2}
+
+/* Banner 2 - Banner mit rechtem Produktbild, Produkttitel und grossem Kaufen-Button, z.B. auf Themen-Seite Abfallbehaelter */
+.Banner-2 {position: relative; display: block}
+.Banner-2 .Produktbild {margin: 10px; display: block}
+.Banner-2 .Headline {position: absolute; display: block; top: 15px; right: 15px; width: 50%}
+.Banner-2 .Headline p {font-size: 1.25rem; font-weight: bold; text-align: right}
+.Banner-2 .Banner-Link {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1}
+.Banner-2 .Button {position: absolute; bottom: 15px; right: 15px; z-index: 2}
+
+/* Banner-2 Abfallbehaelter, z.B. auf Themen-Seite Abfallbehaelter */
+.Banner-Abfallbehaelter-No-Fingerprint .Produktbild {margin-left: 50px}
+
+/* Ajax Loading Animation ==========================*/
+.loading-indicator {height: 80px; width: 80px; background: url( '/images/Allgemein/loadinfo_48x48.gif' ); background-repeat: no-repeat; background-position: center center}
+.loading-indicator-overlay {background-color: #fff; opacity: 0.6; filter: alpha(opacity = 60)}
+
+/* Color Box ==========================*/
+/*
+	ColorBox Core Style
+	The following rules are the styles that are consistant between themes.
+	Avoid changing this area to maintain compatability with future versions of ColorBox.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper {position: absolute; top: 0; left: 0; z-index: 11000; overflow: hidden;}
+#cboxOverlay {position: fixed; width: 100%; height: 100%}
+#cboxMiddleLeft, #cboxBottomLeft {clear: left}
+#cboxContent {position: relative; overflow: hidden}
+#cboxLoadedContent {overflow: auto; height: 100%; margin-top: 40px}
+#cboxLoadedContent iframe {display: block; width: 100%; height: 95%; border: 0}
+#cboxTitle {margin: 5px 0 0 0}
+#cboxLoadingOverlay, #cboxLoadingGraphic {position: absolute; top: 0; left: 0; width: 100%}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {cursor: pointer}
+
+/* 
+	ColorBox example user style
+	The following rules are ordered and tabbed in a way that represents the
+	order/nesting of the generated HTML, so that the structure easier to understand.
+*/
+#cboxContent, .ui-dialog {background: #fff}
+#cboxLoadedContent {margin-bottom: 20px}
+#cboxTitle {position: absolute; top: 0; left: 0; text-align: center; width: 100%; color: #999}
+#cboxCurrent {position: absolute; bottom: 0; left: 100px; color: #999}
+#cboxSlideshow {position: absolute; bottom: 0; right: 42px; color: #444}
+#cboxPrevious {position: absolute; bottom: 0; left: 0; color: #444}
+#cboxNext {position: absolute; bottom: 0; left: 63px; color: #444}
+#cboxLoadingOverlay {background: url(/images/Admin/loading_background.png) center center no-repeat}
+#cboxLoadingGraphic {background: url(/images/Allgemein/loadinfo_48x48.gif) center center no-repeat}
+#cboxClose {position: absolute; top: 0; right: 0; background: url(/images/Admin/controls.png) -25px 0 no-repeat; width: 25px; height: 25px; text-indent: -9999px}
+#cboxClose.hover {background-position: -25px -25px}
+
+/*
+	The following fixes png-transparency for IE6. 
+	It is also necessary for png-transparency in IE7 & IE8 to avoid 'black halos' with the fade transition
+	
+	Since this method does not support CSS background-positioning, it is incompatible with CSS sprites.
+	Colorbox preloads navigation hover classes to account for this.
+	
+	!! Important Note:AlphaImageLoader src paths are relative to the HTML document, while regular CSS background images are relative to the CSS document.
+*/
+.cboxIE #cboxClose {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/close.png, sizingMethod='scale')}
+.cboxIE #cboxTopLeft {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderTopLeft.png, sizingMethod='scale')}
+.cboxIE #cboxTopLeft {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderTopLeft.png, sizingMethod='scale')}
+.cboxIE #cboxTopCenter {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderTopCenter.png, sizingMethod='scale')}
+.cboxIE #cboxTopRight {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderTopRight.png, sizingMethod='scale')}
+.cboxIE #cboxBottomLeft {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderBottomLeft.png, sizingMethod='scale')}
+.cboxIE #cboxBottomCenter {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderBottomCenter.png, sizingMethod='scale')}
+.cboxIE #cboxBottomRight {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderBottomRight.png, sizingMethod='scale')}
+.cboxIE #cboxMiddleLeft {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderMiddleLeft.png, sizingMethod='scale')}
+.cboxIE #cboxMiddleRight {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderMiddleRight.png, sizingMethod='scale')}
+select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZGVkZWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #fff 0%, #ededed 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #ededed)); background: -webkit-linear-gradient(top, #fff 0%, #ededed 100%); background: -o-linear-gradient(top, #fff 0%, #ededed 100%); background: -ms-linear-gradient(top, #fff 0%, #ededed 100%); background: linear-gradient(to bottom, #fff 0%, #ededed 100%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 )}
+
+/* Wrapper ==========================*/
+#Wrapper {border-spacing: 0; border: 0; margin-bottom: 1rem}
+.sqleft, .sqright {width: 49% !important; margin: 0 !important}
+.sqleft {margin: 0 15px 15px 0 !important}
+.Wrapper-Content, #colorbox, .ui-dialog {-webkit-box-shadow: 0 0 15px 0 rgb(150, 150, 150), 0 0 15px 0 rgb(150, 150, 150); -moz-box-shadow: 0 0 15px 0 rgb(150, 150, 150), 0 0 15px 0 rgb(150, 150, 150); box-shadow: 0 0 15px 0 rgb(150, 150, 150), 0 0 15px 0 rgb(150, 150, 150); overflow: hidden}
+
+/* Skyscraper ==========================*/
+.Skyscraper, #Ostereiersuche {position: fixed; left: 50%; top: 55px; margin-left: 532px}
+#Ostereiersuche {top: 680px; width: 125px; border: .5rem #FFBF00 solid; box-sizing: border-box; text-align: center;}
+#Ostereiersuche h6 {background-color: #FFBF00; margin: 0; font-size: 1rem}
+.Skyscraper iframe, .Skyscraper img {position: relative}
+#Chat {text-align: center; width: 30px; height: 30px; display: block; position: absolute; top: 45px; right: -43px; z-index: -1; color: #fff; padding: 1.25rem .5rem 1.5rem .5rem}
+.icon_chat_alt:before {content: "\77"; display: block; font-size: 1.5rem}
+.icon_adjust-horiz:before {content: "\66"; font-size: 3rem;}
+.icon_ol:before {content: "\65"; font-size: 3rem}
+
+/* Float-Container */
+.Sidebar-left, .Sidebar-right, .Direktverkauf .Content .Grid-last {float: left; padding-bottom: 1.5rem}
+.Sidebar-right, .Direktverkauf .Content .Grid-last {float: right}
+.Direktverkauf .Content .Grid-last {width: 31%}
+.Checkout .Sidebar-left, .Checkout-Adresseingabe .Sidebar-left, .Checkout-Check-and-Send .Sidebar-left, .Checkout-Confirmation-Page .Sidebar-left {margin: 50px 0 0 0}
+
+/* Rahmen ==========================*/
+.Rahmen {padding: 10px;
+ /*box-sizing: border-box;*/}
+.Rahmen .Rahmen-Inhalt {position: relative}
+.Block {margin: 15px 0 0}
+.Block-grau .Grid-System div.Grid {margin: 0; border-right: 1px solid #fff}
+.Block-grau .Grid-System div.Grid-last {border: 0}
+.Grid-System-bg {padding: 20px 0 0 20px}
+.Grid-border-right .Grid-last {border-right: 0}
+
+/* Produktreihe */
+.Produktreihe-Grid-System {background: #ECF5FE; border-collapse: separate; padding: 4px; border-spacing: 0; height: 236px; width: auto}
+.Produktreihe-Grid-System .Grid3 {width: 193px !important; margin: 0 !important; border-right: 1px solid #999; background: #fff; text-align: center; font-size: 0.9rem}
+.Produktreihe-Grid-System .Grid-last {border: 0 !important}
+.Produktreihe-Grid-System .Grid3 .Link-Produkt {display: block; height: 220px; z-index: 0; position: relative}
+.Produktreihe-Grid-System .Grid3 .Link-Produkt .Produkt-Titel {position: absolute; top: 155px; display: block; width: 100%; left: 0}
+.Produktreihe-Grid-System .Grid3 .Link-Produkt .Link-Produkt-Details {position: absolute; bottom: 0; right: 0; display: block}
+.Produktreihe-Grid-System .Grid3 .Link-Mehr-Produkte {position: absolute; z-index: 1; bottom: 8px; left: 7px}
+* html .Produktreihe-Grid-System .Grid3 .Link-Mehr-Produkte {left: 0}
+
+/* Kontakt-Infos ==========================*/
+.Fax, .Hotline, .Mail, .Anschrift, .Info, .Online-Shop {text-align: left; position: relative; left: 0; top: 0; padding-left: 1.5rem; color: #8A8A8A}
+.Fax .Icon, .Hotline .Icon, .Mail .Icon, .Anschrift .Icon, .Info .Icon, .Online-Shop .Icon, .Warenkorb .Icon {position: absolute; left: 0}
+.Teaser-Kontakt div {color: #06609f; margin: 0 0 1rem}
+.Anschrift .Icon {background-position: -84px -105px}
+.Fax span, .Hotline span, .Mail span a, .Anschrift span, .Info span a, .Online-Shop span a, .Warenkorb span a {font-size: 1.1rem; display: block; font-weight: bold}
+
+/* Head ==========================*/
+#Header {width: 100%; position: relative; z-index:90}
+.Logo, #Header .Artikelsuche {margin: 0 0 .75rem 1.25%; vertical-align: top; display: inline-block}
+.Balken {background: #00609F; height: 1.5rem; margin-bottom: 1rem; padding: 10px 15px 0; display: block; line-height: 1rem}
+#Header button {padding: 0 10px; width: 25%;}
+
+/* Meta-Navi */
+#Header .Meta-Navi {position: absolute; right: 28%; list-style-type: none; margin: 0;}
+#Header .Meta-Navi li {float: left; display: inline; margin: 0; padding: 0; border-right: 1px solid #fff}
+#Header .Meta-Navi .last {border: 0}
+#Header .Meta-Navi li a {color: #fff; display: block; padding: 0 10px}
+#Header .Meta-Navi .first a {padding-left: 0}
+#Header .Meta-Navi .last a {padding-right: 0}
+
+/*Artikelsuche */
+#Header .Artikelsuche {margin: 0 0 0 5%; width: 45%;
+ /* overflow: hidden; */}
+.Artikelsuche .Eingabefeld, .Teaser-Newsletter .Eingabefeld {width: 75%; border: 3px solid #00609F; margin: 0 -4px 0 0;vertical-align: top;}
+.Artikelsuche .Eingabefeld {height: 2.5rem;}
+#Footer .Teaser-Newsletter .Eingabefeld {max-width: 55%;}
+.Artikelsuche button {border: 3px solid #00609F; border-left: 0 none; height: 2.5rem;}
+#Header .Artikelsuche .Button-klein-gruen {display: inline-block}
+#Header .Artikelsuche .suggestLayer {margin-top: 5px}
+.suggestContainer {display: none; width: 100%; top: auto; left: 0; padding: 0; margin: 0; background-color: white; z-index: 10001; position: absolute; border: 3px solid #00609F; box-sizing: border-box;}
+.suggestContainer a {display: block; padding: 3px 5px 2px 5px; height: 1.25rem; overflow: hidden; line-height: 1.25rem;}
+.suggestContainer a:hover {text-decoration: underline; background-color: #eee; cursor: pointer;}
+.suggestContainer .suggestEntry {width: 75%; display: inline-table; overflow: hidden;}
+.suggestContainer .suggestContent {color: #f00}
+
+/* Direktbestellung */
+#Header .Direktbestellung {font-weight: bold}
+
+/* Hotline */
+#Header .Hotline {float: right; color: #fff; width: 150px;}
+#Header .Hotline a {color: #fff; cursor: default; line-height: 1.25rem; letter-spacing: .025rem; font-size: 1rem;}
+#Header .Hotline span {display: block; font-weight: normal; margin-top: .75rem}
+
+/* Warenkorb */
+.Warenkorb {position: absolute; top: 53px; right: 1.5%}
+#Header .Warenkorb b {font-size: 1.1rem}
+#Header .Warenkorb button {width: 190px;}
+.Warenkorb :disabled {cursor: default}
+#Header .Warenkorb .Button-klein-grau button:hover {-webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none}
+
+/* Warenkorb-Reminder */
+.Warenkorb-Reminder {background: #EAF5FF; border: 3px solid #00609F; width: 466px; position: absolute; top: 50px; left: 50%; z-index: 100000; margin-left: -226px}
+.Warenkorb-Reminder .Title1 {color: #fff; font-weight: normal; padding: 10px; background: #00609F; margin: 0 0 20px 0}
+.Warenkorb-Reminder .Frau-Einkaufstuete {float: right}
+.Warenkorb-Reminder .Fenster-schliessen {position: absolute; top: 5px; right: 5px; color: #fff}
+.Warenkorb-Reminder .Fenster-schliessen:hover, #Header .Hotline a:hover {text-decoration: none}
+.Warenkorb-Reminder .Warenkorb-Reminder-Content {padding: 60px 0 0 30px; text-align: center}
+.Warenkorb-Reminder .Warenkorb-Reminder-Content span {color: #E60F19; font-size: 1.9rem; display: block; margin: 0.3rem 0}
+.Warenkorb-Reminder .Warenkorb-Reminder-Content .Klein {font-size: 7pt}
+.Warenkorb-Reminder .Warenkorb-Reminder-Content .Fall-2 {font-size: 1.2rem}
+.Warenkorb-Reminder .Bestellung-abschliessen {text-align: center}
+
+/* Hauptnavigation ==========================*/
+.nav-pri { position: relative; z-index:80;}
+.nav-pri ul {list-style-type: none; margin: 0; position: relative; z-index:70;}
+.nav-pri > ul > li {float: left; width: 20%}
+.nav-pri [id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc; background-color: #0061a0;}
+.nav-pri > ul > li:hover > a {background-color: #ccc}
+.nav-pri li:nth-child(5n+2) a {border-left: 0 none}
+.sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; visibility: hidden; opacity: 0; max-height: 0; z-index:70; position:relative; -webkit-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out;}
+li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
+ /* iOS: visibility breaks transition but required for touch events and block is not animatable */
+	-webkit-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in; -moz-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in; -ms-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in; -o-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in; transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in;}
+.sub a, .Teaser-Blog a, .Footer .Grid-System-Sitemap li a {margin: 0 0 .2rem .2rem; display: inline-block; max-width: 94%; vertical-align: top;}
+.sub .Titel, .Thema-Name a {font-weight: bold; margin-left: 0;}
+.nav-third li::before, .Teaser-Blog li::before, .Footer .Grid-System-Sitemap ul li::before, .nav-pri .PfeilLink::before, .Direktbestellung::before, .Weiterfuehrender-Link::before {content: "\203A"}
+#Breadcrumbs, .Breadcrumbs {clear: both; padding: 0.5rem 1.25%}
+.toggle label {color: #0061a0; cursor: pointer}
+.toggle label:hover {text-decoration: underline}
+.toggle .toggle1:checked ~ .toggle-content {height: 3.75rem; overflow: hidden; display: inline-block}
+
+/* Icons fuer Suche, Warenkorb etc. ==========================*/
+.arrow_carrot-right {margin: 0}
+.icon_search::before, .icon_cart_alt::before, .icon_close {cursor: pointer;}
+.arrow_triangle-down::before {content: "\43"}
+.icon_cart_alt::before {content: "\e015"; margin: 0 .5rem 0 0;}
+.icon_search::before {content: "\55"}
+.icon_printer::before {content: "\e103"}
+.icon_mail_alt::before {content: "\e010"}
+.icon_close {content: "\4d"}
+.Info-Icon::before {content: "\72"}
+.Bullet-Haekchen li::before, .Vorteile li::before {content: "\4e";
+margin: 0 .25rem 0 -1rem;}
+.Bullet-Plus li::before {content: "+"; text-align: center; line-height: 20px; display: inline-block; width: 20px; height: 20px; color: #D90F18; font-weight: bold; font-size: 20px; margin: 0 .5rem 0 -20px; background: #fff; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; box-shadow: 1px 1px 5px #C9C9C9; position: relative; top: 2px}
+.arrow_carrot-right::before, .Link-Liste a::before {content: "\35"; font-size: 1.25rem;}
+.Filterparameter a::before {content: "\56"; margin: 0 5px 0 -1.25rem}
+.Filterparameter a:hover::before, .Filterparameter li.active a::before {content: "\5a"; text-decoration: none}
+.Warenkorb .Icon::before {content: "\e015"; font-size: 2rem}
+.Hotline .Icon::before, .icon_phone::before {content: "\e090"}
+.Editieren::after {content: "\6a"}
+.Mail .Icon::before {font-family: Arial}
+.Fax .Icon::before {content: "\e103"; text-transform: uppercase}
+.Mail .Icon::before {content: "@"; font-size: 1.25rem; top: -.2rem}
+.Anschrift .Icon::before {content: "\e010"; font-size: 1.25rem}
+
+/* Teaser ==========================*/
+/* Allgemein */
+.Teaser {position: relative; margin: 0 0 1rem}
+.Teaser-klickbar a {display: block}
+.Teaser-klickbar a:hover {text-decoration: none}
+.Teaser-klickbar a:hover .Weiterfuehrender-Link {color: #0061a0; text-decoration: underline}
+.Sidebar-left .Teaser {margin: 0 0 15px 15px}
+.Sidebar-right .Teaser {margin: 0 15px 15px 0}
+.Teaser-Vorteile-bei-SETON img, .Teaser-Avail-Direkt-mitbestellen .cc-slides {margin: .5rem 0; padding: 0}
+.Teaser-Vorteile .Weiterfuehrender-Link {position: relative; bottom: 0; right: 0; text-align: right}
+.Rahmen {background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMGYwZjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(240, 240, 240, 1))); background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%);}
+.Rahmen {-moz-box-shadow: 0 0 3px rgba(33, 33, 33, 1); -webkit-box-shadow: 0 0 3px rgba(33, 33, 33, 1); box-shadow: 0 0 3px rgba(33, 33, 33, 1)}
+#Warenkorb-Rahmen h1 {font-size: 1.5rem; margin: 0;}
+.Teaser .Kein-Rahmen {padding: 10px 0 15px 0}
+
+/* v1.0.5 */
+/* Core RS CSS file. 95% of time you shouldn't change anything here. */
+.royalSlider {/* width: 600px; */ /* height: 400px; */ position: relative; direction: ltr;}
+.royalSlider > * {float: left;}
+.rsWebkit3d .rsSlide {-webkit-transform: translateZ(0);}
+.rsFade.rsWebkit3d .rsSlide, .rsFade.rsWebkit3d img, .rsFade.rsWebkit3d .rsContainer {-webkit-transform: none;}
+.rsOverflow {width: 100%; height:100%; position: relative; overflow: hidden; float: left; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+.rsVisibleNearbyWrap {width: 100%; height: 100%; position: relative; overflow: hidden; left: 0; top: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+.rsVisibleNearbyWrap .rsOverflow {position: absolute; left: 0; top: 0;}
+.rsContainer {position: relative; width: 100%; height: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+.rsArrow, .rsThumbsArrow {cursor: pointer;}
+.rsThumb {float: left; position: relative;}
+.rsArrow, .rsNav, .rsThumbsArrow {opacity: 1; -webkit-transition: opacity 0.3s linear; -moz-transition: opacity 0.3s linear; -o-transition: opacity 0.3s linear; transition: opacity 0.3s linear;}
+.rsHidden {opacity: 0; visibility: hidden; -webkit-transition: visibility 0s linear 0.3s, opacity 0.3s linear; -moz-transition: visibility 0s linear 0.3s, opacity 0.3s linear; -o-transition: visibility 0s linear 0.3s, opacity 0.3s linear; transition: visibility 0s linear 0.3s, opacity 0.3s linear;}
+.rsGCaption {width: 100%; float: left; text-align: center;}
+
+/* Fullscreen options, very important ^^ */
+.royalSlider.rsFullscreen {position: fixed !important; height: auto !important; width: auto !important; margin: 0 !important; padding: 0 !important; z-index: 1000 !important; top: 0 !important; left: 0 !important; bottom: 0 !important; right: 0 !important;}
+.royalSlider .rsSlide.rsFakePreloader {opacity: 1 !important; -webkit-transition: 0s; -moz-transition: 0s; -o-transition: 0s; transition: 0s; display: none;}
+.rsSlide {position: absolute; left: 0; top: 0; display: block; overflow: hidden; height: 100%; width: 100%;}
+.royalSlider.rsAutoHeight, .rsAutoHeight .rsSlide {height: auto;}
+.rsContent {width: 100%; height: 100%; position: relative;}
+.rsPreloader {position: absolute; z-index: 0;}
+.rsNav {-moz-user-select: -moz-none; -webkit-user-select: none; user-select: none;}
+.rsNavItem {-webkit-tap-highlight-color: rgba(0, 0, 0, 0.25);}
+.rsThumbs {cursor: pointer; position: relative; overflow: hidden; float: left; z-index: 22;}
+.rsTabs {float: left; background: none !important;}
+.rsTabs, .rsThumbs {-webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+.rsVideoContainer {/*left: 0; top: 0; position: absolute;*/ /*width: 100%; height: 100%; position: absolute; left: 0; top: 0; float: left;*/ width: auto; height: auto; line-height: 0; position: relative;}
+.rsVideoFrameHolder {position: absolute; left: 0; top: 0; background: #141414; opacity: 0; -webkit-transition: .3s;}
+.rsVideoFrameHolder.rsVideoActive {opacity: 1;}
+.rsVideoContainer iframe, .rsVideoContainer video, .rsVideoContainer embed, .rsVideoContainer .rsVideoObj {position: absolute; z-index: 50; left: 0; top: 0; width: 100%; height: 100%;}
+
+/* ios controls over video bug, shifting video */
+.rsVideoContainer.rsIOSVideo iframe, .rsVideoContainer.rsIOSVideo video, .rsVideoContainer.rsIOSVideo embed {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding-right: 44px;}
+.rsABlock {left: 0; top: 0; position: absolute; z-index: 15;}
+img.rsImg {max-width: none;}
+.grab-cursor {cursor: url('/css/royalslider/grab.png') 8 8, move;}
+.grabbing-cursor {cursor: url('/css/royalslider/grabbing.png') 8 8, move;}
+.rsNoDrag {cursor: auto;}
+.rsLink {left: 0; top: 0; position: absolute; width: 100%; height: 100%; display: block; z-index: 20; background: url('/css/royalslider/blank.gif');}
+
+/* Background */
+.rsMinW, .rsMinW .rsOverflow, .rsMinW .rsSlide, .rsMinW .rsVideoFrameHolder, .rsMinW .rsThumbs {background: #000; color: #FFF;}
+
+/* 1. Arrows */
+.rsMinW .rsArrow {height: 32px; width: 32px; position: absolute; display: block; cursor: pointer; z-index: 21;}
+.rsMinW .rsArrowLeft {left: 90px; bottom: 10px;}
+.rsMinW .rsArrowRight {left: 120px; bottom: 10px;}
+.rsMinW .rsArrowIcn {width: 24px; height: 24px; margin-top: 3px; margin-left: 3px; position: absolute; cursor: pointer; background: url('/css/royalslider/rs-minimal-white.png') transparent; border-radius: 2px;}
+.rsMinW .rsArrowIcn:hover {}
+.rsMinW.rsHor .rsArrowLeft .rsArrowIcn {background-position: -68px -36px;}
+.rsMinW.rsHor .rsArrowRight .rsArrowIcn {background-position: -68px -68px;}
+.rsMinW.rsVer .rsArrowLeft .rsArrowIcn {background-position: -100px -36px;}
+.rsMinW.rsVer .rsArrowRight .rsArrowIcn {background-position: -100px -68px;}
+.rsMinW .rsArrowDisabled .rsArrowIcn {opacity: .3 !important; filter: alpha(opacity=30); *display: none;}
+
+/* 2. Bullets */
+.rsMinW .rsBullets {position: absolute; bottom: 18px; left: 10px; z-index: 35; padding-top: 4px; height: auto; text-align: center; line-height: 6px; overflow: hidden;}
+.rsMinW .rsBullet {width: 6px; height: 6px; display: inline-block; *display: inline; *zoom: 1; padding: 6px 5px 6px 4px;}
+.rsMinW .rsBullet span {display: block; width: 6px; height: 6px; border-radius: 50%; background: #CCC; background: rgba(255, 255, 255, 0.5); box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);}
+.rsMinW .rsBullet.rsNavSelected span {background: #FFF;}
+
+/* 3. Thumbnails */
+.rsMinW .rsThumbsHor {width: 100%; height: auto;}
+.rsMinW .rsThumbsVer {width: 96px; height: 100%; position: absolute; top: 0; right: 0;}
+.rsMinW.rsWithThumbsHor .rsThumbsContainer {position: relative; height: 100%;}
+.rsMinW.rsWithThumbsVer .rsThumbsContainer {position: relative; width: 100%;}
+.rsMinW .rsThumb {float: left; overflow: hidden; width: 96px; height: 72px;}
+.rsMinW .rsThumb img {width: 100%; height: 100%;}
+.rsMinW .rsThumb.rsNavSelected {background: #333;}
+.rsMinW .rsThumb.rsNavSelected img {filter: alpha(opacity=40); opacity: 0.7;}
+.rsMinW .rsThumb.rsNavSelected span.thumbIco {position: absolute; top: 0; bottom: 0; left: 0; right: 0; border: 2px solid #FFF; border: 2px solid rgba(255, 255, 255, 0.9); -webkit-backface-visibility: hidden;}
+.rsMinW .rsTmb {display: block;}
+
+/* Thumbnails arrow icons */
+.rsMinW .rsThumbsArrow {height: 100%; width: 20px; position: absolute; display: block; cursor: pointer; z-index: 21;}
+.rsMinW.rsWithThumbsVer .rsThumbsArrow {width: 100%; height: 20px;}
+.rsMinW.rsWithThumbsVer .rsThumbsArrowLeft {top: 0; left: 0;}
+.rsMinW.rsWithThumbsVer .rsThumbsArrowRight {bottom: 0; left: 0;}
+.rsMinW.rsWithThumbsHor .rsThumbsArrowLeft {left: 0; top: 0;}
+.rsMinW.rsWithThumbsHor .rsThumbsArrowRight {right: 0; top: 0;}
+.rsMinW .rsThumbsArrowIcn {width: 16px; height: 16px; top: 50%; left: 50%; margin-top: -8px; margin-left: -8px; position: absolute; cursor: pointer; background: url('/css/royalslider/rs-minimal-white.png');}
+.rsMinW.rsWithThumbsHor .rsThumbsArrowLeft .rsThumbsArrowIcn {background-position: -128px -32px;}
+.rsMinW.rsWithThumbsHor .rsThumbsArrowRight .rsThumbsArrowIcn {background-position: -128px -48px;}
+.rsMinW.rsWithThumbsVer .rsThumbsArrowLeft .rsThumbsArrowIcn {background-position: -144px -32px;}
+.rsMinW.rsWithThumbsVer .rsThumbsArrowRight .rsThumbsArrowIcn {background-position: -144px -48px;}
+.rsMinW .rsThumbsArrowDisabled {display: none !important;}
+
+/* Thumbnails resizing on smaller screens */
+@media screen and (min-width: 0px) and (max-width: 800px) {.rsMinW .rsThumb {width: 59px; height: 44px}
+	.rsMinW .rsThumbsHor {height: 44px}
+	.rsMinW .rsThumbsVer {width: 59px} }
+
+/* 4. Tabs */
+.rsMinW .rsTabs {width: 100%; height: auto; margin: 0 auto; text-align: center; overflow: hidden; padding-top: 12px; position: relative;}
+.rsMinW .rsTab {display: inline-block; cursor: pointer; text-align: center; height: auto; width: auto; color: #333; padding: 5px 13px 6px; min-width: 72px; border: 1px solid #D9D9DD; border-right: 1px solid #f5f5f5; text-decoration: none; background-color: #000; background-image: -webkit-linear-gradient(top, #fefefe, #f4f4f4); background-image: -moz-linear-gradient(top, #fefefe, #f4f4f4); background-image: linear-gradient(to bottom, #fefefe, #f4f4f4); *display: inline; *zoom: 1;}
+.rsMinW .rsTab:first-child {-webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px;}
+.rsMinW .rsTab:last-child {-webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; border-right: 1px solid #cfcfcf;}
+.rsMinW .rsTab:active {border: 1px solid #D9D9DD; background-color: #f4f4f4; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset;}
+.rsMinW .rsTab.rsNavSelected {color: #000; border: 1px solid #999; text-shadow: 1px 1px #838383; box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset; background: #ACACAC; background-image: -webkit-linear-gradient(top, #ACACAC, #BBB); background-image: -moz-llinear-gradient(top, #ACACAC, #BBB); background-image: linear-gradient(to bottom, #ACACAC, #BBB);}
+
+/* 5. Fullscreen button */
+.rsMinW .rsFullscreenBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 22; display: block; position: absolute; cursor: pointer;}
+.rsMinW .rsFullscreenIcn {display: block; margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-minimal-white.png') 0 0 transparent;}
+.rsMinW .rsFullscreenIcn:hover {opacity: 0.8;}
+.rsMinW.rsFullscreen .rsFullscreenIcn {background-position: -32px 0;}
+
+/* 6. Play/close video button */
+.rsMinW .rsPlayBtn {-webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); width: 64px; height: 64px; margin-left: -32px; margin-top: -32px; cursor: pointer;}
+.rsMinW .rsPlayBtnIcon {width: 64px; display: block; height: 64px; -webkit-border-radius: 4px; border-radius: 4px; -webkit-transition: .3s; -moz-transition: .3s; transition: .3s; background: url('/css/royalslider/rs-minimal-white.png') no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000;}
+.rsMinW .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, 0.9);}
+.rsMinW .rsBtnCenterer {position: absolute; left: 50%; top: 50%; width: 20px; height: 20px;}
+.rsMinW .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0);}
+.rsMinW .rsCloseVideoBtn.rsiOSBtn {top: -38px; right: -6px;}
+.rsMinW .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-minimal-white.png') -64px 0; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000;}
+.rsMinW .rsCloseVideoIcn:hover {background-color: rgba(0, 0, 0, 0.9);}
+
+/* 7. Preloader */
+.rsMinW .rsPreloader {width: 20px; height: 20px; background-image: url('/css/preloaders/preloader-white.gif'); left: 50%; top: 50%; margin-left: -10px; margin-top: -10px;}
+
+/* 8. Global caption */
+.rsMinW .rsGCaption {position: absolute; float: none; bottom: 6px; left: 6px; text-align: left; background: #000; background: rgba(0, 0, 0, 0.75); color: #FFF; padding: 2px 8px; width: auto; font-size: 12px; border-radius: 2px;}
+.rsMinW, .rsMinW .rsOverflow, .rsMinW .rsSlide, .rsMinW .rsVideoFrameHolder, .rsMinW .rsThumbs, .rsSlide {background: transparent}
+
+/* RoyalSlider Default Skin */
+/* Background */
+.rsDefault, .rsDefault .rsOverflow, .rsDefault .rsSlide, .rsDefault .rsVideoFrameHolder, .rsDefault .rsThumbs {color: #FFF;}
+.rsFullscreen, .rsFullscreen .rsNav {background: #111 !important}
+
+/* 1. Arrows */
+.rsDefault .rsArrow {height: 100%; width: 44px; position: absolute; display: block; cursor: pointer; z-index: 21;}
+.rsDefault.rsVer .rsArrow {width: 100%; height: 44px;}
+.rsDefault.rsVer .rsArrowLeft {top: 0; left: 0;}
+.rsDefault.rsVer .rsArrowRight {bottom: 0; left: 0;}
+.rsDefault.rsHor .rsArrowLeft {left: 0; top: 0;}
+.rsDefault.rsHor .rsArrowRight {right: 0; top: 0;}
+.rsDefault .rsArrowIcn {width: 32px; height: 32px; top: 50%; left: 50%; margin-top: -16px; margin-left: -16px; position: absolute; cursor: pointer; background: url('/css/royalslider/rs-default.png'); background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000; border-radius: 2px;}
+.rsDefault .rsArrowIcn:hover {background-color: rgba(0, 0, 0, 0.9);}
+.rsDefault.rsHor .rsArrowLeft .rsArrowIcn {background-position: -64px -32px;}
+.rsDefault.rsHor .rsArrowRight .rsArrowIcn {background-position: -64px -64px;}
+.rsDefault.rsVer .rsArrowLeft .rsArrowIcn {background-position: -96px -32px;}
+.rsDefault.rsVer .rsArrowRight .rsArrowIcn {background-position: -96px -64px;}
+.rsDefault .rsArrowDisabled .rsArrowIcn {opacity: .2; filter: alpha(opacity=20); *display: none;}
+
+/* 2. Bullets */
+.rsDefault .rsBullets {position: absolute; z-index: 35; left: 0; bottom: 0; width: 100%; height: auto; margin: 0 auto; background: #000; background: rgba(0, 0, 0, 0.75); text-align: center; line-height: 8px; overflow: hidden;}
+.rsDefault .rsBullet {width: 8px; height: 8px; display: inline-block; *display: inline; *zoom: 1; padding: 6px 5px 6px;}
+.rsDefault .rsBullet span {display: block; width: 8px; height: 8px; border-radius: 50%; background: #777; background: rgba(255, 255, 255, 0.5);}
+.rsDefault .rsBullet.rsNavSelected span {background-color: #FFF;}
+
+/* 3. Thumbnails */
+.rsDefault .rsThumbsHor {width: 100%; height: auto;}
+.rsDefault .rsThumbsVer {width: 96px; height: 100%; position: absolute; top: 0; right: 0;}
+.rsDefault.rsWithThumbsHor .rsThumbsContainer {position: relative; height: 100%;}
+.rsDefault.rsWithThumbsVer .rsThumbsContainer {position: relative; width: 100%;}
+.rsDefault .rsThumb {float: left; overflow: hidden; width: 96px; height: 72px;}
+.rsDefault .rsThumb img {width: 100%; height: 100%;}
+.rsDefault .rsThumb.rsNavSelected {background: #02874a;}
+.rsDefault .rsThumb.rsNavSelected img {opacity: 0.3; filter: alpha(opacity=30);}
+.rsDefault .rsTmb {display: block;}
+
+/* Thumbnails with text */
+.rsDefault .rsTmb h5 {font-size: 16px; margin: 0; padding: 0; line-height: 20px; color: #FFF;}
+.rsDefault .rsTmb span {color: #DDD; margin: 0; padding: 0; font-size: 13px; line-height: 18px;}
+
+/* Thumbnails arrow icons */
+.rsDefault .rsThumbsArrow {height: 100%; width: 20px; position: absolute; display: block; cursor: pointer; z-index: 21; background: #000; background: rgba(0, 0, 0, 0.75);}
+.rsDefault .rsThumbsArrow:hover {background: rgba(0, 0, 0, 0.9);}
+.rsDefault.rsWithThumbsVer .rsThumbsArrow {width: 100%; height: 20px;}
+.rsDefault.rsWithThumbsVer .rsThumbsArrowLeft {top: 0; left: 0;}
+.rsDefault.rsWithThumbsVer .rsThumbsArrowRight {bottom: 0; left: 0;}
+.rsDefault.rsWithThumbsHor .rsThumbsArrowLeft {left: 0; top: 0;}
+.rsDefault.rsWithThumbsHor .rsThumbsArrowRight {right: 0; top: 0;}
+.rsDefault .rsThumbsArrowIcn {width: 16px; height: 16px; top: 50%; left: 50%; margin-top: -8px; margin-left: -8px; position: absolute; cursor: pointer; background: url('/css/royalslider/rs-default.png');}
+.rsDefault.rsWithThumbsHor .rsThumbsArrowLeft .rsThumbsArrowIcn {background-position: -128px -32px;}
+.rsDefault.rsWithThumbsHor .rsThumbsArrowRight .rsThumbsArrowIcn {background-position: -128px -48px;}
+.rsDefault.rsWithThumbsVer .rsThumbsArrowLeft .rsThumbsArrowIcn {background-position: -144px -32px;}
+.rsDefault.rsWithThumbsVer .rsThumbsArrowRight .rsThumbsArrowIcn {background-position: -144px -48px;}
+.rsDefault .rsThumbsArrowDisabled {display: none !important;}
+
+/* Thumbnails resizing on smaller screens */
+@media screen and (min-width: 0px) and (max-width: 800px) {.rsDefault .rsThumb {width: 59px; height: 44px}
+	.rsDefault .rsThumbsHor {height: 44px}
+	.rsDefault .rsThumbsVer {width: 59px} }
+
+/* 4. Tabs */
+.rsDefault .rsTabs {width: 100%; height: auto; margin: 0 auto; text-align: center; overflow: hidden; padding-top: 12px; position: relative;}
+.rsDefault .rsTab {display: inline-block; cursor: pointer; text-align: center; height: auto; width: auto; color: #333; padding: 5px 13px 6px; min-width: 72px; border: 1px solid #D9D9DD; border-right: 1px solid #f5f5f5; text-decoration: none; background-color: #FFF; background-image: -webkit-linear-gradient(top, #fefefe, #f4f4f4); background-image: -moz-linear-gradient(top, #fefefe, #f4f4f4); background-image: linear-gradient(to bottom, #fefefe, #f4f4f4); -webkit-box-shadow: inset 1px 0 0 #fff; box-shadow: inset 1px 0 0 #fff; *display: inline; *zoom: 1;}
+.rsDefault .rsTab:first-child {-webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px;}
+.rsDefault .rsTab:last-child {-webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; border-right: 1px solid #cfcfcf;}
+.rsDefault .rsTab:active {border: 1px solid #D9D9DD; background-color: #f4f4f4; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset;}
+.rsDefault .rsTab.rsNavSelected {color: #FFF; border: 1px solid #999; text-shadow: 1px 1px #838383; box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset; background: #ACACAC; background-image: -webkit-linear-gradient(top, #ACACAC, #BBB); background-image: -moz-llinear-gradient(top, #ACACAC, #BBB); background-image: linear-gradient(to bottom, #ACACAC, #BBB);}
+
+/* 5. Fullscreen button */
+.rsDefault .rsFullscreenBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 22; display: block; position: absolute; cursor: pointer;}
+.rsDefault .rsFullscreenIcn {display: block; margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-default.png') 0 0; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000; border-radius: 2px;}
+.rsDefault .rsFullscreenIcn:hover {background-color: rgba(0, 0, 0, 0.9);}
+.rsDefault.rsFullscreen .rsFullscreenIcn {background-position: -32px 0;}
+
+/* 6. Play/close video button */
+.rsDefault .rsPlayBtn {-webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); width: 64px; height: 64px; margin-left: -32px; margin-top: -32px; cursor: pointer;}
+.rsDefault .rsPlayBtnIcon {width: 64px; display: block; height: 64px; -webkit-border-radius: 4px; border-radius: 4px; -webkit-transition: .3s; -moz-transition: .3s; transition: .3s; background: url(rs-default.png) no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000;}
+.rsDefault .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, 0.9);}
+.rsDefault .rsBtnCenterer {position: absolute; left: 50%; top: 50%; width: 20px; height: 20px;}
+.rsDefault .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0);}
+.rsDefault .rsCloseVideoBtn.rsiOSBtn {top: -38px; right: -6px;}
+.rsDefault .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-default.png') -64px 0; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000;}
+.rsDefault .rsCloseVideoIcn:hover {background-color: rgba(0, 0, 0, 0.9);}
+
+/* 7. Preloader */
+.rsDefault .rsPreloader {width: 20px; height: 20px; background-image: url(/css/preloaders/preloader-white.gif); left: 50%; top: 50%; margin-left: -10px; margin-top: -10px;}
+
+/* 8. Global caption */
+.rsDefault .rsGCaption {position: absolute; float: none; bottom: 6px; left: 6px; text-align: left; background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.75); color: #FFF; padding: 2px 8px; width: auto; font-size: 12px; border-radius: 2px;}
+
+/* Teaser Vorteile bei SETON */
+.Teaser-Vorteile-bei-SETON .Rahmen-Inhalt {padding-bottom: 20px}
+.Teaser-Vorteile-bei-SETON-bvh td img {text-align: center}
+
+/* Teaser Blaetterkatalog */
+.Teaser-Blaetterkatalog .Kein-Rahmen {height: 170px}
+
+/* Teaser Vorteilsnummer */
+.Teaser-Vorteilsnummer #rabatt p, .Teaser-Vorteilsnummer #hinweis p {padding-bottom: 20px; margin-bottom: 0}
+.Checkout .Teaser-Vorteilsnummer {/* width:400px; */
+	float: left; margin: 10px 0}
+.Checkout .Teaser-Vorteilsnummer .Rahmen {-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; border: 1px solid #ccc}
+.Checkout .Teaser-Vorteilsnummer .Eingabefeld {width: 100px; margin-right: 10px}
+.Checkout .Teaser-Vorteilsnummer .Button-klein-T-Hinzufuegen {float: left; margin-top: 10px}
+.Checkout .Teaser-Vorteilsnummer #hinweis {padding-top: 10px}
+
+/* Teaser Blog */
+.Sidebar-left #result a, .Sidebar-right #result a {font-size: .9rem}
+
+/* Front page teaser mit Bild */
+.Teaser-Weihnachtsbaum-Gewinnspiel img {position: absolute; left: 0; bottom: 0}
+.Teaser-Neu-bei-SETON img {top: 60px; left: 20px}
+.Teaser-Spar-Angebote img, .Teaser-Katalog img, .col3 .NL-Aktion {position: absolute; right: 1rem; top: 1rem;}
+.Trusted-Shop-Kundenbewertung, .bvh-teaser {text-align: center ; display: block}
+.Trusted-Shop-Kundenbewertung span {font-size: 9px; white-space: nowrap}
+
+/* Teaser Newsletter */
+.Teaser-Newsletter form {position: absolute; clear: both; bottom: .75rem;}
+.Teaser-Newsletter .Eingabefeld {border: 1px solid #ccc;}
+.Teaser-Newsletter button {height: 32px;}
+.Teaser-Newsletter p.LV_validation_message, .Teaser-Newsletter .Hinweistext {position: absolute; bottom: 100%; margin: 0; max-width: 100%;}
+
+/* Teaser Ostereiersuche */
+.Teaser-Ostereiersuche .Button-klein-T-Zum-Gewinnspiel {position: absolute; bottom: 0; right: 0}
+
+/* Teaser Kontakt */
+.Teaser-Kontakt .Hotline span, .Teaser-Kontakt .Fax span, .Teaser-Kontakt .Mail span, .Teaser-Kontakt .Anschrift span {font-size: 0.9rem; color: #8A8A8A; display: block; letter-spacing: 0; font-weight: normal}
+
+/* Top-Suchbegriffe */
+.Top-Suchbegriffe {text-align: center}
+.Top-Suchbegriffe .SuchbegriffSize1 {font-size: 10pt}
+.Top-Suchbegriffe .SuchbegriffSize2 {font-size: 11pt; font-weight: bold}
+.Top-Suchbegriffe .SuchbegriffSize3 {font-size: 12pt; font-weight: bold}
+.Top-Suchbegriffe .SuchbegriffSize4 {font-size: 16pt}
+
+/* Designcode-Artikelauswahl ==========================*/
+.Designcode-Artikelauswahl .label {margin: 0 0 0.3rem 0; font-weight: bold}
+
+/* PDS Produktbilder mit JS */
+.Designcode-Artikelauswahl .royalSlider {width:100%; height: 315px; display: inline-block; margin: 0; max-width: 100%;}
+.rsFullscreen .rsFullscreenBtn {top: 287px}
+
+/* Pfeile */
+.royalSlider .icon_pause_alt2::before {content: "\5f"; font-size: 2rem;}
+.royalSlider .arrow_carrot-left_alt2::before {content: "\3c"; font-size: 2rem;}
+.royalSlider .arrow_triangle-right_alt2::before {content: "\49"; font-size: 2rem;}
+.royalSlider .arrow_carrot-2right_alt2::before {content: "\3d"; font-size: 2rem;}
+.Designcode-Artikelauswahl .rsSlide, .Designcode-Artikelauswahl .rsThumb, .cc-slides .Bild, .Top-Kategorie-Schilder .Bild, .product-list-item a {display: block}
+.Designcode-Artikelauswahl .rsOverflow { height:243px !important /* rs berechnet HÃƒÂ¶he nicht korrekt */ }
+.Designcode-Artikelauswahl .rsFullscreen .rsSlide {width: 100%; height: auto}
+.Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide img, .Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide .Rotating-image {margin: 0 auto !important}
+.rsArrowDisabled {display: none !important}
+
+/* Bildbeschreibung */
+.Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption {bottom: 72px; width: 100%; background: rgba(255, 255, 255, 0.9); box-sizing: border-box; padding: 0; border-radius: 0; left: 0 }
+.Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure {padding: .5rem 1rem; text-align: center; margin: 0}
+
+/* Horizontale Thumb-Scrollleiste */
+.Designcode-Artikelauswahl .rsDefault .rsThumb {background: none !important}
+.Designcode-Artikelauswahl .rsDefault .rsThumb img {opacity: .4; margin: 0 auto}
+.Designcode-Artikelauswahl .rsDefault .rsThumb .Rotating-image-icon {position: absolute; top: 50%; left: 30px}
+.Designcode-Artikelauswahl .rsDefault .rsThumb .rsNavSelected {background: #fff !important}
+.Designcode-Artikelauswahl .rsDefault .rsThumb:hover img, .Designcode-Artikelauswahl .rsDefault .rsThumb.rsNavSelected img {opacity: 1}
+
+/* 360-Bilder */
+.Designcode-Artikelauswahl .Rotating-image #spritespin {height: auto; width: 314px; max-width: 314px; max-height: 314px; margin: 0 auto}
+.Designcode-Artikelauswahl .Rotating-image .Buttons-360 {width: 100%; height: 40px; background: #fff; position: absolute; bottom: 0; left: 0; opacity: 0.6}
+.Designcode-Artikelauswahl .Rotating-image #reverse {display: none; visibility: hidden}
+.Designcode-Artikelauswahl .Rotating-image #prev, .Designcode-Artikelauswahl .Rotating-image #toggle, .Designcode-Artikelauswahl .Rotating-image #next {display: inline-block; font-size: 3rem; margin: .5rem; cursor: pointer; opacity: .75}
+.Designcode-Artikelauswahl .Rotating-image #prev:hover, .Designcode-Artikelauswahl .Rotating-image #toggle:hover, .Designcode-Artikelauswahl .Rotating-image #next:hover {opacity: 1; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none}
+.Designcode-Artikelauswahl .Rotating-image #prev, .Designcode-Artikelauswahl .Rotating-image #toggle, .Designcode-Artikelauswahl .Rotating-image #next {font-size: 2rem; position: absolute; bottom: 0; color: #000; margin-left: -20px}
+.Designcode-Artikelauswahl .Rotating-image #prev {left: 33%}
+.Designcode-Artikelauswahl .Rotating-image #toggle {left: 50%}
+.Designcode-Artikelauswahl .Rotating-image #next {left: 66%}
+
+/* Fullscreen-Ergaenzungen */
+.Designcode-Artikelauswahl .rsFullscreen .rsArrow {height: 100%; top: 0 !important}
+.Designcode-Artikelauswahl .rsFullscreen .rsThumbsHor {width: 100% !important}
+.Designcode-Artikelauswahl .rsFullscreen, .Designcode-Artikelauswahl .rsFullscreen .rsNav {background: #111 !important}
+.Designcode-Artikelauswahl .rsFullscreen .rsOverflow , .Designcode-Artikelauswahl .rsFullscreen .rsSlide {background: #000 !important; text-align: center;}
+.Designcode-Artikelauswahl .rsFullscreen .rsSlide img {max-width: 100% !important; max-height: 800px !important}
+.Designcode-Artikelauswahl .rsFullscreen .rsSlide iframe {width: 600px !important; height: 600px !important}
+.Designcode-Artikelauswahl .rsFullscreen .rsThumb.rsNavSelected {background: #000 !important}
+.Designcode-Artikelauswahl .rsFullscreen .Rotating-image #spritespin {width: 600px; max-width: 600px; max-height: 600px}
+.Designcode-Artikelauswahl .rsFullscreen .Rotating-image .Buttons-360 {height: 70px; position: relative; background: none; opacity: 1}
+.Designcode-Artikelauswahl .rsFullscreen .Rotating-image #prev, .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #toggle, .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #next {left: 0; font-size: 3rem !important; position: relative !important; color: #fff !important; margin: 10px 20px 0}
+.rsFullscreen .rsFullscreenBtn {right: 20px; top: 20px}
+
+/* PDS Produktbilder ohne JS */
+.Designcode-Artikelauswahl-NJS .article-PDS-Produktbilder .Grid-inner {margin: 0}
+.Designcode-Artikelauswahl-NJS .bugaga {width: 99px; height: 99px; margin-right: 9px; text-align: center; display: table-cell; vertical-align: middle}
+.Designcode-Artikelauswahl-NJS .bugaga img {display: inline; margin: 0; max-height: 100%; max-width: 100%; height: auto; width: auto; vertical-align: middle}
+.Designcode-Artikelauswahl-NJS .bugaga:first-child {width: 315px; height: 315px; margin: 0 0 9px 0}
+.Designcode-Artikelauswahl #KeinHauptbild {font-size: .9rem}
+.Designcode-Artikelauswahl #hauptbilda img {width: 100%}
+.Designcode-Artikelauswahl #KeinHauptbild span {display: block; color: #999; line-height: 1.3; background: #fff; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; filter: alpha(opacity=80); -moz-opacity: 0.8; -khtml-opacity: 0.8; opacity: 0.8; margin: 0 !important; padding: 8px 80px 8px 10px !important; margin-right: 20px}
+#Wischer-Rabatt {position: absolute; top: 0; display: block; left: 0}
+#Videos {position: absolute; top: 0; left: 0}
+#Crosseller .label {border-bottom: 1px solid #ccc; line-height: 1.5rem; font-size: 1rem; font-weight: bold}
+.Dropdowns .Titel-unterstrichen {padding-top: 10px}
+.Dropdowns {width: 100%; display: inline-block}
+.Dropdowns-item {padding: 0 0 10px 0; width: 100%; position: relative}
+.Dropdowns-item label {width: 35%; overflow: hidden; text-overflow: ellipsis; display: inline-block; vertical-align: middle}
+.Inventarketiketten-Designer .Dropdowns-item label {width: 100%}
+.Dropdowns-item select {width: 65%}
+.info_pulldown_changed {font-size: 0.9rem; color: #FF0000; display: none; padding: 3px 0}
+.Produktdaten .Dropdowns a {text-decoration: underline}
+.Produktdaten .Dropdowns #produkt-details {margin: 0 0 10px 0}
+.Produktdaten .article-Dropdowns table {border-collapse: collapse; width: auto; padding: 0; margin: 0; border-spacing: 0; font-size: 1rem}
+.Produktdaten .article-Dropdowns th {font-weight: normal; width: 30%; height: 1.5rem; padding-left: 0}
+.Produktdaten .article-Dropdowns td {padding-right: 0}
+#AllgArtMerkTabelle {width: 100%}
+#Kundenwunsch textarea {width: 96%}
+#alle-artikel-anzeigen {padding: 15px 0 0 0; display: block}
+.Produktergebnis-inner, #orderinfo {padding: 1rem 1rem 0 1rem;}
+.Artikelnummmer {margin: 0.5rem 0;}
+.Content .Preisbox {text-align: right}
+.Preisbox .Preis {font-size: 1rem; font-weight: bold; margin-bottom: 5px; white-space: nowrap}
+.Preisbox .zzgl-MwSt {font-size: 0.8rem; margin: 0}
+.Preisbox .Rabatt {font-size: 1.2rem; color: #f00; font-weight: bold; margin: 0}
+.Inventarketiketten-Designer .Preisbox {position: absolute; right: 30px; top: 80px}
+.Einrichtungsgebuehr .tooltip {width: 230px; text-align: left; left: auto; right: 0; top: 25px}
+.Info-Link:hover .Info-Text, .Info-Link:hover .Info-Text-JS {left: -8px; bottom: 15px; display: block !important; width: 200px}
+.Einrichtungsgebuehr .tooltip table {border-collapse: collapse; width: 100%}
+.Einrichtungsgebuehr .tooltip table td {padding: 2px 0}
+.Einrichtungsgebuehr .tooltip table td:last-child {text-align: right}
+.Einrichtungsgebuehr .tooltip::before, #Artikelsuche-Hinweis::before, .Info-Link .Info-Text::before, .Info-Link .Info-Text-JS::before, .Einrichtungsgebuehr .tooltip::after, #Artikelsuche-Hinweis::after, .Info-Link .Info-Text::after, .Info-Link .Info-Text-JS::after {left: 90%}
+.Produktergebnis, .Kopfnummerninfos-Tabs .Tabs-Content {border: 1px solid #ccc}
+.Produktergebnis .Bestellbox {float: right}
+.Produktergebnis .Menge label {display: block; margin-bottom: 5px}
+.Produktergebnis .Menge #Menge {text-align: right}
+.Produktergebnis #Fehlertext {width: 100%; padding: 5px 0; text-align: center; background: #D4E4F3; margin-top: 10px}
+.Inventarketiketten-Designer .Button-gross-gruen {float: right}
+
+/* Preisstaffel */
+.Inventarketiketten-Designer .Preisstaffel-Start, .preissstaffel-jcarousel-skin-tango {display: inline-block; vertical-align: top; width: auto}
+#Preisstaffel-Carousel {width: auto !important}
+.Preisstaffel th {padding-left: 15px; padding-right: 15px}
+.Preisstaffel td {text-align: right}
+.Preisstaffel td:first-child {text-align: left ; padding-left: 1rem}
+.Preisstaffel td:last-child {padding-right: 1rem}
+.Designcode-Artikelauswahl .Produktdaten #Zuschlaege {margin-bottom: 10px; font-size: 0.9rem}
+
+/* Kopfnummerninfos */
+.Inventarketiketten-Designer .Produkttabelle-Zuschlaege {margin: 15px 0}
+.Kopfnummerninfos-Tabs .Tabs li {float: left; position: relative; margin: 0 3px 0 0; height: 1px; vertical-align: top}
+.Kopfnummerninfos-Tabs .Tabs .active a {background-position: 0 -24px; color: #fff}
+.Inventarketiketten-Designer .Tab-Content {display: block !important; margin: 0 0 15px 0}
+.Kopfnummerninfos-Tabs .Tabs-Content .Tabs-Content-2 {margin: 10px}
+.Tabs-Content .Weitere-Informationen-item {margin: 0 0 15px 0}
+.Tabs-Content h3 {margin: 0}
+.Services-rund-ums-Produkt {list-style-type: none; margin: 0; /* font-size:.9rem; */
+	/* display:inline-block */}
+.Services-rund-ums-Produkt li {display: inline-block; text-align: center; margin: 0 -4px 0 0;}
+.Inventarketiketten-Designer .Services-rund-ums-Produkt li {width: 25%}
+.Services-rund-ums-Produkt li a {display: block; height: 90px; padding: 3px; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px;}
+.Inventarketiketten-Designer .Services-rund-ums-Produkt li a {height: auto}
+.Services-rund-ums-Produkt li a:hover {background: #F7F7F7; text-decoration: none !important}
+.Services-rund-ums-Produkt li img {display: block; margin: 0 auto; margin-bottom: 3px}
+.Services-rund-ums-Produkt li i::before {display: block; font-size: 32px; line-height: 55px; margin-bottom: 5px; text-decoration: none !important}
+.Services-rund-ums-Produkt .Muster-Anforderung img {margin-top: 14px; margin-bottom: 14px}
+.Produktliste {max-width: 100%; overflow-x: auto}
+.produkt-liste table {width: 100%}
+.produkt-liste tr {cursor: pointer}
+.produkt-liste tr:hover {background: #ccc}
+.produkt-liste th {white-space: nowrap}
+.produkt-liste .artnrliste {width: 80px}
+#rabattdisclaimer {margin: 5px 15px}
+.Designcode-Artikelauswahl .addthis_toolbox {float: right}
+.social_share_privacy_area {margin: 0}
+.social_share_privacy_area .dummy_btn {margin-left: 5px !important}
+.social_share_privacy_area .facebook {width: 130px !important}
+.social_share_privacy_area .twitter {width: 103px !important}
+.social_share_privacy_area .tweet {width: 55px !important}
+.Designcode-Artikelauswahl .Drucken, #socialshareprivacy {float: right}
+.Produktliste h2, .Tab-Content h2, .Produktliste h3, .Tab-Content h3 {margin-top: 0}
+#PDS-Content .Wischer {float: right; margin: -5px 0 0 5px}
+#Kopfnummernbeschreibung h2::after {content: ''; border-bottom: 1px solid #ccc; display: block; margin: 0 0 15px 0}
+#Kopfnummernbeschreibung .pds-desc-title {border-bottom: 1px solid #ccc; margin: 0 0 15px 0;}
+#Kopfnummernbeschreibung .pds-desc-title h2::after {border-bottom: 0; margin: 0}
+.Tab-Content table td {padding-left: 0}
+
+/* Produktuebersichtsseite (PUES) ==========================*/
+.PUES .Factfinder-Copyright {display: block !important; text-align: center}
+.Produkt-Slider {overflow: hidden}
+.Produkt-Slider ul {margin: 0; padding: 0; list-style-type: none}
+.Produkt-Slider li {margin: 0; padding: 0 10px 0 10px; float: left; width: 171px; height: 200px; text-align: center}
+.Produkt-Slider .Topseller-Produktbild {display: block; width: 100px; height: 100px; background: #ccc; margin: 0 auto}
+.Produkt-Slider .Topseller-Produktname {display: block}
+.Produkt-Slider .Topseller-Preis {color: #3f3f3f; font-weight: bold; display: block}
+
+/* Subnavi */
+.Filter, .Subnavigation, .Subnavigation > ul, .PUES-Preis-Slider, .PUES-Subnavigation-Kategorien ul {overflow: hidden; position: relative; list-style-type: none;margin-left: 0;}
+.PUES-Subnavigation-Subsubkategorien ul {margin: 0 0 0 1.25rem}
+.PUES-Subnavigation-Filter .PUES-Preis-Slider {display: none; overflow: visible}
+.PUES-Subnavigation-Filter .PUES-Preis-Slider .fact-finder-onetouchslider-bar .fact-finder-onetouchslider-triangle {display: none !important}
+.PUES-Subnavigation-Filter .PUES-Preis-Slider .fact-finder-onetouchslider-bar img {background: none !important; display: none}
+.Filter, .PUES-Preis-Slider {margin: 1rem 0 0 0;}
+.Subnavigation li {border-bottom: 1px dashed #ccc}
+aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
+.Subnavigation ul > li a {padding-left: 0}
+.Filter li a {padding: 0 0 .25rem 0;}
+[class*="PUES-Subnavigation-"] a:hover, [class*="PUES-Subnavigation-"] a.active {text-decoration: underline}
+[class*="PUES-Subnavigation-"] li.Titel-Balken-hellgrau {margin: 0}
+.Subnavigation-Titel span a, .Titel-grauer-Balken span a, .Titel-grauer-Balken a {color: #3e3e3e; font-weight: bold; margin: 0; font-size: 1rem}
+.Filterbezeichnung {font-weight: bold; margin: 0}
+.Filterparameter a:hover, .Filterparameter a:focus, .Filterparameter a.active {text-decoration: none; font-weight: normal}
+a.Mehr-Filterparameter {display: none; position: absolute; bottom: 0; right: 0; padding: 0}
+.Mehr-Filterparameter:hover {color: #0063C4}
+
+/* Hauptkategorie */
+.Hauptkategorie-Text {margin: 0 0 15px}
+.Produkt-Slider-Topseller {width: 383px; float: right; margin-left: 10px; height: 248px}
+
+/* Artikelsuche */
+.Passende-Suchempfehlungen span {float: left}
+.Passende-Suchempfehlungen a {display: block; float: left; margin: 0 0 0 20px}
+.Produkt-Slider-RecEngine {height: 190px; margin-top: 20px}
+.Produkt-Slider-RecEngine li {height: 248px; background: transparent}
+.Artikelsuche-Navi > span {margin: 0 1rem 0 0; vertical-align: middle}
+.Artikelsuche-Navi .Seiten-blaettern span {font-weight: normal}
+.Homepage-Grid-System li:nth-child(4n+1) {border-left: 0 none}
+
+/* Listenansichten allgemein*/
+.categories .item, .products .item {border-top: 1px solid #ccc; min-height: 260px;}
+.grid-view .item:nth-child(-n+3) {border-top: 0 none}
+.list .item {position: relative; box-sizing: border-box; border-right: 1px solid #ccc; padding: 10px; float:left; list-style-type:none}
+.list .item > a {color: #3a3a3a; display: block; height: 100%}
+.list .item > a:hover {color: #3a3a3a; text-decoration: none}
+.list a .Link, .Produkt-Name, .Produkttitel {color: #0061a0}
+.list a:hover .Link, .list a:hover .Produkt-Name, .list a:hover .Produktitel, .No-Link:hover .Link {text-decoration: underline}
+
+/* grid-view allgemein */
+.grid-view {margin: 0;}
+.Homepage .item, .recs .item, #Crosslink .item, #WeitereArtikel .item, #Crosseller .item, #lastSeenProducts .item {border-top: 0 none; min-height: 100%;}
+.categories .grid-view .item:nth-child(3n), .PUES .grid-view .item:last-child {border-right: 0}
+.grid-view .product-list-item > a {height: 250px; margin: 15px 10px 10px}
+.grid-view .Bild {display: block; text-align: center}
+.grid-view .Bild img {max-height: 100%;}
+.grid-view .product-list-item-left, .grid-view .Preis-Lieferbarkeit {position: absolute; bottom: 5px;}
+.grid-view .Preis-Lieferbarkeit {right: 10px}
+
+/* list-view allgemein */
+.list-view .item {padding: 10px 0; display: table; width: 100%; border:0; border-top:1px solid #ccc; }
+.list-view .item .Bild {float: left; margin-right: 20px}
+
+/* Produktliste */
+.list.products .Bild {height: 150px}
+.list.products .Produkt-Name {max-height: 60px; overflow: hidden ; text-align: center; display: block;}
+.list.products span.Preis {color: #3f3f3f}
+.list.products .Rabatt-Preis {display: block; text-align: right}
+.list.products .Edit-Info span {display: block}
+.list.products .Relevanz, .list.products .Editieren {color: #F00; font-size: .9rem; z-index: 2}
+.list.products .Lieferbarkeit {color: #777; font-size: .9rem}
+.list.products a:hover .Preis-Lieferbarkeit {text-decoration: none}
+.list.products .Produkt-nicht-verfuegbar .Text-Produkt-nicht-verfuegbar {position: absolute; margin: 0; top: 50px; text-align: center; z-index: 1}
+.list.products .Produkt-nicht-verfuegbar .Bildsperre-Produkt-nicht-verfuegbar {background: #ccc; width: 100%; height: 100%; position: absolute; top: 0; left: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)"; filter: alpha(opacity=30); -moz-opacity: 0.3; -khtml-opacity: 0.3; opacity: 0.3; z-index: 1}
+.grid-view.products h2 + .Bild {height: 150px}
+.grid-view.products .Produkt-Symbole img {position: absolute; z-index: 1}
+.grid-view.products .Produkt-Symbole .Sparen {top: 0px; left: 0px}
+.grid-view.products .Produkt-Symbole .Angebot-der-Woche {position: absolute; top: -9px; left: -9px; display: none}
+.grid-view.products .Produkt-Symbole .Spar-Angebot {position: absolute; top: -9px; left: -9px}
+.grid-view.products .Relevanz {position: absolute; top: 9px; right: 40px}
+.grid-view.products .Editieren {position: absolute; top: 0; right: 0; padding: 10px; background: #EEE}
+.list-view.products .Artikelanzahl br {display: none}
+.list-view.products .Relevanz {bottom: 9px; right: 10px}
+
+/* Kategorieliste */
+.Homepage .categories .item {text-align: left}
+.list.categories .item .Titel {font-size: 1rem; max-height: 3rem; display: inherit}
+.list.categories .item .Bild {height: 107px}
+.list.categories .item .Bild img {max-width: 100%; max-height: 100%}
+.list.categories .item .Description p {margin: 0; height: 80px; overflow: hidden}
+.list.categories .item form {float: right}
+.list.categories.buttons .item .Bild {height: 180px;}
+
+/* Feedbackliste */
+.list.feedback .item .Bild {float:right; margin-left:20px }
+
+/* ==========================*/
+/* Pure CSS Slider */
+/* ==========================*/
+.cc-slider {position: relative; -webkit-transform: translateZ(0); -webkit-transition: all 0.1s ease-out; -moz-transition: all 0.1s ease-out; -o-transition: all 0.1s ease-out; transition: all 0.1s ease-out}
+.cc-slider label {color: #ef023f; cursor: pointer; text-decoration: none}
+.cc-slider label:hover {background-color: #DDD}
+.cc-slides {display: inline-block; width: 100%; box-sizing: border-box;}
+.cc-slides .inner {width: 1000%; -webkit-transform: translateZ(0); -webkit-transition: all 800ms ease-in-out; -moz-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); -ms-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); -o-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); -webkit-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); -moz-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); -ms-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); -o-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);}
+
+/* Fuer Thumbnail-Buttons, Verwendung:Testimonials auf Streusalz-Seite */
+.cc-slider-thumbnail-buttons .controls {width: 100%; height: 10px; margin: 0 0 10px 0; display: block}
+.cc-slider-thumbnail-buttons .controls label {display: inline-block; width: 10px; height: 10px; float: left; margin-right: 7px; text-align: center; padding: 5px; line-height: 10px; color: #fff; font-weight: bold; background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.05) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(0, 0, 0, 0.05))); background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.05) 100%); background: -o-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.05) 100%); background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.05) 100%); background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.05) 100%); -moz-box-shadow: 0 0 6px rgba(33, 33, 33, 0.3); -webkit-box-shadow: 0 0 6px rgba(33, 33, 33, 0.3); box-shadow: 0 0 6px rgba(33, 33, 33, 0.3); -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; border: 1px solid #aaa}
+.cc-slider-thumbnail-buttons .slide1:checked ~ .controls label:nth-child(1), .cc-slider-thumbnail-buttons .slide2:checked ~ .controls label:nth-child(2), 
+.cc-slider-thumbnail-buttons .slide3:checked ~ .controls label:nth-child(3), .cc-slider-thumbnail-buttons .slide4:checked ~ .controls label:nth-child(4), 
+.cc-slider-thumbnail-buttons .slide5:checked ~ .controls label:nth-child(5) {background-color: #BBB}
+
+/* Sliderpfeile rechts und links */
+.cc-slider-pfeil-links-rechts .controls label {display: none; position: absolute; bottom: 0; width: 11px; height: 20px; top: 50%; margin-top: -10px}
+.cc-slider-pfeil-links-rechts .Titel-Balken-hellgrau ~ .controls label {display: none; position: absolute; bottom: 0; width: 11px; height: 20px; top: 50%; margin-top: 10px}
+.cc-slider-pfeil-links-rechts #active {margin: 23% 0 0; text-align: center}
+.cc-slider-pfeil-links-rechts #active label {-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; display: inline-block; width: 10px; height: 10px; background: #f89e67}
+.cc-slider-pfeil-links-rechts #active label:hover {background: #ccc; border-color: #777 !important}
+.cc-slider-pfeil-links-rechts .controls label:hover {opacity: .8}
+.slide1:checked ~ .cc-slides .inner {margin-left: 0}
+.slide2:checked ~ .cc-slides .inner {margin-left: -100%}
+.slide3:checked ~ .cc-slides .inner {margin-left: -200%}
+.slide4:checked ~ .cc-slides .inner {margin-left: -300%}
+.slide5:checked ~ .cc-slides .inner {margin-left: -400%}
+.slide6:checked ~ .cc-slides .inner {margin-left: -500%}
+.slide7:checked ~ .cc-slides .inner {margin-left: -600%}
+.slide8:checked ~ .cc-slides .inner {margin-left: -700%}
+.slide9:checked ~ .cc-slides .inner {margin-left: -800%}
+.cc-slider-pfeil-links-rechts .slide1:checked ~ .controls label:nth-child(2), .cc-slider-pfeil-links-rechts .slide2:checked ~ .controls label:nth-child(3), 
+.cc-slider-pfeil-links-rechts .slide3:checked ~ .controls label:nth-child(4), .cc-slider-pfeil-links-rechts .slide4:checked ~ .controls label:nth-child(5), 
+.cc-slider-pfeil-links-rechts .slide5:checked ~ .controls label:nth-child(6), .cc-slider-pfeil-links-rechts .slide6:checked ~ .controls label:nth-child(7), 
+.cc-slider-pfeil-links-rechts .slide7:checked ~ .controls label:nth-child(8), .cc-slider-pfeil-links-rechts .slide8:checked ~ .controls label:nth-child(9) {background-position: -696px -27px; right: 0; display: block}
+.cc-slider-pfeil-links-rechts .slide2:checked ~ .controls label:nth-child(1), .cc-slider-pfeil-links-rechts .slide3:checked ~ .controls label:nth-child(2), .cc-slider-pfeil-links-rechts .slide4:checked ~ .controls label:nth-child(3), .cc-slider-pfeil-links-rechts .slide5:checked ~ .controls label:nth-child(4), .cc-slider-pfeil-links-rechts .slide6:checked ~ .controls label:nth-child(5), .cc-slider-pfeil-links-rechts .slide7:checked ~ .controls label:nth-child(6), .cc-slider-pfeil-links-rechts .slide8:checked ~ .controls label:nth-child(7), .cc-slider-pfeil-links-rechts .slide9:checked ~ .controls label:nth-child(4) {background-position: -669px -27px; left: 0; display: block}
+.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .Designcode-Artikelauswahl .Rotating-image .spritespin-canvas {max-height: 100%; display: block; margin: 0 auto; max-width: 100%; height: auto; width: auto !important;}
+.cc-slider .item {-webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; text-align: center;}
+.cc-slider .item [class*="-Preis"] {white-space: nowrap}
+.cc-slider.items-1 .item {width: 10%}
+.cc-slider.items-2 .item {width: 5%}
+.cc-slider.items-3 .item {width: 3.33%}
+.cc-slider.items-4 .item {width: 2.5%}
+.cc-slider.items-5 .item {width: 2%}
+.cc-slider.items-6 .item {width: 1.66%}
+.cc-slider.items-7 .item {width: 1.42%}
+.cc-slider.items-8 .item {width: 1.25%}
+.cc-slider.items-9 .item {width: 1.11%}
+.cc-slider.items-10 .item {width: 1%}
+#cc-slider-lsp .item .Bild {height: 80px}
+.products.cc-slider .item .Bild {height: 115px}
+.products.cc-slider .item .Produkttitel {display: block}
+.products.cc-slider .item .Rabatt-Preis {display: inline-block}
+.products.cc-slider .item .Button-klein-grau {display: none}
+.col4 .products.cc-slider.items-3 .item {border-right: 0; height: 145px}
+.col4 .products.cc-slider.items-3 .item .Bild, .col12 .products.cc-slider.items-9 .item .Bild {height: 80px}
+.Teaser-Direkt-mitbestellen .Button-klein-grau {display: block !important}
+#cc-slider-streusalz-testimonials .inner {width: 300%}
+
+/* Slider Top-Kategorien */
+.Top-Kategorie-Schilder {padding: 10px 10px 0 0; height: 210px}
+.Top-Kategorie, .Schilder-Sucheingabe {position: relative}
+.Teaser-Top-Kategorien a {font-size: 1.2rem; color: #3a3a3a; text-align: left}
+.Teaser-Top-Kategorien a:hover {text-decoration: none}
+.article-PDS-Produktbilder .rsTmb {height: 99px}
+.Subkategorie-Link, .Subsubkategorie-Link, .Top-Kategorie button, .Kategorie-Link, .Weiterfuehrender-Link {position: absolute; bottom: .5rem; right: 1rem; margin: 0}
+.Teaser-Vorteilsnummer .Weiterfuehrender-Link {position: relative; bottom: 0; left: 0}
+#Footer_Bereichstext .Content-Footer-Bereichstext {float: right; margin: 0}
+.Link-Liste a {display: block; margin: 1rem 0}
+
+/* Spar-Angebote */
+.PUES-Banner-Spar-Angebote {margin: 10px 0}
+
+/* Themen + Landingpage*/
+.Themen-Banner a {margin-left: 10px; display: inline-block}
+.LP-Intro-Teaser {width: 226px; float: right; margin: 0 10px 10px 10px}
+.Grid-Themen-Index ul {list-style-type: none; margin: 0 0 10px 0; padding: 0}
+.Grid-Themen-Index li {clear: both}
+.Grid-Themen-Index a {display: block; padding: 5px .75rem 3px; text-decoration: none;}
+.Grid-Themen-Index img {float: left; margin: 0 .75rem .75rem 0; max-height: 100px; max-width: 30%;}
+.Kurztext {display: block}
+.Grid-Themen-Index ul li a:hover .Titel {text-decoration: underline}
+#myoutercontainer {position: relative}
+#myinnercontainer {position: absolute; top: 50%; height: 10rem; margin-top: -5rem}
+
+/* Schilder-Suche */
+.Schildersuche .PUES-Subnavigation-Kategorien li.Aufhebung a {font-weight: bold}
+.Schildersuche .Schilder-Banner {margin-right: 10px}
+.Schildersuche .Seiteanzeige {white-space: nowrap}
+.Schildersuche .Seiteanzeige .pagingCurrent {font-weight: bold}
+.Schilder-Suche p {float: left; margin: 0}
+.Schilder-Suche input[type=text] {width: 230px; margin: 0 10px}
+.suggestLayerSchildersuche {background: #FFF}
+
+/* Softsearch */
+.Softsearch-Reihe {margin-top: 15px; display: table; width: 100%; border-collapse: separate !important}
+.Softsearch-Reihe .Titel-in-grauem-Balken span strike {color: #888; font-weight: normal}
+.Softsearch-Reihe .Titel-in-grauem-Balken .Alle-Treffer-anzeigen {display: block; float: right; margin-right: 10px}
+
+/* Factfinder Berater-Kampagne*/
+.Berater-Kampagne .col4 {min-height: 220px}
+.Berater-Kampagne .Button-klein-grau {clear: both; position: relative; z-index: 1}
+.Berater-Kampagne a {display: block; color: #3e3e3e}
+.Berater-Kampagne a:hover {text-decoration: none}
+.Berater-Kampagne h3 {display: inline-block}
+.Berater-Kampagne .Bild-gross {width: 100px; float: right; margin: 0 0 5px 10px}
+.Berater-Kampagne .Bild-klein {display: inline-block; vertical-align: middle}
+.Berater-Kampagne-Info {margin: 0 5px 20px 0}
+.Berater-Kampagne-Info::before {content: "\70"; font-size: 1.75rem; line-height: 1rem; font-family: 'ElegantIcons'; float: left}
+
+/*Schilder ==========================*/
+/* Schilder-Banner blau */
+.Schilder-Banner {height: 150px; padding: 10px; position: relative; background: url(/images/Schilder-Suche/Schilder-Suche.jpg) no-repeat #004389; background-position: right bottom; margin-bottom: 20px; z-index: 1000}
+.Schilder-Suche-Teaser-Content {width: 460px}
+.Schilder-Banner h2 {color: #fff !important; font-size: 1.2rem; margin: 0}
+.Schilder-Banner h3 {color: #eaf4ff; font-size: 1.1rem; margin: 0}
+.Schilder-Banner ul {color: #eaf4ff; padding: 0; margin: 10px 0 0 0; list-style-type: none}
+.Schilder-Banner li {color: #eaf4ff; margin: 0.5rem 0}
+.Schilder-Banner .Schilder-Suchformular {position: absolute; top: 75px; right: 125px; z-index: 3; width: 165px; height: 10px}
+.Schilder-Banner #searchQuery {position: absolute; top: 0; left: 0; height: 21px; width: 130px; padding: 0; line-height: 21px}
+.Schilder-Banner .SuchButton {position: absolute; top: 0; right: 0}
+.suggestLayer-Schildersuche {position: absolute; display: none; top: 29px !important; left: 150px !important; z-index: 999999999999 !important; zoom: 1}
+.suggestLayer-Schildersuche table {border: 1px solid #000; margin: 0}
+.Schilder-Grid-System .Grid4 {width: 251px !important; height: 215px; border: 1px solid #335F8A; text-align: center}
+.Schilder-Grid-System .Grid4 h5 {height: 28px; padding: 5px; text-align: left; background: url(/images/Allgemein/Hintergruende-horizontal.jpg) repeat-x 0 -157px}
+.Schilder-Grid-System .Grid4 img, .Schilder-Rubrik img {margin: 5px 0 0 0}
+.Schilder-Grid-System .Grid4 p {margin: 5px 5px 0 5px; text-align: left; font-size: 0.9rem}
+.Schilder-Rubrik {width: 225px; height: 215px; float: left; border: 1px solid #335F8A; margin: 0 10px 10px 0; text-align: center}
+.Schilder-Rubrik p {margin: 5px 5px 0 5px; text-align: left; font-size: .9rem}
+.Schilder-Info {border: 1px solid #bf0d18 !important}
+.Schilder-Info h5 {background: url(/images/Allgemein/Hintergruende-horizontal.jpg) repeat-x 0 -205px !important}
+.Schilder-Info h5 a {color: #fff !important}
+.Content-Schilder .last {width: 224px; float: right; margin-right: 0}
+
+/* Designcode-Artikelauswahl Quittung ==========================*/
+.Produkt-Tabelle {width: 100%; border-collapse: collapse; border-bottom: 1px solid #000}
+.Produkt-Tabelle th {border-top: 2px solid #000; text-align: left; padding: 0 3px; background: #EAF5FF}
+.Produkt-Tabelle td {border-top: 1px solid #000; padding: 3px 5px}
+.Produkt-Tabelle .no-border {border: 0}
+.Produkt-Tabelle .inactive {color: #888}
+#Rec-Engine .Title2 {margin-bottom: 10px}
+#Rec-Engine ul {list-style-type: none; margin: 0; padding: 0}
+#Rec-Engine li {display: inline; float: left; width: 160px; text-align: center; margin: 0 15px 0 0; padding: 0}
+
+/* Symbole ==========================*/
+#main {padding: 10px; margin-left: 10px; margin-right: 10px}
+.symbole {float: left; margin: 0 5px 0 0}
+
+/* Warenkorb ==========================*/
+.Anzahl .updateLink {display: none}
+.buttonAsLink {/* color:#0061a0; */ /* background:none; */ /* padding:0; */ /* border: 0 none; */ /* margin:0; */}
+.Abrechnung {float: right; border-collapse: collapse; margin: 10px 0;}
+.Abrechnung th {text-align: left; padding: 3px 0; font-weight: normal}
+.Abrechnung td {text-align: right; padding: 3px 0}
+.Abrechnung #Rabatt {color: #F00; display: none}
+.Abrechnung .Gesamtsumme {border-top: 4px double #ccc}
+.Abrechnung .Gesamtsumme th {font-weight: bold}
+.Links {float: right; margin: 40px -160px 0 0;}
+.Links a {display: block}
+.Checkout-Check-and-Send .Links {clear: both; width: 265px !important; float: right; margin: 0; position: relative; top: -20px}
+
+/* Direktbestellung */
+.Warenkorb-Direktbestellung {overflow-x: hidden; overflow-y: auto; width: 96%; padding: 0 2%}
+.Eingabefeld-Kopfnummer, .Eingabefeld-Menge, .Eingabefeld-Kopfnummer {width: 100px}
+.Warenkorb-Direktbestellung .Eingabefeld-Artikelnummer {width: 50px}
+.Warenkorb-Direktbestellung .Eingabefeld-Detailnummer, .Warenkorb-Direktbestellung .Eingabefeld-Menge {width: 40px}
+.Vorteilsnummer-Eingabe {display: none; margin: 10px 0 0}
+.Vorteilsnummer-Eingabe #hinweis {display: block; clear: both}
+.Hinweis-Fehler {color: #F00}
+
+/*Mitbestellen*/
+.Mitbestellen-item {margin-top: 10px; overflow: hidden}
+.Mitbestellen-item img {float: left; margin-right: 10px}
+.Mitbestellen-item p {margin-top: 0; padding-left: 90px}
+.Mitbestellen-item .direktMitbestellenLink {font-weight: bold}
+.Mitbestellen-item .Button {float: none; border-right: 1px solid #4F7395}
+
+/* File-Upload iFrame*/
+.FileUpload {overflow-x: hidden; overflow-y: auto; width: 90%; padding: 20px 5%}
+.FileUpload .Datei-Upload {margin: 20px 0; position: relative; width: 515px}
+.FileUpload .Datei-Uploads {margin: 20px 0}
+.vortn .Radio-Button {text-align: right; padding-right: 5px; min-width: 110px}
+.vortn .Radio-Button input {margin: 0 !important}
+#geschenke h3 {margin: 0}
+
+/* Checkout ==========================*/
+/* Kopfnavigation */
+.Kopfnavigation > div {background: #e7f3fe; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U3ZjNmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiM2QyZjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #e7f3fe 0%, #b3d2f0 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e7f3fe), color-stop(100%, #b3d2f0)); background: -webkit-linear-gradient(top, #e7f3fe 0%, #b3d2f0 100%); background: -o-linear-gradient(top, #e7f3fe 0%, #b3d2f0 100%); background: -ms-linear-gradient(top, #e7f3fe 0%, #b3d2f0 100%); background: linear-gradient(to bottom, #e7f3fe 0%, #b3d2f0 100%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e7f3fe', endColorstr='#b3d2f0', GradientType=0 );}
+.Schritt-1-Adresseingabe, .Schritt-2-Bestellung-pruefen {float: left; line-height: 3.5rem; width: 50%; font-weight: bold; overflow: hidden; height: 3.5rem;}
+.Schritt-2-Bestellung-pruefen .Zahl {border-left: 2px solid #fff;}
+.Kopfnavigation .Zahl {font-size: 2.5rem; color: #fff; float: left; padding: 0 10px 0 10px;}
+input[type="text"], input[type="number"], input[type="tel"], input[type="email"], textarea, select {padding: 3px 5px 2px 5px; border: 1px solid #ccc; border-radius: 0; height: 2rem; box-sizing: border-box; font-size: .85rem;}
+select {height: 2rem; -webkit-appearance: menulist; -moz-appearance: menulist; appearance: menulist}
+textarea {height: 4rem}
+#direkt_art {width: 56%}
+#direkt_anz {width: 25%}
+.Eingabefeld-gross {padding: 8px}
+
+/* Check Out ==========================*/
+.Checkout-Adresseingabe .Schritt-2-Bestellung-pruefen, .Checkout-Check-and-Send .Schritt-1-Adresseingabe {opacity: .5;}
+.Button-Weiter, .Button-Bestellung-abschicken {float: right}
+
+/* Adresstabelle */
+.Checkout-Check-and-Send .Adresseingabe .Table-Head {width: 93px}
+.Checkout-Check-and-Send .Adresseingabe .Kundenadresse, .Checkout-Check-and-Send .Adresseingabe .Rechnungsadresse, .Checkout-Check-and-Send .Adresseingabe .Lieferadresse {width: 200px}
+
+/* Breitenangaben verhindern ein Springen der Tabelleninhalte beim An- und Abwaehlen von Liefer- und Rechnungsadresse */
+.Checkout-Check-and-Send :disabled {background: #fff; border: 0 none; padding: 0}
+.Checkout-Check-and-Send .Links {width: 227px}
+.Checkout-Confirmation-Page .Schritt-1-Adresseingabe, .Checkout-Confirmation-Page .Schritt-2-Bestellung-pruefen {color: #000}
+
+/* Twitter & Facebook */
+.Treue {padding: 10px; border: 1px solid #ccc; margin: 10px 0 0 0; display: none}
+.Social-Network {border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 5px 0 10px 0; margin: 50px 0 20px 0}
+.Twitter-Facebook {margin: 10px 0 0 0}
+
+/* Checkout Print ==========================*/
+.Checkout-Print {position: relative; width: 100%}
+.Checkout-Print .wrapper {width: 750px; position: relative; left: 50%; margin: 10px 0 10px -375px}
+.Checkout-Print a {color: #3a3a3a}
+.Checkout-Print .Bestellmoeglichkeiten {margin-bottom: -70px; float: right; font-size: .9rem; width: 250px}
+.Checkout-Print .Bestellmoeglichkeiten div {margin-bottom: 10px}
+.Checkout-Print h1 {border: 0; margin: 10px 0}
+.Checkout-Print .Anzahl-JS div {width: auto !important}
+.Checkout-Print .Anzahl .buttonAsLink, .Checkout-Print .Eingabefeld, .Checkout-Print textarea, .Checkout-Print select {border: 0 !important; background: none; font-size: 1rem; letter-spacing: 0; padding: 0; margin: 0}
+.Checkout-Print .Dankeschoen-Geschenk {display: table-row}
+
+/* Artikelsuche ==========================*/
+/* Subnavigation*/
+.Subnavigation .Title1, .Subnavigation .Title1 a {height: 18px; font-size: 11pt; font-weight: bold; margin: 0; color: #E60F19 !important; border-bottom: 2px solid #004388}
+.Subnavigation .Title2 {padding: 0 0 0 15px; margin: 15px 0 0 0; border-bottom: 1px dashed #cfcfcf}
+.Subnavigation .Title2 + ul, .Subnavigation .Titel-Balken-hellgrau + ul, .PUES-Subnavigation-Kategorien .Titel-Balken-hellgrau + ul {/* margin-left: 15px; */}
+.Ansicht {position: relative; float: left; z-index: 0; white-space: nowrap; margin-bottom: 10px}
+.Sortierung {position: relative; float: right; z-index: 0; white-space: nowrap; margin-bottom: 10px}
+.Abschnitt-Darstellung-Suchergebnisse select, .Abschnitt-Darstellung-Suchergebnisse option {position: relative; z-index: 0; zoom: 0}
+.Abschnitt-Darstellung-Suchergebnisse select {width: 200px; font-size: 9px}
+.Abschnitt-Seiten {height: 30px}
+.Seitenanzahl {z-index: 0; white-space: nowrap}
+.Seitenanzahl span {font-size: 1.2rem; font-weight: bold}
+.Seiteanzeige {z-index: 0}
+.Ergebnis {width: 330px; height: 130px; float: left; margin: 0 15px 15px 0; background-color: #F0F7FD; border: 1px solid #335F8A; position: relative; top: 0; left: 0}
+.Ergebnis a {cursor: pointer}
+.ErgebnisBild {position: absolute; top: 7px; left: 7px; border: 1px solid #333; background-color: #fff}
+.ErgebnisText {width: 225px; position: absolute; top: 7px; left: 100px; margin: 0}
+.Icons {position: absolute; bottom: 0; right: 0; width: 230px; height: 50px}
+.Icons img {float: left; margin-right: 5px}
+.Icons .Spar-Angebot {position: absolute; bottom: 0; right: 0; width: auto; margin: 0; float: none; z-index: 1; background: #F0F7FD}
+.Icons .Angebot-der-Woche {position: absolute; bottom: 0; right: 0; width: auto; margin: 0; float: none; z-index: 2; background: #F0F7FD}
+.Suchuntertitel {margin: 10px 0 7px 0}
+.SucheTitel2 {font-size: 9pt; font-weight: normal; color: #000; margin-top: 1px; padding-bottom: 2px}
+.EditArtikelsuche:visited {color: #666; font-weight: bold}
+.EditArtikelsuche:active, a.EditArtikelsuche:hover {color: #0063C4}
+.Seite-Artikelsuche h1 {width: 100%; border: 0; color: #000; padding: 1px 5px 1px 5px; margin: 0 0 10px 0; background: #DFEfff}
+.Seite-Artikelsuche .Subnavigation a {font-weight: normal}
+.Seite-Artikelsuche .Subnavigation a:hover {font-weight: bold}
+.Seite-Artikelsuche .Subnavigation .Content .Aufhebung a {font-weight: bold; margin: 0}
+.Seite-Artikelsuche .Subnavigation .Content .Title2 {margin-top: 5px}
+.Bereichstext {background: #EAF5FF; margin-bottom: 10px; padding: 6px}
+
+/* Homepage ==========================*/
+.Homepage .Teaser, .Teaser-Weihnachtsbaum-Gewinnspiel .Rahmen-Inhalt, .Teaser-Ostereiersuche .Rahmen-Inhalt {height: 185px}
+.Teaser-Vorteile-bei-SETON-bvh img.EHI {margin: 15px 0}
+.Homepage .royalSlider {width: 100%}
+
+/* ScreenshotsPopUp ==========================*/
+.ScreenshotsPopUp {background-color: #fff; margin: 15px}
+.ScreenshotsPopUp .scrollButtons {position: absolute; top: 550px; width: 252px; display: block; margin: 0 0 0 164px}
+
+/* Schutzhandschuhe ==========================*/
+.Handschuh-Prgramm-Grid-System .Grid6 {border: 1px solid #335F8A; background: #F0F7FD; width: 383px !important; height: 132px}
+.Handschuh-Prgramm-Grid-System .Grid6 .Produktbild {position: absolute; top: 6px; left: 6px}
+.Handschuh-Prgramm-Grid-System .Grid6 .Grid-Content {margin: 0 0 0 90px; height: 100px}
+.Handschuh-Prgramm-Grid-System .Grid6 .Handschuh-Kategorie {position: absolute; top: 87px; left: 8px; width: 120px; font-size: 90%}
+.Handschuh-Prgramm-Grid-System .Grid6 .Handschuh-Kategorie-Symbol {position: absolute; top: 87px; left: 110px}
+.article-Schutzhandschuh-Eigenschaften {background: #FCE2EC; width: auto}
+.article-Schutzhandschuh-Eigenschaften .Grid {height: 85px}
+.article-Schutzhandschuh-Eigenschaften img {float: left; margin-right: 20px}
+.article-Schutzhandschuh-Eigenschaften h3 {margin-top: 0}
+
+/* Lagerraeumung ==========================*/
+.LR-Artikel1 {margin: 12px 6px 12px 6px ; padding: 4px; border: solid 1px #335F8A; width: auto; background-color: #fff}
+.Lagerraeumung {width: 97%; color: #000; padding: 2px 5px 2px 5px; font-weight: bold}
+.Prozent {text-align: center; font-weight: bold; color: #F2A500; margin: 0}
+
+/* Normen ==========================*/
+.Normen {width: 100%}
+.Normen-und-Vorschriften .Content-Box {background: #DFF1FB}
+.Normen-und-Vorschriften .Content-Box div {text-align: center}
+
+/* Etikettenuebersicht ==========================*/
+.Etiketten {width: 830px}
+.Etiketten td {padding: 8px 4px 8px 4px; border-bottom: 1px solid #000}
+.Etiketten td.Seitenwand {border-right: 1px solid #ccc}
+.Etiketten td.tabhead {border-top: 2px solid #000; vertical-align: top; border-bottom: 1px solid #000; font-weight: bold; color: #000; height: 30px}
+
+/* Pruefplaketten- und Siegeluebersicht ==========================*/
+.Plaketten {border-left: 1px solid #000; border-top: 2px solid #000}
+.Plaketten td {padding: 2px; border-bottom: 1px solid #000; border-right: 1px solid #000}
+.Plaketten td.tabhead {vertical-align: top; border-bottom: 1px solid #000; font-weight: bold; color: #000; height: 30px}
+
+/*Etikettenberater ==========================*/
+.tabhead1 {border-top: 2px solid #000; vertical-align: top; border-bottom: 1px solid #000; font-weight: bold; background-color: #EAF5FF; color: #000; height: 30px}
+.tabhead2, .tabcell, .ab, .ib, .ab-st, .ab-st-s, .ab-st-c, .ab-sst, .ab-sst-s, .ab-sst-c, .ib-st, .ib-st-s, .ib-st-c, .ib-sst, .ib-st-s, .ib-sst-c {border: 1px solid #fff}
+.tabhead2 {font-weight: bold}
+.tabhead2, .tabcell {background-color: #DDD}
+.ab {background-color: #008000; color: #fff}
+.ib {background-color: #993300; color: #fff}
+.ab-st, .ab-st-s, .ab-st-c {background-color: #CCFFCC}
+.ab-sst, .ab-sst-s, .ab-sst-c {background-color: #00FF00}
+.ib-st, .ib-st-s, .ib-st-c {background-color: #fffF99}
+.ib-sst, .ib-st-s, .ib-sst-c {background-color: #FFCC99}
+.ab-st-c, .ab-sst-c, .ib-st-c, .ib-sst-c {text-align: center}
+
+/*Pressemitteilungen und Blog ==========================*/
+.PM, .Blog, .Grid-Themen-Index li {border-bottom: 1px solid #ccc; display: inline-block; margin: 0 0 15px 0; width: 100%;}
+.PM h2, .Blog h3 {margin: 0 0 10px 0; padding: 0}
+.Blog h3 a {font-weight: bold}
+
+/* Newsletter-Anmeldung und -Abmeldung ==========================*/
+.Newsletter-Anforderung-Quittung .Kein-Rahmen, .Newsletter-Abmeldung .Kein-Rahmen, .Newsletter-Anforderung .Kein-Rahmen {padding-right: 0}
+.Newsletter-Anforderung .Adresseingabe .Button-klein-T-Jetzt-kostenlos-abonnieren, .Newsletter-Anforderung .Adresseingabe .Button-klein-T-Daten-aendern {right: 5px; margin-top: 9px}
+.Newsletter-Anforderung .Adresseingabe .Button-klein-T-Newsletter-abbestellen {right: 10px; margin-top: 9px}
+
+/* Newsletter-Promo:20% auf Pruefplaketten fuer Newsletter-Abonnenten */
+.tooltip-Banner-Pruefplaketten, .article-Newsletter-Abo-Downloads .zentriert {display: block}
+.tooltip-Banner-Pruefplaketten .tooltip {bottom: auto; top: -30px}
+.article-Newsletter-Abo-Downloads .Weiterfuehrender-Link {display; block; position: relative; display: block; margin: 15px 10px}
+
+/* SchilderRaetsel */
+.wqText, .wqImage {width: 98px; height: 98px; float: left; margin: 7px; text-align: center; border: 1px solid #606060; background: #fffadd; position: relative; cursor: pointer}
+.wqText p, .wqImage img {width: 85px; height: 85px; margin: 6px 3px 0 3px}
+.wqHover {border: 1px solid #f60}
+.wqFehler {position: absolute; top: 0; right: 0; height: 28px; width: 28px}
+.Schilder-Raetsel h1 img {float: left; margin-right: -5px; position: relative; top: 0; left: -10px}
+.SchilderRaetsel {color: #3f5aab; font-weight: bold; margin: 20pt 0 3pt 0}
+.tabSchilderRaetselDunkel {background-color: #BFD0E3}
+.tabSchilderRaetselHell {background-color: #E9EFF6}
+
+/*SETON Historie*/
+.Zeitstrahl {font-size: 11pt; padding: 0 7px 0 0; margin: 0 0 5px 0; color: #fff; font-weight: bold; text-align: right; border-bottom: 1px solid #000}
+.ZeitstrahlJahreszahl p {font-size: 8pt; margin: 0pt}
+.SeitenkastenContentZeitstrahl {margin-right: 20px; background-color: #E0EDF8; padding: 8px; margin: 0; background-image: url(/images/20Jahre/SETONHistorie/bg_Zeitstrahl.gif); background-repeat: repeat-y}
+.ZeitstrahlJahreszahl img {float: left; margin: 0 3px 5px 0}
+.Historie {border-bottom: 1px solid #ccc; clear: both}
+
+/*Jubilaeums-Angebote*/
+.JubiAngebot {width: 330px; height: 115px; float: left; margin: 0 15px 15px 0; background-color: #F0F7FD; border: 1px solid #335F8A}
+.JubiAngebotInhalt {width: 277px; float: left; margin: 7px; position: absolute}
+.JubiAngebotBild, .BilderLinks {float: left}
+.JubiAngebotText {width: 178px; float: right}
+.JubiAngebotLogo {width: 50px; height: 51px; float: right; position: relative; top: -9px; left: 9px; background-image: url(/images/20Jahre/JubilaeumsAngebote/Logo_JubiAngebot.gif)}
+.JubiAngebotNummer {margin: 11px 0 0 8px}
+
+/*Bilderdetektiv*/
+.Bilderdetektiv {color: #00925B; border-bottom: 2px solid #65aa00; font-weight: normal; margin: 20pt 0 3pt 0}
+.FormularBilderdetektiv, .FieldsetJubilaumsSpiel {border: 0; padding: 0}
+.tabBilderdetektivDunkel {background-color: #daeab9}
+
+/*Fuer Highscortabelle und Formular*/
+.tabBilderdetektivHell {background-color: #f2f8e7}
+
+/*Fuer Highscortabelle und Formular*/
+/*Arbeitsschutz-Quiz*/
+.ArbeitsschutzQuiz {color: #5593CC; border-bottom: 2px solid #5593CC; font-weight: normal; margin: 20pt 0 3pt 0}
+.tabArbeitsschutzQuizDunkel {background-color: #d1e5f6}
+
+/*Fuer Highscortabelle und Formular*/
+.tabArbeitsschutzQuizHell {background-color: #f0f6fc}
+
+/*Fuer Highscortabelle und Formular*/
+/*Apfelbaum Gewinnspiel*/
+.Apfelbaum-Gewinnspiel h1 {color: #EFA500; border-bottom: 2px solid #EFA500; margin: 0pt}
+.Apfelbaum-Gewinnspiel h1 img {float: left; margin-right: -65px; position: relative; top: -37px; left: -35px}
+.Apfelbaum-Gewinnspiel h2 {color: #EFA500; font-weight: bold; margin: 20pt 0 3pt 0}
+
+/*Weihnachtsbaum Gewinnspiel*/
+.Weihnachtsbaum-Gewinnspiel h1 {padding: 30px 0 0 0}
+.Weihnachtsbaum-Gewinnspiel h1 img {float: left; position: relative; top: -40px; margin: 0 0 -50px 0}
+.Datum {color: #666; margin-top: 0}
+
+/* 25 Jahre Seton ==========================*/
+.SETON-Jubilaeum-25-Jahre .Gewinnspiel-Frage {font-size: 1.2rem; color: #046699; font-weight: bold}
+
+/*GHS ==========================*/
+.GHSAllgemeineUebersicht, .GHSPiktogrammKombinationen {border: 0; border-collapse: collapse; width: 100%}
+.GHSAllgemeineUebersicht tr, .GHSPiktogrammKombinationen tr {border-bottom: 1px solid #ccc}
+
+/* Service & Beratung ==========================*/
+.Service-und-Beratung .Block-grau .PfeilLink {display: block}
+.Service-und-Beratung .Siegel {float: right; margin: -40px 0 0}
+.Block-Unsere-Produkte .Grid-Content {height: 140px}
+.Block-Unsere-Produkte a {display: block}
+.Block-Unsere-Produkte .Grid-Content img {margin: 0 auto; display: block}
+.Block-Unsere-Produkte .Grid-Materialmuster img {margin: 15px auto 0}
+.Block-Unsere-Produkte .Grid-Katalog-anfordern img {float: left; margin-right: 10px}
+.Block-Wir-helfen-Ihnen-weiter {background: url(/images/Service-Beratung/Service.jpg) transparent no-repeat bottom right}
+.Block-Wir-informieren-Sie {background: url(/images/Service-Beratung/Aktuelle-Themen.jpg) transparent no-repeat bottom right}
+.Block-Downloads {background: url(/images/Service-Beratung/Downloads.jpg) transparent no-repeat bottom right}
+.NL_Bestelladresse {margin: 3px 0 3px 0}
+.NL_Bestelladresse dt {width: 20px; float: left; margin: 0; padding: 0; text-align: center}
+.NL_Bestelladresse dd {margin: 0 0 5px 30px; padding: 0}
+
+/* Umweltschutz ==========================*/
+.right-Umweltschutz {float: right; margin: 0 0 0 10px}
+
+/* Kontaktformular ==========================*/
+/* Formularauswahl mittels JS-Dropdown */
+.Kontaktformulare-Auswahl-JS {display: none; margin: 0 0 10px 0}
+.Kontakt .dropdown, .Kontakt .dropdown dt {width: 280px}
+.Kontakt .Kontaktformulare-Auswahl-JS {width: 50%; margin: 0 0 1rem 31%;}
+
+/* Formularauswahl mittels Links ohne JS */
+.Kontaktformulare-Auswahl {list-style-type: none; margin: 0 0 10px 0 !important; padding: 0}
+.Kontaktformulare-Auswahl li {margin: 0; padding: 0}
+.Kontaktformulare-Auswahl .active {font-weight: bold}
+
+/* Kontaktdaten aendern */
+.Fax-Angebote .Adresseingabe {width: auto}
+.Checkout-Check-and-Send .Kundennummer-Prefix {display: block; float: left; line-height: 1.2rem; font-size: 1rem}
+
+/*SETON International ==========================*/
+.Weltkugel-SETON-International ul {list-style-type: none; margin: 0 25% 0 0}
+.Weltkugel-SETON-International .ul-right {right: 0; text-align: left; float: right}
+.Weltkugel-SETON-International .ul-left {margin: 0 0 0 20%; text-align: right; float: left}
+
+/* Plaketten-Uebersicht ==========================*/
+.Plaketten-Uebersicht .Materialmerkmale-Grid-System, .Plaketten-Uebersicht .Einsatzbereiche-Grid-System {font-size: 0.9rem}
+.Plaketten-Uebersicht .Einsatzbereiche-Grid-System img {margin-bottom: 5px !important}
+.Plaketten-Uebersicht .Materialeigenschaften-Grid-System img {margin-bottom: 5px}
+.Plaketten-Uebersicht .Lieferformen-Grid-System {font-size: 0.9rem; text-align: center}
+
+/*Kantenschutz ==========================*/
+.Right {float: right; margin-right: 0}
+.Kantenschutzprofile-Kantenschutz h3 {margin-top: 0}
+.Kantenschutzprofile-Kantenschutz img.left {margin: 0 1rem .5rem 0}
+.Kantenschutzprofile-Kantenschutz .tabs td {border-bottom: 2px solid #fff; border-left: 2px solid #fff; line-height: 1.5rem; width: 20%}
+.Kantenschutzprofile-Kantenschutz .tabs .first {border-left: 0}
+.Kantenschutzprofile-Kantenschutz .tabs .active {border-bottom: 0}
+.tab_Kantenschutz-fuer-90-Winkel, #content_tab_Kantenschutz-fuer-90-Winkel {background: #85d284}
+.tab_Kantenschutz-zum-Aufstecken, #content_tab_Kantenschutz-zum-Aufstecken {background: #9ddb9d}
+.tab_Schutzprofiel-fuer-Ecken, #content_tab_Schutzprofiel-fuer-Ecken {background: #b5e4b5}
+.tab_Prallschutz-fuer-Flaechen, #content_tab_Prallschutz-fuer-Flaechen {background: #ceedce}
+.tab_Rohr-und-Leitungsschutz, #content_tab_Rohr-und-Leitungsschutz {background: #e6f6e6}
+.Kantenschutzprofile-Kantenschutz .tab_block {padding: 15px}
+.Kantenschutzprofile-Kantenschutz .Content .col12, .Kantenschutzprofile-Kantenschutz .Grid6, .Kantenschutzprofile-Kantenschutz .Grid12 {border: 1px solid #0BA50A; background: #fff; padding: 1rem; margin: 0 0 1rem 0}
+.Kantenschutzprofile-Kantenschutz .tab_block .Title3 {margin-top: 10px}
+.tab_block .col4 img {display: block}
+
+/* Direktverkauf ==========================*/
+.Direktverkauf .Richtige-Adresse {margin: 15px 15px 15px 0}
+.Direktverkauf .Einleitung {display: inline-block; vertical-align: top}
+.Direktverkauf .Einkaufswagen {margin-top: -140px; position: relative; z-index: -1}
+.Direktverkauf .Grid16 .Sitz {font-weight: bold; font-size: 1.25rem; line-height: 3rem}
+.Direktverkauf .Ihr-SETON-Direktverkauf {float: left; margin: 0 10px 0 0}
+.Direktverkauf .Grid16 .Sitz span {color: #d0003e}
+
+/* Karriere ==========================*/
+.Karriere .Sidebar-right .Klein {color: #3e3e3e}
+.Karriere .Stellenangebote {list-style-type: none; margin: 0; padding: 0}
+.Karriere .Stellenangebote li {margin: 6px 0; text-indent: -10px; padding: 0 0 0 10px; line-height: 1.1rem}
+
+/* Seite-nicht-gefunden ==========================*/
+.Seite-nicht-gefunden .Kein-Rahmen {padding-top: 50px; padding-bottom: 50px}
+
+/* SUPER KICK&WIN ==========================*/
+.KICK-WIN .Header-Banner {margin: -22px 0 0 0}
+.KICK-WIN .SETON-SUPER-KICK-WIN b {font-weight: normal !important}
+.KICK-WIN h1 .SETON-SUPER-KICK-WIN, .KICK-WIN h1 .SETON-SUPER-KICK-WIN b {color: #3a3a3a; font-weight: bold !important}
+.KontoKl {cursor: pointer; color: #0061a0}
+.KICK-WIN-Spielanleitung .Grid-System h3 {margin-top: 0}
+.KICK-WIN-Spielanleitung .Grid-System .Grid12 {overflow: visible}
+.KICK-WIN-Spielanleitung .Grid-System-Mitspielen, .KICK-WIN-Spielanleitung .Grid-System-Trainieren {position: relative; border-bottom: 1px solid #EBEBEB; margin-bottom: 20px}
+.KICK-WIN-Spielanleitung .Grid-System-Mitspielen .Button-gross-T-Spiel-starten {margin-top: -55px}
+.KICK-WIN-Spielanleitung .Grid-System-Trainieren .Button-klein-T-Trainieren, .KICK-WIN-Spielanleitung .Grid-System-Mitspieler-herausfordern .Button-klein-T-Mitspieler-herausfordern {margin-top: -45px}
+.Highscore th, .Highscore td {padding: 4px 7px !important; border-bottom: 1px solid #EAEAEA}
+.Highscore td.Tore {text-align: right; padding-right: 10px !important}
+.Highscore .platz-1, .Highscore .platz-2, .Highscore .platz-3 {font-weight: bold !important; color: #01A640}
+.Highscore tr th {background: #F8F8F8; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc}
+
+/* Fax-Angebot ==========================*/
+.Vorteile-Fax-Abonnent {position: relative; height: 214px; padding: 10px 15px; margin: 15px 0}
+.Vorteile-Fax-Abonnent .Vorteile {width: 240px}
+.Vorteile-Fax-Abonnent p {width: 240px}
+img.Praemien {position: absolute; top: 0; right: 0; z-index: -1}
+
+/* Bad URL ==========================*/
+.Bad-URL article.Content {margin-top: 50px; margin-bottom: 50px;}
+
+/* Footer ==========================*/
+/* Zuletzt gesehene Produkte */
+#lastSeenProducts {position: relative; z-index: 9; clear: both;}
+#lastSeenProducts .tooltip {top: 105%}
+.Footer-Zuletzt-gesehene-Produkte {clear: both}
+.Footer-Zuletzt-gesehene-Produkte .Titel-Balken-hellgrau span {min-width: 207px}
+#Artikelsuche-Hinweis {display: none; left: 207px; top: 37px; z-index: 9; width: 230px}
+#Artikelsuche-Hinweis {text-align: center}
+.Footer {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZGZkZmRmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==); background: -moz-linear-gradient(top, #fff 70%, #dfdfdf 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #fff), color-stop(100%, #dfdfdf)); background: -webkit-linear-gradient(top, #fff 70%, #dfdfdf 100%); background: -o-linear-gradient(top, #fff 70%, #dfdfdf 100%); background: -ms-linear-gradient(top, #fff 70%, #dfdfdf 100%); background: linear-gradient(to bottom, #fff 70%, #dfdfdf 100%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dfdfdf', GradientType=0 ); border-bottom: 2rem solid #00609F; clear: both;}
+.Grid-System-Social-Media {border-top: 1px solid #ccc; padding-top: .75rem; margin-top: 1rem}
+.Grid-System-Social-Media .col4 {border-right: 1px solid #ccc; min-height: 120px; margin-bottom: 0; border-collapse: collapse}
+.Grid-System-Social-Media div:last-child {border-right: 0 none}
+.Footer .NL-Aktion {float: right; margin: 0 .5rem 0 0 }
+.Footer .Grid-System-Sitemap ul li a:hover::before {text-decoration: none !important; color: #63666a !important}
+.Footer .Social-Media {margin: 35px 0 0 0}
+.Footer .Social-Media li {float: left; margin-right: 5px}
+.Footer .Social-Media li:last-child {margin: 0}
+.Social-Media-Icon {background: url(/images/Allgemein/Social-Media-Icons.gif) no-repeat; display: block; height: 45px; width: 45px; overflow: hidden; text-indent: -9999px ; display: inline-block; margin: 0 .25rem 0 0}
+.Google {background-position: -45px 0}
+.Twitter {background-position: -90px 0}
+.YouTube {background-position: -135px 0}
+a.Blog {width: 98px; background-position: -180px 0; margin: 0}
+.Footer .Trusted-Shop {width: 150px; display: inline-block}
+.Footer .bewertung {margin: 0 0 0 10px}
+
+/* Footer Kundenmeinung */
+.Klein, .preisvorher, .Streich-Preis, .product-list-item-left, .hreview-aggregate .rating, .Vorrat, .Fax span, .Hotline span, .Mail span a, .Anschrift span, .Info span a, .Online-Shop span a, .Warenkorb span a, .Disclaimer, .Bildunterschrift, .Upsell .tooltip .Upsellnein, .Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure {color: #8A8A8A}
+.Checkout .NL-Layer, .Checkout-Adresseingabe .NL-Layer, .Checkout-Check-and-Send .NL-Layer {display: none !important}
+
+/* NL-Gewinnspiel */
+.Teilnahmebedingungen-Link {font-size: .8rem; color: #0061a0; padding-top: 5px; padding-right: 100px}
+.Teilnahmebedingungen-Link .Info-Text, .Teilnahmebedingungen-Link .Info-Text-JS {width: 400px; left: 117px !important; height: 190px}
+.NL-Layer .Container .Teilnahmebedingungen-Link .Info-Text, .NL-Layer .Container .Teilnahmebedingungen-Link .Info-Text-JS {width: 650px; height: 153px}
+.Newsletter-Anforderung .Teilnahmebedingungen-Link {color: #0061a0}
+.Newsletter-Anforderung .Teilnahmebedingungen-Link .Info-Text, .Newsletter-Anforderung .Teilnahmebedingungen-Link .Info-Text-JS {width: 600px; height: auto}
+.Teaser-Newsletter .Teilnahmebedingungen-Link {position: absolute; top: 125px; left: 15px; padding-left: 100px; padding-right: 0}
+.Teaser-Newsletter .Teilnahmebedingungen-Link .Info-Text, .Teaser-Newsletter .Teilnahmebedingungen-Link .Info-Text-JS {width: 400px; height: 285px; left: -320px !important}
+.Footer .Grid-Newsletter .Teilnahmebedingungen-Link {position: absolute; top: 125px; left: 268px; padding-right: 0}
+.Footer .Grid-System-Social-Media-A-CH .Grid-Newsletter .Teilnahmebedingungen-Link {top: 109px !important; left: 335px !important}
+.Footer .Grid-Newsletter .Teilnahmebedingungen-Link .Info-Text, .Footer .Grid-Newsletter .Teilnahmebedingungen-Link .Info-Text-JS {width: 500px; height: auto}
+.Teilnahmebedingungen-Link .iframe-Teilnahmebedingungen {width: 100%; height: 100%; border: 0; overflow: hidden}
+.NL-Gewinnspiel-Teilnahmebedingungen {width: 100%}
+.NL-Gewinnspiel-Teilnahmebedingungen-Content {font-size: .8rem; color: #666; width: 100%; line-height: 1.2rem}
+
+/* Blog:Vorstellung einer Kategorie oder Produktes */
+.Vorstellung-Kategorie-Produkt {display: table; width: 471px}
+.Vorstellung-Kategorie-Produkt .Praesentiert {color: #555; font-size: 1.5rem; font-weight: bold; text-align: left}
+.Vorstellung-Kategorie-Produkt h3 {padding: 0; margin: 0; font-size: 1.2rem; font-weight: bold}
+.Vorstellung-Kategorie-Produkt .Produktbild {max-width: 150px; float: left; margin: 0 15px 15px 0}
+
+/* Wistia-Video-Einbindung */
+.wistia_embed {float: none; margin: 0; border: 1px solid #ccc}
+.Inventarketiketten-Designer .wistia_embed {width: 100% !important}
+.wistia_embed-right {float: right; margin: 0 0 15px 15px}
+.wistia_embed-left {float: left; margin: 30px 20px 20px 0}
+.wistia_embed-center {float: none; margin: 30px auto 20px auto}
+.socialbar_button {width: 120px !important}
+
+/* Themen Logos */
+.lieferantenlogos {border-top: 1px solid #d3d3d3; border-bottom: 1px solid #d3d3d3; padding: 15px 0; height: 100px}
+.lieferantenlogos img {margin: 0 24px 0 0}
+.lieferantenlogos h2 {margin-top: 0 !important}
+#ie8msg {background: #FDF2AB; padding: 5px 10px; font-size: 0.9rem; position: relative}
+#ie8msg p {margin: 0}
+#ie8msg #ie8msg-close {position: absolute; top: 5px; right: 10px; font-weight: bold; font-size: 1.2rem; cursor: pointer}
+
+/* Grid system:New fluid 12 row ==========================*/
+/* Check:http://www.responsivegridsystem.com/calculator/*/
+.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12, .Content .col, .Sidebar, .Grid-System [class*="Grid"], .Grid-Themen-Index [class^="Grid"], .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1 {float: left; margin: 0 0 .75rem 1.25%; box-sizing: border-box; position: relative}
+.first, .Grid-first, .Grid24 + [class*="Grid"], .clear + [class*="col"] {margin-left: 0}
+.Auflistung-Unterkategorien li, .grid-view li {margin: 0}
+.col1 {width: 7.187%}
+.col2, .Grid-System .Grid-1-5, .Grid-System .Grid-1-8, .Grid-System .Grid-1-5-last {width: 15.62%}
+.col3, .Grid-System .Grid-1-4, .Ein-Spalter .Grid6, .Sidebar-left, .Sidebar-right, .Direktverkauf .Content .Grid-last, .Sidebar {width: 24.06%}
+
+/* Spanning 1 of 3 */
+.col4, .Grid-1-3, ÃƒÂƒÃ†Â’ÃƒÂ‚Ã†Â’ÃƒÂƒÃ¢Â€ÂšÃƒÂ‚Ã¢Â€Âš .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1, .Inventarketiketten-Designer .col-right-2, .Newsletter-Anforderung .article-Newsletter-Abo-Downloads .Grid-1-3 {width: 32.5%}
+.Services-rund-ums-Produkt li, .Homepage .Avail .item, #cc-slider-streusalz-testimonials .item, .grid-view .item {width: 33.3%}
+.col5, .Grid-System .Grid-2-5 {width: 40.93%}
+.col6, .Ein-Spalter .Grid12, .Drei-Spalter .Content, #Avail-Hauptkategorie-Kunden-kauften-2, #Avail-Kategorie-Topseller-2, .Zwei-Spalter-Sidebar-left .Grid-System .Grid6, .Zwei-Spalter-Sidebar-right .Grid-System .Grid6, .Grid-System .Grid-1-2, .ASR-Teaser, .ASR-Teaser p, .Checkout .Teaser-Vorteilsnummer, .Abrechnung {width: 49.37%}
+.col7, .Grid-System .Grid-3-5 {width: 57.81%}
+
+/* Spanning 2 of 3 */
+.col8, .Grid-System .Grid-2-3, .Zwei-Spalter-Sidebar-left .Grid-System .Grid8, .Zwei-Spalter-Sidebar-right .Grid-System .Grid8 {width: 66.25%}
+.col9, .Zwei-Spalter-Sidebar-left .Content, .Zwei-Spalter-Sidebar-right .Content, .Ein-Spalter .Grid18, .Grid-System .Grid-3-4 {width: 74.68%}
+.col10 {width: 83.12%}
+.col11 {width: 91.56%}
+.col12, .Grid24, .Grid-System .Grid-1-1, .Zwei-Spalter-Sidebar-left .Grid-System .Grid12, .Zwei-Spalter-Sidebar-right .Grid-System .Grid12, .Grid-System .Grid-Top-Kategorien {float: none; width: 100%; margin: 0 ; clear: both}
+
+/* 1024px standard width */
+@media only screen and (max-width: 1024px) {body {width: 996px} }
+@media only screen and (min-width:960px) {
+	.Content .Sidebar-left {float: right}
+	.Button-gross.data-icon::before, .Icon::before, .icon_phone::before {margin-right: .5rem}
+	.Homepage .Trusted-Shop-Kundenbewertung .bewertung {width: 60%}
+	.Homepage .Teaser-Vorteile-bei-SETON-bvh {height: 250px}
+	.grid-view.categories .item:nth-child(3n) {border-right: 0 none}
+	.tooltips:hover .tooltip, .item:hover .tooltip, .Info-Link:hover .Info-Text, .Info-Link:hover .Info-Text-JS {visibility: visible; opacity: 1}
+	input[type="number"] {-webkit-appearance: textfield; -moz-appearance: textfield; appearance: textfield}
+	input[type="number"]::-webkit-outer-spin-butto, input[type="number"]::-webkit-inner-spin-button {-webkit-appearance: none; -moz-appearance: none; appearance: none}
+	.Checkout nav {background-color: #bababa; height: 3.15rem}
+	.Checkout nav a {display: block;height: 2.5rem; padding: .35rem .5rem .3rem .75rem;color: #fff;}
+	.Checkout nav li {display: none}
+	.Checkout #nav-home {display: block;} }
+
+@media only screen and (min-width:768px) {
+	#Header .Artikelsuche {position: relative}
+	#suggestContainer {border-top: 0 none}
+	.sub {-moz-box-shadow: 0 0 15px rgba(33, 33, 33, 1); -webkit-box-shadow: 0 0 15px rgba(33, 33, 33, 1); box-shadow: 0 0 15px rgba(33, 33, 33, 1); border: 1px solid #ccc; border-top-width: .35rem; position: absolute; left: 0; z-index: -1}
+	#topnav4 .sub, #topnav7 .sub {left: 20%}
+	#topnav32 .sub, #topnav10 .sub {left: 0}
+	.col {width: 204px; float: left; margin: 0; padding: 5px 5px 5px 10px; box-sizing: border-box}
+	.Homepage .royalSlider {height: 250px}
+	.Zwei-Spalter-Sidebar-left .Content {margin-left: -24.06%}
+	.Zwei-Spalter-Sidebar-left .Content, .Drei-Spalter .Content, #Footer_Bereichstext {float: right; padding: 0 1.25% 0}
+	.Drei-Spalter .Content {margin-left: -74.68%; margin-right: 25.31%}
+	.items-1 .item {border: 0 !important}
+	.items-2 :nth-child(2n+2), .items-3 :nth-child(3n+3), .items-4 :nth-child(4n+4), .items-5 :nth-child(5n+5), .items-6 :nth-child(6n+6), .items-7 :nth-child(7n+7), .items-8 :nth-child(8n+8), .items-9 :nth-child(9n+9), .items-10 :nth-child(10n+10), .cc-slider .item:last-child, .grid-view .item:nth-child(3n) {border-right: 0 none}
+	.Produkttabelle .Anzahl {width: 15%}
+	.Produkttabelle .Anzahl .Eingabefeld {float: left}
+	.Anzahl a {float: left}
+	.Produkttabelle .Einzelpreis-abzgl-Rabatt, .Produkttabelle .Einzelpreis, .Produkttabelle .Summe {text-align: right; width: 50px}
+	.Kundennummer-Prefix {float: right} }
+
+/* Mobiles (tablets & smartphones)
+http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
+@media only screen and (max-device-width: 768px) {
+	.col1, .col2, .col3, .Sidebar, .Checkout .Teaser, .Grid-System .Grid-1-5, .Grid-System .Grid-1-8, .Grid-System .Grid-1-5-last, .Grid-System .Grid-1-4, .Ein-Spalter .Grid6, .Sidebar-left, .Sidebar-right, .Direktverkauf .Content .Grid-last, .Grid-1-3, .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1, .Inventarketiketten-Designer .col-right-2, .Newsletter-Anforderung .article-Newsletter-Abo-Downloads .Grid-1-3 {width: 32.5%}
+	.col4, .Grid-1-3, .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1, .Inventarketiketten-Designer .col-right-2, .Newsletter-Anforderung .article-Newsletter-Abo-Downloads .Grid-1-3, .col5, .col7, .col8, .Teaser-Vorteile-bei-SETON-bvh, .Teaser-Spar-Angebote, .Grid-System .Grid-2-5, .Zwei-Spalter-Sidebar-left .Grid-System .Grid6, .Zwei-Spalter-Sidebar-right .Grid-System .Grid6, .Grid-System .Grid-1-2, .ASR-Teaser p, .Grid-System .Grid-3-5, .Grid-System .Grid-2-3, .Zwei-Spalter-Sidebar-left .Grid-System .Grid8, .Zwei-Spalter-Sidebar-right .Grid-System .Grid8, .Auflistung-Unterkategorien li, .Grid-System .Grid-1-4, .Ein-Spalter .Grid6, .Sidebar-left, .Sidebar-right {width: 49.37%; margin: 0 0 1.25rem 0}
+	body, .col9, .col10, .col11, .col12, .Zwei-Spalter-Sidebar-left .Content, #PDS-Content, .Ein-Spalter .Grid18, .Hauptkategorie-Text, #Avail-Hauptkategorie-Kunden-kauften-2, #Avail-Kategorie-Topseller-2, .Checkout .Content, .PDS aside, .Checkout aside {width: 100%; margin-left: 0}
+	.cc-slider.items-9 .item {width: 3.33%}
+	.PDS .col8 {width: 66.25%}
+	.Grid-System-Sitemap .col3 {width: 24.06%; max-height: 225px}
+	.Content {padding: 0 1.25%}
+	#SuchButton span {display: none}
+	.Drei-Spalter .Content {margin: 0 0 1.25rem 0; padding: 0 1.25%}
+	.PUES .grid-view .item {height: 280px}
+	.grid-view .item:nth-child(3n+4) {border-top: 1px solid #ccc}
+	.items-2, #Ostereiersuche, .PUES .grid-view .item {margin: 0}
+	.list.categories.buttons .item .Bild {height: 130px}
+	.grid-view .product-list-item-left {position: relative; text-align: center; margin: .5rem 0}
+	.Logo {width: 30%}
+	.Artikelsuche {margin: 0 10px 0}
+	#Direktbestellung {top: 40px; left: 56%}
+	#Header .Warenkorb button {width: inherit; height: 2.25rem}
+	.Produktergebnis {width: 100%; margin: 0 0 1rem}
+	.Produktergebnis-inner, .Preisstaffel {width: 49.37%; box-sizing: border-box; float: left; clear: none}
+	.PDS aside, .Checkout aside {padding: 0 1.25% 0}
+	.Checkout aside .Teaser {float: left; margin: 0 0 1.25rem 1.25%}
+	.Checkout aside .Teaser:first-child, .Teaser-Katalog, .Grid-System-Social-Media .col4:first-child {margin-left: 0}
+	#Ostereiersuche {position: relative; left: 0; top: 0}
+	.Teaser-Spar-Angebote {margin: 0 0 1.25rem 1.25%}
+	.Grid-System-Social-Media .col4 {width: 32.5%; margin: 0 0 .75rem 1.25%}
+	.pure-toggle-label[data-toggle-label="left"], .PUES .pure-toggle-label.data-icon {display: block}
+	.PUES-Hauptkategorie .pure-toggle-label[data-toggle-label='left-bottom'] {display: none}
+	.Balken, #Header .Direktbestellung, .Sortiert-nach, .Seiten-blaettern a:last-child {display: none !important}
+	#Header {height: 2.75rem; background-color: #fff; position: fixed; z-index:90; border-bottom: 1px solid #ccc}
+	.Logo {margin: .5rem 0 .5rem 3.5rem; overflow: hidden; width: 2rem; height: 2rem}
+	.Logo img {max-width: 175px}
+	#Header .Artikelsuche {width: 65%; margin: .15rem 0 0 5%}
+	.suggestEntry td {width: 210px}
+	.Warenkorb {top: .25rem; right: .5rem}
+	#Breadcrumbs {height: 2.75rem; margin; margin: 0 0 .5rem; text-indent: -99999px; display: block}
+	aside.pure-drawer {padding: 0 .5rem;}
+	aside li a {display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem}
+	.Filter {height: auto !important}
+	.Homepage .Avail .item {width: 130px}
+	.cc-slides .item:nth-child(3n) {border: 0 none}
+	#cc-slider-lsp .item:nth-child(3n+1) {clear: both}
+	#cc-slider-lsp .item:nth-child(-n+3) {border-top: 0 none}
+	#cc-slider-lsp .item {border-top: 1px solid #ccc}
+	#cc_slider_home_page_top_seller .Bild, #cc_slider_home_page_new_products .Bild, #cc-slider-hp-topseller .Bild, #cc-slider-hp-Neuheiten .Bild, #cc-slider-lsp .Bild {height: 130px}
+	nav.pure-drawer[data-position="left"], aside.pure-drawer[data-position="left-bottom"], aside.pure-drawer[data-position="right-bottom"] {z-index: 120; margin: 2.75rem 0; max-width: 400px; width: 100%;top: 0;}
+	aside.pure-drawer[data-position="left-bottom"], aside.pure-drawer[data-position="right-bottom"] {border-bottom: 4rem solid #fff}
+	aside.pure-drawer[data-position="right-bottom"] {left: auto; right: 0;}
+	.PUES #asideBackground {position: fixed; bottom: 0; background-color: #fff; height: 2.75rem; width: 100%; border-top: 1px solid #ccc; z-index:99 !important}
+	.nav-pri {background-color: #0061a0; z-index:80; position:relative }
+	aside.pure-drawer {background-color: #fff}
+	nav .Hotline {display: block}
+	.nav-pri > ul > li, .sub, .col {float: left; width: 100% !important; background-image: none; padding: 0}
+	.sub, .nav-third {border: 0 none; position: initial; visibility: hidden; opacity: 0; max-height: 0; -webkit-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: opacity .25s ease-out .25s, max-height .5s ease-out; transition: opacity .25s ease-out .25s, max-height .5s ease-out}
+	li:hover .sub, .subnav:hover .nav-third {visibility: visible; opacity: 1; max-height: 2000px; -webkit-transition: opacity .25s ease-in, max-height .5s ease-in; -moz-transition: opacity .25s ease-in, max-height .5s ease-in; -ms-transition: opacity .25s ease-in, max-height .5s ease-in; -o-transition: opacity .25s ease-in, max-height .5s ease-in; transition: opacity .25s ease-in, max-height .5s ease-in}
+	.nav-pri [id^="topnav"] > a {border: 0 none; border-top: 1px solid #ccc;}
+	nav .Hotline a {border-top: 1px dashed}
+	nav .Hotline a {color: #fff; display: block; height: 2.5rem; font-size: 1.5rem; padding: .75rem .5rem .3rem .75rem;}
+	nav .Hotline a::before {margin: 0 .5rem 0 0; font-size: 1.25rem}
+	#topnav4 .sub, #topnav7 .sub {left: 0}
+	.sub a {padding: .75rem .5rem .4rem 1rem; display: block; margin: 0; height: 2rem}
+	.nav-third li::before {content: ""}
+	
+	/* Container */
+	.pure-container {/* position: relative; */ /* height: 100%; */ /* -webkit-overflow-scrolling: touch; */}
+	
+	/* Toggler */
+	.pure-toggle {left: -9999px; position: absolute; top: -9999px}
+	.pure-toggle:focus ~ .pure-toggle-label {/* border-color: #1fc08e; */ /* color: #1fc08e; */}
+	.pure-toggle-label {cursor: pointer; position: fixed; top: .35rem; z-index: 199; color: #5d809d; width: 2rem; height: 2rem; transition: all 400ms ease-in-out; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
+	.pure-toggle-label.bottom {top: auto; bottom: 0rem}
+	.pure-toggle-label:hover {/* border-color: #1fc08e; */ /* color: #1fc08e; */}
+	.pure-toggle-label:hover .pure-toggle-icon, .pure-toggle-label:hover .pure-toggle-icon:before, .pure-toggle-label:hover .pure-toggle-icon:after {/* background-color: #1fc08e; */}
+	.pure-toggle-label:active {-webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
+	.pure-toggle-label .pure-toggle-icon, .pure-toggle-label .pure-toggle-icon:before, .pure-toggle-label .pure-toggle-icon:after {position: absolute; top: 50%; height: .2rem; width: inherit; cursor: pointer; background: #5d809d; display: block; content: ''; transition: all 500ms ease-in-out}
+	.pure-toggle-label .pure-toggle-icon:before {transform: translate3d(0, -.75rem, 0); -webkit-transform: translate3d(0, -.75rem, 0)}
+	.pure-toggle-label .pure-toggle-icon:after {transform: translate3d(0, .6rem, 0); -webkit-transform: translate3d(0, .6rem, 0)}
+	.pure-toggle-label[data-toggle-label='left'], .pure-toggle-label[data-toggle-label='left-bottom'] {left: .5rem; right: auto}
+	.pure-toggle-label[data-toggle-label='right'], .pure-toggle-label[data-toggle-label='right-bottom'] {right: 1rem; left: auto}
+	.pure-toggle-label[data-toggle-label='top'] {left: 50%; -webkit-transform: translate3d(-50%, 0, 0); transform: translate3d(-50%, 0, 0)}
+	.pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label:not([data-toggle-label='left']), .pure-toggle[data-toggle='right']:checked ~ .pure-toggle-label:not([data-toggle-label='right']), .pure-toggle[data-toggle='top']:checked ~ .pure-toggle-label:not([data-toggle-label='top']), .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-toggle-label:not([data-toggle-label='left-bottom']), .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-toggle-label:not([data-toggle-label='right-bottom']) {opacity: 0; z-index: -1}
+	.pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label[data-toggle-label='left'], .pure-toggle[data-toggle='right']:checked ~ .pure-toggle-label[data-toggle-label='right'], .pure-toggle[data-toggle='top']:checked ~ .pure-toggle-label[data-toggle-label='top'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-toggle-label[data-toggle-label='left-bottom'], {border-color: #1fc08e; color: #1fc08e}
+	.pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label[data-toggle-label='left'] .pure-toggle-icon, .pure-toggle[data-toggle='right']:checked ~ .pure-toggle-label[data-toggle-label='right'] .pure-toggle-icon, .pure-toggle[data-toggle='top']:checked ~ .pure-toggle-label[data-toggle-label='top'] .pure-toggle-icon, .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-toggle-label[data-toggle-label='left-bottom'] .pure-toggle-icon {background-color: transparent}
+	.pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label[data-toggle-label='left'] .pure-toggle-icon:before, .pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label[data-toggle-label='left'] .pure-toggle-icon:after, .pure-toggle[data-toggle='right']:checked ~ .pure-toggle-label[data-toggle-label='right'] .pure-toggle-icon:before, .pure-toggle[data-toggle='right']:checked ~ .pure-toggle-label[data-toggle-label='right'] .pure-toggle-icon:after, .pure-toggle[data-toggle='top']:checked ~ .pure-toggle-label[data-toggle-label='top'] .pure-toggle-icon:before, .pure-toggle[data-toggle='top']:checked ~ .pure-toggle-label[data-toggle-label='top'] .pure-toggle-icon:after, .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-toggle-label[data-toggle-label='left-bottom'] .pure-toggle-icon:before {top: 0}
+	.pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label[data-toggle-label='left'] .pure-toggle-icon:before, .pure-toggle[data-toggle='right']:checked ~ .pure-toggle-label[data-toggle-label='right'] .pure-toggle-icon:before, .pure-toggle[data-toggle='top']:checked ~ .pure-toggle-label[data-toggle-label='top'] .pure-toggle-icon:before, .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-toggle-label[data-toggle-label='left-bottom'] .pure-toggle-icon:before, .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-toggle-label[data-toggle-label='left-bottom'] .pure-toggle-icon:before {transform: translateX(0) rotate(45deg); -webkit-transform: translateX(0) rotate(45deg)}
+	.pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label[data-toggle-label='left'] .pure-toggle-icon:after, .pure-toggle[data-toggle='right']:checked ~ .pure-toggle-label[data-toggle-label='right'] .pure-toggle-icon:after, .pure-toggle[data-toggle='top']:checked ~ .pure-toggle-label[data-toggle-label='top'] .pure-toggle-icon:after, .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-toggle-label[data-toggle-label='left-bottom'] .pure-toggle-icon:after {transform: translateX(0) translateY(-10px) rotate(-45deg); -webkit-transform: translateX(0) translateY(-10px) rotate(-45deg); top: 10px}
+
+	/* Drawer */
+	.pure-drawer {position: fixed; z-index: 101; height: 95%; visibility: hidden;  transition-property: all; transition-duration: 500ms; transition-timing-function: ease-out;
+
+	/* Breaks animation recognition or whatever else cuases click instead of hover
+	figure 6.4: https://developer.apple.com/library/mac/documentation/AppleApplications/Reference/SafariWebContent/HandlingEvents/HandlingEvents.html */
+	overflow-y: scroll; /* Incompatible with overflow scroll */
+	/* -webkit-overflow-scrolling: touch; */}
+
+	/* Effect - Fade */
+	/* DRAWER */
+	[data-effect="pure-effect-fade"] .pure-drawer {z-index: 103; -webkit-animation-duration: 1000ms; animation-duration: 1000ms; -webkit-animation-fill-mode: both; animation-fill-mode: both}
+	[data-effect="pure-effect-fade"] .pure-toggle[data-toggle='left']:checked ~ .pure-drawer[data-position='left'], [data-effect="pure-effect-fade"] .pure-toggle[data-toggle='right']:checked ~ .pure-drawer[data-position='right'], [data-effect="pure-effect-fade"] .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-drawer[data-position='left-bottom'], [data-effect="pure-effect-fade"] .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-drawer[data-position='right-bottom'] {visibility: visible}
+	/* OVERLAY */
+	[data-effect="pure-effect-fade"] .pure-overlay {transition-duration: 1000ms; transition-delay: 500ms}
+	
+	@-webkit-keyframes fadeInLeft { 0% { opacity: 0; -webkit-transform: translate3d(-100%, 0, 0); transform: translate3d(-100%, 0, 0)}
+		100% {	opacity: 1; -webkit-transform: none; transform: none} }
+	
+	@keyframes fadeInLeft { 0% { opacity: 0; -webkit-transform: translate3d(-100%, 0, 0); transform: translate3d(-100%, 0, 0)}
+		100% {	opacity: 1; -webkit-transform: none; transform: none} }
+	
+	.fadeInLeft, [data-effect="pure-effect-fade"] .pure-toggle[data-toggle="left"]:checked ~ .pure-drawer[data-position="left"], [data-effect="pure-effect-fade"] .pure-toggle[data-toggle="left-bottom"]:checked ~ .pure-drawer[data-position="left-bottom"] {-webkit-animation-name: fadeInLeft; animation-name: fadeInLeft}
+	@-webkit-keyframes fadeOutLeft { 0% { opacity: 1}
+		100% {	opacity: 0; -webkit-transform: translate3d(-100%, 0, 0); transform: translate3d(-100%, 0, 0)} }
+	
+	@keyframes fadeOutLeft { 0% { opacity: 1}
+		100% {	opacity: 0; -webkit-transform: translate3d(-100%, 0, 0); transform: translate3d(-100%, 0, 0)} }
+	
+	.fadeOutLeft, [data-effect="pure-effect-fade"] .pure-drawer[data-position='left'], [data-effect="pure-effect-fade"] .pure-drawer[data-position='left-bottom'] {-webkit-animation-name: fadeOutLeft; animation-name: fadeOutLeft}
+	@-webkit-keyframes fadeInRight { 0% { opacity: 0; -webkit-transform: translate3d(100%, 0, 0); transform: translate3d(100%, 0, 0)}
+		100% {	opacity: 1; -webkit-transform: none; transform: none} }
+	
+	@keyframes fadeInRight { 0% { opacity: 0; -webkit-transform: translate3d(100%, 0, 0); transform: translate3d(100%, 0, 0)}
+		100% {	opacity: 1; -webkit-transform: none; transform: none} }
+	
+	.fadeInRight, [data-effect="pure-effect-fade"] .pure-toggle[data-toggle='right']:checked ~ .pure-drawer[data-position='right'], [data-effect="pure-effect-fade"] .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-drawer[data-position='right-bottom'] {-webkit-animation-name: fadeInRight; animation-name: fadeInRight}
+	@-webkit-keyframes fadeOutRight { 0% { opacity: 1}
+		100% {	opacity: 0; -webkit-transform: translate3d(100%, 0, 0); transform: translate3d(100%, 0, 0)} }
+	
+	@keyframes fadeOutRight { 0% { opacity: 1}
+		100% {	opacity: 0; -webkit-transform: translate3d(100%, 0, 0); transform: translate3d(100%, 0, 0)} }
+	
+	.fadeOutRight, [data-effect="pure-effect-fade"] .pure-drawer[data-position='right'], [data-effect="pure-effect-fade"] .pure-drawer[data-position='right-bottom'] {-webkit-animation-name: fadeOutRight; animation-name: fadeOutRight} }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {.Homepage .col9 {width: 74.68%}
+	.article-PDS-Produktbilder {width: 32.5%}
+	.Homepage .Teaser-Vorteile-bei-SETON-bvh, .Homepage .Content .col3 {width: 24.06%; margin-left: 1.25%}
+	.Homepage .Content .Teaser-Spar-Angebote {margin: 0} }
+
+/* Mobiles portrait */
+@media only screen and (max-device-width: 768px) and (orientation: portrait) {.article-Dropdowns {width: 66.25%}
+	.Designcode-Artikelauswahl .royalSlider {height: 335px;width: 100%;} }
+
+@media only screen and (max-device-width: 768px) and (orientation: portrait), (max-device-width: 667px) {.Teaser-Vorteile-bei-SETON-bvh ul, .Teaser-Spar-Angebote p {float: left; max-width: 55%}
+	.Trusted-Shop-Kundenbewertung {width: 38%; float: right} }
+
+/* Smartphones portrait*/
+@media only screen and (max-device-width: 667px) and (orientation: portrait) {
+	.Zwei-Spalter-Sidebar-left .Content, .Zwei-Spalter-Sidebar-right .Content, .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .PDS .col8, .Grid-System-Social-Media .col4, .Checkout .Teaser, .Abrechnung, .Grid-System [class*="Grid"], #Avail-Hauptkategorie-Kunden-kauften-2, #Avail-Kategorie-Topseller-2 {margin: 0 0 1.25rem 0; width: 100%}
+	.PUES .grid-view .item, .Menge, .Preisbox {width: 49.37%}
+	.Homepage .royalSlider {height: 125px}
+	.Checkout .Content {padding: 0 .5rem}
+	.Grid-System-Social-Media .col4 {border: 0 none; border-bottom: 1px solid #ccc}
+	.grid-view .item:nth-child(2n) {border-right: 0 none}
+	.grid-view .item:nth-child(-n+2) {border-top: 0 none}
+	.grid-view .item:nth-child(3n+3) {border-top: 1px solid #ccc}
+	.Checkout .Produkttabelle th {display: none}
+	.Checkout .Produkttabelle td {display: block}
+	.Checkout .Produkttabelle td::before {content: attr(data-th) ": "; font-weight: bold; width: 30%; display: inline-block; vertical-align: top; height: 100%}
+	.Checkout .Produkttabelle .Bild {width: 30%; display: inline-block}
+	.Checkout .Produkttabelle .Produktinfo {width: 64%; display: inline-block}
+	.Checkout .Produkttabelle td:nth-child(-n+2)::before {display: none}
+	.Adresseingabe textarea {width: 100%; max-height: 300px}
+	.Adresseingabe label, .Checkout .Hinweis { display: block; width: 100%;}
+	.Checkox-Gewerbe .Label-Gewerbe, .Newsletter label, .Faxangebot label {width: 90%;display: inline-block;}
+	.Adresseingabe [type="text"], .Adresseingabe [type="tel"], .Adresseingabe [type="email"], #Branche {/* width: 50% */}
+	.Checkout .Adresseingabe [type="text"], .Checkout .Adresseingabe [type="tel"], .Checkout .Adresseingabe [type="email"] {width: 100%;}
+	.Adresseingabe .Eingabefeld-PLZ, .Checkout .Adresseingabe .Eingabefeld-PLZ[type="text"] {width: 19.5%;} }
+
+/* iPhone 5 & 6 */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 320px) and (max-device-width: 667px) {p {font-size: .75rem}
+	#Header .icon_cart_alt::before {margin: 0 0 0 .5rem}
+	#WKPosHead {float: left}
+	.WKArtikel, #WKBetragHead {display: none}
+	.cc-slider.items-4 .item, .cc-slider.items-3 .item {width: 5%} }
+
+/* Tablet portrait = iPhone 5 & 6 landscape */
+@media only screen and (min-width:768px) and (max-device-width: 1024px) and (orientation: portrait), (min-device-width: 320px) and (max-device-width: 667px) and (orientation: landscape) {
+	#Header .Artikelsuche {/* margin-left: 2.5%; */ width: 55%}
+	#cc_slider_category_page_customers_choice {width: 100%; padding: 0 1.25%}
+	#cc_slider_category_page_customers_choice .item {width: 3.33%}
+	.Designcode-Artikelauswahl .Drucken, #socialshareprivacy {float: none; display: inline-block; vertical-align: top}
+	#Service, .PDS #Crosslink, #AehnlicheArtikel, #WeitereArtikel, #cc_slider_item_page_similar_products, #cc_slider_item_page_customers_choice {width: 49.37%; float: left}
+	#WKBetragHead {display: inline-block}
+	.cc-slider.items-4 .item {width: 3.33%}
+	.PUES .grid-view .item {width: 33.3%}
+	.grid-view .item:nth-child(3n) {border-right: 0 none}
+	.PDS .col8, .article-Dropdowns {width: 49.37%}
+	.Grid-System-Sitemap .col3 {width: 49.37%; max-height: 225px}
+	.Grid-System-Sitemap .col3:nth-child(3) {margin-left: 0} }
+
+/* iPhone 5 strict landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+	#Header .Artikelsuche {width: 50%}
+	.Homepage .royalSlider {height: 185px} }
+
+/* iPhone 6 strict landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {.Homepage .royalSlider {height: 220px} }
+
+/* iPhone 5 and 6 portrait*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait), (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {.Produktergebnis-inner, .Preisstaffel, .Grid-System-Sitemap .col3 {width: 100%}
+	.Grid-System-Sitemap li {width: 48.5%; display: inline-block; white-space: pre-line} }
+
+/* iPhone 5 strict portrait*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) and (device-aspect-ratio: 40/71) {
+	#Header .Artikelsuche {width: 45%; margin-left: 2.5%}
+	.Homepage .royalSlider {height: 105px} }
+
+/* iPhone 6 strict portrait*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+	#Header .Artikelsuche {width: 55%; margin-left: 1.5%}
+	#suggestContainer {top: 2.5rem} }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {.pure-drawer {/* height: 100%; */ /* overflow-y: scroll; */} }
+@media only screen and (min-width:40.063rem) {.pure-drawer {/* width: 300px; */} }
+@media only screen and (min-width:64.063rem) {.pure-drawer {/* width: 300px; */} }
+.pure-drawer[data-position='right'] {left: auto; right: 0;}
+.pure-drawer[data-position='top'] {height: 100%; width: 100%;}
+@media only screen and (min-width:40.063rem) {.pure-drawer[data-position='top'] {height: 100%} }
+@media only screen and (min-width:64.063rem) {.pure-drawer[data-position='top'] {height: 100px} }
+
+/* Pusher Container */
+.pure-pusher-container {position: relative; height: 100%; overflow: hidden;}
+
+/* Pusher */
+.pure-pusher {position: relative; height: 100%; overflow-y: auto; left: 0; z-index: 2; background-color: #fff; transition-property: transform; transition-duration: 500ms; transition-timing-function: ease-out;}
+
+/* Pusher Overlay */
+.pure-overlay {position: fixed; top: 0; bottom: 0; right: 0; width: 0; height: 0; opacity: 0; background-color: rgba(0, 0, 0, 0.4); transition-property: opacity; transition-duration: 500ms; transition-delay: 500ms; transition-timing-function: ease-in-out;}
+.pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left-bottom'] {/* left: 100%; */}
+@media only screen and (min-width:40.063rem) {.pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left-bottom'] {left: 300px} }
+@media only screen and (min-width:64.063rem) {.pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left-bottom'] {left: 300px} }
+.pure-toggle[data-toggle='right']:checked ~ .pure-overlay[data-overlay='right'], .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-overlay[data-overlay='right-bottom'] {right: 100%;}
+@media only screen and (min-width:40.063rem) {.pure-toggle[data-toggle='right']:checked ~ .pure-overlay[data-overlay='right'], .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-overlay[data-overlay='right-bottom'] {right: 300px} }
+@media only screen and (min-width:64.063rem) {.pure-toggle[data-toggle='right']:checked ~ .pure-overlay[data-overlay='right'], .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-overlay[data-overlay='right-bottom'] {right: 300px} }
+.pure-toggle[data-toggle='top']:checked ~ .pure-overlay[data-overlay='top'] {top: 100%;}
+@media only screen and (min-width:40.063rem) {.pure-toggle[data-toggle='top']:checked ~ .pure-overlay[data-overlay='top'] {top: 100%} }
+@media only screen and (min-width:64.063rem) {.pure-toggle[data-toggle='top']:checked ~ .pure-overlay[data-overlay='top'] {top: 100px} }
+.pure-toggle:checked ~ .pure-overlay {width: 100%; height: 100%; opacity: 1; z-index: 2;}
+
+/* Fallback for older browsers */
+.no-csstransforms3d .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {left: 100%;}
+@media only screen and (min-width:40.063rem) {.no-csstransforms3d .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {left: 300px} }
+@media only screen and (min-width:64.063rem) {.no-csstransforms3d .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {left: 300px} }
+.no-csstransforms3d .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {left: -100%;}
+@media only screen and (min-width:40.063rem) {.no-csstransforms3d .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {left: -300px} }
+@media only screen and (min-width:64.063rem) {.no-csstransforms3d .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {left: -300px} }
+.no-csstransforms3d .pure-toggle[data-toggle='top']:checked ~ .pure-pusher-container .pure-pusher {top: 100%;}
+@media only screen and (min-width:40.063rem) {.no-csstransforms3d .pure-toggle[data-toggle='top']:checked ~ .pure-pusher-container .pure-pusher {top: 100%} }
+@media only screen and (min-width:64.063rem) {.no-csstransforms3d .pure-toggle[data-toggle='top']:checked ~ .pure-pusher-container .pure-pusher {top: 100px} }
