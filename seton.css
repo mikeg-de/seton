@@ -7,9 +7,6 @@ img {max-width: 100%; border: 0}
 td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .popup {width: 95%}
 
-/* CSS Images */
-.Button-close, .NL-Layer .Container .NL-Layer-Button .arrow {background: url('/images/Allgemein/Buttons/Buttons.png') 0 0 no-repeat}
-
 /* Hidden elements */
 .Link-Mehr-Infos, .Bild-sw, .Produkttabelle #warenkorbItems, .Produkttabelle hr, #socialshareprivacy .settings_info, .Hinweis-NL-Pflichtfelder, .ui-helper-hidden, .ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle, .Zwei-Spalter-Sidebar-left .Sidebar-right, .Zwei-Spalter-Sidebar-right .Sidebar-left, #nav-home, nav .Hotline, .cc-slider input, .toggle input, .toggle .toggle1:checked ~ .controls label:nth-child(1), .toggle .toggle2:checked ~ .controls label:nth-child(2), .Designcode-Artikelauswahl-NJS .royalSlider .bugaga .rsCaption, .Designcode-Artikelauswahl-NJS .royalSlider .Rotating-image, .Designcode-Artikelauswahl .Kopfnummerninfos .Tabs, .Factfinder-Copyright, .Auflistung-Produkte .Edit-Info, .Schildersuche .PUES-Subnavigation-Kategorien .Title2, .Schildersuche .Anzahl-Artikel, .Checkout-Adresseingabe .editable_textarea, .Checkout-Print .Anzahl-JS img, .Checkout-Print .Anzahl a, .Checkout-Print .Anzahl-JS a, .Checkout-Print .Anzahl-JS .updateLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto img, .Print .Einzelpreis-abzgl-Rabatt-netto .buttonAsLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto .Datei-Upload, .Checkout-Print .vortn, .Checkout-Print .Dankeschoen-Geschenk input, .Themenheadline, .smallreadonly, .Kopfnummerninfos-Tabs .Tabs, .Teaser-Blog .updated, .Footer .Trusted-Shop .hreview-aggregate, .ui-dialog-titlebar-close, p:empty, .rsCaption:empty, .Hauptkategorie-Text:empty, .Tab-Content:empty, .cc-slider:empty, #Produktbeschreibung:empty, .LV_validation_message:empty, .Hinweistext:empty, #SEO-Footer:empty, #Footer_Bereichstext:empty, #cc-slider-top-kategorien .cc-slides .overflow::after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow::after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow .inner::before, .cc-slider .controls, .Artikel-pro-Seite, .recs, .pure-toggle, .pure-toggle-label, .hidden {display: none}
 #cc-slider-top-kategorien .controls {display: block}
@@ -1022,7 +1019,7 @@ a.Mehr-Filterparameter {display: none; position: absolute; bottom: 0; right: 0; 
 .slide9:checked ~ .cc-slides .inner {margin-left: -800%}
 
 .cc-slider label::before {content: "\44"; font-size: 2rem; color: #696969}
-.cc-slider-pfeil-links-rechts .slide1:checked ~ .controls label:nth-child(2), .cc-slider-pfeil-links-rechts .slide2:checked ~ .controls label:nth-child(3) { display: block; right: 0; transform: rotate(180deg)}
+.cc-slider-pfeil-links-rechts .slide1:checked ~ .controls label:nth-child(2), .cc-slider-pfeil-links-rechts .slide2:checked ~ .controls label:nth-child(3) { display: block; right: 0; -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg)}
 .cc-slider-pfeil-links-rechts .slide2:checked ~ .controls label:nth-child(1), .cc-slider-pfeil-links-rechts .slide3:checked ~ .controls label:nth-child(2) { display: block; left: 0 }
 
 .rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .Designcode-Artikelauswahl .Rotating-image .spritespin-canvas {max-height: 100%; display: block; margin: 0 auto; max-width: 100%; height: auto; width: auto !important}
