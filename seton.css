@@ -97,7 +97,7 @@ aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 .Produkttabelle .Anzahl-JS .Eingabefeld {width: 50px; margin: 0 5px 3px 0 !important; font-size: 1rem; text-align: right}
 .Produkttabelle .Anzahl .Eingabefeld {width: 2rem; text-align: right; display: inline-block; margin: 0 .25rem 0 0; vertical-align: top}
 .Produkttabelle .Geschenke-in-leerem-WK td {line-height: 0; font-size: 0; height: 3px; overflow: hidden; padding: 0 !important}
-.Produkttabelle .Eingabefeld:hover, .file:hover, .Produkttabelle textarea:hover, .Produkttabelle select:hover {border: 1px solid #BBB}
+.Produkttabelle .Eingabefeld:hover, .Produkttabelle textarea:hover, .Produkttabelle select:hover {border: 1px solid #BBB}
 
 /* Formulartabelle */
 .Adresseingabe .Gewerbe .Hinweis p {width: 150px}
@@ -145,7 +145,7 @@ input.LV_invalid_field {border-color: #F00}
 .kundenadr_Bemerkung label {/* display: block */}
 input:required {}
 input:optional {}
-input:valid, .Checkout input.LV_valid_field { border-color: #19B201}
+.Checkout input.LV_valid_field { border-color: #19B201}
 input:invalid, .LV_invalid_field {border: 1px solid #f00}
 input:default {}
 input:in-range {}
@@ -1165,8 +1165,9 @@ a.Mehr-Filterparameter {display: none; position: absolute; bottom: 0; right: 0; 
 
 /* File-Upload iFrame*/
 .FileUpload {overflow-x: hidden; overflow-y: auto; width: 90%; padding: 20px 5%}
-.FileUpload .Datei-Upload {margin: 20px 0; position: relative; width: 515px}
+.FileUpload .Datei-Upload { position: relative; width: 515px}
 .FileUpload .Datei-Uploads {margin: 20px 0}
+.FileUpload .Weiterfuehrender-Link {position: relative;right: auto;bottom: auto;}
 .vortn .Radio-Button {text-align: right; padding-right: 5px; min-width: 110px}
 .vortn .Radio-Button input {margin: 0 !important}
 #geschenke h3 {margin: 0}
