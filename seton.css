@@ -2,7 +2,7 @@
 .data-icon::before, .Filterparameter a::before, .Icon::before, .Bullet-Haekchen li::before, .Editieren::after, .royalSlider .arrow_carrot-left_alt2::before, .royalSlider .icon_pause_alt2::before, .royalSlider .arrow_triangle-right_alt2::before, .royalSlider .arrow_carrot-right_alt2::before, .Link-Liste a::before, .Vorteile li::before, .Info-Icon::before, .icon_chat_alt:before, .icon_phone::before, .controls label::before {font: normal normal normal 1em/1rem 'ElegantIcons'; speak: none; -webkit-font-smoothing: antialiased}
 
 /* Allgemeine Definitionen */
-body {font: normal normal 13px/1.25rem Arial, Verdana, Helvetica, sans-serif; color: #3e3e3e; padding: 0; margin: 0 auto; max-width: 1024px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
+body {font: normal normal 13px/1.25rem Arial, 'Helvetica Neue', Helvetica, sans-serif; color: #3e3e3e; padding: 0; margin: 0 auto; max-width: 1024px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
 img {max-width: 100%; border: 0}
 td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .popup {width: 95%}
@@ -23,13 +23,12 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .rsFullscreen .rsContainer .rsSlide img, .rsFullscreen .rsSlide .Rotating-image {-webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0)}
 
 /* Text */
-p, .Tab-Content, .Content-Box {margin: 0 0 .5rem}
-h1, h2, h3, h4, h5, .Title1, .Title2, .Title3, .Title4, .Title5, .Teaser-Title, .Titel-Newsletter-abonnieren {font-weight: 400; color: #3a3a3a; line-height: 1.5rem; margin: 0 0 .25rem 0}
-h1, .h1, h1 a, .Title1 a, .Warenkorb-Reminder .Title1, .Teaser-Title, .Titel-Newsletter-abonnieren {/* font-size: 1rem; */}
-h2, .h2, .Tab-Title {/* font-size: 1rem; */}
-h3, .h3, .Title3 a {padding: 0; margin: 0 0 .5rem 0}
-h4, .h4, h4 a, .Title4 a {}
-h5, .h5, h5 a, .Title5 a {font-size: 9pt; margin: 0 0 .3rem 0}
+h1, h2, h3, h4, h5, .Title1, .Title2, .Title3, .Title4, .Title5, .Teaser-Title, .Titel-Newsletter-abonnieren {font-weight: 500; color: #3a3a3a; line-height: 1.5rem; margin: 0 0 .25rem 0;font-size: 1rem;}
+h1, .h1, h1 a, .Title1 a, .Warenkorb-Reminder .Title1, .Teaser-Title, .Titel-Newsletter-abonnieren {font-size: 1.5rem;}
+h2, h3, h4, h5, h6 {font-size: 1rem;}
+h3, .h3, .Title3 a, p, .Tab-Content, .Content-Box {padding: 0; margin: 0 0 .5rem 0}
+h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
+
 [class^="Sidebar"] .Title1 {font-size: 1.1rem}
 aside .Titel-Balken-hellgrau {border-bottom: 1px solid #ccc; font-weight: bold}
 article .Titel-Balken-hellgrau, #lastSeenProducts .Titel-Balken-hellgrau, .Produkttabelle th, .Grid-Themen-Index p, .Block h2, .Grid-System-Sitemap .Title4 {background: #eee; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 5px .75rem 3px; margin: .5rem 0 .5rem 0; clear: both}
@@ -57,8 +56,8 @@ article .Titel-Balken-hellgrau, #lastSeenProducts .Titel-Balken-hellgrau, .Produ
 
 /* Listen */
 ul, .PUES-Subnavigation-Kategorien, .Teaser-Blog ul, .Teaser .Bullet-Haekchen {margin: 0 0 .5rem .75rem; padding: 0; list-style-position: outside}
-.Teaser-Blog ul {margin: 0}
-.Bullet-Haekchen, .Teaser-Blog ul, .Footer ul {list-style-type: none}
+.Teaser-Blog ul, .dropdown-list {margin: 0}
+.Bullet-Haekchen, .Teaser-Blog ul, .Footer ul, .dropdown-list {list-style-type: none}
 .Bullet-Haekchen li, .Bullet-Haekchen-weiss li, .Bullet-Plus li, .Bullet-Checkbox li, .Vorteile li {list-style-type: none; margin: 0 0 0 1rem; padding: 0 0 0 .25rem}
 aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 .Bullet-Haekchen-weiss li .Bullet {background-position: -22px -130px}
@@ -432,10 +431,15 @@ select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVy
 .nav-pri [id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc; background-color: #0061a0}
 .nav-pri > ul > li:hover > a {background-color: #ccc}
 .nav-pri li:nth-child(5n+2) a {border-left: 0 none}
-.sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; visibility: hidden; opacity: 0; max-height: 0; z-index:70; position:relative; -webkit-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out}
+.sub {visibility: hidden; opacity: 0; max-height: 0; z-index:70; position: relative; -webkit-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out;overflow: hidden;}
+.nav-pri .sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right}
 li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
- /* iOS: visibility breaks transition but required for touch events and block is not animatable */
-	-webkit-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in; -moz-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in; -ms-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in; -o-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in; transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in}
+	/* iOS: visibility breaks transition but required for touch events and block is not animatable */
+	-webkit-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in;
+	-moz-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in;
+	-ms-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in;
+	-o-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in;
+	transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in}
 .sub a, .Teaser-Blog a, .Footer .Grid-System-Sitemap li a {margin: 0 0 .2rem .2rem; display: inline-block; max-width: 94%; vertical-align: top}
 .sub .Titel, .Thema-Name a {font-weight: bold; margin-left: 0}
 .nav-third li::before, .Teaser-Blog li::before, .Footer .Grid-System-Sitemap ul li::before, .nav-pri .PfeilLink::before, .Direktbestellung::before, .Weiterfuehrender-Link::before {content: "\203A"}
@@ -757,7 +761,7 @@ img.rsImg {max-width: none}
 .royalSlider .arrow_triangle-right_alt2::before {content: "\49"; font-size: 2rem}
 .royalSlider .arrow_carrot-2right_alt2::before {content: "\3d"; font-size: 2rem}
 .Designcode-Artikelauswahl .rsSlide, .Designcode-Artikelauswahl .rsThumb, .cc-slides .Bild, .Top-Kategorie-Schilder .Bild, .product-list-item a {display: block}
-.Designcode-Artikelauswahl .rsOverflow { height:243px !important /* rs berechnet HÃƒÂ¶he nicht korrekt */ }
+.Designcode-Artikelauswahl .rsOverflow { height:243px !important /* rs berechnet HÃƒÆ’Ã‚Â¶he nicht korrekt */ }
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide {width: 100%; height: auto}
 .Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide img, .Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide .Rotating-image {margin: 0 auto !important}
 .rsArrowDisabled {display: none !important}
@@ -1582,7 +1586,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 @media only screen and (min-width:768px) {
 	#Header .Artikelsuche {position: relative}
 	#suggestContainer {border-top: 0 none}
-	.sub {-moz-box-shadow: 0 0 15px rgba(33, 33, 33, 1); -webkit-box-shadow: 0 0 15px rgba(33, 33, 33, 1); box-shadow: 0 0 15px rgba(33, 33, 33, 1); border: 1px solid #ccc; border-top-width: .35rem; position: absolute; left: 0; z-index: -1}
+	.nav-pri .sub {-moz-box-shadow: 0 0 15px rgba(33, 33, 33, 1); -webkit-box-shadow: 0 0 15px rgba(33, 33, 33, 1); box-shadow: 0 0 15px rgba(33, 33, 33, 1); border: 1px solid #ccc; border-top-width: .35rem; position: absolute; left: 0; z-index: -1}
 	#topnav4 .sub, #topnav7 .sub {left: 20%}
 	#topnav32 .sub, #topnav10 .sub {left: 0}
 	.col {width: 204px; float: left; margin: 0; padding: 5px 5px 5px 10px; box-sizing: border-box}
