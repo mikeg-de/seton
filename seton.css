@@ -24,8 +24,8 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 
 /* Text */
 h1, h2, h3, h4, h5, .Title1, .Title2, .Title3, .Title4, .Title5, .Teaser-Title, .Titel-Newsletter-abonnieren {font-weight: 500; color: #3a3a3a; line-height: 1.5rem; margin: 0 0 .25rem 0;font-size: 1rem;}
-h1, .h1, h1 a, .Title1 a, .Warenkorb-Reminder .Title1, .Teaser-Title, .Titel-Newsletter-abonnieren {font-size: 1.5rem;}
-h2, h3, h4, h5, h6 {font-size: 1rem;}
+h1, .h1, h1 a, .Title1 a {font-size: 1.35rem;}
+h2, h3, h4, h5, h6, .Warenkorb-Reminder .Title1, .Teaser-Title, .Titel-Newsletter-abonnieren {font-size: 1rem;}
 h3, .h3, .Title3 a, p, .Tab-Content, .Content-Box {padding: 0; margin: 0 0 .5rem 0}
 h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 
@@ -761,7 +761,7 @@ img.rsImg {max-width: none}
 .royalSlider .arrow_triangle-right_alt2::before {content: "\49"; font-size: 2rem}
 .royalSlider .arrow_carrot-2right_alt2::before {content: "\3d"; font-size: 2rem}
 .Designcode-Artikelauswahl .rsSlide, .Designcode-Artikelauswahl .rsThumb, .cc-slides .Bild, .Top-Kategorie-Schilder .Bild, .product-list-item a {display: block}
-.Designcode-Artikelauswahl .rsOverflow { height:243px !important /* rs berechnet HÃƒÆ’Ã‚Â¶he nicht korrekt */ }
+/*.Designcode-Artikelauswahl .rsOverflow { height:243px !important} */
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide {width: 100%; height: auto}
 .Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide img, .Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide .Rotating-image {margin: 0 auto !important}
 .rsArrowDisabled {display: none !important}
@@ -1596,7 +1596,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.Drei-Spalter .Content {margin-left: -74.68%; margin-right: 25.31%}
 	.items-1 .item {border: 0 !important}
 	.items-2 :nth-child(2n+2), .items-3 :nth-child(3n+3), .items-4 :nth-child(4n+4), .items-5 :nth-child(5n+5), .items-6 :nth-child(6n+6), .items-7 :nth-child(7n+7), .items-8 :nth-child(8n+8), .items-9 :nth-child(9n+9), .items-10 :nth-child(10n+10), .cc-slider .item:last-child, .grid-view .item:nth-child(3n) {border-right: 0 none}
-	.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 600px !important;}
+	/*.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 600px !important;}*/
 	.Produkttabelle .Anzahl {width: 15%}
 	.Produkttabelle .Anzahl .Eingabefeld {float: left}
 	.Anzahl a {float: left}
@@ -1802,12 +1802,12 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
 	#Header .Artikelsuche {width: 50%}
 	.Homepage .royalSlider {height: 185px}
-	.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 275px !important} }
+	/*.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 275px !important} }*/
 
 /* iPhone 6 strict landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
 	.Homepage .royalSlider {height: 220px}
-	.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 325px !important;} }
+	/*.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 325px !important;} }*/
 
 /* iPhone 5 and 6 portrait*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait), (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
