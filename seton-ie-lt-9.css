@@ -1,4 +1,7 @@
-.Wrapper-Content,.Navi .sub {border-top: none}
+body {font: normal normal 13px/1.25em Arial, 'Helvetica Neue', Helvetica, sans-serif}
+.Wrapper-Content, .Navi .sub {border-top: none}
+.nav-pri [id^="topnav"] > a {height: 2.5em}
+.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12, .Content .col, .Sidebar, .Grid-System [class*="Grid"], .Grid-Themen-Index [class^="Grid"], .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1 {margin: 0 0 .75em 1.25%}
 #Warenkorb-Rahmen { filter:progid:DXImageTransform.Microsoft.gradient(enabled=false) !important; border:0 !important }
 .Designcode-Artikelauswahl .rsDefault .rsThumb img { top:0 }
 #topnav-Home { display:none }
