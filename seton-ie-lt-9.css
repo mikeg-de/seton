@@ -1,0 +1,7 @@
+.Wrapper-Content,.Navi .sub {border-top: none}
+#Warenkorb-Rahmen { filter:progid:DXImageTransform.Microsoft.gradient(enabled=false) !important; border:0 !important }
+.Designcode-Artikelauswahl .rsDefault .rsThumb img { top:0 }
+#topnav-Home { display:none }
+.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .grid-view.categries h2 + .Bild img, .grid-view.products .Bild img { top:0 }
+#PDS-Content { clear:both }
+.products.grid-view .Bild img {top: 0%}
