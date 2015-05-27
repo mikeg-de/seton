@@ -168,6 +168,7 @@ a .Link {color: #0061a0}
 span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor: pointer}
 .tooltips:hover {text-decoration: none}
 .tooltips .tooltip, #Artikelsuche-Hinweis, .Info-Link .Info-Text, .Info-Link .Info-Text-JS {position: absolute; color: #3e3e3e; background: #fff; border: 2px solid #ccc; visibility: hidden; border-radius: 5px; padding: 5px; z-index: 250; text-align: center; left: 0}
+/*.tooltip {width: 300px; left: 50%; margin-left: -160px }*/
 .tooltips-drueber .tooltip { bottom:30px }
 .tooltips-drunter .tooltip { top: 30px }
 .tooltips-drueber .tooltip:before, .tooltips-drunter .tooltip:before, .Info-Link .Info-Text:before, .Info-Link .Info-Text-JS:before, .tooltips-drueber .tooltip:after, .tooltips-drunter .tooltip:after, #Artikelsuche-Hinweis:after, .Info-Link .Info-Text:after, .Info-Link .Info-Text-JS:after {content: ''; position: absolute; left: 50%; width: 0; height: 0; text-decoration: none !important}
