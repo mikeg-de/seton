@@ -220,14 +220,14 @@ button {font-size: .8rem}
 [class^="Button"], .Link-Liste a {cursor: pointer; text-decoration: none}
 [class^="Button"]:hover, .Link-Liste a:hover, select:hover {-webkit-box-shadow: 0 0 5px 1px #ccc; -moz-box-shadow: 0 0 5px 1px #ccc; box-shadow: 0 0 5px 1px #ccc; cursor: pointer}
 [type="button"], [type="submit"], [class^="Button-klein"] button, .Link-Liste a {height: 1.5rem}
-button.Button-gross, [class^="Button-gross"] [type="submit"], .ui-state-default, .Teaser-Newsletter button {height: 2.25rem}
-button.Button-gruen, button.Button-grau, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Button-klein-blau input, .Button-klein-blau a, button:disabled, .Link-Liste a, .ui-state-default {border: 0 none; color: #fff; padding: 3px 15px; cursor: pointer}
-button.Button-gruen, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .ui-state-default, #Chat {background: #509e2f; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM1MDllMmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMzZjhjMjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #509e2f), color-stop(50%, #3f8c24)); background: -webkit-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -o-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -ms-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: linear-gradient(to bottom, #509e2f 50%, #3f8c24 50%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#509e2f', endColorstr='#3f8c24', GradientType=0 )}
-button.Button-grau, .Button-gross-grau input, .Button-gross-grau button, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Titel-grauer-Balken, .Link-Liste a, .ui-state-default:first-child {background: #8c8c8c; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM4YzhjOGMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM2OTY5NjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #8c8c8c), color-stop(50%, #696969)); background: -webkit-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: -o-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: -ms-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: linear-gradient(to bottom, #8c8c8c 50%, #696969 50%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8c8c8c', endColorstr='#696969', GradientType=0 )}
+.Button-gross, [class^="Button-gross"] [type="submit"], .ui-state-default, .Teaser-Newsletter button {height: 2.25rem}
+.Button-gruen, .Button-grau, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Button-klein-blau input, .Button-klein-blau a, button:disabled, .Link-Liste a, .ui-state-default {border: 0 none; color: #fff; padding: 3px 15px; cursor: pointer}
+.Button-gruen, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .ui-state-default, #Chat {background: #509e2f; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM1MDllMmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMzZjhjMjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #509e2f), color-stop(50%, #3f8c24)); background: -webkit-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -o-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -ms-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: linear-gradient(to bottom, #509e2f 50%, #3f8c24 50%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#509e2f', endColorstr='#3f8c24', GradientType=0 )}
+.Button-grau, .Button-gross-grau input, .Button-gross-grau button, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Titel-grauer-Balken, .Link-Liste a, .ui-state-default:first-child {background: #8c8c8c; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM4YzhjOGMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM2OTY5NjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #8c8c8c), color-stop(50%, #696969)); background: -webkit-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: -o-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: -ms-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: linear-gradient(to bottom, #8c8c8c 50%, #696969 50%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8c8c8c', endColorstr='#696969', GradientType=0 )}
 .Button-klein-gruen a, .Button-klein-grau-Pfeil input {font-size: 0; display: inline-block; height: 18px}
 .Button-klein-grau-Pfeil input {height: 25px; float: right}
 .Button-klein-gruen a:after {content: "Zu den Produkten"; font-size: 14px}
-button.Button-gruen:hover, .Button-gross-gruen input:hover, .Button-gross-gruen a:hover, .Button-klein-gruen input:hover, .Button-klein-gruen a:hover, .Button-gross-gruen button:hover, .Button-klein-gruen button:hover, #Chat:hover {-webkit-box-shadow: 0 0 5px 1px #80dd36; -moz-box-shadow: 0 0 5px 1px #80dd36; box-shadow: 0 0 5px 1px #80dd36}
+.Button-gruen:hover, .Button-gross-gruen input:hover, .Button-gross-gruen a:hover, .Button-klein-gruen input:hover, .Button-klein-gruen a:hover, .Button-gross-gruen button:hover, .Button-klein-gruen button:hover, #Chat:hover {-webkit-box-shadow: 0 0 5px 1px #80dd36; -moz-box-shadow: 0 0 5px 1px #80dd36; box-shadow: 0 0 5px 1px #80dd36}
 .ui-state-default:nth-child(2n) {margin: 0 0 0 10px}
 .Button-close {cursor: pointer; width: 16px; height: 16px; background-position: -750px -102px}
 .ui-button-text {font-weight: bold}
@@ -373,7 +373,6 @@ select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVy
 #Header {width: 100%; position: relative; z-index:90}
 .Logo, #Header .Artikelsuche {margin: 0 0 .75rem 1.25%; vertical-align: top; display: inline-block}
 .Balken {background: #00609F; height: 1.5rem; margin-bottom: 1rem; padding: 10px 15px 0; display: block; line-height: 1rem}
-#Header button {padding: 0 10px; width: 25%}
 
 /* Meta-Navi */
 #Header .Meta-Navi {position: absolute; right: 28%; list-style-type: none; margin: 0}
@@ -384,12 +383,11 @@ select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVy
 #Header .Meta-Navi .last a {padding-right: 0}
 
 /*Artikelsuche */
-#Header .Artikelsuche {margin: 0 0 0 5%; width: 45%;
- /* overflow: hidden; */}
+#Header .Artikelsuche {margin: 0 0 0 5%; width: 45%}
 .Artikelsuche .Eingabefeld, .Teaser-Newsletter .Eingabefeld {width: 75%; border: 3px solid #00609F; margin: 0 -4px 0 0;vertical-align: top}
 .Artikelsuche .Eingabefeld {height: 2.5rem}
 #Footer .Teaser-Newsletter .Eingabefeld {max-width: 55%}
-.Artikelsuche button {border: 3px solid #00609F; border-left: 0 none; height: 2.5rem}
+#SuchButton {border: 3px solid #00609F; border-left: 0 none; height: 2.5rem;width: 25%;padding: 0 10px;}
 #Header .Artikelsuche .Button-klein-gruen {display: inline-block}
 #Header .Artikelsuche .suggestLayer {margin-top: 5px}
 .suggestContainer {display: none; width: 100%; top: auto; left: 0; padding: 0; margin: 0; background-color: white; z-index: 10001; position: absolute; border: 3px solid #00609F; box-sizing: border-box}
@@ -865,7 +863,7 @@ img.rsImg {max-width: none}
 .Kopfnummerninfos-Tabs .Tabs-Content .Tabs-Content-2 {margin: 10px}
 .Tabs-Content .Weitere-Informationen-item {margin: 0 0 15px 0}
 .Tabs-Content h3 {margin: 0}
-.Services-rund-ums-Produkt a {display:inline-block; text-align: center}
+.Services-rund-ums-Produkt a {float: right; text-align: center}
 .Inventarketiketten-Designer .Services-rund-ums-Produkt li {width: 25%}
 .Services-rund-ums-Produkt li a {display: block; height: 90px; padding: 3px; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px}
 .Inventarketiketten-Designer .Services-rund-ums-Produkt li a {height: auto}
@@ -883,10 +881,11 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .addthis_toolbox {float: right}
 .social_share_privacy_area {margin: 0}
 .social_share_privacy_area .dummy_btn {margin-left: 5px !important}
-.social_share_privacy_area .facebook {width: 130px !important}
-.social_share_privacy_area .twitter {width: 103px !important}
+.social_share_privacy_area .facebook {width: 115px !important;}
+.social_share_privacy_area .twitter {width: 90px !important;}
 .social_share_privacy_area .tweet {width: 55px !important}
-.Designcode-Artikelauswahl .Drucken, #socialshareprivacy {float: right}
+.social_share_privacy_area li.help_info .info {display: none !important}
+.Designcode-Artikelauswahl .Drucken, #socialshareprivacy {display: inline-block;vertical-align: top;}
 .Produktliste h2, .Tab-Content h2, .Produktliste h3, .Tab-Content h3 {margin-top: 0}
 #PDS-Content .Wischer {float: right; margin: -5px 0 0 5px}
 #Kopfnummernbeschreibung h2:after {content: ''; border-bottom: 1px solid #ccc; display: block; margin: 0 0 15px 0}
