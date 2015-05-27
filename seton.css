@@ -30,10 +30,9 @@ h3, .h3, .Title3 a, p, .Tab-Content, .Content-Box {padding: 0; margin: 0 0 .5rem
 h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 
 [class^="Sidebar"] .Title1 {font-size: 1.1rem}
-aside .Titel-Balken-hellgrau {border-bottom: 1px solid #ccc; }
-.Content .Titel-Balken-hellgrau, #lastSeenProducts .Titel-Balken-hellgrau, .Produkttabelle th, .Grid-Themen-Index p, .Block h2, .Grid-System-Sitemap .Title4 {background: #eee; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 5px .75rem 3px; margin: .5rem 0 .5rem 0; clear: both}
+.Titel-Balken-hellgrau, #lastSeenProducts .Titel-Balken-hellgrau, .Produkttabelle th, .Grid-Themen-Index p, .Block h2, .Grid-System-Sitemap .Title4 {background: #eee; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 5px .75rem 3px; margin: .5rem 0 .5rem 0; clear: both}
 .Titel-Balken-hellgrau img {vertical-align: middle}
-.Tab-Title, .Titel-unterstrichen {border-bottom: 1px solid #ccc}
+.Tab-Title, .Titel-unterstrichen, .Sidebar .Titel-Balken-hellgrau {border-bottom: 1px solid #ccc}
 .Thema-Name, .Teaser p, .Teaser .p {margin: 0}
 .Homepage .Teaser p, .Footer .Teaser-Newsletter p {float: left; max-width: 50%}
 .Footer .Teaser-Newsletter p {max-width: 65%}
@@ -169,7 +168,9 @@ a .Link {color: #0061a0}
 span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor: pointer}
 .tooltips:hover {text-decoration: none}
 .tooltips .tooltip, #Artikelsuche-Hinweis, .Info-Link .Info-Text, .Info-Link .Info-Text-JS {position: absolute; color: #3e3e3e; background: #fff; border: 2px solid #ccc; visibility: hidden; border-radius: 5px; padding: 5px; z-index: 250; text-align: center; left: 0}
-.tooltips-drueber .tooltip {width: 300px; bottom: 30px; left: 50%; margin-left: -160px}
+.tooltip {width: 300px; left: 50%; margin-left: -160px }
+.tooltips-drueber .tooltip { bottom:30px }
+.tooltips-drunter .tooltip { top: 30px }
 .tooltips-drueber .tooltip:before, .tooltips-drunter .tooltip:before, .Info-Link .Info-Text:before, .Info-Link .Info-Text-JS:before, .tooltips-drueber .tooltip:after, .tooltips-drunter .tooltip:after, #Artikelsuche-Hinweis:after, .Info-Link .Info-Text:after, .Info-Link .Info-Text-JS:after {content: ''; position: absolute; left: 50%; width: 0; height: 0; text-decoration: none !important}
 .tooltips-drueber .tooltip:before, .tooltips-drueber .tooltip:after {top: 100%}
 .tooltips-drunter .tooltip:before, .tooltips-drunter .tooltip:after, #Artikelsuche-Hinweis:after, .Info-Link .Info-Text:before, .Info-Link .Info-Text:after, .Info-Link .Info-Text-JS:before, .Info-Link .Info-Text-JS:after {bottom: 100%}
