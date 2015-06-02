@@ -185,7 +185,8 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .Upsell .tooltip .Upsellnein:hover, .Upsell .tooltip .Upsellja:hover {text-decoration: underline}
 .Upsell.tooltips:hover .tooltip {visibility: hidden; opacity: 0}
 .tooltip-Dateien-hochladen .tooltip {width: 170px; top: 25px; left: auto; right: 0}
-.Lieferdatum .tooltip {width:120px; margin-left:-67px} 
+.Lieferdatum .tooltip {width:120px; margin-left:-67px}
+.Teaser-Vorteilsnummer .tooltip {width: 350px; margin-left: -150px}
 
 /* Formulare */
 form {margin: 0}
@@ -712,13 +713,12 @@ img.rsImg {max-width: none}
 .Teaser-Blaetterkatalog .Kein-Rahmen {height: 170px}
 
 /* Teaser Vorteilsnummer */
-.Teaser-Vorteilsnummer #rabatt p, .Teaser-Vorteilsnummer #hinweis p {padding-bottom: 20px; margin-bottom: 0}
-.Checkout .Teaser-Vorteilsnummer {/* width:400px; */
-	float: left; margin: 10px 0}
-.Checkout .Teaser-Vorteilsnummer .Rahmen {-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; border: 1px solid #ccc}
 .Checkout .Teaser-Vorteilsnummer .Eingabefeld {width: 100px; margin-right: 10px}
+/*.Teaser-Vorteilsnummer #rabatt p, .Teaser-Vorteilsnummer #hinweis p {padding-bottom: 20px; margin-bottom: 0}
+.Checkout .Teaser-Vorteilsnummer {float: left; margin: 10px 0}
+.Checkout .Teaser-Vorteilsnummer .Rahmen {-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; border: 1px solid #ccc}
 .Checkout .Teaser-Vorteilsnummer .Button-klein-T-Hinzufuegen {float: left; margin-top: 10px}
-.Checkout .Teaser-Vorteilsnummer #hinweis {padding-top: 10px}
+.Checkout .Teaser-Vorteilsnummer #hinweis {padding-top: 10px} */
 
 /* Teaser Blog */
 .Sidebar-left #result a, .Sidebar-right #result a {font-size: .9rem}
@@ -1783,7 +1783,8 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	#Header .icon_cart_alt:before {margin: 0 0 0 .5rem}
 	#WKPosHead {float: left}
 	.WKArtikel, #WKBetragHead {display: none}
-	.cc-slider.items-4 .item, .cc-slider.items-3 .item {width: 5%} }
+	.cc-slider.items-4 .item, .cc-slider.items-3 .item {width: 5%}
+	.tooltips .tooltip {position: fixed; bottom: 0; width: 100%; margin: 0; border-left: 0 none; border-right: 0 none} }
 
 /* Tablet portrait = iPhone 5 & 6 landscape */
 @media only screen and (min-width:768px) and (max-device-width: 1024px) and (orientation: portrait), (min-device-width: 320px) and (max-device-width: 667px) and (orientation: landscape) {
