@@ -760,7 +760,7 @@ img.rsImg {max-width: none}
 .royalSlider .arrow_triangle-right_alt2:before {content: "\49"; font-size: 2rem}
 .royalSlider .arrow_carrot-2right_alt2:before {content: "\3d"; font-size: 2rem}
 .Designcode-Artikelauswahl .rsSlide, .Designcode-Artikelauswahl .rsThumb, .cc-slides .Bild, .Top-Kategorie-Schilder .Bild, .product-list-item a {display: block}
-.Designcode-Artikelauswahl .rsOverflow { height:243px !important}
+.Designcode-Artikelauswahl .rsOverflow { height:243px}
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide {width: 100%; height: auto}
 .Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide img, .Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide .Rotating-image {margin: 0 auto !important}
 .rsArrowDisabled {display: none !important}
