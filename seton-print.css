@@ -1,39 +1,32 @@
-/* --------------------------------------------------------------------------- */
-/* --------------------------------------------------------------------------- */
-
 /* Allgemeine Definitionen */
 body {
-	width:21cm;
-	margin:0;
-	padding: 2cm 3cm 2cm 1cm;
-	font-size:12pt !important;
-	line-height: 1.5;
-	background-color: #fff !important;
-	font-family: Arial,Verdana,Helvetica,sans-serif;
-	color:#000;
-	text-align:left !important;
-	font-weight: normal;
+    width:21cm;
+    margin:0;
+    padding: 2cm 3cm 2cm 1cm;
+    font-size: 10pt;
+    line-height: 1.5;
+    background-color: #fff !important;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    color:#000;
+    text-align:left !important;
+    font-weight: normal;
 }
 
 #Header, .article-PDS-Produktbilder {float:right; width: 30%}
-#Logo, #Header a {margin: 0 auto;display: block;}
-.wrapper > img:first-of-type {
-    max-width: 7cm;
-    position: absolute;
-    top: 2cm;
-}
+#Logo, #Header a {margin: 0 auto;display: block}
+.wrapper > img:first-of-type {max-width: 7cm; position: absolute; top: 2cm}
 
 .Breadcrumbs, .Breadcrumbs a, .Fax, .Hotline, .Mail, .Anschrift, .Online-Shop, .rsGCaption, .rsCaption {color:#8a8a8a; font-size:10pt}
 .Fax, .Hotline, .Mail, .Anschrift, .Online-Shop {margin: 8pt 0}
 .Fax {margin:0}
 
-.Hotline .Icon:before {content:"\e090"; font-size: 27pt;  float: left; margin: 0 6pt 0 0;}
+.Hotline .Icon:before {content:"\e090"; font-size: 27pt;  float: left; margin: 0 6pt 0 0}
 
 .clear {clear:both}
 .Grid-System:before, .article-PDS-Produktbilder + div:after, .Artikelnummmer:before {content:"."; display:block; height:0; clear:both; visibility:hidden}
 
-.Breadcrumbs :first-child {display: none}
-.Breadcrumbs:before {content:"www.seton.de"; display: inline-block; margin: 55pt 0 0 0;}
+.Breadcrumbs :first-child, .editArtikel {display: none}
+.Breadcrumbs:before {content:"www.seton.de"; display: inline-block; margin: 55pt 0 0 0}
 
 h1 {font-size: 16pt}
 h2, h3, h4, h5, h6 {font-size: 12pt}
@@ -43,15 +36,15 @@ h2, h3, h4, h5, h6 {font-size: 12pt}
 
 .royalSlider .rsSlide,
 .royalSlider img {width: auto !important;
-	height: auto  !important;
-	margin: 0 0 8pt 0!important;
-	visibility: visible !important;
-	opacity: 1 !important;
-	display: block !important;
-	position: relative !important;
-	left: 0 !important;
-	max-height: 250px;
-	max-width: 100% !important;
+    height: auto  !important;
+    margin: 0 0 8pt 0!important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    display: block !important;
+    position: relative !important;
+    left: 0 !important;
+    max-height: 250px;
+    max-width: 100% !important;
 }
 
 .rsGCaption, .rsCaption {
@@ -64,112 +57,74 @@ h2, h3, h4, h5, h6 {font-size: 12pt}
 
 p, .toggle-content, form {margin: 0 0 8pt}
 .tooltip p {margin: 0 0 6pt}
-.Dropdowns label, Ãƒâ€šÃ‚Â #AllgArtMerkTabelle th, .label {width: 4cm; display: inline-block;vertical-align: top;}
+.Dropdowns label, #AllgArtMerkTabelle th, .label {width: 4cm; display: inline-block;vertical-align: top}
 #AllgArtMerkTabelle, .Tabs-Content table {width: 100%}
 .Tabs-Content table + b {margin: 8pt 0 0 0; display: inline-block}
-#AllgArtMerkTabelle th, .Tabs-Content td:first-child {width: 4cm;}
+#AllgArtMerkTabelle th, .Tabs-Content td:first-child {width: 4cm}
 .article-Dropdowns, .article-Dropdowns + div {width:70%; float:left}
-.article-Dropdowns + div {width: 27%;padding: 8pt;border: 1pt solid #b5b5b5;}
+.article-Dropdowns + div {width: 27%;padding: 8pt;border: 1pt solid #b5b5b5}
 
-img {max-width: 500px;width: 100%;height: auto;}
+img {max-width: 500px;width: 100%;height: auto}
 .Blaetterkatalog > a:before {content: "Im Katalog auf"}
 
-ul {list-style:none;padding: 0;}
-li:before {content: "Â» ";margin: 0 8pt 0 0;}
+ul {list-style:none;padding: 0}
+li:before {content: "» ";margin: 0 8pt 0 0}
 
 a {text-decoration: none; color: inherit; word-wrap: break-word}
 
 label:after, .label:after {content:":"}
-select, input {border: none; font-size: 12pt;}
-select, textarea {-webkit-appearance: none;-moz-appearance: none;appearance: none;border: 0 none;display: inline-block;margin: 0;padding: 0;}
-textarea {width: 10cm;max-width: 10cm;font-family: Arial;font-size: 12pt;}
+select, input {border: none; font-size: 12pt}
+select, textarea {-webkit-appearance: none;-moz-appearance: none;appearance: none;border: 0 none;display: inline-block;margin: 0;padding: 0}
+textarea {width: 10cm;max-width: 10cm;font-family: Arial;font-size: 12pt}
 
-#Produktergebnis {/* font-size: 10pt */}
-.Preisbox span, .tooltip {display: block; text-align: right;/* float: right; */}
+.Preisbox span, .tooltip {display: block; text-align: right}
 .tooltip table, .Preisbox span:nth-child(n+2) {float: right}
 .Preis {text-align: right}
-span.Preis:before {content:"Preis: ";float: left;}
-#Menge {float: right;text-align: right;}
+span.Preis:before {content:"Preis: "; float: left}
+#Menge {float: right;text-align: right}
 
 .Preisbox {line-height: 12pt}
-.Artikelnummmer {margin: 22pt 0 8pt 0;}
+.Artikelnummmer {margin: 22pt 0 8pt 0}
 
-table, th, tr, td {margin: 0;border: 0 none;border-collapse: collapse;border-spacing: 0;vertical-align: top;}
+table, th, tr, td {margin: 0;border: 0 none;border-collapse: collapse;border-spacing: 0;vertical-align: top}
 b, th {font-weight: normal}
 td:empty {display: none !important}
 
 .symbole, .floatbox + table img {width: inherit; display: inline-block}
 
-.Produkttabelle, .Produktliste table {font-size: 10pt; page-break-before: always;width: 100%;}
-
-.Grid-System a[href^="http://"]:after {content: " (" attr(href) ")"; font-size: 90%;}
-
+.Produkttabelle, .Produktliste table {font-size: 10pt; page-break-before: always;width: 100%}
+.Grid-System a[href^="http://"]:after {content: " (" attr(href) ")"; font-size: 90%}
 .Disclaimer, .Klein, table.SETON-Adressen td {font-size: 8pt}
 
 /* Check Out */
 
-body.Checkout-Print .Bestellmoeglichkeiten {
-	float: right;
-	width: 5cm;
-	text-align:right;
-}
-
+body.Checkout-Print .Bestellmoeglichkeiten {float: right; width: 5cm; text-align:right}
 .Checkout-Print .Bild a {width: 70px; height: 70px; overflow: hidden; display: inline-block}
+body.Checkout-Print .Bestellmoeglichkeiten div {margin-bottom: 0.1cm}
+table.Produkttabelle td.Position {max-width: 0.5cm}
 
-
-body.Checkout-Print .Bestellmoeglichkeiten div {
-        margin-bottom: 0.1cm;
-}
-
-table.Produkttabelle td.Position {
-    max-width: 0.5cm;
-}
-
-td.Bild {width: 2cm;}
-td.Produktinfo {width: 7cm;}
+td.Bild {width: 2cm}
+td.Produktinfo {width: 7cm}
 [class="Anzahl"] {max-width: 2cm}
 [class="Einzelpreis-abzgl-Rabatt"] {width: 2cm}
 [class="Einzelpreis"] {max-width: 2cm; overflow: hidden}
 
 body.Checkout-Print input.Eingabefeld, body.Checkout-Print textarea, body.Checkout-Print select {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-    border: 0 none !important;
-    max-width: 1.5cm;
-    font-size: 10pt; font-family:Arial,Verdana,Helvetica,sans-serif;
+    border: 0 none;
+    font-size: 10pt;
+    font-family:Arial,Verdana,Helvetica,sans-serif;
     padding:0
 }
 
-table.Produkttabelle td[class^="Einzelpreis"], table.Produkttabelle td.Summe, table.Abrechnung td {
-    text-align:right
-}
+table.Produkttabelle td[class^="Einzelpreis"], table.Produkttabelle td.Summe, table.Abrechnung td {text-align:right}
 
 .Auspraegung {margin:0}
 
-table.Abrechnung {
-    border-collapse: collapse;
-    float: right;
-    margin: 1pt 0;
-    width: 7cm !important;
-}
-
-table.Abrechnung th {
-    text-align:left;
-    font-weight:400
-}
-
-table.Abrechnung tr:first-child th,
-table.Abrechnung tr:nth-child(5) th {font-weight:600!important}
-
-table.SETON-Adressen {
-    border-top: .5pt solid #CCCCCC;
-    color: #666666;
-    width: 100%;
-}
-
-table.SETON-Adressen td {
-    vertical-align: top;
-    width: 25%;}
-
-tr.Gesamtsumme {border-top: 1pt solid #000;border-bottom: 3pt double #000;}
-
+table.Abrechnung {border-collapse: collapse; float: right; margin: 1pt 0; width: 11cm}
+table.Abrechnung th {text-align:left; font-weight:400}
+table.Abrechnung tr:first-child th, table.Abrechnung tr:nth-child(5) th {font-weight: 600}
+table.SETON-Adressen {border-top: .5pt solid #CCCCCC; color: #666666; width: 100%}
+table.SETON-Adressen td {vertical-align: top; width: 25%}
+tr.Gesamtsumme {border-top: 1pt solid #000;border-bottom: 3pt double #000}
 .notInPrint, .Artikelsuche, .Direktbestellung, .Meta-Navi, .Navi, .Warenkorb, .Wrapper-right, [name="Produktbeschreibung-toggle"], .controls, .rsFullscreenBtn, .rsArrow, #alle-artikel-anzeigen, #addToCart, .rsThumbs, .Wischer, .rsSlide:nth-child(n+2), #produktliste-komplett .Tab-Title, .Titel-unterstrichen, .Services-rund-ums-Produkt li:nth-child(n+2), .Faxbestellschein, video, audio, object, embed, .Drucken, #socialshareprivacy, .Blaetterkatalog img, .Muster-Anforderung, .Avail, .Weitere-Informationen-item > a, #lastSeenProducts, .Footer, .Factfinder-Copyright, body.Checkout-Print td.Anzahl input.buttonAsLink, body.Checkout-Print td.Anzahl a, .Checkout-Print .Hotline .Icon:before, .Anzahl-JS img, .Anzahl-JS [id^="wkdelete"], .updateLink { display: none !important}

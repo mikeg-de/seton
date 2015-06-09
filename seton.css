@@ -93,7 +93,7 @@ aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 .Produkttabelle .Produktinfo p {overflow: hidden; margin: 0}
 .Produkttabelle .Produktinfo .Datei-Upload, .Produkttabelle .Produktinfo .Datei-Uploads {margin: 0.3rem 0}
 .Produkttabelle .editArtikel {display: none}
-.Produkttabelle .Anzahl-JS .Eingabefeld {width: 50px; margin: 0 5px 3px 0 !important; font-size: 1rem; text-align: right}
+.Produkttabelle .Anzahl-JS .Eingabefeld {width: 50px; margin: 0 5px 3px 0; font-size: 1rem; text-align: right}
 .Produkttabelle .Anzahl .Eingabefeld {width: 2rem; text-align: right; display: inline-block; margin: 0 .25rem 0 0; vertical-align: top}
 .Produkttabelle .Geschenke-in-leerem-WK td {line-height: 0; font-size: 0; height: 3px; overflow: hidden; padding: 0 !important}
 .Produkttabelle .Eingabefeld:hover, .Produkttabelle textarea:hover, .Produkttabelle select:hover {border: 1px solid #BBB}
@@ -1573,6 +1573,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.grid-view.categories .item:nth-child(3n) {border-right: 0 none}
 	.tooltips:hover .tooltip, .item:hover .tooltip, .Info-Link:hover .Info-Text, .Info-Link:hover .Info-Text-JS {visibility: visible; opacity: 1}
 	input[type="number"] {-webkit-appearance: textfield; -moz-appearance: textfield; appearance: textfield}
+	input[type=number]:-webkit-inner-spin-button {display: none}
 	input[type="number"]:-webkit-outer-spin-butto, input[type="number"]:-webkit-inner-spin-button {-webkit-appearance: none; -moz-appearance: none; appearance: none}
 	.Checkout nav {background-color: #bababa; height: 3.15rem}
 	.Checkout nav a {display: block;height: 2.5rem; padding: .35rem .5rem .3rem .75rem;color: #fff}
