@@ -930,7 +930,7 @@ a.Mehr-Filterparameter {display: none; position: absolute; bottom: 0; right: 0; 
 .Passende-Suchempfehlungen a {display: block; float: left; margin: 0 0 0 20px}
 .Produkt-Slider-RecEngine {height: 190px; margin-top: 20px}
 .Produkt-Slider-RecEngine li {height: 248px; background: transparent}
-.Artikelsuche-Navi span {margin: 0 1rem 0 0; vertical-align: middle}
+.Artikelsuche-Navi > span {margin: 0 1rem 0 0; vertical-align: middle}
 .Anzahl-Artikel:after {content: " Artikel"}
 .Artikelsuche-Navi .Seiten-blaettern span {font-weight: normal}
 .Homepage-Grid-System li:nth-child(4n+1) {border-left: 0 none}
