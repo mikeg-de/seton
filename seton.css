@@ -751,7 +751,7 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .label {margin: 0 0 0.3rem 0; font-weight: bold}
 
 /* PDS Produktbilder mit JS */
-.Designcode-Artikelauswahl .royalSlider {width:100%; height: 315px; display: inline-block; margin: 0; max-width: 100%}
+.Designcode-Artikelauswahl .royalSlider {width:100%; height: 390px; display: inline-block; margin: 0; max-width: 100%}
 .rsFullscreen .rsFullscreenBtn {top: 287px}
 
 /* Pfeile */
@@ -760,7 +760,7 @@ img.rsImg {max-width: none}
 .royalSlider .arrow_triangle-right_alt2:before {content: "\49"; font-size: 2rem}
 .royalSlider .arrow_carrot-2right_alt2:before {content: "\3d"; font-size: 2rem}
 .Designcode-Artikelauswahl .rsSlide, .Designcode-Artikelauswahl .rsThumb, .cc-slides .Bild, .Top-Kategorie-Schilder .Bild, .product-list-item a {display: block}
-.Designcode-Artikelauswahl .rsOverflow { height:243px}
+/*.Designcode-Artikelauswahl .rsOverflow { height:243px}*/
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide {width: 100%; height: auto}
 .Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide img, .Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide .Rotating-image {margin: 0 auto !important}
 .rsArrowDisabled {display: none !important}
