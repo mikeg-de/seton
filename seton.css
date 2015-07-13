@@ -1,5 +1,5 @@
 @font-face {font-family: 'ElegantIcons'; src: url('css/fonts/ElegantIcons.eot'); src: url('css/fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'), url('css/fonts/ElegantIcons.woff') format('woff'), url('css/fonts/ElegantIcons.ttf') format('truetype'), url('css/fonts/ElegantIcons.svg#ElegantIcons') format('svg'); font-weight: normal; font-style: normal}
-.data-icon:before, .data-icon:after, .Filterparameter li:before, .Icon:before, .Bullet-Haekchen li:before, .Editieren:after, .royalSlider .arrow_carrot-left_alt2:before, .royalSlider .icon_pause_alt2:before, .royalSlider .arrow_triangle-right_alt2:before, .royalSlider .arrow_carrot-right_alt2:before, .Link-Liste a:before, .Vorteile li:before, .Info-Icon:before, .icon_chat_alt:before, .icon_phone:before, .controls label:before {font: normal normal normal 1em/1rem 'ElegantIcons'; speak: none; -webkit-font-smoothing: antialiased}
+.data-icon:before, .data-icon:after, .Filterparameter a:before, .Icon:before, .Bullet-Haekchen li:before, .Editieren:after, .royalSlider .arrow_carrot-left_alt2:before, .royalSlider .icon_pause_alt2:before, .royalSlider .arrow_triangle-right_alt2:before, .royalSlider .arrow_carrot-right_alt2:before, .Link-Liste a:before, .Vorteile li:before, .Info-Icon:before, .icon_chat_alt:before, .icon_phone:before, .controls label:before {font: normal normal normal 1em/1rem 'ElegantIcons'; speak: none; -webkit-font-smoothing: antialiased}
 
 
 /* Allgemeine Definitionen */
@@ -501,8 +501,8 @@ li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
 margin: 0 .25rem 0 -1rem}
 .Bullet-Plus li:before {content: "+"; text-align: center; line-height: 20px; display: inline-block; width: 20px; height: 20px; color: #D90F18; font-weight: bold; font-size: 20px; margin: 0 .5rem 0 -20px; background: #fff; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; box-shadow: 1px 1px 5px #C9C9C9; position: relative; top: 2px}
 .arrow_carrot-right:before, .Link-Liste a:before {content: "\35"; font-size: 1.25rem}
-.Filterparameter li:before {content: "\56"; margin: 0 5px 0 -1rem }
-.Filterparameter li:hover:before, .Filterparameter li.active:before {content: "\5a"; text-decoration: none}
+.Filterparameter a:before {content: "\56"; margin: 0 5px 0 -1rem }
+.Filterparameter a:hover:before, .Filterparameter .active a:before {content: "\5a"; text-decoration: none}
 .Warenkorb .Icon:before {content: "\e015"; font-size: 2rem}
 .Hotline .Icon:before, .icon_phone:before {content: "\e090"}
 .Editieren:after {content: "\6a"}
@@ -806,8 +806,9 @@ img.rsImg {max-width: none}
 .rsArrowDisabled {display: none !important}
 
 /* Bildbeschreibung */
-.Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption {bottom: 72px; width: 100%; background: rgba(255, 255, 255, 0.9); box-sizing: border-box; padding: 0; border-radius: 0; left: 0 }
-.Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure {padding: .5rem 1rem; text-align: center; margin: 0}
+.Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption, .list-view.products .col3.first .Bild figure {bottom: 72px; width: 100%; background-color: rgba(255, 255, 255, 0.9); box-sizing: border-box; padding: 0; border-radius: 0; left: 0 }
+.Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure,
+.list-view.products .col3.first .Bild figure {padding: .5rem 1rem; text-align: center; margin: 0}
 
 /* Horizontale Thumb-Scrollleiste */
 .Designcode-Artikelauswahl .rsDefault .rsThumb {background: none !important}
@@ -1033,7 +1034,6 @@ ul.list-view {margin:0}
 .list-view.products .col3.first { height:150px; text-align:center }
 .list-view.products .col3.first .Bild {max-height:150px; height:auto; width:150px }
 .list-view.products .col3.first .Bild img {max-height:150px; }
-.list-view.products .col3.first .Bild figure.rsCaption { margin:0; width:100%; height:100%; background:#FFF; color:#000; opacity:.5; position:absolute; top:0; left:0; line-height:150px }
 .list-view.products .col3.first  [id*="Wischerrabatt_"]  { position:absolute; top:0; left:0 }
 .list-view.products .col3.first .Wischer-Online-Artikel { display:none }
 .list-view.products .col3.first .Sparen { position:absolute; top:0; left:0 }
