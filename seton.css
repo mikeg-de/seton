@@ -1,5 +1,6 @@
 @font-face {font-family: 'ElegantIcons'; src: url('css/fonts/ElegantIcons.eot'); src: url('css/fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'), url('css/fonts/ElegantIcons.woff') format('woff'), url('css/fonts/ElegantIcons.ttf') format('truetype'), url('css/fonts/ElegantIcons.svg#ElegantIcons') format('svg'); font-weight: normal; font-style: normal}
-.data-icon:before, .Filterparameter a:before, .Icon:before, .Bullet-Haekchen li:before, .Editieren:after, .royalSlider .arrow_carrot-left_alt2:before, .royalSlider .icon_pause_alt2:before, .royalSlider .arrow_triangle-right_alt2:before, .royalSlider .arrow_carrot-right_alt2:before, .Link-Liste a:before, .Vorteile li:before, .Info-Icon:before, .icon_chat_alt:before, .icon_phone:before, .controls label:before {font: normal normal normal 1em/1rem 'ElegantIcons'; speak: none; -webkit-font-smoothing: antialiased}
+.data-icon:before, .data-icon:after, .Filterparameter li:before, .Icon:before, .Bullet-Haekchen li:before, .Editieren:after, .royalSlider .arrow_carrot-left_alt2:before, .royalSlider .icon_pause_alt2:before, .royalSlider .arrow_triangle-right_alt2:before, .royalSlider .arrow_carrot-right_alt2:before, .Link-Liste a:before, .Vorteile li:before, .Info-Icon:before, .icon_chat_alt:before, .icon_phone:before, .controls label:before {font: normal normal normal 1em/1rem 'ElegantIcons'; speak: none; -webkit-font-smoothing: antialiased}
+
 
 /* Allgemeine Definitionen */
 body {font: normal normal 13px/1.25rem Arial, 'Helvetica Neue', Helvetica, sans-serif; color: #3e3e3e; padding: 0; margin: 0 auto; max-width: 1024px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
@@ -8,7 +9,7 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .popup {width: 95%}
 
 /* Hidden elements */
-.lazy, .Link-Mehr-Infos, .Bild-sw, .Produkttabelle #warenkorbItems, .Produkttabelle hr, #socialshareprivacy .settings_info, .Hinweis-NL-Pflichtfelder, .ui-helper-hidden, .ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle, .Zwei-Spalter-Sidebar-left .Sidebar-right, .Zwei-Spalter-Sidebar-right .Sidebar-left, #nav-home, nav .Hotline, .cc-slider input, .toggle input, .toggle .toggle1:checked ~ .controls label:nth-child(1), .toggle .toggle2:checked ~ .controls label:nth-child(2), .Designcode-Artikelauswahl-NJS .royalSlider .bugaga .rsCaption, .Designcode-Artikelauswahl-NJS .royalSlider .Rotating-image, .Designcode-Artikelauswahl .Kopfnummerninfos .Tabs, .Factfinder-Copyright, .Auflistung-Produkte .Edit-Info, .Schildersuche .PUES-Subnavigation-Kategorien .Title2, .Schildersuche .Anzahl-Artikel, .Checkout-Adresseingabe .editable_textarea, .Checkout-Print .Anzahl-JS img, .Checkout-Print .Anzahl a, .Checkout-Print .Anzahl-JS a, .Checkout-Print .Anzahl-JS .updateLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto img, .Print .Einzelpreis-abzgl-Rabatt-netto .buttonAsLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto .Datei-Upload, .Checkout-Print .vortn, .Checkout-Print .Dankeschoen-Geschenk input, .Themenheadline, .smallreadonly, .Kopfnummerninfos-Tabs .Tabs, .Teaser-Blog .updated, .Footer .Trusted-Shop .hreview-aggregate, .ui-dialog-titlebar-close, p:empty, .rsCaption:empty, .Hauptkategorie-Text:empty, .Tab-Content:empty, .cc-slider:empty, #Produktbeschreibung:empty, .LV_validation_message:empty, .Hinweistext:empty, #SEO-Footer:empty, #Footer_Bereichstext:empty, #cc-slider-top-kategorien .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow .inner:before, .cc-slider .controls, .Artikel-pro-Seite, .recs, .pure-toggle, .pure-toggle-label, .hidden {display: none}
+.Link-Mehr-Infos, .Bild-sw, .Produkttabelle #warenkorbItems, .Produkttabelle hr, #socialshareprivacy .settings_info, .Hinweis-NL-Pflichtfelder, .ui-helper-hidden, .ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle, .Zwei-Spalter-Sidebar-left .Sidebar-right, .Zwei-Spalter-Sidebar-right .Sidebar-left, #nav-home, nav .Hotline, .cc-slider input, .toggle input, .toggle .toggle1:checked ~ .controls label:nth-child(1), .toggle .toggle2:checked ~ .controls label:nth-child(2), .Designcode-Artikelauswahl-NJS .royalSlider .bugaga .rsCaption, .Designcode-Artikelauswahl-NJS .royalSlider .Rotating-image, .Designcode-Artikelauswahl .Kopfnummerninfos .Tabs, .Factfinder-Copyright, .Auflistung-Produkte .Edit-Info, .Schildersuche .PUES-Subnavigation-Kategorien .Title2, .Schildersuche .Anzahl-Artikel, .Checkout-Adresseingabe .editable_textarea, .Checkout-Print .Anzahl-JS img, .Checkout-Print .Anzahl a, .Checkout-Print .Anzahl-JS a, .Checkout-Print .Anzahl-JS .updateLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto img, .Print .Einzelpreis-abzgl-Rabatt-netto .buttonAsLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto .Datei-Upload, .Checkout-Print .vortn, .Checkout-Print .Dankeschoen-Geschenk input, .Themenheadline, .smallreadonly, .Kopfnummerninfos-Tabs .Tabs, .Teaser-Blog .updated, .Footer .Trusted-Shop .hreview-aggregate, .ui-dialog-titlebar-close, p:empty, .rsCaption:empty, .Hauptkategorie-Text:empty, .Tab-Content:empty, .cc-slider:empty, #Produktbeschreibung:empty, .LV_validation_message:empty, .Hinweistext:empty, #SEO-Footer:empty, #Footer_Bereichstext:empty, #cc-slider-top-kategorien .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow .inner:before, .cc-slider .controls, .Artikel-pro-Seite, .recs, .pure-toggle, .pure-toggle-label, .hidden {display: none}
 #cc-slider-top-kategorien .controls {display: block}
 
 /* Clear-Fix */
@@ -23,9 +24,9 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .rsFullscreen .rsContainer .rsSlide img, .rsFullscreen .rsSlide .Rotating-image {-webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0)}
 
 /* Text */
-h1, h2, h3, h4, h5, .Title1, .Title2, .Title3, .Title4, .Title5, .Teaser-Title, .Titel-Newsletter-abonnieren {font-weight: 500; color: #3a3a3a; line-height: 1.5rem; margin: 0 0 .25rem 0;font-size: 1rem;}
+h1, h2, h3, h4, h5, .Title1, .Title2, .Title3, .Title4, .Title5, .Teaser-Title, .Titel-Newsletter-abonnieren {font-weight: 500; color: #3a3a3a; line-height: 1.5rem; margin: 0 0 .25rem 0;font-size: 1rem }
 h1, .h1, h1 a, .Title1 a {font-size: 1.25rem}
-h2, h3, h4, h5, h6, .Warenkorb-Reminder .Title1, .Teaser-Title, .Titel-Newsletter-abonnieren {font-size: 1rem;}
+h2, h3, h4, h5, h6, .Warenkorb-Reminder .Title1, .Teaser-Title, .Titel-Newsletter-abonnieren {font-size: 1rem }
 h3, .h3, .Title3 a, p, .Tab-Content, .Content-Box {padding: 0; margin: 0 0 .5rem 0}
 h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 
@@ -39,7 +40,7 @@ h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 .nowrap {white-space: nowrap}
 .Trenner {height: 1px; margin: 20px 0; background: #DDEAF6; clear: both; line-height: 0; font-size: 0; overflow: hidden}
 .Drucken {cursor: pointer}
-.Klein, #Header .Meta-Navi, #Breadcrumbs, .Bildunterschrift2, .hreview-aggregate .rating, .Vorrat, .Info-Link .Info-Text, .Info-Link .Info-Text-JS, .Links .Adobe-Reader, .Bildunterschrift, .Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure, #Header .Hotline span, .product-list-item-left, .Preis-Lieferbarkeit, .MwSt, .ab-st-s, .ab-sst-s, .ib-st-s, .ib-sst-s, .Checkout-Print .Adresseingabe {font-size: .75rem}
+.Klein, #Header .Meta-Navi, #Breadcrumbs, .Bildunterschrift2, .hreview-aggregate .rating, .Vorrat, .Info-Link .Info-Text, .Info-Link .Info-Text-JS, .Links .Adobe-Reader, .Bildunterschrift, .Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure, #Header .Hotline span, .Artikelanzahl, .Preis-Lieferbarkeit, .MwSt, .ab-st-s, .ab-sst-s, .ib-st-s, .ib-sst-s, .Checkout-Print .Adresseingabe {font-size: .75rem}
 .Gross {font-size: 1.25rem}
 .mark1, .mark2 {font-weight: bold}
 .Bildunterschrift span {padding: 1px 0; margin: 2px 0; overflow: visible !important}
@@ -55,6 +56,7 @@ h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 
 /* Listen */
 ul, .PUES-Subnavigation-Kategorien, .Teaser-Blog ul, .Teaser .Bullet-Haekchen {margin: 0 0 .5rem 0; padding: 0; list-style-position: outside}
+.col6.Bullet-Haekchen {margin:0}
 .Content ul, .PUES-Subnavigation-Kategorien {margin-left: 1rem}
 .Teaser-Blog ul, .dropdown-list {margin: 0}
 .Bullet-Haekchen, .Teaser-Blog ul, .Footer ul, .dropdown-list {list-style-type: none}
@@ -93,7 +95,7 @@ aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 .Produkttabelle .Produktinfo p {overflow: hidden; margin: 0}
 .Produkttabelle .Produktinfo .Datei-Upload, .Produkttabelle .Produktinfo .Datei-Uploads {margin: 0.3rem 0}
 .Produkttabelle .editArtikel {display: none}
-.Produkttabelle .Anzahl-JS .Eingabefeld {width: 50px; margin: 0 5px 3px 0; font-size: 1rem; text-align: right}
+.Produkttabelle .Anzahl-JS .Eingabefeld {width: 50px; margin: 0 5px 3px 0 !important; font-size: 1rem; text-align: right}
 .Produkttabelle .Anzahl .Eingabefeld {width: 2rem; text-align: right; display: inline-block; margin: 0 .25rem 0 0; vertical-align: top}
 .Produkttabelle .Geschenke-in-leerem-WK td {line-height: 0; font-size: 0; height: 3px; overflow: hidden; padding: 0 !important}
 .Produkttabelle .Eingabefeld:hover, .Produkttabelle textarea:hover, .Produkttabelle select:hover {border: 1px solid #BBB}
@@ -139,7 +141,7 @@ input.LV_invalid_field {border-color: #F00}
 .Checkox-Gewerbe .Label-Gewerbe, .Newsletter label, .Faxangebot label {width: 70%}
 .Checkout span.tooltips, .PDF-Download span.tooltips {bottom: 0; right: auto}
 .Adresseingabe [type="text"], .Adresseingabe [type="tel"], .Adresseingabe [type="email"], #Branche {width: 50%}
-.Checkout .Adresseingabe [type="text"], .Checkout .Adresseingabe [type="tel"], .Checkout .Adresseingabe [type="email"] {width: 30%; vertical-align:middle; display:inline-block }
+.Checkout .Adresseingabe [type="text"], .Checkout .Adresseingabe [type="tel"], .Checkout .Adresseingabe [type="email"] , .Checkout .Adresseingabe textarea {width: 30%; vertical-align:middle; display:inline-block }
 .Adresseingabe .Eingabefeld-PLZ, .Checkout .Adresseingabe .Eingabefeld-PLZ[type="text"] {width: 19.5%} 
 .kundenadr_Bemerkung label {/* display: block */}
 input:required {}
@@ -167,25 +169,58 @@ a .Link {color: #0061a0}
 /* Tooltips neu 2014 */
 span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor: pointer}
 .tooltips:hover {text-decoration: none}
-.tooltips .tooltip, #Artikelsuche-Hinweis, .Info-Link .Info-Text, .Info-Link .Info-Text-JS {position: absolute; color: #3e3e3e; background: #fff; border: 2px solid #ccc; visibility: hidden; border-radius: 5px; padding: 5px; z-index: 250; text-align: center; left: 0}
-/*.tooltip {width: 300px; left: 50%; margin-left: -160px }*/
+.tooltips .tooltip, 
+#Artikelsuche-Hinweis, 
+.Info-Link .Info-Text, 
+.Info-Link .Info-Text-JS {position: absolute; color: #3e3e3e; background: #fff; border: 2px solid #ccc; visibility: hidden; border-radius: 5px; padding: 5px; z-index: 250; text-align: center; left: 0}
+.tooltip { left:50% }
+
+.tooltips-drueber .tooltip:before, 
+.tooltips-drunter .tooltip:before, 
+.Info-Link .Info-Text:before, 
+.Info-Link .Info-Text-JS:before, 
+.tooltips-drueber .tooltip:after,
+.tooltips-drunter .tooltip:after, 
+#Artikelsuche-Hinweis:after, 
+.Info-Link .Info-Text:after,
+.Info-Link .Info-Text-JS:after {content: ''; position: absolute; left: 50%; width: 0; height: 0; text-decoration: none !important}
+
 .tooltips-drueber .tooltip { bottom:30px }
-.tooltips-drunter .tooltip { top: 30px }
-.tooltips-drueber .tooltip:before, .tooltips-drunter .tooltip:before, .Info-Link .Info-Text:before, .Info-Link .Info-Text-JS:before, .tooltips-drueber .tooltip:after, .tooltips-drunter .tooltip:after, #Artikelsuche-Hinweis:after, .Info-Link .Info-Text:after, .Info-Link .Info-Text-JS:after {content: ''; position: absolute; left: 50%; width: 0; height: 0; text-decoration: none !important}
-.tooltips-drueber .tooltip:before, .tooltips-drueber .tooltip:after {top: 100%}
-.tooltips-drunter .tooltip:before, .tooltips-drunter .tooltip:after, #Artikelsuche-Hinweis:after, .Info-Link .Info-Text:before, .Info-Link .Info-Text:after, .Info-Link .Info-Text-JS:before, .Info-Link .Info-Text-JS:after {bottom: 100%}
+
+.tooltips-drueber .tooltip:before, 
+.tooltips-drueber .tooltip:after {top: 100%}
 .tooltips-drueber .tooltip:after {margin-left: -8px; border-top: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
 .tooltips-drueber .tooltip:before {margin-left: -12px; border-top: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
-.tooltips-drunter .tooltip:after, #Artikelsuche-Hinweis:after, .Info-Link .Info-Text:after, .Info-Link .Info-Text-JS:after {margin-left: -8px; border-bottom: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
-.tooltips-drunter .tooltip:before, #Artikelsuche-Hinweis:before, .Info-Link .Info-Text:before, .Info-Link .Info-Text-JS:before {margin-left: -12px; border-bottom: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
+
+.tooltips-drunter .tooltip { top: 30px }
+
+.tooltips-drunter .tooltip:before, 
+.tooltips-drunter .tooltip:after, 
+#Artikelsuche-Hinweis:after, 
+.Info-Link .Info-Text:before, 
+.Info-Link .Info-Text:after, 
+.Info-Link .Info-Text-JS:before, 
+.Info-Link .Info-Text-JS:after {bottom: 100%}
+
+.tooltips-drunter .tooltip:after, 
+#Artikelsuche-Hinweis:after, 
+.Info-Link .Info-Text:after, 
+.Info-Link .Info-Text-JS:after {margin-left: -8px; border-bottom: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
+
+.tooltips-drunter .tooltip:before, 
+#Artikelsuche-Hinweis:before, 
+.Info-Link .Info-Text:before,
+.Info-Link .Info-Text-JS:before {margin-left: -12px; border-bottom: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
+
 .Upsell .tooltip {text-align: center; width: 200px; margin-left: -112px}
 .Upsell .tooltip .h3 {margin-top: 10px; font-size: 1rem; color: #539d37}
 .Upsell .tooltip .Upsellnein, .Upsell .tooltip .Upsellja {display: inline-block; padding: 0 5px; color: #0061a0}
 .Upsell .tooltip .Upsellja {font-size: 1.4rem}
 .Upsell .tooltip .Upsellnein:hover, .Upsell .tooltip .Upsellja:hover {text-decoration: underline}
 .Upsell.tooltips:hover .tooltip {visibility: hidden; opacity: 0}
+
 .tooltip-Dateien-hochladen .tooltip {width: 170px; top: 25px; left: auto; right: 0}
-.Lieferdatum .tooltip {width:120px; margin-left:-67px}
+.Lieferdatum .tooltip {width:120px; margin-left:-67px} 
 .Teaser-Vorteilsnummer .tooltip {width: 350px; margin-left: -150px}
 
 /* Formulare */
@@ -238,6 +273,7 @@ button {font-size: .8rem}
 .ui-icon-closethick {background: url(/images/Admin/controls.png) -25px 0 !important; height: 25px !important; width: 25px !important}
 .ui-dialog-buttonpane, .ui-state-focus, .ui-state-active {border: 0}
 .Verlauf-weiss-grau {background: #fff; background: -moz-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #c1c1c1)); background: -webkit-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: -o-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: -ms-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: linear-gradient(to bottom, #fff 0%, #c1c1c1 100%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c1c1c1', GradientType=0 )}
+button[disabled=disabled], button:disabled:hover { -webkit-box-shadow:none; -moz-box-shadow:none; box-shadow:none; cursor:default }
 
 /* Titel blau */
 .Titel-Sichern-Sie-sich-den-Kalender {background-position: -290px -75px}
@@ -255,8 +291,10 @@ button {font-size: .8rem}
 .Banner-1 .Button {position: absolute; bottom: 15px; right: 268px; z-index: 2}
 
 /* Banner 2 - Banner mit rechtem Produktbild, Produkttitel und grossem Kaufen-Button, z.B. auf Themen-Seite Abfallbehaelter */
+.Banner-2 {position: relative; display: block}
 .Banner-2 .Produktbild {margin: 10px; display: block}
-.Banner-2 .Headline {font-weight: bold; text-align: right}
+.Banner-2 .Headline {position: absolute; display: block; top: 15px; right: 15px; width: 50%}
+.Banner-2 .Headline p {font-size: 1.25rem; font-weight: bold; text-align: right}
 .Banner-2 .Banner-Link {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1}
 .Banner-2 .Button {position: absolute; bottom: 15px; right: 15px; z-index: 2}
 
@@ -326,6 +364,7 @@ select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVy
 .sqleft, .sqright {width: 49% !important; margin: 0 !important}
 .sqleft {margin: 0 15px 15px 0 !important}
 .Wrapper-Content, #colorbox, .ui-dialog {-webkit-box-shadow: 0 0 15px 0 rgb(150, 150, 150), 0 0 15px 0 rgb(150, 150, 150); -moz-box-shadow: 0 0 15px 0 rgb(150, 150, 150), 0 0 15px 0 rgb(150, 150, 150); box-shadow: 0 0 15px 0 rgb(150, 150, 150), 0 0 15px 0 rgb(150, 150, 150); overflow: hidden}
+.Wrapper-Content { overflow:visible }
 
 /* Skyscraper ==========================*/
 .Skyscraper, #Ostereiersuche {position: fixed; left: 50%; top: 55px; margin-left: 532px}
@@ -388,7 +427,7 @@ select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVy
 .Artikelsuche .Eingabefeld, .Teaser-Newsletter .Eingabefeld {width: 75%; border: 3px solid #00609F; margin: 0 -4px 0 0;vertical-align: top}
 .Artikelsuche .Eingabefeld {height: 2.5rem}
 #Footer .Teaser-Newsletter .Eingabefeld {max-width: 55%}
-#SuchButton {border: 3px solid #00609F; border-left: 0 none; height: 2.5rem;width: 25%;padding: 0 10px;}
+#SuchButton {border: 3px solid #00609F; border-left: 0 none; height: 2.5rem;width: 25%;padding: 0 10px }
 #Header .Artikelsuche .Button-klein-gruen {display: inline-block}
 #Header .Artikelsuche .suggestLayer {margin-top: 5px}
 .suggestContainer {display: none; width: 100%; top: auto; left: 0; padding: 0; margin: 0; background-color: white; z-index: 10001; position: absolute; border: 3px solid #00609F; box-sizing: border-box}
@@ -409,7 +448,6 @@ select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVy
 .Warenkorb {position: absolute; top: 53px; right: 1.5%}
 #Header .Warenkorb b {font-size: 1.1rem}
 #Header .Warenkorb button {width: 190px}
-.Warenkorb :disabled {cursor: default}
 #Header .Warenkorb .Button-klein-grau button:hover {-webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none}
 
 /* Warenkorb-Reminder */
@@ -431,7 +469,7 @@ select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVy
 .nav-pri [id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc; background-color: #0061a0}
 .nav-pri > ul > li:hover > a {background-color: #ccc}
 .nav-pri li:nth-child(5n+2) a {border-left: 0 none}
-.sub {visibility: hidden; opacity: 0; max-height: 0; z-index:70; position: relative; -webkit-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out;overflow: hidden;}
+.sub {visibility: hidden; opacity: 0; max-height: 0; z-index:70; position: relative; -webkit-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out;overflow: hidden }
 .nav-pri .sub {background-color: #fff}
 li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
 	/* iOS: visibility breaks transition but required for touch events and block is not animatable */
@@ -440,9 +478,9 @@ li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
 	-ms-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in;
 	-o-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in;
 	transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in}
-.sub a, .Teaser-Blog a, .Footer .Grid-System-Sitemap li a {margin: 0 0 .2rem .2rem; display: inline-block; max-width: 94%; vertical-align: top}
+.sub a, .Teaser-Blog a, .Footer .Grid-System-Sitemap li a {margin: 0 0 .2rem 0; display: inline-block; max-width: 94%; vertical-align: top}
 .sub .Titel, .Thema-Name a {font-weight: bold; margin-left: 0}
-.nav-third li:before, .Teaser-Blog li:before, .Footer .Grid-System-Sitemap ul li:before, .nav-pri .PfeilLink:before, .Direktbestellung:before, .Weiterfuehrender-Link:before {content: "\203A"}
+.nav-third li:before, .Teaser-Blog li:before, .Footer .Grid-System-Sitemap ul li:before, .nav-pri .PfeilLink:before, .Direktbestellung:before, .Weiterfuehrender-Link:before {content: "\203A"; margin-right:5px}
 #Breadcrumbs, .Breadcrumbs {clear: both; padding: 0.5rem 1.25%}
 .toggle label {color: #0061a0; cursor: pointer}
 .toggle label:hover {text-decoration: underline}
@@ -458,12 +496,13 @@ li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
 .icon_mail_alt:before {content: "\e010"}
 .icon_close {content: "\4d"}
 .Info-Icon:before {content: "\72"}
+.icon_info_alt:after {content: "\70"}
 .Bullet-Haekchen li:before, .Vorteile li:before {content: "\4e";
 margin: 0 .25rem 0 -1rem}
 .Bullet-Plus li:before {content: "+"; text-align: center; line-height: 20px; display: inline-block; width: 20px; height: 20px; color: #D90F18; font-weight: bold; font-size: 20px; margin: 0 .5rem 0 -20px; background: #fff; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; box-shadow: 1px 1px 5px #C9C9C9; position: relative; top: 2px}
 .arrow_carrot-right:before, .Link-Liste a:before {content: "\35"; font-size: 1.25rem}
-.Filterparameter a:before {content: "\56"; margin: 0 5px 0 -1rem;}
-.Filterparameter a:hover:before, .Filterparameter li.active a:before {content: "\5a"; text-decoration: none}
+.Filterparameter li:before {content: "\56"; margin: 0 5px 0 -1rem }
+.Filterparameter li:hover:before, .Filterparameter li.active:before {content: "\5a"; text-decoration: none}
 .Warenkorb .Icon:before {content: "\e015"; font-size: 2rem}
 .Hotline .Icon:before, .icon_phone:before {content: "\e090"}
 .Editieren:after {content: "\6a"}
@@ -481,7 +520,7 @@ margin: 0 .25rem 0 -1rem}
 .Sidebar-left .Teaser {margin: 0 0 15px 15px}
 .Sidebar-right .Teaser {margin: 0 15px 15px 0}
 .Teaser-Vorteile-bei-SETON img, .Teaser-Avail-Direkt-mitbestellen .cc-slides {margin: .5rem 0; padding: 0}
-.Teaser-Vorteile .Weiterfuehrender-Link {position: relative; bottom: 0; right: 0; text-align: right}
+.Teaser-Vorteile .Weiterfuehrender-Link { position: relative; bottom: 0; right: 0; text-align: right}
 .Rahmen {background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMGYwZjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(240, 240, 240, 1))); background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%)}
 .Rahmen {-moz-box-shadow: 0 0 3px rgba(33, 33, 33, 1); -webkit-box-shadow: 0 0 3px rgba(33, 33, 33, 1); box-shadow: 0 0 3px rgba(33, 33, 33, 1)}
 #Warenkorb-Rahmen h1 {font-size: 1.5rem; margin: 0}
@@ -711,12 +750,13 @@ img.rsImg {max-width: none}
 .Teaser-Blaetterkatalog .Kein-Rahmen {height: 170px}
 
 /* Teaser Vorteilsnummer */
-.Checkout .Teaser-Vorteilsnummer .Eingabefeld {width: 100px; margin-right: 10px}
-/*.Teaser-Vorteilsnummer #rabatt p, .Teaser-Vorteilsnummer #hinweis p {padding-bottom: 20px; margin-bottom: 0}
-.Checkout .Teaser-Vorteilsnummer {float: left; margin: 10px 0}
+.Teaser-Vorteilsnummer #rabatt p, .Teaser-Vorteilsnummer #hinweis p {padding-bottom: 20px; margin-bottom: 0}
+.Checkout .Teaser-Vorteilsnummer {/* width:400px; */
+	float: left; margin: 10px 0}
 .Checkout .Teaser-Vorteilsnummer .Rahmen {-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; border: 1px solid #ccc}
+.Checkout .Teaser-Vorteilsnummer .Eingabefeld {width: 100px; margin-right: 10px}
 .Checkout .Teaser-Vorteilsnummer .Button-klein-T-Hinzufuegen {float: left; margin-top: 10px}
-.Checkout .Teaser-Vorteilsnummer #hinweis {padding-top: 10px} */
+.Checkout .Teaser-Vorteilsnummer #hinweis {padding-top: 10px}
 
 /* Teaser Blog */
 .Sidebar-left #result a, .Sidebar-right #result a {font-size: .9rem}
@@ -751,7 +791,7 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .label {margin: 0 0 0.3rem 0; font-weight: bold}
 
 /* PDS Produktbilder mit JS */
-.Designcode-Artikelauswahl .royalSlider {width:100%; height: 390px; display: inline-block; margin: 0; max-width: 100%}
+.Designcode-Artikelauswahl .royalSlider {width:100%; height: 315px; display: inline-block; margin: 0; max-width: 100%}
 .rsFullscreen .rsFullscreenBtn {top: 287px}
 
 /* Pfeile */
@@ -760,7 +800,7 @@ img.rsImg {max-width: none}
 .royalSlider .arrow_triangle-right_alt2:before {content: "\49"; font-size: 2rem}
 .royalSlider .arrow_carrot-2right_alt2:before {content: "\3d"; font-size: 2rem}
 .Designcode-Artikelauswahl .rsSlide, .Designcode-Artikelauswahl .rsThumb, .cc-slides .Bild, .Top-Kategorie-Schilder .Bild, .product-list-item a {display: block}
-/*.Designcode-Artikelauswahl .rsOverflow { height:243px}*/
+/*.Designcode-Artikelauswahl .rsOverflow { height:243px !important} */
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide {width: 100%; height: auto}
 .Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide img, .Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide .Rotating-image {margin: 0 auto !important}
 .rsArrowDisabled {display: none !important}
@@ -826,7 +866,7 @@ img.rsImg {max-width: none}
 #AllgArtMerkTabelle {width: 100%}
 #Kundenwunsch textarea {width: 96%}
 #alle-artikel-anzeigen {padding: 15px 0 0 0; display: block}
-.Produktergebnis-inner, #orderinfo {padding: 1rem 1rem 0 1rem}
+.PDS .Produktergebnis-inner, #orderinfo {padding: 1rem 1rem 0 1rem}
 .Artikelnummmer {margin: 0.5rem 0}
 .Content .Preisbox {text-align: right}
 .Preisbox .Preis {font-size: 1rem; font-weight: bold; margin-bottom: 5px; white-space: nowrap}
@@ -881,11 +921,11 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .addthis_toolbox {float: right}
 .social_share_privacy_area {margin: 0}
 .social_share_privacy_area .dummy_btn {margin-left: 5px !important}
-.social_share_privacy_area .facebook {width: 115px !important;}
-.social_share_privacy_area .twitter {width: 90px !important;}
+.social_share_privacy_area .facebook {width: 115px !important }
+.social_share_privacy_area .twitter {width: 90px !important }
 .social_share_privacy_area .tweet {width: 55px !important}
 .social_share_privacy_area li.help_info .info {display: none !important}
-.Designcode-Artikelauswahl .Drucken, #socialshareprivacy {display: inline-block;vertical-align: top;}
+.Designcode-Artikelauswahl .Drucken, #socialshareprivacy {display: inline-block;vertical-align: top }
 .Produktliste h2, .Tab-Content h2, .Produktliste h3, .Tab-Content h3 {margin-top: 0}
 #PDS-Content .Wischer {float: right; margin: -5px 0 0 5px}
 #Kopfnummernbeschreibung h2:after {content: ''; border-bottom: 1px solid #ccc; display: block; margin: 0 0 15px 0}
@@ -912,7 +952,7 @@ img.rsImg {max-width: none}
 .Subnavigation li {border-bottom: 1px dashed #ccc}
 aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .Subnavigation ul > li a {padding-left: 0}
-.Filter li a {padding: 0 0 .25rem 0;line-height: 1.5rem;}
+.Filter li a {padding: 0 0 .25rem 0;line-height: 1.5rem }
 [class*="PUES-Subnavigation-"] a:hover, [class*="PUES-Subnavigation-"] a.active {text-decoration: underline}
 [class*="PUES-Subnavigation-"] li.Titel-Balken-hellgrau {margin: 0}
 .Subnavigation-Titel span a, .Titel-grauer-Balken span a, .Titel-grauer-Balken a {color: #3e3e3e; font-weight: bold; margin: 0; font-size: 1rem}
@@ -933,6 +973,10 @@ a.Mehr-Filterparameter {display: none; position: absolute; bottom: 0; right: 0; 
 .Artikelsuche-Navi > span {margin: 0 1rem 0 0; vertical-align: middle}
 .Anzahl-Artikel:after {content: " Artikel"}
 .Artikelsuche-Navi .Seiten-blaettern span {font-weight: normal}
+.Artikelsuche-Navi .Listenansicht a:before { color:#3e3e3e; vertical-align: middle; display:inline-block }
+.Artikelsuche-Navi .Listenansicht > a:hover { text-decoration:none }
+.Artikelsuche-Navi .Listenansicht .Grid-View:before { content:"\e08c"; font-size:20px }
+.Artikelsuche-Navi .Listenansicht .List-View:before { content:"\61"; font-size:30px }
 .Homepage-Grid-System li:nth-child(4n+1) {border-left: 0 none}
 
 /* Listenansichten allgemein*/
@@ -943,41 +987,74 @@ a.Mehr-Filterparameter {display: none; position: absolute; bottom: 0; right: 0; 
 .list .item > a:hover {color: #3a3a3a; text-decoration: none}
 .list a .Link, .Produkt-Name, .Produkttitel {color: #0061a0}
 .list a:hover .Link, .list a:hover .Produkt-Name, .list a:hover .Produktitel, .No-Link:hover .Link {text-decoration: underline}
+.list .Bild { text-align:center }
+.list .Bild img {max-height: 100%}
 
 /* grid-view allgemein */
 ul.grid-view {margin: 0}
 .Homepage .item, .recs .item, #Crosslink .item, #WeitereArtikel .item, #Crosseller .item, #lastSeenProducts .item {border-top: 0 none; min-height: 100%}
 .categories .grid-view .item:nth-child(3n), .PUES .grid-view .item:last-child {border-right: 0}
 .grid-view .product-list-item > a {height: 250px; margin: 15px 10px 10px}
-.grid-view .Bild {display: block; text-align: center}
-.grid-view .Bild img {max-height: 100%}
-.grid-view .product-list-item-left, .grid-view .Preis-Lieferbarkeit {position: absolute; bottom: 5px}
-.grid-view .Preis-Lieferbarkeit {right: 10px}
-
-/* list-view allgemein */
-.list-view .item {padding: 10px 0; display: table; width: 100%; border:0; border-top:1px solid #ccc}
-.list-view .item .Bild {float: left; margin-right: 20px}
+.grid-view .Bild {display: block }
+.grid-view .Artikelanzahl, .grid-view .Preis-Lieferbarkeit {position: absolute; bottom:0 }
+.grid-view .Preis-Lieferbarkeit {right: 10px; text-align:right}
 
 /* Produktliste */
 .list.products .Bild {height: 150px}
-.list.products .Produkt-Name {max-height: 60px; overflow: hidden ; text-align: center; display: block}
-.list.products span.Preis {color: #3f3f3f}
+.list.products .Produkt-Name {max-height: 60px; overflow: hidden;  display: block}
+.list.products .Preis {color:#3f3f3f}
 .list.products .Rabatt-Preis {display: block; text-align: right}
 .list.products .Edit-Info span {display: block}
 .list.products .Relevanz, .list.products .Editieren {color: #F00; font-size: .9rem; z-index: 2}
 .list.products .Lieferbarkeit {color: #777; font-size: .9rem}
-.list.products a:hover .Preis-Lieferbarkeit {text-decoration: none}
+.list.products a:hover .Preis-Lieferbarkeit {text-decoration: none }
 .list.products .Produkt-nicht-verfuegbar .Text-Produkt-nicht-verfuegbar {position: absolute; margin: 0; top: 50px; text-align: center; z-index: 1}
 .list.products .Produkt-nicht-verfuegbar .Bildsperre-Produkt-nicht-verfuegbar {background: #ccc; width: 100%; height: 100%; position: absolute; top: 0; left: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)"; filter: alpha(opacity=30); -moz-opacity: 0.3; -khtml-opacity: 0.3; opacity: 0.3; z-index: 1}
+
 .grid-view.products h2 + .Bild {height: 150px}
+.grid-view.products .Produkt-Name {text-align: center }
 .grid-view.products .Produkt-Symbole img {position: absolute; z-index: 1}
 .grid-view.products .Produkt-Symbole .Sparen {top: 0px; left: 0px}
 .grid-view.products .Produkt-Symbole .Angebot-der-Woche {position: absolute; top: -9px; left: -9px; display: none}
 .grid-view.products .Produkt-Symbole .Spar-Angebot {position: absolute; top: -9px; left: -9px}
 .grid-view.products .Relevanz {position: absolute; top: 9px; right: 40px}
 .grid-view.products .Editieren {position: absolute; top: 0; right: 0; padding: 10px; background: #EEE}
+
+
+/* list-view allgemein */
+ul.list-view {margin:0}
+.list-view .item {padding: 10px 0; display: table; width: 100%; border:0; border-top:1px solid #ccc}
+
 .list-view.products .Artikelanzahl br {display: none}
 .list-view.products .Relevanz {bottom: 9px; right: 10px}
+
+.list-view.products .item { padding:25px 0; }
+
+.list-view.products .col3.first { height:150px; text-align:center }
+.list-view.products .col3.first .Bild {max-height:150px; height:auto; width:150px }
+.list-view.products .col3.first .Bild img {max-height:150px; }
+.list-view.products .col3.first .Bild figure.rsCaption { margin:0; width:100%; height:100%; background:#FFF; color:#000; opacity:.5; position:absolute; top:0; left:0; line-height:150px }
+.list-view.products .col3.first  [id*="Wischerrabatt_"]  { position:absolute; top:0; left:0 }
+.list-view.products .col3.first .Wischer-Online-Artikel { display:none }
+.list-view.products .col3.first .Sparen { position:absolute; top:0; left:0 }
+
+.list-view.products .col9 { overflow:hidden; display:block; margin-bottom:1rem; font-size:1.05rem }
+.list-view.products [id*="Artikelnummer_"] { display:none }
+.list-view.products [id*="Dropdowns_"] { margin:0 0 0.5rem 0}
+
+.list-view.products .col5 [id*="AllgArtMerkTabelle_"] { border-collapse:separate; border-spacing:0; width:100% }
+.list-view.products .col5 [id*="AllgArtMerkTabelle_"] th,
+.list-view.products .col5 [id*="AllgArtMerkTabelle_"] td { padding:0}
+.list-view.products .col5 [id*="AllgArtMerkTabelle_"] th { width:35%; font-weight:normal }
+.list-view.products .col5 .Weiterfuehrender-Link { position:relative; bottom:0; right:0 }
+
+.list-view.products form.col4 .Produktergebnis-inner, 
+.list-view.products form.col4 [id*="orderinfo_"] { padding:0 }
+.list-view.products form.col4 .Menge { width:30% }
+.list-view.products form.col4 .col8 > * { display:block; text-align:right }
+.list-view.products form.col4 .Preisbox { width:68.75% }
+
+.list-view.products .Edit-Modus { clear:both; display:block; }
 
 /* Kategorieliste */
 .Homepage .categories .item {text-align: left}
@@ -985,7 +1062,7 @@ ul.grid-view {margin: 0}
 .list.categories .item .Bild {height: 107px}
 .list.categories .item .Bild img {max-width: 100%; max-height: 100%}
 .list.categories .item .Description p {margin: 0; height: 80px; overflow: hidden}
-.list.categories .Button-klein {float: right}
+.list.categories .item form {float: right}
 .list.categories.buttons .item .Bild {height: 180px}
 
 /* Feedbackliste */
@@ -995,7 +1072,8 @@ ul.grid-view {margin: 0}
 /* Pure CSS Slider */
 /* ==========================*/
 .cc-slider {position: relative; -webkit-transform: translateZ(0); -webkit-transition: all 0.1s ease-out; -moz-transition: all 0.1s ease-out; -o-transition: all 0.1s ease-out; transition: all 0.1s ease-out}
-.cc-slider label {cursor: pointer; text-decoration: none}
+.cc-slider label {/* color: #ef023f; */ cursor: pointer; text-decoration: none}
+.cc-slider label:hover {/* background-color: #DDD */}
 .cc-slides {display: inline-block; width: 100%; box-sizing: border-box}
 .cc-slides .inner {width: 1000%; -webkit-transform: translateZ(0); -webkit-transition: all 800ms ease-in-out; -moz-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); -ms-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); -o-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); -webkit-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); -moz-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); -ms-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); -o-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000)}
 
@@ -1169,7 +1247,7 @@ ul.grid-view {margin: 0}
 .FileUpload {overflow-x: hidden; overflow-y: auto; width: 90%; padding: 20px 5%}
 .FileUpload .Datei-Upload { position: relative; width: 515px}
 .FileUpload .Datei-Uploads {margin: 20px 0}
-.FileUpload .Weiterfuehrender-Link {position: relative;right: auto;bottom: auto;}
+.FileUpload .Weiterfuehrender-Link {position: relative;right: auto;bottom: auto }
 .vortn .Radio-Button {text-align: right; padding-right: 5px; min-width: 110px}
 .vortn .Radio-Button input {margin: 0 !important}
 #geschenke h3 {margin: 0}
@@ -1199,6 +1277,10 @@ textarea {height: 4rem}
 .Checkout-Check-and-Send :disabled {background: #fff; border: 0 none; padding: 0}
 .Checkout-Check-and-Send .Links {width: 227px}
 .Checkout-Confirmation-Page .Schritt-1-Adresseingabe, .Checkout-Confirmation-Page .Schritt-2-Bestellung-pruefen {color: #000}
+.Checkout-Check-and-Send fieldset p { margin:0 }
+.Checkout-Check-and-Send fieldset .Weiterfuehrender-Link {position:relative; right:auto; bottom:auto; float:right }
+.Checkout-Check-and-Send fieldset { padding:.5em 0; border-top:1px solid #CCCCCC }
+.Checkout-Check-and-Send input[type="text"]:disabled { height:auto }
 
 /* Twitter & Facebook */
 .Treue {padding: 10px; border: 1px solid #ccc; margin: 10px 0 0 0; display: none}
@@ -1312,7 +1394,7 @@ textarea {height: 4rem}
 /* Newsletter-Promo:20% auf Pruefplaketten fuer Newsletter-Abonnenten */
 .tooltip-Banner-Pruefplaketten, .article-Newsletter-Abo-Downloads .zentriert {display: block}
 .tooltip-Banner-Pruefplaketten .tooltip {bottom: auto; top: -30px}
-.article-Newsletter-Abo-Downloads .Weiterfuehrender-Link {display; block; position: relative; display: block; margin: 15px 10px}
+.article-Newsletter-Abo-Downloads .Weiterfuehrender-Link {display:block; position: relative; display: block; margin: 15px 10px}
 
 /* SchilderRaetsel */
 .wqText, .wqImage {width: 98px; height: 98px; float: left; margin: 7px; text-align: center; border: 1px solid #606060; background: #fffadd; position: relative; cursor: pointer}
@@ -1404,7 +1486,6 @@ textarea {height: 4rem}
 
 /* Kontaktdaten aendern */
 .Fax-Angebote .Adresseingabe {width: auto}
-.Checkout-Check-and-Send .Kundennummer-Prefix {display: block; float: left; line-height: 1.2rem; font-size: 1rem}
 
 /*SETON International ==========================*/
 .Weltkugel-SETON-International ul {list-style-type: none; margin: 0 25% 0 0}
@@ -1500,7 +1581,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 .Footer .bewertung {margin: 0 0 0 10px}
 
 /* Footer Kundenmeinung */
-.Klein, .preisvorher, .Streich-Preis, .product-list-item-left, .hreview-aggregate .rating, .Vorrat, .Fax span, .Hotline span, .Mail span a, .Anschrift span, .Info span a, .Online-Shop span a, .Warenkorb span a, .Disclaimer, .Bildunterschrift, .Upsell .tooltip .Upsellnein, .Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure {color: #8A8A8A}
+.Klein, .preisvorher, .Streich-Preis, .Artikelanzahl, .hreview-aggregate .rating, .Vorrat, .Fax span, .Hotline span, .Mail span a, .Anschrift span, .Info span a, .Online-Shop span a, .Warenkorb span a, .Disclaimer, .Bildunterschrift, .Upsell .tooltip .Upsellnein, .Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure {color: #8A8A8A}
 .Checkout .NL-Layer, .Checkout-Adresseingabe .NL-Layer, .Checkout-Check-and-Send .NL-Layer {display: none !important}
 
 /* NL-Gewinnspiel */
@@ -1568,13 +1649,14 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 @media only screen and (min-width:960px) {
 	.Content .Sidebar-left {float: right}
 	.Button-gross.data-icon:before, .Icon:before, .icon_phone:before {margin-right: .5rem}
+	.data-icon:after {margin-left: .2rem}
 	.Homepage .Trusted-Shop-Kundenbewertung .bewertung {width: 60%}
 	.Homepage .Teaser-Vorteile-bei-SETON-bvh {height: 250px}
 	.grid-view.categories .item:nth-child(3n) {border-right: 0 none}
-	.tooltips:hover .tooltip, .item:hover .tooltip, .Info-Link:hover .Info-Text, .Info-Link:hover .Info-Text-JS {visibility: visible; opacity: 1}
-	input[type="number"] {-webkit-appearance: textfield; -moz-appearance: textfield; appearance: textfield}
-	input[type=number]:-webkit-inner-spin-button {display: none}
-	input[type="number"]:-webkit-outer-spin-butto, input[type="number"]:-webkit-inner-spin-button {-webkit-appearance: none; -moz-appearance: none; appearance: none}
+	.tooltips:hover .tooltip, #lastSeenProducts .item:hover .tooltip, .Info-Link:hover .Info-Text, .Info-Link:hover .Info-Text-JS {visibility: visible; opacity: 1}
+	input[type="number"] {-webkit-appearance: textfield !important; -moz-appearance: textfield !important; appearance: textfield !important}
+	input[type="number"]::-webkit-outer-spin-button, 
+	input[type="number"]::-webkit-inner-spin-button {-webkit-appearance: none !important; -moz-appearance: none !important; appearance: none !important; margin:0}
 	.Checkout nav {background-color: #bababa; height: 3.15rem}
 	.Checkout nav a {display: block;height: 2.5rem; padding: .35rem .5rem .3rem .75rem;color: #fff}
 	.Checkout nav li {display: none}
@@ -1593,7 +1675,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.Drei-Spalter .Content {margin-left: -74.68%; margin-right: 25.31%}
 	.items-1 .item {border: 0 !important}
 	.items-2 :nth-child(2n+2), .items-3 :nth-child(3n+3), .items-4 :nth-child(4n+4), .items-5 :nth-child(5n+5), .items-6 :nth-child(6n+6), .items-7 :nth-child(7n+7), .items-8 :nth-child(8n+8), .items-9 :nth-child(9n+9), .items-10 :nth-child(10n+10), .cc-slider .item:last-child, .grid-view .item:nth-child(3n) {border-right: 0 none}
-	/*.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 600px !important;}*/
+	/*.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 600px !important }*/
 	.Produkttabelle .Anzahl {width: 15%}
 	.Produkttabelle .Anzahl .Eingabefeld {float: left}
 	.Anzahl a {float: left}
