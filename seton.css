@@ -20,7 +20,7 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .overflow {overflow: hidden}
 
 /* Vertical centered*/
-.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .grid-view.categries h2 + .Bild img, .grid-view.products .Bild img {position: relative; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%)}
+.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .categries h2 + .Bild img, .products .Bild img {position: relative; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%)}
 .rsFullscreen .rsContainer .rsSlide img, .rsFullscreen .rsSlide .Rotating-image {-webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0)}
 
 /* Text */
@@ -57,7 +57,7 @@ h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 /* Listen */
 ul, .PUES-Subnavigation-Kategorien, .Teaser-Blog ul, .Teaser .Bullet-Haekchen {margin: 0 0 .5rem 0; padding: 0; list-style-position: outside}
 .col6.Bullet-Haekchen {margin:0}
-.Content ul, .PUES-Subnavigation-Kategorien {margin-left: 1rem}
+.Content ul, .PUES-Subnavigation-Kategorien {/* margin-left: 1rem */}
 .Teaser-Blog ul, .dropdown-list {margin: 0}
 .Bullet-Haekchen, .Teaser-Blog ul, .Footer ul, .dropdown-list {list-style-type: none}
 .Bullet-Haekchen li, .Bullet-Haekchen-weiss li, .Bullet-Plus li, .Bullet-Checkbox li, .Vorteile li {list-style-type: none; margin: 0 0 0 .75rem; padding: 0 0 0 .25rem}
@@ -996,7 +996,7 @@ ul.grid-view {margin: 0}
 .Homepage .item, .recs .item, #Crosslink .item, #WeitereArtikel .item, #Crosseller .item, #lastSeenProducts .item {border-top: 0 none; min-height: 100%}
 .categories .grid-view .item:nth-child(3n), .PUES .grid-view .item:last-child {border-right: 0}
 .grid-view .product-list-item > a {height: 250px; margin: 15px 10px 10px}
-.grid-view .Bild {display: block }
+.Bild {display: block }
 .grid-view .Artikelanzahl, .grid-view .Preis-Lieferbarkeit {position: absolute; bottom:0 }
 .grid-view .Preis-Lieferbarkeit {right: 10px; text-align:right}
 
@@ -1023,36 +1023,35 @@ ul.grid-view {margin: 0}
 
 
 /* list-view allgemein */
-ul.list-view {margin:0}
-.list-view .item {padding: 10px 0; display: table; width: 100%; border:0; border-top:1px solid #ccc}
+ul.list-view {/* margin:0 */}
+.list-view.products .item:first-child { border: 0 none }
+.list-view .item {padding: 0; display: table; width: 100%; border:0; border-top:1px solid #ccc}
 
 .list-view.products .Artikelanzahl br {display: none}
 .list-view.products .Relevanz {bottom: 9px; right: 10px}
 
-.list-view.products .item { padding:25px 0; }
-
 .list-view.products .col3.first { height:150px; text-align:center }
-.list-view.products .col3.first .Bild {max-height:150px; height:auto; width:150px }
 .list-view.products .col3.first .Bild img {max-height:150px; }
 .list-view.products .col3.first  [id*="Wischerrabatt_"]  { position:absolute; top:0; left:0 }
 .list-view.products .col3.first .Wischer-Online-Artikel { display:none }
 .list-view.products .col3.first .Sparen { position:absolute; top:0; left:0 }
 
-.list-view.products .col9 { overflow:hidden; display:block; margin-bottom:1rem; font-size:1.05rem }
+.list-view.products .col9 { overflow:hidden; display:block; margin: 1rem 0 0; font-size: 1rem;}
 .list-view.products [id*="Artikelnummer_"] { display:none }
-.list-view.products [id*="Dropdowns_"] { margin:0 0 0.5rem 0}
+.list-view.products [id*="Dropdowns_"] { margin: 1.5em 0 0.5rem 0;}
 
-.list-view.products .col5 [id*="AllgArtMerkTabelle_"] { border-collapse:separate; border-spacing:0; width:100% }
-.list-view.products .col5 [id*="AllgArtMerkTabelle_"] th,
-.list-view.products .col5 [id*="AllgArtMerkTabelle_"] td { padding:0}
-.list-view.products .col5 [id*="AllgArtMerkTabelle_"] th { width:35%; font-weight:normal }
-.list-view.products .col5 .Weiterfuehrender-Link { position:relative; bottom:0; right:0 }
+.list-view.products [id*="AllgArtMerkTabelle_"] { border-collapse:separate; border-spacing:0; width:100% }
+.list-view.products [id*="AllgArtMerkTabelle_"] th,
+.list-view.products [id*="AllgArtMerkTabelle_"] td { padding:0}
+.list-view.products [id*="AllgArtMerkTabelle_"] th { width:35%; font-weight:normal }
+.list-view.products .Weiterfuehrender-Link { position:relative; bottom:0; right:0 }
 
-.list-view.products form.col4 .Produktergebnis-inner, 
-.list-view.products form.col4 [id*="orderinfo_"] { padding:0 }
-.list-view.products form.col4 .Menge { width:30% }
-.list-view.products form.col4 .col8 > * { display:block; text-align:right }
-.list-view.products form.col4 .Preisbox { width:68.75% }
+.list-view.products .Produktergebnis-inner, 
+.list-view.products [id*="orderinfo_"] { padding:0 }
+.list-view.products .Menge { width:30% }
+.list-view.products .Menge + .col8 {margin: 1.25em 0 0}
+.list-view.products .col8 > * { display:block; text-align:right }
+.list-view.products .Preisbox { width:68.75% }
 
 .list-view.products .Edit-Modus { clear:both; display:block; }
 
