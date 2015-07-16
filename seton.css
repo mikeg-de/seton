@@ -1172,6 +1172,7 @@ ul.list-view {/* margin:0 */}
 .Berater-Kampagne h3 {display: inline-block}
 .Berater-Kampagne .Bild-gross {width: 100px; float: right; margin: 0 0 5px 10px}
 .Berater-Kampagne .Bild-klein {display: inline-block; vertical-align: middle}
+.Berater-Kampagne ul {list-style: none}
 .Berater-Kampagne-Info {margin: 0 5px 20px 0}
 .Berater-Kampagne-Info:before {content: "\70"; font-size: 1.75rem; line-height: 1rem; font-family: 'ElegantIcons'; float: left}
 
