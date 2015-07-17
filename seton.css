@@ -20,7 +20,7 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .overflow {overflow: hidden}
 
 /* Vertical centered*/
-.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .categries h2 + .Bild img, .products .Bild img {position: relative; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%)}
+.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .categries h2 + .Bild img, .grid-view.products .Bild img {position: relative; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%)}
 .rsFullscreen .rsContainer .rsSlide img, .rsFullscreen .rsSlide .Rotating-image {-webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0)}
 
 /* Text */
@@ -107,11 +107,11 @@ aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 input.LV_invalid_field {border-color: #F00}
 .Checkout-Confirmation-Page .Adresseingabe select {width: 150px}
 .Adresseingabe .Newsletter, .Adresseingabe .Faxangebot {margin-top: 10px}
-#checkoutandsend .Adresseingabe td {max-width: 50px}
 #Warenkorb-Rahmen .Hinweis {width: 382px; max-width: 382px}
 .Checkbox input {float: left}
 .Checkbox p {padding-left: 25px; margin: 0}
 .Checkbox h4 {padding-left: 25px; margin: 0; line-height: 19px}
+
 
 /* Info-Layer */
 .Info-Link {cursor: pointer; display: inline-block}
@@ -466,7 +466,7 @@ select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVy
 .nav-pri { position: relative; z-index:80}
 .nav-pri ul {list-style-type: none; margin: 0; position: relative; z-index:70}
 .nav-pri > ul > li {float: left; width: 20%}
-.nav-pri [id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc; background-color: #0061a0}
+.nav-pri [id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc; background-color: #0061a0;}
 .nav-pri > ul > li:hover > a {background-color: #ccc}
 .nav-pri li:nth-child(5n+2) a {border-left: 0 none}
 .sub {visibility: hidden; opacity: 0; max-height: 0; z-index:70; position: relative; -webkit-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out;overflow: hidden }
@@ -806,9 +806,8 @@ img.rsImg {max-width: none}
 .rsArrowDisabled {display: none !important}
 
 /* Bildbeschreibung */
-.Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption, .list-view.products .col3.first .Bild figure {bottom: 72px; width: 100%; background-color: rgba(255, 255, 255, 0.9); box-sizing: border-box; padding: 0; border-radius: 0; left: 0 }
-.Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure,
-.list-view.products .col3.first .Bild figure {padding: .5rem 1rem; text-align: center; margin: 0}
+.Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption {bottom: 72px; width: 100%; background-color: rgba(255, 255, 255, 0.9); box-sizing: border-box; padding: 0; border-radius: 0; left: 0 }
+.Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure {padding: .5rem 1rem; text-align: center; margin: 0}
 
 /* Horizontale Thumb-Scrollleiste */
 .Designcode-Artikelauswahl .rsDefault .rsThumb {background: none !important}
@@ -971,13 +970,14 @@ a.Mehr-Filterparameter {display: none; position: absolute; bottom: 0; right: 0; 
 .Passende-Suchempfehlungen a {display: block; float: left; margin: 0 0 0 20px}
 .Produkt-Slider-RecEngine {height: 190px; margin-top: 20px}
 .Produkt-Slider-RecEngine li {height: 248px; background: transparent}
-.Artikelsuche-Navi > span {margin: 0 1rem 0 0; vertical-align: middle}
+.Artikelsuche-Navi > span {margin: 0 1rem 0 0; }
 .Anzahl-Artikel:after {content: " Artikel"}
-.Artikelsuche-Navi .Seiten-blaettern span {font-weight: normal}
-.Artikelsuche-Navi .Listenansicht a:before { color:#3e3e3e; vertical-align: middle; display:inline-block }
-.Artikelsuche-Navi .Listenansicht > a:hover { text-decoration:none }
-.Artikelsuche-Navi .Listenansicht .Grid-View:before { content:"\e08c"; font-size:20px }
-.Artikelsuche-Navi .Listenansicht .List-View:before { content:"\61"; font-size:30px }
+.Seiten-blaettern span {font-weight: normal}
+.Listenansicht a {color: #3e3e3e}
+.Listenansicht :before {vertical-align: middle; display: inline-block;}
+.Listenansicht a:hover, .Listenansicht .active {color: #0061a0; text-decoration:none }
+.Listenansicht .Grid-View:before { content:"\e08c"; font-size: 1.75em;}
+.Listenansicht .List-View:before { content:"\61"; font-size: 2.5em; padding: .15em 0 0;}
 .Homepage-Grid-System li:nth-child(4n+1) {border-left: 0 none}
 
 /* Listenansichten allgemein*/
@@ -1030,11 +1030,12 @@ ul.list-view {/* margin:0 */}
 .list-view.products .Artikelanzahl br {display: none}
 .list-view.products .Relevanz {bottom: 9px; right: 10px}
 
-.list-view.products .col3.first { height:150px; text-align:center }
+.list-view.products .col3.first { height:150px; text-align:center; margin-top:1rem }
 .list-view.products .col3.first .Bild img {max-height:150px; }
 .list-view.products .col3.first  [id*="Wischerrabatt_"]  { position:absolute; top:0; left:0 }
 .list-view.products .col3.first .Wischer-Online-Artikel { display:none }
 .list-view.products .col3.first .Sparen { position:absolute; top:0; left:0 }
+.list-view.products .col3.first figure { padding:0; margin:0; color:#8a8a8a }
 
 .list-view.products .col9 { overflow:hidden; display:block; margin: 1rem 0 0; font-size: 1rem;}
 .list-view.products [id*="Artikelnummer_"] { display:none }
@@ -1051,7 +1052,7 @@ ul.list-view {/* margin:0 */}
 .list-view.products .Menge { width:30% }
 .list-view.products .Menge + .col8 {margin: 1.25em 0 0}
 .list-view.products .col8 > * { display:block; text-align:right }
-.list-view.products .Preisbox { width:68.75% }
+.list-view.products .Preisbox { width:68.75%; margin-top:1rem }
 
 .list-view.products .Edit-Modus { clear:both; display:block; }
 
@@ -1274,13 +1275,14 @@ textarea {height: 4rem}
 .Checkout-Check-and-Send .Adresseingabe .Kundenadresse, .Checkout-Check-and-Send .Adresseingabe .Rechnungsadresse, .Checkout-Check-and-Send .Adresseingabe .Lieferadresse {width: 200px}
 
 /* Breitenangaben verhindern ein Springen der Tabelleninhalte beim An- und Abwaehlen von Liefer- und Rechnungsadresse */
-.Checkout-Check-and-Send :disabled {background: #fff; border: 0 none; padding: 0}
+.Checkout-Check-and-Send :disabled {background: #fff; border: 0 none; padding:0; height:auto }
 .Checkout-Check-and-Send .Links {width: 227px}
 .Checkout-Confirmation-Page .Schritt-1-Adresseingabe, .Checkout-Confirmation-Page .Schritt-2-Bestellung-pruefen {color: #000}
-.Checkout-Check-and-Send fieldset p { margin:0 }
+.Checkout-Check-and-Send fieldset p { margin:.2rem 0 }
 .Checkout-Check-and-Send fieldset .Weiterfuehrender-Link {position:relative; right:auto; bottom:auto; float:right }
 .Checkout-Check-and-Send fieldset { padding:.5em 0; border-top:1px solid #CCCCCC }
 .Checkout-Check-and-Send input[type="text"]:disabled { height:auto }
+.Checkout-Check-and-Send fieldset.Adresseingabe select { -webkit-appearance:none; -moz-appearance:none; appearance:none; text-indent:0.01px; text-overflow:''}
 
 /* Twitter & Facebook */
 .Treue {padding: 10px; border: 1px solid #ccc; margin: 10px 0 0 0; display: none}
