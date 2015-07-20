@@ -56,7 +56,7 @@ h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 /* Listen */
 ul, .PUES-Subnavigation-Kategorien, .Teaser-Blog ul, .Teaser .Bullet-Haekchen {margin: 0 0 .5rem 0; padding: 0; list-style-position: outside}
 .col6.Bullet-Haekchen {margin:0}
-.Content ul, .PUES-Subnavigation-Kategorien {/* margin-left: 1rem */}
+.Content ul, .PUES-Subnavigation-Kategorien {margin-left: 1rem}
 .Teaser-Blog ul, .dropdown-list {margin: 0}
 .Bullet-Haekchen, .Teaser-Blog ul, .Footer ul, .dropdown-list {list-style-type: none}
 .Bullet-Haekchen li, .Bullet-Haekchen-weiss li, .Bullet-Plus li, .Bullet-Checkbox li, .Vorteile li {list-style-type: none; margin: 0 0 0 .75rem; padding: 0 0 0 .25rem}
@@ -1021,7 +1021,7 @@ ul.grid-view {margin: 0}
 
 
 /* list-view allgemein */
-ul.list-view {/* margin:0 */}
+.categories, .products {margin:0}
 .list-view.products .item:first-child { border: 0 none }
 .list-view .item {padding: 0; display: table; width: 100%; border:0; border-top:1px solid #ccc}
 
