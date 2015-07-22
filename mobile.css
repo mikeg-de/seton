@@ -66,6 +66,8 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	nav .Hotline a:before {margin: 0 .5rem 0 0; font-size: 1.25rem}
 	#topnav4 .sub, #topnav7 .sub {left: 0}
 	.sub a {padding: .75rem .5rem .4rem 1rem; display: block; margin: 0; height: 2rem}
+	.subnav .Titel:after {content: "\33";float: right;font-size: 1.25rem; visibility: hidden}
+	.subnav .Titel:hover:after {-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg)}
 	.col-Themen {background-color: #eee; border-top: 1px solid #ccc}
 	.Thema {padding: .75rem .5rem .4rem 1rem}
 	.Thema-Name a, .Thema p, .Thema .PfeilLink {padding: 0; margin: 0}
