@@ -60,13 +60,12 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.sub, .nav-third {border: 0 none; position: initial; visibility: hidden; opacity: 0; max-height: 0; -webkit-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: opacity .25s ease-out .25s, max-height .5s ease-out; transition: opacity .25s ease-out .25s, max-height .5s ease-out}
 	a:hover + .sub, a:active + .sub, a:hover + .nav-third, a:active + .nav-third {visibility: visible; opacity: 1; max-height: 2000px; -webkit-transition: opacity .25s ease-in, max-height .5s ease-in; -moz-transition: opacity .25s ease-in, max-height .5s ease-in; -ms-transition: opacity .25s ease-in, max-height .5s ease-in; -o-transition: opacity .25s ease-in, max-height .5s ease-in; transition: opacity .25s ease-in, max-height .5s ease-in}
 	.nav-pri [id^="topnav"] > a {border: 0 none; border-top: 1px solid #ccc}
-	.subnav .Titel:after {visibility: visible}
 	nav .Hotline a {border-top: 1px dashed}
 	nav .Hotline a {color: #fff; display: block; height: 2.5rem; font-size: 1.5rem; padding: .75rem .5rem .3rem .75rem}
 	nav .Hotline a:before {margin: 0 .5rem 0 0; font-size: 1.25rem}
 	#topnav4 .sub, #topnav7 .sub {left: 0}
 	.sub a {padding: .75rem .5rem .4rem 1rem; display: block; margin: 0; height: 2rem}
-	.subnav .Titel:after {content: "\33";float: right;font-size: 1.25rem; visibility: hidden}
+	.subnav .Titel:after {content: "\33";float: right;font-size: 1.25rem}
 	.subnav .Titel:hover:after {-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg)}
 	.col-Themen {background-color: #eee; border-top: 1px solid #ccc}
 	.Thema {padding: .75rem .5rem .4rem 1rem}
