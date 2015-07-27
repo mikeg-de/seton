@@ -185,6 +185,7 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	#Header .icon_cart_alt:before {margin: 0 0 0 .5rem}
 	#WKPosHead {float: left}
 	.WKArtikel, #WKBetragHead {display: none}
+	#cc-slider-lsp .item {width: 33.3%}
 	.cc-slider.items-4 .item, .cc-slider.items-3 .item {width: 5%}
 	.tooltips .tooltip {position: fixed; bottom: 0; width: 100%; margin: 0; border-left: 0 none; border-right: 0 none} }
 
