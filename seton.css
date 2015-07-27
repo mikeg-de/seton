@@ -59,7 +59,7 @@ ul, .PUES-Subnavigation-Kategorien, .Teaser-Blog ul, .Teaser .Bullet-Haekchen {m
 .col6.Bullet-Haekchen {margin:0}
 .Content ul, .PUES-Subnavigation-Kategorien { margin-left: 1rem }
 .Teaser-Blog ul, .dropdown-list {margin: 0}
-.Bullet-Haekchen, .Teaser-Blog ul, .Footer ul, .dropdown-list {list-style-type: none}
+ul.Bullet-Haekchen, .Teaser-Blog ul, .Footer ul, .dropdown-list {list-style-type: none}
 .Bullet-Haekchen li, .Bullet-Haekchen-weiss li, .Bullet-Plus li, .Bullet-Checkbox li, .Vorteile li {list-style-type: none; margin: 0 0 0 .75rem; padding: 0 0 0 .25rem}
 aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 .Bullet-Haekchen-weiss li .Bullet {background-position: -22px -130px}
@@ -104,13 +104,13 @@ aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 .Adresseingabe .Gewerbe .Hinweis p {width: 150px}
 .Adresseingabe .Checkox-Gewerbe p {width: 350px}
 .Adresseingabe .Checkbox.Newsletter .Weiterfuehrender-Link {bottom: 0; right: 0}
-input.LV_invalid_field {border-color: #F00}
+input.LV_invalid_field {border-color: #F00 !important}
 .Checkout-Confirmation-Page .Adresseingabe select {width: 150px}
 .Adresseingabe .Newsletter, .Adresseingabe .Faxangebot {margin-top: 10px}
 #Warenkorb-Rahmen .Hinweis {width: 382px; max-width: 382px}
 .Checkbox input {float: left}
-.Checkbox p {padding-left: 25px; margin: 0}
-.Checkbox h4 {padding-left: 25px; margin: 0; line-height: 19px}
+.Checkbox p, .Checkbox h4 {padding-left: 25px; margin: 0}
+.Checkbox h4 {line-height: 19px}
 
 
 /* Info-Layer */
@@ -119,10 +119,9 @@ input.LV_invalid_field {border-color: #F00}
 .Info-Link .Info-Text p, .Info-Link .Info-Text-JS p {margin-top: 0; width: auto !important}
 .Info-Link:hover .Info-Text {display: block}
 
-.Checkout .Hinweis {width: 42.5%; display: inline-block; vertical-align:middle }
+.Checkout .Hinweis {width: 57.5%; display: inline-block; vertical-align:middle }
 .Hinweis .Hinweistext {color:#666; display:none}
 .Hinweis p {margin:0}
-.Checkout .Hinweis p {}
 
 .Fehlertext, .Hinweis .Fehlertext, .LV_invalid, .invalid, .Hinweis .Fehlertext,
 .Hinweis .Fehlermeldung, .Hinweis .FehlermeldungNoJS {color:#F00}
@@ -137,13 +136,12 @@ input.LV_invalid_field {border-color: #F00}
 .Checkox-Gewerbe input, .Newsletter input {vertical-align: top}
 .Adresseingabe textarea {width: 50%; max-height: 300px}
 .Checkout .Adresseingabe textarea {min-width: 30%; max-width: 30%}
-.Adresseingabe label {width: 25%; display: inline-block; vertical-align:middle }
-.Checkox-Gewerbe .Label-Gewerbe, .Newsletter label, .Faxangebot label {width: 70%}
+.Adresseingabe label {width: 25%; display: block; vertical-align:middle }
+.Checkox-Gewerbe .Label-Gewerbe, .Newsletter label, .Faxangebot label {width: 60%;display: inline-block}
 .Checkout span.tooltips, .PDF-Download span.tooltips {bottom: 0; right: auto}
 .Adresseingabe [type="text"], .Adresseingabe [type="tel"], .Adresseingabe [type="email"], #Branche {width: 50%}
-.Checkout .Adresseingabe [type="text"], .Checkout .Adresseingabe [type="tel"], .Checkout .Adresseingabe [type="email"] , .Checkout .Adresseingabe textarea {width: 30%; vertical-align:middle; display:inline-block }
+.Checkout .Adresseingabe [type="text"], .Checkout .Adresseingabe [type="tel"], .Checkout .Adresseingabe [type="email"] , .Checkout .Adresseingabe textarea {width: 40%; vertical-align:middle; display:inline-block }
 .Adresseingabe .Eingabefeld-PLZ, .Checkout .Adresseingabe .Eingabefeld-PLZ[type="text"] {width: 19.5%} 
-.kundenadr_Bemerkung label {/* display: block */}
 input:required {}
 input:optional {}
 .Checkout input.LV_valid_field { border-color: #19B201}
@@ -169,48 +167,30 @@ a .Link {color: #0061a0}
 /* Tooltips neu 2014 */
 span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor: pointer}
 .tooltips:hover {text-decoration: none}
-.tooltips .tooltip, 
-#Artikelsuche-Hinweis, 
-.Info-Link .Info-Text, 
-.Info-Link .Info-Text-JS {position: absolute; color: #3e3e3e; background: #fff; border: 2px solid #ccc; visibility: hidden; border-radius: 5px; padding: 5px; z-index: 250; text-align: center; left: 0}
+.tooltips .tooltip, #Artikelsuche-Hinweis, 
+.Info-Link .Info-Text, .Info-Link .Info-Text-JS {position: absolute; color: #3e3e3e; background: #fff; border: 2px solid #ccc; visibility: hidden; border-radius: 5px; padding: 5px; z-index: 250; text-align: center; left: 0}
 .tooltip { left:50% }
 
-.tooltips-drueber .tooltip:before, 
-.tooltips-drunter .tooltip:before, 
-.Info-Link .Info-Text:before, 
-.Info-Link .Info-Text-JS:before, 
-.tooltips-drueber .tooltip:after,
-.tooltips-drunter .tooltip:after, 
-#Artikelsuche-Hinweis:after, 
-.Info-Link .Info-Text:after,
-.Info-Link .Info-Text-JS:after {content: ''; position: absolute; left: 50%; width: 0; height: 0; text-decoration: none !important}
+.tooltips-drueber .tooltip:before, .tooltips-drunter .tooltip:before, .Info-Link .Info-Text:before, 
+.Info-Link .Info-Text-JS:before, .tooltips-drueber .tooltip:after, .tooltips-drunter .tooltip:after, 
+#Artikelsuche-Hinweis:after, .Info-Link .Info-Text:after, .Info-Link .Info-Text-JS:after {content: ''; position: absolute; left: 50%; width: 0; height: 0; text-decoration: none !important}
 
 .tooltips-drueber .tooltip { bottom:30px }
 
-.tooltips-drueber .tooltip:before, 
-.tooltips-drueber .tooltip:after {top: 100%}
+.tooltips-drueber .tooltip:before, .tooltips-drueber .tooltip:after {top: 100%}
 .tooltips-drueber .tooltip:after {margin-left: -8px; border-top: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
 .tooltips-drueber .tooltip:before {margin-left: -12px; border-top: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
 
 .tooltips-drunter .tooltip { top: 30px }
 
-.tooltips-drunter .tooltip:before, 
-.tooltips-drunter .tooltip:after, 
-#Artikelsuche-Hinweis:after, 
-.Info-Link .Info-Text:before, 
-.Info-Link .Info-Text:after, 
-.Info-Link .Info-Text-JS:before, 
-.Info-Link .Info-Text-JS:after {bottom: 100%}
+.tooltips-drunter .tooltip:before, .tooltips-drunter .tooltip:after, #Artikelsuche-Hinweis:after, .Info-Link .Info-Text:before, 
+.Info-Link .Info-Text:after, .Info-Link .Info-Text-JS:before, .Info-Link .Info-Text-JS:after {bottom: 100%}
 
-.tooltips-drunter .tooltip:after, 
-#Artikelsuche-Hinweis:after, 
-.Info-Link .Info-Text:after, 
-.Info-Link .Info-Text-JS:after {margin-left: -8px; border-bottom: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
+.tooltips-drunter .tooltip:after, #Artikelsuche-Hinweis:after, 
+.Info-Link .Info-Text:after, .Info-Link .Info-Text-JS:after {margin-left: -8px; border-bottom: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
 
-.tooltips-drunter .tooltip:before, 
-#Artikelsuche-Hinweis:before, 
-.Info-Link .Info-Text:before,
-.Info-Link .Info-Text-JS:before {margin-left: -12px; border-bottom: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
+.tooltips-drunter .tooltip:before, #Artikelsuche-Hinweis:before, 
+.Info-Link .Info-Text:before, .Info-Link .Info-Text-JS:before {margin-left: -12px; border-bottom: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
 
 .Upsell .tooltip {text-align: center; width: 200px; margin-left: -112px}
 .Upsell .tooltip .h3 {margin-top: 10px; font-size: 1rem; color: #539d37}
@@ -974,10 +954,10 @@ a.Mehr-Filterparameter {display: none; position: absolute; bottom: 0; right: 0; 
 .Artikelsuche-Navi > span {margin: 0 1rem 0 0; }
 .Anzahl-Artikel:after {content: " Artikel"}
 .Seiten-blaettern span {font-weight: normal}
-.Listenansicht :before {vertical-align: middle; display: inline-block;}
+.Listenansicht :before {vertical-align: middle; display: inline-block}
 .Listenansicht a:hover, .Listenansicht .active {color: #0061a0; text-decoration:none }
-.Listenansicht .Grid-View:before { content:"\e08c"; font-size: 1.75em;}
-.Listenansicht .List-View:before { content:"\61"; font-size: 2.5em; padding: .15em 0 0;}
+.Listenansicht .Grid-View:before { content:"\e08c"; font-size: 1.75em}
+.Listenansicht .List-View:before { content:"\61"; font-size: 2.5em; padding: .15em 0 0}
 .Homepage-Grid-System li:nth-child(4n+1) {border-left: 0 none}
 
 /* Listenansichten allgemein*/
@@ -1037,13 +1017,12 @@ ul.grid-view {margin: 0}
 .list-view.products .col3.first .Sparen { position:absolute; top:0; left:0 }
 .list-view.products .col3.first figure { padding:0; margin:0; color:#8a8a8a }
 
-.list-view.products .col9 { overflow:hidden; display:block; margin: 1rem 0 .5rem 0; font-size: 1rem;}
+.list-view.products .col9 { overflow:hidden; display:block; margin: 1rem 0 .5rem 0; font-size: 1rem}
 .list-view.products [id*="Artikelnummer_"] { display:none }
-.list-view.products [id*="Dropdowns_"] { margin: 1.5em 0 0.5rem 0;}
+.list-view.products [id*="Dropdowns_"] { margin: 1.5em 0 0.5rem 0}
 
 .list-view.products [id*="AllgArtMerkTabelle_"] { border-collapse:separate; border-spacing:0; width:100% }
-.list-view.products [id*="AllgArtMerkTabelle_"] th,
-.list-view.products [id*="AllgArtMerkTabelle_"] td { padding:0}
+.list-view.products [id*="AllgArtMerkTabelle_"] th, .list-view.products [id*="AllgArtMerkTabelle_"] td { padding:0}
 .list-view.products [id*="AllgArtMerkTabelle_"] th { width:35%; font-weight:normal }
 .list-view.products .Weiterfuehrender-Link { position:relative; bottom:0; right:0 }
 
@@ -1053,7 +1032,6 @@ ul.grid-view {margin: 0}
 .list-view.products .Menge + .col8 {margin: 1.25em 0 0}
 .list-view.products .col8 > * { display:block; text-align:right }
 .list-view.products .Preisbox { width:68.75%; margin-top:1rem }
-
 .list-view.products .Edit-Modus { clear:both; display:block; }
 
 /* Kategorieliste */
@@ -1256,19 +1234,44 @@ ul.grid-view {margin: 0}
 
 /* Checkout ==========================*/
 /* Kopfnavigation */
-.Kopfnavigation > div {background: #e7f3fe; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U3ZjNmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiM2QyZjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #e7f3fe 0%, #b3d2f0 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e7f3fe), color-stop(100%, #b3d2f0)); background: -webkit-linear-gradient(top, #e7f3fe 0%, #b3d2f0 100%); background: -o-linear-gradient(top, #e7f3fe 0%, #b3d2f0 100%); background: -ms-linear-gradient(top, #e7f3fe 0%, #b3d2f0 100%); background: linear-gradient(to bottom, #e7f3fe 0%, #b3d2f0 100%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e7f3fe', endColorstr='#b3d2f0', GradientType=0 )}
-.Schritt-1-Adresseingabe, .Schritt-2-Bestellung-pruefen {float: left; line-height: 3.5rem; width: 50%; font-weight: bold; overflow: hidden; height: 3.5rem}
-.Schritt-2-Bestellung-pruefen .Zahl {border-left: 2px solid #fff}
-.Kopfnavigation .Zahl {font-size: 2.5rem; color: #fff; float: left; padding: 0 10px 0 10px}
+.Kopfnavigation {background-color: #00609F; margin: 0 0 1rem; overflow: hidden; height: 3.5rem}
+.Kopfnavigation div {color: #fff;display: inline-block;vertical-align: baseline}
+.Schritt-1-Adresseingabe, .Schritt-2-Bestellung-pruefen { line-height: 3.5rem; width: 50%; margin: 0 -4px 0 0; position: relative}
+.Schritt-1-Adresseingabe {width: 46%}
+.Schritt-1-Adresseingabe:after {
+	content: '';
+	position: absolute;
+	top: .35rem; 
+	right: -1.25rem;
+	width: 2.5rem; 
+	height: 2.5rem;
+	/*as you see the rotated square takes a larger height. which makes it tough to position it properly. So we are going to scale it down so that the diagonals become equal to the line-height of the link. We scale it to 70.7% because if square's: 
+	length = 1; diagonal = (1^2 + 1^2)^0.5 = 1.414 (pythagoras theorem)
+	if diagonal required = 1; length = 1/1.414 = 0.707*/
+	/* transform: scale(0.707) rotate(45deg); */
+	transform: rotate(45deg);
+	/*background same as links but the gradient will be rotated to compensate with the transform applied*/
+	background: #00609F;
+	border: .25rem solid #fff;
+	border-left: 0 none;
+	border-bottom: 0 none;
+	border-radius: 0 5px 0 0;
+	z-index: 1;
+}
+
+.Schritt-2-Bestellung-pruefen {padding: 0 0 0 4%}
+
+.Kopfnavigation .Zahl {font-size: 2.5rem;   padding: 0 10px 0 10px}
 input[type="text"], input[type="number"], input[type="tel"], input[type="email"], textarea, select {padding: 3px 5px 2px 5px; border: 1px solid #ccc; border-radius: 0; height: 2rem; box-sizing: border-box; font-size: .85rem}
 select {height: 2rem; -webkit-appearance: menulist; -moz-appearance: menulist; appearance: menulist}
+.Checkout select {background: 0 none}
 textarea {height: 4rem}
 #direkt_art {width: 56%}
 #direkt_anz {width: 25%}
 .Eingabefeld-gross {padding: 8px}
 
 /* Check Out ==========================*/
-.Checkout-Adresseingabe .Schritt-2-Bestellung-pruefen, .Checkout-Check-and-Send .Schritt-1-Adresseingabe {opacity: .5}
+.Checkout-Adresseingabe .Schritt-2-Bestellung-pruefen, .Checkout-Check-and-Send .Schritt-1-Adresseingabe, .Checkout-Check-and-Send .Schritt-1-Adresseingabe:after {background-color: #ccc}
 .Button-Weiter, .Button-Bestellung-abschicken {float: right}
 
 /* Adresstabelle */
@@ -1281,7 +1284,7 @@ textarea {height: 4rem}
 .Checkout-Confirmation-Page .Schritt-1-Adresseingabe, .Checkout-Confirmation-Page .Schritt-2-Bestellung-pruefen {color: #000}
 .Checkout-Check-and-Send fieldset p { margin:.2rem 0 }
 .Checkout-Check-and-Send fieldset .Weiterfuehrender-Link {position:relative; right:auto; bottom:auto; float:right }
-.Checkout-Check-and-Send fieldset { padding:.5em 0; border-top:1px solid #CCCCCC }
+.Checkout-Check-and-Send fieldset { padding:.5em 0; border-top:1px solid #CCC }
 .Checkout-Check-and-Send input[type="text"]:disabled { height:auto }
 .Checkout-Check-and-Send fieldset.Adresseingabe select { -webkit-appearance:none; -moz-appearance:none; appearance:none; text-indent:0.01px; text-overflow:''}
 
@@ -1658,12 +1661,14 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.grid-view.categories .item:nth-child(3n) {border-right: 0 none}
 	.tooltips:hover .tooltip, #lastSeenProducts .item:hover .tooltip, .Info-Link:hover .Info-Text, .Info-Link:hover .Info-Text-JS {visibility: visible; opacity: 1}
 	input[type="number"] {-webkit-appearance: textfield !important; -moz-appearance: textfield !important; appearance: textfield !important}
-	input[type="number"]::-webkit-outer-spin-button, 
-	input[type="number"]::-webkit-inner-spin-button {-webkit-appearance: none !important; -moz-appearance: none !important; appearance: none !important; margin:0}
-	.Checkout nav {background-color: #bababa; height: 3.15rem}
+	input[type="number"]:-webkit-outer-spin-button, 
+	input[type="number"]:-webkit-inner-spin-button {-webkit-appearance: none !important; -moz-appearance: none !important; appearance: none !important; margin:0}
+	.Checkout-Adresseingabe .Artikelsuche, .Checkout-Adresseingabe .Warenkorb, .Checkout-Adresseingabe nav, .Checkout-Adresseingabe #Breadcrumbs,
+	.Checkout-Check-and-Send .Artikelsuche, .Checkout-Check-and-Send .Warenkorb, .Checkout-Check-and-Send nav, .Checkout-Check-and-Send #Breadcrumbs {display: none; visibility: hidden}
+	/*.Checkout nav {background-color: #bababa; height: 3.15rem}
 	.Checkout nav a {display: block;height: 2.5rem; padding: .35rem .5rem .3rem .75rem;color: #fff}
-	.Checkout nav li {display: none}
-	.Checkout #nav-home {display: block} }
+	.Checkout nav {display: none}
+	.Checkout #nav-home {display: block}*/ }
 
 @media only screen and (min-width:768px) {
 	#Header .Artikelsuche {position: relative}
@@ -1678,9 +1683,8 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.Drei-Spalter .Content {margin-left: -74.68%; margin-right: 25.31%}
 	.items-1 .item {border: 0 !important}
 	.items-2 :nth-child(2n+2), .items-3 :nth-child(3n+3), .items-4 :nth-child(4n+4), .items-5 :nth-child(5n+5), .items-6 :nth-child(6n+6), .items-7 :nth-child(7n+7), .items-8 :nth-child(8n+8), .items-9 :nth-child(9n+9), .items-10 :nth-child(10n+10), .cc-slider .item:last-child, .grid-view .item:nth-child(3n) {border-right: 0 none}
-	/*.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 600px !important }*/
 	.Produkttabelle .Anzahl {width: 15%}
 	.Produkttabelle .Anzahl .Eingabefeld {float: left}
 	.Anzahl a {float: left}
 	.Produkttabelle .Einzelpreis-abzgl-Rabatt, .Produkttabelle .Einzelpreis, .Produkttabelle .Summe {text-align: right; width: 50px}
-	.Kundennummer-Prefix {float: right} }
+	.Kundennummer-Prefix {display: none} }
