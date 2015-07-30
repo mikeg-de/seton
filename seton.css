@@ -485,6 +485,7 @@ li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
 .toggle label {color: #0061a0; cursor: pointer}
 .toggle label:hover {text-decoration: underline}
 .toggle .toggle1:checked ~ .toggle-content {height: 3.75rem; overflow: hidden; display: inline-block}
+.dropdown-list .sub {position: relative; background: 0 none; box-shadow: none; border: 0 none}
 
 /* Icons fuer Suche, Warenkorb etc. ==========================*/
 .arrow_carrot-right {margin: 0}
