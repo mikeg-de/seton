@@ -137,7 +137,8 @@ input.LV_invalid_field {border-color: #F00 !important;}
 .Checkox-Gewerbe input, .Newsletter input {vertical-align: top}
 .Adresseingabe textarea {width: 50%; max-height: 300px}
 .Checkout .Adresseingabe textarea {min-width: 40%; max-width: 40%;}
-.Adresseingabe label {width: 25%; display: block; vertical-align:middle }
+.Adresseingabe label {display: inline-block; width: 25%}
+.Checkout-Adresseingabe .Adresseingabe label {display: block; vertical-align:middle }
 .Checkout [type="checkbox"] + label, .Newsletter label {width: 60%;display: inline-block;}
 .Checkout span.tooltips, .PDF-Download span.tooltips {bottom: 0; right: auto}
 .Adresseingabe [type="text"], .Adresseingabe [type="tel"], .Adresseingabe [type="email"], #Branche {width: 50%}
@@ -469,7 +470,7 @@ select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVy
 .nav-pri [id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc; background-color: #0061a0}
 .nav-pri > ul > li:hover > a {background-color: #ccc}
 .nav-pri li:nth-child(5n+2) a {border-left: 0 none}
-.sub {visibility: hidden; opacity: 0; max-height: 0; z-index:70; position: relative; -webkit-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out;overflow: hidden }
+.sub {box-sizing:border-box; visibility: hidden; opacity: 0; max-height: 0; z-index:70; position: relative; -webkit-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out;overflow: hidden }
 .nav-pri .sub {background-color: #fff}
 li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
 	/* iOS: visibility breaks transition but required for touch events and block is not animatable */
