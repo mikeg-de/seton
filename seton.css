@@ -1158,8 +1158,8 @@ ul.grid-view, ul.list-view {margin: 0}
 .Schildersuche .Schilder-Banner {margin-right: 10px}
 .Schildersuche .Seiteanzeige {white-space: nowrap}
 .Schildersuche .Seiteanzeige .pagingCurrent {font-weight: bold}
-.Schilder-Suche p {float: left; margin: 0}
-.Schilder-Suche input[type=text] {width: 230px; margin: 0 10px}
+.Schilder-Suche label { vertical-align: middle;}
+.Schilder-Suche input[type=text] {width: 230px; margin: 0 -4px 0 10px;height: 2.25rem;vertical-align: bottom;}
 .suggestLayerSchildersuche {background: #FFF}
 
 /* Softsearch */
@@ -1286,7 +1286,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .Schritt-2-Bestellung-pruefen {padding: 0 0 0 4%}
 
 .Kopfnavigation .Zahl {font-size: 2.5rem;   padding: 0 10px 0 10px;}
-input[type="text"], input[type="number"], input[type="tel"], input[type="email"], textarea, select {padding: 3px 5px 2px 5px; border: 1px solid #999; border-radius: 0; height: 2rem; box-sizing: border-box; font-size: .85rem}
+input[type="text"], input[type="number"], input[type="tel"], input[type="email"], textarea, select {padding: 3px 5px 2px 5px; border: 1px solid #999; border-radius: 0; height: 2rem; box-sizing: border-box; }
 select {height: 2rem; -webkit-appearance: menulist; -moz-appearance: menulist; appearance: menulist}
 .Checkout select {background: 0 none;}
 textarea {height: 4rem}
