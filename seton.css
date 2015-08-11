@@ -1226,9 +1226,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .Abrechnung #Rabatt {color: #F00; display: none}
 .Abrechnung .Gesamtsumme {border-top: 4px double #ccc}
 .Abrechnung .Gesamtsumme th {font-weight: bold}
-.Links {float: right; margin: 40px -160px 0 0}
-.Links a {display: block}
-.Checkout-Check-and-Send .Links {clear: both; width: 265px !important; float: right; margin: 0; position: relative; top: -20px}
+.Checkout-Check-and-Send .Links {float: right;}
 
 /* Direktbestellung */
 .Warenkorb-Direktbestellung {overflow-x: hidden; overflow-y: auto; width: 96%; padding: 0 2%}
@@ -1304,7 +1302,6 @@ textarea {height: 4rem}
 
 /* Breitenangaben verhindern ein Springen der Tabelleninhalte beim An- und Abwaehlen von Liefer- und Rechnungsadresse */
 .Checkout-Check-and-Send :disabled {background: #fff; border: 0 none; padding:0; height:auto }
-.Checkout-Check-and-Send .Links {width: 227px}
 .Checkout-Confirmation-Page .Schritt-1-Adresseingabe, .Checkout-Confirmation-Page .Schritt-2-Bestellung-pruefen {color: #000}
 .Checkout-Check-and-Send fieldset p { margin:.2rem 0 }
 .Checkout-Check-and-Send fieldset .Weiterfuehrender-Link {position:relative; right:auto; bottom:auto; float:right }
