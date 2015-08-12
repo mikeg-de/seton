@@ -144,6 +144,10 @@ input.LV_invalid_field {border-color: #F00 !important;}
 .Adresseingabe [type="text"], .Adresseingabe [type="tel"], .Adresseingabe [type="email"], #Branche {width: 50%}
 .Checkout .Adresseingabe [type="text"], .Checkout .Adresseingabe [type="tel"], .Checkout .Adresseingabe [type="email"] , .Checkout .Adresseingabe textarea {width: 40%; vertical-align:middle; display:inline-block }
 .Adresseingabe .Eingabefeld-PLZ, .Checkout .Adresseingabe .Eingabefeld-PLZ[type="text"] {width: 19.5%} 
+
+/* Basic field definitions */
+input[type="text"], input[type="number"], input[type="tel"], input[type="email"], textarea, select {padding: 3px 5px 2px 5px; border: 1px solid #999; border-radius: 0; height: 2rem; box-sizing: border-box; }
+select {height: 2rem; -webkit-appearance: menulist; -moz-appearance: menulist; appearance: menulist}
 input:required {}
 input:optional {}
 .Checkout input.LV_valid_field { border-color: #19B201}
@@ -151,6 +155,7 @@ input:invalid, .LV_invalid_field {border: 1px solid #f00}
 input:default {}
 input:in-range {}
 input:out-of-range {}
+
 tr.Checkox-Gewerbe p.FehlermeldungNoJS {width: 150px}
 .Editieren {height: 15px; margin-left: 2px; cursor: pointer; width: 15px}
 .Editieren-Disabled, .Speichern, .In-Adresseingabe-editieren {width: 15px; height: 15px; overflow: hidden; margin-left: 2px; cursor: pointer}
@@ -1284,8 +1289,6 @@ ul.grid-view, ul.list-view {margin: 0}
 .Schritt-2-Bestellung-pruefen {padding: 0 0 0 4%}
 
 .Kopfnavigation .Zahl {font-size: 2.5rem;   padding: 0 10px 0 10px;}
-input[type="text"], input[type="number"], input[type="tel"], input[type="email"], textarea, select {padding: 3px 5px 2px 5px; border: 1px solid #999; border-radius: 0; height: 2rem; box-sizing: border-box; }
-select {height: 2rem; -webkit-appearance: menulist; -moz-appearance: menulist; appearance: menulist}
 .Checkout select {background: 0 none;}
 textarea {height: 4rem}
 #direkt_art {width: 56%}
