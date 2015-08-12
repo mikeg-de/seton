@@ -124,11 +124,6 @@ input.LV_invalid_field {border-color: #F00 !important;}
 .Hinweis p {margin:0}
 .Checkout .Hinweis p {}
 
-.Fehlertext, .Hinweis .Fehlertext, .LV_invalid, .invalid, .Hinweis .Fehlertext,
-.Hinweis .Fehlermeldung, .Hinweis .FehlermeldungNoJS {color:#F00}
-.valid, .LV_valid {color:#19B201}
-.Hinweis .valid-Newsletter-DOI {color:#666}
-
 /* New Check-Out styling with enhanced forms*/
 .Checkout fieldset {border: 0 none; clear: both; width: 100%; padding: 0; margin: 0}
 #Add_Lieferadresse ~ fieldset {opacity: 0; max-height: 0; overflow: hidden; visibility: hidden; zoom: 1; -webkit-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: opacity .25s ease-out .25s, max-height .5s ease-out; transition: opacity .25s ease-out .25s, max-height .5s ease-out}
@@ -146,15 +141,19 @@ input.LV_invalid_field {border-color: #F00 !important;}
 .Adresseingabe .Eingabefeld-PLZ, .Checkout .Adresseingabe .Eingabefeld-PLZ[type="text"] {width: 19.5%} 
 
 /* Basic field definitions */
-input[type="text"], input[type="number"], input[type="tel"], input[type="email"], textarea, select {padding: 3px 5px 2px 5px; border: 1px solid #999; border-radius: 0; height: 2rem; box-sizing: border-box; }
+input[type="text"], input[type="number"], input[type="tel"], input[type="email"], textarea, select {padding: 3px 5px 2px 5px; border-radius: 0; height: 2rem; box-sizing: border-box; border: 1px solid #999;}
 select {height: 2rem; -webkit-appearance: menulist; -moz-appearance: menulist; appearance: menulist}
-input:required {}
-input:optional {}
-.Checkout input.LV_valid_field { border-color: #19B201}
-input:invalid, .LV_invalid_field {border: 1px solid #f00}
+input:required {border-color: #333}
+.Fehlertext, .Hinweis .Fehlertext, .LV_invalid, .invalid, .Hinweis .Fehlertext,
+.Hinweis .Fehlermeldung, .Hinweis .FehlermeldungNoJS {color:#F00}
+input:hover:invalid, input:focus:invalid, .LV_invalid_field {border-color: #f00}
+.valid, .LV_valid, .Checkout input.LV_valid_field {border-color: #19B201}
 input:default {}
+input:optional {border-color: #ccc}
 input:in-range {}
 input:out-of-range {}
+
+.Hinweis .valid-Newsletter-DOI {color:#666}
 
 tr.Checkox-Gewerbe p.FehlermeldungNoJS {width: 150px}
 .Editieren {height: 15px; margin-left: 2px; cursor: pointer; width: 15px}
@@ -364,6 +363,7 @@ button[disabled=disabled], button:disabled:hover { -webkit-box-shadow:none; -moz
 .cboxIE #cboxMiddleLeft {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderMiddleLeft.png, sizingMethod='scale')}
 .cboxIE #cboxMiddleRight {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderMiddleRight.png, sizingMethod='scale')}
 select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZGVkZWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #fff 0%, #ededed 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #ededed)); background: -webkit-linear-gradient(top, #fff 0%, #ededed 100%); background: -o-linear-gradient(top, #fff 0%, #ededed 100%); background: -ms-linear-gradient(top, #fff 0%, #ededed 100%); background: linear-gradient(to bottom, #fff 0%, #ededed 100%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 )}
+.Checkout select {background: 0 none;}
 
 /* Wrapper ==========================*/
 #Wrapper {border-spacing: 0; border: 0; margin-bottom: 1rem}
@@ -1289,7 +1289,6 @@ ul.grid-view, ul.list-view {margin: 0}
 .Schritt-2-Bestellung-pruefen {padding: 0 0 0 4%}
 
 .Kopfnavigation .Zahl {font-size: 2.5rem;   padding: 0 10px 0 10px;}
-.Checkout select {background: 0 none;}
 textarea {height: 4rem}
 #direkt_art {width: 56%}
 #direkt_anz {width: 25%}
