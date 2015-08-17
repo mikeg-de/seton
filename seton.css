@@ -1173,7 +1173,9 @@ ul.grid-view, ul.list-view {margin: 0}
 .Softsearch-Reihe .Titel-in-grauem-Balken .Alle-Treffer-anzeigen {display: block; float: right; margin-right: 10px}
 
 /* Factfinder Berater-Kampagne*/
-.Berater-Kampagne .col4 {min-height: 220px}
+.Berater-Kampagne .Rahmen {min-height: 100px}
+.Berater-Kampagne .mid-height {min-height: 220px}
+.Berater-Kampagne .full-height {min-height: 285px}
 .Berater-Kampagne .Button-klein-grau {clear: both; position: relative; z-index: 1}
 .Berater-Kampagne a {display: block; color: #3e3e3e}
 .Berater-Kampagne a:hover {text-decoration: none}
