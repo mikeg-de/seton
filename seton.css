@@ -977,7 +977,7 @@ aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 	-o-transition: all .25s ease;
 	transition: all .25s ease}
 .Mehr-Filterparameter:checked:before {-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg)}
-.Mehr-Filterparameter {height: 0;width: 0;position: absolute;bottom: 1rem;left: 33%}
+.Mehr-Filterparameter {-webkit-appearance: none; -moz-appearance: none; appearance: none; position: absolute; bottom: 1rem; left: 33%}
 .Mehr-Filterparameter:hover {color: #0063C4}
 .Filterparameter {
 	max-height: 7.25rem;
