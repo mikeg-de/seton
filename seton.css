@@ -31,7 +31,7 @@ h3, .h3, .Title3 a, p, .Tab-Content, .Content-Box {padding: 0; margin: 0 0 .5rem
 h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 
 [class^="Sidebar"] .Title1 {font-size: 1.1rem}
-.Titel-Balken-hellgrau, #lastSeenProducts .Titel-Balken-hellgrau, .Produkttabelle th, .Grid-Themen-Index p, .Block h2, .Grid-System-Sitemap .Title4 {background: #eee; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 5px .75rem 3px; margin: .5rem 0 .5rem 0; clear: both}
+.Titel-Balken-hellgrau, #lastSeenProducts .Titel-Balken-hellgrau, .Produkttabelle th, .Grid-Themen-Index p, .Block h2, .Grid-System-Sitemap .Title4 {background: #eee; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 5px .75rem 3px; margin: .5rem 0 .5rem 0; clear: both; position: relative}
 .Titel-Balken-hellgrau img {vertical-align: middle}
 .Tab-Title, .Titel-unterstrichen, .Sidebar .Titel-Balken-hellgrau {border-bottom: 1px solid #ccc}
 .Thema-Name, .Teaser p, .Teaser .p {margin: 0}
@@ -1073,7 +1073,8 @@ ul.grid-view, ul.list-view {margin: 0}
 .list.categories.buttons .item .Bild {height: 180px}
 
 /* Feedbackliste */
-.list.feedback .item .Bild {float:right; margin-left:20px }
+.list.feedback .item .Bild {float:right; margin-left:20px}
+.list.feedback .item { border:0; float:none; display:block; margin:0 0 .5em 0}
 
 /* ==========================*/
 /* Pure CSS Slider */
@@ -1700,8 +1701,9 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	#Header .Artikelsuche {position: relative}
 	#suggestContainer {border-top: 0 none}
 	.sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; -moz-box-shadow: 0 0 15px rgba(33, 33, 33, 1); -webkit-box-shadow: 0 0 15px rgba(33, 33, 33, 1); box-shadow: 0 0 15px rgba(33, 33, 33, 1); border: 1px solid #ccc; border-top-width: .35rem; position: absolute; left: 0; z-index: -1}
-	#topnav4 .sub, #topnav7 .sub {left: 20%}
-	#topnav32 .sub, #topnav10 .sub {left: 0}
+	#topnav4 .sub {left: 20%}
+	#topnav7 .sub {left: 50%}
+	#topnav32 .sub, #topnav10 .sub {/*left: 0*/}
 	.col {width: 204px; float: left; margin: 0; padding: 5px 5px 5px 10px; box-sizing: border-box}
 	.Homepage .royalSlider {height: 250px}
 	.Zwei-Spalter-Sidebar-left .Content {margin-left: -24.06%}
