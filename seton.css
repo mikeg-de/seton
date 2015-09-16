@@ -1725,7 +1725,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	#suggestContainer {border-top: 0 none}
 	.sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; -moz-box-shadow: 0 0 15px rgba(33, 33, 33, 1); -webkit-box-shadow: 0 0 15px rgba(33, 33, 33, 1); box-shadow: 0 0 15px rgba(33, 33, 33, 1); border: 1px solid #ccc; border-top-width: .35rem; position: absolute; left: 0; z-index: -1}
 	#topnav4 .sub {left: 20%}
-	#topnav7 .sub {left: 50%}
+	#topnav7 .sub {left: 40%}
 	.col {width: 204px; float: left; margin: 0; padding: 5px 5px 5px 10px; box-sizing: border-box}
 	.Homepage .royalSlider {height: 250px}
 	.Zwei-Spalter-Sidebar-left .Content {margin-left: -24.06%}
