@@ -1,5 +1,5 @@
 @font-face {font-family: 'ElegantIcons'; src: url('css/fonts/ElegantIcons.eot'); src: url('css/fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'), url('css/fonts/ElegantIcons.woff') format('woff'), url('css/fonts/ElegantIcons.ttf') format('truetype'), url('css/fonts/ElegantIcons.svg#ElegantIcons') format('svg'); font-weight: normal; font-style: normal}
-.data-icon:before, .data-icon:after, .Filterparameter a:before, .Icon:before, .Bullet-Haekchen li:before, .Editieren:after, .royalSlider .arrow_carrot-left_alt2:before, .royalSlider .icon_pause_alt2:before, .royalSlider .arrow_triangle-right_alt2:before, .royalSlider .arrow_carrot-right_alt2:before, .Link-Liste a:before, .Vorteile li:before, .Info-Icon:before, .icon_chat_alt:before, .icon_phone:before, .controls label:before, .subnav .Titel:after {font: normal normal normal 1em/1rem 'ElegantIcons'; speak: none; -webkit-font-smoothing: antialiased}
+.data-icon:before, .data-icon:after, .Filterparameter a:before, .Icon:before, .Bullet-Haekchen li:before, .Editieren:after, .royalSlider .arrow_carrot-left_alt2:before, .royalSlider .icon_pause_alt2:before, .royalSlider .arrow_triangle-right_alt2:before, .royalSlider .arrow_carrot-right_alt2:before, .Link-Liste a:before, .Vorteile li:before, .Info-Icon:before, .icon_chat_alt:before, .icon_phone:before, .controls label:before, .subnav .Titel:after, .Mehr-Filterparameter:before {font: normal normal normal 1em/1rem 'ElegantIcons'; speak: none; -webkit-font-smoothing: antialiased}
 
 
 /* Allgemeine Definitionen */
@@ -966,8 +966,36 @@ aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .Subnavigation-Titel span a, .Titel-grauer-Balken span a, .Titel-grauer-Balken a {color: #3e3e3e; font-weight: bold; margin: 0; font-size: 1rem}
 .Filterbezeichnung {font-weight: bold; margin: 0}
 .Filterparameter a:hover, .Filterparameter a:focus, .Filterparameter a.active {text-decoration: none; font-weight: normal}
-a.Mehr-Filterparameter {display: none; position: absolute; bottom: 0; right: 0; padding: 0}
+.Mehr-Filter {position: absolute; bottom: 0; padding: 0; text-align: center; width: 100%;cursor: pointer;}
+.Mehr-Filterparameter:before {
+	content: "\33";
+	font-size: 1.25rem;
+	display: inline-block;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease}
+.Mehr-Filterparameter:checked:before {-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg)}
+.Mehr-Filterparameter {height: 0;width: 0;position: absolute;bottom: 1rem;left: 33%}
 .Mehr-Filterparameter:hover {color: #0063C4}
+.Filterparameter {
+	max-height: 7.25rem;
+	overflow: hidden;
+	margin-bottom: 1.5rem;
+	-webkit-transition: max-height .5s ease-out;
+	-moz-transition: max-height .5s ease-out;
+	-ms-transition: max-height .5s ease-out;
+	-o-transition: max-height .5s ease-out;
+	transition: max-height .5s ease-out}
+	
+.Mehr-Filterparameter:checked + .Filterparameter {
+	max-height: 2000px;
+	-webkit-transition: max-height .5s ease-in;
+	-moz-transition: max-height .5s ease-in;
+	-ms-transition: max-height .5s ease-in;
+	-o-transition: max-height .5s ease-in;
+	transition: max-height .5s ease-in }
 
 /* Hauptkategorie */
 .Hauptkategorie-Text {margin: 0 0 15px}
@@ -1688,14 +1716,9 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.grid-view.categories .item:nth-child(3n) {border-right: 0 none}
 	.tooltips:hover .tooltip, #lastSeenProducts .item:hover .tooltip, .Info-Link:hover .Info-Text, .Info-Link:hover .Info-Text-JS {visibility: visible; opacity: 1}
 	input[type="number"] {-webkit-appearance: textfield !important; -moz-appearance: textfield !important; appearance: textfield !important}
-	input[type="number"]:-webkit-outer-spin-button, 
-	input[type="number"]:-webkit-inner-spin-button {-webkit-appearance: none !important; -moz-appearance: none !important; appearance: none !important; margin:0}
+	input[type="number"]:-webkit-outer-spin-button, input[type="number"]:-webkit-inner-spin-button {-webkit-appearance: none !important; -moz-appearance: none !important; appearance: none !important; margin:0}
 	.Checkout-Adresseingabe .Artikelsuche, .Checkout-Adresseingabe .Warenkorb, .Checkout-Adresseingabe nav, .Checkout-Adresseingabe #Breadcrumbs,
-	.Checkout-Check-and-Send .Artikelsuche, .Checkout-Check-and-Send .Warenkorb, .Checkout-Check-and-Send nav, .Checkout-Check-and-Send #Breadcrumbs {display: none; visibility: hidden;}
-	/*.Checkout nav {background-color: #bababa; height: 3.15rem}
-	.Checkout nav a {display: block;height: 2.5rem; padding: .35rem .5rem .3rem .75rem;color: #fff}
-	.Checkout nav {display: none}
-	.Checkout #nav-home {display: block}*/ }
+	.Checkout-Check-and-Send .Artikelsuche, .Checkout-Check-and-Send .Warenkorb, .Checkout-Check-and-Send nav, .Checkout-Check-and-Send #Breadcrumbs {display: none; visibility: hidden;} }
 
 @media only screen and (min-width:768px) {
 	#Header .Artikelsuche {position: relative}
@@ -1703,7 +1726,6 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; -moz-box-shadow: 0 0 15px rgba(33, 33, 33, 1); -webkit-box-shadow: 0 0 15px rgba(33, 33, 33, 1); box-shadow: 0 0 15px rgba(33, 33, 33, 1); border: 1px solid #ccc; border-top-width: .35rem; position: absolute; left: 0; z-index: -1}
 	#topnav4 .sub {left: 20%}
 	#topnav7 .sub {left: 50%}
-	#topnav32 .sub, #topnav10 .sub {/*left: 0*/}
 	.col {width: 204px; float: left; margin: 0; padding: 5px 5px 5px 10px; box-sizing: border-box}
 	.Homepage .royalSlider {height: 250px}
 	.Zwei-Spalter-Sidebar-left .Content {margin-left: -24.06%}
@@ -1711,7 +1733,6 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.Drei-Spalter .Content {margin-left: -74.68%; margin-right: 25.31%}
 	.items-1 .item {border: 0 !important}
 	.items-2 :nth-child(2n+2), .items-3 :nth-child(3n+3), .items-4 :nth-child(4n+4), .items-5 :nth-child(5n+5), .items-6 :nth-child(6n+6), .items-7 :nth-child(7n+7), .items-8 :nth-child(8n+8), .items-9 :nth-child(9n+9), .items-10 :nth-child(10n+10), .cc-slider .item:last-child, .grid-view .item:nth-child(3n) {border-right: 0 none}
-	/*.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 600px !important }*/
 	.Produkttabelle .Anzahl {width: 15%}
 	.Produkttabelle .Anzahl .Eingabefeld {float: left}
 	.Anzahl a {float: left}
