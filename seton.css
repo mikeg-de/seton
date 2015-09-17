@@ -1,5 +1,5 @@
 @font-face {font-family: 'ElegantIcons'; src: url('css/fonts/ElegantIcons.eot'); src: url('css/fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'), url('css/fonts/ElegantIcons.woff') format('woff'), url('css/fonts/ElegantIcons.ttf') format('truetype'), url('css/fonts/ElegantIcons.svg#ElegantIcons') format('svg'); font-weight: normal; font-style: normal}
-.data-icon:before, .data-icon:after, .Filterparameter a:before, .Icon:before, .Bullet-Haekchen li:before, .Editieren:after, .royalSlider .arrow_carrot-left_alt2:before, .royalSlider .icon_pause_alt2:before, .royalSlider .arrow_triangle-right_alt2:before, .royalSlider .arrow_carrot-right_alt2:before, .Link-Liste a:before, .Vorteile li:before, .Info-Icon:before, .icon_chat_alt:before, .icon_phone:before, .controls label:before, .subnav .Titel:after, .Mehr-Filterparameter:before {font: normal normal normal 1em/1rem 'ElegantIcons'; speak: none; -webkit-font-smoothing: antialiased}
+.data-icon:before, .data-icon:after, .Filterparameter a:before, .Icon:before, .Bullet-Haekchen li:before, .Editieren:after, .royalSlider .arrow_carrot-left_alt2:before, .royalSlider .icon_pause_alt2:before, .royalSlider .arrow_triangle-right_alt2:before, .royalSlider .arrow_carrot-right_alt2:before, .Link-Liste a:before, .Vorteile li:before, .Info-Icon:before, .icon_chat_alt:before, .icon_phone:before, .controls label:before, .subnav .Titel:after, .Mehr-Filterparameter:before {font: normal normal normal 1em/1rem 'ElegantIcons'; -webkit-font-smoothing: antialiased}
 
 
 /* Allgemeine Definitionen */
@@ -70,7 +70,7 @@ aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 .BulletPointBereich {margin: 0; padding: 0; list-style-type: none}
 .BulletPointBereich li {padding: 0 0 0 25px; background-repeat: no-repeat; background-position: 0 4px}
 .Ausbildungsangebot {padding: 0; margin: 0}
-.Ausbildungsangebot dt {float: left; width: 150px; margin-right: 0 10px 10px 0; padding: 0; font-weight: bold; clear: both}
+.Ausbildungsangebot dt {float: left; width: 150px; margin-right: 0; padding: 0; font-weight: bold; clear: both}
 .Ausbildungsangebot dd {padding: 0 0 0 160px; margin: 0 0 10px 0}
 
 /* Tabellen */
@@ -260,14 +260,14 @@ hr {border: 0 none; border-top: 1px solid #ccc; margin: 1.5rem 0}
 button {font-size: .8rem}
 .Button-gross, .Button-gross-gruen, .Button-gross-blau, .Button-gross-grau, .Button-klein, .Button-klein-gruen, .Button-klein-blau, .Button-klein-grau, .ui-state-default {display: inline-block; vertical-align:middle}
 [class^="Button"], .Link-Liste a {cursor: pointer; text-decoration: none}
-[class^="Button"]:hover, .Link-Liste a:hover, select:hover {-webkit-box-shadow: 0 0 5px 1px #ccc; -moz-box-shadow: 0 0 5px 1px #ccc; box-shadow: 0 0 5px 1px #ccc; cursor: pointer; text-decoration:none }
+[class^="Button"]:hover, .Link-Liste a:hover, select:hover {-webkit-box-shadow: 0 0 5px 1px #ccc; box-shadow: 0 0 5px 1px #ccc; cursor: pointer; text-decoration:none }
 [type="button"], [type="submit"], [class^="Button-klein"] button, .Link-Liste a {height: 1.5rem}
 .Button-gross, [class^="Button-gross"] [type="submit"], .ui-state-default, .Teaser-Newsletter button {height: 2.25rem; line-height: 2.25rem}
 .Button-breit {margin: .5rem 0; width:100%}
 .Button-klein {height:1.6rem; line-height:1.6rem}
 .Button-gruen, .Button-grau, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Button-klein-blau input, .Button-klein-blau a, button:disabled, .Link-Liste a, .ui-state-default {border: 0 none; color: #fff; padding: 0 15px; cursor: pointer; text-align:center }
-.Button-gruen, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .ui-state-default, #Chat {background: #509e2f; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM1MDllMmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMzZjhjMjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #509e2f), color-stop(50%, #3f8c24)); background: -webkit-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -o-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -ms-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: linear-gradient(to bottom, #509e2f 50%, #3f8c24 50%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#509e2f', endColorstr='#3f8c24', GradientType=0 )}
-.Button-grau, .Button-gross-grau input, .Button-gross-grau button, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Titel-grauer-Balken, .Link-Liste a, .ui-state-default:first-child {background: #8c8c8c; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM4YzhjOGMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM2OTY5NjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #8c8c8c), color-stop(50%, #696969)); background: -webkit-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: -o-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: -ms-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: linear-gradient(to bottom, #8c8c8c 50%, #696969 50%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8c8c8c', endColorstr='#696969', GradientType=0 )}
+.Button-gruen, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .ui-state-default, #Chat {background-color: #509e2f; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM1MDllMmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMzZjhjMjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #509e2f), color-stop(50%, #3f8c24)); background: -webkit-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -o-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -ms-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: linear-gradient(to bottom, #509e2f 50%, #3f8c24 50%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#509e2f', endColorstr='#3f8c24', GradientType=0 )}
+.Button-grau, .Button-gross-grau input, .Button-gross-grau button, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Titel-grauer-Balken, .Link-Liste a, .ui-state-default:first-child {background-color: #8c8c8c; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM4YzhjOGMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM2OTY5NjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #8c8c8c), color-stop(50%, #696969)); background: -webkit-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: -o-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: -ms-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: linear-gradient(to bottom, #8c8c8c 50%, #696969 50%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8c8c8c', endColorstr='#696969', GradientType=0 )}
 .Button-klein-gruen a, .Button-klein-grau-Pfeil input {font-size: 0; display: inline-block; height: 18px}
 .Button-klein-grau-Pfeil input {height: 25px; float: right}
 .Button-klein-gruen a:after {content: "Zu den Produkten"; font-size: 14px}
@@ -278,8 +278,8 @@ button {font-size: .8rem}
 .ui-dialog-titlebar-close {height: 25px !important; width: 25px !important; right: 0 !important; top: 10px !important}
 .ui-icon-closethick {background: url(/images/Admin/controls.png) -25px 0 !important; height: 25px !important; width: 25px !important}
 .ui-dialog-buttonpane, .ui-state-focus, .ui-state-active {border: 0}
-.Verlauf-weiss-grau {background: #fff; background: -moz-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #c1c1c1)); background: -webkit-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: -o-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: -ms-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: linear-gradient(to bottom, #fff 0%, #c1c1c1 100%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c1c1c1', GradientType=0 )}
-button[disabled=disabled], button:disabled:hover { -webkit-box-shadow:none; -moz-box-shadow:none; box-shadow:none; cursor:default }
+.Verlauf-weiss-grau {background-color: #fff; background: -moz-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #c1c1c1)); background: -webkit-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: -o-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: -ms-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: linear-gradient(to bottom, #fff 0%, #c1c1c1 100%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c1c1c1', GradientType=0 )}
+button[disabled=disabled], button:disabled:hover { -webkit-box-shadow:none; box-shadow:none; cursor:default }
 
 /* Titel blau */
 .Titel-Sichern-Sie-sich-den-Kalender {background-position: -290px -75px}
@@ -363,14 +363,14 @@ button[disabled=disabled], button:disabled:hover { -webkit-box-shadow:none; -moz
 .cboxIE #cboxBottomRight {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderBottomRight.png, sizingMethod='scale')}
 .cboxIE #cboxMiddleLeft {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderMiddleLeft.png, sizingMethod='scale')}
 .cboxIE #cboxMiddleRight {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderMiddleRight.png, sizingMethod='scale')}
-select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZGVkZWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #fff 0%, #ededed 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #ededed)); background: -webkit-linear-gradient(top, #fff 0%, #ededed 100%); background: -o-linear-gradient(top, #fff 0%, #ededed 100%); background: -ms-linear-gradient(top, #fff 0%, #ededed 100%); background: linear-gradient(to bottom, #fff 0%, #ededed 100%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 )}
+select {background-color: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZGVkZWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #fff 0%, #ededed 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #ededed)); background: -webkit-linear-gradient(top, #fff 0%, #ededed 100%); background: -o-linear-gradient(top, #fff 0%, #ededed 100%); background: -ms-linear-gradient(top, #fff 0%, #ededed 100%); background: linear-gradient(to bottom, #fff 0%, #ededed 100%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 )}
 .Checkout select {background: 0 none;}
 
 /* Wrapper ==========================*/
 #Wrapper {border-spacing: 0; border: 0; margin-bottom: 1rem}
 .sqleft, .sqright {width: 49% !important; margin: 0 !important}
 .sqleft {margin: 0 15px 15px 0 !important}
-.Wrapper-Content, #colorbox, .ui-dialog {-webkit-box-shadow: 0 0 15px 0 rgb(150, 150, 150), 0 0 15px 0 rgb(150, 150, 150); -moz-box-shadow: 0 0 15px 0 rgb(150, 150, 150), 0 0 15px 0 rgb(150, 150, 150); box-shadow: 0 0 15px 0 rgb(150, 150, 150), 0 0 15px 0 rgb(150, 150, 150); overflow: hidden}
+.Wrapper-Content, #colorbox, .ui-dialog {-webkit-box-shadow: 0 0 15px 0 rgb(150, 150, 150), 0 0 15px 0 rgb(150, 150, 150); box-shadow: 0 0 15px 0 rgb(150, 150, 150), 0 0 15px 0 rgb(150, 150, 150); overflow: hidden}
 .Wrapper-Content { overflow:visible }
 
 /* Skyscraper ==========================*/
@@ -390,8 +390,7 @@ select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVy
 .Checkout .Sidebar-left, .Checkout-Adresseingabe .Sidebar-left, .Checkout-Check-and-Send .Sidebar-left, .Checkout-Confirmation-Page .Sidebar-left {margin: 50px 0 0 0}
 
 /* Rahmen ==========================*/
-.Rahmen {padding: 10px;
- /*box-sizing: border-box;*/}
+.Rahmen {padding: 10px}
 .Rahmen .Rahmen-Inhalt {position: relative}
 .Block {margin: 15px 0 0}
 .Block-grau .Grid-System div.Grid {margin: 0; border-right: 1px solid #fff}
@@ -429,7 +428,7 @@ select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVy
 #Header .Meta-Navi .first a {padding-left: 0}
 #Header .Meta-Navi .last a {padding-right: 0}
 
-/*Artikelsuche */
+/* Artikelsuche */
 #Header .Artikelsuche {margin: 0 0 0 5%; width: 45%}
 .Artikelsuche .Eingabefeld, .Teaser-Newsletter .Eingabefeld {width: 75%; border: 3px solid #00609F; margin: 0 -4px 0 0;vertical-align: top}
 .Artikelsuche .Eingabefeld {height: 2.5rem}
@@ -455,7 +454,7 @@ select {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVy
 .Warenkorb {position: absolute; top: 53px; right: 1.5%}
 #Header .Warenkorb b {font-size: 1.1rem}
 #Header .Warenkorb button {width: 190px}
-#Header .Warenkorb .Button-klein-grau button:hover {-webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none}
+#Header .Warenkorb .Button-klein-grau button:hover {-webkit-box-shadow: none; box-shadow: none}
 
 /* Warenkorb-Reminder */
 .Warenkorb-Reminder {background: #EAF5FF; border: 3px solid #00609F; width: 466px; position: absolute; top: 50px; left: 50%; z-index: 100000; margin-left: -226px}
@@ -530,7 +529,7 @@ margin: 0 .25rem 0 -1rem}
 .Teaser-Vorteile-bei-SETON img, .Teaser-Avail-Direkt-mitbestellen .cc-slides {margin: .5rem 0; padding: 0}
 .Teaser-Vorteile .Weiterfuehrender-Link { position: relative; bottom: 0; right: 0; text-align: right}
 .Rahmen {background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMGYwZjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(240, 240, 240, 1))); background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%)}
-.Rahmen {-moz-box-shadow: 0 0 3px rgba(33, 33, 33, 1); -webkit-box-shadow: 0 0 3px rgba(33, 33, 33, 1); box-shadow: 0 0 3px rgba(33, 33, 33, 1)}
+.Rahmen {-moz-box-shadow: 0 0 3px rgba(33, 33, 33, 1); box-shadow: 0 0 3px rgba(33, 33, 33, 1)}
 #Warenkorb-Rahmen h1 {font-size: 1.5rem; margin: 0}
 .Teaser .Kein-Rahmen {padding: 10px 0 15px 0}
 
@@ -562,7 +561,7 @@ margin: 0 .25rem 0 -1rem}
 .rsThumbs {cursor: pointer; position: relative; overflow: hidden; float: left; z-index: 22}
 .rsTabs {float: left; background: none !important}
 .rsTabs, .rsThumbs {-webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
-.rsVideoContainer {/*left: 0; top: 0; position: absolute;*/ /*width: 100%; height: 100%; position: absolute; left: 0; top: 0; float: left;*/ width: auto; height: auto; line-height: 0; position: relative}
+.rsVideoContainer {/* left: 0; top: 0; position: absolute;*/ /* width: 100%; height: 100%; position: absolute; left: 0; top: 0; float: left;*/ width: auto; height: auto; line-height: 0; position: relative}
 .rsVideoFrameHolder {position: absolute; left: 0; top: 0; background: #141414; opacity: 0; -webkit-transition: .3s}
 .rsVideoFrameHolder.rsVideoActive {opacity: 1}
 .rsVideoContainer iframe, .rsVideoContainer video, .rsVideoContainer embed, .rsVideoContainer .rsVideoObj {position: absolute; z-index: 50; left: 0; top: 0; width: 100%; height: 100%}
@@ -589,11 +588,11 @@ img.rsImg {max-width: none}
 .rsMinW.rsHor .rsArrowRight .rsArrowIcn {background-position: -68px -68px}
 .rsMinW.rsVer .rsArrowLeft .rsArrowIcn {background-position: -100px -36px}
 .rsMinW.rsVer .rsArrowRight .rsArrowIcn {background-position: -100px -68px}
-.rsMinW .rsArrowDisabled .rsArrowIcn {opacity: .3 !important; filter: alpha(opacity=30); *display: none}
+.rsMinW .rsArrowDisabled .rsArrowIcn {opacity: .3 !important; filter: alpha(opacity=30); display: none}
 
 /* 2. Bullets */
 .rsMinW .rsBullets {position: absolute; bottom: 18px; left: 10px; z-index: 35; padding-top: 4px; height: auto; text-align: center; line-height: 6px; overflow: hidden}
-.rsMinW .rsBullet {width: 6px; height: 6px; display: inline-block; *display: inline; *zoom: 1; padding: 6px 5px 6px 4px}
+.rsMinW .rsBullet {width: 6px; height: 6px; display: inline-block; display: inline; zoom: 1; padding: 6px 5px 6px 4px}
 .rsMinW .rsBullet span {display: block; width: 6px; height: 6px; border-radius: 50%; background: #CCC; background: rgba(255, 255, 255, 0.5); box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1)}
 .rsMinW .rsBullet.rsNavSelected span {background: #FFF}
 
@@ -630,7 +629,7 @@ img.rsImg {max-width: none}
 
 /* 4. Tabs */
 .rsMinW .rsTabs {width: 100%; height: auto; margin: 0 auto; text-align: center; overflow: hidden; padding-top: 12px; position: relative}
-.rsMinW .rsTab {display: inline-block; cursor: pointer; text-align: center; height: auto; width: auto; color: #333; padding: 5px 13px 6px; min-width: 72px; border: 1px solid #D9D9DD; border-right: 1px solid #f5f5f5; text-decoration: none; background-color: #000; background-image: -webkit-linear-gradient(top, #fefefe, #f4f4f4); background-image: -moz-linear-gradient(top, #fefefe, #f4f4f4); background-image: linear-gradient(to bottom, #fefefe, #f4f4f4); *display: inline; *zoom: 1}
+.rsMinW .rsTab {display: inline-block; cursor: pointer; text-align: center; height: auto; width: auto; color: #333; padding: 5px 13px 6px; min-width: 72px; border: 1px solid #D9D9DD; border-right: 1px solid #f5f5f5; text-decoration: none; background-color: #000; background-image: -webkit-linear-gradient(top, #fefefe, #f4f4f4); background-image: -moz-linear-gradient(top, #fefefe, #f4f4f4); background-image: linear-gradient(to bottom, #fefefe, #f4f4f4); display: inline; zoom: 1}
 .rsMinW .rsTab:first-child {-webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px}
 .rsMinW .rsTab:last-child {-webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; border-right: 1px solid #cfcfcf}
 .rsMinW .rsTab:active {border: 1px solid #D9D9DD; background-color: #f4f4f4; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset}
@@ -644,12 +643,12 @@ img.rsImg {max-width: none}
 
 /* 6. Play/close video button */
 .rsMinW .rsPlayBtn {-webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); width: 64px; height: 64px; margin-left: -32px; margin-top: -32px; cursor: pointer}
-.rsMinW .rsPlayBtnIcon {width: 64px; display: block; height: 64px; -webkit-border-radius: 4px; border-radius: 4px; -webkit-transition: .3s; -moz-transition: .3s; transition: .3s; background: url('/css/royalslider/rs-minimal-white.png') no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000}
+.rsMinW .rsPlayBtnIcon {width: 64px; display: block; height: 64px; -webkit-border-radius: 4px; border-radius: 4px; -webkit-transition: .3s; -moz-transition: .3s; transition: .3s; background: url('/css/royalslider/rs-minimal-white.png') no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, 0.75); background-color: #000}
 .rsMinW .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, 0.9)}
 .rsMinW .rsBtnCenterer {position: absolute; left: 50%; top: 50%; width: 20px; height: 20px}
 .rsMinW .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0)}
 .rsMinW .rsCloseVideoBtn.rsiOSBtn {top: -38px; right: -6px}
-.rsMinW .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-minimal-white.png') -64px 0; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000}
+.rsMinW .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-minimal-white.png') -64px 0; background-color: #000; background-color: rgba(0, 0, 0, 0.75); background-color: #000}
 .rsMinW .rsCloseVideoIcn:hover {background-color: rgba(0, 0, 0, 0.9)}
 
 /* 7. Preloader */
@@ -671,17 +670,17 @@ img.rsImg {max-width: none}
 .rsDefault.rsVer .rsArrowRight {bottom: 0; left: 0}
 .rsDefault.rsHor .rsArrowLeft {left: 0; top: 0}
 .rsDefault.rsHor .rsArrowRight {right: 0; top: 0}
-.rsDefault .rsArrowIcn {width: 32px; height: 32px; top: 50%; left: 50%; margin-top: -16px; margin-left: -16px; position: absolute; cursor: pointer; background: url('/css/royalslider/rs-default.png'); background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000; border-radius: 2px}
+.rsDefault .rsArrowIcn {width: 32px; height: 32px; top: 50%; left: 50%; margin-top: -16px; margin-left: -16px; position: absolute; cursor: pointer; background: url('/css/royalslider/rs-default.png'); background-color: #000; background-color: rgba(0, 0, 0, 0.75); background-color: #000; border-radius: 2px}
 .rsDefault .rsArrowIcn:hover {background-color: rgba(0, 0, 0, 0.9)}
 .rsDefault.rsHor .rsArrowLeft .rsArrowIcn {background-position: -64px -32px}
 .rsDefault.rsHor .rsArrowRight .rsArrowIcn {background-position: -64px -64px}
 .rsDefault.rsVer .rsArrowLeft .rsArrowIcn {background-position: -96px -32px}
 .rsDefault.rsVer .rsArrowRight .rsArrowIcn {background-position: -96px -64px}
-.rsDefault .rsArrowDisabled .rsArrowIcn {opacity: .2; filter: alpha(opacity=20); *display: none}
+.rsDefault .rsArrowDisabled .rsArrowIcn {opacity: .2; filter: alpha(opacity=20); display: none}
 
 /* 2. Bullets */
 .rsDefault .rsBullets {position: absolute; z-index: 35; left: 0; bottom: 0; width: 100%; height: auto; margin: 0 auto; background: #000; background: rgba(0, 0, 0, 0.75); text-align: center; line-height: 8px; overflow: hidden}
-.rsDefault .rsBullet {width: 8px; height: 8px; display: inline-block; *display: inline; *zoom: 1; padding: 6px 5px 6px}
+.rsDefault .rsBullet {width: 8px; height: 8px; display: inline-block; display: inline; zoom: 1; padding: 6px 5px 6px}
 .rsDefault .rsBullet span {display: block; width: 8px; height: 8px; border-radius: 50%; background: #777; background: rgba(255, 255, 255, 0.5)}
 .rsDefault .rsBullet.rsNavSelected span {background-color: #FFF}
 
@@ -722,7 +721,7 @@ img.rsImg {max-width: none}
 
 /* 4. Tabs */
 .rsDefault .rsTabs {width: 100%; height: auto; margin: 0 auto; text-align: center; overflow: hidden; padding-top: 12px; position: relative}
-.rsDefault .rsTab {display: inline-block; cursor: pointer; text-align: center; height: auto; width: auto; color: #333; padding: 5px 13px 6px; min-width: 72px; border: 1px solid #D9D9DD; border-right: 1px solid #f5f5f5; text-decoration: none; background-color: #FFF; background-image: -webkit-linear-gradient(top, #fefefe, #f4f4f4); background-image: -moz-linear-gradient(top, #fefefe, #f4f4f4); background-image: linear-gradient(to bottom, #fefefe, #f4f4f4); -webkit-box-shadow: inset 1px 0 0 #fff; box-shadow: inset 1px 0 0 #fff; *display: inline; *zoom: 1}
+.rsDefault .rsTab {display: inline-block; cursor: pointer; text-align: center; height: auto; width: auto; color: #333; padding: 5px 13px 6px; min-width: 72px; border: 1px solid #D9D9DD; border-right: 1px solid #f5f5f5; text-decoration: none; background-color: #FFF; background-image: -webkit-linear-gradient(top, #fefefe, #f4f4f4); background-image: -moz-linear-gradient(top, #fefefe, #f4f4f4); background-image: linear-gradient(to bottom, #fefefe, #f4f4f4); -webkit-box-shadow: inset 1px 0 0 #fff; box-shadow: inset 1px 0 0 #fff; display: inline; zoom: 1}
 .rsDefault .rsTab:first-child {-webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px}
 .rsDefault .rsTab:last-child {-webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; border-right: 1px solid #cfcfcf}
 .rsDefault .rsTab:active {border: 1px solid #D9D9DD; background-color: #f4f4f4; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset}
@@ -730,18 +729,18 @@ img.rsImg {max-width: none}
 
 /* 5. Fullscreen button */
 .rsDefault .rsFullscreenBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 22; display: block; position: absolute; cursor: pointer}
-.rsDefault .rsFullscreenIcn {display: block; margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-default.png') 0 0; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000; border-radius: 2px}
+.rsDefault .rsFullscreenIcn {display: block; margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-default.png') 0 0; background-color: #000; background-color: rgba(0, 0, 0, .75); background-color: #000; border-radius: 2px}
 .rsDefault .rsFullscreenIcn:hover {background-color: rgba(0, 0, 0, 0.9)}
 .rsDefault.rsFullscreen .rsFullscreenIcn {background-position: -32px 0}
 
 /* 6. Play/close video button */
 .rsDefault .rsPlayBtn {-webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); width: 64px; height: 64px; margin-left: -32px; margin-top: -32px; cursor: pointer}
-.rsDefault .rsPlayBtnIcon {width: 64px; display: block; height: 64px; -webkit-border-radius: 4px; border-radius: 4px; -webkit-transition: .3s; -moz-transition: .3s; transition: .3s; background: url(rs-default.png) no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000}
+.rsDefault .rsPlayBtnIcon {width: 64px; display: block; height: 64px; -webkit-border-radius: 4px; border-radius: 4px; -webkit-transition: .3s; -moz-transition: .3s; transition: .3s; background: url(rs-default.png) no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, 0.75); background-color: #000}
 .rsDefault .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, 0.9)}
 .rsDefault .rsBtnCenterer {position: absolute; left: 50%; top: 50%; width: 20px; height: 20px}
 .rsDefault .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0)}
 .rsDefault .rsCloseVideoBtn.rsiOSBtn {top: -38px; right: -6px}
-.rsDefault .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-default.png') -64px 0; background-color: #000; background-color: rgba(0, 0, 0, 0.75); *background-color: #000}
+.rsDefault .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-default.png') -64px 0; background-color: #000; background-color: rgba(0, 0, 0, 0.75); background-color: #000}
 .rsDefault .rsCloseVideoIcn:hover {background-color: rgba(0, 0, 0, 0.9)}
 
 /* 7. Preloader */
@@ -1216,7 +1215,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .Berater-Kampagne-Info {margin: 0 5px 20px 0}
 .Berater-Kampagne-Info:before {content: "\70"; font-size: 1.75rem; line-height: 1rem; font-family: 'ElegantIcons'; float: left}
 
-/*Schilder ==========================*/
+/* Schilder ==========================*/
 /* Schilder-Banner blau */
 .Schilder-Banner {height: 150px; padding: 10px; position: relative; background: url(/images/Schilder-Suche/Schilder-Suche.jpg) no-repeat #004389; background-position: right bottom; margin-bottom: 20px; z-index: 1000}
 .Schilder-Suche-Teaser-Content {width: 460px}
@@ -1274,7 +1273,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .Vorteilsnummer-Eingabe #hinweis {display: block; clear: both}
 .Hinweis-Fehler {color: #F00}
 
-/*Mitbestellen*/
+/* Mitbestellen*/
 .Mitbestellen-item {margin-top: 10px; overflow: hidden}
 .Mitbestellen-item img {float: left; margin-right: 10px}
 .Mitbestellen-item p {margin-top: 0; padding-left: 90px}
@@ -1303,13 +1302,13 @@ ul.grid-view, ul.list-view {margin: 0}
 	right: -1.25rem;
 	width: 2.5rem; 
 	height: 2.5rem;
-	/*as you see the rotated square takes a larger height. which makes it tough to position it properly. So we are going to scale it down so that the diagonals become equal to the line-height of the link. We scale it to 70.7% because if square's: 
+	/* as you see the rotated square takes a larger height. which makes it tough to position it properly. So we are going to scale it down so that the diagonals become equal to the line-height of the link. We scale it to 70.7% because if square's: 
 	length = 1; diagonal = (1^2 + 1^2)^0.5 = 1.414 (pythagoras theorem)
 	if diagonal required = 1; length = 1/1.414 = 0.707*/
 	/* transform: scale(0.707) rotate(45deg); */
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
-	/*background same as links but the gradient will be rotated to compensate with the transform applied*/
+	/* background same as links but the gradient will be rotated to compensate with the transform applied*/
 	background: #00609F;
 	border: .25rem solid #fff;
 	border-left: 0 none;
@@ -1431,7 +1430,7 @@ textarea {height: 4rem}
 .Plaketten td {padding: 2px; border-bottom: 1px solid #000; border-right: 1px solid #000}
 .Plaketten td.tabhead {vertical-align: top; border-bottom: 1px solid #000; font-weight: bold; color: #000; height: 30px}
 
-/*Etikettenberater ==========================*/
+/* Etikettenberater ==========================*/
 .tabhead1 {border-top: 2px solid #000; vertical-align: top; border-bottom: 1px solid #000; font-weight: bold; background-color: #EAF5FF; color: #000; height: 30px}
 .tabhead2, .tabcell, .ab, .ib, .ab-st, .ab-st-s, .ab-st-c, .ab-sst, .ab-sst-s, .ab-sst-c, .ib-st, .ib-st-s, .ib-st-c, .ib-sst, .ib-st-s, .ib-sst-c {border: 1px solid #fff}
 .tabhead2 {font-weight: bold}
@@ -1444,7 +1443,7 @@ textarea {height: 4rem}
 .ib-sst, .ib-st-s, .ib-sst-c {background-color: #FFCC99}
 .ab-st-c, .ab-sst-c, .ib-st-c, .ib-sst-c {text-align: center}
 
-/*Pressemitteilungen und Blog ==========================*/
+/* Pressemitteilungen und Blog ==========================*/
 .PM, .Blog, .Grid-Themen-Index li {border-bottom: 1px solid #ccc; display: inline-block; margin: 0 0 15px 0; width: 100%}
 
 /* Newsletter-Anmeldung und -Abmeldung ==========================*/
@@ -1467,14 +1466,14 @@ textarea {height: 4rem}
 .tabSchilderRaetselDunkel {background-color: #BFD0E3}
 .tabSchilderRaetselHell {background-color: #E9EFF6}
 
-/*SETON Historie*/
+/* SETON Historie*/
 .Zeitstrahl {font-size: 11pt; padding: 0 7px 0 0; margin: 0 0 5px 0; color: #fff; font-weight: bold; text-align: right; border-bottom: 1px solid #000}
 .ZeitstrahlJahreszahl p {font-size: 8pt; margin: 0pt}
 .SeitenkastenContentZeitstrahl {margin-right: 20px; background-color: #E0EDF8; padding: 8px; margin: 0; background-image: url(/images/20Jahre/SETONHistorie/bg_Zeitstrahl.gif); background-repeat: repeat-y}
 .ZeitstrahlJahreszahl img {float: left; margin: 0 3px 5px 0}
 .Historie {border-bottom: 1px solid #ccc; clear: both}
 
-/*Jubilaeums-Angebote*/
+/* Jubilaeums-Angebote*/
 .JubiAngebot {width: 330px; height: 115px; float: left; margin: 0 15px 15px 0; background-color: #F0F7FD; border: 1px solid #335F8A}
 .JubiAngebotInhalt {width: 277px; float: left; margin: 7px; position: absolute}
 .JubiAngebotBild, .BilderLinks {float: left}
@@ -1482,29 +1481,29 @@ textarea {height: 4rem}
 .JubiAngebotLogo {width: 50px; height: 51px; float: right; position: relative; top: -9px; left: 9px; background-image: url(/images/20Jahre/JubilaeumsAngebote/Logo_JubiAngebot.gif)}
 .JubiAngebotNummer {margin: 11px 0 0 8px}
 
-/*Bilderdetektiv*/
+/* Bilderdetektiv*/
 .Bilderdetektiv {color: #00925B; border-bottom: 2px solid #65aa00; font-weight: normal; margin: 20pt 0 3pt 0}
 .FormularBilderdetektiv, .FieldsetJubilaumsSpiel {border: 0; padding: 0}
 .tabBilderdetektivDunkel {background-color: #daeab9}
 
-/*Fuer Highscortabelle und Formular*/
+/* Fuer Highscortabelle und Formular*/
 .tabBilderdetektivHell {background-color: #f2f8e7}
 
-/*Fuer Highscortabelle und Formular*/
-/*Arbeitsschutz-Quiz*/
+/* Fuer Highscortabelle und Formular*/
+/* Arbeitsschutz-Quiz*/
 .ArbeitsschutzQuiz {color: #5593CC; border-bottom: 2px solid #5593CC; font-weight: normal; margin: 20pt 0 3pt 0}
 .tabArbeitsschutzQuizDunkel {background-color: #d1e5f6}
 
-/*Fuer Highscortabelle und Formular*/
+/* Fuer Highscortabelle und Formular*/
 .tabArbeitsschutzQuizHell {background-color: #f0f6fc}
 
-/*Fuer Highscortabelle und Formular*/
-/*Apfelbaum Gewinnspiel*/
+/* Fuer Highscortabelle und Formular*/
+/* Apfelbaum Gewinnspiel*/
 .Apfelbaum-Gewinnspiel h1 {color: #EFA500; border-bottom: 2px solid #EFA500; margin: 0pt}
 .Apfelbaum-Gewinnspiel h1 img {float: left; margin-right: -65px; position: relative; top: -37px; left: -35px}
 .Apfelbaum-Gewinnspiel h2 {color: #EFA500; font-weight: bold; margin: 20pt 0 3pt 0}
 
-/*Weihnachtsbaum Gewinnspiel*/
+/* Weihnachtsbaum Gewinnspiel*/
 .Weihnachtsbaum-Gewinnspiel h1 {padding: 30px 0 0 0}
 .Weihnachtsbaum-Gewinnspiel h1 img {float: left; position: relative; top: -40px; margin: 0 0 -50px 0}
 .Datum {color: #666; margin-top: 0}
@@ -1512,7 +1511,7 @@ textarea {height: 4rem}
 /* 25 Jahre Seton ==========================*/
 .SETON-Jubilaeum-25-Jahre .Gewinnspiel-Frage {font-size: 1.2rem; color: #046699; font-weight: bold}
 
-/*GHS ==========================*/
+/* GHS ==========================*/
 .GHSAllgemeineUebersicht, .GHSPiktogrammKombinationen {border: 0; border-collapse: collapse; width: 100%}
 .GHSAllgemeineUebersicht tr, .GHSPiktogrammKombinationen tr {border-bottom: 1px solid #ccc}
 
@@ -1548,7 +1547,7 @@ textarea {height: 4rem}
 /* Kontaktdaten aendern */
 .Fax-Angebote .Adresseingabe {width: auto}
 
-/*SETON International ==========================*/
+/* SETON International ==========================*/
 .Weltkugel-SETON-International ul {list-style-type: none; margin: 0 25% 0 0}
 .Weltkugel-SETON-International .ul-right {right: 0; text-align: left; float: right}
 .Weltkugel-SETON-International .ul-left {margin: 0 0 0 20%; text-align: right; float: left}
@@ -1559,7 +1558,7 @@ textarea {height: 4rem}
 .Plaketten-Uebersicht .Materialeigenschaften-Grid-System img {margin-bottom: 5px}
 .Plaketten-Uebersicht .Lieferformen-Grid-System {font-size: 0.9rem; text-align: center}
 
-/*Kantenschutz ==========================*/
+/* Kantenschutz ==========================*/
 .Right {float: right; margin-right: 0}
 .Kantenschutzprofile-Kantenschutz h3 {margin-top: 0}
 .Kantenschutzprofile-Kantenschutz img.left {margin: 0 1rem .5rem 0}
