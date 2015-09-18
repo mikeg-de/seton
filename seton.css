@@ -71,6 +71,14 @@ aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 .BulletPointBereich li {padding: 0 0 0 25px; background-repeat: no-repeat; background-position: 0 4px}
 .Ausbildungsangebot {padding: 0; margin: 0}
 .Ausbildungsangebot dt {float: left; width: 150px; margin-right: 0; padding: 0; font-weight: bold; clear: both}
+ol.AGB, ol.AGB ol { counter-reset:level1; list-style-type:none; padding:0 }
+ol.AGB > li { margin-bottom:2em }
+ol.AGB li:before { content: counter(level1, decimal) ". "; counter-increment: level1; width:3em; display:inline-block; font-weight:bold }
+ol.AGB li h2 { display:inline-block; font-size:1em; font-weight:bold }
+ol.AGB li p { display:block; padding-left:3em }
+ol.AGB li ol { counter-reset:level2; list-style-type: none }
+ol.AGB li ol li { font-weight:normal }
+ol.AGB li ol li:before { content: counter(level1, decimal) "." counter(level2, decimal) " "; counter-increment: level2; float:left; width:3em; display:inline-block }
 .Ausbildungsangebot dd {padding: 0 0 0 160px; margin: 0 0 10px 0}
 
 /* Tabellen */
@@ -80,7 +88,7 @@ aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 /* French DYO*/
 .tab02 [type="text"] {max-width: 220px}
 .tab02 :disabled {display: inline-block}
-.SETON-Adressen {font-size: .9rem; color: #666; border-top: 1px solid #ccc; margin-top: 30px !important; width: 100%}
+.SETON-Adressen {color: #666; border-top: 1px solid #ccc; margin-top: 30px !important; width: 100%}
 
 /* Produkttabelle */
 .Produkttabelle {width: 100%; border-spacing: 0; border-collapse: collapse; margin: 1rem 0 0}
@@ -219,6 +227,7 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .Upsell .tooltip {text-align: center; width: 200px; margin-left: -112px}
 .Upsell .tooltip .h3 {margin-top: 10px; font-size: 1rem; color: #539d37}
 .Upsell .tooltip .Upsellnein, .Upsell .tooltip .Upsellja {display: inline-block; padding: 0 5px; color: #0061a0}
+.Abrechnung .tooltip { width: 200px; margin-left: -98px }
 .Upsell .tooltip .Upsellja {font-size: 1.4rem}
 .Upsell .tooltip .Upsellnein:hover, .Upsell .tooltip .Upsellja:hover {text-decoration: underline}
 .Upsell.tooltips:hover .tooltip {visibility: hidden; opacity: 0}
