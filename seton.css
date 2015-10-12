@@ -55,7 +55,7 @@ h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 .Top {float: right; margin: 10px 0 10px 0}
 
 /* Listen */
-ul, .PUES-Subnavigation-Kategorien, .Teaser-Blog ul, .Teaser .Bullet-Haekchen {margin: 0 0 .5rem 0; padding: 0; list-style-position: outside}
+ul, .PUES-Subnavigation-Kategorien, .Teaser-Blog ul, .Content .Bullet-Haekchen {margin: 0 0 .5rem 0; padding: 0; list-style-position: outside}
 .col6.Bullet-Haekchen {margin:0}
 .Content ul, .PUES-Subnavigation-Kategorien { margin-left: 1rem}
 .Teaser-Blog ul, .dropdown-list {margin: 0}
@@ -556,6 +556,7 @@ margin: 0 .25rem 0 -1rem}
 .rsWebkit3d .rsSlide {-webkit-transform: translateZ(0)}
 .rsFade.rsWebkit3d .rsSlide, .rsFade.rsWebkit3d img, .rsFade.rsWebkit3d .rsContainer {-webkit-transform: none}
 .rsOverflow {width: 100%; height:100%; position: relative; overflow: hidden; float: left; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
+.article-PDS-Produktbilder .rsOverflow {height: 245px}
 .rsVisibleNearbyWrap {width: 100%; height: 100%; position: relative; overflow: hidden; left: 0; top: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
 .rsVisibleNearbyWrap .rsOverflow {position: absolute; left: 0; top: 0}
 .rsContainer {position: relative; width: 100%; height: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
@@ -950,9 +951,10 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .Drucken, #socialshareprivacy {display: inline-block;vertical-align: top}
 .Produktliste h2, .Tab-Content h2, .Produktliste h3, .Tab-Content h3 {margin-top: 0}
 #PDS-Content .Wischer {float: right; margin: -5px 0 0 5px}
-#Kopfnummernbeschreibung h2:after {content: ''; border-bottom: 1px solid #ccc; display: block; margin: 0 0 15px 0}
 #Kopfnummernbeschreibung .pds-desc-title {border-bottom: 1px solid #ccc; margin: 0 0 15px 0}
-#Kopfnummernbeschreibung .pds-desc-title h2:after {border-bottom: 0; margin: 0}
+#Kopfnummernbeschreibung .pds-desc-title span {display: inline-block}
+#Kopfnummernbeschreibung .pds-desc-title span img {height: 1rem}
+#Kopfnummernbeschreibung .pds-desc-title .brand {float: right}
 .Tab-Content table td {padding-left: 0}
 
 /* Produktuebersichtsseite (PUES) ==========================*/
