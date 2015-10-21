@@ -1,4 +1,5 @@
 @font-face {font-family: 'ElegantIcons'; src: url('css/fonts/ElegantIcons.eot'); src: url('css/fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'), url('css/fonts/ElegantIcons.woff') format('woff'), url('css/fonts/ElegantIcons.ttf') format('truetype'), url('css/fonts/ElegantIcons.svg#ElegantIcons') format('svg'); font-weight: normal; font-style: normal}
+.data-icon:before, .data-icon:after, .Filterparameter li:before, .Icon:before, .Bullet-Haekchen li:before, .Editieren:after, .royalSlider .arrow_carrot-left_alt2:before, .royalSlider .icon_pause_alt2:before, .royalSlider .arrow_triangle-right_alt2:before, .royalSlider .arrow_carrot-right_alt2:before, .Link-Liste a:before, .Vorteile li:before, .Info-Icon:before, .icon_chat_alt:before, .icon_phone:before, .controls label:before, .subnav .Titel:after, .Mehr-Filter:before {font: normal normal normal 1em/1rem 'ElegantIcons'; -webkit-font-smoothing: antialiased}
 
 
 /* Allgemeine Definitionen */
@@ -23,7 +24,9 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .rsFullscreen .rsContainer .rsSlide img, .rsFullscreen .rsSlide .Rotating-image {-webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0)}
 
 /* Text */
+h1, h2, h3, h4, h5, .Title1, .Title2, .Title3, .Title4, .Title5, .Teaser-Title, .Titel-Newsletter-abonnieren {font-weight: 500; color: #3a3a3a; line-height: 1.5rem; margin: 0 0 .25rem 0;font-size: 1rem }
 h1, .h1, h1 a, .Title1 a {font-size: 1.25rem}
+h2, h3, h4, h5, h6, .Warenkorb-Reminder .Title1, .Teaser-Title, .Titel-Newsletter-abonnieren {font-size: 1rem }
 h3, .h3, .Title3 a, p, .Tab-Content, .Content-Box {padding: 0; margin: 0 0 .5rem 0}
 h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 
@@ -54,7 +57,9 @@ h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 /* Listen */
 ul, .PUES-Subnavigation-Kategorien, .Teaser-Blog ul, .Teaser .Bullet-Haekchen {margin: 0 0 .5rem 0; padding: 0; list-style-position: outside}
 .col6.Bullet-Haekchen {margin:0}
+.Content ul, .PUES-Subnavigation-Kategorien { margin-left: 1rem }
 .Teaser-Blog ul, .dropdown-list {margin: 0}
+ul.Bullet-Haekchen, .Teaser-Blog ul, .Footer ul, .dropdown-list {list-style-type: none}
 .Bullet-Haekchen li, .Bullet-Haekchen-weiss li, .Bullet-Plus li, .Bullet-Checkbox li, .Vorteile li {list-style-type: none; margin: 0 0 0 .75rem; padding: 0 0 0 .25rem}
 aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 .Bullet-Haekchen-weiss li .Bullet {background-position: -22px -130px}
@@ -92,6 +97,7 @@ ol.AGB li ol li:before { content: counter(level1, decimal) "." counter(level2, d
 .Produkttabelle .no-border {border: 0; padding: 0}
 .Produkttabelle .inactive {color: #888}
 .Produkttabelle .Position {width: 10px}
+.Produkttabelle .Bild {text-align:center; display:table-cell; vertical-align:top; position:relative; min-width:120px; padding-bottom:20px }
 .Produkttabelle .Bild a {display: block}
 .Produkttabelle .Bild img {max-height: 80px}
 .Produkttabelle .Produktinfo p {overflow: hidden; margin: 0}
@@ -106,12 +112,14 @@ ol.AGB li ol li:before { content: counter(level1, decimal) "." counter(level2, d
 .Adresseingabe .Gewerbe .Hinweis p {width: 150px}
 .Adresseingabe .Checkox-Gewerbe p {width: 350px}
 .Adresseingabe .Checkbox.Newsletter .Weiterfuehrender-Link {bottom: 0; right: 0}
+input.LV_invalid_field {border-color: #F00 !important;}
 .Checkout-Confirmation-Page .Adresseingabe select {width: 150px}
 .Adresseingabe .Newsletter, .Adresseingabe .Faxangebot {margin-top: 10px}
 #Warenkorb-Rahmen .Hinweis {width: 382px; max-width: 382px}
 .Checkbox input {float: left}
 .Checkbox p {padding-left: 25px; margin: 0}
 .Checkbox h4 {padding-left: 25px; margin: 0; line-height: 19px}
+
 
 /* Info-Layer */
 .Info-Link {cursor: pointer; display: inline-block}
@@ -147,7 +155,8 @@ input:required {border-color:#000; box-shadow:none }
 input:hover:invalid, input:focus:invalid, .LV_invalid_field {border-color: #f00}
 .valid, .LV_valid, .Checkout input.LV_valid_field {border-color: #19B201}
 input:default {}
-input:optional {border-color: #ccc}
+input:optional {border-color: #aaa}
+label.optional {color: #aaa}
 input:in-range {}
 input:out-of-range {}
 
@@ -187,12 +196,14 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .Info-Link .Info-Text:after,
 .Info-Link .Info-Text-JS:after {content: ''; position: absolute; left: 50%; width: 0; height: 0; text-decoration: none !important}
 
+.tooltips-drueber .tooltip { bottom:30px }
 
 .tooltips-drueber .tooltip:before, 
 .tooltips-drueber .tooltip:after {top: 100%}
 .tooltips-drueber .tooltip:after {margin-left: -8px; border-top: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
 .tooltips-drueber .tooltip:before {margin-left: -12px; border-top: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
 
+.tooltips-drunter .tooltip { top: 30px }
 
 .tooltips-drunter .tooltip:before, 
 .tooltips-drunter .tooltip:after, 
@@ -249,6 +260,7 @@ hr {border: 0 none; border-top: 1px solid #ccc; margin: 1.5rem 0}
 .Vorrat {text-align: right}
 
 /* Columns Layout NEU */
+.Content {position:relative }
 .Content, .Sidebar, #Breadcrumbs, .Blog, .PM {box-sizing: border-box; position: relative}
 .Ein-Spalter .Content, #lastSeenProducts {padding: 0 1.25%}
 
@@ -257,6 +269,7 @@ hr {border: 0 none; border-top: 1px solid #ccc; margin: 1.5rem 0}
 button {font-size: .8rem}
 .Button-gross, .Button-gross-gruen, .Button-gross-blau, .Button-gross-grau, .Button-klein, .Button-klein-gruen, .Button-klein-blau, .Button-klein-grau, .ui-state-default {display: inline-block; vertical-align:middle}
 [class^="Button"], .Link-Liste a {cursor: pointer; text-decoration: none}
+[class^="Button"]:hover, .Link-Liste a:hover, select:hover {-webkit-box-shadow: 0 0 5px 1px #ccc; box-shadow: 0 0 5px 1px #ccc; cursor: pointer; text-decoration:none }
 [type="button"], [type="submit"], [class^="Button-klein"] button, .Link-Liste a {height: 1.5rem}
 .Button-gross, [class^="Button-gross"] [type="submit"], .ui-state-default, .Teaser-Newsletter button {height: 2.25rem; line-height: 2.25rem}
 .Button-breit {margin: .5rem 0; width:100%}
@@ -267,6 +280,7 @@ button {font-size: .8rem}
 .Button-klein-gruen a, .Button-klein-grau-Pfeil input {font-size: 0; display: inline-block; height: 18px}
 .Button-klein-grau-Pfeil input {height: 25px; float: right}
 .Button-klein-gruen a:after {content: "Zu den Produkten"; font-size: 14px}
+.Button-gruen:hover, .Button-gross-gruen input:hover, .Button-gross-gruen a:hover, .Button-klein-gruen input:hover, .Button-klein-gruen a:hover, .Button-gross-gruen button:hover, .Button-klein-gruen button:hover, #Chat:hover {-webkit-box-shadow: 0 0 5px 1px #80dd36; box-shadow: 0 0 5px 1px #80dd36; text-decoration:none }
 .ui-state-default:nth-child(2n) {margin: 0 0 0 10px}
 .Button-close {cursor: pointer; width: 16px; height: 16px; background-position: -750px -102px}
 .ui-button-text {font-weight: bold}
@@ -366,6 +380,7 @@ select {background-color: #fff; background: url(data:image/svg+xml;base64,PD94bW
 .sqleft, .sqright {width: 49% !important; margin: 0 !important}
 .sqleft {margin: 0 15px 15px 0 !important}
 .Wrapper-Content, #colorbox, .ui-dialog {-webkit-box-shadow: 0 0 15px 0 rgb(150, 150, 150), 0 0 15px 0 rgb(150, 150, 150); box-shadow: 0 0 15px 0 rgb(150, 150, 150), 0 0 15px 0 rgb(150, 150, 150); overflow: hidden}
+.Wrapper-Content { overflow:visible }
 
 /* Skyscraper ==========================*/
 .Skyscraper, #Ostereiersuche {position: fixed; left: 50%; top: 55px; margin-left: 532px}
@@ -427,6 +442,7 @@ select {background-color: #fff; background: url(data:image/svg+xml;base64,PD94bW
 .Artikelsuche .Eingabefeld, .Teaser-Newsletter .Eingabefeld {width: 75%; border: 3px solid #00609F; margin: 0 -4px 0 0;vertical-align: top}
 .Artikelsuche .Eingabefeld {height: 2.5rem}
 #Footer .Teaser-Newsletter .Eingabefeld {max-width: 55%}
+#SuchButton {border: 3px solid #00609F; border-left: 0 none; height: 2.5rem;width: 25%;padding: 0 10px }
 #Header .Artikelsuche .Button-klein-gruen {display: inline-block}
 #Header .Artikelsuche .suggestLayer {margin-top: 5px}
 .suggestContainer {display: none; width: 100%; top: auto; left: 0; padding: 0; margin: 0; background-color: white; z-index: 10001; position: absolute; border: 3px solid #00609F; box-sizing: border-box}
@@ -476,6 +492,7 @@ li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
 	-moz-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in;
 	-ms-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in;
 	-o-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in;
+	transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in }
 .sub a, .Teaser-Blog a, .Footer .Grid-System-Sitemap li a {margin: 0 0 .2rem 0; display: inline-block; max-width: 94%; vertical-align: top}
 .sub .Titel, .Thema-Name a {font-weight: bold; margin-left: 0}
 .nav-third li:before, .Teaser-Blog li:before, .Footer .Grid-System-Sitemap ul li:before, .nav-pri .PfeilLink:before, .Direktbestellung:before, .Weiterfuehrender-Link:before {content: "\203A"; margin-right:5px}
@@ -500,6 +517,8 @@ li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
 margin: 0 .25rem 0 -1rem}
 .Bullet-Plus li:before {content: "+"; text-align: center; line-height: 20px; display: inline-block; width: 20px; height: 20px; color: #D90F18; font-weight: bold; font-size: 20px; margin: 0 .5rem 0 -20px; background-color: #fff; -webkit-border-radius: 10px; border-radius: 10px; box-shadow: 1px 1px 5px #C9C9C9; position: relative; top: 2px}
 .arrow_carrot-right:before, .Link-Liste a:before {content: "\35"; font-size: 1.25rem}
+.Filterparameter li:before {content: "\56"; margin: 0 5px 0 -1rem;}
+.Filterparameter li:hover:before, .Filterparameter li.active:before {content: "\5a"; text-decoration: none}
 .Warenkorb .Icon:before {content: "\e015"; font-size: 2rem}
 .Hotline .Icon:before, .icon_phone:before {content: "\e090"}
 .Editieren:after {content: "\6a"}
@@ -616,6 +635,7 @@ img.rsImg {max-width: none}
 /* Thumbnails resizing on smaller screens */
 @media screen and (min-width: 0px) and (max-width: 800px) {.rsMinW .rsThumb {width: 59px; height: 44px}
 	.rsMinW .rsThumbsHor {height: 44px}
+	.rsMinW .rsThumbsVer {width: 59px} }
 
 /* 4. Tabs */
 .rsMinW .rsTabs {width: 100%; height: auto; margin: 0 auto; text-align: center; overflow: hidden; padding-top: 12px; position: relative}
@@ -707,6 +727,7 @@ img.rsImg {max-width: none}
 /* Thumbnails resizing on smaller screens */
 @media screen and (min-width: 0px) and (max-width: 800px) {.rsDefault .rsThumb {width: 59px; height: 44px}
 	.rsDefault .rsThumbsHor {height: 44px}
+	.rsDefault .rsThumbsVer {width: 59px} }
 
 /* 4. Tabs */
 .rsDefault .rsTabs {width: 100%; height: auto; margin: 0 auto; text-align: center; overflow: hidden; padding-top: 12px; position: relative}
@@ -801,6 +822,7 @@ img.rsImg {max-width: none}
 .rsArrowDisabled {display: none !important}
 
 /* Bildbeschreibung */
+.Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption {bottom: 72px; width: 100%; background-color: rgba(255, 255, 255, 0.9); box-sizing: border-box; padding: 0; border-radius: 0; left: 0 }
 .Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure {padding: .5rem 1rem; text-align: center; margin: 0}
 
 /* Horizontale Thumb-Scrollleiste */
@@ -919,12 +941,14 @@ img.rsImg {max-width: none}
 .social_share_privacy_area .twitter {width: 90px !important }
 .social_share_privacy_area .tweet {width: 55px !important}
 .social_share_privacy_area li.help_info .info {display: none !important}
+.Designcode-Artikelauswahl .Drucken, #socialshareprivacy {display: inline-block;vertical-align: top }
 .Produktliste h2, .Tab-Content h2, .Produktliste h3, .Tab-Content h3 {margin-top: 0}
 #PDS-Content .Wischer {float: right; margin: -5px 0 0 5px}
 #Kopfnummernbeschreibung .pds-desc-title {border-bottom: 1px solid #ccc; margin: 0 0 15px 0}
 #Kopfnummernbeschreibung .pds-desc-title span {display: inline-block}
 #Kopfnummernbeschreibung .pds-desc-title span img {height: 1rem}
 #Kopfnummernbeschreibung .pds-desc-title .brand {float: right}
+
 .Tab-Content table td {padding-left: 0}
 
 /* Produktuebersichtsseite (PUES) ==========================*/
@@ -946,6 +970,7 @@ img.rsImg {max-width: none}
 .Subnavigation li {border-bottom: 1px dashed #ccc}
 aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .Subnavigation ul > li a {padding-left: 0}
+.Filter li a {padding: 0 0 .25rem 0;line-height: 1.5rem }
 [class*="PUES-Subnavigation-"] a:hover, [class*="PUES-Subnavigation-"] a.active {text-decoration: underline}
 [class*="PUES-Subnavigation-"] li.Titel-Balken-hellgrau {margin: 0}
 .Subnavigation-Titel span a, .Titel-grauer-Balken span a, .Titel-grauer-Balken a {color: #3e3e3e; font-weight: bold; margin: 0; font-size: 1rem}
@@ -957,6 +982,7 @@ aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .Mehr-Filterparameter {display: none}
 .Filterparameter {max-height: 7.25rem; overflow: hidden; -webkit-transition: max-height .5s ease-out; -moz-transition: max-height .5s ease-out; -ms-transition: max-height .5s ease-out; -o-transition: max-height .5s ease-out; transition: max-height .5s ease-out}
 .Mehr-Filter + .Filterparameter { margin-bottom: 1.5rem}
+.Mehr-Filterparameter:checked ~ .Filterparameter {max-height: 2000px; -webkit-transition: max-height .5s ease-in; -moz-transition: max-height .5s ease-in; -ms-transition: max-height .5s ease-in; -o-transition: max-height .5s ease-in; transition: max-height .5s ease-in }
 
 /* Hauptkategorie */
 .Hauptkategorie-Text {margin: 0 0 15px}
@@ -971,6 +997,7 @@ aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .Anzahl-Artikel:after {content: " Artikel"}
 .Seiten-blaettern span {font-weight: normal}
 .Listenansicht :before {vertical-align: middle; display: inline-block;}
+.Listenansicht a:hover, .Listenansicht .active {color: #0061a0; text-decoration:none }
 .Listenansicht .Grid-View:before { content:"\e08c"; font-size: 1.75em;}
 .Listenansicht .List-View:before { content:"\61"; font-size: 2.5em; padding: .15em 0 0;}
 .Homepage-Grid-System li:nth-child(4n+1) {border-left: 0 none}
@@ -983,6 +1010,7 @@ aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .list .item > a:hover {color: #3a3a3a; text-decoration: none}
 .list a .Link, .Produkt-Name, .Produkttitel {color: #0061a0}
 .list a:hover .Link, .list a:hover .Produkt-Name, .list a:hover .Produktitel, .No-Link:hover .Link {text-decoration: underline}
+.list .Bild { text-align:center }
 .list .Bild img {max-height: 100%}
 
 /* grid-view allgemein */
@@ -1002,10 +1030,12 @@ ul.grid-view, ul.list-view {margin: 0}
 .list.products .Edit-Info span {display: block}
 .list.products .Relevanz, .list.products .Editieren {color: #F00; font-size: .9rem; z-index: 2}
 .list.products .Lieferbarkeit {color: #777; font-size: .9rem}
+.list.products a:hover .Preis-Lieferbarkeit {text-decoration: none }
 .list.products .Produkt-nicht-verfuegbar .Text-Produkt-nicht-verfuegbar {position: absolute; margin: 0; top: 50px; text-align: center; z-index: 1}
 .list.products .Produkt-nicht-verfuegbar .Bildsperre-Produkt-nicht-verfuegbar {background: #ccc; width: 100%; height: 100%; position: absolute; top: 0; left: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)"; filter: alpha(opacity=30); -khtml-opacity: 0.3; opacity: 0.3; z-index: 1}
 
 .grid-view.products h2 + .Bild {height: 150px}
+.grid-view.products .Produkt-Name {text-align: center }
 .grid-view.products .Produkt-Symbole img {position: absolute; z-index: 1}
 .grid-view.products .Produkt-Symbole .Sparen {top: 0px; left: 0px}
 .grid-view.products .Produkt-Symbole .Angebot-der-Woche {position: absolute; top: -9px; left: -9px; display: none}
@@ -1016,22 +1046,36 @@ ul.grid-view, ul.list-view {margin: 0}
 
 /* list-view allgemein */
 .categories, .products {margin:0}
+.list-view.products .item:first-child { border: 0 none }
 .list-view .item {padding: 0; display: table; width: 100%; border:0; border-top:1px solid #ccc}
 
 .list-view.products .Artikelanzahl br {display: none}
 .list-view.products .Relevanz {bottom: 9px; right: 10px}
 
+.list-view.products .col3.first { height:150px; text-align:center; margin-top:1rem }
 .list-view.products .col3.first .Bild img {max-height:150px}
+.list-view.products .col3.first  [id*="Wischerrabatt_"]  { position:absolute; top:0; left:0 }
+.list-view.products .col3.first .Wischer-Online-Artikel { display:none }
+.list-view.products .col3.first .Sparen { position:absolute; top:0; left:0 }
+.list-view.products .col3.first figure { padding:0; margin:0; color:#8a8a8a }
 .list-view.products .col3 a:hover { text-decoration:none !important}
 
 .list-view.products .col9 { overflow:hidden; display:block; margin: 1rem 0 .5rem 0; font-size: 1rem;}
+.list-view.products [id*="Artikelnummer_"] { display:none }
 .list-view.products [id*="Dropdowns_"] { margin: 1.5em 0 0.5rem 0;}
 
+.list-view.products [id*="AllgArtMerkTabelle_"] { border-collapse:separate; border-spacing:0; width:100% }
 .list-view.products [id*="AllgArtMerkTabelle_"] th,
 .list-view.products [id*="AllgArtMerkTabelle_"] td { padding:0}
+.list-view.products [id*="AllgArtMerkTabelle_"] th { width:35%; font-weight:normal }
+.list-view.products .Weiterfuehrender-Link { position:relative; bottom:0; right:0 }
 
 .list-view.products .Produktergebnis-inner, 
+.list-view.products [id*="orderinfo_"] { padding:0 }
+.list-view.products .Menge { width:30% }
 .list-view.products .Menge + .col8 {margin: 1.25em 0 0}
+.list-view.products .col8 > * { display:block; text-align:right }
+.list-view.products .Preisbox { width:68.75%; margin-top:1rem }
 
 .list-view.products .Edit-Modus { clear:both; display:block}
 
@@ -1081,6 +1125,7 @@ ul.grid-view, ul.list-view {margin: 0}
 
 .cc-slider label:before {content: "\44"; font-size: 2rem; color: #696969}
 .cc-slider-pfeil-links-rechts .slide1:checked ~ .controls label:nth-child(2), .cc-slider-pfeil-links-rechts .slide2:checked ~ .controls label:nth-child(3) { display: block; right: 0; -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg)}
+.cc-slider-pfeil-links-rechts .slide2:checked ~ .controls label:nth-child(1), .cc-slider-pfeil-links-rechts .slide3:checked ~ .controls label:nth-child(2) { display: block; left: 0 }
 
 .rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .Designcode-Artikelauswahl .Rotating-image .spritespin-canvas {max-height: 100%; display: block; margin: 0 auto; max-width: 100%; height: auto; width: auto !important}
 .cc-slider .item {-webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; text-align: center}
@@ -1208,6 +1253,10 @@ ul.grid-view, ul.list-view {margin: 0}
 .Abrechnung .Gesamtsumme {border-top: 4px double #ccc}
 .Abrechnung .Gesamtsumme th {font-weight: bold}
 .Checkout-Check-and-Send .Links {float: right;}
+.warenkorbItem .rabattinfo { color:#F00; position:absolute; bottom:5px; width:94%; text-align:center; white-space:nowrap }
+.warenkorbItem .sparinfo { color:#F00 }
+.sparinfo-gesamt:empty { display:none }
+.sparinfo-gesamt { color:#F00; background:#F4F4F4; padding:0.5em; width: 100.00%; float:right; box-sizing:border-box; text-align:center; border-radius:10px; margin:1em 0 0 0 } 
 
 /* Direktbestellung */
 .Warenkorb-Direktbestellung {overflow-x: hidden; overflow-y: auto; width: 96%; padding: 0 2%}
@@ -1215,6 +1264,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .Warenkorb-Direktbestellung .Eingabefeld-Artikelnummer {width: 50px}
 .Warenkorb-Direktbestellung .Eingabefeld-Detailnummer, .Warenkorb-Direktbestellung .Eingabefeld-Menge {width: 40px}
 .Vorteilsnummer-Eingabe {display: none; margin: 10px 0 0}
+.Vorteilsnummer-Eingabe #hinweis {display:block; clear:both; color:#F00 }
 .Hinweis-Fehler {color: #F00}
 
 /* Mitbestellen*/
@@ -1228,6 +1278,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .FileUpload {overflow-x: hidden; overflow-y: auto; width: 90%; padding: 20px 5%}
 .FileUpload .Datei-Upload { position: relative; width: 515px}
 .FileUpload .Datei-Uploads {margin: 20px 0}
+.FileUpload .Weiterfuehrender-Link {position: relative;right: auto;bottom: auto }
 .vortn .Radio-Button {text-align: right; padding-right: 5px; min-width: 110px}
 .vortn .Radio-Button input {margin: 0 !important}
 #geschenke h3 {margin: 0}
@@ -1257,6 +1308,8 @@ ul.grid-view, ul.list-view {margin: 0}
 	border-left: 0 none;
 	border-bottom: 0 none;
 	border-radius: 0 5px 0 0;
+	z-index: 1;
+}
 
 .Schritt-2-Bestellung-pruefen {padding: 0 0 0 4%}
 
@@ -1280,9 +1333,14 @@ textarea {height: 4rem}
 .Checkout-Check-and-Send .Adresseingabe .Kundenadresse, .Checkout-Check-and-Send .Adresseingabe .Rechnungsadresse, .Checkout-Check-and-Send .Adresseingabe .Lieferadresse {width: 200px}
 
 /* Breitenangaben verhindern ein Springen der Tabelleninhalte beim An- und Abwaehlen von Liefer- und Rechnungsadresse */
+.Checkout-Check-and-Send :disabled {background: #fff; border: 0 none; padding:0; height:auto }
 .Checkout-Confirmation-Page .Schritt-1-Adresseingabe, .Checkout-Confirmation-Page .Schritt-2-Bestellung-pruefen {color: #000}
 .Checkout-Check-and-Send input.Add_Rechnungsadresse,
 .Checkout-Check-and-Send input.Add_Lieferadresse { display:none}
+.Checkout-Check-and-Send fieldset p { margin:.2rem 0 }
+.Checkout-Check-and-Send fieldset .Weiterfuehrender-Link {position:relative; right:auto; bottom:auto; float:right }
+.Checkout-Check-and-Send fieldset { padding:.5em 0; border-top:1px solid #CCCCCC }
+.Checkout-Check-and-Send input[type="text"]:disabled { height:auto }
 .Checkout-Check-and-Send fieldset.Adresseingabe select { -webkit-appearance:none; -moz-appearance:none; appearance:none; text-indent:0.01px; text-overflow:''}
 
 /* Twitter & Facebook */
@@ -1570,6 +1628,7 @@ img.Praemien {position: absolute; top: 0; right: 0; z-index: -1}
 .Grid-System-Social-Media {border-top: 1px solid #ccc; padding-top: .75rem; margin-top: 1rem}
 .Grid-System-Social-Media .col4 {border-right: 1px solid #ccc; min-height: 120px; margin-bottom: 0; border-collapse: collapse}
 .Grid-System-Social-Media div:last-child {border-right: 0 none}
+.Footer .NL-Aktion {float: right; margin: 0 .5rem 0 0 }
 .Footer .Grid-System-Sitemap ul li a:hover:before {text-decoration: none !important; color: #63666a !important}
 .Footer .Social-Media {margin: 35px 0 0 0}
 .Footer .Social-Media li {float: left; margin-right: 5px}
@@ -1647,6 +1706,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 .col12, .Grid24, .Grid-System .Grid-1-1, .Zwei-Spalter-Sidebar-left .Grid-System .Grid12, .Zwei-Spalter-Sidebar-right .Grid-System .Grid12, .Grid-System .Grid-Top-Kategorien {float: none; width: 100%; margin: 0 ; clear: both}
 
 /* 1024px standard width */
+@media only screen and (max-width: 1024px) {body {width: 996px} }
 @media only screen and (min-width:960px) {
 	.Content .Sidebar-left {float: right}
 	.Button-gross.data-icon:before, .Icon:before, .icon_phone:before {margin-right: .5rem}
@@ -1659,6 +1719,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	input[type="number"]:-webkit-outer-spin-button, input[type="number"]:-webkit-inner-spin-button {-webkit-appearance: none !important; -moz-appearance: none !important; appearance: none !important; margin:0}
 	input[type="number"] {-moz-appearance:textfield}
 	.Checkout-Adresseingabe .Artikelsuche, .Checkout-Adresseingabe .Warenkorb, .Checkout-Adresseingabe nav, .Checkout-Adresseingabe #Breadcrumbs,
+	.Checkout-Check-and-Send .Artikelsuche, .Checkout-Check-and-Send .Warenkorb, .Checkout-Check-and-Send nav, .Checkout-Check-and-Send #Breadcrumbs {display: none; visibility: hidden;} }
 
 @media only screen and (min-width:768px) {
 	#Header .Artikelsuche {position: relative}
@@ -1679,3 +1740,4 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.Produkttabelle .Anzahl .Eingabefeld {float: left}
 	.Anzahl a {float: left}
 	.Produkttabelle .Einzelpreis-abzgl-Rabatt, .Produkttabelle .Einzelpreis, .Produkttabelle .Summe {text-align: right; width: 50px}
+	.Kundennummer-Prefix {display: none }
