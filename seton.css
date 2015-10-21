@@ -9,7 +9,7 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .popup {width: 95%}
 
 /* Hidden elements */
-.Link-Mehr-Infos, .Bild-sw, .Produkttabelle #warenkorbItems, .Produkttabelle hr, #socialshareprivacy .settings_info, .Hinweis-NL-Pflichtfelder, .ui-helper-hidden, .ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle, .Zwei-Spalter-Sidebar-left .Sidebar-right, .Zwei-Spalter-Sidebar-right .Sidebar-left, #nav-home, nav .Hotline, .cc-slider input, .toggle input, .toggle .toggle1:checked ~ .controls label:nth-child(1), .toggle .toggle2:checked ~ .controls label:nth-child(2), .Designcode-Artikelauswahl-NJS .royalSlider .bugaga .rsCaption, .Designcode-Artikelauswahl-NJS .royalSlider .Rotating-image, .Designcode-Artikelauswahl .Kopfnummerninfos .Tabs, .Factfinder-Copyright, .Auflistung-Produkte .Edit-Info, .Schildersuche .PUES-Subnavigation-Kategorien .Title2, .Schildersuche .Anzahl-Artikel, .Checkout-Adresseingabe .editable_textarea, .Checkout-Print .Anzahl-JS img, .Checkout-Print .Anzahl a, .Checkout-Print .Anzahl-JS a, .Checkout-Print .Anzahl-JS .updateLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto img, .Print .Einzelpreis-abzgl-Rabatt-netto .buttonAsLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto .Datei-Upload, .Checkout-Print .vortn, .Checkout-Print .Dankeschoen-Geschenk input, .Themenheadline, .smallreadonly, .Kopfnummerninfos-Tabs .Tabs, .Teaser-Blog .updated, .Footer .Trusted-Shop .hreview-aggregate, .ui-dialog-titlebar-close, p:empty, .rsCaption:empty, .Hauptkategorie-Text:empty, .Tab-Content:empty, .cc-slider:empty, #Produktbeschreibung:empty, .LV_validation_message:empty, .Hinweistext:empty, #SEO-Footer:empty, #Footer_Bereichstext:empty, #cc-slider-top-kategorien .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow .inner:before, .cc-slider .controls, .Artikel-pro-Seite, .recs, .pure-toggle, .pure-toggle-label, .hidden {display: none}
+.Link-Mehr-Infos, .Bild-sw, .Produkttabelle #warenkorbItems, .Produkttabelle hr, #socialshareprivacy .settings_info, .Hinweis-NL-Pflichtfelder, .ui-helper-hidden, .ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle, .Zwei-Spalter-Sidebar-left .Sidebar-right, .Zwei-Spalter-Sidebar-right .Sidebar-left, #nav-home, nav .Hotline, .cc-slider input, .toggle input, .toggle .toggle1:checked ~ .controls label:nth-child(1), .toggle .toggle2:checked ~ .controls label:nth-child(2), .Designcode-Artikelauswahl-NJS .royalSlider .bugaga .rsCaption, .Designcode-Artikelauswahl-NJS .royalSlider .Rotating-image, .Designcode-Artikelauswahl .Kopfnummerninfos .Tabs, .Factfinder-Copyright, .Auflistung-Produkte .Edit-Info, .Schildersuche .PUES-Subnavigation-Kategorien .Title2, .Schildersuche .Anzahl-Artikel, .Checkout-Adresseingabe .editable_textarea, .Checkout-Print .Anzahl-JS img, .Checkout-Print .Anzahl a, .Checkout-Print .Anzahl-JS a, .Checkout-Print .Anzahl-JS .updateLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto img, .Print .Einzelpreis-abzgl-Rabatt-netto .buttonAsLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto .Datei-Upload, .Checkout-Print .vortn, .Checkout-Print .Dankeschoen-Geschenk input, .Themenheadline, .smallreadonly, .Kopfnummerninfos-Tabs .Tabs, .Teaser-Blog .updated, .Footer .Trusted-Shop .hreview-aggregate, .ui-dialog-titlebar-close, p:empty, .rsCaption:empty, .Hauptkategorie-Text:empty, .Tab-Content:empty, .cc-slider:empty, #Produktbeschreibung:empty, .LV_validation_message:empty, .Hinweistext:empty, .LV_valid, #SEO-Footer:empty, #Footer_Bereichstext:empty, #cc-slider-top-kategorien .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow .inner:before, .cc-slider .controls, .Artikel-pro-Seite, .recs, .pure-toggle, .pure-toggle-label, .hidden {display: none}
 #cc-slider-top-kategorien .controls {display: block}
 
 /* Clear-Fix */
@@ -127,36 +127,30 @@ input.LV_invalid_field {border-color: #F00 !important;}
 .Info-Link .Info-Text p, .Info-Link .Info-Text-JS p {margin-top: 0; width: auto !important}
 .Info-Link:hover .Info-Text {display: block}
 
-.Hinweis .Hinweistext {color:#666; display:none}
-.Hinweis p {margin:0}
-.Checkout .Hinweis p {}
+.Hinweis p {margin: .5rem 0;}
 
 /* New Check-Out styling with enhanced forms*/
 .Checkout fieldset {border: 0 none; clear: both; width: 100%; padding: 0; margin: 0}
-#Add_Lieferadresse ~ fieldset {opacity: 0; max-height: 0; overflow: hidden; visibility: hidden; zoom: 1; -webkit-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: opacity .25s ease-out .25s, max-height .5s ease-out; transition: opacity .25s ease-out .25s, max-height .5s ease-out}
-#Add_Lieferadresse:checked ~ .Add_Lieferadresse, #Add_Rechnungsadresse:checked ~ .Add_Rechnungsadresse {opacity: 1; max-height: 2000px; display: block; visibility: visible; -webkit-transition: opacity .25s ease-in, max-height .5s ease-in; -moz-transition: opacity .25s ease-in, max-height .5s ease-in; -ms-transition: opacity .25s ease-in, max-height .5s ease-in; -o-transition: opacity .25s ease-in, max-height .5s ease-in; transition: opacity .25s ease-in, max-height .5s ease-in}
+#Add_Lieferadresse ~ fieldset {opacity: 0; max-height: 0; overflow: hidden; visibility: hidden; zoom: 1; transition: opacity .25s ease-out .25s, max-height .5s ease-out}
+#Add_Lieferadresse:checked ~ .Add_Lieferadresse, #Add_Rechnungsadresse:checked ~ .Add_Rechnungsadresse {opacity: 1; max-height: 2000px; display: block; visibility: visible; transition: opacity .25s ease-in, max-height .5s ease-in}
 .Checkout .hidden, fieldset legend {display: none}
 .Checkox-Gewerbe input, .Newsletter input {vertical-align: top}
 .Adresseingabe textarea {width: 50%; max-height: 300px}
 .Adresseingabe label {display: inline-block; width: 100%}
-.Checkout-Adresseingabe .Adresseingabe label {display: block; vertical-align:middle }
-/* .Checkout [type="checkbox"] + label, .Newsletter label {width: 60%;display: inline-block;} */
+.Checkout [type="checkbox"] + label, .Newsletter label {width: 53%; display: inline-block}
 .Checkout span.tooltips, .PDF-Download span.tooltips {bottom: 0; right: auto}
-.Adresseingabe [type="text"], .Adresseingabe [type="tel"], .Adresseingabe [type="email"], #Branche { /*width: 50% */}
-.Checkout .Adresseingabe [type="text"], .Checkout .Adresseingabe [type="tel"], .Checkout .Adresseingabe [type="email"] , .Checkout .Adresseingabe textarea { /*width: 100%; */ vertical-align:middle; display:inline-block }
-input:after { content: attr(data-description) }
 
 /* Basic field definitions */
+label:hover, label:focus {cursor: pointer}
 input[type="text"], input[type="number"], input[type="tel"], input[type="email"], textarea, select {padding: 3px 5px 2px 5px; border-radius: 0; height: 2rem; box-sizing: border-box; border: 1px solid #999; font-size: inherit}
 select {height: 2rem; -webkit-appearance: menulist; -moz-appearance: menulist; appearance: menulist}
 input:required {border-color:#000; box-shadow:none }
 .Fehlertext, .Hinweis .Fehlertext, .LV_invalid, .invalid, .Hinweis .Fehlertext,
 .Hinweis .Fehlermeldung, .Hinweis .FehlermeldungNoJS {color:#F00}
 input:hover:invalid, input:focus:invalid, .LV_invalid_field {border-color: #f00}
-.valid, .LV_valid, .Checkout input.LV_valid_field {border-color: #19B201}
-input:default {}
-input:optional {border-color: #aaa}
-label.optional {color: #aaa}
+.valid, .Checkout input.LV_valid_field {border-color: #19B201}
+.optional input, input:default {border-color: #aaa}
+.optional label {color: #aaa}
 input:in-range {}
 input:out-of-range {}
 
@@ -180,48 +174,34 @@ a .Link {color: #0061a0}
 /* Tooltips neu 2014 */
 span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor: pointer}
 .tooltips:hover {text-decoration: none}
-.tooltips .tooltip, 
-#Artikelsuche-Hinweis, 
-.Info-Link .Info-Text, 
-.Info-Link .Info-Text-JS {position: absolute; color: #3e3e3e; background: #fff; border: 2px solid #ccc; visibility: hidden; border-radius: 5px; padding: 5px; z-index: 250; text-align: center; left: 0}
-.tooltip { left:50% }
+.tooltips .tooltip, #Artikelsuche-Hinweis,
+.Info-Link .Info-Text, .Info-Link .Info-Text-JS {position: absolute; color: #3e3e3e; background: #fff; border: 2px solid #ccc; visibility: hidden; border-radius: 5px; padding: 5px; z-index: 250; text-align: center; left: 0}
+.tooltip { left:50%}
 
-.tooltips-drueber .tooltip:before, 
-.tooltips-drunter .tooltip:before, 
-.Info-Link .Info-Text:before, 
-.Info-Link .Info-Text-JS:before, 
-.tooltips-drueber .tooltip:after,
-.tooltips-drunter .tooltip:after, 
-#Artikelsuche-Hinweis:after, 
-.Info-Link .Info-Text:after,
-.Info-Link .Info-Text-JS:after {content: ''; position: absolute; left: 50%; width: 0; height: 0; text-decoration: none !important}
+.tooltips-drueber .tooltip:before, .tooltips-drunter .tooltip:before,
+.Info-Link .Info-Text:before, .Info-Link .Info-Text-JS:before,
+.tooltips-drueber .tooltip:after, .tooltips-drunter .tooltip:after,
+#Artikelsuche-Hinweis:after,
+.Info-Link .Info-Text:after, .Info-Link .Info-Text-JS:after {content: ''; position: absolute; left: 50%; width: 0; height: 0; text-decoration: none !important}
 
-.tooltips-drueber .tooltip { bottom:30px }
+.tooltips-drueber .tooltip { bottom:30px}
 
-.tooltips-drueber .tooltip:before, 
-.tooltips-drueber .tooltip:after {top: 100%}
+.tooltips-drueber .tooltip:before, .tooltips-drueber .tooltip:after {top: 100%}
 .tooltips-drueber .tooltip:after {margin-left: -8px; border-top: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
 .tooltips-drueber .tooltip:before {margin-left: -12px; border-top: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
 
-.tooltips-drunter .tooltip { top: 30px }
+.tooltips-drunter .tooltip { top: 30px}
 
-.tooltips-drunter .tooltip:before, 
-.tooltips-drunter .tooltip:after, 
-#Artikelsuche-Hinweis:after, 
-.Info-Link .Info-Text:before, 
-.Info-Link .Info-Text:after, 
-.Info-Link .Info-Text-JS:before, 
-.Info-Link .Info-Text-JS:after {bottom: 100%}
+.tooltips-drunter .tooltip:before, .tooltips-drunter .tooltip:after,
+#Artikelsuche-Hinweis:after, .Info-Link .Info-Text:before, .Info-Link .Info-Text:after,
+.Info-Link .Info-Text-JS:before, .Info-Link .Info-Text-JS:after {bottom: 100%}
 
-.tooltips-drunter .tooltip:after, 
-#Artikelsuche-Hinweis:after, 
-.Info-Link .Info-Text:after, 
-.Info-Link .Info-Text-JS:after {margin-left: -8px; border-bottom: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
+.tooltips-drunter .tooltip:after, #Artikelsuche-Hinweis:after,
+.Info-Link .Info-Text:after, .Info-Link .Info-Text-JS:after {margin-left: -8px; border-bottom: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
 
-.tooltips-drunter .tooltip:before, 
-#Artikelsuche-Hinweis:before, 
-.Info-Link .Info-Text:before,
-.Info-Link .Info-Text-JS:before {margin-left: -12px; border-bottom: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
+.tooltips-drunter .tooltip:before,
+#Artikelsuche-Hinweis:before,
+.Info-Link .Info-Text:before, .Info-Link .Info-Text-JS:before {margin-left: -12px; border-bottom: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
 
 .Upsell .tooltip {text-align: center; width: 200px; margin-left: -112px}
 .Upsell .tooltip .h3 {margin-top: 10px; font-size: 1rem; color: #539d37}
@@ -231,14 +211,13 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .Upsell.tooltips:hover .tooltip {visibility: hidden; opacity: 0}
 
 .tooltip-Dateien-hochladen .tooltip {width: 170px; top: 25px; left: auto; right: 0}
-.Lieferdatum .tooltip {width:120px; margin-left:-67px} 
+.Lieferdatum .tooltip {width:120px; margin-left:-67px}
 .Teaser-Vorteilsnummer .tooltip {width: 350px; margin-left: -150px}
 .Teaser-Newsletter-GHS .tooltip {width:200px; margin-left: -80px}
 .Abrechnung .tooltip { width:200px; margin-left:-98px}
 
 /* Formulare */
 form {margin: 0}
-input[type="text"], input[type="textarea"], input[type="email"], input[type="tel"] { /*width: 100% */}
 #oneTouchSlider1 input {max-width: 20%}
 
 /* Sonstiges */
@@ -269,26 +248,27 @@ hr {border: 0 none; border-top: 1px solid #ccc; margin: 1.5rem 0}
 button {font-size: .8rem}
 .Button-gross, .Button-gross-gruen, .Button-gross-blau, .Button-gross-grau, .Button-klein, .Button-klein-gruen, .Button-klein-blau, .Button-klein-grau, .ui-state-default {display: inline-block; vertical-align:middle}
 [class^="Button"], .Link-Liste a {cursor: pointer; text-decoration: none}
-[class^="Button"]:hover, .Link-Liste a:hover, select:hover {-webkit-box-shadow: 0 0 5px 1px #ccc; box-shadow: 0 0 5px 1px #ccc; cursor: pointer; text-decoration:none }
+[class^="Button"]:hover, .Link-Liste a:hover, select:hover, input:hover {box-shadow: 0 0 3px 1px #ccc; cursor: pointer; text-decoration:none}
+select:focus, input:focus {box-shadow: 0 0 3px 0 #4d90fe;}
 [type="button"], [type="submit"], [class^="Button-klein"] button, .Link-Liste a {height: 1.5rem}
 .Button-gross, [class^="Button-gross"] [type="submit"], .ui-state-default, .Teaser-Newsletter button {height: 2.25rem; line-height: 2.25rem}
 .Button-breit {margin: .5rem 0; width:100%}
 .Button-klein {height:1.6rem; line-height:1.6rem}
 .Button-gruen, .Button-grau, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Button-klein-blau input, .Button-klein-blau a, button:disabled, .Link-Liste a, .ui-state-default {border: 0 none; color: #fff; padding: 0 15px; cursor: pointer; text-align:center }
-.Button-gruen, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .ui-state-default, #Chat {background-color: #509e2f; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM1MDllMmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMzZjhjMjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -webkit-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -o-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: -ms-linear-gradient(top, #509e2f 50%, #3f8c24 50%); background: linear-gradient(to bottom, #509e2f 50%, #3f8c24 50%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#509e2f', endColorstr='#3f8c24', GradientType=0 )}
-.Button-grau, .Button-gross-grau input, .Button-gross-grau button, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Titel-grauer-Balken, .Link-Liste a, .ui-state-default:first-child { background-color: #8c8c8c; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM4YzhjOGMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM2OTY5NjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: -webkit-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: -o-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: -ms-linear-gradient(top, #8c8c8c 50%, #696969 50%); background: linear-gradient(to bottom, #8c8c8c 50%, #696969 50%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8c8c8c', endColorstr='#696969', GradientType=0 )}
+.Button-gruen, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .ui-state-default, #Chat {background-color: #509e2f; background: linear-gradient(to bottom, #509e2f 50%, #3f8c24 50%)}
+.Button-grau, .Button-gross-grau input, .Button-gross-grau button, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Titel-grauer-Balken, .Link-Liste a, .ui-state-default:first-child { background-color: #8c8c8c; background: linear-gradient(to bottom, #8c8c8c 50%, #696969 50%)}
 .Button-klein-gruen a, .Button-klein-grau-Pfeil input {font-size: 0; display: inline-block; height: 18px}
 .Button-klein-grau-Pfeil input {height: 25px; float: right}
 .Button-klein-gruen a:after {content: "Zu den Produkten"; font-size: 14px}
-.Button-gruen:hover, .Button-gross-gruen input:hover, .Button-gross-gruen a:hover, .Button-klein-gruen input:hover, .Button-klein-gruen a:hover, .Button-gross-gruen button:hover, .Button-klein-gruen button:hover, #Chat:hover {-webkit-box-shadow: 0 0 5px 1px #80dd36; box-shadow: 0 0 5px 1px #80dd36; text-decoration:none }
+.Button-gruen:hover, .Button-gross-gruen input:hover, .Button-gross-gruen a:hover, .Button-klein-gruen input:hover, .Button-klein-gruen a:hover, .Button-gross-gruen button:hover, .Button-klein-gruen button:hover, #Chat:hover {box-shadow: 0 0 5px 1px #80dd36; text-decoration:none }
 .ui-state-default:nth-child(2n) {margin: 0 0 0 10px}
 .Button-close {cursor: pointer; width: 16px; height: 16px; background-position: -750px -102px}
 .ui-button-text {font-weight: bold}
 .ui-dialog-titlebar-close {height: 25px !important; width: 25px !important; right: 0 !important; top: 10px !important}
 .ui-icon-closethick {background: url(/images/Admin/controls.png) -25px 0 !important; height: 25px !important; width: 25px !important}
 .ui-dialog-buttonpane, .ui-state-focus, .ui-state-active {border: 0}
-.Verlauf-weiss-grau {background-color: #fff; background: -moz-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: -webkit-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: -o-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: -ms-linear-gradient(top, #fff 0%, #c1c1c1 100%); background: linear-gradient(to bottom, #fff 0%, #c1c1c1 100%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c1c1c1', GradientType=0 )}
-button[disabled=disabled], button:disabled:hover { -webkit-box-shadow:none; box-shadow:none; cursor:default }
+.Verlauf-weiss-grau {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, #c1c1c1 100%)}
+button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:default }
 
 /* Titel blau */
 .Titel-Sichern-Sie-sich-den-Kalender {background-position: -290px -75px}
@@ -336,7 +316,7 @@ button[disabled=disabled], button:disabled:hover { -webkit-box-shadow:none; box-
 #cboxLoadingOverlay, #cboxLoadingGraphic {position: absolute; top: 0; left: 0; width: 100%}
 #cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {cursor: pointer}
 
-/* 
+/*
 	ColorBox example user style
 	The following rules are ordered and tabbed in a way that represents the
 	order/nesting of the generated HTML, so that the structure easier to understand.
@@ -353,33 +333,14 @@ button[disabled=disabled], button:disabled:hover { -webkit-box-shadow:none; box-
 #cboxClose {position: absolute; top: 0; right: 0; background: url(/images/Admin/controls.png) -25px 0 no-repeat; width: 25px; height: 25px; text-indent: -9999px}
 #cboxClose.hover {background-position: -25px -25px}
 
-/*
-	The following fixes png-transparency for IE6. 
-	It is also necessary for png-transparency in IE7 & IE8 to avoid 'black halos' with the fade transition
-	
-	Since this method does not support CSS background-positioning, it is incompatible with CSS sprites.
-	Colorbox preloads navigation hover classes to account for this.
-	
-	!! Important Note:AlphaImageLoader src paths are relative to the HTML document, while regular CSS background images are relative to the CSS document.
-*/
-.cboxIE #cboxClose {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/close.png, sizingMethod='scale')}
-.cboxIE #cboxTopLeft {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderTopLeft.png, sizingMethod='scale')}
-.cboxIE #cboxTopLeft {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderTopLeft.png, sizingMethod='scale')}
-.cboxIE #cboxTopCenter {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderTopCenter.png, sizingMethod='scale')}
-.cboxIE #cboxTopRight {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderTopRight.png, sizingMethod='scale')}
-.cboxIE #cboxBottomLeft {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderBottomLeft.png, sizingMethod='scale')}
-.cboxIE #cboxBottomCenter {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderBottomCenter.png, sizingMethod='scale')}
-.cboxIE #cboxBottomRight {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderBottomRight.png, sizingMethod='scale')}
-.cboxIE #cboxMiddleLeft {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderMiddleLeft.png, sizingMethod='scale')}
-.cboxIE #cboxMiddleRight {background: transparent; filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src=/images/Admin/internet_explorer/borderMiddleRight.png, sizingMethod='scale')}
-select {background-color: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZGVkZWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, #fff 0%, #ededed 100%); background: -webkit-linear-gradient(top, #fff 0%, #ededed 100%); background: -o-linear-gradient(top, #fff 0%, #ededed 100%); background: -ms-linear-gradient(top, #fff 0%, #ededed 100%); background: linear-gradient(to bottom, #fff 0%, #ededed 100%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 )}
+select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, #ededed 100%)}
 .Checkout select {background: 0 none;}
 
 /* Wrapper ==========================*/
 #Wrapper {border-spacing: 0; border: 0; margin-bottom: 1rem}
 .sqleft, .sqright {width: 49% !important; margin: 0 !important}
 .sqleft {margin: 0 15px 15px 0 !important}
-.Wrapper-Content, #colorbox, .ui-dialog {-webkit-box-shadow: 0 0 15px 0 rgb(150, 150, 150), 0 0 15px 0 rgb(150, 150, 150); box-shadow: 0 0 15px 0 rgb(150, 150, 150), 0 0 15px 0 rgb(150, 150, 150); overflow: hidden}
+.Wrapper-Content, #colorbox, .ui-dialog {box-shadow: 0 0 15px 0 rgb(150, 150, 150), 0 0 15px 0 rgb(150, 150, 150); overflow: hidden}
 .Wrapper-Content { overflow:visible }
 
 /* Skyscraper ==========================*/
@@ -463,7 +424,7 @@ select {background-color: #fff; background: url(data:image/svg+xml;base64,PD94bW
 .Warenkorb {position: absolute; top: 53px; right: 1.5%}
 #Header .Warenkorb b {font-size: 1.1rem}
 #Header .Warenkorb button {width: 190px}
-#Header .Warenkorb .Button-klein-grau button:hover {-webkit-box-shadow: none; box-shadow: none}
+#Header .Warenkorb .Button-klein-grau button:hover {box-shadow: none}
 
 /* Warenkorb-Reminder */
 .Warenkorb-Reminder {background: #EAF5FF; border: 3px solid #00609F; width: 466px; position: absolute; top: 50px; left: 50%; z-index: 100000; margin-left: -226px}
@@ -484,14 +445,10 @@ select {background-color: #fff; background: url(data:image/svg+xml;base64,PD94bW
 .nav-pri [id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc; background-color: #0061a0}
 .nav-pri > ul > li:hover > a {background-color: #ccc}
 .nav-pri li:nth-child(5n+2) a {border-left: 0 none}
-.sub {box-sizing:border-box; visibility: hidden; opacity: 0; max-height: 0; z-index:70; position: relative; -webkit-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out;overflow: hidden }
+.sub {box-sizing:border-box; visibility: hidden; opacity: 0; max-height: 0; z-index:70; position: relative; transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; overflow: hidden}
 .nav-pri .sub {background-color: #fff}
 li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
 	/* iOS: visibility breaks transition but required for touch events and block is not animatable */
-	-webkit-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in;
-	-moz-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in;
-	-ms-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in;
-	-o-transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in;
 	transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in }
 .sub a, .Teaser-Blog a, .Footer .Grid-System-Sitemap li a {margin: 0 0 .2rem 0; display: inline-block; max-width: 94%; vertical-align: top}
 .sub .Titel, .Thema-Name a {font-weight: bold; margin-left: 0}
@@ -515,7 +472,7 @@ li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
 .icon_info_alt:after {content: "\70"}
 .Bullet-Haekchen li:before, .Vorteile li:before {content: "\4e";
 margin: 0 .25rem 0 -1rem}
-.Bullet-Plus li:before {content: "+"; text-align: center; line-height: 20px; display: inline-block; width: 20px; height: 20px; color: #D90F18; font-weight: bold; font-size: 20px; margin: 0 .5rem 0 -20px; background-color: #fff; -webkit-border-radius: 10px; border-radius: 10px; box-shadow: 1px 1px 5px #C9C9C9; position: relative; top: 2px}
+.Bullet-Plus li:before {content: "+"; text-align: center; line-height: 20px; display: inline-block; width: 20px; height: 20px; color: #D90F18; font-weight: bold; font-size: 20px; margin: 0 .5rem 0 -20px; background-color: #fff; border-radius: 10px; box-shadow: 1px 1px 5px #C9C9C9; position: relative; top: 2px}
 .arrow_carrot-right:before, .Link-Liste a:before {content: "\35"; font-size: 1.25rem}
 .Filterparameter li:before {content: "\56"; margin: 0 5px 0 -1rem;}
 .Filterparameter li:hover:before, .Filterparameter li.active:before {content: "\5a"; text-decoration: none}
@@ -537,8 +494,8 @@ margin: 0 .25rem 0 -1rem}
 .Sidebar-right .Teaser {margin: 0 15px 15px 0}
 .Teaser-Vorteile-bei-SETON img, .Teaser-Avail-Direkt-mitbestellen .cc-slides {margin: .5rem 0; padding: 0}
 .Teaser-Vorteile .Weiterfuehrender-Link, .Teaser-Newsletter-GHS .Weiterfuehrender-Link, .Teaser-Newsletter-Pruefvorschriften .Weiterfuehrender-Link { position: relative; bottom: 0; right: 0; text-align: right}
-.Rahmen {background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMGYwZjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%); background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%)}
-.Rahmen {-webkit-box-shadow: 0 0 3px rgba(33, 33, 33, 1); box-shadow: 0 0 3px rgba(33, 33, 33, 1)}
+.Rahmen {background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%)}
+.Rahmen {box-shadow: 0 0 3px rgba(33, 33, 33, 1)}
 #Warenkorb-Rahmen h1 {font-size: 1.5rem; margin: 0}
 .Teaser .Kein-Rahmen {padding: 10px 0 15px 0}
 
@@ -555,13 +512,13 @@ margin: 0 .25rem 0 -1rem}
 .rsContainer {position: relative; width: 100%; height: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
 .rsArrow, .rsThumbsArrow {cursor: pointer}
 .rsThumb {float: left; position: relative}
-.rsArrow, .rsNav, .rsThumbsArrow {opacity: 1; -webkit-transition: opacity 0.3s linear; -moz-transition: opacity 0.3s linear; -o-transition: opacity 0.3s linear; transition: opacity 0.3s linear}
-.rsHidden {opacity: 0; visibility: hidden; -webkit-transition: visibility 0s linear 0.3s, opacity 0.3s linear; -moz-transition: visibility 0s linear 0.3s, opacity 0.3s linear; -o-transition: visibility 0s linear 0.3s, opacity 0.3s linear; transition: visibility 0s linear 0.3s, opacity 0.3s linear}
+.rsArrow, .rsNav, .rsThumbsArrow {opacity: 1; transition: opacity 0.3s linear}
+.rsHidden {opacity: 0; visibility: hidden; transition: visibility 0s linear 0.3s, opacity 0.3s linear}
 .rsGCaption {width: 100%; float: left; text-align: center}
 
 /* Fullscreen options, very important ^^ */
 .royalSlider.rsFullscreen {position: fixed !important; height: auto !important; width: auto !important; margin: 0 !important; padding: 0 !important; z-index: 1000 !important; top: 0 !important; left: 0 !important; bottom: 0 !important; right: 0 !important}
-.royalSlider .rsSlide.rsFakePreloader {opacity: 1 !important; -webkit-transition: 0s; -moz-transition: 0s; -o-transition: 0s; transition: 0s; display: none}
+.royalSlider .rsSlide.rsFakePreloader {opacity: 1 !important; transition: 0s; display: none}
 .rsSlide {position: absolute; left: 0; top: 0; display: block; overflow: hidden; height: 100%; width: 100%}
 .royalSlider.rsAutoHeight, .rsAutoHeight .rsSlide {height: auto}
 .rsContent {width: 100%; height: 100%; position: relative}
@@ -572,7 +529,7 @@ margin: 0 .25rem 0 -1rem}
 .rsTabs {float: left; background: none !important}
 .rsTabs, .rsThumbs {-webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
 .rsVideoContainer {/* left: 0; top: 0; position: absolute; width: 100%; height: 100%; position: absolute; left: 0; top: 0; float: left;*/ width: auto; height: auto; line-height: 0; position: relative}
-.rsVideoFrameHolder {position: absolute; left: 0; top: 0; background: #141414; opacity: 0; -webkit-transition: .3s}
+.rsVideoFrameHolder {position: absolute; left: 0; top: 0; background: #141414; opacity: 0; transition: .3s}
 .rsVideoFrameHolder.rsVideoActive {opacity: 1}
 .rsVideoContainer iframe, .rsVideoContainer video, .rsVideoContainer embed, .rsVideoContainer .rsVideoObj {position: absolute; z-index: 50; left: 0; top: 0; width: 100%; height: 100%}
 
@@ -639,11 +596,11 @@ img.rsImg {max-width: none}
 
 /* 4. Tabs */
 .rsMinW .rsTabs {width: 100%; height: auto; margin: 0 auto; text-align: center; overflow: hidden; padding-top: 12px; position: relative}
-.rsMinW .rsTab {display: inline-block; cursor: pointer; text-align: center; height: auto; width: auto; color: #333; padding: 5px 13px 6px; min-width: 72px; border: 1px solid #D9D9DD; border-right: 1px solid #f5f5f5; text-decoration: none; background-color: #000; background: -webkit-linear-gradient(top, #fefefe, #f4f4f4); background: linear-gradient(to bottom, #fefefe, #f4f4f4); display: inline; zoom: 1}
+.rsMinW .rsTab {display: inline-block; cursor: pointer; text-align: center; height: auto; width: auto; color: #333; padding: 5px 13px 6px; min-width: 72px; border: 1px solid #D9D9DD; border-right: 1px solid #f5f5f5; text-decoration: none; background-color: #000; background: linear-gradient(to bottom, #fefefe, #f4f4f4); display: inline; zoom: 1}
 .rsMinW .rsTab:first-child {-webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px}
 .rsMinW .rsTab:last-child {-webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; border-right: 1px solid #cfcfcf}
 .rsMinW .rsTab:active {border: 1px solid #D9D9DD; background-color: #f4f4f4; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset}
-.rsMinW .rsTab.rsNavSelected {color: #000; border: 1px solid #999; text-shadow: 1px 1px #838383; box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset; background-color:#ACACAC; background: -webkit-linear-gradient(top, #ACACAC, #BBB); background: linear-gradient(to bottom, #ACACAC, #BBB)}
+.rsMinW .rsTab.rsNavSelected {color: #000; border: 1px solid #999; text-shadow: 1px 1px #838383; box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset; background-color:#ACACAC; background: linear-gradient(to bottom, #ACACAC, #BBB)}
 
 /* 5. Fullscreen button */
 .rsMinW .rsFullscreenBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 22; display: block; position: absolute; cursor: pointer}
@@ -653,7 +610,7 @@ img.rsImg {max-width: none}
 
 /* 6. Play/close video button */
 .rsMinW .rsPlayBtn {-webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); width: 64px; height: 64px; margin-left: -32px; margin-top: -32px; cursor: pointer}
-.rsMinW .rsPlayBtnIcon {width: 64px; display: block; height: 64px; -webkit-border-radius: 4px; border-radius: 4px; -webkit-transition: .3s; -moz-transition: .3s; transition: .3s; background: url('/css/royalslider/rs-minimal-white.png') no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, 0.75); background-color: #000}
+.rsMinW .rsPlayBtnIcon {width: 64px; display: block; height: 64px; border-radius: 4px; transition: .3s; background: url('/css/royalslider/rs-minimal-white.png') no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, 0.75); background-color: #000}
 .rsMinW .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, 0.9)}
 .rsMinW .rsBtnCenterer {position: absolute; left: 50%; top: 50%; width: 20px; height: 20px}
 .rsMinW .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0)}
@@ -731,11 +688,11 @@ img.rsImg {max-width: none}
 
 /* 4. Tabs */
 .rsDefault .rsTabs {width: 100%; height: auto; margin: 0 auto; text-align: center; overflow: hidden; padding-top: 12px; position: relative}
-.rsDefault .rsTab {display: inline-block; cursor: pointer; text-align: center; height: auto; width: auto; color: #333; padding: 5px 13px 6px; min-width: 72px; border: 1px solid #D9D9DD; border-right: 1px solid #f5f5f5; text-decoration: none; background-color: #FFF; background: -webkit-linear-gradient(top, #fefefe, #f4f4f4); background: linear-gradient(to bottom, #fefefe, #f4f4f4); -webkit-box-shadow: inset 1px 0 0 #fff; box-shadow: inset 1px 0 0 #fff; display: inline; zoom: 1}
-.rsDefault .rsTab:first-child {-webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px}
-.rsDefault .rsTab:last-child {-webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; border-right: 1px solid #cfcfcf}
+.rsDefault .rsTab {display: inline-block; cursor: pointer; text-align: center; height: auto; width: auto; color: #333; padding: 5px 13px 6px; min-width: 72px; border: 1px solid #D9D9DD; border-right: 1px solid #f5f5f5; text-decoration: none; background-color: #FFF; background: linear-gradient(to bottom, #fefefe, #f4f4f4); box-shadow: inset 1px 0 0 #fff; display: inline; zoom: 1}
+.rsDefault .rsTab:first-child {border-top-left-radius: 4px; border-bottom-left-radius: 4px}
+.rsDefault .rsTab:last-child {border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-right: 1px solid #cfcfcf}
 .rsDefault .rsTab:active {border: 1px solid #D9D9DD; background-color: #f4f4f4; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset}
-.rsDefault .rsTab.rsNavSelected {color: #FFF; border: 1px solid #999; text-shadow: 1px 1px #838383; box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset; background-color: #ACACAC; background: -webkit-linear-gradient(top, #ACACAC, #BBB); background: linear-gradient(to bottom, #ACACAC, #BBB)}
+.rsDefault .rsTab.rsNavSelected {color: #FFF; border: 1px solid #999; text-shadow: 1px 1px #838383; box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset; background-color: #ACACAC; background: linear-gradient(to bottom, #ACACAC, #BBB)}
 
 /* 5. Fullscreen button */
 .rsDefault .rsFullscreenBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 22; display: block; position: absolute; cursor: pointer}
@@ -745,7 +702,7 @@ img.rsImg {max-width: none}
 
 /* 6. Play/close video button */
 .rsDefault .rsPlayBtn {-webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); width: 64px; height: 64px; margin-left: -32px; margin-top: -32px; cursor: pointer}
-.rsDefault .rsPlayBtnIcon {width: 64px; display: block; height: 64px; -webkit-border-radius: 4px; border-radius: 4px; -webkit-transition: .3s; -moz-transition: .3s; transition: .3s; background: url('/css/royalslider/rs-default.png') no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, 0.75); background-color: #000}
+.rsDefault .rsPlayBtnIcon {width: 64px; display: block; height: 64px; border-radius: 4px; transition: .3s; background: url('/css/royalslider/rs-default.png') no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, 0.75); background-color: #000}
 .rsDefault .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, 0.9)}
 .rsDefault .rsBtnCenterer {position: absolute; left: 50%; top: 50%; width: 20px; height: 20px}
 .rsDefault .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0)}
@@ -769,7 +726,7 @@ img.rsImg {max-width: none}
 /* Teaser Vorteilsnummer */
 .Teaser-Vorteilsnummer #rabatt p, .Teaser-Vorteilsnummer #hinweis p {padding-bottom: 20px; margin-bottom: 0}
 .Checkout .Teaser-Vorteilsnummer {float: left; margin: 10px 0}
-.Checkout .Teaser-Vorteilsnummer .Rahmen {-webkit-box-shadow: none; box-shadow: none; border: 1px solid #ccc}
+.Checkout .Teaser-Vorteilsnummer .Rahmen {box-shadow: none; border: 1px solid #ccc}
 .Checkout .Teaser-Vorteilsnummer .Eingabefeld {width: 100px; margin-right: 10px}
 .Checkout .Teaser-Vorteilsnummer .Button-klein-T-Hinzufuegen {float: left; margin-top: 10px}
 .Checkout .Teaser-Vorteilsnummer #hinweis {padding-top: 10px}
@@ -837,7 +794,7 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .Rotating-image .Buttons-360 {width: 100%; height: 40px; background: #fff; position: absolute; bottom: 0; left: 0; opacity: 0.6}
 .Designcode-Artikelauswahl .Rotating-image #reverse {display: none; visibility: hidden}
 .Designcode-Artikelauswahl .Rotating-image #prev, .Designcode-Artikelauswahl .Rotating-image #toggle, .Designcode-Artikelauswahl .Rotating-image #next {display: inline-block; font-size: 3rem; margin: .5rem; cursor: pointer; opacity: .75}
-.Designcode-Artikelauswahl .Rotating-image #prev:hover, .Designcode-Artikelauswahl .Rotating-image #toggle:hover, .Designcode-Artikelauswahl .Rotating-image #next:hover {opacity: 1; -webkit-box-shadow: none;  box-shadow: none;}
+.Designcode-Artikelauswahl .Rotating-image #prev:hover, .Designcode-Artikelauswahl .Rotating-image #toggle:hover, .Designcode-Artikelauswahl .Rotating-image #next:hover {opacity: 1; box-shadow: none;}
 .Designcode-Artikelauswahl .Rotating-image #prev, .Designcode-Artikelauswahl .Rotating-image #toggle, .Designcode-Artikelauswahl .Rotating-image #next {font-size: 2rem; position: absolute; bottom: 0; color: #000; margin-left: -20px}
 .Designcode-Artikelauswahl .Rotating-image #prev {left: 33%}
 .Designcode-Artikelauswahl .Rotating-image #toggle {left: 50%}
@@ -921,7 +878,7 @@ img.rsImg {max-width: none}
 .Tabs-Content h3 {margin: 0}
 .Services-rund-ums-Produkt a {float: right; text-align: center}
 .Inventarketiketten-Designer .Services-rund-ums-Produkt li {width: 25%}
-.Services-rund-ums-Produkt li a {display: block; height: 90px; padding: 3px; border-radius: 10px; -webkit-border-radius: 10px}
+.Services-rund-ums-Produkt li a {display: block; height: 90px; padding: 3px; border-radius: 10px}
 .Inventarketiketten-Designer .Services-rund-ums-Produkt li a {height: auto}
 .Services-rund-ums-Produkt a:hover {background: #F7F7F7; text-decoration: none !important}
 .Services-rund-ums-Produkt img {display: block; margin: 0 auto; margin-bottom: 3px}
@@ -977,12 +934,12 @@ aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .Filterbezeichnung {font-weight: bold; margin: 0}
 .Filterparameter a:hover, .Filterparameter a:focus, .Filterparameter a.active {text-decoration: none; font-weight: normal}
 .Mehr-Filter {position: absolute; left: -.25rem; bottom: 0; padding: 0; text-align: center; ;cursor: pointer}
-.Mehr-Filter:before {content: "\33"; font-size: 1.25rem; display: inline-block; vertical-align: middle;padding: 0 0 .25rem;-webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease}
+.Mehr-Filter:before {content: "\33"; font-size: 1.25rem; display: inline-block; vertical-align: middle;padding: 0 0 .25rem; transition: all .25s ease}
 .Mehr-Filterparameter:checked + .Mehr-Filter:before {-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg);padding: .25rem 0 0;}
 .Mehr-Filterparameter {display: none}
-.Filterparameter {max-height: 7.25rem; overflow: hidden; -webkit-transition: max-height .5s ease-out; -moz-transition: max-height .5s ease-out; -ms-transition: max-height .5s ease-out; -o-transition: max-height .5s ease-out; transition: max-height .5s ease-out}
+.Filterparameter {max-height: 7.25rem; overflow: hidden; transition: max-height .5s ease-out}
 .Mehr-Filter + .Filterparameter { margin-bottom: 1.5rem}
-.Mehr-Filterparameter:checked ~ .Filterparameter {max-height: 2000px; -webkit-transition: max-height .5s ease-in; -moz-transition: max-height .5s ease-in; -ms-transition: max-height .5s ease-in; -o-transition: max-height .5s ease-in; transition: max-height .5s ease-in }
+.Mehr-Filterparameter:checked ~ .Filterparameter {max-height: 2000px; transition: max-height .5s ease-in }
 
 /* Hauptkategorie */
 .Hauptkategorie-Text {margin: 0 0 15px}
@@ -1070,7 +1027,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .list-view.products [id*="AllgArtMerkTabelle_"] th { width:35%; font-weight:normal }
 .list-view.products .Weiterfuehrender-Link { position:relative; bottom:0; right:0 }
 
-.list-view.products .Produktergebnis-inner, 
+.list-view.products .Produktergebnis-inner,
 .list-view.products [id*="orderinfo_"] { padding:0 }
 .list-view.products .Menge { width:30% }
 .list-view.products .Menge + .col8 {margin: 1.25em 0 0}
@@ -1096,22 +1053,22 @@ ul.grid-view, ul.list-view {margin: 0}
 /* ==========================*/
 /* Pure CSS Slider */
 /* ==========================*/
-.cc-slider {position: relative; -webkit-transform: translateZ(0); -webkit-transition: all 0.1s ease-out; -moz-transition: all 0.1s ease-out; -o-transition: all 0.1s ease-out; transition: all 0.1s ease-out}
+.cc-slider {position: relative; -webkit-transform: translateZ(0); transition: all 0.1s ease-out}
 .cc-slider label {/* color: #ef023f; */ cursor: pointer; text-decoration: none}
 .cc-slider label:hover {/* background-color: #DDD */}
 .cc-slides {display: inline-block; width: 100%; box-sizing: border-box}
-.cc-slides .inner {width: 1000%; -webkit-transform: translateZ(0); -webkit-transition: all 800ms ease-in-out; -moz-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); -ms-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); -o-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); -webkit-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); -moz-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); -ms-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); -o-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000)}
+.cc-slides .inner {width: 1000%; -webkit-transform: translateZ(0); transition: all 800ms cubic-bezier(0.770, 0.000, .175, 1.000)}
 
 /* Fuer Thumbnail-Buttons, Verwendung:Testimonials auf Streusalz-Seite */
 .cc-slider-thumbnail-buttons .controls {width: 100%; height: 10px; margin: 0 0 10px 0; display: block}
-.cc-slider-thumbnail-buttons .controls label {display: inline-block; width: 10px; height: 10px; float: left; margin-right: 7px; text-align: center; padding: 5px; line-height: 10px; color: #fff; font-weight: bold; background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.05) 100%); background: -o-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.05) 100%); background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.05) 100%); background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.05) 100%); -webkit-box-shadow: 0 0 6px rgba(33, 33, 33, 0.3); box-shadow: 0 0 6px rgba(33, 33, 33, 0.3); -webkit-border-radius: 4px; border-radius: 4px; border: 1px solid #aaa}
+.cc-slider-thumbnail-buttons .controls label {display: inline-block; width: 10px; height: 10px; float: left; margin-right: 7px; text-align: center; padding: 5px; line-height: 10px; color: #fff; font-weight: bold; background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.05) 100%); box-shadow: 0 0 6px rgba(33, 33, 33, .3); border-radius: 4px; border: 1px solid #aaa}
 .cc-slider-thumbnail-buttons .slide1:checked ~ .controls label:nth-child(1), .cc-slider-thumbnail-buttons .slide2:checked ~ .controls label:nth-child(2), .cc-slider-thumbnail-buttons .slide3:checked ~ .controls label:nth-child(3), .cc-slider-thumbnail-buttons .slide4:checked ~ .controls label:nth-child(4),  .cc-slider-thumbnail-buttons .slide5:checked ~ .controls label:nth-child(5) {background-color: #BBB}
 
 /* Sliderpfeile rechts und links */
 .cc-slider-pfeil-links-rechts .controls label {display: none; position: absolute; bottom: 0; height: 20px; top: 50%; margin-top: -10px}
 .cc-slider-pfeil-links-rechts .Titel-Balken-hellgrau ~ .controls label {display: none; position: absolute; bottom: 0; width: 11px; height: 20px; top: 50%; margin-top: 10px}
 .cc-slider-pfeil-links-rechts #active {margin: 23% 0 0; text-align: center}
-.cc-slider-pfeil-links-rechts #active label {-webkit-border-radius: 5px; border-radius: 5px; display: inline-block; width: 10px; height: 10px; background: #f89e67}
+.cc-slider-pfeil-links-rechts #active label {border-radius: 5px; display: inline-block; width: 10px; height: 10px; background: #f89e67}
 .cc-slider-pfeil-links-rechts #active label:hover {background: #ccc; border-color: #777 !important}
 .slide1:checked ~ .cc-slides .inner {margin-left: 0}
 .slide2:checked ~ .cc-slides .inner {margin-left: -100%}
@@ -1256,7 +1213,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .warenkorbItem .rabattinfo { color:#F00; position:absolute; bottom:5px; width:94%; text-align:center; white-space:nowrap }
 .warenkorbItem .sparinfo { color:#F00 }
 .sparinfo-gesamt:empty { display:none }
-.sparinfo-gesamt { color:#F00; background:#F4F4F4; padding:0.5em; width: 100.00%; float:right; box-sizing:border-box; text-align:center; border-radius:10px; margin:1em 0 0 0 } 
+.sparinfo-gesamt { color:#F00; background:#F4F4F4; padding:0.5em; width: 100.00%; float:right; box-sizing:border-box; text-align:center; border-radius:10px; margin:1em 0 0 0 }
 
 /* Direktbestellung */
 .Warenkorb-Direktbestellung {overflow-x: hidden; overflow-y: auto; width: 96%; padding: 0 2%}
@@ -1292,11 +1249,11 @@ ul.grid-view, ul.list-view {margin: 0}
 .Schritt-1-Adresseingabe:after {
 	content: '';
 	position: absolute;
-	top: .35rem; 
+	top: .35rem;
 	right: -1.25rem;
-	width: 2.5rem; 
+	width: 2.5rem;
 	height: 2.5rem;
-	/* as you see the rotated square takes a larger height. which makes it tough to position it properly. So we are going to scale it down so that the diagonals become equal to the line-height of the link. We scale it to 70.7% because if square's: 
+	/* as you see the rotated square takes a larger height. which makes it tough to position it properly. So we are going to scale it down so that the diagonals become equal to the line-height of the link. We scale it to 70.7% because if square's:
 	length = 1; diagonal = (1^2 + 1^2)^0.5 = 1.414 (pythagoras theorem)
 	if diagonal required = 1; length = 1/1.414 = 0.707*/
 	/* transform: scale(0.707) rotate(45deg); */
@@ -1319,6 +1276,9 @@ textarea {height: 4rem}
 #direkt_anz {width: 25%}
 .Eingabefeld-gross {padding: 8px}
 
+[class*="_Anrede"], .Newsletter, .kundenadr_Kundennummer {clear: both;display: inline-block;}
+[class*="_Anrede"] select {width: 100%}
+
 /* Hotline */
 .Checkout-Adresseingabe .Sidebar .Hotline { color:#000; margin:0 0 1em 0 }
 .Checkout-Adresseingabe .Sidebar .Hotline a {color:#000; cursor:default; line-height: 1.25rem; letter-spacing: .025rem; font-size: 1rem; font-weight:bold }
@@ -1335,8 +1295,7 @@ textarea {height: 4rem}
 /* Breitenangaben verhindern ein Springen der Tabelleninhalte beim An- und Abwaehlen von Liefer- und Rechnungsadresse */
 .Checkout-Check-and-Send :disabled {background: #fff; border: 0 none; padding:0; height:auto }
 .Checkout-Confirmation-Page .Schritt-1-Adresseingabe, .Checkout-Confirmation-Page .Schritt-2-Bestellung-pruefen {color: #000}
-.Checkout-Check-and-Send input.Add_Rechnungsadresse,
-.Checkout-Check-and-Send input.Add_Lieferadresse { display:none}
+.Checkout-Check-and-Send input.Add_Rechnungsadresse, .Checkout-Check-and-Send input.Add_Lieferadresse { display:none}
 .Checkout-Check-and-Send fieldset p { margin:.2rem 0 }
 .Checkout-Check-and-Send fieldset .Weiterfuehrender-Link {position:relative; right:auto; bottom:auto; float:right }
 .Checkout-Check-and-Send fieldset { padding:.5em 0; border-top:1px solid #CCCCCC }
@@ -1624,7 +1583,7 @@ img.Praemien {position: absolute; top: 0; right: 0; z-index: -1}
 .Footer-Zuletzt-gesehene-Produkte .Titel-Balken-hellgrau span {min-width: 207px}
 #Artikelsuche-Hinweis {display: none; left: 207px; top: 37px; z-index: 9; width: 230px}
 #Artikelsuche-Hinweis {text-align: center}
-.Footer {background: #fff; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZGZkZmRmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==); background: -moz-linear-gradient(top, #fff 70%, #dfdfdf 100%); background: -webkit-linear-gradient(top, #fff 70%, #dfdfdf 100%); background: -o-linear-gradient(top, #fff 70%, #dfdfdf 100%); background: -ms-linear-gradient(top, #fff 70%, #dfdfdf 100%); background: linear-gradient(to bottom, #fff 70%, #dfdfdf 100%); filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dfdfdf', GradientType=0 ); border-bottom: 2rem solid #00609F; clear: both}
+.Footer {background: #fff; background: linear-gradient(to bottom, #fff 70%, #dfdfdf 100%); border-bottom: 2rem solid #00609F; clear: both}
 .Grid-System-Social-Media {border-top: 1px solid #ccc; padding-top: .75rem; margin-top: 1rem}
 .Grid-System-Social-Media .col4 {border-right: 1px solid #ccc; min-height: 120px; margin-bottom: 0; border-collapse: collapse}
 .Grid-System-Social-Media div:last-child {border-right: 0 none}
@@ -1718,13 +1677,16 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	input[type="number"] {-webkit-appearance: textfield !important; -moz-appearance: textfield !important; appearance: textfield !important}
 	input[type="number"]:-webkit-outer-spin-button, input[type="number"]:-webkit-inner-spin-button {-webkit-appearance: none !important; -moz-appearance: none !important; appearance: none !important; margin:0}
 	input[type="number"] {-moz-appearance:textfield}
-	.Checkout-Adresseingabe .Artikelsuche, .Checkout-Adresseingabe .Warenkorb, .Checkout-Adresseingabe nav, .Checkout-Adresseingabe #Breadcrumbs,
-	.Checkout-Check-and-Send .Artikelsuche, .Checkout-Check-and-Send .Warenkorb, .Checkout-Check-and-Send nav, .Checkout-Check-and-Send #Breadcrumbs {display: none; visibility: hidden;} }
+	.Checkout nav {background-color: #bababa; height: 3.15rem;margin: 0 0 1rem;}
+	.Checkout nav li {display: none}
+	.Checkout #nav-home {display: block}
+	.Checkout nav a {display: block;height: 2.5rem; padding: .35rem .5rem .3rem .75rem;color: #fff}
+	.Checkout .Artikelsuche, .Checkout .Warenkorb, .Checkout-Adresseingabe nav, .Checkout-Check-and-Send nav, .Checkout #Breadcrumbs {display: none;visibility: hidden;} }
 
 @media only screen and (min-width:768px) {
 	#Header .Artikelsuche {position: relative}
 	#suggestContainer {border-top: 0 none}
-	.sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; -webkit-box-shadow: 0 0 15px rgba(33, 33, 33, 1); box-shadow: 0 0 15px rgba(33, 33, 33, 1); border: 1px solid #ccc; border-top-width: .35rem; position: absolute; left: 0; z-index: -1}
+	.sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; box-shadow: 0 0 15px rgba(33, 33, 33, 1); border: 1px solid #ccc; border-top-width: .35rem; position: absolute; left: 0; z-index: -1}
 	#topnav4 .sub {left: 20%}
 	#topnav7 .sub {left: 40%}
 	.col {width: 204px; float: left; margin: 0; padding: 5px 5px 5px 10px; box-sizing: border-box}
