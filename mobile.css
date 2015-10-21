@@ -71,7 +71,7 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.Thema {padding: .75rem .5rem .4rem 1rem}
 	.Thema-Name a, .Thema p, .Thema .PfeilLink {padding: 0; margin: 0}
 	.Thema .PfeilLink {display: inline-block}
-	.nav-third li:before {content: ""; display: none}
+	.nav-third li:before {content: ""}
 	
 	/* Container */
 	.pure-container {/* position: relative; */ /* height: 100%; */ /* -webkit-overflow-scrolling: touch; */}
