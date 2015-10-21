@@ -250,7 +250,7 @@ button {font-size: .8rem}
 [class^="Button"], .Link-Liste a, [type="checkbox"]:hover, select:hover, button:hover {cursor: pointer; text-decoration: none}
 [class^="Button"]:hover, .Link-Liste a:hover {text-decoration:none}
 select:hover, input:hover {box-shadow: 0 0 3px 1px #ccc}
-select:focus, input:focus {box-shadow: 0 0 3px 1px #4d90fe}
+button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #4d90fe}
 [type="button"], [type="submit"], [class^="Button-klein"] button, .Link-Liste a {height: 1.5rem}
 .Button-gross, [class^="Button-gross"] [type="submit"], .ui-state-default, .Teaser-Newsletter button {height: 2.25rem; line-height: 2.25rem}
 .Button-breit {margin: .5rem 0; width:100%}
@@ -261,7 +261,7 @@ select:focus, input:focus {box-shadow: 0 0 3px 1px #4d90fe}
 .Button-klein-gruen a, .Button-klein-grau-Pfeil input {font-size: 0; display: inline-block; height: 18px}
 .Button-klein-grau-Pfeil input {height: 25px; float: right}
 .Button-klein-gruen a:after {content: "Zu den Produkten"; font-size: 14px}
-.Button-gruen:hover, .Button-gross-gruen input:hover, .Button-gross-gruen a:hover, .Button-klein-gruen input:hover, .Button-klein-gruen a:hover, .Button-gross-gruen button:hover, .Button-klein-gruen button:hover, #Chat:hover {box-shadow: 0 0 5px 1px #80dd36; text-decoration:none }
+.Button-gruen:hover, .Button-gross-gruen input:hover, .Button-gross-gruen a:hover, .Button-klein-gruen input:hover, .Button-klein-gruen a:hover, .Button-gross-gruen button:hover, .Button-klein-gruen button:hover, #Chat:hover {box-shadow: 0 0 3px 1px #80dd36; text-decoration:none }
 .ui-state-default:nth-child(2n) {margin: 0 0 0 10px}
 .Button-close {cursor: pointer; width: 16px; height: 16px; background-position: -750px -102px}
 .ui-button-text {font-weight: bold}
