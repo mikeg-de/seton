@@ -112,7 +112,6 @@ ol.AGB li ol li:before { content: counter(level1, decimal) "." counter(level2, d
 .Adresseingabe .Gewerbe .Hinweis p {width: 150px}
 .Adresseingabe .Checkox-Gewerbe p {width: 350px}
 .Adresseingabe .Checkbox.Newsletter .Weiterfuehrender-Link {bottom: 0; right: 0}
-input.LV_invalid_field {border-color: #F00 !important;}
 .Checkout-Confirmation-Page .Adresseingabe select {width: 150px}
 .Adresseingabe .Newsletter, .Adresseingabe .Faxangebot {margin-top: 10px}
 #Warenkorb-Rahmen .Hinweis {width: 382px; max-width: 382px}
@@ -134,23 +133,34 @@ input.LV_invalid_field {border-color: #F00 !important;}
 #Add_Lieferadresse ~ fieldset {opacity: 0; max-height: 0; overflow: hidden; visibility: hidden; zoom: 1; transition: opacity .25s ease-out .25s, max-height .5s ease-out}
 #Add_Lieferadresse:checked ~ .Add_Lieferadresse, #Add_Rechnungsadresse:checked ~ .Add_Rechnungsadresse {opacity: 1; max-height: 2000px; display: block; visibility: visible; transition: opacity .25s ease-in, max-height .5s ease-in}
 .Checkout .hidden, fieldset legend {display: none}
-.Checkox-Gewerbe input, .Newsletter input {vertical-align: top}
+.Checkox-Gewerbe input, .Newsletter input {vertical-align: top;}
 .Adresseingabe textarea {width: 50%; max-height: 300px}
 .Adresseingabe label {display: inline-block; width: 100%}
-.Checkout [type="checkbox"] + label, .Newsletter label {width: 53%; display: inline-block}
+.Checkout [type="checkbox"] + label, .Newsletter label {width: 53%;}
 .Checkout span.tooltips, .PDF-Download span.tooltips {bottom: 0; right: auto}
 
 /* Basic field definitions */
+label {color: #999}
 label:hover, label:focus {cursor: pointer}
-input[type="text"], input[type="number"], input[type="tel"], input[type="email"], textarea, select {padding: 3px 5px 2px 5px; border-radius: 0; height: 2rem; box-sizing: border-box; border: 1px solid #999; font-size: inherit}
+
+input:not([type="checkbox"]), textarea, select {padding: 5px 5px 2px 5px; border-radius: 0; height: 2rem; box-sizing: border-box;border: 1px solid #999; outline-color: #999; font-size: inherit}
 select {height: 2rem; -webkit-appearance: menulist; -moz-appearance: menulist; appearance: menulist}
-input:required {border-color:#000; box-shadow:none }
+select:hover, input:hover {box-shadow: 0 0 3px 1px #999}
+button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #4d90fe}
+
+.required label {color: inherit;}
+:required, .required input, .required select {border-color: #000}
+
+.required .LV_valid_field, .optional .LV_valid_field {border-color: #19B201}
+.LV_valid_field:hover, .LV_valid_field:focus {box-shadow: 0 0 3px 1px #19B201; outline-color: #19B201}
+
+.required .LV_invalid_field, .optional .LV_invalid_field {border-color: #F00}
+.LV_invalid_field:hover, .LV_invalid_field:focus {box-shadow: 0 0 3px 1px #F00; outline-color: #F00}
+
 .Fehlertext, .Hinweis .Fehlertext, .LV_invalid, .invalid, .Hinweis .Fehlertext,
 .Hinweis .Fehlermeldung, .Hinweis .FehlermeldungNoJS {color:#F00}
-input:hover:invalid, input:focus:invalid, .LV_invalid_field {border-color: #f00}
-.valid, .Checkout input.LV_valid_field {border-color: #19B201}
-.optional input, input:default {border-color: #aaa}
-.optional label {color: #aaa}
+
+[type="checkbox"] {box-shadow: none !important;}
 input:in-range {}
 input:out-of-range {}
 
@@ -249,8 +259,6 @@ button {font-size: .8rem}
 .Button-gross, .Button-gross-gruen, .Button-gross-blau, .Button-gross-grau, .Button-klein, .Button-klein-gruen, .Button-klein-blau, .Button-klein-grau, .ui-state-default {display: inline-block; vertical-align:middle}
 [class^="Button"], .Link-Liste a, [type="checkbox"]:hover, select:hover, button:hover {cursor: pointer; text-decoration: none}
 [class^="Button"]:hover, .Link-Liste a:hover {text-decoration:none}
-select:hover, input:hover {box-shadow: 0 0 3px 1px #ccc}
-button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #4d90fe}
 [type="button"], [type="submit"], [class^="Button-klein"] button, .Link-Liste a {height: 1.5rem}
 .Button-gross, [class^="Button-gross"] [type="submit"], .ui-state-default, .Teaser-Newsletter button {height: 2.25rem; line-height: 2.25rem}
 .Button-breit {margin: .5rem 0; width:100%}
@@ -1703,4 +1711,4 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.Produkttabelle .Anzahl .Eingabefeld {float: left}
 	.Anzahl a {float: left}
 	.Produkttabelle .Einzelpreis-abzgl-Rabatt, .Produkttabelle .Einzelpreis, .Produkttabelle .Summe {text-align: right; width: 50px}
-	.Kundennummer-Prefix {display: none }
+	.Kundennummer-Prefix {display: none } }
