@@ -160,6 +160,8 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 .Fehlertext, .Hinweis .Fehlertext, .LV_invalid, .invalid, .Hinweis .Fehlertext,
 .Hinweis .Fehlermeldung, .Hinweis .FehlermeldungNoJS {color:#F00}
 
+.LV_invalid, .Checkout .Hinweistext {position: absolute}
+
 [type="checkbox"] {box-shadow: none !important;}
 input:in-range {}
 input:out-of-range {}
