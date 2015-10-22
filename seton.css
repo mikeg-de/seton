@@ -24,7 +24,7 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .rsFullscreen .rsContainer .rsSlide img, .rsFullscreen .rsSlide .Rotating-image {-webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0)}
 
 /* Text */
-h1, h2, h3, h4, h5, .Title1, .Title2, .Title3, .Title4, .Title5, .Teaser-Title, .Titel-Newsletter-abonnieren {font-weight: 500; color: #3a3a3a; line-height: 1.5rem; margin: 0 0 .25rem 0;font-size: 1rem}
+h1, h2, h3, h4, h5, .Title1, .Title2, .Title3, .Title4, .Title5, .Teaser-Title, .Titel-Newsletter-abonnieren {font-weight: 500; color: #3a3a3a; line-height: 1.5rem; margin: 0 0 .25rem 0; font-size: 1rem}
 h1, .h1, h1 a, .Title1 a {font-size: 1.25rem}
 h2, h3, h4, h5, h6, .Warenkorb-Reminder .Title1, .Teaser-Title, .Titel-Newsletter-abonnieren {font-size: 1rem}
 h3, .h3, .Title3 a, p, .Tab-Content, .Content-Box {padding: 0; margin: 0 0 .5rem 0}
@@ -101,7 +101,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 .Produkttabelle .Bild a {display: block}
 .Produkttabelle .Bild img {max-height: 80px}
 .Produkttabelle .Produktinfo p {overflow: hidden; margin: 0}
-.Produkttabelle .Produktinfo .Datei-Upload, .Produkttabelle .Produktinfo .Datei-Uploads {margin: 0.3rem 0}
+.Produkttabelle .Produktinfo .Datei-Upload, .Produkttabelle .Produktinfo .Datei-Uploads {margin: .3rem 0}
 .Produkttabelle .editArtikel {display: none}
 .Produkttabelle .Anzahl-JS .Eingabefeld {width: 50px; margin: 0 5px 3px 0 !important; font-size: 1rem; text-align: right}
 .Produkttabelle .Anzahl .Eingabefeld {width: 2rem; text-align: right; display: inline-block; margin: 0 .25rem 0 0; vertical-align: top}
@@ -137,13 +137,13 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 .Adresseingabe label {display: inline-block; width: 100%}
 .Checkout [type="checkbox"] + label {width: 53%;}
 .Checkout span.tooltips, .PDF-Download span.tooltips {bottom: 0; right: auto}
-[class*="_Anrede"], [class*="_Land"], .Checkout .Content [type="checkbox"], .kundenadr_Kundennummer {clear: both;display: block;}
+[class*="_Anrede"], [class*="_Land"], .Checkout .Content [type="checkbox"], .kundenadr_Kundennummer {clear: both; display: block;}
 [class*="_Anrede"] select, [class*="_Land"] select {width: 100%}
 .Checkout [type="checkbox"] {float: left}
 
 /* Basic field definitions */
 label:hover, label:focus {cursor: pointer}
-input:not([type="checkbox"]), textarea, select {padding: 5px 5px 2px 5px; border-radius: 0; height: 2rem; box-sizing: border-box;border: 1px solid #999; font-size: inherit}
+input:not([type="checkbox"]), textarea, select {padding: 5px 5px 2px 5px; border-radius: 0; height: 2rem; box-sizing: border-box; border: 1px solid #999; font-size: inherit}
 :required, .required input, .required select {border-color: #000}
 select {height: 2rem; -webkit-appearance: menulist; -moz-appearance: menulist; appearance: menulist}
 select:hover, input:hover {box-shadow: 0 0 3px 1px #999}
@@ -181,7 +181,7 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 [name$="_Email"].LV_valid_field ~ [type="checkbox"] {-webkit-animation: tada 2s linear infinite; animation: tada 2s linear infinite;}
 [name$="_Email"].LV_valid_field ~ [type="checkbox"]:checked {-webkit-animation: none; animation: none}
 
-[type="checkbox"] {box-shadow: none !important; outline: none !important}
+[type="checkbox"] {box-shadow: none !important; outline: none !important; margin-left: 0}
 input:in-range {}
 input:out-of-range {}
 
@@ -328,7 +328,7 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 
 /* Ajax Loading Animation ==========================*/
 .loading-indicator {height: 80px; width: 80px; background: url( '/images/Allgemein/loadinfo_48x48.gif' ); background-repeat: no-repeat; background-position: center center}
-.loading-indicator-overlay {background-color: #fff; opacity: 0.6; filter: alpha(opacity = 60)}
+.loading-indicator-overlay {background-color: #fff; opacity: .6; filter: alpha(opacity = 60)}
 
 /* Color Box ==========================*/
 /*
@@ -400,7 +400,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 
 /* Produktreihe */
 .Produktreihe-Grid-System {background: #ECF5FE; border-collapse: separate; padding: 4px; border-spacing: 0; height: 236px; width: auto}
-.Produktreihe-Grid-System .Grid3 {width: 193px !important; margin: 0 !important; border-right: 1px solid #999; background: #fff; text-align: center; font-size: 0.9rem}
+.Produktreihe-Grid-System .Grid3 {width: 193px !important; margin: 0 !important; border-right: 1px solid #999; background: #fff; text-align: center; font-size: .9rem}
 .Produktreihe-Grid-System .Grid-last {border: 0 !important}
 .Produktreihe-Grid-System .Grid3 .Link-Produkt {display: block; height: 220px; z-index: 0; position: relative}
 .Produktreihe-Grid-System .Grid3 .Link-Produkt .Produkt-Titel {position: absolute; top: 155px; display: block; width: 100%; left: 0}
@@ -430,10 +430,10 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 
 /* Artikelsuche */
 .Artikelsuche {margin: 0 0 0 5%; width: 45%}
-.Artikelsuche .Eingabefeld, .Teaser-Newsletter .Eingabefeld {width: 75%; border: 3px solid #00609F; margin: 0 -4px 0 0;vertical-align: top}
+.Artikelsuche .Eingabefeld, .Teaser-Newsletter .Eingabefeld {width: 75%; border: 3px solid #00609F; margin: 0 -4px 0 0; vertical-align: top}
 .Artikelsuche .Eingabefeld {height: 2.5rem}
 #Footer .Teaser-Newsletter .Eingabefeld {max-width: 55%}
-#SuchButton {border: 3px solid #00609F; border-left: 0 none; height: 2.5rem;width: 25%;padding: 0 10px}
+#SuchButton {border: 3px solid #00609F; border-left: 0 none; height: 2.5rem; width: 25%; padding: 0 10px}
 .Artikelsuche .Button-klein-gruen {display: inline-block}
 .Artikelsuche .suggestLayer {margin-top: 5px}
 .suggestContainer {display: none; width: 100%; top: auto; left: 0; padding: 0; margin: 0; background-color: white; z-index: 10001; position: absolute; border: 3px solid #00609F; box-sizing: border-box}
@@ -463,7 +463,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 .Warenkorb-Reminder .Fenster-schliessen {position: absolute; top: 5px; right: 5px; color: #fff}
 .Warenkorb-Reminder .Fenster-schliessen:hover, #Header .Hotline a:hover {text-decoration: none}
 .Warenkorb-Reminder .Warenkorb-Reminder-Content {padding: 60px 0 0 30px; text-align: center}
-.Warenkorb-Reminder .Warenkorb-Reminder-Content span {color: #E60F19; font-size: 1.9rem; display: block; margin: 0.3rem 0}
+.Warenkorb-Reminder .Warenkorb-Reminder-Content span {color: #E60F19; font-size: 1.9rem; display: block; margin: .3rem 0}
 .Warenkorb-Reminder .Warenkorb-Reminder-Content .Klein {font-size: 7pt}
 .Warenkorb-Reminder .Warenkorb-Reminder-Content .Fall-2 {font-size: 1.2rem}
 .Warenkorb-Reminder .Bestellung-abschliessen {text-align: center}
@@ -483,7 +483,7 @@ li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
 .sub a, .Teaser-Blog a, .Footer .Grid-System-Sitemap li a {margin: 0 0 .2rem 0; display: inline-block; max-width: 94%; vertical-align: top}
 .sub .Titel, .Thema-Name a {font-weight: bold; margin-left: 0}
 .nav-third li:before, .Teaser-Blog li:before, .Footer .Grid-System-Sitemap ul li:before, .nav-pri .PfeilLink:before, .Direktbestellung:before, .Weiterfuehrender-Link:before {content: "\203A"; margin-right:5px}
-#Breadcrumbs, .Breadcrumbs {clear: both; padding: 0.5rem 1.25%}
+#Breadcrumbs, .Breadcrumbs {clear: both; padding: .5rem 1.25%}
 .toggle label {color: #0061a0; cursor: pointer}
 .toggle label:hover {text-decoration: underline}
 .toggle .toggle1:checked ~ .toggle-content {height: 3.75rem; overflow: hidden; display: inline-block}
@@ -542,8 +542,8 @@ margin: 0 .25rem 0 -1rem}
 .rsContainer {position: relative; width: 100%; height: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
 .rsArrow, .rsThumbsArrow {cursor: pointer}
 .rsThumb {float: left; position: relative}
-.rsArrow, .rsNav, .rsThumbsArrow {opacity: 1; transition: opacity 0.3s linear}
-.rsHidden {opacity: 0; visibility: hidden; transition: visibility 0s linear 0.3s, opacity 0.3s linear}
+.rsArrow, .rsNav, .rsThumbsArrow {opacity: 1; transition: opacity .3s linear}
+.rsHidden {opacity: 0; visibility: hidden; transition: visibility 0s linear .3s, opacity .3s linear}
 .rsGCaption {width: 100%; float: left; text-align: center}
 
 /* Fullscreen options, very important ^^ */
@@ -554,7 +554,7 @@ margin: 0 .25rem 0 -1rem}
 .rsContent {width: 100%; height: 100%; position: relative}
 .rsPreloader {position: absolute; z-index: 0}
 .rsNav {-moz-user-select: -moz-none; -webkit-user-select: none; user-select: none}
-.rsNavItem {-webkit-tap-highlight-color: rgba(0, 0, 0, 0.25)}
+.rsNavItem {-webkit-tap-highlight-color: rgba(0, 0, 0, .25)}
 .rsThumbs {cursor: pointer; position: relative; overflow: hidden; float: left; z-index: 22}
 .rsTabs {float: left; background: none !important}
 .rsTabs, .rsThumbs {-webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
@@ -590,7 +590,7 @@ img.rsImg {max-width: none}
 /* 2. Bullets */
 .rsMinW .rsBullets {position: absolute; bottom: 18px; left: 10px; z-index: 35; padding-top: 4px; height: auto; text-align: center; line-height: 6px; overflow: hidden}
 .rsMinW .rsBullet {width: 6px; height: 6px; display: inline-block; display: inline; zoom: 1; padding: 6px 5px 6px 4px}
-.rsMinW .rsBullet span {display: block; width: 6px; height: 6px; border-radius: 50%; background: #CCC; background: rgba(255, 255, 255, 0.5); box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1)}
+.rsMinW .rsBullet span {display: block; width: 6px; height: 6px; border-radius: 50%; background: #CCC; background: rgba(255, 255, 255, .5); box-shadow: 0 0 1px 1px rgba(0, 0, 0, .1)}
 .rsMinW .rsBullet.rsNavSelected span {background: #FFF}
 
 /* 3. Thumbnails */
@@ -601,8 +601,8 @@ img.rsImg {max-width: none}
 .rsMinW .rsThumb {float: left; overflow: hidden; width: 96px; height: 72px}
 .rsMinW .rsThumb img {width: 100%; height: 100%}
 .rsMinW .rsThumb.rsNavSelected {background: #333}
-.rsMinW .rsThumb.rsNavSelected img {filter: alpha(opacity=40); opacity: 0.7}
-.rsMinW .rsThumb.rsNavSelected span.thumbIco {position: absolute; top: 0; bottom: 0; left: 0; right: 0; border: 2px solid #FFF; border: 2px solid rgba(255, 255, 255, 0.9); -webkit-backface-visibility: hidden}
+.rsMinW .rsThumb.rsNavSelected img {filter: alpha(opacity=40); opacity: .7}
+.rsMinW .rsThumb.rsNavSelected span.thumbIco {position: absolute; top: 0; bottom: 0; left: 0; right: 0; border: 2px solid #FFF; border: 2px solid rgba(255, 255, 255, .9); -webkit-backface-visibility: hidden}
 .rsMinW .rsTmb {display: block}
 
 /* Thumbnails arrow icons */
@@ -629,30 +629,30 @@ img.rsImg {max-width: none}
 .rsMinW .rsTab {display: inline-block; cursor: pointer; text-align: center; height: auto; width: auto; color: #333; padding: 5px 13px 6px; min-width: 72px; border: 1px solid #D9D9DD; border-right: 1px solid #f5f5f5; text-decoration: none; background-color: #000; background: linear-gradient(to bottom, #fefefe, #f4f4f4); display: inline; zoom: 1}
 .rsMinW .rsTab:first-child {-webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px}
 .rsMinW .rsTab:last-child {-webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; border-right: 1px solid #cfcfcf}
-.rsMinW .rsTab:active {border: 1px solid #D9D9DD; background-color: #f4f4f4; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset}
-.rsMinW .rsTab.rsNavSelected {color: #000; border: 1px solid #999; text-shadow: 1px 1px #838383; box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset; background-color:#ACACAC; background: linear-gradient(to bottom, #ACACAC, #BBB)}
+.rsMinW .rsTab:active {border: 1px solid #D9D9DD; background-color: #f4f4f4; box-shadow: 0 1px 4px rgba(0, 0, 0, .2) inset}
+.rsMinW .rsTab.rsNavSelected {color: #000; border: 1px solid #999; text-shadow: 1px 1px #838383; box-shadow: 0 1px 9px rgba(102, 102, 102, .65) inset; background-color:#ACACAC; background: linear-gradient(to bottom, #ACACAC, #BBB)}
 
 /* 5. Fullscreen button */
 .rsMinW .rsFullscreenBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 22; display: block; position: absolute; cursor: pointer}
 .rsMinW .rsFullscreenIcn {display: block; margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-minimal-white.png') 0 0 transparent}
-.rsMinW .rsFullscreenIcn:hover {opacity: 0.8}
+.rsMinW .rsFullscreenIcn:hover {opacity: .8}
 .rsMinW.rsFullscreen .rsFullscreenIcn {background-position: -32px 0}
 
 /* 6. Play/close video button */
-.rsMinW .rsPlayBtn {-webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); width: 64px; height: 64px; margin-left: -32px; margin-top: -32px; cursor: pointer}
-.rsMinW .rsPlayBtnIcon {width: 64px; display: block; height: 64px; border-radius: 4px; transition: .3s; background: url('/css/royalslider/rs-minimal-white.png') no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, 0.75); background-color: #000}
-.rsMinW .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, 0.9)}
+.rsMinW .rsPlayBtn {-webkit-tap-highlight-color: rgba(0, 0, 0, .3); width: 64px; height: 64px; margin-left: -32px; margin-top: -32px; cursor: pointer}
+.rsMinW .rsPlayBtnIcon {width: 64px; display: block; height: 64px; border-radius: 4px; transition: .3s; background: url('/css/royalslider/rs-minimal-white.png') no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, .75); background-color: #000}
+.rsMinW .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, .9)}
 .rsMinW .rsBtnCenterer {position: absolute; left: 50%; top: 50%; width: 20px; height: 20px}
 .rsMinW .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0)}
 .rsMinW .rsCloseVideoBtn.rsiOSBtn {top: -38px; right: -6px}
-.rsMinW .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-minimal-white.png') -64px 0; background-color: #000; background-color: rgba(0, 0, 0, 0.75); background-color: #000}
-.rsMinW .rsCloseVideoIcn:hover {background-color: rgba(0, 0, 0, 0.9)}
+.rsMinW .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-minimal-white.png') -64px 0; background-color: #000; background-color: rgba(0, 0, 0, .75); background-color: #000}
+.rsMinW .rsCloseVideoIcn:hover {background-color: rgba(0, 0, 0, .9)}
 
 /* 7. Preloader */
 .rsMinW .rsPreloader {width: 20px; height: 20px; background-image: url('/css/preloaders/preloader-white.gif'); left: 50%; top: 50%; margin-left: -10px; margin-top: -10px}
 
 /* 8. Global caption */
-.rsMinW .rsGCaption {position: absolute; float: none; bottom: 6px; left: 6px; text-align: left; background: #000; background: rgba(0, 0, 0, 0.75); color: #FFF; padding: 2px 8px; width: auto; font-size: 12px; border-radius: 2px}
+.rsMinW .rsGCaption {position: absolute; float: none; bottom: 6px; left: 6px; text-align: left; background: #000; background: rgba(0, 0, 0, .75); color: #FFF; padding: 2px 8px; width: auto; font-size: 12px; border-radius: 2px}
 .rsMinW, .rsMinW .rsOverflow, .rsMinW .rsSlide, .rsMinW .rsVideoFrameHolder, .rsMinW .rsThumbs, .rsSlide {background: transparent}
 
 /* RoyalSlider Default Skin */
@@ -667,8 +667,8 @@ img.rsImg {max-width: none}
 .rsDefault.rsVer .rsArrowRight {bottom: 0; left: 0}
 .rsDefault.rsHor .rsArrowLeft {left: 0; top: 0}
 .rsDefault.rsHor .rsArrowRight {right: 0; top: 0}
-.rsDefault .rsArrowIcn {width: 32px; height: 32px; top: 50%; left: 50%; margin-top: -16px; margin-left: -16px; position: absolute; cursor: pointer; background: url('/css/royalslider/rs-default.png'); background-color: #000; background-color: rgba(0, 0, 0, 0.75); background-color: #000; border-radius: 2px}
-.rsDefault .rsArrowIcn:hover {background-color: rgba(0, 0, 0, 0.9)}
+.rsDefault .rsArrowIcn {width: 32px; height: 32px; top: 50%; left: 50%; margin-top: -16px; margin-left: -16px; position: absolute; cursor: pointer; background: url('/css/royalslider/rs-default.png'); background-color: #000; background-color: rgba(0, 0, 0, .75); background-color: #000; border-radius: 2px}
+.rsDefault .rsArrowIcn:hover {background-color: rgba(0, 0, 0, .9)}
 .rsDefault.rsHor .rsArrowLeft .rsArrowIcn {background-position: -64px -32px}
 .rsDefault.rsHor .rsArrowRight .rsArrowIcn {background-position: -64px -64px}
 .rsDefault.rsVer .rsArrowLeft .rsArrowIcn {background-position: -96px -32px}
@@ -676,9 +676,9 @@ img.rsImg {max-width: none}
 .rsDefault .rsArrowDisabled .rsArrowIcn {opacity: .2; filter: alpha(opacity=20); display: none}
 
 /* 2. Bullets */
-.rsDefault .rsBullets {position: absolute; z-index: 35; left: 0; bottom: 0; width: 100%; height: auto; margin: 0 auto; background: #000; background: rgba(0, 0, 0, 0.75); text-align: center; line-height: 8px; overflow: hidden}
+.rsDefault .rsBullets {position: absolute; z-index: 35; left: 0; bottom: 0; width: 100%; height: auto; margin: 0 auto; background: #000; background: rgba(0, 0, 0, .75); text-align: center; line-height: 8px; overflow: hidden}
 .rsDefault .rsBullet {width: 8px; height: 8px; display: inline-block; display: inline; zoom: 1; padding: 6px 5px 6px}
-.rsDefault .rsBullet span {display: block; width: 8px; height: 8px; border-radius: 50%; background: #777; background: rgba(255, 255, 255, 0.5)}
+.rsDefault .rsBullet span {display: block; width: 8px; height: 8px; border-radius: 50%; background: #777; background: rgba(255, 255, 255, .5)}
 .rsDefault .rsBullet.rsNavSelected span {background-color: #FFF}
 
 /* 3. Thumbnails */
@@ -689,7 +689,7 @@ img.rsImg {max-width: none}
 .rsDefault .rsThumb {float: left; overflow: hidden; width: 96px; height: 72px}
 .rsDefault .rsThumb img {width: 100%; height: 100%}
 .rsDefault .rsThumb.rsNavSelected {background: #02874a}
-.rsDefault .rsThumb.rsNavSelected img {opacity: 0.3; filter: alpha(opacity=30)}
+.rsDefault .rsThumb.rsNavSelected img {opacity: .3; filter: alpha(opacity=30)}
 .rsDefault .rsTmb {display: block}
 
 /* Thumbnails with text */
@@ -697,8 +697,8 @@ img.rsImg {max-width: none}
 .rsDefault .rsTmb span {color: #DDD; margin: 0; padding: 0; font-size: 13px; line-height: 18px}
 
 /* Thumbnails arrow icons */
-.rsDefault .rsThumbsArrow {height: 100%; width: 20px; position: absolute; display: block; cursor: pointer; z-index: 21; background: #000; background: rgba(0, 0, 0, 0.75)}
-.rsDefault .rsThumbsArrow:hover {background: rgba(0, 0, 0, 0.9)}
+.rsDefault .rsThumbsArrow {height: 100%; width: 20px; position: absolute; display: block; cursor: pointer; z-index: 21; background: #000; background: rgba(0, 0, 0, .75)}
+.rsDefault .rsThumbsArrow:hover {background: rgba(0, 0, 0, .9)}
 .rsDefault.rsWithThumbsVer .rsThumbsArrow {width: 100%; height: 20px}
 .rsDefault.rsWithThumbsVer .rsThumbsArrowLeft {top: 0; left: 0}
 .rsDefault.rsWithThumbsVer .rsThumbsArrowRight {bottom: 0; left: 0}
@@ -721,30 +721,30 @@ img.rsImg {max-width: none}
 .rsDefault .rsTab {display: inline-block; cursor: pointer; text-align: center; height: auto; width: auto; color: #333; padding: 5px 13px 6px; min-width: 72px; border: 1px solid #D9D9DD; border-right: 1px solid #f5f5f5; text-decoration: none; background-color: #FFF; background: linear-gradient(to bottom, #fefefe, #f4f4f4); box-shadow: inset 1px 0 0 #fff; display: inline; zoom: 1}
 .rsDefault .rsTab:first-child {border-top-left-radius: 4px; border-bottom-left-radius: 4px}
 .rsDefault .rsTab:last-child {border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-right: 1px solid #cfcfcf}
-.rsDefault .rsTab:active {border: 1px solid #D9D9DD; background-color: #f4f4f4; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) inset}
-.rsDefault .rsTab.rsNavSelected {color: #FFF; border: 1px solid #999; text-shadow: 1px 1px #838383; box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset; background-color: #ACACAC; background: linear-gradient(to bottom, #ACACAC, #BBB)}
+.rsDefault .rsTab:active {border: 1px solid #D9D9DD; background-color: #f4f4f4; box-shadow: 0 1px 4px rgba(0, 0, 0, .2) inset}
+.rsDefault .rsTab.rsNavSelected {color: #FFF; border: 1px solid #999; text-shadow: 1px 1px #838383; box-shadow: 0 1px 9px rgba(102, 102, 102, .65) inset; background-color: #ACACAC; background: linear-gradient(to bottom, #ACACAC, #BBB)}
 
 /* 5. Fullscreen button */
 .rsDefault .rsFullscreenBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 22; display: block; position: absolute; cursor: pointer}
 .rsDefault .rsFullscreenIcn {display: block; margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-default.png') 0 0; background-color: #000; background-color: rgba(0, 0, 0, .75); background-color: #000; border-radius: 2px}
-.rsDefault .rsFullscreenIcn:hover {background-color: rgba(0, 0, 0, 0.9)}
+.rsDefault .rsFullscreenIcn:hover {background-color: rgba(0, 0, 0, .9)}
 .rsDefault.rsFullscreen .rsFullscreenIcn {background-position: -32px 0}
 
 /* 6. Play/close video button */
-.rsDefault .rsPlayBtn {-webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); width: 64px; height: 64px; margin-left: -32px; margin-top: -32px; cursor: pointer}
-.rsDefault .rsPlayBtnIcon {width: 64px; display: block; height: 64px; border-radius: 4px; transition: .3s; background: url('/css/royalslider/rs-default.png') no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, 0.75); background-color: #000}
-.rsDefault .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, 0.9)}
+.rsDefault .rsPlayBtn {-webkit-tap-highlight-color: rgba(0, 0, 0, .3); width: 64px; height: 64px; margin-left: -32px; margin-top: -32px; cursor: pointer}
+.rsDefault .rsPlayBtnIcon {width: 64px; display: block; height: 64px; border-radius: 4px; transition: .3s; background: url('/css/royalslider/rs-default.png') no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, .75); background-color: #000}
+.rsDefault .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, .9)}
 .rsDefault .rsBtnCenterer {position: absolute; left: 50%; top: 50%; width: 20px; height: 20px}
 .rsDefault .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0)}
 .rsDefault .rsCloseVideoBtn.rsiOSBtn {top: -38px; right: -6px}
-.rsDefault .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-default.png') -64px 0; background-color: #000; background-color: rgba(0, 0, 0, 0.75); background-color: #000}
-.rsDefault .rsCloseVideoIcn:hover {background-color: rgba(0, 0, 0, 0.9)}
+.rsDefault .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-default.png') -64px 0; background-color: #000; background-color: rgba(0, 0, 0, .75); background-color: #000}
+.rsDefault .rsCloseVideoIcn:hover {background-color: rgba(0, 0, 0, .9)}
 
 /* 7. Preloader */
 .rsDefault .rsPreloader {width: 20px; height: 20px; background-image: url(/css/preloaders/preloader-white.gif); left: 50%; top: 50%; margin-left: -10px; margin-top: -10px}
 
 /* 8. Global caption */
-.rsDefault .rsGCaption {position: absolute; float: none; bottom: 6px; left: 6px; text-align: left; background: rgb(0, 0, 0); background: rgba(0, 0, 0, 0.75); color: #FFF; padding: 2px 8px; width: auto; font-size: 12px; border-radius: 2px}
+.rsDefault .rsGCaption {position: absolute; float: none; bottom: 6px; left: 6px; text-align: left; background: rgb(0, 0, 0); background: rgba(0, 0, 0, .75); color: #FFF; padding: 2px 8px; width: auto; font-size: 12px; border-radius: 2px}
 
 /* Teaser Vorteile bei SETON */
 .Teaser-Vorteile-bei-SETON .Rahmen-Inhalt {padding-bottom: 20px}
@@ -781,7 +781,7 @@ img.rsImg {max-width: none}
 .Teaser-Ostereiersuche .Button-klein-T-Zum-Gewinnspiel {position: absolute; bottom: 0; right: 0}
 
 /* Teaser Kontakt */
-.Teaser-Kontakt .Hotline span, .Teaser-Kontakt .Fax span, .Teaser-Kontakt .Mail span, .Teaser-Kontakt .Anschrift span {font-size: 0.9rem; color: #8A8A8A; display: block; letter-spacing: 0; font-weight: normal}
+.Teaser-Kontakt .Hotline span, .Teaser-Kontakt .Fax span, .Teaser-Kontakt .Mail span, .Teaser-Kontakt .Anschrift span {font-size: .9rem; color: #8A8A8A; display: block; letter-spacing: 0; font-weight: normal}
 
 /* Top-Suchbegriffe */
 .Top-Suchbegriffe {text-align: center}
@@ -791,7 +791,7 @@ img.rsImg {max-width: none}
 .Top-Suchbegriffe .SuchbegriffSize4 {font-size: 16pt}
 
 /* Designcode-Artikelauswahl ==========================*/
-.Designcode-Artikelauswahl .label {margin: 0 0 0.3rem 0; font-weight: bold}
+.Designcode-Artikelauswahl .label {margin: 0 0 .3rem 0; font-weight: bold}
 
 /* PDS Produktbilder mit JS */
 .Designcode-Artikelauswahl .royalSlider {width:100%; height: 315px; display: inline-block; margin: 0; max-width: 100%}
@@ -809,7 +809,7 @@ img.rsImg {max-width: none}
 .rsArrowDisabled {display: none !important}
 
 /* Bildbeschreibung */
-.Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption {bottom: 72px; width: 100%; background-color: rgba(255, 255, 255, 0.9); box-sizing: border-box; padding: 0; border-radius: 0; left: 0}
+.Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption {bottom: 72px; width: 100%; background-color: rgba(255, 255, 255, .9); box-sizing: border-box; padding: 0; border-radius: 0; left: 0}
 .Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure {padding: .5rem 1rem; text-align: center; margin: 0}
 
 /* Horizontale Thumb-Scrollleiste */
@@ -821,7 +821,7 @@ img.rsImg {max-width: none}
 
 /* 360-Bilder */
 .Designcode-Artikelauswahl .Rotating-image #spritespin {height: auto; width: 314px; max-width: 314px; max-height: 314px; margin: 0 auto}
-.Designcode-Artikelauswahl .Rotating-image .Buttons-360 {width: 100%; height: 40px; background: #fff; position: absolute; bottom: 0; left: 0; opacity: 0.6}
+.Designcode-Artikelauswahl .Rotating-image .Buttons-360 {width: 100%; height: 40px; background: #fff; position: absolute; bottom: 0; left: 0; opacity: .6}
 .Designcode-Artikelauswahl .Rotating-image #reverse {display: none; visibility: hidden}
 .Designcode-Artikelauswahl .Rotating-image #prev, .Designcode-Artikelauswahl .Rotating-image #toggle, .Designcode-Artikelauswahl .Rotating-image #next {display: inline-block; font-size: 3rem; margin: .5rem; cursor: pointer; opacity: .75}
 .Designcode-Artikelauswahl .Rotating-image #prev:hover, .Designcode-Artikelauswahl .Rotating-image #toggle:hover, .Designcode-Artikelauswahl .Rotating-image #next:hover {opacity: 1; box-shadow: none}
@@ -850,7 +850,7 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl-NJS .bugaga:first-child {width: 315px; height: 315px; margin: 0 0 9px 0}
 .Designcode-Artikelauswahl #KeinHauptbild {font-size: .9rem}
 .Designcode-Artikelauswahl #hauptbilda img {width: 100%}
-.Designcode-Artikelauswahl #KeinHauptbild span {display: block; color: #999; line-height: 1.3; background: #fff; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; filter: alpha(opacity=80); -khtml-opacity: 0.8; opacity: 0.8; margin: 0 !important; padding: 8px 80px 8px 10px !important; margin-right: 20px}
+.Designcode-Artikelauswahl #KeinHauptbild span {display: block; color: #999; line-height: 1.3; background: #fff; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; filter: alpha(opacity=80); -khtml-opacity: .8; opacity: .8; margin: 0 !important; padding: 8px 80px 8px 10px !important; margin-right: 20px}
 #Wischer-Rabatt {position: absolute; top: 0; display: block; left: 0}
 #Videos {position: absolute; top: 0; left: 0}
 #Crosseller .label {border-bottom: 1px solid #ccc; line-height: 1.5rem; font-size: 1rem; font-weight: bold}
@@ -860,7 +860,7 @@ img.rsImg {max-width: none}
 .Dropdowns-item label {width: 35%; overflow: hidden; text-overflow: ellipsis; display: inline-block; vertical-align: middle}
 .Inventarketiketten-Designer .Dropdowns-item label {width: 100%}
 .Dropdowns-item select {width: 65%}
-.info_pulldown_changed {font-size: 0.9rem; color: #FF0000; display: none; padding: 3px 0}
+.info_pulldown_changed {font-size: .9rem; color: #FF0000; display: none; padding: 3px 0}
 .Produktdaten .Dropdowns a {text-decoration: underline}
 .Produktdaten .Dropdowns #produkt-details {margin: 0 0 10px 0}
 .Produktdaten .article-Dropdowns table {border-collapse: collapse; width: auto; padding: 0; margin: 0; border-spacing: 0; font-size: 1rem}
@@ -870,10 +870,10 @@ img.rsImg {max-width: none}
 #Kundenwunsch textarea {width: 96%}
 #alle-artikel-anzeigen {padding: 15px 0 0 0; display: block}
 .PDS .Produktergebnis-inner, #orderinfo {padding: 1rem 1rem 0 1rem}
-.Artikelnummmer {margin: 0.5rem 0}
+.Artikelnummmer {margin: .5rem 0}
 .Content .Preisbox {text-align: right}
 .Preisbox .Preis {font-size: 1rem; font-weight: bold; margin-bottom: 5px; white-space: nowrap}
-.Preisbox .zzgl-MwSt {font-size: 0.8rem; margin: 0}
+.Preisbox .zzgl-MwSt {font-size: .8rem; margin: 0}
 .Preisbox .Rabatt {font-size: 1.2rem; color: #f00; font-weight: bold; margin: 0}
 .Inventarketiketten-Designer .Preisbox {position: absolute; right: 30px; top: 80px}
 .Einrichtungsgebuehr .tooltip {width: 230px; text-align: left; left: auto; right: 0; top: 25px}
@@ -896,7 +896,7 @@ img.rsImg {max-width: none}
 .Preisstaffel td {text-align: right}
 .Preisstaffel td:first-child {text-align: left ; padding-left: 1rem}
 .Preisstaffel td:last-child {padding-right: 1rem}
-.Designcode-Artikelauswahl .Produktdaten #Zuschlaege {margin-bottom: 10px; font-size: 0.9rem}
+.Designcode-Artikelauswahl .Produktdaten #Zuschlaege {margin-bottom: 10px; font-size: .9rem}
 
 /* Kopfnummerninfos */
 .Inventarketiketten-Designer .Produkttabelle-Zuschlaege {margin: 15px 0}
@@ -928,7 +928,7 @@ img.rsImg {max-width: none}
 .social_share_privacy_area .twitter {width: 90px !important}
 .social_share_privacy_area .tweet {width: 55px !important}
 .social_share_privacy_area li.help_info .info {display: none !important}
-.Designcode-Artikelauswahl .Drucken, #socialshareprivacy {display: inline-block;vertical-align: top}
+.Designcode-Artikelauswahl .Drucken, #socialshareprivacy {display: inline-block; vertical-align: top}
 .Produktliste h2, .Tab-Content h2, .Produktliste h3, .Tab-Content h3 {margin-top: 0}
 #PDS-Content .Wischer {float: right; margin: -5px 0 0 5px}
 #Kopfnummernbeschreibung .pds-desc-title {border-bottom: 1px solid #ccc; margin: 0 0 15px 0}
@@ -948,7 +948,7 @@ img.rsImg {max-width: none}
 .Produkt-Slider .Topseller-Preis {color: #3f3f3f; font-weight: bold; display: block}
 
 /* Subnavi */
-.Filter, .Subnavigation, .Subnavigation > ul, .PUES-Preis-Slider, .PUES-Subnavigation-Kategorien ul {overflow: hidden; position: relative; list-style-type: none;margin-left: 0}
+.Filter, .Subnavigation, .Subnavigation > ul, .PUES-Preis-Slider, .PUES-Subnavigation-Kategorien ul {overflow: hidden; position: relative; list-style-type: none; margin-left: 0}
 .PUES-Subnavigation-Subsubkategorien ul {margin: 0 0 0 1.25rem}
 .PUES-Subnavigation-Filter .PUES-Preis-Slider {display: none; overflow: visible}
 .PUES-Subnavigation-Filter .PUES-Preis-Slider .fact-finder-onetouchslider-bar .fact-finder-onetouchslider-triangle {display: none !important}
@@ -957,15 +957,15 @@ img.rsImg {max-width: none}
 .Subnavigation li {border-bottom: 1px dashed #ccc}
 aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .Subnavigation ul > li a {padding-left: 0}
-.Filter li a {padding: 0 0 .25rem 0;line-height: 1.5rem}
+.Filter li a {padding: 0 0 .25rem 0; line-height: 1.5rem}
 [class*="PUES-Subnavigation-"] a:hover, [class*="PUES-Subnavigation-"] a.active {text-decoration: underline}
 [class*="PUES-Subnavigation-"] li.Titel-Balken-hellgrau {margin: 0}
 .Subnavigation-Titel span a, .Titel-grauer-Balken span a, .Titel-grauer-Balken a {color: #3e3e3e; font-weight: bold; margin: 0; font-size: 1rem}
 .Filterbezeichnung {font-weight: bold; margin: 0}
 .Filterparameter a:hover, .Filterparameter a:focus, .Filterparameter a.active {text-decoration: none; font-weight: normal}
-.Mehr-Filter {position: absolute; left: -.25rem; bottom: 0; padding: 0; text-align: center; ;cursor: pointer}
-.Mehr-Filter:before {content: "\33"; font-size: 1.25rem; display: inline-block; vertical-align: middle;padding: 0 0 .25rem; transition: all .25s ease}
-.Mehr-Filterparameter:checked + .Mehr-Filter:before {-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg);padding: .25rem 0 0}
+.Mehr-Filter {position: absolute; left: -.25rem; bottom: 0; padding: 0; text-align: center; ; cursor: pointer}
+.Mehr-Filter:before {content: "\33"; font-size: 1.25rem; display: inline-block; vertical-align: middle; padding: 0 0 .25rem; transition: all .25s ease}
+.Mehr-Filterparameter:checked + .Mehr-Filter:before {-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg); padding: .25rem 0 0}
 .Mehr-Filterparameter {display: none}
 .Filterparameter {max-height: 7.25rem; overflow: hidden; transition: max-height .5s ease-out}
 .Mehr-Filter + .Filterparameter {margin-bottom: 1.5rem}
@@ -1019,7 +1019,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .list.products .Lieferbarkeit {color: #777; font-size: .9rem}
 .list.products a:hover .Preis-Lieferbarkeit {text-decoration: none}
 .list.products .Produkt-nicht-verfuegbar .Text-Produkt-nicht-verfuegbar {position: absolute; margin: 0; top: 50px; text-align: center; z-index: 1}
-.list.products .Produkt-nicht-verfuegbar .Bildsperre-Produkt-nicht-verfuegbar {background: #ccc; width: 100%; height: 100%; position: absolute; top: 0; left: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)"; filter: alpha(opacity=30); -khtml-opacity: 0.3; opacity: 0.3; z-index: 1}
+.list.products .Produkt-nicht-verfuegbar .Bildsperre-Produkt-nicht-verfuegbar {background: #ccc; width: 100%; height: 100%; position: absolute; top: 0; left: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)"; filter: alpha(opacity=30); -khtml-opacity: .3; opacity: .3; z-index: 1}
 
 .grid-view.products h2 + .Bild {height: 150px}
 .grid-view.products .Produkt-Name {text-align: center}
@@ -1049,7 +1049,7 @@ ul.grid-view, ul.list-view {margin: 0}
 
 .list-view.products .col9 {overflow:hidden; display:block; margin: 1rem 0 .5rem 0; font-size: 1rem}
 .list-view.products [id*="Artikelnummer_"] {display:none}
-.list-view.products [id*="Dropdowns_"] {margin: 1.5em 0 0.5rem 0}
+.list-view.products [id*="Dropdowns_"] {margin: 1.5em 0 .5rem 0}
 
 .list-view.products [id*="AllgArtMerkTabelle_"] {border-collapse:separate; border-spacing:0; width:100%}
 .list-view.products [id*="AllgArtMerkTabelle_"] th,
@@ -1083,15 +1083,15 @@ ul.grid-view, ul.list-view {margin: 0}
 /* ==========================*/
 /* Pure CSS Slider */
 /* ==========================*/
-.cc-slider {position: relative; -webkit-transform: translateZ(0); transition: all 0.1s ease-out}
+.cc-slider {position: relative; -webkit-transform: translateZ(0); transition: all .1s ease-out}
 .cc-slider label {/* color: #ef023f; */ cursor: pointer; text-decoration: none}
 .cc-slider label:hover {/* background-color: #DDD */}
 .cc-slides {display: inline-block; width: 100%; box-sizing: border-box}
-.cc-slides .inner {width: 1000%; -webkit-transform: translateZ(0); transition: all 800ms cubic-bezier(0.770, 0.000, .175, 1.000)}
+.cc-slides .inner {width: 1000%; -webkit-transform: translateZ(0); transition: all 800ms cubic-bezier(0.770, .000, .175, 1.000)}
 
 /* Fuer Thumbnail-Buttons, Verwendung:Testimonials auf Streusalz-Seite */
 .cc-slider-thumbnail-buttons .controls {width: 100%; height: 10px; margin: 0 0 10px 0; display: block}
-.cc-slider-thumbnail-buttons .controls label {display: inline-block; width: 10px; height: 10px; float: left; margin-right: 7px; text-align: center; padding: 5px; line-height: 10px; color: #fff; font-weight: bold; background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.05) 100%); box-shadow: 0 0 6px rgba(33, 33, 33, .3); border-radius: 4px; border: 1px solid #aaa}
+.cc-slider-thumbnail-buttons .controls label {display: inline-block; width: 10px; height: 10px; float: left; margin-right: 7px; text-align: center; padding: 5px; line-height: 10px; color: #fff; font-weight: bold; background: linear-gradient(to bottom, rgba(255, 255, 255, .5) 0%, rgba(0, 0, 0, .05) 100%); box-shadow: 0 0 6px rgba(33, 33, 33, .3); border-radius: 4px; border: 1px solid #aaa}
 .cc-slider-thumbnail-buttons .slide1:checked ~ .controls label:nth-child(1), .cc-slider-thumbnail-buttons .slide2:checked ~ .controls label:nth-child(2), .cc-slider-thumbnail-buttons .slide3:checked ~ .controls label:nth-child(3), .cc-slider-thumbnail-buttons .slide4:checked ~ .controls label:nth-child(4),  .cc-slider-thumbnail-buttons .slide5:checked ~ .controls label:nth-child(5) {background-color: #BBB}
 
 /* Sliderpfeile rechts und links */
@@ -1170,7 +1170,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .Schildersuche .Seiteanzeige {white-space: nowrap}
 .Schildersuche .Seiteanzeige .pagingCurrent {font-weight: bold}
 .Schilder-Suche label {vertical-align: middle}
-.Schilder-Suche input[type=text] {width: 230px; margin: 0 -4px 0 10px;height: 2.25rem;vertical-align: bottom}
+.Schilder-Suche input[type=text] {width: 230px; margin: 0 -4px 0 10px; height: 2.25rem; vertical-align: bottom}
 .suggestLayerSchildersuche {background: #FFF}
 
 /* Softsearch */
@@ -1199,7 +1199,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .Schilder-Banner h2 {color: #fff !important; font-size: 1.2rem; margin: 0}
 .Schilder-Banner h3 {color: #eaf4ff; font-size: 1.1rem; margin: 0}
 .Schilder-Banner ul {color: #eaf4ff; padding: 0; margin: 10px 0 0 0; list-style-type: none}
-.Schilder-Banner li {color: #eaf4ff; margin: 0.5rem 0}
+.Schilder-Banner li {color: #eaf4ff; margin: .5rem 0}
 .Schilder-Banner .Schilder-Suchformular {position: absolute; top: 75px; right: 125px; z-index: 3; width: 165px; height: 10px}
 .Schilder-Banner #searchQuery {position: absolute; top: 0; left: 0; height: 21px; width: 130px; padding: 0; line-height: 21px}
 .Schilder-Banner .SuchButton {position: absolute; top: 0; right: 0}
@@ -1208,7 +1208,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .Schilder-Grid-System .Grid4 {width: 251px !important; height: 215px; border: 1px solid #335F8A; text-align: center}
 .Schilder-Grid-System .Grid4 h5 {height: 28px; padding: 5px; text-align: left; background: url(/images/Allgemein/Hintergruende-horizontal.jpg) repeat-x 0 -157px}
 .Schilder-Grid-System .Grid4 img, .Schilder-Rubrik img {margin: 5px 0 0 0}
-.Schilder-Grid-System .Grid4 p {margin: 5px 5px 0 5px; text-align: left; font-size: 0.9rem}
+.Schilder-Grid-System .Grid4 p {margin: 5px 5px 0 5px; text-align: left; font-size: .9rem}
 .Schilder-Rubrik {width: 225px; height: 215px; float: left; border: 1px solid #335F8A; margin: 0 10px 10px 0; text-align: center}
 .Schilder-Rubrik p {margin: 5px 5px 0 5px; text-align: left; font-size: .9rem}
 .Schilder-Info {border: 1px solid #bf0d18 !important}
@@ -1265,7 +1265,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .FileUpload {overflow-x: hidden; overflow-y: auto; width: 90%; padding: 20px 5%}
 .FileUpload .Datei-Upload {position: relative; width: 515px}
 .FileUpload .Datei-Uploads {margin: 20px 0}
-.FileUpload .Weiterfuehrender-Link {position: relative;right: auto;bottom: auto}
+.FileUpload .Weiterfuehrender-Link {position: relative; right: auto; bottom: auto}
 .vortn .Radio-Button {text-align: right; padding-right: 5px; min-width: 110px}
 .vortn .Radio-Button input {margin: 0 !important}
 #geschenke h3 {margin: 0}
@@ -1273,7 +1273,7 @@ ul.grid-view, ul.list-view {margin: 0}
 /* Checkout ==========================*/
 /* Kopfnavigation */
 .Kopfnavigation {background-color: #00609F; margin: 0 0 1rem; overflow: hidden; height: 3.5rem}
-.Kopfnavigation div {color: #fff;display: inline-block;vertical-align: baseline}
+.Kopfnavigation div {color: #fff; display: inline-block; vertical-align: baseline}
 .Schritt-1-Adresseingabe, .Schritt-2-Bestellung-pruefen {line-height: 3.5rem; width: 47%; margin: 0 -4px 0 0; position: relative}
 .Schritt-1-Adresseingabe {width: 49%}
 .Schritt-1-Adresseingabe:after {
@@ -1285,7 +1285,7 @@ ul.grid-view, ul.list-view {margin: 0}
 	height: 2.5rem;
 	/* as you see the rotated square takes a larger height. which makes it tough to position it properly. So we are going to scale it down so that the diagonals become equal to the line-height of the link. We scale it to 70.7% because if square's:
 	length = 1; diagonal = (1^2 + 1^2)^0.5 = 1.414 (pythagoras theorem)
-	if diagonal required = 1; length = 1/1.414 = 0.707*/
+	if diagonal required = 1; length = 1/1.414 = .707*/
 	/* transform: scale(0.707) rotate(45deg); */
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -1539,10 +1539,10 @@ textarea {height: 4rem}
 .Weltkugel-SETON-International .ul-left {margin: 0 0 0 20%; text-align: right; float: left}
 
 /* Plaketten-Uebersicht ==========================*/
-.Plaketten-Uebersicht .Materialmerkmale-Grid-System, .Plaketten-Uebersicht .Einsatzbereiche-Grid-System {font-size: 0.9rem}
+.Plaketten-Uebersicht .Materialmerkmale-Grid-System, .Plaketten-Uebersicht .Einsatzbereiche-Grid-System {font-size: .9rem}
 .Plaketten-Uebersicht .Einsatzbereiche-Grid-System img {margin-bottom: 5px !important}
 .Plaketten-Uebersicht .Materialeigenschaften-Grid-System img {margin-bottom: 5px}
-.Plaketten-Uebersicht .Lieferformen-Grid-System {font-size: 0.9rem; text-align: center}
+.Plaketten-Uebersicht .Lieferformen-Grid-System {font-size: .9rem; text-align: center}
 
 /* Kantenschutz ==========================*/
 .Right {float: right; margin-right: 0}
@@ -1663,7 +1663,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 .lieferantenlogos {border-top: 1px solid #d3d3d3; border-bottom: 1px solid #d3d3d3; padding: 15px 0; height: 100px}
 .lieferantenlogos img {margin: 0 24px 0 0}
 .lieferantenlogos h2 {margin-top: 0 !important}
-#ie8msg {background: #FDF2AB; padding: 5px 10px; font-size: 0.9rem; position: relative}
+#ie8msg {background: #FDF2AB; padding: 5px 10px; font-size: .9rem; position: relative}
 #ie8msg p {margin: 0}
 #ie8msg #ie8msg-close {position: absolute; top: 5px; right: 10px; font-weight: bold; font-size: 1.2rem; cursor: pointer}
 
@@ -1703,11 +1703,11 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	input[type="number"] {-webkit-appearance: textfield !important; -moz-appearance: textfield !important; appearance: textfield !important}
 	input[type="number"]:-webkit-outer-spin-button, input[type="number"]:-webkit-inner-spin-button {-webkit-appearance: none !important; -moz-appearance: none !important; appearance: none !important; margin:0}
 	input[type="number"] {-moz-appearance:textfield}
-	.Checkout nav {background-color: #bababa; height: 3.15rem;margin: 0 0 1rem}
+	.Checkout nav {background-color: #bababa; height: 3.15rem; margin: 0 0 1rem}
 	.Checkout nav li {display: none}
 	.Checkout #nav-home {display: block}
-	.Checkout nav a {display: block;height: 2.5rem; padding: .35rem .5rem .3rem .75rem;color: #fff}
-	.Checkout .Artikelsuche, .Checkout .Warenkorb, .Checkout-Adresseingabe nav, .Checkout-Check-and-Send nav, .Checkout #Breadcrumbs {display: none;visibility: hidden}}
+	.Checkout nav a {display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; color: #fff}
+	.Checkout .Artikelsuche, .Checkout .Warenkorb, .Checkout-Adresseingabe nav, .Checkout-Check-and-Send nav, .Checkout #Breadcrumbs {display: none; visibility: hidden}}
 
 @media only screen and (min-width:768px) {
 	.Artikelsuche {position: relative}
@@ -1721,7 +1721,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.Zwei-Spalter-Sidebar-left .Content, .Drei-Spalter .Content, #Footer_Bereichstext {float: right; padding: 0 1.25% 0}
 	.Drei-Spalter .Content {margin-left: -74.68%; margin-right: 25.31%}
 	.Zwei-Spalter-Sidebar-right .Content {float: left; padding: 0 1.25% 0}
-	.Zwei-Spalter-Sidebar-right .Sidebar.right {margin: 0 1.25% 0.75rem 0; float:right}
+	.Zwei-Spalter-Sidebar-right .Sidebar.right {margin: 0 1.25% .75rem 0; float:right}
 	.items-1 .item {border: 0 !important}
 	.items-2 :nth-child(2n+2), .items-3 :nth-child(3n+3), .items-4 :nth-child(4n+4), .items-5 :nth-child(5n+5), .items-6 :nth-child(6n+6), .items-7 :nth-child(7n+7), .items-8 :nth-child(8n+8), .items-9 :nth-child(9n+9), .items-10 :nth-child(10n+10), .cc-slider .item:last-child, .grid-view .item:nth-child(3n) {border-right: 0 none}
 	.Produkttabelle .Anzahl {width: 15%}
