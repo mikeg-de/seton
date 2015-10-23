@@ -125,8 +125,6 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 .Info-Link .Info-Text p, .Info-Link .Info-Text-JS p {margin-top: 0; width: auto !important}
 .Info-Link:hover .Info-Text {display: block}
 
-.Hinweis p {margin: .5rem 0 0}
-
 /* New Check-Out styling with enhanced forms*/
 .Checkout .Artikelsuche, .Checkout .Warenkorb, .Checkout nav, .Checkout .hidden, fieldset legend {display: none; visibility: hidden}
 .Checkout fieldset {border: 0 none; clear: both; width: 100%; padding: 0; margin: 0}
@@ -550,7 +548,7 @@ margin: 0 .25rem 0 -1rem}
 .rsHidden {opacity: 0; visibility: hidden; transition: visibility 0s linear .3s, opacity .3s linear}
 .rsGCaption {width: 100%; float: left; text-align: center}
 
-/* Fullscreen options, very important ^^ */
+/* Fullscreen options, very important */
 .royalSlider.rsFullscreen {position: fixed !important; height: auto !important; width: auto !important; margin: 0 !important; padding: 0 !important; z-index: 1000 !important; top: 0 !important; left: 0 !important; bottom: 0 !important; right: 0 !important}
 .royalSlider .rsSlide.rsFakePreloader {opacity: 1 !important; transition: 0s; display: none}
 .rsSlide {position: absolute; left: 0; top: 0; display: block; overflow: hidden; height: 100%; width: 100%}
@@ -1277,13 +1275,9 @@ ul.grid-view, ul.list-view {margin: 0}
 /* Checkout ==========================*/
 /* Kopfnavigation */
 .Kopfnavigation {background-color: #00609F; margin: 0 0 1rem; overflow: hidden; height: 3.5rem}
-.Kopfnavigation {color: #fff;display: block;/* vertical-align: top; */}
-.Text {
-	z-index: 10;
-	font-size: 1rem;
-	position: relative;
-}
-.Schritt-1-Adresseingabe, .Schritt-2-Bestellung-pruefen {line-height: 3.5rem;width: 47%;position: relative;float: left;}
+.Kopfnavigation {color: #fff; display: block;line-height: 3.5rem;}
+.Text {z-index: 10; font-size: 1rem; position: relative}
+.Schritt-1-Adresseingabe, .Schritt-2-Bestellung-pruefen {/* line-height: 3.5rem; */width: 47%;position: relative;float: left;}
 .Schritt-1-Adresseingabe {width: 49%}
 .Schritt-1-Adresseingabe:after {
 	content: '';
@@ -1713,9 +1707,9 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	input[type="number"]:-webkit-outer-spin-button, input[type="number"]:-webkit-inner-spin-button {-webkit-appearance: none !important; -moz-appearance: none !important; appearance: none !important; margin:0}
 	input[type="number"] {-moz-appearance:textfield}
 	.Checkout nav {background-color: #bababa; height: 3.15rem; margin: 0 0 1rem}
-	.Checkout nav li {display: none}
+	.Checkout nav li, #Breadcrumbs {display: none}
 	.Checkout #nav-home {display: block}
-	.Checkout nav a {display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; color: #fff}}
+	.Checkout nav a {display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; color: #fff} }
 
 @media only screen and (min-width:768px) {
 	.Artikelsuche {position: relative}
@@ -1735,4 +1729,5 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.Produkttabelle .Anzahl {width: 15%}
 	.Produkttabelle .Anzahl .Eingabefeld {float: left}
 	.Anzahl a {float: left}
-	.Produkttabelle .Einzelpreis-abzgl-Rabatt, .Produkttabelle .Einzelpreis, .Produkttabelle .Summe {text-align: right; width: 50px} }
+	.Produkttabelle .Einzelpreis-abzgl-Rabatt, .Produkttabelle .Einzelpreis, .Produkttabelle .Summe {text-align: right; width: 50px}
+	.Hinweis p {margin: .5rem 0 0} }
