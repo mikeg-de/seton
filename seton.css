@@ -126,7 +126,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 .Info-Link:hover .Info-Text {display: block}
 
 /* New Check-Out styling with enhanced forms*/
-.Checkout .Artikelsuche, .Checkout .Warenkorb, .Checkout .hidden, fieldset legend {display: none; visibility: hidden}
+.Checkout .Artikelsuche, .Checkout .Warenkorb, .Checkout-Adresseingabe nav, .Checkout-Check-and-Send nav, .Checkout .hidden, fieldset legend {display: none; visibility: hidden}
 .Checkout fieldset {border: 0 none; clear: both; width: 100%; padding: 0; margin: 0}
 #Add_Lieferadresse ~ fieldset {opacity: 0; max-height: 0; overflow: hidden; visibility: hidden; zoom: 1; transition: opacity .25s ease-out .25s, max-height .5s ease-out}
 #Add_Lieferadresse:checked ~ .Add_Lieferadresse, #Add_Rechnungsadresse:checked ~ .Add_Rechnungsadresse {opacity: 1; max-height: 2000px; display: block; visibility: visible; transition: opacity .25s ease-in, max-height .5s ease-in}
