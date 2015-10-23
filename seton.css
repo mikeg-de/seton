@@ -1707,7 +1707,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	input[type="number"]:-webkit-outer-spin-button, input[type="number"]:-webkit-inner-spin-button {-webkit-appearance: none !important; -moz-appearance: none !important; appearance: none !important; margin:0}
 	input[type="number"] {-moz-appearance:textfield}
 	.Checkout nav {background-color: #bababa; height: 3.15rem; margin: 0 0 1rem}
-	.Checkout nav li, #Breadcrumbs {display: none}
+	.Checkout nav li, .Checkout #Breadcrumbs {display: none}
 	.Checkout #nav-home {display: block}
 	.Checkout nav a {display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; color: #fff} }
 
