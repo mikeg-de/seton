@@ -126,7 +126,8 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 .Info-Link:hover .Info-Text {display: block}
 
 /* New Check-Out styling with enhanced forms*/
-.Checkout .Artikelsuche, .Checkout .Warenkorb, .Checkout-Adresseingabe nav, .Checkout-Check-and-Send nav, .Checkout .hidden, fieldset legend {display: none; visibility: hidden}
+.Checkout .Artikelsuche, .Checkout .Warenkorb, .Checkout-Adresseingabe nav, .Checkout-Check-and-Send nav, .Checkout .hidden, fieldset legend {display: none;visibility: hidden;}
+.Checkout-Warenkorb .Artikelsuche, .Checkout-Warenkorb .Warenkorb {display: inline-block; visibility: visible}
 .Checkout fieldset {border: 0 none; clear: both; width: 100%; padding: 0; margin: 0}
 #Add_Lieferadresse ~ fieldset {opacity: 0; max-height: 0; overflow: hidden; visibility: hidden; zoom: 1; transition: opacity .25s ease-out .25s, max-height .5s ease-out}
 #Add_Lieferadresse:checked ~ .Add_Lieferadresse, #Add_Rechnungsadresse:checked ~ .Add_Rechnungsadresse {opacity: 1; max-height: 2000px; display: block; visibility: visible; transition: opacity .25s ease-in, max-height .5s ease-in}
@@ -139,13 +140,13 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 [class*="_Anrede"], [class*="_Land"], .Checkout .Content [type="checkbox"], .kundenadr_Kundennummer {clear: both; display: block;}
 [class*="_Anrede"] select, [class*="_Land"] select, .col3 input {width: 100%}
 .Checkout [type="checkbox"] {float: left}
-.Checkout button {margin-left: 32%}
+.Adresseingabe button {margin-left: 32%}
 .Kundennummer-Prefix {position: absolute; left: .25rem; top: 1.75rem}
 #kundenadr_Kundennummer {padding-left: 2rem}
 
 /* Basic field definitions */
 label:hover, label:focus {cursor: pointer}
-input:not([type="checkbox"]), textarea, select {padding: 5px 5px 2px 5px; border-radius: 0; height: 2rem; box-sizing: border-box; border: 1px solid #999; font-size: inherit;margin-bottom: 1.25%;}
+input:not([type="checkbox"]), textarea, select {padding: 5px 5px 2px 5px; border-radius: 0; height: 2rem; box-sizing: border-box; border: 1px solid #999; font-size: inherit;margin-bottom: 1.25%}
 :required, .required input, .required select {border-color: #000}
 select {height: 2rem; -webkit-appearance: menulist; -moz-appearance: menulist; appearance: menulist}
 select:hover, input:hover {box-shadow: 0 0 3px 1px #999}
@@ -759,7 +760,7 @@ img.rsImg {max-width: none}
 .Teaser-Vorteilsnummer #rabatt p, .Teaser-Vorteilsnummer #hinweis p {padding-bottom: 20px; margin-bottom: 0}
 .Checkout .Teaser-Vorteilsnummer {float: left; margin: 10px 0}
 .Checkout .Teaser-Vorteilsnummer .Rahmen {box-shadow: none; border: 1px solid #ccc}
-.Checkout .Teaser-Vorteilsnummer .Eingabefeld {width: 100px; margin-right: 10px}
+.Checkout .Teaser-Vorteilsnummer .Eingabefeld {width: 100px;float: left;}
 .Checkout .Teaser-Vorteilsnummer .Button-klein-T-Hinzufuegen {float: left; margin-top: 10px}
 .Checkout .Teaser-Vorteilsnummer #hinweis {padding-top: 10px}
 
@@ -1269,7 +1270,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .FileUpload .Datei-Uploads {margin: 20px 0}
 .FileUpload .Weiterfuehrender-Link {position: relative; right: auto; bottom: auto}
 .vortn .Radio-Button {text-align: right; padding-right: 5px; min-width: 110px}
-.vortn .Radio-Button input {margin: 0 !important}
+.vortn .Radio-Button input {margin: 0;}
 #geschenke h3 {margin: 0}
 
 /* Checkout ==========================*/
