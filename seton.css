@@ -152,8 +152,8 @@ select {height: 2rem; -webkit-appearance: menulist; -moz-appearance: menulist; a
 select:hover, input:hover {box-shadow: 0 0 3px 1px #999}
 button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #4d90fe}
 
-.optional {opacity: .75; transition: opacity .5s ease-out}
-.optional:hover, .optional:focus {opacity: 1; transition: opacity .5s ease-in}
+.optional label, .optional input {opacity: .75; transition: opacity .5s ease-out}
+.optional:hover label, .optional:focus label, .optional:hover input, .optional:focus input {opacity: 1; transition: opacity .5s ease-in}
 
 .required .LV_valid_field, .optional .LV_valid_field {border-color: #19B201}
 .required .LV_invalid_field, .optional .LV_invalid_field {border-color: #F00}
