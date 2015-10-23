@@ -81,13 +81,13 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 
 	/* Check Out */
 	.Checkout #Breadcrumbs {height: 2.75rem; text-indent: -99999px; display: block;margin: 0 0 1rem;}
-	.Checkout .pure-toggle-label[data-toggle-label='left'] {display: none}
+	.Checkout-Adresseingabe .pure-toggle-label[data-toggle-label='left'], .Checkout-Check-and-Send .pure-toggle-label[data-toggle-label='left'] {display: none}
 	.Kopfnavigation {width: 100%; position: fixed; top: 0;height: 2.75rem; z-index: 100; left: 2.75rem;line-height: 2.75rem;margin: 0}
 	.Schritt-1-Adresseingabe {width: 47%}
 	.Schritt-1-Adresseingabe:after {width: 2rem; height: 2rem}
 	.Schritt-2-Bestellung-pruefen .Zahl {margin-left: .5rem}
 	.Text {font-size: inherit}
-	.Checkout .Logo {margin-left: .5rem}
+	.Checkout-Adresseingabe .Logo, .Checkout-Adresseingabe .Logo {margin-left: .5rem}
 	.Checkout .col2 {width: 15.62%;}
 	.Checkout .col3 {width: 24.06%}
 	.Checkout .col8 {width: 66.25%;margin-left: 1.25%;}
