@@ -119,7 +119,6 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 .Checkbox p {padding-left: 25px; margin: 0}
 .Checkbox h4 {padding-left: 25px; margin: 0; line-height: 19px}
 
-
 /* Info-Layer */
 .Info-Link {cursor: pointer; display: inline-block}
 .Info-Link .Info-Text-JS .Button-close {display: none}
@@ -129,21 +128,26 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 .Hinweis p {margin: .5rem 0 0}
 
 /* New Check-Out styling with enhanced forms*/
+.Checkout .Artikelsuche, .Checkout .Warenkorb, .Checkout nav, .Checkout .hidden, fieldset legend {display: none; visibility: hidden}
 .Checkout fieldset {border: 0 none; clear: both; width: 100%; padding: 0; margin: 0}
 #Add_Lieferadresse ~ fieldset {opacity: 0; max-height: 0; overflow: hidden; visibility: hidden; zoom: 1; transition: opacity .25s ease-out .25s, max-height .5s ease-out}
 #Add_Lieferadresse:checked ~ .Add_Lieferadresse, #Add_Rechnungsadresse:checked ~ .Add_Rechnungsadresse {opacity: 1; max-height: 2000px; display: block; visibility: visible; transition: opacity .25s ease-in, max-height .5s ease-in}
-.Checkout .hidden, fieldset legend {display: none}
+.Adresseingabe p {margin-bottom: 0;}
 .Adresseingabe textarea {width: 50%; max-height: 300px}
-.Adresseingabe label {display: inline-block; width: 100%}
-.Checkout [type="checkbox"] + label {width: 53%;}
+.Adresseingabe label {display: block;width: 50%}
+.Adresseingabe .col3 label {width: 100%}
+.Checkout [type="checkbox"] + label {width: 53%;margin-bottom: .75rem;}
 .Checkout span.tooltips, .PDF-Download span.tooltips {bottom: 0; right: auto}
 [class*="_Anrede"], [class*="_Land"], .Checkout .Content [type="checkbox"], .kundenadr_Kundennummer {clear: both; display: block;}
-[class*="_Anrede"] select, [class*="_Land"] select {width: 100%}
+[class*="_Anrede"] select, [class*="_Land"] select, .col3 input {width: 100%}
 .Checkout [type="checkbox"] {float: left}
+.Checkout button {margin-left: 32%}
+.Kundennummer-Prefix {position: absolute; left: .25rem; top: 1.75rem}
+#kundenadr_Kundennummer {padding-left: 2rem}
 
 /* Basic field definitions */
 label:hover, label:focus {cursor: pointer}
-input:not([type="checkbox"]), textarea, select {padding: 5px 5px 2px 5px; border-radius: 0; height: 2rem; box-sizing: border-box; border: 1px solid #999; font-size: inherit}
+input:not([type="checkbox"]), textarea, select {padding: 5px 5px 2px 5px; border-radius: 0; height: 2rem; box-sizing: border-box; border: 1px solid #999; font-size: inherit;margin-bottom: 1.25%;}
 :required, .required input, .required select {border-color: #000}
 select {height: 2rem; -webkit-appearance: menulist; -moz-appearance: menulist; appearance: menulist}
 select:hover, input:hover {box-shadow: 0 0 3px 1px #999}
@@ -1273,8 +1277,13 @@ ul.grid-view, ul.list-view {margin: 0}
 /* Checkout ==========================*/
 /* Kopfnavigation */
 .Kopfnavigation {background-color: #00609F; margin: 0 0 1rem; overflow: hidden; height: 3.5rem}
-.Kopfnavigation div {color: #fff; display: inline-block; vertical-align: baseline}
-.Schritt-1-Adresseingabe, .Schritt-2-Bestellung-pruefen {line-height: 3.5rem; width: 47%; margin: 0 -4px 0 0; position: relative}
+.Kopfnavigation {color: #fff;display: block;/* vertical-align: top; */}
+.Text {
+	z-index: 10;
+	font-size: 1rem;
+	position: relative;
+}
+.Schritt-1-Adresseingabe, .Schritt-2-Bestellung-pruefen {line-height: 3.5rem;width: 47%;position: relative;float: left;}
 .Schritt-1-Adresseingabe {width: 49%}
 .Schritt-1-Adresseingabe:after {
 	content: '';
@@ -1288,18 +1297,18 @@ ul.grid-view, ul.list-view {margin: 0}
 	if diagonal required = 1; length = 1/1.414 = .707*/
 	/* transform: scale(0.707) rotate(45deg); */
 	-ms-transform: rotate(45deg);
-	transform: rotate(45deg);
-	/* background same as links but the gradient will be rotated to compensate with the transform applied*/
+	transform: rotate(45deg);/* background same as links but the gradient will be rotated to compensate with the transform applied*/
 	background: #00609F;
 	border: .25rem solid #fff;
 	border-left: 0 none;
 	border-bottom: 0 none;
 	border-radius: 0 5px 0 0;
-	z-index: 1}
+	z-index: 1
+	}
 
 .Schritt-2-Bestellung-pruefen {padding: 0 0 0 4%}
 
-.Kopfnavigation .Zahl {font-size: 2.5rem;   padding: 0 10px 0 10px}
+.Zahl {padding: 0 0 0 .5rem;font-size: 2.5rem;}
 textarea {height: 4rem}
 #direkt_art {width: 56%}
 #direkt_anz {width: 25%}
@@ -1706,8 +1715,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.Checkout nav {background-color: #bababa; height: 3.15rem; margin: 0 0 1rem}
 	.Checkout nav li {display: none}
 	.Checkout #nav-home {display: block}
-	.Checkout nav a {display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; color: #fff}
-	.Checkout .Artikelsuche, .Checkout .Warenkorb, .Checkout-Adresseingabe nav, .Checkout-Check-and-Send nav, .Checkout #Breadcrumbs {display: none; visibility: hidden}}
+	.Checkout nav a {display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; color: #fff}}
 
 @media only screen and (min-width:768px) {
 	.Artikelsuche {position: relative}
@@ -1727,5 +1735,4 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.Produkttabelle .Anzahl {width: 15%}
 	.Produkttabelle .Anzahl .Eingabefeld {float: left}
 	.Anzahl a {float: left}
-	.Produkttabelle .Einzelpreis-abzgl-Rabatt, .Produkttabelle .Einzelpreis, .Produkttabelle .Summe {text-align: right; width: 50px}
-	.Kundennummer-Prefix {display: none}}
+	.Produkttabelle .Einzelpreis-abzgl-Rabatt, .Produkttabelle .Einzelpreis, .Produkttabelle .Summe {text-align: right; width: 50px} }
