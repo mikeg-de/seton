@@ -225,6 +225,7 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .tooltips-drueber .tooltip:before {margin-left: -12px; border-top: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
 
 .tooltips-drunter .tooltip {top: 30px}
+.Adresseingabe .tooltip {top: 3rem}
 
 .tooltips-drunter .tooltip:before, .tooltips-drunter .tooltip:after,
 #Artikelsuche-Hinweis:after, .Info-Link .Info-Text:before, .Info-Link .Info-Text:after,
