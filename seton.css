@@ -147,13 +147,13 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 
 /* Check & Send */
 .Checkout-Check-and-Send input.Add_Rechnungsadresse, .Checkout-Check-and-Send input.Add_Lieferadresse {display:none}
-.Checkout-Check-and-Send :disabled {background-color: transparent;border: 0 none;height: 1.75rem;}
+.Checkout-Check-and-Send :disabled {background-color: transparent;border: 0 none;}
 .Checkout-Check-and-Send fieldset label, .Checkout-Check-and-Send fieldset input, .Checkout-Check-and-Send fieldset select {display: inline-block;}
 .Checkout-Check-and-Send fieldset label {width: 31%}
 .Checkout-Check-and-Send input {width: 65%}
 .Checkout-Check-and-Send .kundenadr_Kundennummer input {width: 55%; padding-left: 0;}
 .Checkout-Check-and-Send .Kundennummer-Prefix {display: inline-block; padding-left: .15rem}
-.Checkout-Check-and-Send fieldset select, .Checkout-Check-and-Send fieldset textarea {-webkit-appearance:none; -moz-appearance:none; appearance:none;width: 60%;margin: 0;padding-left: 0;resize: none;}
+.Checkout-Check-and-Send fieldset select, .Checkout-Check-and-Send fieldset textarea {-webkit-appearance:none; -moz-appearance:none; appearance:none;width: 65%;margin: 0;padding-left: 0;resize: none;height: auto;}
 .Checkout-Check-and-Send .kundenadr_Bemerkungen label {vertical-align: top;padding-top: 5px;}
 .Checkout-Check-and-Send fieldset p :hover, .Checkout-Check-and-Send fieldset p :focus {box-shadow: none; cursor: default}
 
