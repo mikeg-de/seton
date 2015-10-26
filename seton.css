@@ -1256,7 +1256,6 @@ ul.grid-view, ul.list-view {margin: 0}
 .Abrechnung #Rabatt {color: #F00; display: none;border: 1px dashed #ccc;border-left: none;border-right: none;}
 .Abrechnung .Gesamtsumme {border-top: 4px double #ccc}
 .Abrechnung .Gesamtsumme th {font-weight: bold}
-.Checkout-Check-and-Send .Links {float: right}
 .warenkorbItem .rabattinfo {color:#F00; position:absolute; bottom:5px; width:94%; text-align:center; white-space:nowrap}
 .warenkorbItem .sparinfo {color:#F00}
 .sparinfo-gesamt:empty {display:none}
