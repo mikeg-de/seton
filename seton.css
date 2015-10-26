@@ -605,9 +605,9 @@ img.rsImg {max-width: none}
 .rsMinW .rsArrowDisabled .rsArrowIcn {opacity: .3 !important; filter: alpha(opacity=30); display: none}
 
 /* 2. Bullets */
-.rsMinW .rsBullets {position: absolute; bottom: 18px; left: 10px; z-index: 35; padding-top: 4px; height: auto; text-align: center; line-height: 6px; overflow: hidden}
-.rsMinW .rsBullet {width: 6px; height: 6px; display: inline-block; display: inline; zoom: 1; padding: 6px 5px 6px 4px}
-.rsMinW .rsBullet span {display: block; width: 6px; height: 6px; border-radius: 50%; background: #CCC; background: rgba(255, 255, 255, .5); box-shadow: 0 0 1px 1px rgba(0, 0, 0, .1)}
+.rsMinW .rsBullets {position: absolute;bottom: 18px;left: 10px; z-index: 35; padding-top: 4px; height: auto;overflow: hidden;}
+.rsMinW .rsBullet {width: 6px; height: 6px; display: inline-block; zoom: 1; padding: 6px 5px 6px 4px}
+.rsMinW .rsBullet span {display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #CCC; background: rgba(255, 255, 255, .5); box-shadow: 0 0 1px 1px rgba(0, 0, 0, .1)}
 .rsMinW .rsBullet.rsNavSelected span {background: #FFF}
 
 /* 3. Thumbnails */
@@ -1388,7 +1388,7 @@ textarea {height: 4rem;font: inherit;}
 /* Homepage ==========================*/
 .Homepage .Teaser, .Teaser-Weihnachtsbaum-Gewinnspiel .Rahmen-Inhalt, .Teaser-Ostereiersuche .Rahmen-Inhalt {height: 185px}
 .Teaser-Vorteile-bei-SETON-bvh img.EHI {margin: 15px 0}
-.Homepage .royalSlider {width: 100%}
+.Homepage .royalSlider {width: 100%;overflow: hidden;}
 
 /* ScreenshotsPopUp ==========================*/
 .ScreenshotsPopUp {background-color: #fff; margin: 15px}
