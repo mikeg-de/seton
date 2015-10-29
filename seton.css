@@ -556,7 +556,7 @@ margin: 0 .25rem 0 -1rem}
 /* Teaser ==========================*/
 /* Allgemein */
 .Teaser {position: relative;}
-.Sidebar .Teaser {margin. 0 0 1rem}
+.Sidebar .Teaser {margin: 0 0 1rem}
 .Teaser-klickbar a {display: block}
 .Teaser-klickbar a:hover {text-decoration: none}
 .Teaser-klickbar a:hover .Weiterfuehrender-Link {color: #0061a0; text-decoration: underline}
