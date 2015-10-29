@@ -286,6 +286,7 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .Teaser-Vorteilsnummer .tooltip {width: 350px; margin-left: -150px}
 .Teaser-Newsletter-GHS .tooltip {width:200px; margin-left: -80px}
 .Abrechnung .tooltip {width:200px; margin-left:-98px}
+.legislation .tooltip, .brand .tooltip {width:150px; margin-left:-73px} 
 
 /* Formulare */
 form {margin: 0}
@@ -476,8 +477,8 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 .Artikelsuche .Button-klein-gruen {display: inline-block}
 .Artikelsuche .suggestLayer {margin-top: 5px}
 .suggestContainer {display: none; width: 100%; top: auto; left: 0; padding: 0; margin: 0; background-color: white; z-index: 10001; position: absolute; border: 3px solid #00609F; box-sizing: border-box}
-.suggestContainer a {display: block; padding: 3px 5px 2px 5px; height: 1.25rem; overflow: hidden; line-height: 1.25rem}
-.suggestContainer a:hover {text-decoration: underline; background-color: #eee; cursor: pointer}
+.suggestContainer a {display: block;padding: .5rem .5rem .2rem;height: 1.25rem; overflow: hidden; line-height: 1.25rem}
+.suggestContainer a:hover, .suggestContainer a:focus {text-decoration: underline; background-color: #eee; cursor: pointer}
 .suggestContainer .suggestEntry {width: 75%; display: inline-table; overflow: hidden}
 .suggestContainer .suggestContent {color: #f00}
 
