@@ -1,7 +1,6 @@
 @font-face {font-family: 'ElegantIcons'; src: url('css/fonts/ElegantIcons.eot'); src: url('css/fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'), url('css/fonts/ElegantIcons.woff') format('woff'), url('css/fonts/ElegantIcons.ttf') format('truetype'), url('css/fonts/ElegantIcons.svg#ElegantIcons') format('svg'); font-weight: normal; font-style: normal}
 .data-icon:before, .data-icon:after, .Filterparameter li:before, .Icon:before, .Bullet-Haekchen li:before, .Editieren:after, .royalSlider .arrow_carrot-left_alt2:before, .royalSlider .icon_pause_alt2:before, .royalSlider .arrow_triangle-right_alt2:before, .royalSlider .arrow_carrot-right_alt2:before, .Link-Liste a:before, .Vorteile li:before, .Info-Icon:before, .icon_chat_alt:before, .icon_phone:before, .controls label:before, .subnav .Titel:after, .Mehr-Filter:before {font: normal normal normal 1em/1rem 'ElegantIcons'; -webkit-font-smoothing: antialiased}
 
-
 /* Allgemeine Definitionen */
 body {font: normal normal 13px/1.25rem Arial, 'Helvetica Neue', Helvetica, sans-serif; color: #3e3e3e; padding: 0; margin: 0 auto; max-width: 1024px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
 img {max-width: 100%; border: 0}
@@ -18,6 +17,29 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 
 /* Overflow hidden */
 .overflow {overflow: hidden}
+
+/* Grid system:New fluid 12 row ==========================*/
+/* Check:http://www.responsivegridsystem.com/calculator/*/
+.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12, .Content .col, .Sidebar, .Grid-System [class*="Grid"], .Grid-Themen-Index [class^="Grid"], .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1 {float: left; margin: 0 0 .75rem 1.25%; box-sizing: border-box; position: relative}
+.first, .Grid-first, .Grid24 + [class*="Grid"], .clear + [class*="col"] {margin-left: 0}
+.Auflistung-Unterkategorien li, .grid-view li {margin: 0}
+.col1 {width: 7.187%}
+.col2, .Grid-System .Grid-1-5, .Grid-System .Grid-1-8, .Grid-System .Grid-1-5-last {width: 15.62%}
+.col3, .Grid-System .Grid-1-4, .Ein-Spalter .Grid6, .Sidebar-left, .Sidebar-right, .Direktverkauf .Content .Grid-last, .Sidebar {width: 24.06%}
+
+/* Spanning 1 of 3 */
+.col4, .Grid-1-3, .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1, .Inventarketiketten-Designer .col-right-2, .Newsletter-Anforderung .article-Newsletter-Abo-Downloads .Grid-1-3 {width: 32.5%}
+#Service a, .Homepage .Avail .item, #cc-slider-streusalz-testimonials .item, .grid-view .item {width: 33.3%}
+.col5, .Grid-System .Grid-2-5 {width: 40.93%}
+.col6, .Ein-Spalter .Grid12, .Drei-Spalter .Content, #Avail-Hauptkategorie-Kunden-kauften-2, #Avail-Kategorie-Topseller-2, .Zwei-Spalter-Sidebar-left .Grid-System .Grid6, .Zwei-Spalter-Sidebar-right .Grid-System .Grid6, .Grid-System .Grid-1-2, .ASR-Teaser, .ASR-Teaser p, .Checkout .Teaser-Vorteilsnummer, .Abrechnung {width: 49.37%;}
+.col7, .Grid-System .Grid-3-5 {width: 57.81%}
+
+/* Spanning 2 of 3 */
+.col8, .Grid-System .Grid-2-3, .Zwei-Spalter-Sidebar-left .Grid-System .Grid8, .Zwei-Spalter-Sidebar-right .Grid-System .Grid8 {width: 66.25%}
+.col9, .Zwei-Spalter-Sidebar-left .Content, .Zwei-Spalter-Sidebar-right .Content, .Ein-Spalter .Grid18, .Grid-System .Grid-3-4 {width: 74.68%}
+.col10 {width: 83.12%}
+.col11 {width: 91.56%}
+.col12, .Grid24, .Grid-System .Grid-1-1, .Zwei-Spalter-Sidebar-left .Grid-System .Grid12, .Zwei-Spalter-Sidebar-right .Grid-System .Grid12, .Grid-System .Grid-Top-Kategorien {float: none; width: 100%; margin: 0 ; clear: both}
 
 /* Vertical centered*/
 .rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .categries h2 + .Bild img, .grid-view.products .Bild img {position: relative; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%)}
@@ -95,7 +117,6 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 .Produkttabelle {width: 100%; border-spacing: 0; border-collapse: collapse; margin: 1rem 0 0}
 .Produkttabelle th {font-weight: normal}
 .Produkttabelle tr {border-top: 1px solid #ccc}
-.Produkttabelle .no-border {border: 0; padding: 0}
 .Produkttabelle .inactive {color: #888}
 .Produkttabelle .Position {width: 10px}
 .Produkttabelle .Bild {text-align:center; display:table-cell; vertical-align:top; position:relative; min-width:120px; padding-bottom:20px}
@@ -104,7 +125,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 .Produkttabelle .Produktinfo p {overflow: hidden; margin: 0}
 .Produkttabelle .Produktinfo .Datei-Upload, .Produkttabelle .Produktinfo .Datei-Uploads {margin: .3rem 0}
 .Produkttabelle .editArtikel {display: none}
-.Produkttabelle .Anzahl-JS .Eingabefeld {width: 50px; margin: 0 5px 3px 0 !important; font-size: 1rem; text-align: right}
+.Produkttabelle .Anzahl-JS .Eingabefeld {width: 50px;margin: 0 5px 3px 0;font-size: 1rem; text-align: right}
 .Produkttabelle .Anzahl .Eingabefeld {width: 2rem; text-align: right; display: inline-block; margin: 0 .25rem 0 0; vertical-align: top}
 .Produkttabelle .Geschenke-in-leerem-WK td {line-height: 0; font-size: 0; height: 3px; overflow: hidden; padding: 0 !important}
 .Produkttabelle .Eingabefeld:hover, .Produkttabelle textarea:hover, .Produkttabelle select:hover {border: 1px solid #BBB}
@@ -116,7 +137,6 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 .Adresseingabe .Weiterfuehrender-Link:hover, .Adresseingabe .Weiterfuehrender-Link:focus {color: #0061a0}
 .Checkout-Confirmation-Page .Adresseingabe select {width: 150px}
 .Adresseingabe .Faxangebot {margin-top: 10px}
-#Warenkorb-Rahmen .Hinweis {width: 382px; max-width: 382px}
 .Checkbox input {float: left}
 .Checkbox p {padding-left: 25px; margin: 0}
 .Checkbox h4 {padding-left: 25px; margin: 0; line-height: 19px}
@@ -160,7 +180,8 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 
 /* Basic field definitions */
 label:hover, label:focus {cursor: pointer}
-input:not([type="checkbox"]), textarea, select {padding: 5px 5px 2px 5px; border-radius: 0; height: 2rem; box-sizing: border-box; border: 1px solid #999; font-size: inherit;}
+input, textarea, select {padding: 5px 5px 2px 5px; border-radius: 0; height: 2rem; box-sizing: border-box; border: 1px solid #999; font-size: inherit;}
+[type="checkbox"], [type="radio"] {height: initial}
 :required, .required input, .required select {border-color: #000}
 select {height: 2rem; -webkit-appearance: menulist; -moz-appearance: menulist; appearance: menulist}
 select:hover, input:hover {box-shadow: 0 0 3px 1px #999}
@@ -175,9 +196,7 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 .LV_valid_field:hover, .LV_valid_field:focus {box-shadow: 0 0 3px 1px #19B201; outline-color: #19B201}
 .LV_invalid_field:hover, .LV_invalid_field:focus {box-shadow: 0 0 3px 1px #F00; outline-color: #F00}
 
-.Fehlertext, .Hinweis .Fehlertext, .LV_invalid, .invalid, .Hinweis .Fehlertext,
-.Hinweis .Fehlermeldung, .Hinweis .FehlermeldungNoJS {color:#F00}
-
+.Fehlertext, .Hinweis, .Hinweis-Fehler, .LV_invalid, .invalid {color:#F00}
 .LV_invalid, .Hinweistext {position: absolute}
 
 /* http://l-lin.github.io/font-awesome-animation/ */
@@ -272,7 +291,7 @@ form {margin: 0}
 /* Sonstiges */
 hr {border: 0 none; border-top: 1px solid #ccc; margin: 1.5rem 0}
 .Abschnitt {clear: both; position: relative; z-index: 0; zoom: 1}
-.left {float: left; margin: 0 10px 0 0}
+.left {float: left;}
 .right, .Sidebar.right {float: right}
 .Produkttabelle-Etikettendesigner .right {float: none}
 #SEO-Footer, #BlogFeedOriginal {margin: 0 15px; clear: both}
@@ -295,13 +314,13 @@ hr {border: 0 none; border-top: 1px solid #ccc; margin: 1.5rem 0}
 /* Buttons
 ==========================*/
 button {font-size: .8rem}
-.Button-gross, .Button-gross-gruen, .Button-gross-blau, .Button-gross-grau, .Button-klein, .Button-klein-gruen, .Button-klein-blau, .Button-klein-grau, .ui-state-default {display: inline-block; vertical-align:middle}
+.Button-gross, .Button-gross-gruen, .Button-gross-blau, .Button-gross-grau, .Button-klein, .Button-klein-gruen, .Button-klein-blau, .Button-klein-grau, .ui-state-default {display: inline-block;vertical-align: top;}
 [class^="Button"], .Link-Liste a, [type="checkbox"]:hover, select:hover, button:hover {cursor: pointer; text-decoration: none}
 [class^="Button"]:hover, .Link-Liste a:hover {text-decoration:none}
 [type="button"], [type="submit"], [class^="Button-klein"] button, .Link-Liste a {height: 1.5rem}
 .Button-gross, [class^="Button-gross"] [type="submit"], .ui-state-default, .Teaser-Newsletter button {height: 2.25rem; line-height: 2.25rem}
 .Button-breit {margin: .5rem 0; width:100%}
-.Button-klein {height:1.6rem; line-height:1.6rem}
+.Button-klein {height: 2rem; line-height:1.6rem}
 .Button-gruen, .Button-grau, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Button-klein-blau input, .Button-klein-blau a, button:disabled, .Link-Liste a, .ui-state-default {border: 0 none; color: #fff; padding: 0 15px; cursor: pointer; text-align:center}
 .Button-gruen, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .ui-state-default, #Chat {background-color: #509e2f; background: linear-gradient(to bottom, #509e2f 50%, #3f8c24 50%)}
 .Button-grau, .Button-gross-grau input, .Button-gross-grau button, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Titel-grauer-Balken, .Link-Liste a, .ui-state-default:first-child {background-color: #8c8c8c; background: linear-gradient(to bottom, #8c8c8c 50%, #696969 50%)}
@@ -878,7 +897,7 @@ img.rsImg {max-width: none}
 .Dropdowns-item label {width: 35%; overflow: hidden; text-overflow: ellipsis; display: inline-block; vertical-align: middle}
 .Inventarketiketten-Designer .Dropdowns-item label {width: 100%}
 .Dropdowns-item select {width: 65%}
-.info_pulldown_changed {font-size: .9rem; color: #FF0000; display: none; padding: 3px 0}
+.info_pulldown_changed {font-size: .9rem; color: #FF0; display: none; padding: 3px 0}
 .Produktdaten .Dropdowns a {text-decoration: underline}
 .Produktdaten .Dropdowns #produkt-details {margin: 0 0 10px 0}
 .Produktdaten .article-Dropdowns table {border-collapse: collapse; width: auto; padding: 0; margin: 0; border-spacing: 0; font-size: 1rem}
@@ -1048,7 +1067,6 @@ ul.grid-view, ul.list-view {margin: 0}
 .grid-view.products .Relevanz {position: absolute; top: 9px; right: 40px}
 .grid-view.products .Editieren {position: absolute; top: 0; right: 0; padding: 10px; background: #EEE}
 
-
 /* list-view allgemein */
 .categories, .products {margin:0}
 .list-view.products .item:first-child {border: 0 none}
@@ -1098,12 +1116,9 @@ ul.grid-view, ul.list-view {margin: 0}
 .list.feedback .item .Bild {float:right; margin-left:20px}
 .list.feedback .item {border:0; float:none; display:block; margin:0 0 .5em 0}
 
-/* ==========================*/
-/* Pure CSS Slider */
-/* ==========================*/
+/* Pure CSS Slider ==========================*/
 .cc-slider {position: relative; -webkit-transform: translateZ(0); transition: all .1s ease-out}
-.cc-slider label {/* color: #ef023f; */ cursor: pointer; text-decoration: none}
-.cc-slider label:hover {/* background-color: #DDD */}
+.cc-slider label {cursor: pointer; text-decoration: none}
 .cc-slides {display: inline-block; width: 100%; box-sizing: border-box}
 .cc-slides .inner {width: 1000%; -webkit-transform: translateZ(0); transition: all 800ms cubic-bezier(0.770, .000, .175, 1.000)}
 
@@ -1268,8 +1283,6 @@ ul.grid-view, ul.list-view {margin: 0}
 .Warenkorb-Direktbestellung .Eingabefeld-Artikelnummer {width: 50px}
 .Warenkorb-Direktbestellung .Eingabefeld-Detailnummer, .Warenkorb-Direktbestellung .Eingabefeld-Menge {width: 40px}
 .Vorteilsnummer-Eingabe {display: none; margin: 10px 0 0}
-.Vorteilsnummer-Eingabe #hinweis {display:block; clear:both;color: #3f8c24;}
-.Hinweis-Fehler {color: #F00}
 
 /* Mitbestellen*/
 .Mitbestellen-item {margin-top: 10px; overflow: hidden}
@@ -1319,8 +1332,8 @@ ul.grid-view, ul.list-view {margin: 0}
 
 .Zahl {padding: 0 0 0 .5rem;font-size: 2.5rem;}
 textarea {height: 4rem;font: inherit;}
-#direkt_art {width: 56%}
-#direkt_anz {width: 25%}
+#direkt_art {width: 35%;}
+#direkt_anz {width: 22%;}
 .Eingabefeld-gross {padding: 8px}
 
 /* Hotline */
@@ -1678,29 +1691,6 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 #ie8msg p {margin: 0}
 #ie8msg #ie8msg-close {position: absolute; top: 5px; right: 10px; font-weight: bold; font-size: 1.2rem; cursor: pointer}
 
-/* Grid system:New fluid 12 row ==========================*/
-/* Check:http://www.responsivegridsystem.com/calculator/*/
-.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12, .Content .col, .Sidebar, .Grid-System [class*="Grid"], .Grid-Themen-Index [class^="Grid"], .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1 {float: left; margin: 0 0 .75rem 1.25%; box-sizing: border-box; position: relative}
-.first, .Grid-first, .Grid24 + [class*="Grid"], .clear + [class*="col"] {margin-left: 0}
-.Auflistung-Unterkategorien li, .grid-view li {margin: 0}
-.col1 {width: 7.187%}
-.col2, .Grid-System .Grid-1-5, .Grid-System .Grid-1-8, .Grid-System .Grid-1-5-last {width: 15.62%}
-.col3, .Grid-System .Grid-1-4, .Ein-Spalter .Grid6, .Sidebar-left, .Sidebar-right, .Direktverkauf .Content .Grid-last, .Sidebar {width: 24.06%}
-
-/* Spanning 1 of 3 */
-.col4, .Grid-1-3, .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1, .Inventarketiketten-Designer .col-right-2, .Newsletter-Anforderung .article-Newsletter-Abo-Downloads .Grid-1-3 {width: 32.5%}
-#Service a, .Homepage .Avail .item, #cc-slider-streusalz-testimonials .item, .grid-view .item {width: 33.3%}
-.col5, .Grid-System .Grid-2-5 {width: 40.93%}
-.col6, .Ein-Spalter .Grid12, .Drei-Spalter .Content, #Avail-Hauptkategorie-Kunden-kauften-2, #Avail-Kategorie-Topseller-2, .Zwei-Spalter-Sidebar-left .Grid-System .Grid6, .Zwei-Spalter-Sidebar-right .Grid-System .Grid6, .Grid-System .Grid-1-2, .ASR-Teaser, .ASR-Teaser p, .Checkout .Teaser-Vorteilsnummer, .Abrechnung {width: 49.37%;}
-.col7, .Grid-System .Grid-3-5 {width: 57.81%}
-
-/* Spanning 2 of 3 */
-.col8, .Grid-System .Grid-2-3, .Zwei-Spalter-Sidebar-left .Grid-System .Grid8, .Zwei-Spalter-Sidebar-right .Grid-System .Grid8 {width: 66.25%}
-.col9, .Zwei-Spalter-Sidebar-left .Content, .Zwei-Spalter-Sidebar-right .Content, .Ein-Spalter .Grid18, .Grid-System .Grid-3-4 {width: 74.68%}
-.col10 {width: 83.12%}
-.col11 {width: 91.56%}
-.col12, .Grid24, .Grid-System .Grid-1-1, .Zwei-Spalter-Sidebar-left .Grid-System .Grid12, .Zwei-Spalter-Sidebar-right .Grid-System .Grid12, .Grid-System .Grid-Top-Kategorien {float: none; width: 100%; margin: 0 ; clear: both}
-
 /* 1024px standard width */
 @media only screen and (max-width: 1024px) {body {width: 996px}}
 @media only screen and (min-width:960px) {
@@ -1712,8 +1702,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.grid-view.categories .item:nth-child(3n) {border-right: 0 none}
 	.tooltips:hover .tooltip, #lastSeenProducts .item:hover .tooltip, .Info-Link:hover .Info-Text, .Info-Link:hover .Info-Text-JS {visibility: visible; opacity: 1}
 	input[type="number"] {-webkit-appearance: textfield !important; -moz-appearance: textfield !important; appearance: textfield !important}
-	input[type="number"]:-webkit-outer-spin-button, input[type="number"]:-webkit-inner-spin-button {-webkit-appearance: none !important; -moz-appearance: none !important; appearance: none !important; margin:0}
-	input[type="number"] {-moz-appearance:textfield}
+	[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {-webkit-appearance: none; margin: 0}
 	.Checkout nav {background-color: #bababa; height: 3.15rem; margin: 0 0 1rem}
 	.Checkout nav li, .Checkout #Breadcrumbs {display: none}
 	.Checkout #nav-home {display: block}
