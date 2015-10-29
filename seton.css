@@ -8,7 +8,7 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .popup {width: 95%}
 
 /* Hidden elements */
-.Link-Mehr-Infos, .Bild-sw, .Produkttabelle #warenkorbItems, .Produkttabelle hr, #socialshareprivacy .settings_info, .Hinweis-NL-Pflichtfelder, .ui-helper-hidden, .ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle, .Zwei-Spalter-Sidebar-left .Sidebar-right, .Zwei-Spalter-Sidebar-right .Sidebar-left, #nav-home, nav .Hotline, .cc-slider input, .toggle input, .toggle .toggle1:checked ~ .controls label:nth-child(1), .toggle .toggle2:checked ~ .controls label:nth-child(2), .Designcode-Artikelauswahl-NJS .royalSlider .bugaga .rsCaption, .Designcode-Artikelauswahl-NJS .royalSlider .Rotating-image, .Designcode-Artikelauswahl .Kopfnummerninfos .Tabs, .Factfinder-Copyright, .Auflistung-Produkte .Edit-Info, .Schildersuche .PUES-Subnavigation-Kategorien .Title2, .Schildersuche .Anzahl-Artikel, .Checkout-Adresseingabe .editable_textarea, .Checkout-Print .Anzahl-JS img, .Checkout-Print .Anzahl a, .Checkout-Print .Anzahl-JS a, .Checkout-Print .Anzahl-JS .updateLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto img, .Print .Einzelpreis-abzgl-Rabatt-netto .buttonAsLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto .Datei-Upload, .Checkout-Print .vortn, .Checkout-Print .Dankeschoen-Geschenk input, .Themenheadline, .smallreadonly, .Kopfnummerninfos-Tabs .Tabs, .Teaser-Blog .updated, .Footer .Trusted-Shop .hreview-aggregate, .ui-dialog-titlebar-close, p:empty, .rsCaption:empty, .Hauptkategorie-Text:empty, .Tab-Content:empty, .cc-slider:empty, #Produktbeschreibung:empty, .LV_validation_message:empty, .Hinweistext, .LV_valid, #SEO-Footer:empty, #Footer_Bereichstext:empty, #cc-slider-top-kategorien .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow .inner:before, .cc-slider .controls, .Artikel-pro-Seite, .recs, .pure-toggle, .pure-toggle-label, .hidden {display: none}
+.Link-Mehr-Infos, .Bild-sw, .Produkttabelle #warenkorbItems, .Produkttabelle hr, #socialshareprivacy .settings_info, .Hinweis-NL-Pflichtfelder, .ui-helper-hidden, .ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle, .Zwei-Spalter-Sidebar-left .Sidebar-right, .Zwei-Spalter-Sidebar-right .Sidebar-left, #nav-home, nav .Hotline, .cc-slider input, .toggle input, .toggle .toggle1:checked ~ .controls label:nth-child(1), .toggle .toggle2:checked ~ .controls label:nth-child(2), .Designcode-Artikelauswahl-NJS .royalSlider .bugaga .rsCaption, .Designcode-Artikelauswahl-NJS .royalSlider .Rotating-image, .Designcode-Artikelauswahl .Kopfnummerninfos .Tabs, .Factfinder-Copyright, .Auflistung-Produkte .Edit-Info, .Schildersuche .PUES-Subnavigation-Kategorien .Title2, .Schildersuche .Anzahl-Artikel, .Checkout-Adresseingabe .editable_textarea, .Checkout-Print .Anzahl-JS img, .Checkout-Print .Anzahl a, .Checkout-Print .Anzahl-JS a, .Checkout-Print .Anzahl-JS .updateLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto img, .Print .Einzelpreis-abzgl-Rabatt-netto .buttonAsLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto .Datei-Upload, .Checkout-Print .vortn, .Checkout-Print .Dankeschoen-Geschenk input, .Themenheadline, .smallreadonly, .Kopfnummerninfos-Tabs .Tabs, .Teaser-Blog .updated, .Footer .Trusted-Shop .hreview-aggregate, .ui-dialog-titlebar-close, p:empty, .rsCaption:empty, .Hauptkategorie-Text:empty, .Tab-Content:empty, .cc-slider:empty, #Produktbeschreibung:empty, .LV_validation_message:empty, .Hinweistext, .LV_valid, #SEO-Footer:empty, #Footer_Bereichstext:empty, #cc-slider-top-kategorien .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow .inner:before, .cc-slider .controls, .Artikel-pro-Seite, .recs, .pure-toggle, .pure-toggle-label, .hidden, .Checkout-Confirmation-Page .Kopfnavigation {display: none}
 #cc-slider-top-kategorien .controls {display: block}
 
 /* Clear-Fix */
@@ -106,7 +106,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 
 /* Tabellen */
 .Grid-Themen-Index, .ui-dialog, .Footer, .Footer-Zuletzt-gesehene-Produkte {padding: 1rem 1.25%; clear: both}
-.Content th, .Content td, .Checkout-Print th, .Checkout-Print td {padding: 5px; box-sizing: border-box}
+.Content th, .Content td, .Checkout-Print th, .Checkout-Print td {padding: 3px 3px 2px 2px; box-sizing: border-box}
 
 /* French DYO*/
 .tab02 [type="text"] {max-width: 220px}
@@ -115,7 +115,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 
 /* Produkttabelle */
 .Produkttabelle {width: 100%; border-spacing: 0; border-collapse: collapse; margin: 1rem 0 0}
-.Produkttabelle th {font-weight: normal}
+.Produkttabelle th, .Produkttabelle td {font-weight: normal}
 .Produkttabelle tr {border-top: 1px solid #ccc;}
 .Produkttabelle .inactive {color: #888}
 .Produkttabelle .Position {width: 10px}
@@ -188,8 +188,8 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 .Checkout-Check-and-Send fieldset p :hover, .Checkout-Check-and-Send fieldset p :focus {box-shadow: none; cursor: default}
 
 /* Check Out validation response */
-.Checkout-Adresseingabe .optional {opacity: .75; transition: opacity .5s ease-out}
-.Checkout-Adresseingabe .optional:hover, .optional:focus {opacity: 1; transition: opacity .5s ease-in}
+.Checkout-Adresseingabe .optional :not([class$="tooltip"]) {opacity: .75; transition: opacity .5s ease-out}
+.Checkout-Adresseingabe .optional:hover :not([class$="tooltip"]), .Checkout-Adresseingabe .optional:focus :not([class$="tooltip"]) {opacity: 1; transition: opacity .5s ease-in}
 
 .required .LV_valid_field, .optional .LV_valid_field {border-color: #19B201}
 .required .LV_invalid_field, .optional .LV_invalid_field {border-color: #F00}
@@ -286,7 +286,7 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .Teaser-Vorteilsnummer .tooltip {width: 350px; margin-left: -150px}
 .Teaser-Newsletter-GHS .tooltip {width:200px; margin-left: -80px}
 .Abrechnung .tooltip {width:200px; margin-left:-98px}
-.legislation .tooltip, .brand .tooltip {width:150px; margin-left:-73px} 
+.legislation .tooltip, .brand .tooltip {width:150px; margin-left:-73px}
 
 /* Formulare */
 form {margin: 0}
@@ -324,7 +324,7 @@ button {font-size: .8rem}
 [type="button"], [type="submit"], [class^="Button-klein"] button, .Link-Liste a {height: 1.5rem}
 .Button-gross, [class^="Button-gross"] [type="submit"], .ui-state-default, .Teaser-Newsletter button {height: 2.25rem; line-height: 2.25rem}
 .Button-breit {margin: .5rem 0; width:100%}
-.Button-klein {height: 2rem; line-height:1.6rem}
+.Button-klein {height: 2rem;line-height: 2rem;}
 .Button-gruen, .Button-grau, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Button-klein-blau input, .Button-klein-blau a, button:disabled, .Link-Liste a, .ui-state-default {border: 0 none; color: #fff; padding: 0 15px; cursor: pointer; text-align:center}
 .Button-gruen, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .ui-state-default, #Chat {background-color: #509e2f; background: linear-gradient(to bottom, #509e2f 50%, #3f8c24 50%)}
 .Button-grau, .Button-gross-grau input, .Button-gross-grau button, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Titel-grauer-Balken, .Link-Liste a, .ui-state-default:first-child {background-color: #8c8c8c; background: linear-gradient(to bottom, #8c8c8c 50%, #696969 50%)}
@@ -486,8 +486,8 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 #Header .Direktbestellung {font-weight: bold}
 
 /* Hotline */
-#Header .Hotline {float: right;cursor: default;color: #fff;margin: 0;padding: 0;letter-spacing: .025rem;font-size: 1rem;}
-#Header .Hotline span {display: block; font-weight: normal; margin-top: .75rem}
+#Header .Hotline {float: right;color: #fff;margin: 0;padding: 0;letter-spacing: .025rem;font-size: 1rem}
+.Hotline:hover {cursor: default; text-decoration: none}
 
 /* Warenkorb */
 .Warenkorb {position: absolute; top: 53px;right: 1.25%;}
@@ -556,6 +556,7 @@ margin: 0 .25rem 0 -1rem}
 /* Teaser ==========================*/
 /* Allgemein */
 .Teaser {position: relative;}
+.Sidebar .Teaser {margin. 0 0 1rem}
 .Teaser-klickbar a {display: block}
 .Teaser-klickbar a:hover {text-decoration: none}
 .Teaser-klickbar a:hover .Weiterfuehrender-Link {color: #0061a0; text-decoration: underline}
@@ -1300,8 +1301,7 @@ ul.grid-view, ul.list-view {margin: 0}
 
 /* Checkout ==========================*/
 /* Kopfnavigation */
-.Kopfnavigation {background-color: #00609F; margin: 0 0 1rem; overflow: hidden; height: 3.5rem}
-.Kopfnavigation {color: #fff; display: block;line-height: 3.5rem;}
+.Kopfnavigation {background-color: #00609F; margin: 0 0 1rem; overflow: hidden;height: 3.5rem; color: #fff;line-height: 3.5rem;}
 .Text {z-index: 10; font-size: 1rem; position: relative}
 .Schritt-1-Adresseingabe, .Schritt-2-Bestellung-pruefen {/* line-height: 3.5rem; */width: 47%;position: relative;float: left;}
 .Schritt-1-Adresseingabe {width: 49%}
@@ -1335,7 +1335,7 @@ textarea {height: 4rem;font: inherit;}
 .Eingabefeld-gross {padding: 8px}
 
 /* Hotline */
-.Checkout-Adresseingabe .Sidebar .Hotline {color:#000; margin:0 0 1em 0}
+.Checkout-Adresseingabe .Sidebar .Hotline {color:#000; margin:0 0 1em 0;display: block;font-size: 1.25rem;}
 .Checkout-Adresseingabe .Sidebar .Hotline a {color:#000; cursor:default; line-height: 1.25rem; letter-spacing: .025rem; font-size: 1rem; font-weight:bold}
 .Checkout-Adresseingabe .Sidebar .Hotline span {display: block; font-weight: normal; margin-top: .75rem}
 
