@@ -159,14 +159,14 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 /* New Check-Out styling with enhanced forms*/
 .Checkout .Artikelsuche, .Checkout .Warenkorb, .Checkout-Adresseingabe nav, .Checkout-Check-and-Send nav, .Checkout .hidden, fieldset legend {display: none;visibility: hidden;}
 .Checkout-Warenkorb .Artikelsuche, .Checkout-Warenkorb .Warenkorb {display: inline-block; visibility: visible}
-.Checkout fieldset {border: 0 none;padding: 0;}
+.Checkout fieldset {border: 0 none; padding: 0; margin: 0}
 #Add_Lieferadresse ~ fieldset {opacity: 0; max-height: 0; overflow: hidden; visibility: hidden; zoom: 1; transition: opacity .25s ease-out .25s, max-height .5s ease-out}
 #Add_Lieferadresse:checked ~ .Add_Lieferadresse, #Add_Rechnungsadresse:checked ~ .Add_Rechnungsadresse {opacity: 1; max-height: 2000px; display: block;overflow: initial;visibility: visible; transition: opacity .25s ease-in, max-height .5s ease-in}
 .Adresseingabe p {margin-bottom: 0;}
 .Adresseingabe textarea {width: 50%; max-height: 300px}
 .Checkout-Adresseingabe .Adresseingabe label, .Kontakt .Adresseingabe label {display: block; width: 50%}
 .Adresseingabe .col3 label {width: 100%}
-.Checkout [type="checkbox"] + label {width: 53%;margin-bottom: .75rem;}
+[type="checkbox"] + label {width: 53%;margin-bottom: .75rem;}
 .Checkout span.tooltips, .PDF-Download span.tooltips {bottom: 0; right: auto}
 .Checkout-Adresseingabe .Kundennummer-Prefix {position: absolute; left: .25rem; top: 1.75rem}
 .Checkout-Adresseingabe #kundenadr_Kundennummer {padding-left: 2rem}

@@ -89,7 +89,7 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.Schritt-1-Adresseingabe:after {width: 2rem; height: 2rem}
 	.Schritt-2-Bestellung-pruefen .Zahl {margin-left: .5rem}
 	.Text {font-size: inherit}
-	.Checkout-Adresseingabe .Logo, .Checkout-Adresseingabe .Logo {margin-left: .5rem}
+	.Checkout-Adresseingabe .Logo, .Checkout-Check-and-Send .Logo {margin-left: .5rem}
 	.Checkout .col2 {width: 15.62%;}
 	.Checkout .col3 {width: 24.06%}
 	.Checkout .col8 {width: 66.25%;margin-left: 1.25%;}
@@ -182,7 +182,7 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.Zwei-Spalter-Sidebar-left .Content, .Zwei-Spalter-Sidebar-right .Content, .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .PDS .col8, .Grid-System-Social-Media .col4, .Checkout .Sidebar .Teaser, .Abrechnung, .Grid-System [class*="Grid"], #Avail-Hauptkategorie-Kunden-kauften-2, #Avail-Kategorie-Topseller-2 {margin: 0 0 1.25rem 0; width: 100%}
 	.Checkout .col8 {width: 74.68%}
 	.PUES .grid-view .item, .Menge, .Preisbox, .Checkout .col3 {width: 49.37%}
-	.Checkout .kundenadr_Angebotsnummer {margin-left: 1.25%}
+	.Checkout .kundenadr_Angebotsnummer {/* margin-left: 1.25% */}
 	.Schritt-1-Adresseingabe {width: 38%;}
 	.Checkout .col2 {width: 24.06%}
 	.Homepage .royalSlider {height: 105px}
@@ -198,9 +198,9 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.Checkout .Produkttabelle .Produktinfo {width: 60%; display: inline-block}
 	.Checkout .Produkttabelle td:nth-child(-n+2):before {display: none}
 	.Adresseingabe textarea {width: 100%; max-height: 300px}
-	.Adresseingabe label, .Checkout .Hinweis { width: 100%}
-	.Checkox-Gewerbe .Label-Gewerbe, .Newsletter label, .Faxangebot label {width: 90%;display: inline-block}
-	.Checkout .Adresseingabe [type="text"], .Checkout .Adresseingabe [type="tel"], .Checkout .Adresseingabe [type="email"] {width: 100%}
+	.Checkout-Adresseingabe .Adresseingabe label, .Checkout .Hinweis {width: 100%; top: -1rem;}
+	.Adresseingabe button {margin: 0;}
+	.Checkout-Adresseingabe .Adresseingabe [type="text"], .Checkout .Adresseingabe [type="tel"], .Checkout .Adresseingabe [type="email"] {width: 100%;}
 	.Adresseingabe .Eingabefeld-PLZ, .Checkout .Adresseingabe .Eingabefeld-PLZ[type="text"] {width: 19.5%} }
 
 /* iPhone 5 & 6 */
