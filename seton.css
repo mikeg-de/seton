@@ -106,7 +106,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 
 /* Tabellen */
 .Grid-Themen-Index, .ui-dialog, .Footer, .Footer-Zuletzt-gesehene-Produkte {padding: 1rem 1.25%; clear: both}
-.Content th, .Content td, .Checkout-Print th, .Checkout-Print td {padding: 5px 5px 0 5px; box-sizing: border-box}
+.Content th, .Content td, .Checkout-Print th, .Checkout-Print td {padding: 5px; box-sizing: border-box}
 
 /* French DYO*/
 .tab02 [type="text"] {max-width: 220px}
@@ -116,7 +116,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 /* Produkttabelle */
 .Produkttabelle {width: 100%; border-spacing: 0; border-collapse: collapse; margin: 1rem 0 0}
 .Produkttabelle th {font-weight: normal}
-.Produkttabelle tr {border-top: 1px solid #ccc}
+.Produkttabelle tr {border-top: 1px solid #ccc;}
 .Produkttabelle .inactive {color: #888}
 .Produkttabelle .Position {width: 10px}
 .Produkttabelle .Bild {text-align:center; display:table-cell; vertical-align:top; position:relative; min-width:120px; padding-bottom:20px}
@@ -147,6 +147,15 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 .Info-Link .Info-Text p, .Info-Link .Info-Text-JS p {margin-top: 0; width: auto !important}
 .Info-Link:hover .Info-Text {display: block}
 
+/* Basic field definitions */
+label:hover, label:focus {cursor: pointer}
+input, textarea, select {padding: 5px 5px 2px 5px; border-radius: 0; height: 2rem; box-sizing: border-box; border: 1px solid #999; font-size: inherit;}
+[type="checkbox"], [type="radio"] {height: initial}
+:required, .required input, .required select {border-color: #000}
+select {height: 2rem; -webkit-appearance: menulist; -moz-appearance: menulist; appearance: menulist}
+select:hover, input:hover {box-shadow: 0 0 3px 1px #999}
+button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #4d90fe}
+
 /* New Check-Out styling with enhanced forms*/
 .Checkout .Artikelsuche, .Checkout .Warenkorb, .Checkout-Adresseingabe nav, .Checkout-Check-and-Send nav, .Checkout .hidden, fieldset legend {display: none;visibility: hidden;}
 .Checkout-Warenkorb .Artikelsuche, .Checkout-Warenkorb .Warenkorb {display: inline-block; visibility: visible}
@@ -155,7 +164,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 #Add_Lieferadresse:checked ~ .Add_Lieferadresse, #Add_Rechnungsadresse:checked ~ .Add_Rechnungsadresse {opacity: 1; max-height: 2000px; display: block;overflow: initial;visibility: visible; transition: opacity .25s ease-in, max-height .5s ease-in}
 .Adresseingabe p {margin-bottom: 0;}
 .Adresseingabe textarea {width: 50%; max-height: 300px}
-.Checkout-Adresseingabe .Adresseingabe label {display: block; width: 50%}
+.Checkout-Adresseingabe .Adresseingabe label, .Kontakt .Adresseingabe label {display: block; width: 50%}
 .Adresseingabe .col3 label {width: 100%}
 .Checkout [type="checkbox"] + label {width: 53%;margin-bottom: .75rem;}
 .Checkout span.tooltips, .PDF-Download span.tooltips {bottom: 0; right: auto}
@@ -178,15 +187,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 .Checkout-Check-and-Send .kundenadr_Bemerkungen label {vertical-align: top;padding-top: 5px;}
 .Checkout-Check-and-Send fieldset p :hover, .Checkout-Check-and-Send fieldset p :focus {box-shadow: none; cursor: default}
 
-/* Basic field definitions */
-label:hover, label:focus {cursor: pointer}
-input, textarea, select {padding: 5px 5px 2px 5px; border-radius: 0; height: 2rem; box-sizing: border-box; border: 1px solid #999; font-size: inherit;}
-[type="checkbox"], [type="radio"] {height: initial}
-:required, .required input, .required select {border-color: #000}
-select {height: 2rem; -webkit-appearance: menulist; -moz-appearance: menulist; appearance: menulist}
-select:hover, input:hover {box-shadow: 0 0 3px 1px #999}
-button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #4d90fe}
-
+/* Check Out validation response */
 .Checkout-Adresseingabe .optional {opacity: .75; transition: opacity .5s ease-out}
 .Checkout-Adresseingabe .optional:hover, .optional:focus {opacity: 1; transition: opacity .5s ease-in}
 
@@ -220,6 +221,8 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 [type="checkbox"] {box-shadow: none !important; outline: none !important; margin-left: 0}
 input:in-range {}
 input:out-of-range {}
+
+/* Contact Page */
 
 .Hinweis .valid-Newsletter-DOI {color:#666}
 
@@ -446,16 +449,15 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 * html .Produktreihe-Grid-System .Grid3 .Link-Mehr-Produkte {left: 0}
 
 /* Kontakt-Infos ==========================*/
-.Fax, .Hotline, .Mail, .Anschrift, .Info, .Online-Shop {text-align: left; position: relative; left: 0; top: 0; padding-left: 1.5rem; color: #8A8A8A}
-.Fax .Icon, .Hotline .Icon, .Mail .Icon, .Anschrift .Icon, .Info .Icon, .Online-Shop .Icon, .Warenkorb .Icon {position: absolute; left: 0}
-.Teaser-Kontakt div {color: #06609f; margin: 0 0 1rem}
-.Anschrift .Icon {background-position: -84px -105px}
-.Fax span, .Hotline span, .Mail span a, .Anschrift span, .Info span a, .Online-Shop span a, .Warenkorb span a {font-size: 1.1rem; display: block; font-weight: bold}
+.Teaser-Kontakt div, .Fax, .Mail, .Anschrift, .Info, .Online-Shop {text-align: left; position: relative;margin: 0 0 1rem;left: 0; top: 0; padding-left: 1.5rem; color: #8A8A8A}
+.Teaser-Kontakt .Icon, .Info .Icon, .Online-Shop .Icon, .Warenkorb .Icon {position: absolute;left: 0;font-size: 1rem;}
+.Teaser-Kontakt div {color: #06609f;}
+.Fax span, .Hotline span, .Mail span a, .Anschrift span, .Info span a, .Online-Shop span a, .Warenkorb span a { display: block}
 
 /* Head ==========================*/
 #Header {width: 100%; position: relative; z-index:90}
 .Logo, .Artikelsuche {margin: 0 0 .75rem 1.25%; vertical-align: top; display: inline-block}
-.Balken {background: #00609F; height: 1.5rem; margin-bottom: 1rem; padding: 10px 15px 0; display: block; line-height: 1rem}
+.Balken {background: #00609F; height: 1.5rem; margin-bottom: 1rem;padding: 10px 1.25% 0; display: block; line-height: 1rem}
 
 /* Meta-Navi */
 #Header .Meta-Navi {position: absolute; right: 28%; list-style-type: none; margin: 0}
@@ -483,12 +485,11 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 #Header .Direktbestellung {font-weight: bold}
 
 /* Hotline */
-#Header .Hotline {float: right; color: #fff; width: 150px}
-#Header .Hotline a {color: #fff; cursor: default; line-height: 1.25rem; letter-spacing: .025rem; font-size: 1rem}
+#Header .Hotline {float: right;cursor: default;color: #fff;margin: 0;padding: 0;letter-spacing: .025rem;font-size: 1rem;}
 #Header .Hotline span {display: block; font-weight: normal; margin-top: .75rem}
 
 /* Warenkorb */
-.Warenkorb {position: absolute; top: 53px; right: 1.5%}
+.Warenkorb {position: absolute; top: 53px;right: 1.25%;}
 #Header .Warenkorb b {font-size: 1.1rem}
 #Header .Warenkorb button {width: 190px}
 #Header .Warenkorb .Button-klein-grau button:hover {box-shadow: none}
@@ -545,15 +546,15 @@ margin: 0 .25rem 0 -1rem}
 .Filterparameter li:hover:before, .Filterparameter li.active:before {content: "\5a"; text-decoration: none}
 .Warenkorb .Icon:before {content: "\e015"; font-size: 2rem}
 .Hotline .Icon:before, .icon_phone:before {content: "\e090"}
+.icon_balance:before {content: "\e0ff"}
 .Editieren:after {content: "\6a"}
-.Mail .Icon:before {font-family: Arial}
 .Fax .Icon:before {content: "\e103"; text-transform: uppercase}
-.Mail .Icon:before {content: "@"; font-size: 1.25rem; top: -.2rem}
-.Anschrift .Icon:before {content: "\e010"; font-size: 1.25rem}
+.Mail .Icon:before {content: "@";font-size: 1rem;font-family: Arial;}
+.Anschrift .Icon:before {content: "\e010";}
 
 /* Teaser ==========================*/
 /* Allgemein */
-.Teaser {position: relative; margin: 0 0 1rem}
+.Teaser {position: relative;}
 .Teaser-klickbar a {display: block}
 .Teaser-klickbar a:hover {text-decoration: none}
 .Teaser-klickbar a:hover .Weiterfuehrender-Link {color: #0061a0; text-decoration: underline}
@@ -817,9 +818,6 @@ img.rsImg {max-width: none}
 /* Teaser Ostereiersuche */
 .Teaser-Ostereiersuche .Button-klein-T-Zum-Gewinnspiel {position: absolute; bottom: 0; right: 0}
 
-/* Teaser Kontakt */
-.Teaser-Kontakt .Hotline span, .Teaser-Kontakt .Fax span, .Teaser-Kontakt .Mail span, .Teaser-Kontakt .Anschrift span {font-size: .9rem; color: #8A8A8A; display: block; letter-spacing: 0; font-weight: normal}
-
 /* Top-Suchbegriffe */
 .Top-Suchbegriffe {text-align: center}
 .Top-Suchbegriffe .SuchbegriffSize1 {font-size: 10pt}
@@ -991,7 +989,6 @@ img.rsImg {max-width: none}
 .PUES-Subnavigation-Filter .PUES-Preis-Slider .fact-finder-onetouchslider-bar .fact-finder-onetouchslider-triangle {display: none !important}
 .PUES-Subnavigation-Filter .PUES-Preis-Slider .fact-finder-onetouchslider-bar img {background: none !important; display: none}
 .Filter, .PUES-Preis-Slider {margin: 1rem 0 0 0}
-.Subnavigation li {border-bottom: 1px dashed #ccc}
 aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .Subnavigation ul > li a {padding-left: 0}
 .Filter li a {padding: 0 0 .25rem 0; line-height: 1.5rem}
@@ -1202,7 +1199,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .Schildersuche .Schilder-Banner {margin-right: 10px}
 .Schildersuche .Seiteanzeige {white-space: nowrap}
 .Schildersuche .Seiteanzeige .pagingCurrent {font-weight: bold}
-.Schilder-Suche label {vertical-align: middle}
+.Schilder-Suche label {line-height: 2rem;}
 .Schilder-Suche input[type=text] {width: 230px; margin: 0 -4px 0 10px; height: 2.25rem; vertical-align: bottom}
 .suggestLayerSchildersuche {background: #FFF}
 
@@ -1545,9 +1542,9 @@ textarea {height: 4rem;font: inherit;}
 
 /* Kontaktformular ==========================*/
 /* Formularauswahl mittels JS-Dropdown */
-.Kontaktformulare-Auswahl-JS {display: none; margin: 0 0 10px 0}
+.Kontaktformulare-Auswahl-JS {/* display: none; *//* margin: 0 0 10px 0 */}
 .Kontakt .dropdown, .Kontakt .dropdown dt {width: 280px}
-.Kontakt .Kontaktformulare-Auswahl-JS {width: 50%; margin: 0 0 1rem 31%}
+.Kontakt .Kontaktformulare-Auswahl-JS {width: 35%;/* margin: 0 0 1rem 31% */}
 
 /* Formularauswahl mittels Links ohne JS */
 .Kontaktformulare-Auswahl {list-style-type: none; margin: 0 0 10px 0 !important; padding: 0}
@@ -1637,7 +1634,7 @@ img.Praemien {position: absolute; top: 0; right: 0; z-index: -1}
 .Grid-System-Social-Media {border-top: 1px solid #ccc; padding-top: .75rem; margin-top: 1rem}
 .Grid-System-Social-Media .col4 {border-right: 1px solid #ccc; min-height: 120px; margin-bottom: 0; border-collapse: collapse}
 .Grid-System-Social-Media div:last-child {border-right: 0 none}
-.Footer .NL-Aktion {float: right; margin: 0 .5rem 0 0}
+.Footer .NL-Aktion {float: right;margin: 0 .5rem 0 0;}
 .Footer .Grid-System-Sitemap ul li a:hover:before {text-decoration: none !important; color: #63666a !important}
 .Footer .Social-Media {margin: 35px 0 0 0}
 .Footer .Social-Media li {float: left; margin-right: 5px}
