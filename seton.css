@@ -200,6 +200,7 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 .LV_invalid_field:hover, .LV_invalid_field:focus {box-shadow: 0 0 3px 1px #F00; outline-color: #F00}
 
 .Fehlertext, .Hinweis, .Hinweis-Fehler, .LV_invalid, .invalid {color:#F00}
+.valid {display: none !important}
 .LV_invalid, .Hinweistext {position: absolute}
 
 /* http://l-lin.github.io/font-awesome-animation/ */
