@@ -37,6 +37,7 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 
 	.Grid-System-Social-Media .col4 {width: 32.5%; margin: 0 0 .75rem 1.25%}
 	.pure-toggle-label[data-toggle-label="left"], .PUES .pure-toggle-label.data-icon {display: block}
+	.PUES-Landingpage .pure-toggle-label[data-toggle-label='left-bottom'] {display: none}
 
 	#Header {height: 2.75rem; background-color: #fff; position: fixed; z-index:90; border-bottom: 1px solid #ccc}
 	.Logo {margin: .5rem 0 .5rem 3.5rem; overflow: hidden; width: 2rem; height: 2rem}
