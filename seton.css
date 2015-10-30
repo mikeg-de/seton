@@ -1628,7 +1628,7 @@ img.Praemien {position: absolute; top: 0; right: 0; z-index: -1}
 /* Footer ==========================*/
 /* Zuletzt gesehene Produkte */
 #lastSeenProducts {position: relative; z-index: 9; clear: both}
-#lastSeenProducts .tooltip {top: 105%}
+#lastSeenProducts .tooltip {top: 105%; left: -25%; width: 150%;}
 .Footer-Zuletzt-gesehene-Produkte {clear: both}
 .Footer-Zuletzt-gesehene-Produkte .Titel-Balken-hellgrau span {min-width: 207px}
 #Artikelsuche-Hinweis {display: none; left: 207px; top: 37px; z-index: 9; width: 230px}
@@ -1717,7 +1717,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.col {width: 204px; float: left; margin: 0; padding: 5px 5px 5px 10px; box-sizing: border-box}
 	.Homepage .royalSlider {height: 250px}
 	.Zwei-Spalter-Sidebar-left .Content {margin-left: -24.06%}
-	.Zwei-Spalter-Sidebar-left .Content, .Drei-Spalter .Content, #Footer_Bereichstext {float: right; padding: 0 1.25% 0}
+	.Zwei-Spalter-Sidebar-left .Content, .Drei-Spalter .Content, #Footer_Bereichstext {float: right}
 	.Drei-Spalter .Content {margin-left: -74.68%; margin-right: 25.31%}
 	.Zwei-Spalter-Sidebar-right .Content {float: left; padding: 0 1.25% 0}
 	.Zwei-Spalter-Sidebar-right .Sidebar.right {margin: 0 1.25% .75rem 0; float:right}
