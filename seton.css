@@ -133,7 +133,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 /* Formulartabelle */
 .Adresseingabe .Gewerbe .Hinweis p {width: 150px}
 .Adresseingabe .Checkox-Gewerbe p {width: 350px}
-.Adresseingabe .Weiterfuehrender-Link {top: .25rem;right: .5rem;bottom: auto;color: #999}
+.Adresseingabe .Weiterfuehrender-Link {top: .25rem;right: 0;color: #999;}
 .Adresseingabe .Weiterfuehrender-Link:hover, .Adresseingabe .Weiterfuehrender-Link:focus {color: #0061a0}
 .Checkout-Confirmation-Page .Adresseingabe select {width: 150px}
 .Adresseingabe .Faxangebot {margin-top: 10px}
@@ -159,15 +159,16 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 /* New Check-Out styling with enhanced forms*/
 .Checkout .Artikelsuche, .Checkout .Warenkorb, .Checkout-Adresseingabe nav, .Checkout-Check-and-Send nav, .Checkout .hidden, fieldset legend {display: none;visibility: hidden;}
 .Checkout-Warenkorb .Artikelsuche, .Checkout-Warenkorb .Warenkorb {display: inline-block; visibility: visible}
-.Checkout fieldset {border: 0 none; padding: 0; margin: 0}
-#Add_Lieferadresse ~ fieldset {opacity: 0; max-height: 0; overflow: hidden; visibility: hidden; zoom: 1; transition: opacity .25s ease-out .25s, max-height .5s ease-out}
-#Add_Lieferadresse:checked ~ .Add_Lieferadresse, #Add_Rechnungsadresse:checked ~ .Add_Rechnungsadresse {opacity: 1; max-height: 2000px; display: block;overflow: initial;visibility: visible; transition: opacity .25s ease-in, max-height .5s ease-in}
+.Checkout fieldset {border: 0 none;padding: 0;}
+.Checkout-Adresseingabe fieldset {margin: 0}
+#Add_Lieferadresse ~ fieldset {opacity: 0; max-height: 0; overflow: hidden; visibility: hidden; transition: opacity .25s ease-out .25s, visibility .25s ease-out .25s, max-height .5s ease-out}
+#Add_Lieferadresse:checked ~ .Add_Lieferadresse, #Add_Rechnungsadresse:checked ~ .Add_Rechnungsadresse {opacity: 1; max-height: 2000px; display: block; overflow: initial; visibility: visible; transition: opacity .25s ease-in, max-height .5s ease-in}
 .Adresseingabe p {margin-bottom: 0;}
 .Adresseingabe textarea {width: 50%; max-height: 300px}
 .Checkout-Adresseingabe .Adresseingabe label, .Kontakt .Adresseingabe label {display: block; width: 50%}
 .Adresseingabe .col3 label {width: 100%}
 [type="checkbox"] + label {width: 53%;margin-bottom: .75rem;}
-.Checkout span.tooltips, .PDF-Download span.tooltips {bottom: 0; right: auto}
+.Checkout span.tooltips, .PDF-Download span.tooltips {bottom: 0; right: auto;top: auto;}
 .Checkout-Adresseingabe .Kundennummer-Prefix {position: absolute; left: .25rem; top: 1.75rem}
 .Checkout-Adresseingabe #kundenadr_Kundennummer {padding-left: 2rem}
 .Checkout-Adresseingabe [class*="_Anrede"], .Checkout-Adresseingabe [class*="_Land"], .Checkout fieldset [type="checkbox"], .Checkout-Adresseingabe .kundenadr_Kundennummer {clear: both; display: block;}
@@ -182,10 +183,11 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 .Checkout-Check-and-Send fieldset label {width: 31%}
 .Checkout-Check-and-Send input {width: 65%}
 .Checkout-Check-and-Send .kundenadr_Kundennummer input {width: 55%; padding-left: 0;}
-.Checkout-Check-and-Send .Kundennummer-Prefix {display: inline-block; padding-left: .15rem}
+.Checkout-Check-and-Send .Kundennummer-Prefix {display: inline-block;padding-left: .15rem;vertical-align: middle;}
 .Checkout-Check-and-Send fieldset select, .Checkout-Check-and-Send fieldset textarea {-webkit-appearance:none; -moz-appearance:none; appearance:none;width: 65%;margin: 0;padding-left: 0;resize: none;height: auto;}
 .Checkout-Check-and-Send .kundenadr_Bemerkungen label {vertical-align: top;padding-top: 5px;}
 .Checkout-Check-and-Send fieldset p :hover, .Checkout-Check-and-Send fieldset p :focus {box-shadow: none; cursor: default}
+.Checkout-Check-and-Send a.col3 {display: block; clear: both}
 
 /* Check Out validation response */
 .Checkout-Adresseingabe .optional :not([class$="tooltip"]) {opacity: .75; transition: opacity .5s ease-out}
@@ -1264,7 +1266,7 @@ ul.grid-view, ul.list-view {margin: 0}
 
 /* Warenkorb ==========================*/
 .Anzahl .updateLink {display: none}
-.buttonAsLink {color: #8c8c8c; /* background:none; */ /* padding:0; */ /* border: 0 none; */ /* margin:0; */}
+.buttonAsLink {color: #8c8c8c;}
 .Abrechnung {float: right;border-collapse: collapse; border-spacing:0; margin: 10px 0}
 .Abrechnung th {text-align: left; font-weight: normal}
 .Abrechnung td {text-align: right;}
@@ -1725,4 +1727,4 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.Produkttabelle .Anzahl .Eingabefeld {float: left}
 	.Anzahl a {float: left}
 	.Produkttabelle .Einzelpreis-abzgl-Rabatt, .Produkttabelle .Einzelpreis, .Produkttabelle .Summe {text-align: right; width: 50px}
-	.Hinweis p {margin: .5rem 0 0} }
+	.Hinweis {margin-top: .5rem;} }

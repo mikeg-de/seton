@@ -84,12 +84,12 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	/* Check Out */
 	.Checkout #Breadcrumbs {height: 2.75rem; text-indent: -99999px; display: block;margin: 0 0 1rem;}
 	.Checkout-Adresseingabe .pure-toggle-label[data-toggle-label='left'], .Checkout-Check-and-Send .pure-toggle-label[data-toggle-label='left'] {display: none}
-	.Kopfnavigation {width: 100%; position: fixed; top: 0;height: 2.75rem; z-index: 100; left: 2.75rem;line-height: 2.75rem;margin: 0}
+	.Kopfnavigation {width: 100%; position: fixed; top: 0;height: 2.75rem; z-index: 100;left: 2.5rem;line-height: 2.75rem;margin: 0}
 	.Schritt-1-Adresseingabe {width: 47%}
 	.Schritt-1-Adresseingabe:after {width: 2rem; height: 2rem}
 	.Schritt-2-Bestellung-pruefen .Zahl {margin-left: .5rem}
 	.Text {font-size: inherit}
-	.Checkout-Adresseingabe .Logo, .Checkout-Check-and-Send .Logo {margin-left: .5rem}
+	.Checkout-Adresseingabe .Logo, .Checkout-Check-and-Send .Logo {margin-left: 1.25%;}
 	.Checkout .col2 {width: 15.62%;}
 	.Checkout .col3 {width: 24.06%}
 	.Checkout .col8 {width: 66.25%;margin-left: 1.25%;}
@@ -183,17 +183,17 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.Checkout .col8 {width: 74.68%}
 	.PUES .grid-view .item, .Menge, .Preisbox, .Checkout .col3 {width: 49.37%}
 	.Checkout .kundenadr_Angebotsnummer {/* margin-left: 1.25% */}
-	.Schritt-1-Adresseingabe {width: 38%;}
+	.Schritt-1-Adresseingabe {width: 40%;}
 	.Checkout .col2 {width: 24.06%}
 	.Homepage .royalSlider {height: 105px}
-	.Checkout .Content {padding: 0 .5rem}
+	.Checkout .Content {padding: 0 1.25%;}
 	.Grid-System-Social-Media .col4 {border: 0 none; border-bottom: 1px solid #ccc}
 	.grid-view .item:nth-child(2n) {border-right: 0 none}
 	.grid-view .item:nth-child(-n+2) {border-top: 0 none}
 	.grid-view .item:nth-child(3n+3) {border-top: 1px solid #ccc}
 	.Checkout .Produkttabelle th {display: none}
 	.Checkout .Produkttabelle td {display: block}
-	.Checkout .Produkttabelle td:before {content: attr(data-th) ": "; font-weight: bold; width: 30%; display: inline-block; vertical-align: top; height: 100%}
+	.Checkout .Produkttabelle td:before {content: attr(data-th) ": "; font-weight: bold;width: 39%; display: inline-block; vertical-align: top; height: 100%}
 	.Checkout .Produkttabelle .Bild {width: 30%; display: inline-block}
 	.Checkout .Produkttabelle .Produktinfo {width: 60%; display: inline-block}
 	.Checkout .Produkttabelle td:nth-child(-n+2):before {display: none}
