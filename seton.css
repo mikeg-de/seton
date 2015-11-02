@@ -896,9 +896,12 @@ img.rsImg {max-width: none}
 #Crosseller .label {border-bottom: 1px solid #ccc; line-height: 1.5rem; font-size: 1rem; font-weight: bold}
 .Dropdowns .Titel-unterstrichen {padding-top: 10px}
 .Dropdowns {width: 100%; display: inline-block}
+.Inventarketiketten-Designer .Dropdowns {width: 32.5%;}
+.Inventarketiketten-Designer #gallery .Dropdowns {width: 100%;}
 .Dropdowns-item {padding: 0 0 10px 0; width: 100%; position: relative}
 .Dropdowns-item label {width: 35%; overflow: hidden; text-overflow: ellipsis; display: inline-block; vertical-align: middle}
-.Inventarketiketten-Designer .Dropdowns-item label {width: 100%}
+.Inventarketiketten-Designer .Dropdowns-item label {width: 33%;}
+.Inventarketiketten-Designer .Dropdowns-item-Prefix-Nummerierung-Suffix label {width: 100%;}
 .Dropdowns-item select {width: 65%}
 .info_pulldown_changed {font-size: .9rem; color: #FF0; display: none; padding: 3px 0}
 .Produktdaten .Dropdowns a {text-decoration: underline}
@@ -915,7 +918,7 @@ img.rsImg {max-width: none}
 .Preisbox .Preis {font-size: 1rem; font-weight: bold; margin-bottom: 5px; white-space: nowrap}
 .Preisbox .zzgl-MwSt {font-size: .8rem; margin: 0}
 .Preisbox .Rabatt {font-size: 1.2rem; color: #f00; font-weight: bold; margin: 0}
-.Inventarketiketten-Designer .Preisbox {position: absolute; right: 30px; top: 80px}
+.Inventarketiketten-Designer .Preisbox {position: absolute; right: 30px;top: 55px;}
 .Einrichtungsgebuehr .tooltip {width: 230px; text-align: left; left: auto; right: 0; top: 25px}
 .Info-Link:hover .Info-Text, .Info-Link:hover .Info-Text-JS {left: -8px; bottom: 15px; display: block !important; width: 200px}
 .Einrichtungsgebuehr .tooltip table {border-collapse: collapse; width: 100%}
@@ -923,6 +926,7 @@ img.rsImg {max-width: none}
 .Einrichtungsgebuehr .tooltip table td:last-child {text-align: right}
 .Einrichtungsgebuehr .tooltip:before, #Artikelsuche-Hinweis:before, .Info-Link .Info-Text:before, .Info-Link .Info-Text-JS:before, .Einrichtungsgebuehr .tooltip:after, #Artikelsuche-Hinweis:after, .Info-Link .Info-Text:after, .Info-Link .Info-Text-JS:after {left: 90%}
 .Produktergebnis, .Kopfnummerninfos-Tabs .Tabs-Content {border: 1px solid #ccc}
+.Inventarketiketten-Designer .Produktergebnis {position: absolute; top: 45px; right: 0;padding: .5rem;}
 .Produktergebnis .Bestellbox {float: right}
 .Produktergebnis .Menge label {display: block; margin-bottom: 5px}
 .Produktergebnis .Menge #Menge {text-align: right}
@@ -972,7 +976,6 @@ img.rsImg {max-width: none}
 .Produktliste h2, .Tab-Content h2, .Produktliste h3, .Tab-Content h3 {margin-top: 0}
 #PDS-Content .Wischer {float: right; margin: -5px 0 0 5px}
 #Kopfnummernbeschreibung .pds-desc-title {border-bottom: 1px solid #ccc; margin: 0 0 15px 0}
-#Kopfnummernbeschreibung .pds-desc-title span {display: inline-block}
 #Kopfnummernbeschreibung .pds-desc-title span img {height: 1rem}
 #Kopfnummernbeschreibung .pds-desc-title .brand {float: right}
 
