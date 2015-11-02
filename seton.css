@@ -1219,7 +1219,7 @@ ul.grid-view, ul.list-view {margin: 0}
 /* Factfinder Berater-Kampagne*/
 .Berater-Kampagne .Rahmen {min-height: 100px}
 .Berater-Kampagne .mid-height {min-height: 220px}
-.Berater-Kampagne .full-height {min-height: 285px}
+.Berater-Kampagne .full-height, #Infoportal .item {min-height: 285px}
 .Berater-Kampagne .Button-klein-grau {clear: both; position: relative; z-index: 1}
 .Berater-Kampagne a {display: block; color: #3e3e3e}
 .Berater-Kampagne a:hover {text-decoration: none}
