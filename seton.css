@@ -248,8 +248,7 @@ a .Link {color: #0061a0}
 span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor: pointer}
 .tooltips:hover {text-decoration: none}
 .tooltips .tooltip, #Artikelsuche-Hinweis,
-.Info-Link .Info-Text, .Info-Link .Info-Text-JS {position: absolute; color: #3e3e3e; background: #fff; border: 2px solid #ccc; visibility: hidden; border-radius: 5px; padding: 5px; z-index: 250; text-align: center;width: 200px;left: -100px;}
-.tooltip {left: 50%;}
+.Info-Link .Info-Text, .Info-Link .Info-Text-JS {position: absolute; color: #3e3e3e; background: #fff; border: 2px solid #ccc; visibility: hidden; border-radius: 5px; padding: 5px; z-index: 250; text-align: center;width: 200px;left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%);}
 
 .tooltips-drueber .tooltip:before, .tooltips-drunter .tooltip:before,
 .Info-Link .Info-Text:before, .Info-Link .Info-Text-JS:before,
@@ -257,7 +256,7 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 #Artikelsuche-Hinweis:after,
 .Info-Link .Info-Text:after, .Info-Link .Info-Text-JS:after {content: ''; position: absolute; left: 50%; width: 0; height: 0; text-decoration: none !important}
 
-.tooltips-drueber .tooltip {bottom:30px}
+.tooltips-drueber .tooltip {bottom: 130%;}
 
 .tooltips-drueber .tooltip:before, .tooltips-drueber .tooltip:after {top: 100%}
 .tooltips-drueber .tooltip:after {margin-left: -8px; border-top: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
@@ -277,7 +276,7 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 #Artikelsuche-Hinweis:before,
 .Info-Link .Info-Text:before, .Info-Link .Info-Text-JS:before {margin-left: -12px; border-bottom: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
 
-.Upsell .tooltip {text-align: center; width: 200px; margin-left: -112px}
+.Upsell .tooltip {text-align: center;}
 .Upsell .tooltip .h3 {margin-top: 10px; font-size: 1rem; color: #539d37}
 .Upsell .tooltip .Upsellnein, .Upsell .tooltip .Upsellja {display: inline-block; padding: 0 5px; color: #0061a0}
 .Upsell .tooltip .Upsellja {font-size: 1.4rem}
@@ -289,7 +288,7 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .Teaser-Vorteilsnummer .tooltip {width: 350px; margin-left: -150px}
 .Teaser-Newsletter-GHS .tooltip {width:200px; margin-left: -80px}
 .Abrechnung .tooltip {width:200px; margin-left:-98px}
-.legislation .tooltip, .brand .tooltip {width:150px; margin-left:-73px}
+.legislation .tooltip, .brand .tooltip {width:150px}
 
 /* Formulare */
 form {margin: 0}
@@ -1219,7 +1218,7 @@ ul.grid-view, ul.list-view {margin: 0}
 /* Factfinder Berater-Kampagne*/
 .Berater-Kampagne .Rahmen {min-height: 100px}
 .Berater-Kampagne .mid-height {min-height: 220px}
-.Berater-Kampagne .full-height, #Infoportal .item {min-height: 285px}
+.Berater-Kampagne .full-height, #Infoportal .item {min-height: 295px}
 .Berater-Kampagne .Button-klein-grau {clear: both; position: relative; z-index: 1}
 .Berater-Kampagne a {display: block; color: #3e3e3e}
 .Berater-Kampagne a:hover {text-decoration: none}
