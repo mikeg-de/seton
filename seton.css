@@ -115,7 +115,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 
 /* Produkttabelle */
 .Produkttabelle {width: 100%; border-spacing: 0; border-collapse: collapse; margin: 1rem 0 0}
-.Produkttabelle th, .Produkttabelle td {font-weight: normal}
+.Produkttabelle th, .Produkttabelle td {font-weight: normal}
 .Produkttabelle tr {border-top: 1px solid #ccc;}
 .Produkttabelle .inactive {color: #888}
 .Produkttabelle .Position {width: 10px}
@@ -259,10 +259,8 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .tooltips-drueber .tooltip:after {margin-left: -8px; border-top: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
 .tooltips-drueber .tooltip:before {margin-left: -12px; border-top: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
 
-.tooltips-drueber .tooltip:before, .tooltips-drueber .tooltip:after {top: 100%}
-.tooltips-drueber .tooltip {bottom: 130%}
-
-.tooltips-drunter .tooltip:before, .tooltips-drunter .tooltip:after,
+.tooltips-drunter .tooltip, .tooltips-drueber .tooltip:before, .tooltips-drueber .tooltip:after {top: 100%}
+.tooltips-drueber .tooltip, .tooltips-drunter .tooltip:before, .tooltips-drunter .tooltip:after,
 #Artikelsuche-Hinweis:after, .Info-Link .Info-Text:before, .Info-Link .Info-Text:after,
 .Info-Link .Info-Text-JS:before, .Info-Link .Info-Text-JS:after {bottom: 100%}
 
@@ -273,12 +271,11 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .Info-Link .Info-Text:after, .Info-Link .Info-Text-JS:after {margin-left: -8px; border-bottom: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
 
 .Lieferdatum .tooltip {width:120px}
-.legislation .tooltip, .brand .tooltip {width:150px}
-.tooltip-Dateien-hochladen .tooltip {width: 170px; top: 25px}
-.Teaser-Newsletter-GHS .tooltip, .Abrechnung .tooltip {width:200px}
+.legislation .tooltip, .brand .tooltip, #lastSeenProducts .tooltip, .tooltip-Dateien-hochladen .tooltip {width:150px}
+.Teaser-Newsletter-GHS .tooltip, .Abrechnung .tooltip, .Einrichtungsgebuehr .tooltip {width:200px}
 .Teaser-Vorteilsnummer .tooltip {width: 350px}
 
-.Upsell .tooltip {text-align: center;}
+.Upsell .tooltip {text-align: center}
 .Upsell .tooltip .h3 {margin-top: 10px; font-size: 1rem; color: #539d37}
 .Upsell .tooltip .Upsellnein, .Upsell .tooltip .Upsellja {display: inline-block; padding: 0 5px; color: #0061a0}
 .Upsell .tooltip .Upsellja {font-size: 1.4rem}
@@ -913,12 +910,11 @@ img.rsImg {max-width: none}
 .Preisbox .zzgl-MwSt {font-size: .8rem; margin: 0}
 .Preisbox .Rabatt {font-size: 1.2rem; color: #f00; font-weight: bold; margin: 0}
 .Inventarketiketten-Designer .Preisbox {position: absolute; right: 30px;top: 55px;}
-.Einrichtungsgebuehr .tooltip {width: 230px; text-align: left; left: auto; right: 0; top: 25px}
+.Einrichtungsgebuehr .tooltip {text-align: left}
 .Info-Link:hover .Info-Text, .Info-Link:hover .Info-Text-JS {left: -8px; bottom: 15px; display: block !important; width: 200px}
 .Einrichtungsgebuehr .tooltip table {border-collapse: collapse; width: 100%}
 .Einrichtungsgebuehr .tooltip table td {padding: 2px 0}
 .Einrichtungsgebuehr .tooltip table td:last-child {text-align: right}
-.Einrichtungsgebuehr .tooltip:before, #Artikelsuche-Hinweis:before, .Info-Link .Info-Text:before, .Info-Link .Info-Text-JS:before, .Einrichtungsgebuehr .tooltip:after, #Artikelsuche-Hinweis:after, .Info-Link .Info-Text:after, .Info-Link .Info-Text-JS:after {left: 90%}
 .Produktergebnis, .Kopfnummerninfos-Tabs .Tabs-Content {border: 1px solid #ccc}
 .Inventarketiketten-Designer .Produktergebnis {position: absolute; top: 45px; right: 0;padding: .5rem;}
 .Produktergebnis .Bestellbox {float: right}
@@ -1626,7 +1622,6 @@ img.Praemien {position: absolute; top: 0; right: 0; z-index: -1}
 /* Footer ==========================*/
 /* Zuletzt gesehene Produkte */
 #lastSeenProducts {position: relative; z-index: 9; clear: both}
-#lastSeenProducts .tooltip {top: 105%; left: -25%; width: 150%;}
 .Footer-Zuletzt-gesehene-Produkte {clear: both}
 .Footer-Zuletzt-gesehene-Produkte .Titel-Balken-hellgrau span {min-width: 207px}
 #Artikelsuche-Hinweis {display: none; left: 207px; top: 37px; z-index: 9; width: 230px}
