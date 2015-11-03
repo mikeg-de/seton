@@ -133,7 +133,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 /* Formulartabelle */
 .Adresseingabe .Gewerbe .Hinweis p {width: 150px}
 .Adresseingabe .Checkox-Gewerbe p {width: 350px}
-.Adresseingabe .Weiterfuehrender-Link {top: .25rem;right: 0;color: #999;}
+.Adresseingabe .Weiterfuehrender-Link {color: #999;}
 .Adresseingabe .Weiterfuehrender-Link:hover, .Adresseingabe .Weiterfuehrender-Link:focus {color: #0061a0}
 .Checkout-Confirmation-Page .Adresseingabe select {width: 150px}
 .Adresseingabe .Faxangebot {margin-top: 10px}
@@ -256,25 +256,27 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 #Artikelsuche-Hinweis:after,
 .Info-Link .Info-Text:after, .Info-Link .Info-Text-JS:after {content: ''; position: absolute; left: 50%; width: 0; height: 0; text-decoration: none !important}
 
-.tooltips-drueber .tooltip {bottom: 130%;}
-
-.tooltips-drueber .tooltip:before, .tooltips-drueber .tooltip:after {top: 100%}
 .tooltips-drueber .tooltip:after {margin-left: -8px; border-top: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
 .tooltips-drueber .tooltip:before {margin-left: -12px; border-top: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
 
-.tooltips-drunter .tooltip {top: 30px}
-.Adresseingabe .col3 .tooltip {top: 3.75rem;left: 0;}
+.tooltips-drueber .tooltip:before, .tooltips-drueber .tooltip:after {top: 100%}
+.tooltips-drueber .tooltip {bottom: 130%}
 
 .tooltips-drunter .tooltip:before, .tooltips-drunter .tooltip:after,
 #Artikelsuche-Hinweis:after, .Info-Link .Info-Text:before, .Info-Link .Info-Text:after,
 .Info-Link .Info-Text-JS:before, .Info-Link .Info-Text-JS:after {bottom: 100%}
 
+.tooltips-drunter .tooltip:before, #Artikelsuche-Hinweis:before,
+.Info-Link .Info-Text:before, .Info-Link .Info-Text-JS:before {margin-left: -12px; border-bottom: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
+
 .tooltips-drunter .tooltip:after, #Artikelsuche-Hinweis:after,
 .Info-Link .Info-Text:after, .Info-Link .Info-Text-JS:after {margin-left: -8px; border-bottom: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
 
-.tooltips-drunter .tooltip:before,
-#Artikelsuche-Hinweis:before,
-.Info-Link .Info-Text:before, .Info-Link .Info-Text-JS:before {margin-left: -12px; border-bottom: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
+.Lieferdatum .tooltip {width:120px}
+.legislation .tooltip, .brand .tooltip {width:150px}
+.tooltip-Dateien-hochladen .tooltip {width: 170px; top: 25px}
+.Teaser-Newsletter-GHS .tooltip, .Abrechnung .tooltip {width:200px}
+.Teaser-Vorteilsnummer .tooltip {width: 350px}
 
 .Upsell .tooltip {text-align: center;}
 .Upsell .tooltip .h3 {margin-top: 10px; font-size: 1rem; color: #539d37}
@@ -282,13 +284,6 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .Upsell .tooltip .Upsellja {font-size: 1.4rem}
 .Upsell .tooltip .Upsellnein:hover, .Upsell .tooltip .Upsellja:hover {text-decoration: underline}
 .Upsell.tooltips:hover .tooltip {visibility: hidden; opacity: 0}
-
-.tooltip-Dateien-hochladen .tooltip {width: 170px; top: 25px; left: auto; right: 0}
-.Lieferdatum .tooltip {width:120px; margin-left:-67px}
-.Teaser-Vorteilsnummer .tooltip {width: 350px; margin-left: -150px}
-.Teaser-Newsletter-GHS .tooltip {width:200px; margin-left: -80px}
-.Abrechnung .tooltip {width:200px; margin-left:-98px}
-.legislation .tooltip, .brand .tooltip {width:150px}
 
 /* Formulare */
 form {margin: 0}
