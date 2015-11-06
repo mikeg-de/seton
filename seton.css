@@ -59,7 +59,7 @@ h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 .Thema-Name, .Teaser p, .Teaser .p {margin: 0}
 .Homepage .Teaser p, .Footer .Teaser-Newsletter p {float: left; max-width: 50%}
 .Footer .Teaser-Newsletter p {max-width: 65%}
-[class^="Teaser-Newsletter"] input[type="email"] {width: 100%}
+[class*="Teaser-Newsletter"] input[type="email"] {width: 100%}
 .nowrap {white-space: nowrap}
 .Trenner {height: 1px; margin: 20px 0; background: #DDEAF6; clear: both; line-height: 0; font-size: 0; overflow: hidden}
 .Drucken {cursor: pointer}
