@@ -1708,7 +1708,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	#topnav4 .sub {left:16.66%}
 	#topnav7 .sub {left:33.33%}
 	.col {width: 204px; float: left; margin: 0; padding: 5px 5px 5px 10px; box-sizing: border-box}
-	#topnavSale .sub {left:79.9%; visibility:visible !important; opacity:1.0 !important; max-height:900px !important }
+	#topnavSale .sub {left:79.9% }
 	#topnavSale .col { padding:5px 10px}
 	#topnavSale li { border-bottom:1px solid #ccc; padding:1em 0  }
 	#topnavSale li:last-child { border:0  }
