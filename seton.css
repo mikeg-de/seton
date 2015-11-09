@@ -133,7 +133,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 /* Formulartabelle */
 .Adresseingabe .Gewerbe .Hinweis p {width: 150px}
 .Adresseingabe .Checkox-Gewerbe p {width: 350px}
-.Adresseingabe .Weiterfuehrender-Link {color: #999;}
+.Adresseingabe .Weiterfuehrender-Link {color: #999;bottom: auto;top: .25rem}
 .Adresseingabe .Weiterfuehrender-Link:hover, .Adresseingabe .Weiterfuehrender-Link:focus {color: #0061a0}
 .Checkout-Confirmation-Page .Adresseingabe select {width: 150px}
 .Adresseingabe .Faxangebot {margin-top: 10px}
