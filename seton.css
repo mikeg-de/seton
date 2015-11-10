@@ -57,7 +57,7 @@ h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 .Titel-Balken-hellgrau img {vertical-align: middle}
 .Tab-Title, .Titel-unterstrichen, .Sidebar .Titel-Balken-hellgrau {border-bottom: 1px solid #ccc}
 .Thema-Name, .Teaser p, .Teaser .p {margin: 0}
-.Homepage .Teaser p, .Footer .Teaser-Newsletter p {float: left; max-width: 50%}
+.Homepage .Teaser p, .Footer .Teaser-Newsletter p {float: left; max-width: 55%}
 .Footer .Teaser-Newsletter p {max-width: 65%}
 [class*="Teaser-Newsletter"] input[type="email"] {width: 100%}
 .nowrap {white-space: nowrap}
