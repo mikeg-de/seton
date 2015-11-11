@@ -41,6 +41,9 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .col11 {width: 91.56%}
 .col12, .Grid24, .Grid-System .Grid-1-1, .Zwei-Spalter-Sidebar-left .Grid-System .Grid12, .Zwei-Spalter-Sidebar-right .Grid-System .Grid12, .Grid-System .Grid-Top-Kategorien {float: none; width: 100%; margin: 0 ; clear: both}
 
+/* Spanning 1 of 4 */
+.grid-view.items-4 .item {width:25%}
+
 /* Vertical centered*/
 .rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .categries h2 + .Bild img, .grid-view.products .Bild img {position: relative; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%)}
 .rsFullscreen .rsContainer .rsSlide img, .rsFullscreen .rsSlide .Rotating-image {-webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0)}
@@ -1024,7 +1027,8 @@ aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 
 /* Listenansichten allgemein*/
 .categories .item, .products .item {border-top: 1px solid #ccc; min-height: 260px}
-.grid-view .item:nth-child(-n+3) {border-top: 0 none}
+.grid-view .item:nth-child(-n+3),
+.grid-view.items-4 .item:nth-child(-n+4) {border-top: 0 none}
 .list .item {position: relative; box-sizing: border-box; border-right: 1px solid #ccc; padding: 10px; float:left; list-style-type:none}
 .list .item > a {color: #3a3a3a; display: block; height: 100%}
 .list .item > a:hover {color: #3a3a3a; text-decoration: none}
@@ -1693,7 +1697,9 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.data-icon:after {margin-left: .2rem}
 	.Homepage .Trusted-Shop-Kundenbewertung .bewertung {width: 60%}
 	.Homepage .Teaser-Vorteile-bei-SETON-bvh {height: 250px}
-	.grid-view.categories .item:nth-child(3n) {border-right: 0 none}
+	.grid-view.categories .item:nth-child(3n),
+	.grid-view.items-4 .item:nth-child(4n) {border-right: 0 none}
+	.grid-view.items-4 .item:nth-child(3n) {border-right: 1px solid #ccc}
 	.tooltips:hover .tooltip, #lastSeenProducts .item:hover .tooltip, .Info-Link:hover .Info-Text, .Info-Link:hover .Info-Text-JS {visibility: visible; opacity: 1}
 	input[type="number"] {-webkit-appearance: textfield !important; -moz-appearance: textfield !important; appearance: textfield !important}
 	[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {-webkit-appearance: none; margin: 0}
