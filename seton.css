@@ -1113,7 +1113,7 @@ ul.grid-view, ul.list-view {margin: 0}
 
 .item.box-grey { height:260px }
 .list .item.box-grey > * { background:#CCCCCC; text-align:center; padding:1rem; display:block; height:100%; box-sizing:border-box }
-.item.box-grey .Text { font-size:1.5rem; line-height:1.9rem; height:80%; display:block }
+.item.box-grey .Text { font-size:1.4rem; line-height:1.9rem; height:80%; display:block }
 .item.box-grey .Text span { display:block }
 
 /* Feedbackliste */
