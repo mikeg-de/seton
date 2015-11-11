@@ -45,7 +45,7 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .grid-view.items-4 .item {width:25%}
 
 /* Vertical centered*/
-.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .categries h2 + .Bild img, .grid-view.products .Bild img {position: relative; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%)}
+.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .categries h2 + .Bild img, .grid-view.products .Bild img, .item.box-grey .Text span  {position: relative; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%)}
 .rsFullscreen .rsContainer .rsSlide img, .rsFullscreen .rsSlide .Rotating-image {-webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0)}
 
 /* Text */
@@ -1111,6 +1111,11 @@ ul.grid-view, ul.list-view {margin: 0}
 .list.categories .item form {float: right}
 .list.categories.buttons .item .Bild {height: 180px}
 
+.item.box-grey { height:260px }
+.list .item.box-grey > * { background:#CCCCCC; text-align:center; padding:1rem; display:block; height:100%; box-sizing:border-box }
+.item.box-grey .Text { font-size:1.5rem; line-height:1.9rem; height:80%; display:block }
+.item.box-grey .Text span { display:block }
+
 /* Feedbackliste */
 .list.feedback {margin:0}
 .list.feedback .item .Bild {float:right; margin-left:20px}
@@ -1180,7 +1185,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .Subkategorie-Link, .Subsubkategorie-Link, .Top-Kategorie button, .Kategorie-Link, .Weiterfuehrender-Link {position: absolute; bottom: .5rem; right: 1rem; margin: 0}
 .Teaser-Vorteilsnummer .Weiterfuehrender-Link {position: relative; bottom: 0; left: 0}
 #Footer_Bereichstext .Content-Footer-Bereichstext {float: right; margin: 0}
-.Link-Liste a {display: block; margin: 1rem 0}
+.Link-Liste a {display: block; margin: 0.4rem 0}
 
 /* Spar-Angebote */
 .PUES-Banner-Spar-Angebote {margin: 10px 0}
