@@ -8,7 +8,7 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .popup {width: 95%}
 
 /* Hidden elements */
-.Link-Mehr-Infos, .Bild-sw, .Produkttabelle #warenkorbItems, .Produkttabelle hr, #socialshareprivacy .settings_info, .Hinweis-NL-Pflichtfelder, .ui-helper-hidden, .ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle, .Zwei-Spalter-Sidebar-left .Sidebar-right, .Zwei-Spalter-Sidebar-right .Sidebar-left, #nav-home, nav .Hotline, .cc-slider input, .toggle input, .toggle .toggle1:checked ~ .controls label:nth-child(1), .toggle .toggle2:checked ~ .controls label:nth-child(2), .Designcode-Artikelauswahl-NJS .royalSlider .bugaga .rsCaption, .Designcode-Artikelauswahl-NJS .royalSlider .Rotating-image, .Designcode-Artikelauswahl .Kopfnummerninfos .Tabs, .Factfinder-Copyright, .Auflistung-Produkte .Edit-Info, .Schildersuche .PUES-Subnavigation-Kategorien .Title2, .Schildersuche .Anzahl-Artikel, .Checkout-Adresseingabe .editable_textarea, .Checkout-Print .Anzahl-JS img, .Checkout-Print .Anzahl a, .Checkout-Print .Anzahl-JS a, .Checkout-Print .Anzahl-JS .updateLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto img, .Print .Einzelpreis-abzgl-Rabatt-netto .buttonAsLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto .Datei-Upload, .Checkout-Print .vortn, .Checkout-Print .Dankeschoen-Geschenk input, .Themenheadline, .smallreadonly, .Kopfnummerninfos-Tabs .Tabs, .Teaser-Blog .updated, .Footer .Trusted-Shop .hreview-aggregate, .ui-dialog-titlebar-close, p:empty, .rsCaption:empty, .Hauptkategorie-Text:empty, .Tab-Content:empty, .cc-slider:empty, #Produktbeschreibung:empty, .LV_validation_message:empty, .Hinweistext, .LV_valid, #SEO-Footer:empty, #Footer_Bereichstext:empty, #cc-slider-top-kategorien .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow .inner:before, .cc-slider .controls, .Artikel-pro-Seite, .recs, .pure-toggle, .pure-toggle-label, .hidden, .Checkout-Confirmation-Page .Kopfnavigation {display: none}
+.Link-Mehr-Infos, .Bild-sw, .Produkttabelle #warenkorbItems, .Produkttabelle hr, #socialshareprivacy .settings_info, .Hinweis-NL-Pflichtfelder, .ui-helper-hidden, .ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle, .Zwei-Spalter-Sidebar-left .Sidebar-right, .Zwei-Spalter-Sidebar-right .Sidebar-left, #nav-home, nav .Hotline, .cc-slider input, .toggle input, .toggle .toggle1:checked ~ .controls label:nth-child(1), .toggle .toggle2:checked ~ .controls label:nth-child(2), .Designcode-Artikelauswahl-NJS .royalSlider .bugaga .rsCaption, .Designcode-Artikelauswahl-NJS .royalSlider .Rotating-image, .Designcode-Artikelauswahl .Kopfnummerninfos .Tabs, .Factfinder-Copyright, .Auflistung-Produkte .Edit-Info, .Schildersuche .PUES-Subnavigation-Kategorien .Title2, .Schildersuche .Anzahl-Artikel, .Checkout-Adresseingabe .editable_textarea, .Checkout-Print .Anzahl-JS img, .Checkout-Print .Anzahl a, .Checkout-Print .Anzahl-JS a, .Checkout-Print .Anzahl-JS .updateLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto img, .Print .Einzelpreis-abzgl-Rabatt-netto .buttonAsLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto .Datei-Upload, .Checkout-Print .vortn, .Checkout-Print .Dankeschoen-Geschenk input, .Themenheadline, .smallreadonly, .Kopfnummerninfos-Tabs .Tabs, .Teaser-Blog .updated, .Footer .Trusted-Shop .hreview-aggregate, .ui-dialog-titlebar-close, p:empty, .rsCaption:empty, .Hauptkategorie-Text:empty, .Tab-Content:empty, .cc-slider:empty, #Produktbeschreibung:empty, .LV_validation_message:empty, .Hinweistext, .LV_valid, #SEO-Footer:empty, #Footer_Bereichstext:empty, #cc-slider-top-kategorien .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow .inner:before, .cc-slider .controls, .Artikel-pro-Seite, .pure-toggle, .pure-toggle-label, .hidden, .Checkout-Confirmation-Page .Kopfnavigation {display: none}
 #cc-slider-top-kategorien .controls {display: block}
 
 /* Clear-Fix */
@@ -428,7 +428,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 .Checkout .Sidebar-left, .Checkout-Adresseingabe .Sidebar-left, .Checkout-Check-and-Send .Sidebar-left, .Checkout-Confirmation-Page .Sidebar-left {margin: 50px 0 0 0}
 
 /* Rahmen ==========================*/
-.Rahmen {padding: 10px}
+.Rahmen {padding: 10px;}
 .Rahmen .Rahmen-Inhalt {position: relative}
 .Block {margin: 15px 0 0}
 .Block-grau .Grid-System div.Grid {margin: 0; border-right: 1px solid #fff}
@@ -562,7 +562,7 @@ margin: 0 .25rem 0 -1rem}
 .Sidebar-right .Teaser {margin: 0 15px 15px 0}
 .Teaser-Vorteile-bei-SETON img, .Teaser-Avail-Direkt-mitbestellen .cc-slides {margin: .5rem 0; padding: 0}
 .Teaser-Vorteile .Weiterfuehrender-Link, [class*="Teaser-Newsletter"] .Weiterfuehrender-Link {bottom: 0; position: relative; right: 0; text-align: right}
-.Rahmen {background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%)}
+.Rahmen {background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%);}
 .Rahmen {box-shadow: 0 0 3px rgba(33, 33, 33, 1)}
 #Warenkorb-Rahmen h1 {font-size: 1.5rem; margin: 0}
 .Teaser .Kein-Rahmen {padding: 10px 0 15px 0}
@@ -1068,7 +1068,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .grid-view.products .Editieren {position: absolute; top: 0; right: 0; padding: 10px; background: #EEE}
 
 /* list-view allgemein */
-.categories, .products {margin:0}
+.categories, .products {/* margin:0 */}
 .list-view.products .item:first-child {border: 0 none}
 .list-view .item {padding: 0; display: table; width: 100%; border:0; border-top:1px solid #ccc}
 
@@ -1124,7 +1124,7 @@ ul.grid-view, ul.list-view {margin: 0}
 /* Pure CSS Slider ==========================*/
 .cc-slider {position: relative; -webkit-transform: translateZ(0); transition: all .1s ease-out}
 .cc-slider label {cursor: pointer; text-decoration: none}
-.cc-slides {display: inline-block; width: 100%; box-sizing: border-box}
+.cc-slides { width: 100%; box-sizing: border-box}
 .cc-slides .inner {width: 1000%; -webkit-transform: translateZ(0); transition: all 800ms cubic-bezier(0.770, .000, .175, 1.000)}
 
 /* Fuer Thumbnail-Buttons, Verwendung:Testimonials auf Streusalz-Seite */
@@ -1158,16 +1158,16 @@ ul.grid-view, ul.list-view {margin: 0}
 .cc-slider.items-1 .item {width: 10%}
 .cc-slider.items-2 .item {width: 5%}
 .cc-slider.items-3 .item {width: 3.33%}
-.cc-slider.items-4 .item {width: 2.5%}
+.cc-slider.items-4 .item {width: 2.5%;}
 .cc-slider.items-5 .item {width: 2%}
 .cc-slider.items-6 .item {width: 1.66%}
 .cc-slider.items-7 .item {width: 1.42%}
 .cc-slider.items-8 .item {width: 1.25%}
-.cc-slider.items-9 .item {width: 1.11%}
+.cc-slider.items-9 .item {width: 1.11%;}
 .cc-slider.items-10 .item {width: 1%}
-#cc-slider-lsp .item {width: 11.1%}
-#cc-slider-lsp .item .Bild {height: 80px}
-.products.cc-slider .item .Bild {height: 115px}
+#cc-slider-lsp .item {width: 11.1%;}
+#cc-slider-lsp .item .Bild {height: 80px;}
+.products.cc-slider .item .Bild {height: 115px;}
 .products.cc-slider .item .Produkttitel {display: block}
 .products.cc-slider .item .Rabatt-Preis {display: inline-block}
 .products.cc-slider .item .Button-klein-grau {display: none}
@@ -1722,8 +1722,8 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.col {width: 204px; float: left; margin: 0; padding: 5px 5px 5px 10px; box-sizing: border-box}
 	#topnavSale .sub {left:79.9% }
 	#topnavSale .col { padding:5px 10px}
-	#topnavSale li { border-bottom:1px solid #ccc; padding:1em 0  }
-	#topnavSale li:last-child { border:0  }
+	#topnavSale li { border-bottom:1px solid #ccc; padding:1em 0 }
+	#topnavSale li:last-child { border:0 }
 	#topnavSale .Description { color:#3e3e3e; display:block }
 	#topnavSale a { display:block }
 	#topnavSale a:hover { text-decoration:none }

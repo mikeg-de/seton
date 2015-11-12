@@ -7,23 +7,22 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.Balken, #Header .Direktbestellung, .Sortiert-nach, .Seiten-blaettern a:last-child, #SuchButton span, .PUES-Hauptkategorie .pure-toggle-label[data-toggle-label='left-bottom'] {display: none !important}
 
 	/* Size adjustements */
-	.col1, .col2, .col3, .Sidebar, .Checkout .Sidebar .Teaser, .Grid-System .Grid-1-5, .Grid-System .Grid-1-8, .Grid-System .Grid-1-5-last, .Grid-System .Grid-1-4, .Ein-Spalter .Grid6, .Sidebar-left, .Sidebar-right, .Direktverkauf .Content .Grid-last, .Grid-1-3, .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1, .Inventarketiketten-Designer .col-right-2, .Newsletter-Anforderung .article-Newsletter-Abo-Downloads .Grid-1-3 {width: 32.5%}
-	.col4, .Grid-1-3, .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1, .Inventarketiketten-Designer .col-right-2, .Newsletter-Anforderung .article-Newsletter-Abo-Downloads .Grid-1-3, .col5, .col7, .col8, .Teaser-Vorteile-bei-SETON-bvh, .Teaser-Spar-Angebote, .Grid-System .Grid-2-5, .Zwei-Spalter-Sidebar-left .Grid-System .Grid6, .Zwei-Spalter-Sidebar-right .Grid-System .Grid6, .Grid-System .Grid-1-2, .ASR-Teaser p, .Grid-System .Grid-3-5, .Grid-System .Grid-2-3, .Zwei-Spalter-Sidebar-left .Grid-System .Grid8, .Zwei-Spalter-Sidebar-right .Grid-System .Grid8, .Auflistung-Unterkategorien li, .Grid-System .Grid-1-4, .Ein-Spalter .Grid6, .Sidebar-left, .Sidebar-right {width: 49.37%; margin: 0 0 1.25rem 0}
+	.col1, .col2, .col3, .Sidebar, .Checkout .Sidebar .Teaser, .Grid-System .Grid-1-5, .Grid-System .Grid-1-8, .Grid-System .Grid-1-5-last, .Grid-System .Grid-1-4, .Ein-Spalter .Grid6, .Sidebar-left, .Sidebar-right, .Direktverkauf .Content .Grid-last, .Grid-1-3, .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1, .Inventarketiketten-Designer .col-right-2, .Newsletter-Anforderung .article-Newsletter-Abo-Downloads .Grid-1-3 {width: 32.5%;}
+	.col4, .Grid-1-3, .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1, .Inventarketiketten-Designer .col-right-2, .Newsletter-Anforderung .article-Newsletter-Abo-Downloads .Grid-1-3, .col5, .col7, .col8, .Teaser-Vorteile-bei-SETON-bvh, .Teaser-Spar-Angebote, .Teaser-Katalog, .Grid-System .Grid-2-5, .Zwei-Spalter-Sidebar-left .Grid-System .Grid6, .Zwei-Spalter-Sidebar-right .Grid-System .Grid6, .Grid-System .Grid-1-2, .ASR-Teaser p, .Grid-System .Grid-3-5, .Grid-System .Grid-2-3, .Zwei-Spalter-Sidebar-left .Grid-System .Grid8, .Zwei-Spalter-Sidebar-right .Grid-System .Grid8, .Auflistung-Unterkategorien li, .Grid-System .Grid-1-4, .Ein-Spalter .Grid6, .Sidebar-left, .Sidebar-right {width: 49.37%; margin: 0 0 1.25rem 0}
 	body, .col9, .col10, .col11, .col12, .Zwei-Spalter-Sidebar-left .Content, #PDS-Content, .Ein-Spalter .Grid18, #Avail-Hauptkategorie-Kunden-kauften-2, #Avail-Kategorie-Topseller-2, .Checkout .Content, .PDS aside, .Checkout aside {width: 100%; margin-left: 0}
 	.Checkout .col9 {width: 74.68%}
 	.PDS .col8 {width: 66.25%}
 	.Grid-System-Sitemap .col3 {width: 24.06%; max-height: 225px}
-	.cc-slider.items-9 .item {width: 3.33%}
+	.cc-slider.items-9 .item {width: 3.33%;}
 	.Content {padding: 0 1.25%}
 	.Drei-Spalter .Content {margin: 0 0 1.25rem 0; padding: 0 1.25%}
 	.Produktergebnis {width: 100%; margin: 0 0 1rem}
 	.Produktergebnis-inner, .Preisstaffel {width: 49.37%; box-sizing: border-box; float: left; clear: none}
 	.PDS aside, .Checkout aside {padding: 0 1.25% 0}
-	.Teaser-Spar-Angebote {margin: 0 0 1.25rem 1.25%}
 	.Checkout aside .Teaser {float: left; margin: 0 0 1.25rem 1.25%}
 
 	.PUES .grid-view .item {height: 280px}
-	.list.categories.buttons .item .Bild, #cc_slider_home_page_top_seller .Bild, #cc_slider_home_page_new_products .Bild, #cc-slider-hp-topseller .Bild, #cc-slider-hp-Neuheiten .Bild, #cc-slider-lsp .Bild {height: 130px}
+	.list.categories.buttons .item .Bild, #cc_slider_home_page_top_seller .Bild, #cc_slider_home_page_new_products .Bild, #cc-slider-hp-topseller .Bild, #cc-slider-hp-Neuheiten .Bild, #cc-slider-lsp .Bild {height: 130px;}
 	.Logo {width: 30%}
 
 	.grid-view .item:nth-child(3n+4) {border-top: 1px solid #ccc}
@@ -32,7 +31,7 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.Artikelsuche {margin: 0 10px 0}
 
 	#Header .Warenkorb button {width: inherit; height: 2.25rem}
-	.Checkout aside .Teaser:first-child, .Teaser-Katalog, .Grid-System-Social-Media .col4:first-child {margin-left: 0}
+	.Checkout aside .Teaser:first-child, .Grid-System-Social-Media .col4:first-child {margin-left: 0}
 	#Ostereiersuche {position: relative; left: 0; top: 0}
 
 	.Grid-System-Social-Media .col4 {width: 32.5%; margin: 0 0 .75rem 1.25%}
@@ -49,10 +48,6 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	aside li a {display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem}
 	.Filter {height: auto !important}
 	.Homepage .Avail .item {width: 130px}
-	.cc-slides .item:nth-child(3n) {border: 0 none}
-	#cc-slider-lsp .item:nth-child(3n+1) {clear: both}
-	#cc-slider-lsp .item:nth-child(-n+3) {border-top: 0 none}
-	#cc-slider-lsp .item {border-top: 1px solid #ccc}
 
 	nav.pure-drawer[data-position="left"], aside.pure-drawer[data-position="left-bottom"], aside.pure-drawer[data-position="right-bottom"] {z-index: 120; margin: 2.75rem 0; max-width: 400px; width: 100%;top: 0}
 	aside.pure-drawer[data-position="left-bottom"], aside.pure-drawer[data-position="right-bottom"] {border-bottom: 4rem solid #fff}
@@ -90,12 +85,10 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.Schritt-2-Bestellung-pruefen .Zahl {margin-left: .5rem}
 	.Text {font-size: inherit}
 	.Checkout-Adresseingabe .Logo, .Checkout-Check-and-Send .Logo {margin-left: .25rem;}
-	.Kopfnavigation {
-    left: 2.5rem;
-}
-	.Checkout .col2 {width: 15.62%;}
+	.Kopfnavigation {left: 2.5rem}
+	.Checkout .col2 {width: 15.62%}
 	.Checkout .col3 {width: 24.06%}
-	.Checkout .col8 {width: 66.25%;margin-left: 1.25%;}
+	.Checkout .col8 {width: 66.25%; margin-left: 1.25%}
 
 	/* Container */
 	.pure-container {/* position: relative; *//* height: 100%; *//*-webkit-overflow-scrolling: touch;*/}
@@ -168,8 +161,12 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
 	.Homepage .col9 {width: 74.68%}
 	.article-PDS-Produktbilder {width: 32.5%}
-	.Homepage .Teaser-Vorteile-bei-SETON-bvh, .Homepage .Content .col3 {width: 24.06%; margin-left: 1.25%}
-	.Homepage .Content .Teaser-Spar-Angebote {margin: 0} }
+	.Homepage .Teaser-Vorteile-bei-SETON-bvh, .Homepage .Content .col3 {width: 24.06%}
+	.Teaser-Vorteile-bei-SETON-bvh {margin-left: 1.25%}
+	.Homepage .Content .Teaser-Spar-Angebote {margin-left: 0} }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+	.Homepage .Content .Teaser-Individuell-gestalten {margin-left: 0} }
 
 /* Mobiles portrait */
 @media only screen and (max-device-width: 768px) and (orientation: portrait) {
@@ -179,14 +176,16 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 @media only screen and (max-device-width: 768px) and (orientation: portrait), (max-device-width: 667px) {
 	.Hauptkategorie-Text {width: 100%}
 	.Teaser-Vorteile-bei-SETON-bvh ul, .Teaser-Spar-Angebote p {float: left; max-width: 55%}
-	.Trusted-Shop-Kundenbewertung {width: 38%; float: right} }
+	.Trusted-Shop-Kundenbewertung {width: 38%; float: right}
+	.Homepage .Content .Teaser-Katalog {margin-left: 1.25%}
+	.Teaser-Individuell-gestalten {margin-left: 0} }
 
 /* Smartphones portrait*/
 @media only screen and (max-device-width: 667px) and (orientation: portrait) {
 	.Zwei-Spalter-Sidebar-left .Content, .Zwei-Spalter-Sidebar-right .Content, .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .PDS .col8, .Grid-System-Social-Media .col4, .Checkout .Sidebar .Teaser, .Abrechnung, .Grid-System [class*="Grid"], #Avail-Hauptkategorie-Kunden-kauften-2, #Avail-Kategorie-Topseller-2 {margin: 0 0 1.25rem 0; width: 100%}
 	.Checkout .col8 {width: 74.68%}
 	.PUES .grid-view .item, .Menge, .Preisbox, .Checkout .col3 {width: 49.37%}
-	.Checkout .kundenadr_Angebotsnummer {/* margin-left: 1.25% */}
+	.Homepage .Content .Teaser-Katalog {margin-left: 0}
 	.Schritt-1-Adresseingabe {width: 40%;}
 	.Checkout .col2 {width: 24.06%}
 	.Homepage .royalSlider {height: 105px}
@@ -215,7 +214,11 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.WKArtikel, #WKBetragHead {display: none}
 	#cc-slider-lsp .item {width: 33.3%}
 	.cc-slider.items-4 .item, .cc-slider.items-3 .item {width: 5%}
-	.tooltips .tooltip {position: fixed; bottom: 0; width: 100%; margin: 0; border-left: 0 none; border-right: 0 none} }
+	.tooltips .tooltip {position: fixed; bottom: 0; width: 100%; margin: 0; border-left: 0 none; border-right: 0 none}
+	.cc-slides .item:nth-child(3n) {border: 0 none}
+	#cc-slider-lsp .item:nth-child(3n+1) {clear: both}
+	#cc-slider-lsp .item:nth-child(-n+3) {border-top: 0 none}
+	#cc-slider-lsp .item {border-top: 1px solid #ccc} }
 
 /* Tablet portrait = iPhone 5 & 6 landscape */
 @media only screen and (min-width:768px) and (max-device-width: 1024px) and (orientation: portrait), (min-device-width: 320px) and (max-device-width: 667px) and (orientation: landscape) {
