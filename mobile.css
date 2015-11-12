@@ -112,6 +112,18 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label[data-toggle-label='left'] .pure-toggle-icon, .pure-toggle[data-toggle='right']:checked ~ .pure-toggle-label[data-toggle-label='right'] .pure-toggle-icon, .pure-toggle[data-toggle='top']:checked ~ .pure-toggle-label[data-toggle-label='top'] .pure-toggle-icon, .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-toggle-label[data-toggle-label='left-bottom'] .pure-toggle-icon {background-color: transparent}
 	.pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label[data-toggle-label='left'] .pure-toggle-icon:before, .pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label[data-toggle-label='left'] .pure-toggle-icon:after, .pure-toggle[data-toggle='right']:checked ~ .pure-toggle-label[data-toggle-label='right'] .pure-toggle-icon:before, .pure-toggle[data-toggle='right']:checked ~ .pure-toggle-label[data-toggle-label='right'] .pure-toggle-icon:after, .pure-toggle[data-toggle='top']:checked ~ .pure-toggle-label[data-toggle-label='top'] .pure-toggle-icon:before, .pure-toggle[data-toggle='top']:checked ~ .pure-toggle-label[data-toggle-label='top'] .pure-toggle-icon:after, .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-toggle-label[data-toggle-label='left-bottom'] .pure-toggle-icon:before {top: 0}
 	.pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label[data-toggle-label='left'] .pure-toggle-icon:before, .pure-toggle[data-toggle='right']:checked ~ .pure-toggle-label[data-toggle-label='right'] .pure-toggle-icon:before, .pure-toggle[data-toggle='top']:checked ~ .pure-toggle-label[data-toggle-label='top'] .pure-toggle-icon:before, .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-toggle-label[data-toggle-label='left-bottom'] .pure-toggle-icon:before, .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-toggle-label[data-toggle-label='left-bottom'] .pure-toggle-icon:before {transform: translateX(0) rotate(45deg); -webkit-transform: translateX(0) rotate(45deg)}
+
+	/* Pusher Container */
+	.pure-pusher-container {position: relative; height: 100%; overflow: hidden}
+
+	/* Pusher */
+	.pure-pusher {position: relative; height: 100%; overflow-y: auto; left: 0; z-index: 2; background-color: #fff; transition-property: transform; transition-duration: 500ms; transition-timing-function: ease-out}
+
+	/* Pusher Overlay */
+	.pure-overlay {position: fixed; top: 0; bottom: 0; right: 0; width: 0; height: 0; opacity: 0; background-color: rgba(0, 0, 0, 0.4); transition-property: opacity; transition-duration: 500ms; transition-delay: 500ms; transition-timing-function: ease-in-out}
+	.pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left-bottom'] {left: 100%;}
+
+	.pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-overlay[data-overlay='right'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left'] {width: 100%; height: 100%; opacity: 1;z-index: 80;}
 	.pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label[data-toggle-label='left'] .pure-toggle-icon:after, .pure-toggle[data-toggle='right']:checked ~ .pure-toggle-label[data-toggle-label='right'] .pure-toggle-icon:after, .pure-toggle[data-toggle='top']:checked ~ .pure-toggle-label[data-toggle-label='top'] .pure-toggle-icon:after, .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-toggle-label[data-toggle-label='left-bottom'] .pure-toggle-icon:after {transform: translateX(0) translateY(-10px) rotate(-45deg); -webkit-transform: translateX(0) translateY(-10px) rotate(-45deg); top: 10px}
 
 	/* Drawer */
@@ -126,6 +138,8 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	/* DRAWER */
 	[data-effect="pure-effect-fade"] .pure-drawer {z-index: 103; -webkit-animation-duration: 1000ms; animation-duration: 1000ms; -webkit-animation-fill-mode: both; animation-fill-mode: both}
 	[data-effect="pure-effect-fade"] .pure-toggle[data-toggle='left']:checked ~ .pure-drawer[data-position='left'], [data-effect="pure-effect-fade"] .pure-toggle[data-toggle='right']:checked ~ .pure-drawer[data-position='right'], [data-effect="pure-effect-fade"] .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-drawer[data-position='left-bottom'], [data-effect="pure-effect-fade"] .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-drawer[data-position='right-bottom'] {visibility: visible}
+	.pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left-bottom'] {left: 0;}
+
 	/* OVERLAY */
 	[data-effect="pure-effect-fade"] .pure-overlay {transition-duration: 1000ms; transition-delay: 500ms}
 
@@ -261,8 +275,6 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	#suggestContainer {top: 2.5rem} }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {.pure-drawer {/* height: 100%; */ /* overflow-y: scroll; */} }
-@media only screen and (min-width:40.063rem) {.pure-drawer {/* width: 300px; */} }
-@media only screen and (min-width:64.063rem) {.pure-drawer {/* width: 300px; */} }
 
 .pure-drawer[data-position='right'] {left: auto; right: 0}
 .pure-drawer[data-position='top'] {height: 100%; width: 100%}
@@ -270,32 +282,12 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 @media only screen and (min-width:40.063rem) {.pure-drawer[data-position='top'] {height: 100%} }
 @media only screen and (min-width:64.063rem) {.pure-drawer[data-position='top'] {height: 100px} }
 
-/* Pusher Container */
-.pure-pusher-container {position: relative; height: 100%; overflow: hidden}
-
-/* Pusher */
-.pure-pusher {position: relative; height: 100%; overflow-y: auto; left: 0; z-index: 2; background-color: #fff; transition-property: transform; transition-duration: 500ms; transition-timing-function: ease-out}
-
-/* Pusher Overlay */
-.pure-overlay {position: fixed; top: 0; bottom: 0; right: 0; width: 0; height: 0; opacity: 0; background-color: rgba(0, 0, 0, 0.4); transition-property: opacity; transition-duration: 500ms; transition-delay: 500ms; transition-timing-function: ease-in-out}
-.pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left-bottom'] {left: 100%;}
-@media only screen and (min-width:40.063rem) {.pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left-bottom'] {left: 300px} }
+@media only screen and (min-width:40.063rem) { }
 @media only screen and (min-width:64.063rem) {.pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left-bottom'] {left: 300px} }
 .pure-toggle[data-toggle='right']:checked ~ .pure-overlay[data-overlay='right'], .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-overlay[data-overlay='right-bottom'] {right: 100%}
 @media only screen and (min-width:40.063rem) {.pure-toggle[data-toggle='right']:checked ~ .pure-overlay[data-overlay='right'], .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-overlay[data-overlay='right-bottom'] {right: 300px} }
 @media only screen and (min-width:64.063rem) {.pure-toggle[data-toggle='right']:checked ~ .pure-overlay[data-overlay='right'], .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-overlay[data-overlay='right-bottom'] {right: 300px} }
 .pure-toggle[data-toggle='top']:checked ~ .pure-overlay[data-overlay='top'] {top: 100%}
 @media only screen and (min-width:40.063rem) {.pure-toggle[data-toggle='top']:checked ~ .pure-overlay[data-overlay='top'] {top: 100%} }
-@media only screen and (min-width:64.063rem) {.pure-toggle[data-toggle='top']:checked ~ .pure-overlay[data-overlay='top'] {top: 100px} }
-.pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-overlay[data-overlay='right'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left'] {width: 100%; height: 100%; opacity: 1;z-index: 80;}
-
-/* Fallback for older browsers */
-.no-csstransforms3d .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {left: 100%}
-@media only screen and (min-width:40.063rem) {.no-csstransforms3d .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {left: 300px} }
-@media only screen and (min-width:64.063rem) {.no-csstransforms3d .pure-toggle[data-toggle='left']:checked ~ .pure-pusher-container .pure-pusher {left: 300px} }
-.no-csstransforms3d .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {left: -100%}
-@media only screen and (min-width:40.063rem) {.no-csstransforms3d .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {left: -300px} }
-@media only screen and (min-width:64.063rem) {.no-csstransforms3d .pure-toggle[data-toggle='right']:checked ~ .pure-pusher-container .pure-pusher {left: -300px} }
-.no-csstransforms3d .pure-toggle[data-toggle='top']:checked ~ .pure-pusher-container .pure-pusher {top: 100%}
-@media only screen and (min-width:40.063rem) {.no-csstransforms3d .pure-toggle[data-toggle='top']:checked ~ .pure-pusher-container .pure-pusher {top: 100%} }
-@media only screen and (min-width:64.063rem) {.no-csstransforms3d .pure-toggle[data-toggle='top']:checked ~ .pure-pusher-container .pure-pusher {top: 100px} }
+@media only screen and (min-width:64.063rem) {
+	.pure-toggle[data-toggle='top']:checked ~ .pure-overlay[data-overlay='top'] {top: 100px} }
