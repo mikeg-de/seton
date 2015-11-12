@@ -1717,8 +1717,8 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.Artikelsuche {position: relative}
 	#suggestContainer {border-top: 0 none}
 	.sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; box-shadow: 0 0 15px rgba(33, 33, 33, 1); border: 1px solid #ccc; border-top-width: .35rem; position: absolute; left: 0; z-index: -1}
-	#topnav4 .sub {left:16.66%}
-	#topnav7 .sub {left:33.33%}
+	#topnav4 .sub {left:17.5%}
+	#topnav7 .sub {left:35%}
 	.col {width: 204px; float: left; margin: 0; padding: 5px 5px 5px 10px; box-sizing: border-box}
 	#topnavSale .sub {left:79.9% }
 	#topnavSale .col { padding:5px 10px}
