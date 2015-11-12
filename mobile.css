@@ -13,11 +13,9 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.Checkout .col9 {width: 74.68%}
 	.PDS .col8 {width: 66.25%}
 	.Grid-System-Sitemap .col3 {width: 24.06%; max-height: 225px}
-	.cc-slider.items-9 .item {width: 3.33%;}
+	.cc-slider.items-9 .item {width: 3.33%}
 	.Content {padding: 0 1.25%}
 	.Drei-Spalter .Content {margin: 0 0 1.25rem 0; padding: 0 1.25%}
-	.Produktergebnis {width: 100%; margin: 0 0 1rem}
-	.Produktergebnis-inner, .Preisstaffel {width: 49.37%; box-sizing: border-box; float: left; clear: none}
 	.PDS aside, .Checkout aside {padding: 0 1.25% 0}
 	.Checkout aside .Teaser {float: left; margin: 0 0 1.25rem 1.25%}
 
@@ -174,7 +172,8 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
 	.Homepage .col9 {width: 74.68%}
-	.article-PDS-Produktbilder {width: 32.5%}
+	.PDS .article-Dropdowns, .Produktergebnis,	.article-PDS-Produktbilder {width: 32.5%}
+	.Produktergebnis {margin-left: 1.25%}
 	.Homepage .Teaser-Vorteile-bei-SETON-bvh, .Homepage .Content .col3 {width: 24.06%}
 	.Teaser-Vorteile-bei-SETON-bvh {margin-left: 1.25%}
 	.Homepage .Content .Teaser-Spar-Angebote {margin-left: 0} }
@@ -192,7 +191,9 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.Teaser-Vorteile-bei-SETON-bvh ul, .Teaser-Spar-Angebote p {float: left; max-width: 55%}
 	.Trusted-Shop-Kundenbewertung {width: 38%; float: right}
 	.Homepage .Content .Teaser-Katalog {margin-left: 1.25%}
-	.Teaser-Individuell-gestalten {margin-left: 0} }
+	.Teaser-Individuell-gestalten {margin-left: 0}
+	.Produktergebnis {width: 100%; margin: 0 0 1rem}
+	.Produktergebnis-inner, .Preisstaffel {width: 49.37%; box-sizing: border-box; float: left; clear: none} }
 
 /* Smartphones portrait*/
 @media only screen and (max-device-width: 667px) and (orientation: portrait) {
