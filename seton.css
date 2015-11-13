@@ -913,14 +913,14 @@ img.rsImg {max-width: none}
 .Preisbox .Preis {font-size: 1rem; font-weight: bold; margin-bottom: 5px; white-space: nowrap}
 .Preisbox .zzgl-MwSt {font-size: .8rem; margin: 0}
 .Preisbox .Rabatt {font-size: 1.2rem; color: #f00; font-weight: bold; margin: 0}
-.Inventarketiketten-Designer .Preisbox {position: absolute; right: 30px;top: 55px;}
+.Inventarketiketten-Designer .Preisbox {position: absolute; right: 30px;top: 55px;} 
 .Einrichtungsgebuehr .tooltip {text-align: left}
 .Info-Link:hover .Info-Text, .Info-Link:hover .Info-Text-JS {left: -8px; bottom: 15px; display: block !important; width: 200px}
 .Einrichtungsgebuehr .tooltip table {border-collapse: collapse; width: 100%}
 .Einrichtungsgebuehr .tooltip table td {padding: 2px 0}
 .Einrichtungsgebuehr .tooltip table td:last-child {text-align: right}
 .Produktergebnis, .Kopfnummerninfos-Tabs .Tabs-Content {border: 1px solid #ccc}
-.Inventarketiketten-Designer .Produktergebnis {position: absolute; top: 45px; right: 0;padding: .5rem;}
+.Inventarketiketten-Designer .Produktergebnis {position: absolute; top: 45px; right:10px; padding: .5rem;}
 .Produktergebnis .Bestellbox {float: right}
 .Produktergebnis .Menge label {display: block; margin-bottom: 5px}
 .Produktergebnis .Menge #Menge {text-align: right}
