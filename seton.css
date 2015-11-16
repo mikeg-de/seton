@@ -81,12 +81,13 @@ h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 .Top {float: right; margin: 10px 0 10px 0}
 
 /* Listen */
-ul, .PUES-Subnavigation-Kategorien, .Teaser-Blog ul, .Teaser .Bullet-Haekchen {margin: 0 0 .5rem 0; padding: 0; list-style-position: outside}
+ul, .PUES-Subnavigation-Kategorien, .Teaser-Blog ul, .Teaser .Bullet-Haekchen, ul.Weihnachtskugeln {margin: 0 0 .5rem 0; padding: 0; list-style-position: outside}
 .col6.Bullet-Haekchen {margin:0}
 .Content ul, .PUES-Subnavigation-Kategorien {margin-left: 1rem}
 .Teaser-Blog ul, .dropdown-list {margin: 0}
-ul.Bullet-Haekchen, .Teaser-Blog ul, .Footer ul, .dropdown-list {list-style-type: none}
-.Bullet-Haekchen li, .Bullet-Haekchen-weiss li, .Bullet-Plus li, .Bullet-Checkbox li, .Vorteile li {list-style-type: none; margin: 0 0 0 .75rem; padding: 0 0 0 .25rem}
+ul.Bullet-Haekchen, ul.Weihnachtskugeln, .Teaser-Blog ul, .Footer ul, .dropdown-list {list-style-type: none}
+.Bullet-Haekchen li, .Weihnachtskugeln li, .Bullet-Haekchen-weiss li, .Bullet-Plus li, .Bullet-Checkbox li, .Vorteile li {list-style-type: none; margin: 0 0 0 .75rem; padding: 0 0 0 .25rem}
+.Weihnachtskugeln li:before { display:block; float:left; width:27px; height:29px; background:url('/images/Apfelbaum/Kugel.gif') no-repeat; content:''; margin-right:.75rem }
 aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 .Bullet-Haekchen-weiss li .Bullet {background-position: -22px -130px}
 .Bullet-Haekchen-2-spaltig li {width: 180px; float: left}
