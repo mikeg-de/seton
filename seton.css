@@ -263,10 +263,10 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .tooltips-drueber .tooltip:after {margin-left: -8px; border-top: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
 .tooltips-drueber .tooltip:before {margin-left: -12px; border-top: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
 
-.tooltips-drunter .tooltip, .tooltips-drueber .tooltip:before, .tooltips-drueber .tooltip:after {top: 130%}
+.tooltips-drunter .tooltip, .tooltips-drueber .tooltip:before, .tooltips-drueber .tooltip:after {top: 100%}
 .tooltips-drueber .tooltip, .tooltips-drunter .tooltip:before, .tooltips-drunter .tooltip:after,
 #Artikelsuche-Hinweis:after, .Info-Link .Info-Text:before, .Info-Link .Info-Text:after,
-.Info-Link .Info-Text-JS:before, .Info-Link .Info-Text-JS:after {bottom: 100%}
+.Info-Link .Info-Text-JS:before, .Info-Link .Info-Text-JS:after {bottom: 130%}
 
 .tooltips-drunter .tooltip:before, #Artikelsuche-Hinweis:before,
 .Info-Link .Info-Text:before, .Info-Link .Info-Text-JS:before {margin-left: -12px; border-bottom: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
