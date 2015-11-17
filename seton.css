@@ -263,10 +263,10 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .tooltips-drueber .tooltip:after {margin-left: -8px; border-top: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
 .tooltips-drueber .tooltip:before {margin-left: -12px; border-top: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
 
-.tooltips-drunter .tooltip, .tooltips-drueber .tooltip:before, .tooltips-drueber .tooltip:after {top: 100%}
+.tooltips-drunter .tooltip, .tooltips-drueber .tooltip:before, .tooltips-drueber .tooltip:after {top: 130%}
 .tooltips-drueber .tooltip, .tooltips-drunter .tooltip:before, .tooltips-drunter .tooltip:after,
 #Artikelsuche-Hinweis:after, .Info-Link .Info-Text:before, .Info-Link .Info-Text:after,
-.Info-Link .Info-Text-JS:before, .Info-Link .Info-Text-JS:after {bottom: 100%}
+.Info-Link .Info-Text-JS:before, .Info-Link .Info-Text-JS:after {bottom: 130%}
 
 .tooltips-drunter .tooltip:before, #Artikelsuche-Hinweis:before,
 .Info-Link .Info-Text:before, .Info-Link .Info-Text-JS:before {margin-left: -12px; border-bottom: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
@@ -914,7 +914,7 @@ img.rsImg {max-width: none}
 .Preisbox .Preis {font-size: 1rem; font-weight: bold; margin-bottom: 5px; white-space: nowrap}
 .Preisbox .zzgl-MwSt {font-size: .8rem; margin: 0}
 .Preisbox .Rabatt {font-size: 1.2rem; color: #f00; font-weight: bold; margin: 0}
-.Inventarketiketten-Designer .Preisbox {position: absolute; right: 30px;top: 55px;} 
+.Inventarketiketten-Designer .Preisbox {position: absolute; right: 30px;top: 55px;}
 .Einrichtungsgebuehr .tooltip {text-align: left}
 .Info-Link:hover .Info-Text, .Info-Link:hover .Info-Text-JS {left: -8px; bottom: 15px; display: block !important; width: 200px}
 .Einrichtungsgebuehr .tooltip table {border-collapse: collapse; width: 100%}
