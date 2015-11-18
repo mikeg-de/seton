@@ -574,7 +574,7 @@ margin: 0 .25rem 0 -1rem}
 /* v1.0.5 */
 /* Core RS CSS file. 95% of time you shouldn't change anything here. */
 .royalSlider {/* width: 600px; */ /* height: 400px; */ position: relative; direction: ltr}
-.royalSlider > * {float: left}
+.royalSlider > * {/*float: left*/}
 .rsWebkit3d .rsSlide {-webkit-transform: translateZ(0)}
 .rsFade.rsWebkit3d .rsSlide, .rsFade.rsWebkit3d img, .rsFade.rsWebkit3d .rsContainer {-webkit-transform: none}
 .rsOverflow {width: 100%; height:100%; position: relative; overflow: hidden; float: left; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
@@ -586,7 +586,7 @@ margin: 0 .25rem 0 -1rem}
 .rsThumb {float: left; position: relative}
 .rsArrow, .rsNav, .rsThumbsArrow {opacity: 1; transition: opacity .3s linear}
 .rsHidden {opacity: 0; visibility: hidden; transition: visibility 0s linear .3s, opacity .3s linear}
-.rsGCaption {width: 100%; float: left; text-align: center}
+.rsGCaption {width: 100%; text-align: center}
 
 /* Fullscreen options, very important */
 .royalSlider.rsFullscreen {position: fixed !important; height: auto !important; width: auto !important; margin: 0 !important; padding: 0 !important; z-index: 1000 !important; top: 0 !important; left: 0 !important; bottom: 0 !important; right: 0 !important}
@@ -699,8 +699,7 @@ img.rsImg {max-width: none}
 
 /* RoyalSlider Default Skin */
 /* Background */
-.rsDefault, .rsDefault .rsOverflow, .rsDefault .rsSlide, .rsDefault .rsVideoFrameHolder, .rsDefault .rsThumbs {color: #FFF}
-.rsFullscreen, .rsFullscreen .rsNav {background: #111 !important}
+.rsFullscreen, .rsFullscreen .rsNav {background-color: #111 !important}
 
 /* 1. Arrows */
 .rsDefault .rsArrow {height: 100%; width: 44px; position: absolute; display: block; cursor: pointer; z-index: 21}
@@ -786,7 +785,8 @@ img.rsImg {max-width: none}
 .rsDefault .rsPreloader {width: 20px; height: 20px; background-image: url(/css/preloaders/preloader-white.gif); left: 50%; top: 50%; margin-left: -10px; margin-top: -10px}
 
 /* 8. Global caption */
-.rsDefault .rsGCaption {position: absolute; float: none; bottom: 6px; left: 6px; text-align: left; background: rgb(0, 0, 0); background: rgba(0, 0, 0, .75); color: #FFF; padding: 2px 8px; width: auto; font-size: 12px; border-radius: 2px}
+.rsDefault .rsGCaption {position: absolute;bottom: 30%;left: 0;background-color: rgba(255, 255, 255, .9);}
+.rsFullscreen .rsGCaption {bottom: 10%}
 
 /* Teaser Vorteile bei SETON */
 .Teaser-Vorteile-bei-SETON .Rahmen-Inhalt {padding-bottom: 20px}
@@ -848,7 +848,7 @@ img.rsImg {max-width: none}
 .rsArrowDisabled {display: none !important}
 
 /* Bildbeschreibung */
-.Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption {bottom: 5%; width: 100%; background-color: rgba(255, 255, 255, .9); box-sizing: border-box; padding: 0; border-radius: 0; left: 0}
+.Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption {box-sizing: border-box}
 .Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure {padding: .5rem 1rem; text-align: center; margin: 0}
 
 /* Horizontale Thumb-Scrollleiste */
@@ -870,10 +870,10 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .Rotating-image #next {left: 66%}
 
 /* Fullscreen-Ergaenzungen */
-.Designcode-Artikelauswahl .rsFullscreen .rsArrow {height: 100%; top: 0 !important}
-.Designcode-Artikelauswahl .rsFullscreen .rsThumbsHor {width: 100% !important}
-.Designcode-Artikelauswahl .rsFullscreen, .Designcode-Artikelauswahl .rsFullscreen .rsNav {background: #111 !important}
-.Designcode-Artikelauswahl .rsFullscreen .rsOverflow , .Designcode-Artikelauswahl .rsFullscreen .rsSlide {background: #000 !important; text-align: center}
+.Designcode-Artikelauswahl .rsFullscreen .rsArrow {height: 100%; top: 0}
+.Designcode-Artikelauswahl .rsFullscreen .rsThumbsHor {width: 100%}
+.Designcode-Artikelauswahl .rsFullscreen, .Designcode-Artikelauswahl .rsFullscreen .rsNav {background-color: #111}
+.Designcode-Artikelauswahl .rsFullscreen .rsOverflow , .Designcode-Artikelauswahl .rsFullscreen .rsSlide {background-color: #000; text-align: center}
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide img {max-width: 100% !important; max-height: 800px !important}
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide iframe {width: 600px !important; height: 600px !important}
 .Designcode-Artikelauswahl .rsFullscreen .rsThumb.rsNavSelected {background: #000 !important}
