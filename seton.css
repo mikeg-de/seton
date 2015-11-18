@@ -831,15 +831,17 @@ img.rsImg {max-width: none}
 .rsFullscreen .rsFullscreenBtn {top: 287px}
 
 /* Pfeile */
-.royalSlider .icon_pause_alt2:before {content: "\5f"; font-size: 2rem}
-.royalSlider .arrow_carrot-left_alt2:before {content: "\3c"; font-size: 2rem}
+#prev, #toggle, #next {font-size: 2rem; width: 2.5rem}
+.royalSlider .icon_pause_alt2:before {content: "\5f"; font-size: 30px}
 .royalSlider .arrow_triangle-right_alt2:before {content: "\49"; font-size: 2rem}
-.royalSlider .arrow_carrot-2right_alt2:before {content: "\3d"; font-size: 2rem}
+.royalSlider .arrow_carrot-left_alt2:before {content: "\3c";}
+.royalSlider .arrow_carrot-2right_alt2:before {content: "\3d";}
 .Designcode-Artikelauswahl .rsSlide, .Designcode-Artikelauswahl .rsThumb, .cc-slides .Bild, .Top-Kategorie-Schilder .Bild, .product-list-item a {display: block}
 /*.Designcode-Artikelauswahl .rsOverflow {height:243px !important} */
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide {/*width: 100%; height: auto*/}
 .Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide img, .Designcode-Artikelauswahl .Rotating-image #spritespin {margin: 0 auto}
 .rsArrowDisabled {display: none !important}
+
 
 /* Bildbeschreibung */
 .Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption {box-sizing: border-box}
@@ -853,14 +855,11 @@ img.rsImg {max-width: none}
 
 /* 360-Bilder */
 .Designcode-Artikelauswahl .Rotating-image #spritespin {/* height: auto; *//* width: 100%; *//* max-width: 100%; *//* max-height: 100%; *//* margin: 0 auto */}
-.Designcode-Artikelauswahl .Rotating-image .Buttons-360 {width: 100%; height: 40px; background: #fff; position: absolute; bottom: 0; left: 0; opacity: .6}
+.Designcode-Artikelauswahl .Rotating-image .Buttons-360 {width: 100%; height: 40px;background-color: rgba(255,255,255,.75);position: absolute;bottom: 0;text-align: center;}
 .Designcode-Artikelauswahl .Rotating-image #reverse {display: none; visibility: hidden}
-.Designcode-Artikelauswahl .Rotating-image #prev, .Designcode-Artikelauswahl .Rotating-image #toggle, .Designcode-Artikelauswahl .Rotating-image #next {display: inline-block; font-size: 3rem; margin: .5rem; cursor: pointer; opacity: .75}
+.Designcode-Artikelauswahl .Rotating-image #prev, .Designcode-Artikelauswahl .Rotating-image #toggle, .Designcode-Artikelauswahl .Rotating-image #next {display: inline-block;font-size: 2rem;opacity: .5;}
 .Designcode-Artikelauswahl .Rotating-image #prev:hover, .Designcode-Artikelauswahl .Rotating-image #toggle:hover, .Designcode-Artikelauswahl .Rotating-image #next:hover {opacity: 1; box-shadow: none}
-.Designcode-Artikelauswahl .Rotating-image #prev, .Designcode-Artikelauswahl .Rotating-image #toggle, .Designcode-Artikelauswahl .Rotating-image #next {font-size: 2rem; position: absolute; bottom: 0; color: #000; margin-left: -20px}
-.Designcode-Artikelauswahl .Rotating-image #prev {left: 33%}
-.Designcode-Artikelauswahl .Rotating-image #toggle {left: 50%}
-.Designcode-Artikelauswahl .Rotating-image #next {left: 66%}
+.Designcode-Artikelauswahl .Rotating-image #prev, .Designcode-Artikelauswahl .Rotating-image #toggle, .Designcode-Artikelauswahl .Rotating-image #next { bottom: 0;color: #000;position: relative;top: 50%;   -webkit-transform: translateY(-50%);   -moz-transform: translateY(-50%);   -ms-transform: translateY(-50%);   -o-transform: translateY(-50%);   transform: translateY(-50%);}
 
 /* Fullscreen-Ergaenzungen */
 .Designcode-Artikelauswahl .rsFullscreen .rsArrow {height: 100%; top: 0}
@@ -870,7 +869,7 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide iframe {width: 600px !important; height: 600px !important}
 .Designcode-Artikelauswahl .rsFullscreen .rsThumb.rsNavSelected {background-color: #000 !important}
 .Designcode-Artikelauswahl .rsFullscreen .Rotating-image .Buttons-360 {height: 70px; position: relative; background: none; opacity: 1}
-.Designcode-Artikelauswahl .rsFullscreen .Rotating-image #prev, .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #toggle, .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #next {left: 0; font-size: 3rem !important; position: relative !important; color: #fff !important; margin: 10px 20px 0}
+.Designcode-Artikelauswahl .rsFullscreen .Rotating-image #prev, .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #toggle, .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #next {color: #fff}
 .rsFullscreen .rsFullscreenBtn {right: 20px; top: 20px}
 
 /* PDS Produktbilder ohne JS */
