@@ -852,7 +852,7 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .rsDefault .rsThumb:hover img, .Designcode-Artikelauswahl .rsDefault .rsThumb.rsNavSelected img {opacity: 1}
 
 /* 360-Bilder */
-.Designcode-Artikelauswahl .Rotating-image #spritespin {height: auto; width: 314px; max-width: 314px; max-height: 314px; margin: 0 auto}
+.Designcode-Artikelauswahl .Rotating-image #spritespin {height: auto; width: 314px; max-width: 100%; max-height: 100%; margin: 0 auto}
 .Designcode-Artikelauswahl .Rotating-image .Buttons-360 {width: 100%; height: 40px; background: #fff; position: absolute; bottom: 0; left: 0; opacity: .6}
 .Designcode-Artikelauswahl .Rotating-image #reverse {display: none; visibility: hidden}
 .Designcode-Artikelauswahl .Rotating-image #prev, .Designcode-Artikelauswahl .Rotating-image #toggle, .Designcode-Artikelauswahl .Rotating-image #next {display: inline-block; font-size: 3rem; margin: .5rem; cursor: pointer; opacity: .75}
@@ -869,7 +869,6 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .rsFullscreen .rsOverflow , .Designcode-Artikelauswahl .rsFullscreen .rsSlide {background-color: #000; text-align: center}
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide iframe {width: 600px !important; height: 600px !important}
 .Designcode-Artikelauswahl .rsFullscreen .rsThumb.rsNavSelected {background-color: #000 !important}
-.Designcode-Artikelauswahl .rsFullscreen .Rotating-image #spritespin {width: 600px; max-width: 600px; max-height: 600px}
 .Designcode-Artikelauswahl .rsFullscreen .Rotating-image .Buttons-360 {height: 70px; position: relative; background: none; opacity: 1}
 .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #prev, .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #toggle, .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #next {left: 0; font-size: 3rem !important; position: relative !important; color: #fff !important; margin: 10px 20px 0}
 .rsFullscreen .rsFullscreenBtn {right: 20px; top: 20px}
