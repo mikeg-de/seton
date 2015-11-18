@@ -852,7 +852,7 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .rsDefault .rsThumb:hover img, .Designcode-Artikelauswahl .rsDefault .rsThumb.rsNavSelected img {opacity: 1}
 
 /* 360-Bilder */
-.Designcode-Artikelauswahl .Rotating-image #spritespin {height: auto; width: 314px; max-width: 100%; max-height: 100%; margin: 0 auto}
+.Designcode-Artikelauswahl .Rotating-image #spritespin {/* height: auto; *//* width: 100%; *//* max-width: 100%; *//* max-height: 100%; *//* margin: 0 auto */}
 .Designcode-Artikelauswahl .Rotating-image .Buttons-360 {width: 100%; height: 40px; background: #fff; position: absolute; bottom: 0; left: 0; opacity: .6}
 .Designcode-Artikelauswahl .Rotating-image #reverse {display: none; visibility: hidden}
 .Designcode-Artikelauswahl .Rotating-image #prev, .Designcode-Artikelauswahl .Rotating-image #toggle, .Designcode-Artikelauswahl .Rotating-image #next {display: inline-block; font-size: 3rem; margin: .5rem; cursor: pointer; opacity: .75}
