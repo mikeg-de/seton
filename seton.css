@@ -874,7 +874,6 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .rsFullscreen .rsThumbsHor {width: 100%}
 .Designcode-Artikelauswahl .rsFullscreen, .Designcode-Artikelauswahl .rsFullscreen .rsNav {background-color: #111}
 .Designcode-Artikelauswahl .rsFullscreen .rsOverflow , .Designcode-Artikelauswahl .rsFullscreen .rsSlide {background-color: #000; text-align: center}
-.Designcode-Artikelauswahl .rsFullscreen .rsSlide img {max-width: 100%; max-height: 800px}
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide iframe {width: 600px !important; height: 600px !important}
 .Designcode-Artikelauswahl .rsFullscreen .rsThumb.rsNavSelected {background-color: #000 !important}
 .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #spritespin {width: 600px; max-width: 600px; max-height: 600px}
