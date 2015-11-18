@@ -729,7 +729,6 @@ img.rsImg {max-width: none}
 .rsDefault.rsWithThumbsVer .rsThumbsContainer {position: relative; width: 100%}
 .rsDefault .rsThumb {float: left; overflow: hidden; width: 96px; height: 72px}
 .rsDefault .rsThumb img {width: 100%; height: 100%}
-.rsDefault .rsThumb.rsNavSelected {background: #02874a}
 .rsDefault .rsThumb.rsNavSelected img {opacity: .3; filter: alpha(opacity=30)}
 .rsDefault .rsTmb {display: block}
 
@@ -751,11 +750,6 @@ img.rsImg {max-width: none}
 .rsDefault.rsWithThumbsVer .rsThumbsArrowLeft .rsThumbsArrowIcn {background-position: -144px -32px}
 .rsDefault.rsWithThumbsVer .rsThumbsArrowRight .rsThumbsArrowIcn {background-position: -144px -48px}
 .rsDefault .rsThumbsArrowDisabled {display: none}
-
-/* Thumbnails resizing on smaller screens */
-@media screen and (min-width: 0px) and (max-width: 800px) {.rsDefault .rsThumb {width: 59px; height: 44px}
-	.rsDefault .rsThumbsHor {height: 44px}
-	.rsDefault .rsThumbsVer {width: 59px}}
 
 /* 4. Tabs */
 .rsDefault .rsTabs {width: 100%; height: auto; margin: 0 auto; text-align: center; overflow: hidden; padding-top: 12px; position: relative}
@@ -852,7 +846,6 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure {padding: .5rem 1rem; text-align: center; margin: 0}
 
 /* Horizontale Thumb-Scrollleiste */
-.Designcode-Artikelauswahl .rsDefault .rsThumb {background: none !important}
 .Designcode-Artikelauswahl .rsDefault .rsThumb img {opacity: .4; margin: 0 auto}
 .Designcode-Artikelauswahl .rsDefault .rsThumb .Rotating-image-icon {position: absolute; top: 50%; left: 30px}
 .Designcode-Artikelauswahl .rsDefault .rsThumb .rsNavSelected {background: #fff !important}
