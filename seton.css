@@ -451,10 +451,10 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 * html .Produktreihe-Grid-System .Grid3 .Link-Mehr-Produkte {left: 0}
 
 /* Kontakt-Infos ==========================*/
-.Teaser-Kontakt span, .Fax, .Mail, .Anschrift, .Info, .Online-Shop {text-align: left; position: relative;margin: 0 0 1rem;left: 0; top: 0; padding-left: 1.5rem; color: #8A8A8A}
+.Teaser-Kontakt span, .Fax, .Mail, .Anschrift, .Info, .Online-Shop {display: block, text-align: left; margin: 0 0 1rem; padding-left: 1.5rem; color: #8A8A8A}
 .Teaser-Kontakt .Icon, .Info .Icon, .Online-Shop .Icon, .Warenkorb .Icon {position: absolute;left: 0;font-size: 1rem;}
 .Teaser-Kontakt span {color: #06609f;}
-.Fax span, .Hotline span, .Mail span a, .Anschrift span, .Info span a, .Online-Shop span a, .Warenkorb span a { display: block}
+.Fax span, .Hotline span, .Mail span a, .Anschrift span, .Info span a, .Online-Shop span a, .Warenkorb span a { padding: 0}
 
 /* Head ==========================*/
 #Header {width: 100%; position: relative; z-index:90}
