@@ -838,7 +838,7 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .rsSlide, .Designcode-Artikelauswahl .rsThumb, .cc-slides .Bild, .Top-Kategorie-Schilder .Bild, .product-list-item a {display: block}
 /*.Designcode-Artikelauswahl .rsOverflow {height:243px !important} */
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide {/*width: 100%; height: auto*/}
-.Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide img, .Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide .Rotating-image {margin: 0 auto}
+.Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide img, .Designcode-Artikelauswahl .Rotating-image #spritespin {margin: 0 auto}
 .rsArrowDisabled {display: none !important}
 
 /* Bildbeschreibung */
