@@ -10,6 +10,9 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 /* Hidden elements */
 .Link-Mehr-Infos, .Bild-sw, .Produkttabelle #warenkorbItems, .Produkttabelle hr, #socialshareprivacy .settings_info, .Hinweis-NL-Pflichtfelder, .ui-helper-hidden, .ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle, .Zwei-Spalter-Sidebar-left .Sidebar-right, .Zwei-Spalter-Sidebar-right .Sidebar-left, #nav-home, nav .Hotline, .cc-slider input, .toggle input, .toggle .toggle1:checked ~ .controls label:nth-child(1), .toggle .toggle2:checked ~ .controls label:nth-child(2), .Designcode-Artikelauswahl-NJS .royalSlider .bugaga .rsCaption, .Designcode-Artikelauswahl-NJS .royalSlider .Rotating-image, .Designcode-Artikelauswahl .Kopfnummerninfos .Tabs, .Factfinder-Copyright, .Auflistung-Produkte .Edit-Info, .Schildersuche .PUES-Subnavigation-Kategorien .Title2, .Schildersuche .Anzahl-Artikel, .Checkout-Adresseingabe .editable_textarea, .Checkout-Print .Anzahl-JS img, .Checkout-Print .Anzahl a, .Checkout-Print .Anzahl-JS a, .Checkout-Print .Anzahl-JS .updateLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto img, .Print .Einzelpreis-abzgl-Rabatt-netto .buttonAsLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto .Datei-Upload, .Checkout-Print .vortn, .Checkout-Print .Dankeschoen-Geschenk input, .Themenheadline, .smallreadonly, .Kopfnummerninfos-Tabs .Tabs, .Teaser-Blog .updated, .Footer .Trusted-Shop .hreview-aggregate, .ui-dialog-titlebar-close, p:empty, .rsCaption:empty, .Hauptkategorie-Text:empty, .Tab-Content:empty, .cc-slider:empty, #Produktbeschreibung:empty, .LV_validation_message:empty, .Hinweistext, .LV_valid, #SEO-Footer:empty, #Footer_Bereichstext:empty, #cc-slider-top-kategorien .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow .inner:before, .cc-slider .controls, .Artikel-pro-Seite, .pure-toggle, .pure-toggle-label, .hidden, .Checkout-Confirmation-Page .Kopfnavigation {display: none}
 #cc-slider-top-kategorien .controls {display: block}
+/* Vertical centered*/
+.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .rsSlide .rsVideoContainer .rsMainSlideImage, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .categries h2 + .Bild img, .grid-view.products .Bild img, .item.box-grey .Text span  {position: relative; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%)}
+.rsFullscreen .rsContainer .rsSlide img, .rsFullscreen .rsSlide .Rotating-image, .rsSlide .rsVideoContainer .rsMainSlideImage {-webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0)}
 
 /* Clear-Fix */
 .clear:after, .content [class*="col"]:after, #Footer [class*="col"]:after, .ASR-Teaser:after {content: "."; display: block; height: 0; clear: both; visibility: hidden}
@@ -45,8 +48,8 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .grid-view.items-4 .item {width:25%}
 
 /* Vertical centered*/
-.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .categries h2 + .Bild img, .grid-view.products .Bild img, .item.box-grey .Text span  {position: relative; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%)}
-.rsFullscreen .rsContainer .rsSlide img, .rsFullscreen .rsSlide .Rotating-image {/*-webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0)*/}
+.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .rsSlide .rsVideoContainer .rsMainSlideImage, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .categries h2 + .Bild img, .grid-view.products .Bild img, .item.box-grey .Text span  {position: relative; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%)}
+.rsFullscreen .rsContainer .rsSlide img, .rsFullscreen .rsSlide .Rotating-image, .rsSlide .rsVideoContainer .rsMainSlideImage {-webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0)}
 
 /* Text */
 h1, h2, h3, h4, h5, .Title1, .Title2, .Title3, .Title4, .Title5, .Teaser-Title, .Titel-Newsletter-abonnieren {font-weight: 500; color: #3a3a3a; line-height: 1.5rem; margin: 0 0 .25rem 0; font-size: 1rem}
@@ -849,7 +852,7 @@ img.rsImg {max-width: none}
 
 /* Horizontale Thumb-Scrollleiste */
 .Designcode-Artikelauswahl .rsDefault .rsThumb img {opacity: .4; margin: 0 auto}
-.Designcode-Artikelauswahl .rsDefault .rsThumb .Rotating-image-icon {position: absolute; top: 50%; left: 30px}
+.Designcode-Artikelauswahl .rsDefault .rsThumb .image-icon {position: absolute; top: 50%; left: 30px}
 .Designcode-Artikelauswahl .rsDefault .rsThumb .rsNavSelected {background: #fff !important}
 .Designcode-Artikelauswahl .rsDefault .rsThumb:hover img, .Designcode-Artikelauswahl .rsDefault .rsThumb.rsNavSelected img {opacity: 1}
 
