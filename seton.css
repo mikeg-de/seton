@@ -849,7 +849,7 @@ img.rsImg {max-width: none}
 
 /* Horizontale Thumb-Scrollleiste */
 .Designcode-Artikelauswahl .rsDefault .rsThumb img {opacity: .4; margin: 0 auto}
-.Designcode-Artikelauswahl .rsDefault .rsThumb .Rotating-image-icon {position: absolute; top: 50%; left: 30px}
+.Designcode-Artikelauswahl .rsDefault .rsThumb .image-icon {position: absolute; top: 50%; left: 30px}
 .Designcode-Artikelauswahl .rsDefault .rsThumb .rsNavSelected {background: #fff !important}
 .Designcode-Artikelauswahl .rsDefault .rsThumb:hover img, .Designcode-Artikelauswahl .rsDefault .rsThumb.rsNavSelected img {opacity: 1}
 
