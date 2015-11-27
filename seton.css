@@ -1457,9 +1457,13 @@ textarea {height: 4rem;font: inherit;}
 .Newsletter-Anforderung .Adresseingabe .Button-klein-T-Newsletter-abbestellen {right: 10px; margin-top: 9px}
 
 /* Newsletter-Promo:20% auf Pruefplaketten fuer Newsletter-Abonnenten */
-.tooltip-Banner-Pruefplaketten, .article-Newsletter-Abo-Downloads .zentriert {display: block}
 .tooltip-Banner-Pruefplaketten .tooltip {bottom: auto; top: -30px}
+.tooltip-Banner-Pruefplaketten {display: block }
+.article-Newsletter-Abo-Downloads .Bild {display: block; height:155px; padding-top:20px }
+.Schatten { box-shadow: 0 0 15px rgba(0, 0, 0, 0.4); }
+.schraeg { transform: rotate(5deg) }
 .article-Newsletter-Abo-Downloads .Weiterfuehrender-Link {display:block; position: relative; display: block; margin: 15px 10px}
+.article-Newsletter-Abo-Downloads .col4 {height:220px; text-align:center; }
 
 /* SchilderRaetsel */
 .wqText, .wqImage {width: 98px; height: 98px; float: left; margin: 7px; text-align: center; border: 1px solid #606060; background: #fffadd; position: relative; cursor: pointer}
