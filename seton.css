@@ -45,7 +45,7 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .grid-view.items-4 .item {width:25%}
 
 /* Vertical centered*/
-.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .categries h2 + .Bild img, .grid-view.products .Bild img, .item.box-grey .Text span  {position: relative; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%)}
+.rsWithThumbsHor .rsSlide img, .Designcode-Artikelauswahl .rsSlide #PDS-RS-Video, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .categries h2 + .Bild img, .grid-view.products .Bild img, .item.box-grey .Text span  {position: relative; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%)}
 .rsFullscreen .rsContainer .rsSlide img, .rsFullscreen .rsSlide .Rotating-image {/*-webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0)*/}
 
 /* Text */
@@ -836,7 +836,7 @@ img.rsImg {max-width: none}
 .royalSlider .arrow_triangle-right_alt2:before {content: "\49"; font-size: 2rem}
 .royalSlider .arrow_carrot-left_alt2:before {content: "\3c";}
 .royalSlider .arrow_carrot-2right_alt2:before {content: "\3d";}
-.Designcode-Artikelauswahl .rsSlide, .Designcode-Artikelauswahl .rsThumb, .cc-slides .Bild, .Top-Kategorie-Schilder .Bild, .product-list-item a {display: block}
+.Designcode-Artikelauswahl .rsThumb, .cc-slides .Bild, .Top-Kategorie-Schilder .Bild, .product-list-item a {display: block}
 /*.Designcode-Artikelauswahl .rsOverflow {height:243px !important} */
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide {/*width: 100%; height: auto*/}
 .Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide img, .Designcode-Artikelauswahl .Rotating-image #spritespin {margin: 0 auto}
@@ -863,10 +863,8 @@ img.rsImg {max-width: none}
 
 /* Fullscreen-Ergaenzungen */
 .Designcode-Artikelauswahl .rsFullscreen .rsArrow {height: 100%; top: 0}
-.Designcode-Artikelauswahl .rsFullscreen .rsThumbsHor {width: 100%}
 .Designcode-Artikelauswahl .rsFullscreen, .Designcode-Artikelauswahl .rsFullscreen .rsNav {background-color: #111}
 .Designcode-Artikelauswahl .rsFullscreen .rsOverflow , .Designcode-Artikelauswahl .rsFullscreen .rsSlide {background-color: #000; text-align: center}
-.Designcode-Artikelauswahl .rsFullscreen .rsSlide iframe {width: 600px !important; height: 600px !important}
 .Designcode-Artikelauswahl .rsFullscreen .rsThumb.rsNavSelected {background-color: #000 !important}
 .Designcode-Artikelauswahl .rsFullscreen .Rotating-image .Buttons-360 {height: 70px; position: relative; background: none; opacity: 1}
 .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #prev, .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #toggle, .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #next {color: #fff}
@@ -1174,7 +1172,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .Top-Kategorie, .Schilder-Sucheingabe {position: relative}
 .Teaser-Top-Kategorien a {font-size: 1.2rem; color: #3a3a3a; text-align: left}
 .Teaser-Top-Kategorien a:hover {text-decoration: none}
-.article-PDS-Produktbilder .rsTmb {height: 99px}
+.article-PDS-Produktbilder .rsTmb {height: 72px}
 .Subkategorie-Link, .Subsubkategorie-Link, .Top-Kategorie button, .Kategorie-Link, .Weiterfuehrender-Link {position: absolute; bottom: .5rem; right: 1rem; margin: 0}
 .Teaser-Vorteilsnummer .Weiterfuehrender-Link {position: relative; bottom: 0; left: 0}
 #Footer_Bereichstext .Content-Footer-Bereichstext {float: right; margin: 0}
