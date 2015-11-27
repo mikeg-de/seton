@@ -1613,8 +1613,7 @@ textarea {height: 4rem;font: inherit;}
 
 /* Fax-Angebot ==========================*/
 .Vorteile-Fax-Abonnent {position: relative; height: 214px; padding: 10px 15px; margin: 15px 0}
-.Vorteile-Fax-Abonnent .Vorteile {width: 240px}
-.Vorteile-Fax-Abonnent p {width: 240px}
+.Vorteile-Fax-Abonnent .Vorteile, .Vorteile-Fax-Abonnent p {width: 240px}
 img.Praemien {position: absolute; top: 0; right: 0; z-index: -1}
 
 /* Bad URL ==========================*/
