@@ -1166,6 +1166,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .col4 .products.cc-slider.items-3 .item .Bild, .col12 .products.cc-slider.items-9 .item .Bild {height: 80px}
 .Teaser-Direkt-mitbestellen .Button-klein-grau {display: block !important}
 #cc-slider-streusalz-testimonials .inner {width: 300%}
+#cc_slider_item_page_similar_products { display:none }
 
 /* Slider Top-Kategorien */
 .Top-Kategorie-Schilder {padding: 10px 10px 0 0; height: 210px}
