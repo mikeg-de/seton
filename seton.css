@@ -723,7 +723,7 @@ img.rsImg {max-width: none}
 .rsDefault .rsBullet.rsNavSelected span {background-color: #FFF}
 
 /* 3. Thumbnails */
-.rsDefault .rsThumbsHor {width: 100%; height: 72px; margin-top:26px }
+.rsDefault .rsThumbsHor {width: 100%; height: 72px }
 .rsDefault .rsThumbsVer {width: 96px; height: 100%; position: absolute; top: 0; right: 0}
 .rsDefault.rsWithThumbsHor .rsThumbsContainer {position: relative; height: 100%}
 .rsDefault.rsWithThumbsVer .rsThumbsContainer {position: relative; width: 100%}
