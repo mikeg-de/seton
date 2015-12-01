@@ -64,7 +64,6 @@ p, .toggle-content, form {margin: 0 0 8pt}
 .article-Dropdowns, .article-Dropdowns + div {width:70%; float:left}
 .article-Dropdowns + div {width: 27%;padding: 8pt;border: 1pt solid #b5b5b5}
 
-img {max-width: 500px;width: 100%;height: auto}
 .Blaetterkatalog > a:before {content: "Im Katalog auf"}
 
 ul {list-style:none;padding: 0}
