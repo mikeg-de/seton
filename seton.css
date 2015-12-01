@@ -577,7 +577,7 @@ margin: 0 .25rem 0 -1rem}
 .royalSlider > * {/*float: left*/}
 .rsWebkit3d .rsSlide {-webkit-transform: translateZ(0)}
 .rsFade.rsWebkit3d .rsSlide, .rsFade.rsWebkit3d img, .rsFade.rsWebkit3d .rsContainer {-webkit-transform: none}
-.rsOverflow {width: 100%; height:100%; position: relative; overflow: hidden; float: left; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
+.rsOverflow {width: 100%; height:100%; position: relative; overflow: hidden; float: left; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin-bottom:26px }
 .article-PDS-Produktbilder .rsOverflow {height: 245px}
 .rsVisibleNearbyWrap {width: 100%; height: 100%; position: relative; overflow: hidden; left: 0; top: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
 .rsVisibleNearbyWrap .rsOverflow {position: absolute; left: 0; top: 0}
@@ -723,7 +723,7 @@ img.rsImg {max-width: none}
 .rsDefault .rsBullet.rsNavSelected span {background-color: #FFF}
 
 /* 3. Thumbnails */
-.rsDefault .rsThumbsHor {width: 100%; height: 72px}
+.rsDefault .rsThumbsHor {width: 100%; height: 72px; margin-top:26px }
 .rsDefault .rsThumbsVer {width: 96px; height: 100%; position: absolute; top: 0; right: 0}
 .rsDefault.rsWithThumbsHor .rsThumbsContainer {position: relative; height: 100%}
 .rsDefault.rsWithThumbsVer .rsThumbsContainer {position: relative; width: 100%}
@@ -779,8 +779,7 @@ img.rsImg {max-width: none}
 .rsDefault .rsPreloader {width: 20px; height: 20px; background-image: url(/css/preloaders/preloader-white.gif); left: 50%; top: 50%; margin-left: -10px; margin-top: -10px}
 
 /* 8. Global caption */
-.rsDefault .rsGCaption {position: absolute;bottom: 30%;left: 0;background-color: rgba(255, 255, 255, .9);}
-.rsFullscreen .rsGCaption {bottom: 10%}
+.rsDefault .rsGCaption {position: absolute; bottom:46px; left: 0;background-color: rgba(255, 255, 255, .9);}
 
 /* Teaser Vorteile bei SETON */
 .Teaser-Vorteile-bei-SETON .Rahmen-Inhalt {padding-bottom: 20px}
@@ -827,7 +826,7 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .label {margin: 0 0 .3rem 0; font-weight: bold}
 
 /* PDS Produktbilder mit JS */
-.Designcode-Artikelauswahl .royalSlider {width:100%; height: 315px; display: inline-block; margin: 0; max-width: 100%}
+.Designcode-Artikelauswahl .royalSlider {width:100%; height:341px; display: inline-block; margin: 0; max-width: 100%}
 .rsFullscreen .rsFullscreenBtn {top: 287px}
 
 /* Pfeile */
@@ -845,7 +844,7 @@ img.rsImg {max-width: none}
 
 /* Bildbeschreibung */
 .Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption {box-sizing: border-box}
-.Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure {padding: .5rem 1rem; text-align: center; margin: 0}
+.Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure {padding: .2rem 1rem; text-align: center; margin: 0}
 
 /* Horizontale Thumb-Scrollleiste */
 .Designcode-Artikelauswahl .rsDefault .rsThumb img {opacity: .4; margin: 0 auto}
@@ -869,6 +868,8 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .rsFullscreen .Rotating-image .Buttons-360 {height: 70px; position: relative; background: none; opacity: 1}
 .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #prev, .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #toggle, .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #next {color: #fff}
 .rsFullscreen .rsFullscreenBtn {right: 20px; top: 20px}
+.rsFullscreen .rsOverflow { margin-bottom:0 }
+.rsFullscreen .rsGCaption {bottom:72px}
 
 /* PDS Produktbilder ohne JS */
 .Designcode-Artikelauswahl-NJS .article-PDS-Produktbilder .Grid-inner {margin: 0}
