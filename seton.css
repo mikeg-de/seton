@@ -511,8 +511,8 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 /* Hauptnavigation ==========================*/
 .nav-pri {position: relative; z-index:80}
 .nav-pri ul {list-style-type: none; margin: 0; position: relative; z-index:70}
-.nav-pri > ul > li {float: left; width:17.5%}
-.nav-pri > ul > li#topnavSale {width:12.5%}
+.nav-pri > ul > li {float: left;width: 19%;}
+.nav-pri > ul > li#topnavSale {width: 5%;}
 .nav-pri [id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc; background-color: #0061a0}
 .nav-pri > ul > li:hover > a {background-color: #ccc}
 .nav-pri li:nth-child(6n+2) a {border-left: 0 none}
@@ -569,7 +569,7 @@ margin: 0 .25rem 0 -1rem}
 .Teaser-Vorteile-bei-SETON img, .Teaser-Avail-Direkt-mitbestellen .cc-slides {margin: .5rem 0; padding: 0}
 .Teaser-Vorteile .Weiterfuehrender-Link, [class*="Teaser-Newsletter"] .Weiterfuehrender-Link {bottom: 0; position: relative; right: 0; text-align: right}
 .Rahmen {background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%);}
-.Rahmen {box-shadow: 0 0 3px rgba(33, 33, 33, 1)}
+.Rahmen {border: 1px solid #ccc;}
 #Warenkorb-Rahmen h1 {font-size: 1.5rem; margin: 0}
 .Teaser .Kein-Rahmen {padding: 10px 0 15px 0}
 
@@ -1714,16 +1714,18 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 @media only screen and (min-width:768px) {
 	.Artikelsuche {position: relative}
 	#suggestContainer {border-top: 0 none}
-	.sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; border: 1px solid #ccc; border-top-width: .35rem; position: absolute; left: 0; z-index: -1}
-	#topnav4 .sub {left:17.5%}
-	#topnav7 .sub {left:35%}
-	.col {width: 204px; float: left; margin: 0; padding: 5px 5px 5px 10px; box-sizing: border-box}
-	#topnavSale .sub {left:79.9% }
+	.sub { border: 1px solid #ccc; border-top-width: .35rem; position: absolute; left: initial;display: flex;align-items: stretch;}
+	#topnav1 .sub {width: 76%}
+	#topnav4 .sub, #topnav7 .sub {width: 57%}
+	#topnav32 .sub, #topnav10 .sub {left: 0; width: 95%}
+	.col { margin: 0;padding: 5px 5px 5px 10px;flex-grow: 1;flex-basis: 25%;border-right: 1px solid #ccc;}
+	.col-Themen {border-right: 0 none; background-color: #eee}
+	#topnavSale .sub {left:79.9%;}
 	#topnavSale .col { padding:5px 10px}
 	#topnavSale li { border-bottom:1px solid #ccc; padding:1em 0 }
 	#topnavSale li:last-child { border:0 }
 	#topnavSale .Description { color:#3e3e3e; display:block }
-	#topnavSale a { display:block }
+	#topnavSale > a { display:block;font-size: 2rem;   line-height: 2.5rem;}
 	#topnavSale a:hover { text-decoration:none }
 	#topnavSale .Weiterfuehrender-Link { position:relative; bottom:0; right:0; display:block; text-align:right }
 	#topnavSale a:hover .Titel,
