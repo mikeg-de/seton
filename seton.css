@@ -530,6 +530,8 @@ li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
 .toggle .toggle1:checked ~ .toggle-content {height: 3.75rem; overflow: hidden; display: inline-block}
 .dropdown-list .sub {position: relative; background: 0 none; box-shadow: none; border: 0 none}
 
+nav:hover ~ .pure-overlay {transition: opacity .25s ease-out;opacity: 1;width: 100%;height: 100%;}
+
 /* Icons fuer Suche, Warenkorb etc. ==========================*/
 .arrow_carrot-right {margin: 0}
 .icon_search:before, .icon_cart_alt:before, .icon_close {cursor: pointer}
@@ -1712,7 +1714,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 @media only screen and (min-width:768px) {
 	.Artikelsuche {position: relative}
 	#suggestContainer {border-top: 0 none}
-	.sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; box-shadow: 0 0 15px rgba(33, 33, 33, 1); border: 1px solid #ccc; border-top-width: .35rem; position: absolute; left: 0; z-index: -1}
+	.sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right;/* box-shadow: 0 0 15px rgba(33, 33, 33, 1); */ border: 1px solid #ccc; border-top-width: .35rem; position: absolute; left: 0; z-index: -1}
 	#topnav4 .sub {left:17.5%}
 	#topnav7 .sub {left:35%}
 	.col {width: 204px; float: left; margin: 0; padding: 5px 5px 5px 10px; box-sizing: border-box}
@@ -1726,6 +1728,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	#topnavSale .Weiterfuehrender-Link { position:relative; bottom:0; right:0; display:block; text-align:right }
 	#topnavSale a:hover .Titel,
 	#topnavSale a:hover .Weiterfuehrender-Link { text-decoration:underline }
+	.pure-overlay {position: fixed; top: 0; bottom: 0; right: 0; width: 100%; height: 100%; opacity: 0; background-color: rgba(255,255,255,.5); transition: opacity .25s ease-in .25s }
 	.Homepage .royalSlider {height: 250px}
 	.Zwei-Spalter-Sidebar-left .Content {margin-left: -24.06%}
 	.Zwei-Spalter-Sidebar-left .Content, .Drei-Spalter .Content, #Footer_Bereichstext {float: right; padding: 0 1.25% 0}

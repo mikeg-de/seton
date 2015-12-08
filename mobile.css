@@ -119,7 +119,6 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.pure-pusher {position: relative; height: 100%; overflow-y: auto; left: 0; z-index: 2; background-color: #fff; transition-property: transform; transition-duration: 500ms; transition-timing-function: ease-out}
 
 	/* Pusher Overlay */
-	.pure-overlay {position: fixed; top: 0; bottom: 0; right: 0; width: 0; height: 0; opacity: 0; background-color: rgba(0, 0, 0, 0.4); transition-property: opacity; transition-duration: 500ms; transition-delay: 500ms; transition-timing-function: ease-in-out}
 	.pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left-bottom'] {left: 100%;}
 
 	.pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-overlay[data-overlay='right'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left'] {width: 100%; height: 100%; opacity: 1;z-index: 80;}
