@@ -1091,7 +1091,9 @@ ul.grid-view, ul.list-view {margin: 0}
 .list-view.products [id*="orderinfo_"] {padding:0}
 .list-view.products .Menge {width:30%}
 .list-view.products .Menge + .col8 {margin: 1.25em 0 0}
-.list-view.products .col8 > * {display:block; text-align:right}
+.list-view.products .Produktergebnis-inner .col8 {text-align:right}
+.list-view.products .Produktergebnis-inner .col8 > * { display:inline-block }
+.list-view.products .Produktergebnis-inner .col8 .Streich-Preis { margin-right:0.5em }
 .list-view.products .Preisbox {width:68.75%; margin-top:1rem}
 
 .list-view.products .Edit-Modus {clear:both; display:block}
