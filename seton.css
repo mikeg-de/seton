@@ -1,5 +1,5 @@
-/*@font-face {font-family: 'ElegantIcons'; src: url('css/fonts/ElegantIcons.eot'); src: url('css/fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'), url('css/fonts/ElegantIcons.woff') format('woff'), url('css/fonts/ElegantIcons.ttf') format('truetype'), url('css/fonts/ElegantIcons.svg#ElegantIcons') format('svg'); font-weight: normal; font-style: normal}*/
-.data-icon:before, .data-icon:after, .Filterparameter li:before, .Icon:before, .Bullet-Haekchen li:before, .Editieren:after, .royalSlider .arrow_carrot-left_alt2:before, .royalSlider .icon_pause_alt2:before, .royalSlider .arrow_triangle-right_alt2:before, .royalSlider .arrow_carrot-right_alt2:before, .Link-Liste a:before, .Vorteile li:before, .Info-Icon:before, .icon_chat_alt:before, .icon_phone:before, .controls label:before, .subnav .Titel:after, .Mehr-Filter:before {font: normal normal normal 1em/1rem 'ElegantIcons'; -webkit-font-smoothing: antialiased}
+/*@font-face {font-family: 'ElegantIcons'; src: url('css/fonts/ElegantIcons.eot'); src: url('css/fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'), url('css/fonts/ElegantIcons.woff') format('woff'), url('css/fonts/ElegantIcons.ttf') format('truetype'), url('css/fonts/ElegantIcons.svg#ElegantIcons') format('svg'); font-weight: normal; font-style: normal}
+.data-icon:before, .data-icon:after, .Filterparameter li:before, .Icon:before, .Bullet-Haekchen li:before, .Editieren:after, .royalSlider .arrow_carrot-left_alt2:before, .royalSlider .icon_pause_alt2:before, .royalSlider .arrow_triangle-right_alt2:before, .royalSlider .arrow_carrot-right_alt2:before, .Link-Liste a:before, .Vorteile li:before, .Info-Icon:before, .icon_chat_alt:before, .icon_phone:before, .controls label:before, .subnav .Titel:after, .Mehr-Filter:before {font: normal normal normal 1em/1rem 'ElegantIcons'; -webkit-font-smoothing: antialiased}*/
 
 /* Allgemeine Definitionen */
 body {font: normal normal 13px/1.25rem Arial, 'Helvetica Neue', Helvetica, sans-serif; color: #3e3e3e; padding: 0; margin: 0 auto; max-width: 1024px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
@@ -1044,7 +1044,6 @@ ul.grid-view, ul.list-view {margin: 0}
 .list.products .Bild {height: 150px}
 .list.products .Produkt-Name {max-height: 60px; overflow: hidden;  display: block}
 .list.products .Preis {color:#3f3f3f}
-.list.products .Rabatt-Preis {display: block; text-align: right}
 .list.products .Edit-Info span {display: block}
 .list.products .Relevanz, .list.products .Editieren {color: #F00; font-size: .9rem; z-index: 2}
 .list.products .Lieferbarkeit {color: #777; font-size: .9rem}
@@ -1092,8 +1091,6 @@ ul.grid-view, ul.list-view {margin: 0}
 .list-view.products .Menge {width:30%}
 .list-view.products .Menge + .col8 {margin: 1.25em 0 0}
 .list-view.products .Produktergebnis-inner .col8 {text-align:right}
-.list-view.products .Produktergebnis-inner .col8 > * { display:inline-block }
-.list-view.products .Produktergebnis-inner .col8 .Anzahl { display:block }
 .list-view.products .Produktergebnis-inner .col8 .Streich-Preis { margin-right:0.5em }
 .list-view.products .Preisbox {width:68.75%; margin-top:1rem}
 
