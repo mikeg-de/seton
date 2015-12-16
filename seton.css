@@ -277,6 +277,7 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .Lieferdatum .tooltip {width:120px}
 .legislation .tooltip, .brand .tooltip, #lastSeenProducts .tooltip, .tooltip-Dateien-hochladen .tooltip {width:150px}
 .Teaser-Newsletter-GHS .tooltip, .Abrechnung .tooltip, .Einrichtungsgebuehr .tooltip {width:200px}
+.PUES .item .tooltip {width: 250px}
 .Teaser-Vorteilsnummer .tooltip {width: 350px}
 
 .Upsell .tooltip {text-align: center}
