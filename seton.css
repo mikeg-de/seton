@@ -1682,6 +1682,10 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 .wistia_embed-center {float: none; margin: 30px auto 20px auto}
 .socialbar_button {width: 120px !important}
 
+/* Responsive YouTube Videos */
+.embed-container {position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%}
+.embed-container iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%}
+
 /* Themen Logos */
 .lieferantenlogos {border-top: 1px solid #d3d3d3; border-bottom: 1px solid #d3d3d3; padding: 15px 0; height: 100px}
 .lieferantenlogos img {margin: 0 24px 0 0}
