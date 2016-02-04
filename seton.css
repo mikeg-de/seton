@@ -509,7 +509,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 /* Hauptnavigation ==========================*/
 .nav-pri {position: relative; z-index:80}
 .nav-pri ul {list-style-type: none; margin: 0; position: relative; z-index:70}
-.nav-pri [id^="topnav"] {float: left; width:17.5%}
+.nav-pri [id^="topnav"], #nav-home {float: left; width:17.5%}
 .nav-pri #topnavSale {width:12.5%}
 .nav-pri [id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc; background-color: #0061a0}
 .nav-pri > ul > li:hover > a {background-color: #ccc}
@@ -1706,7 +1706,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {-webkit-appearance: none; margin: 0}
 	.Checkout nav {background-color: #bababa; height: 3.15rem; margin: 0 0 1rem}
 	.Checkout nav li {display: none}
-	.Checkout #nav-home {display: block}
+	.Checkout #nav-home {display: inline-block}
 	.Checkout nav a {display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; color: #fff}}
 
 @media only screen and (min-width:768px) {
