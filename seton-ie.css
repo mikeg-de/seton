@@ -1,3 +1,6 @@
+@font-face {font-family: 'ElegantIcons'; src: url('css/fonts/ElegantIcons.eot'); src: url('css/fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'), url('css/fonts/ElegantIcons.woff') format('woff'), url('css/fonts/ElegantIcons.ttf') format('truetype'), url('css/fonts/ElegantIcons.svg#ElegantIcons') format('svg'); font-weight: normal; font-style: normal}
+.data-icon:before, .data-icon:after, .Filterparameter li:before, .Icon:before, .Bullet-Haekchen li:before, .Editieren:after, .royalSlider .arrow_carrot-left_alt2:before, .royalSlider .icon_pause_alt2:before, .royalSlider .arrow_triangle-right_alt2:before, .royalSlider .arrow_carrot-right_alt2:before, .Link-Liste a:before, .Vorteile li:before, .Info-Icon:before, .icon_chat_alt:before, .icon_phone:before, .controls label:before, .subnav .Titel:after, .Mehr-Filter:before {font: normal normal normal 1em/1rem 'ElegantIcons'; -webkit-font-smoothing: antialiased}
+
 button {border: 0 none}
 .Wrapper-Content, .Navi .sub, .Rahmen {border: 1px solid #d5d5d5;}
 .Footer {filter: none}

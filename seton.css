@@ -1,6 +1,3 @@
-/*@font-face {font-family: 'ElegantIcons'; src: url('css/fonts/ElegantIcons.eot'); src: url('css/fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'), url('css/fonts/ElegantIcons.woff') format('woff'), url('css/fonts/ElegantIcons.ttf') format('truetype'), url('css/fonts/ElegantIcons.svg#ElegantIcons') format('svg'); font-weight: normal; font-style: normal}
-.data-icon:before, .data-icon:after, .Filterparameter li:before, .Icon:before, .Bullet-Haekchen li:before, .Editieren:after, .royalSlider .arrow_carrot-left_alt2:before, .royalSlider .icon_pause_alt2:before, .royalSlider .arrow_triangle-right_alt2:before, .royalSlider .arrow_carrot-right_alt2:before, .Link-Liste a:before, .Vorteile li:before, .Info-Icon:before, .icon_chat_alt:before, .icon_phone:before, .controls label:before, .subnav .Titel:after, .Mehr-Filter:before {font: normal normal normal 1em/1rem 'ElegantIcons'; -webkit-font-smoothing: antialiased}*/
-
 /* Allgemeine Definitionen */
 body {font: normal normal 13px/1.25rem Arial, 'Helvetica Neue', Helvetica, sans-serif; color: #3e3e3e; padding: 0; margin: 0 auto; max-width: 1024px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
 img {max-width: 100%; border: 0}
@@ -8,7 +5,7 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .popup {width: 95%}
 
 /* Hidden elements */
-.Link-Mehr-Infos, .Bild-sw, .Produkttabelle #warenkorbItems, .Produkttabelle hr, #socialshareprivacy .settings_info, .Hinweis-NL-Pflichtfelder, .ui-helper-hidden, .ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle, .Zwei-Spalter-Sidebar-left .Sidebar-right, .Zwei-Spalter-Sidebar-right .Sidebar-left, #nav-home, nav .Hotline, .cc-slider input, .toggle input, .toggle .toggle1:checked ~ .controls label:nth-child(1), .toggle .toggle2:checked ~ .controls label:nth-child(2), .Designcode-Artikelauswahl-NJS .royalSlider .bugaga .rsCaption, .Designcode-Artikelauswahl-NJS .royalSlider .Rotating-image, .Designcode-Artikelauswahl .Kopfnummerninfos .Tabs, .Factfinder-Copyright, .Auflistung-Produkte .Edit-Info, .Schildersuche .PUES-Subnavigation-Kategorien .Title2, .Schildersuche .Anzahl-Artikel, .Checkout-Adresseingabe .editable_textarea, .Checkout-Print .Anzahl-JS img, .Checkout-Print .Anzahl a, .Checkout-Print .Anzahl-JS a, .Checkout-Print .Anzahl-JS .updateLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto img, .Print .Einzelpreis-abzgl-Rabatt-netto .buttonAsLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto .Datei-Upload, .Checkout-Print .vortn, .Checkout-Print .Dankeschoen-Geschenk input, .Themenheadline, .smallreadonly, .Kopfnummerninfos-Tabs .Tabs, .Teaser-Blog .updated, .Footer .Trusted-Shop .hreview-aggregate, .ui-dialog-titlebar-close, p:empty, .rsCaption:empty, .Hauptkategorie-Text:empty, .Tab-Content:empty, .cc-slider:empty, #Produktbeschreibung:empty, .LV_validation_message:empty, .Hinweistext, .LV_valid, #SEO-Footer:empty, #Footer_Bereichstext:empty, #cc-slider-top-kategorien .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow .inner:before, .cc-slider .controls, .Artikel-pro-Seite, .pure-toggle, .pure-toggle-label, .hidden, .Checkout-Confirmation-Page .Kopfnavigation {display: none}
+.Link-Mehr-Infos, .Bild-sw, .Produkttabelle #warenkorbItems, .Produkttabelle hr, #socialshareprivacy .settings_info, .Hinweis-NL-Pflichtfelder, .ui-helper-hidden, .ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle, .Zwei-Spalter-Sidebar-left .Sidebar-right, .Zwei-Spalter-Sidebar-right .Sidebar-left, #nav-home, nav .Hotline, #topnavdirectOrder, .cc-slider input, .toggle input, .toggle .toggle1:checked ~ .controls label:nth-child(1), .toggle .toggle2:checked ~ .controls label:nth-child(2), .Designcode-Artikelauswahl-NJS .royalSlider .bugaga .rsCaption, .Designcode-Artikelauswahl-NJS .royalSlider .Rotating-image, .Designcode-Artikelauswahl .Kopfnummerninfos .Tabs, .Factfinder-Copyright, .Auflistung-Produkte .Edit-Info, .Schildersuche .PUES-Subnavigation-Kategorien .Title2, .Schildersuche .Anzahl-Artikel, .Checkout-Adresseingabe .editable_textarea, .Checkout-Print .Anzahl-JS img, .Checkout-Print .Anzahl a, .Checkout-Print .Anzahl-JS a, .Checkout-Print .Anzahl-JS .updateLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto img, .Print .Einzelpreis-abzgl-Rabatt-netto .buttonAsLink, .Checkout-Print .Einzelpreis-abzgl-Rabatt-netto .Datei-Upload, .Checkout-Print .vortn, .Checkout-Print .Dankeschoen-Geschenk input, .Themenheadline, .smallreadonly, .Kopfnummerninfos-Tabs .Tabs, .Teaser-Blog .updated, .Footer .Trusted-Shop .hreview-aggregate, .ui-dialog-titlebar-close, p:empty, .rsCaption:empty, .Hauptkategorie-Text:empty, .Tab-Content:empty, .cc-slider:empty, #Produktbeschreibung:empty, .LV_validation_message:empty, .Hinweistext, .LV_valid, #SEO-Footer:empty, #Footer_Bereichstext:empty, #cc-slider-top-kategorien .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow:after, #Avail-Warenkorb-Direkt-mitbestellen .cc-slides .overflow .inner:before, .cc-slider .controls, .Artikel-pro-Seite, .pure-toggle, .pure-toggle-label, .hidden, .Checkout-Confirmation-Page .Kopfnavigation {display: none}
 #cc-slider-top-kategorien .controls {display: block}
 
 /* Clear-Fix */
@@ -31,7 +28,7 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .col4, .Grid-1-3, .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1, .Inventarketiketten-Designer .col-right-2, .Newsletter-Anforderung .article-Newsletter-Abo-Downloads .Grid-1-3 {width: 32.5%}
 #Service a, .Homepage .Avail .item, #cc-slider-streusalz-testimonials .item, .grid-view .item {width: 33.3%}
 .col5, .Grid-System .Grid-2-5 {width: 40.93%}
-.col6, .Ein-Spalter .Grid12, .Drei-Spalter .Content, #Avail-Hauptkategorie-Kunden-kauften-2, #Avail-Kategorie-Topseller-2, .Zwei-Spalter-Sidebar-left .Grid-System .Grid6, .Zwei-Spalter-Sidebar-right .Grid-System .Grid6, .Grid-System .Grid-1-2, .ASR-Teaser, .ASR-Teaser p, .Checkout .Teaser-Vorteilsnummer, .Abrechnung {width: 49.37%;}
+.col6, .Ein-Spalter .Grid12, .Drei-Spalter .Content, #Avail-Hauptkategorie-Kunden-kauften-2, #Avail-Kategorie-Topseller-2, .Zwei-Spalter-Sidebar-left .Grid-System .Grid6, .Zwei-Spalter-Sidebar-right .Grid-System .Grid6, .Grid-System .Grid-1-2, .ASR-Teaser, .ASR-Teaser p, .Checkout .Teaser-Vorteilsnummer, .Abrechnung {width: 49.37%}
 .col7, .Grid-System .Grid-3-5 {width: 57.81%}
 
 /* Spanning 2 of 3 */
@@ -87,7 +84,7 @@ ul, .PUES-Subnavigation-Kategorien, .Teaser-Blog ul, .Teaser .Bullet-Haekchen, u
 .Teaser-Blog ul, .dropdown-list {margin: 0}
 ul.Bullet-Haekchen, ul.Weihnachtskugeln, .Teaser-Blog ul, .Footer ul, .dropdown-list {list-style-type: none}
 .Bullet-Haekchen li, .Weihnachtskugeln li, .Bullet-Haekchen-weiss li, .Bullet-Plus li, .Bullet-Checkbox li, .Vorteile li {list-style-type: none; margin: 0 0 0 .75rem; padding: 0 0 0 .25rem}
-.Weihnachtskugeln li:before { display:block; float:left; width:27px; height:29px; background:url('/images/Apfelbaum/Kugel.gif') no-repeat; content:''; margin-right:.75rem }
+.Weihnachtskugeln li:before {display:block; float:left; width:27px; height:29px; background:url('/images/Apfelbaum/Kugel.gif') no-repeat; content:''; margin-right:.75rem}
 aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 .Bullet-Haekchen-weiss li .Bullet {background-position: -22px -130px}
 .Bullet-Haekchen-2-spaltig li {width: 180px; float: left}
@@ -120,7 +117,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 /* Produkttabelle */
 .Produkttabelle {width: 100%; border-spacing: 0; border-collapse: collapse; margin: 1rem 0 0}
 .Produkttabelle th, .Produkttabelle td {font-weight: normal}
-.Produkttabelle tr {border-top: 1px solid #ccc;}
+.Produkttabelle tr {border-top: 1px solid #ccc}
 .Produkttabelle .inactive {color: #888}
 .Produkttabelle .Position {width: 10px}
 .Produkttabelle .Bild {text-align:center; display:table-cell; vertical-align:top; position:relative; min-width:120px; padding-bottom:20px}
@@ -153,7 +150,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 
 /* Basic field definitions */
 label:hover, label:focus {cursor: pointer}
-input, textarea, select {padding: 5px 5px 2px 5px; border-radius: 0; height: 2rem; box-sizing: border-box; border: 1px solid #999; font-size: inherit;}
+input, textarea, select {padding: 5px 5px 2px 5px; border-radius: 0; height: 2rem; box-sizing: border-box; border: 1px solid #999; font-size: inherit}
 [type="checkbox"], [type="radio"] {height: initial}
 :required, .required input, .required select {border-color: #000}
 select {height: 2rem; -webkit-appearance: menulist; -moz-appearance: menulist; appearance: menulist}
@@ -161,35 +158,35 @@ select:hover, input:hover {box-shadow: 0 0 3px 1px #999}
 button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #4d90fe}
 
 /* New Check-Out styling with enhanced forms*/
-.Checkout .Artikelsuche, .Checkout .Warenkorb, .Checkout-Adresseingabe nav, .Checkout-Check-and-Send nav, .Checkout .hidden, fieldset legend {display: none;visibility: hidden;}
+.Checkout .Artikelsuche, .Checkout .Warenkorb, .Checkout-Adresseingabe nav, .Checkout-Check-and-Send nav, .Checkout .hidden, fieldset legend {display: none;visibility: hidden}
 .Checkout-Warenkorb .Artikelsuche, .Checkout-Warenkorb .Warenkorb {display: inline-block; visibility: visible}
-.Checkout fieldset {border: 0 none;padding: 0;}
+.Checkout fieldset {border: 0 none;padding: 0}
 .Checkout-Adresseingabe fieldset {margin: 0}
 #Add_Lieferadresse ~ fieldset {opacity: 0; max-height: 0; overflow: hidden; visibility: hidden; transition: opacity .25s ease-out .25s, visibility .25s ease-out .25s, max-height .5s ease-out}
 #Add_Lieferadresse:checked ~ .Add_Lieferadresse, #Add_Rechnungsadresse:checked ~ .Add_Rechnungsadresse {opacity: 1; max-height: 2000px; display: block; overflow: initial; visibility: visible; transition: opacity .25s ease-in, max-height .5s ease-in}
-.Adresseingabe p {margin-bottom: 0;}
+.Adresseingabe p {margin-bottom: 0}
 .Adresseingabe textarea {width: 50%; max-height: 300px}
 .Checkout-Adresseingabe .Adresseingabe label, .Kontakt .Adresseingabe label {display: block; width: 50%}
 .Adresseingabe .col3 label {width: 100%}
 .Checkout [type="checkbox"] + label {width: 53%; margin-bottom: .75rem}
-.Checkout span.tooltips, .PDF-Download span.tooltips {bottom: 0; right: auto;top: auto;}
+.Checkout span.tooltips, .PDF-Download span.tooltips {bottom: 0; right: auto;top: auto}
 .Checkout-Adresseingabe .Kundennummer-Prefix {position: absolute; left: .25rem; top: 1.75rem}
 .Checkout-Adresseingabe #kundenadr_Kundennummer {padding-left: 2rem}
-.Checkout-Adresseingabe [class*="_Anrede"], .Checkout-Adresseingabe [class*="_Land"], .Checkout fieldset [type="checkbox"], .Checkout-Adresseingabe .kundenadr_Kundennummer {clear: both; display: block;}
+.Checkout-Adresseingabe [class*="_Anrede"], .Checkout-Adresseingabe [class*="_Land"], .Checkout fieldset [type="checkbox"], .Checkout-Adresseingabe .kundenadr_Kundennummer {clear: both; display: block}
 .Checkout-Adresseingabe [class*="_Anrede"] select, .Checkout-Adresseingabe [class*="_Land"] select, .col3 input {width: 100%}
 .Checkout [type="checkbox"] {float: left}
 .Adresseingabe button {margin-left: 32%}
 
 /* Check & Send */
 .Checkout-Check-and-Send input.Add_Rechnungsadresse, .Checkout-Check-and-Send input.Add_Lieferadresse {display:none}
-.Checkout-Check-and-Send :disabled {background-color: transparent;border: 0 none;}
-.Checkout-Check-and-Send fieldset label, .Checkout-Check-and-Send fieldset input, .Checkout-Check-and-Send fieldset select {display: inline-block;}
+.Checkout-Check-and-Send :disabled {background-color: transparent;border: 0 none}
+.Checkout-Check-and-Send fieldset label, .Checkout-Check-and-Send fieldset input, .Checkout-Check-and-Send fieldset select {display: inline-block}
 .Checkout-Check-and-Send fieldset label {width: 31%}
 .Checkout-Check-and-Send input {width: 65%}
-.Checkout-Check-and-Send .kundenadr_Kundennummer input {width: 55%; padding-left: 0;}
-.Checkout-Check-and-Send .Kundennummer-Prefix {display: inline-block;padding-left: .15rem;vertical-align: middle;}
-.Checkout-Check-and-Send fieldset select, .Checkout-Check-and-Send fieldset textarea {-webkit-appearance:none; -moz-appearance:none; appearance:none;width: 65%;margin: 0;padding-left: 0;resize: none;height: auto;}
-.Checkout-Check-and-Send .kundenadr_Bemerkungen label {vertical-align: top;padding-top: 5px;}
+.Checkout-Check-and-Send .kundenadr_Kundennummer input {width: 55%; padding-left: 0}
+.Checkout-Check-and-Send .Kundennummer-Prefix {display: inline-block;padding-left: .15rem;vertical-align: middle}
+.Checkout-Check-and-Send fieldset select, .Checkout-Check-and-Send fieldset textarea {-webkit-appearance:none; -moz-appearance:none; appearance:none;width: 65%;margin: 0;padding-left: 0;resize: none;height: auto}
+.Checkout-Check-and-Send .kundenadr_Bemerkungen label {vertical-align: top;padding-top: 5px}
 .Checkout-Check-and-Send fieldset p :hover, .Checkout-Check-and-Send fieldset p :focus {box-shadow: none; cursor: default}
 .Checkout-Check-and-Send a.col3 {display: block; clear: both}
 
@@ -222,7 +219,7 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 	40%, 60% {-webkit-transform: scale(1.3) rotate(-8deg); -ms-transform: scale(1.3) rotate(-8deg); transform: scale(1.3) rotate(-8deg)}
 	80%, 100% {-webkit-transform: scale(1) rotate(0); -ms-transform: scale(1) rotate(0); transform: scale(1) rotate(0)}}
 
-[name$="_Email"].LV_valid_field ~ [type="checkbox"] {-webkit-animation: tada 2s linear infinite; animation: tada 2s linear infinite;}
+[name$="_Email"].LV_valid_field ~ [type="checkbox"] {-webkit-animation: tada 2s linear infinite; animation: tada 2s linear infinite}
 [name$="_Email"].LV_valid_field ~ [type="checkbox"]:checked {-webkit-animation: none; animation: none}
 
 [type="checkbox"] {box-shadow: none !important; outline: none !important; margin-left: 0}
@@ -252,7 +249,7 @@ a .Link {color: #0061a0}
 span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor: pointer}
 .tooltips:hover {text-decoration: none}
 .tooltips .tooltip, #Artikelsuche-Hinweis,
-.Info-Link .Info-Text, .Info-Link .Info-Text-JS {position: absolute; color: #3e3e3e; background: #fff; border: 2px solid #ccc; visibility: hidden; border-radius: 5px; padding: 5px; z-index: 250; text-align: center;width: 200px;left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%);}
+.Info-Link .Info-Text, .Info-Link .Info-Text-JS {position: absolute; color: #3e3e3e; background: #fff; border: 2px solid #ccc; visibility: hidden; border-radius: 5px; padding: 5px; z-index: 250; text-align: center;width: 200px;left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%)}
 
 .tooltips-drueber .tooltip:before, .tooltips-drunter .tooltip:before,
 .Info-Link .Info-Text:before, .Info-Link .Info-Text-JS:before,
@@ -280,6 +277,7 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .Lieferdatum .tooltip {width:120px}
 .legislation .tooltip, .brand .tooltip, #lastSeenProducts .tooltip, .tooltip-Dateien-hochladen .tooltip {width:150px}
 .Teaser-Newsletter-GHS .tooltip, .Abrechnung .tooltip, .Einrichtungsgebuehr .tooltip {width:200px}
+.PUES .item .tooltip {width: 250px}
 .Teaser-Vorteilsnummer .tooltip {width: 350px}
 
 .Upsell .tooltip {text-align: center}
@@ -296,7 +294,7 @@ form {margin: 0}
 /* Sonstiges */
 hr {border: 0 none; border-top: 1px solid #ccc; margin: 1.5rem 0}
 .Abschnitt {clear: both; position: relative; z-index: 0; zoom: 1}
-.left {float: left;}
+.left {float: left}
 .right, .Sidebar.right {float: right}
 .Produkttabelle-Etikettendesigner .right {float: none}
 #SEO-Footer, #BlogFeedOriginal {margin: 0 15px; clear: both}
@@ -319,13 +317,13 @@ hr {border: 0 none; border-top: 1px solid #ccc; margin: 1.5rem 0}
 /* Buttons
 ==========================*/
 button {font-size: .8rem}
-.Button-gross, .Button-gross-gruen, .Button-gross-blau, .Button-gross-grau, .Button-klein, .Button-klein-gruen, .Button-klein-blau, .Button-klein-grau, .ui-state-default {display: inline-block;vertical-align: top;}
+.Button-gross, .Button-gross-gruen, .Button-gross-blau, .Button-gross-grau, .Button-klein, .Button-klein-gruen, .Button-klein-blau, .Button-klein-grau, .ui-state-default {display: inline-block;vertical-align: top}
 [class^="Button"], .Link-Liste a, [type="checkbox"]:hover, select:hover, button:hover {cursor: pointer; text-decoration: none}
 [class^="Button"]:hover, .Link-Liste a:hover {text-decoration:none}
 [type="button"], [type="submit"], [class^="Button-klein"] button, .Link-Liste a {height: 1.5rem}
 .Button-gross, [class^="Button-gross"] [type="submit"], .ui-state-default, .Teaser-Newsletter button {height: 2.25rem; line-height: 2.25rem}
 .Button-breit {margin: .5rem 0; width:100%}
-.Button-klein {height: 2rem;line-height: 2rem;}
+.Button-klein {height: 2rem;line-height: 2rem}
 .Button-gruen, .Button-grau, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Button-klein-blau input, .Button-klein-blau a, button:disabled, .Link-Liste a, .ui-state-default {border: 0 none; color: #fff; padding: 0 15px; cursor: pointer; text-align:center}
 .Button-gruen, .Button-gross-gruen input, .Button-gross-gruen button, .Button-gross-gruen a, .Button-klein-gruen input, .Button-klein-gruen button, .Button-klein-gruen a, .ui-state-default, #Chat {background-color: #509e2f; background: linear-gradient(to bottom, #509e2f 50%, #3f8c24 50%)}
 .Button-grau, .Button-gross-grau input, .Button-gross-grau button, .Button-klein-grau input, .Button-klein-grau button, .Button-klein-grau a, .Titel-grauer-Balken, .Link-Liste a, .ui-state-default:first-child {background-color: #8c8c8c; background: linear-gradient(to bottom, #8c8c8c 50%, #696969 50%)}
@@ -432,7 +430,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 .Checkout .Sidebar-left, .Checkout-Adresseingabe .Sidebar-left, .Checkout-Check-and-Send .Sidebar-left, .Checkout-Confirmation-Page .Sidebar-left {margin: 50px 0 0 0}
 
 /* Rahmen ==========================*/
-.Rahmen {padding: 10px;}
+.Rahmen {padding: 10px}
 .Rahmen .Rahmen-Inhalt {position: relative}
 .Block {margin: 15px 0 0}
 .Block-grau .Grid-System div.Grid {margin: 0; border-right: 1px solid #fff}
@@ -452,9 +450,9 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 
 /* Kontakt-Infos ==========================*/
 .Teaser-Kontakt > div, .Hotline, .Fax, .Mail, .Anschrift, .Info, .Online-Shop {text-align: left; position: relative;margin: 0 0 1rem;left: 0; top: 0; padding-left: 1.5rem; color: #8A8A8A}
-.Teaser-Kontakt .Icon, .Info .Icon, .Online-Shop .Icon, .Warenkorb .Icon {position: absolute;left: 0;font-size: 1rem;}
-.Teaser-Kontakt div {color: #06609f;}
-.Fax span, .Hotline span, .Mail span a, .Anschrift span, .Info span a, .Online-Shop span a, .Warenkorb span a { display: block}
+.Teaser-Kontakt .Icon, .Info .Icon, .Online-Shop .Icon, .Warenkorb .Icon {position: absolute;left: 0;font-size: 1rem}
+.Teaser-Kontakt div {color: #06609f}
+.Fax span, .Hotline span, .Mail span a, .Anschrift span, .Info span a, .Online-Shop span a, .Warenkorb span a {display: block}
 
 /* Head ==========================*/
 #Header {width: 100%; position: relative; z-index:90}
@@ -491,7 +489,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 .Hotline:hover {cursor: default; text-decoration: none}
 
 /* Warenkorb */
-.Warenkorb {position: absolute; top: 53px;right: 1.25%;}
+.Warenkorb {position: absolute; top: 53px;right: 1.25%}
 #Header .Warenkorb b {font-size: 1.1rem}
 #Header .Warenkorb button {width: 190px}
 #Header .Warenkorb .Button-klein-grau button:hover {box-shadow: none}
@@ -511,8 +509,13 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 /* Hauptnavigation ==========================*/
 .nav-pri {position: relative; z-index:80}
 .nav-pri ul {list-style-type: none; margin: 0; position: relative; z-index:70}
+<<<<<<< HEAD
 .nav-pri > ul > li {float: left;width: 19%;}
 .nav-pri > ul > li#topnavSale {width: 5%;}
+=======
+.nav-pri [id^="topnav"], #nav-home {float: left; width:17.5%}
+.nav-pri #topnavSale {width:12.5%}
+>>>>>>> refs/remotes/origin/master
 .nav-pri [id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc; background-color: #0061a0}
 .nav-pri > ul > li:hover > a {background-color: #ccc}
 .nav-pri li:nth-child(6n+2) a {border-left: 0 none}
@@ -525,12 +528,9 @@ li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
 .sub .Titel, .Thema-Name a {font-weight: bold; margin-left: 0}
 .nav-third li:before, .Teaser-Blog li:before, .Footer .Grid-System-Sitemap ul li:before, .nav-pri .PfeilLink:before, .Direktbestellung:before, .Weiterfuehrender-Link:before {content: "\203A"; margin-right:5px}
 #Breadcrumbs, .Breadcrumbs {clear: both; padding: .5rem 1.25%}
-.toggle label {color: #0061a0; cursor: pointer}
-.toggle label:hover {text-decoration: underline}
-.toggle .toggle1:checked ~ .toggle-content {height: 3.75rem; overflow: hidden; display: inline-block}
 .dropdown-list .sub {position: relative; background: 0 none; box-shadow: none; border: 0 none}
 
-nav:hover ~ .pure-overlay {transition: opacity .25s ease-out, visibility .25s ease-out;opacity: 1;visibility: visible;width: 100%;height: 100%; z-index: initial}
+body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-overlay[data-overlay='right'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left'] {transition: opacity .25s ease-out, visibility .25s ease-out;opacity: 1;visibility: visible;width: 100%;height: 100%; z-index: initial}
 
 /* Icons fuer Suche, Warenkorb etc. ==========================*/
 .arrow_carrot-right {margin: 0}
@@ -554,12 +554,12 @@ margin: 0 .25rem 0 -1rem}
 .icon_balance:before {content: "\e0ff"}
 .Editieren:after {content: "\6a"}
 .Fax .Icon:before {content: "\e103"; text-transform: uppercase}
-.Mail .Icon:before {content: "@";font-size: 1rem;font-family: Arial;}
-.Anschrift .Icon:before {content: "\e010";}
+.Mail .Icon:before {content: "@";font-size: 1rem;font-family: Arial}
+.Anschrift .Icon:before {content: "\e010"}
 
 /* Teaser ==========================*/
 /* Allgemein */
-.Teaser {position: relative;}
+.Teaser {position: relative}
 .Sidebar .Teaser {margin: 0 0 1rem}
 .Teaser-klickbar a {display: block}
 .Teaser-klickbar a:hover {text-decoration: none}
@@ -568,8 +568,13 @@ margin: 0 .25rem 0 -1rem}
 .Sidebar-right .Teaser {margin: 0 15px 15px 0}
 .Teaser-Vorteile-bei-SETON img, .Teaser-Avail-Direkt-mitbestellen .cc-slides {margin: .5rem 0; padding: 0}
 .Teaser-Vorteile .Weiterfuehrender-Link, [class*="Teaser-Newsletter"] .Weiterfuehrender-Link {bottom: 0; position: relative; right: 0; text-align: right}
+<<<<<<< HEAD
 .Rahmen {background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%);}
 .Rahmen {border: 1px solid #ccc;}
+=======
+.Rahmen {background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%)}
+.Rahmen {box-shadow: 0 0 3px rgba(33, 33, 33, 1)}
+>>>>>>> refs/remotes/origin/master
 #Warenkorb-Rahmen h1 {font-size: 1.5rem; margin: 0}
 .Teaser .Kein-Rahmen {padding: 10px 0 15px 0}
 
@@ -579,7 +584,7 @@ margin: 0 .25rem 0 -1rem}
 .royalSlider > * {/*float: left*/}
 .rsWebkit3d .rsSlide {-webkit-transform: translateZ(0)}
 .rsFade.rsWebkit3d .rsSlide, .rsFade.rsWebkit3d img, .rsFade.rsWebkit3d .rsContainer {-webkit-transform: none}
-.rsOverflow {width: 100%; height:100%; position: relative; overflow: hidden; float: left; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin-bottom:26px }
+.rsOverflow {width: 100%; height:100%; position: relative; overflow: hidden; float: left; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin-bottom:26px}
 .article-PDS-Produktbilder .rsOverflow {height: 245px}
 .rsVisibleNearbyWrap {width: 100%; height: 100%; position: relative; overflow: hidden; left: 0; top: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
 .rsVisibleNearbyWrap .rsOverflow {position: absolute; left: 0; top: 0}
@@ -632,7 +637,7 @@ img.rsImg {max-width: none}
 .rsMinW .rsArrowDisabled .rsArrowIcn {opacity: .3 !important; filter: alpha(opacity=30); display: none}
 
 /* 2. Bullets */
-.rsMinW .rsBullets {position: absolute;bottom: 18px;left: 10px; z-index: 35; padding-top: 4px; height: auto;overflow: hidden;}
+.rsMinW .rsBullets {position: absolute;bottom: 18px;left: 10px; z-index: 35; padding-top: 4px; height: auto;overflow: hidden}
 .rsMinW .rsBullet {width: 6px; height: 6px; display: inline-block; zoom: 1; padding: 6px 5px 6px 4px}
 .rsMinW .rsBullet span {display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #CCC; background: rgba(255, 255, 255, .5); box-shadow: 0 0 1px 1px rgba(0, 0, 0, .1)}
 .rsMinW .rsBullet.rsNavSelected span {background: #FFF}
@@ -725,7 +730,7 @@ img.rsImg {max-width: none}
 .rsDefault .rsBullet.rsNavSelected span {background-color: #FFF}
 
 /* 3. Thumbnails */
-.rsDefault .rsThumbsHor {width: 100%; height: 72px }
+.rsDefault .rsThumbsHor {width: 100%; height: 72px}
 .rsDefault .rsThumbsVer {width: 96px; height: 100%; position: absolute; top: 0; right: 0}
 .rsDefault.rsWithThumbsHor .rsThumbsContainer {position: relative; height: 100%}
 .rsDefault.rsWithThumbsVer .rsThumbsContainer {position: relative; width: 100%}
@@ -781,7 +786,7 @@ img.rsImg {max-width: none}
 .rsDefault .rsPreloader {width: 20px; height: 20px; background-image: url(/css/preloaders/preloader-white.gif); left: 50%; top: 50%; margin-left: -10px; margin-top: -10px}
 
 /* 8. Global caption */
-.rsDefault .rsGCaption {position: absolute; bottom:46px; left: 0;background-color: rgba(255, 255, 255, .9);}
+.rsDefault .rsGCaption {position: absolute; bottom:46px; left: 0;background-color: rgba(255, 255, 255, .9)}
 
 /* Teaser Vorteile bei SETON */
 .Teaser-Vorteile-bei-SETON .Rahmen-Inhalt {padding-bottom: 20px}
@@ -794,7 +799,7 @@ img.rsImg {max-width: none}
 .Teaser-Vorteilsnummer #rabatt p, .Teaser-Vorteilsnummer #hinweis p {padding-bottom: 20px; margin-bottom: 0}
 .Checkout .Teaser-Vorteilsnummer {float: left; margin: 10px 0}
 .Checkout .Teaser-Vorteilsnummer .Rahmen {box-shadow: none; border: 1px solid #ccc}
-.Checkout .Teaser-Vorteilsnummer .Eingabefeld {width: 100px;float: left;}
+.Checkout .Teaser-Vorteilsnummer .Eingabefeld {width: 100px;float: left}
 .Checkout .Teaser-Vorteilsnummer .Button-klein-T-Hinzufuegen {float: left; margin-top: 10px}
 .Checkout .Teaser-Vorteilsnummer #hinweis {padding-top: 10px}
 
@@ -828,15 +833,15 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .label {margin: 0 0 .3rem 0; font-weight: bold}
 
 /* PDS Produktbilder mit JS */
-.Designcode-Artikelauswahl .royalSlider {width:100%; height:341px; display: inline-block; margin: 0; max-width: 100%; margin-bottom:26px }
+.Designcode-Artikelauswahl .royalSlider {width:100%; height:341px; display: inline-block; margin: 0; max-width: 100%; margin-bottom:26px}
 .rsFullscreen .rsFullscreenBtn {top: 287px}
 
 /* Pfeile */
 #prev, #toggle, #next {font-size: 2rem; width: 2.5rem}
 .royalSlider .icon_pause_alt2:before {content: "\5f"; font-size: 30px}
 .royalSlider .arrow_triangle-right_alt2:before {content: "\49"; font-size: 2rem}
-.royalSlider .arrow_carrot-left_alt2:before {content: "\3c";}
-.royalSlider .arrow_carrot-2right_alt2:before {content: "\3d";}
+.royalSlider .arrow_carrot-left_alt2:before {content: "\3c"}
+.royalSlider .arrow_carrot-2right_alt2:before {content: "\3d"}
 .Designcode-Artikelauswahl .rsThumb, .cc-slides .Bild, .Top-Kategorie-Schilder .Bild, .product-list-item a {display: block}
 /*.Designcode-Artikelauswahl .rsOverflow {height:243px !important} */
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide {/*width: 100%; height: auto*/}
@@ -856,11 +861,11 @@ img.rsImg {max-width: none}
 
 /* 360-Bilder */
 .Designcode-Artikelauswahl .Rotating-image #spritespin {/* height: auto; *//* width: 100%; *//* max-width: 100%; *//* max-height: 100%; *//* margin: 0 auto */}
-.Designcode-Artikelauswahl .Rotating-image .Buttons-360 {width: 100%; height: 40px;background-color: rgba(255,255,255,.75);position: absolute;bottom: 0;text-align: center;}
+.Designcode-Artikelauswahl .Rotating-image .Buttons-360 {width: 100%; height: 40px;background-color: rgba(255,255,255,.75);position: absolute;bottom: 0;text-align: center}
 .Designcode-Artikelauswahl .Rotating-image #reverse {display: none; visibility: hidden}
-.Designcode-Artikelauswahl .Rotating-image #prev, .Designcode-Artikelauswahl .Rotating-image #toggle, .Designcode-Artikelauswahl .Rotating-image #next {display: inline-block;font-size: 2rem;opacity: .5;}
+.Designcode-Artikelauswahl .Rotating-image #prev, .Designcode-Artikelauswahl .Rotating-image #toggle, .Designcode-Artikelauswahl .Rotating-image #next {display: inline-block;font-size: 2rem;opacity: .5}
 .Designcode-Artikelauswahl .Rotating-image #prev:hover, .Designcode-Artikelauswahl .Rotating-image #toggle:hover, .Designcode-Artikelauswahl .Rotating-image #next:hover {opacity: 1; box-shadow: none}
-.Designcode-Artikelauswahl .Rotating-image #prev, .Designcode-Artikelauswahl .Rotating-image #toggle, .Designcode-Artikelauswahl .Rotating-image #next { bottom: 0;color: #000;position: relative;top: 50%;   -webkit-transform: translateY(-50%);   -moz-transform: translateY(-50%);   -ms-transform: translateY(-50%);   -o-transform: translateY(-50%);   transform: translateY(-50%);}
+.Designcode-Artikelauswahl .Rotating-image #prev, .Designcode-Artikelauswahl .Rotating-image #toggle, .Designcode-Artikelauswahl .Rotating-image #next {bottom: 0;color: #000;position: relative;top: 50%;   -webkit-transform: translateY(-50%);   -moz-transform: translateY(-50%);   -ms-transform: translateY(-50%);   -o-transform: translateY(-50%);   transform: translateY(-50%)}
 
 /* Fullscreen-Ergaenzungen */
 .Designcode-Artikelauswahl .rsFullscreen .rsArrow {height: 100%; top: 0}
@@ -870,7 +875,7 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .rsFullscreen .Rotating-image .Buttons-360 {height: 70px; position: relative; background: none; opacity: 1}
 .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #prev, .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #toggle, .Designcode-Artikelauswahl .rsFullscreen .Rotating-image #next {color: #fff}
 .rsFullscreen .rsFullscreenBtn {right: 20px; top: 20px}
-.rsFullscreen .rsOverflow { margin-bottom:0 }
+.rsFullscreen .rsOverflow {margin-bottom:0}
 .rsFullscreen .rsGCaption {bottom:72px}
 
 /* PDS Produktbilder ohne JS */
@@ -886,12 +891,12 @@ img.rsImg {max-width: none}
 #Crosseller .label {border-bottom: 1px solid #ccc; line-height: 1.5rem; font-size: 1rem; font-weight: bold}
 .Dropdowns .Titel-unterstrichen {padding-top: 10px}
 .Dropdowns {width: 100%; display: inline-block}
-.Inventarketiketten-Designer .Dropdowns {width: 32.5%;}
-.Inventarketiketten-Designer #gallery .Dropdowns {width: 100%;}
+.Inventarketiketten-Designer .Dropdowns {width: 32.5%}
+.Inventarketiketten-Designer #gallery .Dropdowns {width: 100%}
 .Dropdowns-item {padding: 0 0 10px 0; width: 100%; position: relative}
 .Dropdowns-item label {width: 35%; overflow: hidden; text-overflow: ellipsis; display: inline-block; vertical-align: middle}
-.Inventarketiketten-Designer .Dropdowns-item label {width: 33%;}
-.Inventarketiketten-Designer .Dropdowns-item-Prefix-Nummerierung-Suffix label {width: 100%;}
+.Inventarketiketten-Designer .Dropdowns-item label {width: 33%}
+.Inventarketiketten-Designer .Dropdowns-item-Prefix-Nummerierung-Suffix label {width: 100%}
 .Dropdowns-item select {width: 65%}
 .info_pulldown_changed {font-size: .9rem; color: #FF0; display: none; padding: 3px 0}
 .Produktdaten .Dropdowns a {text-decoration: underline}
@@ -908,14 +913,14 @@ img.rsImg {max-width: none}
 .Preisbox .Preis {font-size: 1rem; font-weight: bold; margin-bottom: 5px; white-space: nowrap}
 .Preisbox .zzgl-MwSt {font-size: .8rem; margin: 0}
 .Preisbox .Rabatt {font-size: 1.2rem; color: #f00; font-weight: bold; margin: 0}
-.Inventarketiketten-Designer .Preisbox {position: absolute; right: 30px;top: 55px;}
+.Inventarketiketten-Designer .Preisbox {position: absolute; right: 30px;top: 55px}
 .Einrichtungsgebuehr .tooltip {text-align: left}
 .Info-Link:hover .Info-Text, .Info-Link:hover .Info-Text-JS {left: -8px; bottom: 15px; display: block !important; width: 200px}
 .Einrichtungsgebuehr .tooltip table {border-collapse: collapse; width: 100%}
 .Einrichtungsgebuehr .tooltip table td {padding: 2px 0}
 .Einrichtungsgebuehr .tooltip table td:last-child {text-align: right}
 .Produktergebnis, .Kopfnummerninfos-Tabs .Tabs-Content {border: 1px solid #ccc}
-.Inventarketiketten-Designer .Produktergebnis {position: absolute; top: 45px; right:10px; padding: .5rem;}
+.Inventarketiketten-Designer .Produktergebnis {position: absolute; top: 45px; right:10px; padding: .5rem}
 .Produktergebnis .Bestellbox {float: right}
 .Produktergebnis .Menge label {display: block; margin-bottom: 5px}
 .Produktergebnis .Menge #Menge {text-align: right}
@@ -997,9 +1002,11 @@ aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .Mehr-Filter:before {content: "\33"; font-size: 1.25rem; display: inline-block; vertical-align: middle; padding: 0 0 .25rem; transition: all .25s ease}
 .Mehr-Filterparameter:checked + .Mehr-Filter:before {-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg); padding: .25rem 0 0}
 .Mehr-Filterparameter {display: none}
-.Filterparameter {max-height: 7.25rem; overflow: hidden; transition: max-height .5s ease-out}
+.Filterparameter, .Mehr-Infos {max-height: 7.25rem; overflow: hidden; transition: max-height .5s ease-out}
+.Mehr-Infos {max-height: 0}
 .Mehr-Filter + .Filterparameter {margin-bottom: 1.5rem}
-.Mehr-Filterparameter:checked ~ .Filterparameter {max-height: 2000px; transition: max-height .5s ease-in}
+.Link-Mehr-Infos:checked + label {display: none}
+.Mehr-Filterparameter:checked ~ .Filterparameter, .Link-Mehr-Infos:checked ~ .Mehr-Infos  {max-height: 2000px; transition: max-height .5s ease-in}
 
 /* Hauptkategorie */
 .Hauptkategorie-Text {margin: 0 0 15px}
@@ -1024,7 +1031,7 @@ aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .grid-view .item:nth-child(-n+3),
 .grid-view.items-4 .item:nth-child(-n+4) {border-top: 0 none}
 .list .item {position: relative; box-sizing: border-box; border-right: 1px solid #ccc; padding: 10px; float:left; list-style-type:none}
-.list .item > a {color: #3a3a3a; display: block; height: 100%}
+.list .item > a {color: #3a3a3a; height: 100%}
 .list .item > a:hover {color: #3a3a3a; text-decoration: none}
 .list a .Link, .Produkt-Name, .Produkttitel {color: #0061a0}
 .list a:hover .Link, .list a:hover .Produkt-Name, .list a:hover .Produktitel, .No-Link:hover .Link {text-decoration: underline}
@@ -1091,7 +1098,8 @@ ul.grid-view, ul.list-view {margin: 0}
 .list-view.products .Menge {width:30%}
 .list-view.products .Menge + .col8 {margin: 1.25em 0 0}
 .list-view.products .Produktergebnis-inner .col8 {text-align:right}
-.list-view.products .Produktergebnis-inner .col8 .Streich-Preis { margin-right:0.5em }
+.list-view.products .Produktergebnis-inner .col8 .Anzahl {display:block}
+.list-view.products .Produktergebnis-inner .col8 .Streich-Preis {margin-right:0.5em}
 .list-view.products .Preisbox {width:68.75%; margin-top:1rem}
 
 .list-view.products .Edit-Modus {clear:both; display:block}
@@ -1105,10 +1113,10 @@ ul.grid-view, ul.list-view {margin: 0}
 .list.categories .item form {float: right}
 .list.categories.buttons .item .Bild {height: 180px}
 
-.item.box-grey { height:260px }
-.list .item.box-grey > * { background:#CCCCCC; text-align:center; padding:1rem; display:block; height:100%; box-sizing:border-box }
-.item.box-grey .Text { font-size:1.4rem; line-height:1.9rem; height:80%; display:block }
-.item.box-grey .Text span { display:block }
+.item.box-grey {height:260px}
+.list .item.box-grey > * {background:#CCCCCC; text-align:center; padding:1rem; display:block; height:100%; box-sizing:border-box}
+.item.box-grey .Text {font-size:1.4rem; line-height:1.9rem; height:80%; display:block}
+.item.box-grey .Text span {display:block}
 
 /* Feedbackliste */
 .list.feedback {margin:0}
@@ -1118,7 +1126,7 @@ ul.grid-view, ul.list-view {margin: 0}
 /* Pure CSS Slider ==========================*/
 .cc-slider {position: relative; -webkit-transform: translateZ(0); transition: all .1s ease-out}
 .cc-slider label {cursor: pointer; text-decoration: none}
-.cc-slides { width: 100%; box-sizing: border-box}
+.cc-slides {width: 100%; box-sizing: border-box}
 .cc-slides .inner {width: 1000%; -webkit-transform: translateZ(0); transition: all 800ms cubic-bezier(0.770, .000, .175, 1.000)}
 
 /* Fuer Thumbnail-Buttons, Verwendung:Testimonials auf Streusalz-Seite */
@@ -1152,16 +1160,16 @@ ul.grid-view, ul.list-view {margin: 0}
 .cc-slider.items-1 .item {width: 10%}
 .cc-slider.items-2 .item {width: 5%}
 .cc-slider.items-3 .item {width: 3.33%}
-.cc-slider.items-4 .item {width: 2.5%;}
+.cc-slider.items-4 .item {width: 2.5%}
 .cc-slider.items-5 .item {width: 2%}
 .cc-slider.items-6 .item {width: 1.66%}
 .cc-slider.items-7 .item {width: 1.42%}
 .cc-slider.items-8 .item {width: 1.25%}
-.cc-slider.items-9 .item {width: 1.11%;}
+.cc-slider.items-9 .item {width: 1.11%}
 .cc-slider.items-10 .item {width: 1%}
-#cc-slider-lsp .item {width: 11.1%;}
-#cc-slider-lsp .item .Bild {height: 80px;}
-.products.cc-slider .item .Bild {height: 115px;}
+#cc-slider-lsp .item {width: 11.1%}
+#cc-slider-lsp .item .Bild {height: 80px}
+.products.cc-slider .item .Bild {height: 115px}
 .products.cc-slider .item .Produkttitel {display: block}
 .products.cc-slider .item .Rabatt-Preis {display: inline-block}
 .products.cc-slider .item .Button-klein-grau {display: none}
@@ -1169,7 +1177,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .col4 .products.cc-slider.items-3 .item .Bild, .col12 .products.cc-slider.items-9 .item .Bild {height: 80px}
 .Teaser-Direkt-mitbestellen .Button-klein-grau {display: block !important}
 #cc-slider-streusalz-testimonials .inner {width: 300%}
-#cc_slider_item_page_similar_products { display:none }
+#cc_slider_item_page_similar_products {display:none}
 
 /* Slider Top-Kategorien */
 .Top-Kategorie-Schilder {padding: 10px 10px 0 0; height: 210px}
@@ -1202,7 +1210,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .Schildersuche .Schilder-Banner {margin-right: 10px}
 .Schildersuche .Seiteanzeige {white-space: nowrap}
 .Schildersuche .Seiteanzeige .pagingCurrent {font-weight: bold}
-.Schilder-Suche label {line-height: 2rem;}
+.Schilder-Suche label {line-height: 2rem}
 .Schilder-Suche input[type=text] {width: 230px; margin: 0 -4px 0 10px; height: 2.25rem; vertical-align: bottom}
 .suggestLayerSchildersuche {background: #FFF}
 
@@ -1265,17 +1273,17 @@ ul.grid-view, ul.list-view {margin: 0}
 
 /* Warenkorb ==========================*/
 .Anzahl .updateLink {display: none}
-.buttonAsLink {color: #8c8c8c;}
+.buttonAsLink {color: #8c8c8c}
 .Abrechnung {float: right;border-collapse: collapse; border-spacing:0; margin: 10px 0}
 .Abrechnung th {text-align: left; font-weight: normal}
-.Abrechnung td {text-align: right;}
-.Abrechnung #Rabatt {color: #F00; display: none;border: 1px dashed #ccc;border-left: none;border-right: none;}
+.Abrechnung td {text-align: right}
+.Abrechnung #Rabatt {color: #F00; display: none;border: 1px dashed #ccc;border-left: none;border-right: none}
 .Abrechnung .Gesamtsumme {border-top: 4px double #ccc}
 .Abrechnung .Gesamtsumme th {font-weight: bold}
 .warenkorbItem .rabattinfo {color:#F00; position:absolute; bottom:5px; width:94%; text-align:center; white-space:nowrap}
 .warenkorbItem .sparinfo {color:#F00}
 .sparinfo-gesamt:empty {display:none}
-.sparinfo-gesamt {color: #F00;border: 1px dashed #ccc;padding:0.5em;text-align:center;margin:1em 0 0 0;}
+.sparinfo-gesamt {color: #F00;border: 1px dashed #ccc;padding:0.5em;text-align:center;margin:1em 0 0 0}
 
 /* Direktbestellung */
 .Warenkorb-Direktbestellung {overflow-x: hidden; overflow-y: auto; width: 96%; padding: 0 2%}
@@ -1297,14 +1305,14 @@ ul.grid-view, ul.list-view {margin: 0}
 .FileUpload .Datei-Uploads {margin: 20px 0}
 .FileUpload .Weiterfuehrender-Link {position: relative; right: auto; bottom: auto}
 .vortn .Radio-Button {text-align: right; padding-right: 5px; min-width: 110px}
-.vortn .Radio-Button input {margin: 0;}
+.vortn .Radio-Button input {margin: 0}
 #geschenke h3 {margin: 0}
 
 /* Checkout ==========================*/
 /* Kopfnavigation */
-.Kopfnavigation {background-color: #00609F; margin: 0 0 1rem; overflow: hidden;height: 3.5rem; color: #fff;line-height: 3.5rem;}
+.Kopfnavigation {background-color: #00609F; margin: 0 0 1rem; overflow: hidden;height: 3.5rem; color: #fff;line-height: 3.5rem}
 .Text {z-index: 10; font-size: 1rem; position: relative}
-.Schritt-1-Adresseingabe, .Schritt-2-Bestellung-pruefen {/* line-height: 3.5rem; */width: 47%;position: relative;float: left;}
+.Schritt-1-Adresseingabe, .Schritt-2-Bestellung-pruefen {/* line-height: 3.5rem; */width: 47%;position: relative;float: left}
 .Schritt-1-Adresseingabe {width: 49%}
 .Schritt-1-Adresseingabe:after {
 	content: '';
@@ -1329,14 +1337,14 @@ ul.grid-view, ul.list-view {margin: 0}
 
 .Schritt-2-Bestellung-pruefen {padding: 0 0 0 4%}
 
-.Zahl {padding: 0 0 0 .5rem;font-size: 2.5rem;}
-textarea {height: 4rem;font: inherit;}
-#direkt_art {width: 35%;}
-#direkt_anz {width: 22%;}
+.Zahl {padding: 0 0 0 .5rem;font-size: 2.5rem}
+textarea {height: 4rem;font: inherit}
+#direkt_art {width: 35%}
+#direkt_anz {width: 22%}
 .Eingabefeld-gross {padding: 8px}
 
 /* Hotline */
-.Checkout-Adresseingabe .Sidebar .Hotline {color:#000; margin:0 0 1em 0;display: block;font-size: 1.25rem;}
+.Checkout-Adresseingabe .Sidebar .Hotline {color:#000; margin:0 0 1em 0;display: block;font-size: 1.25rem}
 .Checkout-Adresseingabe .Sidebar .Hotline a {color:#000; cursor:default; line-height: 1.25rem; letter-spacing: .025rem; font-size: 1rem; font-weight:bold}
 .Checkout-Adresseingabe .Sidebar .Hotline span {display: block; font-weight: normal; margin-top: .75rem}
 
@@ -1401,7 +1409,7 @@ textarea {height: 4rem;font: inherit;}
 /* Homepage ==========================*/
 .Homepage .Teaser, .Teaser-Weihnachtsbaum-Gewinnspiel .Rahmen-Inhalt, .Teaser-Ostereiersuche .Rahmen-Inhalt {height: 185px}
 .Teaser-Vorteile-bei-SETON-bvh img.EHI {margin: 15px 0}
-.Homepage .royalSlider {width: 100%;overflow: hidden;}
+.Homepage .royalSlider {width: 100%;overflow: hidden}
 
 /* ScreenshotsPopUp ==========================*/
 .ScreenshotsPopUp {background-color: #fff; margin: 15px}
@@ -1462,12 +1470,12 @@ textarea {height: 4rem;font: inherit;}
 
 /* Newsletter-Promo:20% auf Pruefplaketten fuer Newsletter-Abonnenten */
 .tooltip-Banner-Pruefplaketten .tooltip {bottom: auto; top: -30px}
-.tooltip-Banner-Pruefplaketten {display: block }
-.article-Newsletter-Abo-Downloads .Bild {display: block; height:155px; padding-top:20px }
-.Schatten { box-shadow: 0 0 15px rgba(0, 0, 0, 0.4); }
-.schraeg { transform: rotate(5deg) }
+.tooltip-Banner-Pruefplaketten {display: block}
+.article-Newsletter-Abo-Downloads .Bild {display: block; height:155px; padding-top:20px}
+.Schatten {box-shadow: 0 0 15px rgba(0, 0, 0, 0.4)}
+.schraeg {transform: rotate(5deg)}
 .article-Newsletter-Abo-Downloads .Weiterfuehrender-Link {display:block; position: relative; display: block; margin: 15px 10px}
-.article-Newsletter-Abo-Downloads .col4 {height:220px; text-align:center; }
+.article-Newsletter-Abo-Downloads .col4 {height:220px; text-align:center}
 
 /* SchilderRaetsel */
 .wqText, .wqImage {width: 98px; height: 98px; float: left; margin: 7px; text-align: center; border: 1px solid #606060; background: #fffadd; position: relative; cursor: pointer}
@@ -1638,7 +1646,7 @@ img.Praemien {position: absolute; top: 0; right: 0; z-index: -1}
 .Grid-System-Social-Media {border-top: 1px solid #ccc; padding-top: .75rem; margin-top: 1rem}
 .Grid-System-Social-Media .col4 {border-right: 1px solid #ccc; min-height: 120px; margin-bottom: 0; border-collapse: collapse}
 .Grid-System-Social-Media div:last-child {border-right: 0 none}
-.Footer .NL-Aktion {float: right;margin: 0 .5rem 0 0;}
+.Footer .NL-Aktion {float: right;margin: 0 .5rem 0 0}
 .Footer .Grid-System-Sitemap ul li a:hover:before {text-decoration: none !important; color: #63666a !important}
 .Footer .Social-Media {margin: 35px 0 0 0}
 .Footer .Social-Media li {float: left; margin-right: 5px}
@@ -1684,6 +1692,10 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 .wistia_embed-center {float: none; margin: 30px auto 20px auto}
 .socialbar_button {width: 120px !important}
 
+/* Responsive YouTube Videos */
+.embed-container {position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%}
+.embed-container iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%}
+
 /* Themen Logos */
 .lieferantenlogos {border-top: 1px solid #d3d3d3; border-bottom: 1px solid #d3d3d3; padding: 15px 0; height: 100px}
 .lieferantenlogos img {margin: 0 24px 0 0}
@@ -1708,12 +1720,13 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {-webkit-appearance: none; margin: 0}
 	.Checkout nav {background-color: #bababa; height: 3.15rem; margin: 0 0 1rem}
 	.Checkout nav li {display: none}
-	.Checkout #nav-home {display: block}
-	.Checkout nav a {display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; color: #fff} }
+	.Checkout #nav-home {display: inline-block}
+	.Checkout nav a {display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; color: #fff}}
 
 @media only screen and (min-width:768px) {
 	.Artikelsuche {position: relative}
 	#suggestContainer {border-top: 0 none}
+<<<<<<< HEAD
 	.sub { border: 1px solid #ccc; border-top-width: .35rem; position: absolute; left: initial;display: flex;align-items: stretch;}
 	#topnav1 .sub {width: 76%}
 	#topnav4 .sub, #topnav7 .sub {width: 57%}
@@ -1730,6 +1743,21 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	#topnavSale .Weiterfuehrender-Link { position:relative; bottom:0; right:0; display:block; text-align:right }
 	#topnavSale a:hover .Titel,
 	#topnavSale a:hover .Weiterfuehrender-Link { text-decoration:underline }
+=======
+	.sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; border: 1px solid #ccc; border-top-width: .35rem; position: absolute; left: 0; z-index: -1}
+	#topnav4 .sub {left:17.5%}
+	#topnav7 .sub {left:35%}
+	.col {width: 204px; float: left; margin: 0; padding: 5px 5px 5px 10px; box-sizing: border-box}
+	#topnavSale .sub {left:79.9%}
+	#topnavSale .col {padding:5px 10px}
+	#topnavSale li {border-bottom:1px solid #ccc; padding:1em 0}
+	#topnavSale li:last-child {border:0}
+	#topnavSale .Description {color:#3e3e3e; display:block}
+	#topnavSale a {display:block}
+	#topnavSale a:hover {text-decoration:none}
+	#topnavSale .Weiterfuehrender-Link {position:relative; bottom:0; right:0; display:block; text-align:right}
+	#topnavSale a:hover .Titel, #topnavSale a:hover .Weiterfuehrender-Link {text-decoration:underline}
+>>>>>>> refs/remotes/origin/master
 	.pure-overlay {position: fixed; top: 0; bottom: 0; right: 0;width: 0;height: 0; opacity: 0;visibility: hidden;background-color: rgba(255,255,255,.5);transition: opacity .25s ease-in .25s, visibility .25s ease-in .25s; z-index:-1}
 	.Homepage .royalSlider {height: 250px}
 	.Zwei-Spalter-Sidebar-left .Content {margin-left: -24.06%}
@@ -1743,4 +1771,4 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.Produkttabelle .Anzahl .Eingabefeld {float: left}
 	.Anzahl a {float: left}
 	.Produkttabelle .Einzelpreis-abzgl-Rabatt, .Produkttabelle .Einzelpreis, .Produkttabelle .Summe {text-align: right; width: 50px}
-	.Hinweis {margin-top: .5rem;} }
+	.Hinweis {margin-top: .5rem}}
