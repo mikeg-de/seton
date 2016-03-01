@@ -523,16 +523,21 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 /* Hauptnavigation ==========================*/
 .nav-pri {position: relative; z-index:80}
 .nav-pri ul {list-style-type: none; margin: 0; position: relative; z-index:70}
-.nav-pri [id^="topnav"], #nav-home {float: left; width:17.5%}
+.nav-pri > ul > li {float: left;width: 19%;}
+.nav-pri > ul > li#topnavSale {width: 5%;}
 .nav-pri #topnavSale {width:12.5%}
 .nav-pri [id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc; background-color: #0061a0}
 .nav-pri > ul > li:hover > a {background-color: #ccc}
 .nav-pri li:nth-child(6n+2) a {border-left: 0 none}
 .sub {box-sizing:border-box; visibility: hidden; opacity: 0; max-height: 0; z-index:70; position: relative; transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; overflow: hidden}
-.nav-pri .sub {background-color: #fff}
-li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
+.nav-pri .sub {background-color: #fff;}
+li:hover .sub {
+	visibility: visible;
+	opacity: 1;
+	max-height: 2000px;
 	/* iOS: visibility breaks transition but required for touch events and block is not animatable */
-	transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in}
+	transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in;
+	}
 .sub a, .Teaser-Blog a, .Footer .Grid-System-Sitemap li a {margin: 0 0 .2rem 0; display: inline-block; max-width: 94%; vertical-align: top}
 .sub .Titel, .Thema-Name a {font-weight: bold; margin-left: 0}
 .nav-third li:before, .Teaser-Blog li:before, .Footer .Grid-System-Sitemap ul li:before, .nav-pri .PfeilLink:before, .Direktbestellung:before, .Weiterfuehrender-Link:before {content: "\203A"; margin-right:5px}
@@ -552,8 +557,7 @@ body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggl
 .icon_close {content: "\4d"}
 .Info-Icon:before {content: "\72"}
 .icon_info_alt:after {content: "\70"}
-.Bullet-Haekchen li:before, .Vorteile li:before {content: "\4e";
-margin: 0 .25rem 0 -1rem}
+.Bullet-Haekchen li:before, .Vorteile li:before {content: "\4e"; margin: 0 .25rem 0 -1rem}
 .Bullet-Plus li:before {content: "+"; text-align: center; line-height: 20px; display: inline-block; width: 20px; height: 20px; color: #D90F18; font-weight: bold; font-size: 20px; margin: 0 .5rem 0 -20px; background-color: #fff; border-radius: 10px; box-shadow: 1px 1px 5px #C9C9C9; position: relative; top: 2px}
 .arrow_carrot-right:before, .Link-Liste a:before {content: "\35"; font-size: 1.25rem}
 .Filterparameter li:before {content: "\56"; margin: 0 5px 0 -1rem}
@@ -577,8 +581,12 @@ margin: 0 .25rem 0 -1rem}
 .Sidebar-right .Teaser {margin: 0 15px 15px 0}
 .Teaser-Vorteile-bei-SETON img, .Teaser-Avail-Direkt-mitbestellen .cc-slides {margin: .5rem 0; padding: 0}
 .Teaser-Vorteile .Weiterfuehrender-Link, [class*="Teaser-Newsletter"] .Weiterfuehrender-Link {bottom: 0; position: relative; right: 0; text-align: right}
+.Rahmen {background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%);}
+.Rahmen {border: 1px solid #ccc;}
+=======
 .Rahmen {background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%)}
 .Rahmen {box-shadow: 0 0 3px rgba(33, 33, 33, 1)}
+>>>>>>> refs/remotes/origin/master
 #Warenkorb-Rahmen h1 {font-size: 1.5rem; margin: 0}
 .Teaser .Kein-Rahmen {padding: 10px 0 15px 0}
 
@@ -1776,10 +1784,26 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 @media only screen and (min-width:768px) {
 	.Artikelsuche {position: relative}
 	#suggestContainer {border-top: 0 none}
-	.sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; border: 1px solid #ccc; border-top-width: .35rem; position: absolute; left: 0; z-index: -1}
+	.sub {border: 1px solid #ccc;border-top-width: .35rem;position: absolute;/* left: initial; */display: flex;align-items: stretch;z-index: -1;}
+	#topnav1 .sub {width: 76%;}
+	#topnav4 .sub, #topnav7 .sub {width: 57%}
+	#topnav32 .sub, #topnav10 .sub {left: 0; width: 95%}
+	.col {margin: 0;padding: 5px 5px 5px 10px;flex-grow: 1;flex-basis: 25%;border-right: 1px solid #ccc;}
+	.col-Themen {border-right: 0 none; background-color: #eee}
+	#topnavSale .sub {left:79.9%;}
+	#topnavSale .col { padding:5px 10px}
+	#topnavSale li { border-bottom:1px solid #ccc; padding:1em 0 }
+	#topnavSale li:last-child { border:0 }
+	#topnavSale .Description { color:#3e3e3e; display:block }
+	#topnavSale > a { display:block;font-size: 2rem;   line-height: 2.5rem;}
+	#topnavSale a:hover { text-decoration:none }
+	#topnavSale .Weiterfuehrender-Link { position:relative; bottom:0; right:0; display:block; text-align:right }
+	#topnavSale a:hover .Titel,
+	#topnavSale a:hover .Weiterfuehrender-Link { text-decoration:underline }
+	.sub {/* background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; *//* border: 1px solid #ccc; *//* border-top-width: .35rem; *//* position: absolute; *//* left: 0; *//* z-index: -1; */}
 	#topnav4 .sub {left:17.5%}
 	#topnav7 .sub {left:35%}
-	.col {width: 204px; float: left; margin: 0; padding: 5px 5px 5px 10px; box-sizing: border-box}
+	.col {/* width: 204px; *//* float: left; */margin: 0;padding: 5px 5px 5px 10px;box-sizing: border-box;}
 	#topnavSale .sub {left:79.9%}
 	#topnavSale .col {padding:5px 10px}
 	#topnavSale li {border-bottom:1px solid #ccc; padding:1em 0}
