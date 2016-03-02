@@ -10,7 +10,7 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 
 /* Clear-Fix */
 .clear:after, .content [class*="col"]:after, #Footer [class*="col"]:after, .ASR-Teaser:after {content: "."; display: block; height: 0; clear: both; visibility: hidden}
-#PDS-Content, #produktliste-komplett {clear: both}
+#PDS-Content, #produktliste-komplett {clear: both;}
 
 /* Overflow hidden */
 .overflow {overflow: hidden}
@@ -968,7 +968,8 @@ img.rsImg {max-width: none}
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 /* http://caniuse.com/#search=flex */
 .Artikelbezeichnung { font-weight: 700}
-.produkt-name {display: -ms-flexbox;
+.produkt-name, .produkt-name > :nth-child(3) {
+    display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: row;
@@ -1000,7 +1001,7 @@ img.rsImg {max-width: none}
     align-self: auto;
     }
 
-.produkt-name :first-child { -webkit-order: 0;
+.produkt-name > :first-child, .produkt-name > :last-child { -webkit-order: 0;
     -ms-flex-order: 0;
     order: 0;
     -webkit-flex: 0 1 100%;
@@ -1010,10 +1011,15 @@ img.rsImg {max-width: none}
     -ms-flex-item-align: auto;
     align-self: auto;}
 
-.produkt-name :nth-child(n+2) {}
-.produkt-name :nth-child(3n+2) {background-color: rgba(255, 0, 0, .25);}
-.produkt-name :nth-child(3n+3) {background-color: rgba(255,255,0,.5);}
-.produkt-name :nth-child(3n+4) {background-color: rgba(0,255,0,.25);}
+.produkt-name > :first-child {margin: 0}
+.produkt-name > :nth-child(2) {/* background-color: rgba(255, 0, 0, .25); */flex-basis: 15%;}
+.produkt-name > :nth-child(3) {/* background-color: rgba(255,255,0,.5); */flex-basis: 85%;}
+.produkt-name > :last-child {/* background-color: rgba(0,255,0,.25); */text-align: right;}
+.produkt-name > :last-child span {display: inline-block;	margin: 0 6px .5em 0;}
+
+.produkt-name > :nth-child(3) span {
+	flex-basis: 50%;
+}
 
 #rabattdisclaimer {margin: 5px 15px}
 .Designcode-Artikelauswahl .addthis_toolbox {float: right}
