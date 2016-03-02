@@ -550,7 +550,7 @@ body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggl
 .arrow_carrot-right {margin: 0}
 .icon_search:before, .icon_cart_alt:before, .icon_close {cursor: pointer}
 .arrow_triangle-down:before {content: "\43"}
-.icon_cart_alt:before {content: "\e015"; margin: 0 .5rem 0 0}
+.icon_cart_alt:before {content: "\e015";margin: 0 .5rem 0 0;}
 .icon_search:before {content: "\55"}
 .icon_printer:before {content: "\e103"}
 .icon_mail_alt:before {content: "\e010"}
@@ -968,7 +968,7 @@ img.rsImg {max-width: none}
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 /* http://caniuse.com/#search=flex */
 .Artikelbezeichnung { font-weight: 700}
-.produkt-name, .produkt-name > :nth-child(3) {
+.produkt-name, .produkt-name > :nth-child(3), .produkt-name [id^="Preis-Block"] {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -984,21 +984,23 @@ img.rsImg {max-width: none}
     -webkit-align-content: stretch;
     -ms-flex-line-pack: stretch;
     align-content: stretch;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
     }
 
-.produkt-name span {
+.produkt-name {margin-bottom: 1em}
+
+.produkt-name span, .produkt-name [id^="Preis-Block"] span, .produkt-name [id^="Preis-Block"] button {
     -webkit-order: 0;
     -ms-flex-order: 0;
     order: 0;
-    -webkit-flex: 0 0 33.33%;
-    -ms-flex: 0 0 33.33%;
-    flex: 0 0 33.33%;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-    align-self: auto;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    /* -webkit-align-self: flex-end; */
+    /* -ms-flex-item-align: flex-end; */
+    align-self: flex-start;
     }
 
 .produkt-name > :first-child, .produkt-name > :last-child { -webkit-order: 0;
@@ -1013,13 +1015,16 @@ img.rsImg {max-width: none}
 
 .produkt-name > :first-child {margin: 0}
 .produkt-name > :nth-child(2) {/* background-color: rgba(255, 0, 0, .25); */flex-basis: 15%;}
-.produkt-name > :nth-child(3) {/* background-color: rgba(255,255,0,.5); */flex-basis: 85%;}
-.produkt-name > :last-child {/* background-color: rgba(0,255,0,.25); */text-align: right;}
-.produkt-name > :last-child span {display: inline-block;	margin: 0 6px .5em 0;}
+.produkt-name > :nth-child(3) {/* background-color: rgba(255,255,0,.5); */flex-basis: 65%;}
+.produkt-name > :last-child {/* background-color: rgba(0,255,0,.25); *//* text-align: right; */flex-basis: 20%;}
+.produkt-name > :last-child span {/* display: inline-block; *//* margin: 0 0 .5em 0; */}
 
-.produkt-name > :nth-child(3) span {
-	flex-basis: 50%;
-}
+.produkt-name > :nth-child(3) span {flex-basis: 50%}
+.produkt-name [id^="Preis-Block"] span {flex-basis: 70%}
+.produkt-name [id^="Preis-Block"] button {flex-basis: 30%;order: 0;overflow: hidden;color: transparent;padding: 0 1em;align-self: flex-end;}
+.produkt-name [id^="Preis-Block"] button:before {color: #fff;margin: 0;}
+
+.produkt-name .Weiterfuehrender-Link {position: initial;overflow: hidden;width: 100%;display: block;height: 1.25em;}
 
 #rabattdisclaimer {margin: 5px 15px}
 .Designcode-Artikelauswahl .addthis_toolbox {float: right}
