@@ -1026,6 +1026,10 @@ img.rsImg {max-width: none}
 
 .produkt-name .Weiterfuehrender-Link {position: initial;overflow: hidden;width: 100%;display: block;height: 1.25em;}
 
+span[data-product][data-category]:before {content: attr(data-category) ": ";}
+span[data-product][data-category]:after {/*content: " ("attr(data-category)")"; color: #b5b5b5;*/}
+span[data-product]:empty:before, span[data-product]:empty:after {content: initial}
+
 #rabattdisclaimer {margin: 5px 15px}
 .Designcode-Artikelauswahl .addthis_toolbox {float: right}
 .social_share_privacy_area {margin: 0}
