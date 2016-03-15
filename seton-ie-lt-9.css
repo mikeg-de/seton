@@ -1,10 +1,8 @@
-body {font: normal normal 13px/1.25em Arial, 'Helvetica Neue', Helvetica, sans-serif}
 header, nav, section, article, aside, footer, hgroup {display: block}
 .Logo, #Header .Artikelsuche {margin:0 0 .75em 1.25%}
 .Wrapper-Content, .Navi .sub {border-top: none}
 .nav-pri [id^="topnav"] > a {height: 2.5em}
 .sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; border: 1px solid #ccc; border-top-width: .35rem; display: initial; position: absolute; left: 0; z-index: -1;}
-.sub a, .Teaser-Blog a, .Footer .Grid-System-Sitemap li a {margin: 0 0 .2em .2em}
 
 #topnav1 .sub {width:819px}
 #topnav4 .sub, #topnav7 .sub {width: 614px}
