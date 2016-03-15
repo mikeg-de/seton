@@ -60,7 +60,7 @@ h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 [class^="Sidebar"] .Title1 {font-size: 1.1rem}
 .Titel-Balken-hellgrau, #lastSeenProducts .Titel-Balken-hellgrau, .Produkttabelle th, .Grid-Themen-Index p, .Block h2, .Grid-System-Sitemap .Title4 {background: #eee; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 5px .75rem 3px; margin: .5rem 0 .5rem 0; clear: both; position: relative}
 .Titel-Balken-hellgrau img {vertical-align: middle}
-.Tab-Title, .Titel-unterstrichen, .Sidebar .Titel-Balken-hellgrau {border-bottom: 1px solid #ccc}
+.PDS h2, .Tab-Title, .Titel-unterstrichen, .Sidebar .Titel-Balken-hellgrau {border-bottom: 1px solid #ccc}
 .Thema-Name, .Teaser p, .Teaser .p {margin: 0}
 .Homepage .Teaser p, .Footer .Teaser-Newsletter p {float: left; max-width: 55%}
 .Footer .Teaser-Newsletter p {max-width: 65%}
@@ -854,7 +854,7 @@ img.rsImg {max-width: none}
 .royalSlider .arrow_triangle-right_alt2:before {content: "\49"; font-size: 2rem}
 .royalSlider .arrow_carrot-left_alt2:before {content: "\3c"}
 .royalSlider .arrow_carrot-2right_alt2:before {content: "\3d"}
-.Designcode-Artikelauswahl .rsThumb, .cc-slides .Bild, .Top-Kategorie-Schilder .Bild, .product-list-item a {display: block}
+.Designcode-Artikelauswahl .rsThumb, .cc-slides .Bild, .Top-Kategorie-Schilder .Bild, .product-list-item a {display: block;}
 /*.Designcode-Artikelauswahl .rsOverflow {height:243px !important} */
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide {/*width: 100%; height: auto*/}
 .Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide img, .Designcode-Artikelauswahl .Rotating-image #spritespin {margin: 0 auto}
@@ -968,7 +968,7 @@ img.rsImg {max-width: none}
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 /* http://caniuse.com/#search=flex */
 .Artikelbezeichnung { font-weight: 700}
-.produkt-name, .produkt-name > :nth-child(3), .produkt-name [id^="Preis-Block"] {
+#filter, .produkt-name, .produkt-name > :nth-child(3), .produkt-name [id^="Preis-Block"] {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
@@ -984,24 +984,29 @@ img.rsImg {max-width: none}
     -webkit-align-content: stretch;
     -ms-flex-line-pack: stretch;
     align-content: stretch;
-    -webkit-align-items: flex-end;
-    -ms-flex-align: flex-end;
-    align-items: flex-end;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
     }
 
-.produkt-name {margin-bottom: 1em}
+#filter {max-height: 4rem;margin-bottom: 1rem;-webkit-flex-direction: column;-ms-flex-direction: column;flex-direction: column;}
+.produkt-name {margin-bottom: 1.5rem;}
 
-.produkt-name span, .produkt-name [id^="Preis-Block"] span, .produkt-name [id^="Preis-Block"] button {
+#filter label, #filter select, .produkt-name span, .produkt-name [id^="Preis-Block"] span, .produkt-name [id^="Preis-Block"] button {
     -webkit-order: 0;
     -ms-flex-order: 0;
     order: 0;
     -webkit-flex: 0 0 50%;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
-    /* -webkit-align-self: flex-end; */
-    /* -ms-flex-item-align: flex-end; */
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: flex-start;
     align-self: flex-start;
     }
+
+#filter label, #filter select {
+	flex-basis: 33.33%;
+}
 
 .produkt-name > :first-child, .produkt-name > :last-child { -webkit-order: 0;
     -ms-flex-order: 0;
@@ -1014,9 +1019,9 @@ img.rsImg {max-width: none}
     align-self: auto;}
 
 .produkt-name > :first-child {margin: 0}
-.produkt-name > :nth-child(2) {/* background-color: rgba(255, 0, 0, .25); */flex-basis: 15%;}
-.produkt-name > :nth-child(3) {/* background-color: rgba(255,255,0,.5); */flex-basis: 65%;}
-.produkt-name > :last-child {/* background-color: rgba(0,255,0,.25); *//* text-align: right; */flex-basis: 20%;}
+.produkt-name > :nth-child(2) {flex-basis: 15%;}
+.produkt-name > :nth-child(3) {flex-basis: 65%;}
+.produkt-name > :last-child {flex-basis: 20%;}
 .produkt-name > :last-child span {/* display: inline-block; *//* margin: 0 0 .5em 0; */}
 
 .produkt-name > :nth-child(3) span {flex-basis: 50%}
@@ -1040,8 +1045,7 @@ span[data-product]:empty:before, span[data-product]:empty:after {content: initia
 .social_share_privacy_area li.help_info .info {display: none !important}
 .Designcode-Artikelauswahl .Drucken, #socialshareprivacy {display: inline-block; vertical-align: top}
 .Produktliste h2, .Tab-Content h2, .Produktliste h3, .Tab-Content h3 {margin-top: 0}
-#PDS-Content .Wischer {float: right; margin: -5px 0 0 5px}
-#Kopfnummernbeschreibung .pds-desc-title {border-bottom: 1px solid #ccc; margin: 0 0 15px 0}
+#PDS-Content .Wischer {float: right}
 #Kopfnummernbeschreibung .pds-desc-title span img {height: 1rem}
 #Kopfnummernbeschreibung .pds-desc-title .brand {float: right}
 
@@ -1109,7 +1113,7 @@ aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .list a .Link, .Produkt-Name, .Produkttitel {color: #0061a0}
 .list a:hover .Link, .list a:hover .Produkt-Name, .list a:hover .Produktitel, .No-Link:hover .Link {text-decoration: underline}
 .list .Bild {text-align:center}
-.list .Bild img {max-height: 100%}
+.list .Bild img {max-height: 100%;}
 
 /* grid-view allgemein */
 ul.grid-view, ul.list-view {margin: 0}
@@ -1227,7 +1231,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .cc-slider-pfeil-links-rechts .slide1:checked ~ .controls label:nth-child(2), .cc-slider-pfeil-links-rechts .slide2:checked ~ .controls label:nth-child(3) {display: block; right: 0; -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg)}
 .cc-slider-pfeil-links-rechts .slide2:checked ~ .controls label:nth-child(1), .cc-slider-pfeil-links-rechts .slide3:checked ~ .controls label:nth-child(2) {display: block; left: 0}
 
-.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .Designcode-Artikelauswahl .Rotating-image .spritespin-canvas {max-height: 100%; display: block; margin: 0 auto; max-width: 100%; height: auto; width: auto !important}
+.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .Designcode-Artikelauswahl .Rotating-image .spritespin-canvas, .Bild img {max-height: 100%; display: block; margin: 0 auto; max-width: 100%; height: auto; width: auto !important}
 .cc-slider .item {-webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; text-align: center}
 .cc-slider .item [class*="-Preis"] {white-space: nowrap}
 .cc-slider.items-1 .item {width: 10%}
@@ -1241,7 +1245,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .cc-slider.items-9 .item {width: 1.11%}
 .cc-slider.items-10 .item {width: 1%}
 #cc-slider-lsp .item {width: 11.1%}
-#cc-slider-lsp .item .Bild {height: 80px}
+#cc-slider-lsp .item .Bild, #produkt_listing .Bild {height: 80px}
 .products.cc-slider .item .Bild {height: 115px}
 .products.cc-slider .item .Produkttitel {display: block}
 .products.cc-slider .item .Rabatt-Preis {display: inline-block}
