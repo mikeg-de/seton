@@ -1,7 +1,6 @@
 header, nav, section, article, aside, footer, hgroup {display: block}
 .Logo, #Header .Artikelsuche {margin:0 0 .75em 1.25%}
 .Wrapper-Content, .Navi .sub {border-top: none}
-.nav-pri [id^="topnav"] > a {height: 2.5em}
 .sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; border: 1px solid #ccc; border-top-width: .35rem; display: initial; position: absolute; left: 0; z-index: -1}
 
 #topnav1 .sub {width:819px}
@@ -16,7 +15,6 @@ header, nav, section, article, aside, footer, hgroup {display: block}
 .Designcode-Artikelauswahl .rsDefault .rsThumb img {top:0}
 #topnav-Home, .Schritt-1-Adresseingabe:after {display:none}
 #PDS-Content {clear:both}
-.products.grid-view .Bild img {top: 0%}
 
 .produkt-name {display: block; width: 100%}
 .produkt-name > span {float: left; width: 65%}
