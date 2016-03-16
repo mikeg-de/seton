@@ -10,7 +10,7 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 
 /* Clear-Fix */
 .clear:after, .content [class*="col"]:after, #Footer [class*="col"]:after, .ASR-Teaser:after {content: "."; display: block; height: 0; clear: both; visibility: hidden}
-#PDS-Content, #produktliste-komplett {clear: both;}
+#PDS-Content, #produktliste-komplett {clear: both}
 
 /* Overflow hidden */
 .overflow {overflow: hidden}
@@ -29,7 +29,7 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 #Service a, .Homepage .Avail .item, #cc-slider-streusalz-testimonials .item, .grid-view .item {width: 33.3%}
 <<<<<<< HEAD
 .col5, .Warenkorb-Senden .col5, .Grid-System .Grid-2-5 {width: 40.93%}
-.col6, .Ein-Spalter .Grid12, .Drei-Spalter .Content, #Avail-Hauptkategorie-Kunden-kauften-2, #Avail-Kategorie-Topseller-2, .Zwei-Spalter-Sidebar-left .Grid-System .Grid6, .Zwei-Spalter-Sidebar-right .Grid-System .Grid6, .Grid-System .Grid-1-2, .ASR-Teaser, .ASR-Teaser p, .Checkout .Teaser-Vorteilsnummer, .Abrechnung {width: 49.37%;}
+.col6, .Ein-Spalter .Grid12, .Drei-Spalter .Content, #Avail-Hauptkategorie-Kunden-kauften-2, #Avail-Kategorie-Topseller-2, .Zwei-Spalter-Sidebar-left .Grid-System .Grid6, .Zwei-Spalter-Sidebar-right .Grid-System .Grid6, .Grid-System .Grid-1-2, .ASR-Teaser, .ASR-Teaser p, .Checkout .Teaser-Vorteilsnummer, .Abrechnung {width: 49.37%}
 =======
 .col5, .Grid-System .Grid-2-5 {width: 40.93%}
 .col6, .Ein-Spalter .Grid12, .Drei-Spalter .Content, #Avail-Hauptkategorie-Kunden-kauften-2, #Avail-Kategorie-Topseller-2, .Zwei-Spalter-Sidebar-left .Grid-System .Grid6, .Zwei-Spalter-Sidebar-right .Grid-System .Grid6, .Grid-System .Grid-1-2, .ASR-Teaser, .ASR-Teaser p, .Checkout .Teaser-Vorteilsnummer, .Abrechnung {width: 49.37%}
@@ -182,7 +182,7 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 .Checkout-Adresseingabe .Kundennummer-Prefix {position: absolute; left: .25rem; top: 1.75rem}
 .Checkout-Adresseingabe #kundenadr_Kundennummer {padding-left: 2rem}
 <<<<<<< HEAD
-.Checkout-Adresseingabe [class*="_Anrede"], .Warenkorb-Senden [class*="_Anrede"], .Checkout-Adresseingabe [class*="_Land"], .Checkout fieldset [type="checkbox"], .Checkout-Adresseingabe .kundenadr_Kundennummer {clear: both; display: block;}
+.Checkout-Adresseingabe [class*="_Anrede"], .Warenkorb-Senden [class*="_Anrede"], .Checkout-Adresseingabe [class*="_Land"], .Checkout fieldset [type="checkbox"], .Checkout-Adresseingabe .kundenadr_Kundennummer {clear: both; display: block}
 .Checkout-Adresseingabe [class*="_Anrede"] select, .Warenkorb-Senden [class*="_Anrede"] select, .Checkout-Adresseingabe [class*="_Land"] select, .col3 input {width: 100%}
 =======
 .Checkout-Adresseingabe [class*="_Anrede"], .Checkout-Adresseingabe [class*="_Land"], .Checkout fieldset [type="checkbox"], .Checkout-Adresseingabe .kundenadr_Kundennummer {clear: both; display: block}
@@ -530,7 +530,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 .nav-pri > ul > li:hover > a {background-color: #ccc}
 .nav-pri li:nth-child(6n+2) a {border-left: 0 none}
 .sub {box-sizing:border-box; visibility: hidden; opacity: 0; max-height: 0; z-index:70; position: relative; transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; overflow: hidden}
-.nav-pri .sub {background-color: #fff;}
+.nav-pri .sub {background-color: #fff}
 li:hover .sub {
 	visibility: visible;
 	opacity: 1;
@@ -550,7 +550,7 @@ body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggl
 .arrow_carrot-right {margin: 0}
 .icon_search:before, .icon_cart_alt:before, .icon_close {cursor: pointer}
 .arrow_triangle-down:before {content: "\43"}
-.icon_cart_alt:before {content: "\e015";margin: 0 .5rem 0 0;}
+.icon_cart_alt:before {content: "\e015";margin: 0 .5rem 0 0}
 .icon_search:before {content: "\55"}
 .icon_printer:before {content: "\e103"}
 .icon_mail_alt:before {content: "\e010"}
@@ -581,8 +581,8 @@ body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggl
 .Sidebar-right .Teaser {margin: 0 15px 15px 0}
 .Teaser-Vorteile-bei-SETON img, .Teaser-Avail-Direkt-mitbestellen .cc-slides {margin: .5rem 0; padding: 0}
 .Teaser-Vorteile .Weiterfuehrender-Link, [class*="Teaser-Newsletter"] .Weiterfuehrender-Link {bottom: 0; position: relative; right: 0; text-align: right}
-.Rahmen {background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%);}
-.Rahmen {border: 1px solid #ccc;}
+.Rahmen {background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%)}
+.Rahmen {border: 1px solid #ccc}
 =======
 .Rahmen {background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%)}
 .Rahmen {box-shadow: 0 0 3px rgba(33, 33, 33, 1)}
@@ -854,7 +854,7 @@ img.rsImg {max-width: none}
 .royalSlider .arrow_triangle-right_alt2:before {content: "\49"; font-size: 2rem}
 .royalSlider .arrow_carrot-left_alt2:before {content: "\3c"}
 .royalSlider .arrow_carrot-2right_alt2:before {content: "\3d"}
-.Designcode-Artikelauswahl .rsThumb, .cc-slides .Bild, .Top-Kategorie-Schilder .Bild, .product-list-item a {display: block;}
+.Designcode-Artikelauswahl .rsThumb, .cc-slides .Bild, .Top-Kategorie-Schilder .Bild, .product-list-item a {display: block}
 /*.Designcode-Artikelauswahl .rsOverflow {height:243px !important} */
 .Designcode-Artikelauswahl .rsFullscreen .rsSlide {/*width: 100%; height: auto*/}
 .Designcode-Artikelauswahl .rsWithThumbsHor .rsSlide img, .Designcode-Artikelauswahl .Rotating-image #spritespin {margin: 0 auto}
@@ -967,7 +967,6 @@ img.rsImg {max-width: none}
 /* Product list overhaul Flexbox testing*/
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 /* http://caniuse.com/#search=flex */
-.Artikelbezeichnung {font-weight: 700}
 #produkt_listing {clear: both}
 .produkt-name, .produkt-name > :nth-child(3), .produkt-name [id^="Preis-Block"] {
     display: -ms-flexbox;
@@ -990,16 +989,12 @@ img.rsImg {max-width: none}
     align-items: flex-start;
     }
 
-#filter {/* max-height: 4rem; *//* margin-bottom: 1rem; *//* -webkit-flex-direction: column; */-ms-flex-direction: column;/* flex-direction: column; */}
-.produkt-name {margin-bottom: 1.5rem;}
+.produkt-name {margin-bottom: 1.5rem}
 
 .produkt-name span, .produkt-name [id^="Preis-Block"] span, .produkt-name [id^="Preis-Block"] button {
-    -webkit-order: 0;
-    -ms-flex-order: 0;
-    order: 0;
-    -webkit-flex: 0 0 50%;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
+    -webkit-flex: 0 0 65%;
+    -ms-flex: 0 0 65%;
+    flex: 0 0 65%;
     -webkit-align-self: flex-start;
     -ms-flex-item-align: flex-start;
     align-self: flex-start;
@@ -1008,31 +1003,21 @@ img.rsImg {max-width: none}
 #filter label {display: block}
 #filter select {width: 100%}
 
-.produkt-name > :first-child, .produkt-name > :last-child { -webkit-order: 0;
-    -ms-flex-order: 0;
-    order: 0;
-    -webkit-flex: 0 1 100%;
-    -ms-flex: 0 1 100%;
-    flex: 0 1 100%;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-    align-self: auto;}
+.produkt-name > :first-child, .produkt-name > :last-child {-webkit-flex: 0 1 100%; -ms-flex: 0 1 100%; flex: 0 1 100%}
 
 .produkt-name > :first-child {margin: 0}
-.produkt-name > :nth-child(2) {flex-basis: 15%;}
-.produkt-name > :nth-child(3) {flex-basis: 65%;}
-.produkt-name > :last-child {flex-basis: 20%;}
+.produkt-name > :nth-child(2) {flex-basis: 15%}
+.produkt-name > :last-child {flex-basis: 20%}
 .produkt-name > :last-child span {/* display: inline-block; *//* margin: 0 0 .5em 0; */}
 
-.produkt-name > :nth-child(3) span {flex-basis: 50%;}
+.produkt-name > :nth-child(3) span {flex-basis: 50%}
 .produkt-name [id^="Preis-Block"] span {flex-basis: 70%}
-.produkt-name [id^="Preis-Block"] button {flex-basis: 30%;order: 0;overflow: hidden;color: transparent;padding: 0 1em;align-self: flex-end;}
-.produkt-name [id^="Preis-Block"] button:before {color: #fff;margin: 0;}
+.produkt-name [id^="Preis-Block"] button {flex-basis: 30%;order: 0;overflow: hidden;color: transparent;padding: 0 1em;align-self: flex-end}
+.produkt-name [id^="Preis-Block"] button:before {color: #fff;margin: 0}
 
-.produkt-name .Weiterfuehrender-Link {position: initial;overflow: hidden;width: 100%;display: block;height: 1.25em;}
+.produkt-name .Weiterfuehrender-Link {position: initial;overflow: hidden;width: 100%;display: block;height: 1.25em}
 
-span[data-product][data-category]:before {content: attr(data-category) ": ";}
-span[data-product][data-category]:after {/*content: " ("attr(data-category)")"; color: #b5b5b5;*/}
+span[data-product][data-category]:before {content: attr(data-category) ": "}
 span[data-product]:empty:before, span[data-product]:empty:after {content: initial}
 
 #rabattdisclaimer {margin: 5px 15px}
@@ -1113,7 +1098,7 @@ aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .list a .Link, .Produkt-Name, .Produkttitel {color: #0061a0}
 .list a:hover .Link, .list a:hover .Produkt-Name, .list a:hover .Produktitel, .No-Link:hover .Link {text-decoration: underline}
 .list .Bild {text-align:center}
-.list .Bild img {max-height: 100%;}
+.list .Bild img {max-height: 100%}
 
 /* grid-view allgemein */
 ul.grid-view, ul.list-view {margin: 0}
@@ -1803,27 +1788,27 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 @media only screen and (min-width:768px) {
 	.Artikelsuche {position: relative}
 	#suggestContainer {border-top: 0 none}
-	.sub {border: 1px solid #ccc;border-top-width: .35rem;position: absolute;/* left: initial; */display: flex;align-items: stretch;z-index: -1;}
-	#topnav1 .sub {width: 76%;}
+	.sub {border: 1px solid #ccc;border-top-width: .35rem;position: absolute;/* left: initial; */display: flex;align-items: stretch;z-index: -1}
+	#topnav1 .sub {width: 76%}
 	#topnav4 .sub, #topnav7 .sub {width: 57%}
 	#topnav32 .sub, #topnav10 .sub {left: 0; width: 95%}
-	.col {margin: 0;padding: 5px 5px 5px 10px;flex-grow: 1;flex-basis: 25%;border-right: 1px solid #ccc;}
+	.col {margin: 0;padding: 5px 5px 5px 10px;flex-grow: 1;flex-basis: 25%;border-right: 1px solid #ccc}
 	.col-Themen {border-right: 0 none; background-color: #eee}
-	#topnavSale .sub {left:79.9%;}
+	#topnavSale .sub {left:79.9%}
 	#topnavSale .col { padding:5px 10px}
 	#topnavSale li { border-bottom:1px solid #ccc; padding:1em 0 }
 	#topnavSale li:last-child { border:0 }
 	#topnavSale .Description { color:#3e3e3e; display:block }
-	#topnavSale > a { display:block;font-size: 2rem;   line-height: 2.5rem;}
+	#topnavSale > a { display:block;font-size: 2rem;   line-height: 2.5rem}
 	#topnavSale a:hover { text-decoration:none }
 	#topnavSale .Weiterfuehrender-Link { position:relative; bottom:0; right:0; display:block; text-align:right }
 	#topnavSale a:hover .Titel,
 	#topnavSale a:hover .Weiterfuehrender-Link { text-decoration:underline }
 	.sub {/* background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; *//* border: 1px solid #ccc; *//* border-top-width: .35rem; *//* position: absolute; *//* left: 0; *//* z-index: -1; */}
-	#topnav4 .sub {left: 19%;}
-	#topnav7 .sub {left: 38%;}
-	.col {/* width: 204px; *//* float: left; */margin: 0;padding: 5px 5px 5px 10px;box-sizing: border-box;}
-	#topnavSale .sub {left:79.9%;}
+	#topnav4 .sub {left: 19%}
+	#topnav7 .sub {left: 38%}
+	.col {/* width: 204px; *//* float: left; */margin: 0;padding: 5px 5px 5px 10px;box-sizing: border-box}
+	#topnavSale .sub {left:79.9%}
 	#topnavSale .col {padding:5px 10px}
 	#topnavSale li {border-bottom:1px solid #ccc; padding:1em 0}
 	#topnavSale li:last-child {border:0}
