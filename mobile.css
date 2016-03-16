@@ -185,7 +185,14 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 /* Mobiles portrait */
 @media only screen and (max-device-width: 768px) and (orientation: portrait) {
 	.article-Dropdowns {width: 66.25%}
-	.Designcode-Artikelauswahl .royalSlider {height: 335px; width: 100%} }
+	.Designcode-Artikelauswahl .royalSlider {height: 335px; width: 100%}
+
+	/* PDS */
+	.produkt-name > :nth-child(2) {flex-basis: 30%}
+	.produkt-name > :nth-child(3) {flex-basis: 100%; order: 2}
+	.produkt-name span[data-product] {flex-basis: 100%}
+	span[data-product][data-category]:before {display: inline-block; width: 30%}
+	.produkt-name > :last-child {flex-basis: 70%; order: 1} }
 
 @media only screen and (max-device-width: 768px) and (orientation: portrait), (max-device-width: 667px) {
 	.Hauptkategorie-Text {width: 100%}

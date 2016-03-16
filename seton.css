@@ -17,8 +17,8 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 
 /* Grid system:New fluid 12 row ==========================*/
 /* Check:http://www.responsivegridsystem.com/calculator/*/
-.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12, .Content .col, .Sidebar, .Grid-System [class*="Grid"], .Grid-Themen-Index [class^="Grid"], .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1 {float: left; margin: 0 0 .75rem 1.25%; box-sizing: border-box; position: relative}
-.first, .Grid-first, .Grid24 + [class*="Grid"], .clear + [class*="col"] {margin-left: 0}
+.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .Warenkorb-Senden .col9, .col9, .col10, .col11, .col12, .Content .col, .Sidebar, .Grid-System [class*="Grid"], .Grid-Themen-Index [class^="Grid"], .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1 {float: left; margin: 0 0 .75rem 1.25%; box-sizing: border-box; position: relative}
+.first, .col4:nth-child(3n+1), .Grid-first, .Grid24 + [class*="Grid"], .clear + [class*="col"] {margin-left: 0}
 .Auflistung-Unterkategorien li, .grid-view li {margin: 0}
 .col1 {width: 7.187%}
 .col2, .Grid-System .Grid-1-5, .Grid-System .Grid-1-8, .Grid-System .Grid-1-5-last {width: 15.62%}
@@ -27,13 +27,18 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 /* Spanning 1 of 3 */
 .col4, .Grid-1-3, .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1, .Inventarketiketten-Designer .col-right-2, .Newsletter-Anforderung .article-Newsletter-Abo-Downloads .Grid-1-3 {width: 32.5%}
 #Service a, .Homepage .Avail .item, #cc-slider-streusalz-testimonials .item, .grid-view .item {width: 33.3%}
+<<<<<<< HEAD
+.col5, .Warenkorb-Senden .col5, .Grid-System .Grid-2-5 {width: 40.93%}
+.col6, .Ein-Spalter .Grid12, .Drei-Spalter .Content, #Avail-Hauptkategorie-Kunden-kauften-2, #Avail-Kategorie-Topseller-2, .Zwei-Spalter-Sidebar-left .Grid-System .Grid6, .Zwei-Spalter-Sidebar-right .Grid-System .Grid6, .Grid-System .Grid-1-2, .ASR-Teaser, .ASR-Teaser p, .Checkout .Teaser-Vorteilsnummer, .Abrechnung {width: 49.37%}
+=======
 .col5, .Grid-System .Grid-2-5 {width: 40.93%}
 .col6, .Ein-Spalter .Grid12, .Drei-Spalter .Content, #Avail-Hauptkategorie-Kunden-kauften-2, #Avail-Kategorie-Topseller-2, .Zwei-Spalter-Sidebar-left .Grid-System .Grid6, .Zwei-Spalter-Sidebar-right .Grid-System .Grid6, .Grid-System .Grid-1-2, .ASR-Teaser, .ASR-Teaser p, .Checkout .Teaser-Vorteilsnummer, .Abrechnung {width: 49.37%}
+>>>>>>> refs/remotes/origin/master
 .col7, .Grid-System .Grid-3-5 {width: 57.81%}
 
 /* Spanning 2 of 3 */
 .col8, .Grid-System .Grid-2-3, .Zwei-Spalter-Sidebar-left .Grid-System .Grid8, .Zwei-Spalter-Sidebar-right .Grid-System .Grid8 {width: 66.25%}
-.col9, .Zwei-Spalter-Sidebar-left .Content, .Zwei-Spalter-Sidebar-right .Content, .Ein-Spalter .Grid18, .Grid-System .Grid-3-4 {width: 74.68%}
+.col9, .Warenkorb-Senden .col9, .Zwei-Spalter-Sidebar-left .Content, .Zwei-Spalter-Sidebar-right .Content, .Ein-Spalter .Grid18, .Grid-System .Grid-3-4 {width: 74.68%}
 .col10 {width: 83.12%}
 .col11 {width: 91.56%}
 .col12, .Grid24, .Grid-System .Grid-1-1, .Zwei-Spalter-Sidebar-left .Grid-System .Grid12, .Zwei-Spalter-Sidebar-right .Grid-System .Grid12, .Grid-System .Grid-Top-Kategorien {float: none; width: 100%; margin: 0 ; clear: both}
@@ -55,7 +60,7 @@ h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 [class^="Sidebar"] .Title1 {font-size: 1.1rem}
 .Titel-Balken-hellgrau, #lastSeenProducts .Titel-Balken-hellgrau, .Produkttabelle th, .Grid-Themen-Index p, .Block h2, .Grid-System-Sitemap .Title4 {background: #eee; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 5px .75rem 3px; margin: .5rem 0 .5rem 0; clear: both; position: relative}
 .Titel-Balken-hellgrau img {vertical-align: middle}
-.Tab-Title, .Titel-unterstrichen, .Sidebar .Titel-Balken-hellgrau {border-bottom: 1px solid #ccc}
+.PDS h2, .Tab-Title, .Titel-unterstrichen, .Sidebar .Titel-Balken-hellgrau {border-bottom: 1px solid #ccc}
 .Thema-Name, .Teaser p, .Teaser .p {margin: 0}
 .Homepage .Teaser p, .Footer .Teaser-Newsletter p {float: left; max-width: 55%}
 .Footer .Teaser-Newsletter p {max-width: 65%}
@@ -165,6 +170,10 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 #Add_Lieferadresse ~ fieldset {opacity: 0; max-height: 0; overflow: hidden; visibility: hidden; transition: opacity .25s ease-out .25s, visibility .25s ease-out .25s, max-height .5s ease-out}
 #Add_Lieferadresse:checked ~ .Add_Lieferadresse, #Add_Rechnungsadresse:checked ~ .Add_Rechnungsadresse {opacity: 1; max-height: 2000px; display: block; overflow: initial; visibility: visible; transition: opacity .25s ease-in, max-height .5s ease-in}
 .Adresseingabe p {margin-bottom: 0}
+<<<<<<< HEAD
+.Warenkorb-Senden p {margin-bottom: .5rem}
+=======
+>>>>>>> refs/remotes/origin/master
 .Adresseingabe textarea {width: 50%; max-height: 300px}
 .Checkout-Adresseingabe .Adresseingabe label, .Kontakt .Adresseingabe label {display: block; width: 50%}
 .Adresseingabe .col3 label {width: 100%}
@@ -172,8 +181,13 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 .Checkout span.tooltips, .PDF-Download span.tooltips {bottom: 0; right: auto;top: auto}
 .Checkout-Adresseingabe .Kundennummer-Prefix {position: absolute; left: .25rem; top: 1.75rem}
 .Checkout-Adresseingabe #kundenadr_Kundennummer {padding-left: 2rem}
+<<<<<<< HEAD
+.Checkout-Adresseingabe [class*="_Anrede"], .Warenkorb-Senden [class*="_Anrede"], .Checkout-Adresseingabe [class*="_Land"], .Checkout fieldset [type="checkbox"], .Checkout-Adresseingabe .kundenadr_Kundennummer {clear: both; display: block}
+.Checkout-Adresseingabe [class*="_Anrede"] select, .Warenkorb-Senden [class*="_Anrede"] select, .Checkout-Adresseingabe [class*="_Land"] select, .col3 input {width: 100%}
+=======
 .Checkout-Adresseingabe [class*="_Anrede"], .Checkout-Adresseingabe [class*="_Land"], .Checkout fieldset [type="checkbox"], .Checkout-Adresseingabe .kundenadr_Kundennummer {clear: both; display: block}
 .Checkout-Adresseingabe [class*="_Anrede"] select, .Checkout-Adresseingabe [class*="_Land"] select, .col3 input {width: 100%}
+>>>>>>> refs/remotes/origin/master
 .Checkout [type="checkbox"] {float: left}
 .Adresseingabe button {margin-left: 32%}
 
@@ -509,16 +523,21 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 /* Hauptnavigation ==========================*/
 .nav-pri {position: relative; z-index:80}
 .nav-pri ul {list-style-type: none; margin: 0; position: relative; z-index:70}
-.nav-pri [id^="topnav"], #nav-home {float: left; width:17.5%}
+.nav-pri > ul > li {float: left;width: 19%}
+.nav-pri > ul > li#topnavSale {width: 5%}
 .nav-pri #topnavSale {width:12.5%}
 .nav-pri [id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc; background-color: #0061a0}
 .nav-pri > ul > li:hover > a {background-color: #ccc}
 .nav-pri li:nth-child(6n+2) a {border-left: 0 none}
 .sub {box-sizing:border-box; visibility: hidden; opacity: 0; max-height: 0; z-index:70; position: relative; transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; overflow: hidden}
 .nav-pri .sub {background-color: #fff}
-li:hover .sub {visibility: visible; opacity: 1; max-height: 2000px;
+li:hover .sub {
+	visibility: visible;
+	opacity: 1;
+	max-height: 2000px;
 	/* iOS: visibility breaks transition but required for touch events and block is not animatable */
-	transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in}
+	transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in;
+	}
 .sub a, .Teaser-Blog a, .Footer .Grid-System-Sitemap li a {margin: 0 0 .2rem 0; display: inline-block; max-width: 94%; vertical-align: top}
 .sub .Titel, .Thema-Name a {font-weight: bold; margin-left: 0}
 .nav-third li:before, .Teaser-Blog li:before, .Footer .Grid-System-Sitemap ul li:before, .nav-pri .PfeilLink:before, .Direktbestellung:before, .Weiterfuehrender-Link:before {content: "\203A"; margin-right:5px}
@@ -531,15 +550,14 @@ body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggl
 .arrow_carrot-right {margin: 0}
 .icon_search:before, .icon_cart_alt:before, .icon_close {cursor: pointer}
 .arrow_triangle-down:before {content: "\43"}
-.icon_cart_alt:before {content: "\e015"; margin: 0 .5rem 0 0}
+.icon_cart_alt:before {content: "\e015";margin: 0 .5rem 0 0}
 .icon_search:before {content: "\55"}
 .icon_printer:before {content: "\e103"}
 .icon_mail_alt:before {content: "\e010"}
 .icon_close {content: "\4d"}
 .Info-Icon:before {content: "\72"}
 .icon_info_alt:after {content: "\70"}
-.Bullet-Haekchen li:before, .Vorteile li:before {content: "\4e";
-margin: 0 .25rem 0 -1rem}
+.Bullet-Haekchen li:before, .Vorteile li:before {content: "\4e"; margin: 0 .25rem 0 -1rem}
 .Bullet-Plus li:before {content: "+"; text-align: center; line-height: 20px; display: inline-block; width: 20px; height: 20px; color: #D90F18; font-weight: bold; font-size: 20px; margin: 0 .5rem 0 -20px; background-color: #fff; border-radius: 10px; box-shadow: 1px 1px 5px #C9C9C9; position: relative; top: 2px}
 .arrow_carrot-right:before, .Link-Liste a:before {content: "\35"; font-size: 1.25rem}
 .Filterparameter li:before {content: "\56"; margin: 0 5px 0 -1rem}
@@ -564,7 +582,11 @@ margin: 0 .25rem 0 -1rem}
 .Teaser-Vorteile-bei-SETON img, .Teaser-Avail-Direkt-mitbestellen .cc-slides {margin: .5rem 0; padding: 0}
 .Teaser-Vorteile .Weiterfuehrender-Link, [class*="Teaser-Newsletter"] .Weiterfuehrender-Link {bottom: 0; position: relative; right: 0; text-align: right}
 .Rahmen {background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%)}
+.Rahmen {border: 1px solid #ccc}
+=======
+.Rahmen {background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%)}
 .Rahmen {box-shadow: 0 0 3px rgba(33, 33, 33, 1)}
+>>>>>>> refs/remotes/origin/master
 #Warenkorb-Rahmen h1 {font-size: 1.5rem; margin: 0}
 .Teaser .Kein-Rahmen {padding: 10px 0 15px 0}
 
@@ -941,12 +963,62 @@ img.rsImg {max-width: none}
 .Services-rund-ums-Produkt img {display: block; margin: 0 auto; margin-bottom: 3px}
 .Services-rund-ums-Produkt a:before {display: block; font-size: 32px; line-height: 55px; margin-bottom: 5px; text-decoration: none !important}
 .Services-rund-ums-Produkt .Muster-Anforderung img {margin-top: 14px; margin-bottom: 14px}
-.Produktliste {max-width: 100%; overflow-x: auto}
-.produkt-liste table {width: 100%}
-.produkt-liste tr {cursor: pointer}
-.produkt-liste tr:hover {background: #ccc}
-.produkt-liste th {white-space: nowrap}
-.produkt-liste .artnrliste {width: 80px}
+
+/* Product list overhaul Flexbox testing*/
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+/* http://caniuse.com/#search=flex */
+#produkt_listing {clear: both}
+.produkt-name, .produkt-name > :nth-child(3), .produkt-name [id^="Preis-Block"] {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+    }
+
+.produkt-name {margin-bottom: 1.5rem}
+
+.produkt-name span, .produkt-name [id^="Preis-Block"] span, .produkt-name [id^="Preis-Block"] button {
+    -webkit-flex: 0 0 65%;
+    -ms-flex: 0 0 65%;
+    flex: 0 0 65%;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: flex-start;
+    align-self: flex-start;
+    }
+
+#filter label {display: block}
+#filter select {width: 100%}
+
+.produkt-name > :first-child, .produkt-name > :last-child {-webkit-flex: 0 1 100%; -ms-flex: 0 1 100%; flex: 0 1 100%}
+
+.produkt-name > :first-child {margin: 0}
+.produkt-name > :nth-child(2) {flex-basis: 15%}
+.produkt-name > :last-child {flex-basis: 20%}
+
+.produkt-name span[data-product] {flex-basis: 50%}
+.produkt-name [id^="Preis-Block"] span {flex-basis: 70%}
+.produkt-name [id^="Preis-Block"] button {flex-basis: 30%;padding: 0 1em;align-self: flex-end}
+.produkt-name [id^="Preis-Block"] button:before {color: #fff;margin: 0}
+
+.produkt-name .Weiterfuehrender-Link {position: static; width: 100%}
+
+span[data-product][data-category]:before {content: attr(data-category) ": "}
+span[data-product]:empty:before, span[data-product]:empty:after {content: initial}
+
 #rabattdisclaimer {margin: 5px 15px}
 .Designcode-Artikelauswahl .addthis_toolbox {float: right}
 .social_share_privacy_area {margin: 0}
@@ -957,8 +1029,7 @@ img.rsImg {max-width: none}
 .social_share_privacy_area li.help_info .info {display: none !important}
 .Designcode-Artikelauswahl .Drucken, #socialshareprivacy {display: inline-block; vertical-align: top}
 .Produktliste h2, .Tab-Content h2, .Produktliste h3, .Tab-Content h3 {margin-top: 0}
-#PDS-Content .Wischer {float: right; margin: -5px 0 0 5px}
-#Kopfnummernbeschreibung .pds-desc-title {border-bottom: 1px solid #ccc; margin: 0 0 15px 0}
+#PDS-Content .Wischer {float: right}
 #Kopfnummernbeschreibung .pds-desc-title span img {height: 1rem}
 #Kopfnummernbeschreibung .pds-desc-title .brand {float: right}
 
@@ -1144,7 +1215,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .cc-slider-pfeil-links-rechts .slide1:checked ~ .controls label:nth-child(2), .cc-slider-pfeil-links-rechts .slide2:checked ~ .controls label:nth-child(3) {display: block; right: 0; -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg)}
 .cc-slider-pfeil-links-rechts .slide2:checked ~ .controls label:nth-child(1), .cc-slider-pfeil-links-rechts .slide3:checked ~ .controls label:nth-child(2) {display: block; left: 0}
 
-.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .Designcode-Artikelauswahl .Rotating-image .spritespin-canvas {max-height: 100%; display: block; margin: 0 auto; max-width: 100%; height: auto; width: auto !important}
+.rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .Designcode-Artikelauswahl .Rotating-image .spritespin-canvas, .Bild img {max-height: 100%; display: block; margin: 0 auto; max-width: 100%; height: auto; width: auto !important}
 .cc-slider .item {-webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; text-align: center}
 .cc-slider .item [class*="-Preis"] {white-space: nowrap}
 .cc-slider.items-1 .item {width: 10%}
@@ -1158,7 +1229,7 @@ ul.grid-view, ul.list-view {margin: 0}
 .cc-slider.items-9 .item {width: 1.11%}
 .cc-slider.items-10 .item {width: 1%}
 #cc-slider-lsp .item {width: 11.1%}
-#cc-slider-lsp .item .Bild {height: 80px}
+#cc-slider-lsp .item .Bild, #produkt_listing .Bild {height: 80px}
 .products.cc-slider .item .Bild {height: 115px}
 .products.cc-slider .item .Produkttitel {display: block}
 .products.cc-slider .item .Rabatt-Preis {display: inline-block}
@@ -1716,10 +1787,26 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 @media only screen and (min-width:768px) {
 	.Artikelsuche {position: relative}
 	#suggestContainer {border-top: 0 none}
-	.sub {background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; border: 1px solid #ccc; border-top-width: .35rem; position: absolute; left: 0; z-index: -1}
-	#topnav4 .sub {left:17.5%}
-	#topnav7 .sub {left:35%}
-	.col {width: 204px; float: left; margin: 0; padding: 5px 5px 5px 10px; box-sizing: border-box}
+	.sub {border: 1px solid #ccc;border-top-width: .35rem;position: absolute;/* left: initial; */display: flex;align-items: stretch;z-index: -1}
+	#topnav1 .sub {width: 76%}
+	#topnav4 .sub, #topnav7 .sub {width: 57%}
+	#topnav32 .sub, #topnav10 .sub {left: 0; width: 95%}
+	.col {margin: 0;padding: 5px 5px 5px 10px;flex-grow: 1;flex-basis: 25%;border-right: 1px solid #ccc}
+	.col-Themen {border-right: 0 none; background-color: #eee}
+	#topnavSale .sub {left:79.9%}
+	#topnavSale .col { padding:5px 10px}
+	#topnavSale li { border-bottom:1px solid #ccc; padding:1em 0 }
+	#topnavSale li:last-child { border:0 }
+	#topnavSale .Description { color:#3e3e3e; display:block }
+	#topnavSale > a { display:block;font-size: 2rem;   line-height: 2.5rem}
+	#topnavSale a:hover { text-decoration:none }
+	#topnavSale .Weiterfuehrender-Link { position:relative; bottom:0; right:0; display:block; text-align:right }
+	#topnavSale a:hover .Titel,
+	#topnavSale a:hover .Weiterfuehrender-Link { text-decoration:underline }
+	.sub {/* background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; *//* border: 1px solid #ccc; *//* border-top-width: .35rem; *//* position: absolute; *//* left: 0; *//* z-index: -1; */}
+	#topnav4 .sub {left: 19%}
+	#topnav7 .sub {left: 38%}
+	.col {/* width: 204px; *//* float: left; */margin: 0;padding: 5px 5px 5px 10px;box-sizing: border-box}
 	#topnavSale .sub {left:79.9%}
 	#topnavSale .col {padding:5px 10px}
 	#topnavSale li {border-bottom:1px solid #ccc; padding:1em 0}
