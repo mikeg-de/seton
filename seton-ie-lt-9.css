@@ -23,5 +23,5 @@ header, nav, section, article, aside, footer, hgroup {display: block}
 .produkt-name > :nth-child(2) {width: 15%}
 .produkt-name > :last-child {width: 20%}
 
-.produkt-name > :nth-child(3) span {float: left; width: 50%}
+.produkt-name span[data-product] {float: left; width: 50%}
 .produkt-name [id^="Preis-Block"] span {width: 70%; float: left}
