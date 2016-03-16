@@ -25,3 +25,4 @@ header, nav, section, article, aside, footer, hgroup {display: block}
 
 .produkt-name span[data-product] {float: left; width: 50%}
 .produkt-name [id^="Preis-Block"] span {width: 70%; float: left}
+.produkt-name .Weiterfuehrender-Link {position: relative}
