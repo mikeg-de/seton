@@ -1011,10 +1011,10 @@ img.rsImg {max-width: none}
 
 .produkt-name span[data-product] {flex-basis: 50%}
 .produkt-name [id^="Preis-Block"] span {flex-basis: 70%}
-.produkt-name [id^="Preis-Block"] button {flex-basis: 30%;padding: 0 1em;align-self: flex-end;}
+.produkt-name [id^="Preis-Block"] button {flex-basis: 30%;padding: 0 1em;align-self: flex-end}
 .produkt-name [id^="Preis-Block"] button:before {color: #fff;margin: 0}
 
-.produkt-name .Weiterfuehrender-Link {position: initial;overflow: hidden;width: 100%;display: block;height: 1.25em}
+.produkt-name .Weiterfuehrender-Link {position: initial; display: block}
 
 span[data-product][data-category]:before {content: attr(data-category) ": "}
 span[data-product]:empty:before, span[data-product]:empty:after {content: initial}
