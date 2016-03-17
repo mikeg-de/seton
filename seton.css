@@ -973,8 +973,8 @@ img.rsImg {max-width: none}
 .produkt-name > :last-child {flex-basis: 20%}
 
 .produkt-name span[data-product] {flex-basis: 50%}
-.produkt-name [id^="Preis-Block"] span {flex-basis: 70%}
-.produkt-name [id^="Preis-Block"] button {flex-basis: 30%;padding: 0 1em;align-self: flex-end}
+.produkt-name [id^="Preis-Block"] .Preis {flex-basis: 100%}
+.produkt-name [id^="Preis-Block"] button {flex-basis: 30%; padding: 0 1em; align-self: flex-end}
 .produkt-name [id^="Preis-Block"] button:before {color: #fff;margin: 0}
 
 .produkt-name .Weiterfuehrender-Link {position: static; width: 100%}
