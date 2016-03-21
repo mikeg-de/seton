@@ -957,11 +957,12 @@ img.rsImg {max-width: none}
 #produkt_listing {clear: both}
 .produkt-name, .produkt-name > :nth-child(3), .produkt-name [id^="Preis-Block"] {
     display: -ms-flexbox; display: -webkit-flex; display: flex;
-		-webkit-flex-flow: row wrap; -ms-flex-flow: row wrap; flex-flow: row wrap;
-		-webkit-align-items: flex-start; -ms-flex-align: flex-start; align-items: flex-start }
+	-webkit-flex-flow: row wrap; -ms-flex-flow: row wrap; flex-flow: row wrap;
+	-webkit-align-items: flex-start; -ms-flex-align: flex-start; align-items: flex-start }
 
 .produkt-name {margin-bottom: 1.5rem}
 .produkt-name span, .produkt-name [id^="Preis-Block"] span, .produkt-name [id^="Preis-Block"] button {-webkit-flex: 0 0 65%; -ms-flex: 0 0 65%; flex: 0 0 65%}
+.produkt-name .preisnachher {display: block}
 
 #filter label {display: block}
 #filter select {width: 100%}
