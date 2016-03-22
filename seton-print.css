@@ -8,7 +8,7 @@ body {
     background-color: #fff !important;
     font-family: Arial,Verdana,Helvetica,sans-serif;
     color:#000;
-    text-align:left !important;
+    text-align: left !important;
     font-weight: normal;
 }
 
@@ -70,9 +70,10 @@ ul {list-style:none;padding: 0}
 li:before {content: "» ";margin: 0 8pt 0 0}
 
 a {text-decoration: none; color: inherit; word-wrap: break-word}
+.Bild img {max-height: 100%; display: block; margin: 0 auto; max-width: 100%; height: auto; width: auto !important}
 
 label:after, .label:after {content:":"}
-select, input {border: none; font-size: 12pt}
+select, input {border: none;font-size: 12pt;}
 select, textarea {-webkit-appearance: none;-moz-appearance: none;appearance: none;border: 0 none;display: inline-block;margin: 0;padding: 0}
 textarea {width: 10cm;max-width: 10cm;font-family: Arial;font-size: 12pt}
 
@@ -85,28 +86,26 @@ span.Preis:before {content:"Preis: "; float: left}
 .Preisbox {line-height: 12pt}
 .Artikelnummmer {margin: 22pt 0 8pt 0}
 
-table, th, tr, td {margin: 0;border: 0 none;border-collapse: collapse;border-spacing: 0;vertical-align: top}
-b, th {font-weight: normal}
+table, th, tr, td {margin: 0;border: 0 none;border-collapse: collapse;border-spacing: 0;vertical-align: top;line-height: 1.5;}
+b, th {font-weight: normal;text-align: left;}
 td:empty {display: none !important}
 
 .symbole, .floatbox + table img {width: inherit; display: inline-block}
 
-.Produkttabelle, .Produktliste table {font-size: 10pt; page-break-before: always;width: 100%}
+.Produkttabelle, .Produktliste table, table {font-size: 10pt; page-break-before: always;width: 100%}
 .Grid-System a[href^="http://"]:after {content: " (" attr(href) ")"; font-size: 90%}
 .Disclaimer, .Klein, table.SETON-Adressen td {font-size: 8pt}
 
 /* Check Out */
-
 body.Checkout-Print .Bestellmoeglichkeiten {float: right; width: 5cm; text-align:right}
-.Checkout-Print .Bild a {width: 70px; height: 70px; overflow: hidden; display: inline-block}
+.Checkout-Print .Bild a {overflow: hidden;display: inline-block;}
 body.Checkout-Print .Bestellmoeglichkeiten div {margin-bottom: 0.1cm}
 table.Produkttabelle td.Position {max-width: 0.5cm}
 
-td.Bild {width: 2cm}
-td.Produktinfo {width: 7cm}
-[class="Anzahl"] {max-width: 2cm}
-[class="Einzelpreis-abzgl-Rabatt"] {width: 2cm}
-[class="Einzelpreis"] {max-width: 2cm; overflow: hidden}
+
+td.Produktinfo {/* width: 7cm */}
+td.Bild, .Einzelpreis-abzgl-Rabatt, .Einzelpreis, .Summe {max-width: 2.5cm;width: 2.5cm;overflow: hidden;}
+.Anzahl, .Anzahl-JS {max-width: 1cm;overflow: hidden;}
 
 body.Checkout-Print input.Eingabefeld, body.Checkout-Print textarea, body.Checkout-Print select {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -129,4 +128,4 @@ tr.Gesamtsumme {border-top: 1pt solid #000;border-bottom: 3pt double #000}
 
 ol.AGB li:before {display:none }
 
-.notInPrint, .Artikelsuche, .Direktbestellung, .Meta-Navi, nav, .pure-overlay, .pure-toggle, .pure-toggle-label, .Warenkorb, .Wrapper-right, [name="Produktbeschreibung-toggle"], .controls, .rsFullscreenBtn, .rsArrow, #alle-artikel-anzeigen, #addToCart, .rsThumbs, .Wischer, .rsSlide:nth-child(n+2), #produktliste-komplett .Tab-Title, .Titel-unterstrichen, .Services-rund-ums-Produkt li:nth-child(n+2), .Faxbestellschein, video, audio, object, embed, .Drucken, #socialshareprivacy, .Blaetterkatalog img, .Muster-Anforderung, .Avail, .Weitere-Informationen-item > a, #lastSeenProducts, .Footer, .Factfinder-Copyright, body.Checkout-Print td.Anzahl input.buttonAsLink, body.Checkout-Print td.Anzahl a, .Checkout-Print .Hotline .Icon:before, .Anzahl-JS img, .Anzahl-JS [id^="wkdelete"], .updateLink { display: none !important}
+.notInPrint, .Artikelsuche, .Direktbestellung, .Meta-Navi, nav, .pure-overlay, .pure-toggle, .pure-toggle-label, .Warenkorb, .Wrapper-right, [name="Produktbeschreibung-toggle"], .controls, .rsFullscreenBtn, .rsArrow, #alle-artikel-anzeigen, #addToCart, .rsThumbs, .Wischer, .rsSlide:nth-child(n+2), #produktliste-komplett .Tab-Title, .Titel-unterstrichen, .Services-rund-ums-Produkt li:nth-child(n+2), .Faxbestellschein, video, audio, object, embed, .Drucken, #socialshareprivacy, .Blaetterkatalog img, .Muster-Anforderung, .Avail, .Weitere-Informationen-item > a, #lastSeenProducts, .Footer, .Factfinder-Copyright, body.Checkout-Print td.Anzahl input.buttonAsLink, body.Checkout-Print td.Anzahl a, .Checkout-Print .Hotline .Icon:before, .Anzahl-JS img, .Anzahl-JS [id^="wkdelete"], .updateLink, .dateiUpload { display: none !important}
