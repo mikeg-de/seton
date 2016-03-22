@@ -28,7 +28,7 @@ body {
 .Breadcrumbs :first-child, .editArtikel {display: none}
 .Breadcrumbs:before {content:"www.seton.de"; display: inline-block; margin: 55pt 0 0 0}
 
-h1 {font-size: 16pt}
+h1 {font-size: 16pt; margin-top: -24pt}
 h2, h3, h4, h5, h6 {font-size: 12pt}
 
 #gallery {width: auto; height: auto}
@@ -71,6 +71,7 @@ li:before {content: "» ";margin: 0 8pt 0 0}
 
 a {text-decoration: none; color: inherit; word-wrap: break-word}
 .Bild img {max-height: 100%; display: block; margin: 0 auto; max-width: 100%; height: auto; width: auto !important}
+.Bild .rabattinfo {font-size: smaller}
 
 label:after, .label:after {content:":"}
 select, input {border: none;font-size: 12pt;}
@@ -92,7 +93,7 @@ td:empty {display: none !important}
 
 .symbole, .floatbox + table img {width: inherit; display: inline-block}
 
-.Produkttabelle, .Produktliste table, table {font-size: 10pt; page-break-before: always;width: 100%}
+.Produkttabelle, .Produktliste table, table {font-size: 10pt;page-break-before: avoid;width: 100%;}
 .Grid-System a[href^="http://"]:after {content: " (" attr(href) ")"; font-size: 90%}
 .Disclaimer, .Klein, table.SETON-Adressen td {font-size: 8pt}
 
@@ -103,7 +104,7 @@ body.Checkout-Print .Bestellmoeglichkeiten div {margin-bottom: 0.1cm}
 table.Produkttabelle td.Position {max-width: 0.5cm}
 
 
-td.Produktinfo {/* width: 7cm */}
+td.Produktinfo {/* width: 7cm; */}
 td.Bild, .Einzelpreis-abzgl-Rabatt, .Einzelpreis, .Summe {max-width: 2.5cm;width: 2.5cm;overflow: hidden;}
 .Anzahl, .Anzahl-JS {max-width: 1cm;overflow: hidden;}
 
