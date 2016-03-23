@@ -82,6 +82,7 @@ h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 /* Listen */
 ul, .PUES-Subnavigation-Kategorien, .Teaser-Blog ul, .Teaser .Bullet-Haekchen, ul.Weihnachtskugeln {margin: 0 0 .5rem 0; padding: 0; list-style-position: outside}
 .col6.Bullet-Haekchen {margin:0}
+.Bullet-Haekchen.thankyou {margin-left: 0; margin-top: 10px;}
 .Content ul, .PUES-Subnavigation-Kategorien {margin-left: 1rem}
 .Teaser-Blog ul, .dropdown-list {margin: 0}
 ul.Bullet-Haekchen, ul.Weihnachtskugeln, .Teaser-Blog ul, .Footer ul, .dropdown-list {list-style-type: none}
