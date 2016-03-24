@@ -1,5 +1,5 @@
 /* Allgemeine Definitionen */
-@page {size: auto; margin: 0mm}
+@page {size: auto; margin: 0}
 
 body {
     width:21cm;
@@ -80,7 +80,7 @@ a {text-decoration: none; color: inherit; word-wrap: break-word}
 label:after, .label:after {content:":"}
 select, input {border: none;font-size: 12pt;}
 select, textarea {-webkit-appearance: none;-moz-appearance: none;appearance: none;border: 0 none;display: inline-block;margin: 0;padding: 0}
-textarea {width: 10cm;max-width: 10cm;font-family: Arial;font-size: 12pt}
+textarea {width: 10cm;max-width: 10cm; font-family: Arial, sans-serif ;font-size: 12pt}
 
 .Preisbox span, .tooltip {display: block; text-align: right}
 .tooltip table, .Preisbox span:nth-child(n+2) {float: right}
@@ -102,6 +102,28 @@ td:empty {display: none !important}
 .Disclaimer, .Klein, table.SETON-Adressen td {font-size: 8pt}
 
 /* Check Out */
+body.Checkout-Print .Produkttabelle .Einzelpreis-abzgl-Rabatt,
+body.Checkout-Print .Produkttabelle .Einzelpreis,
+body.Checkout-Print .Produkttabelle .Summe {
+    text-align: right;
+    width: 100px;
+}
+
+body.Checkout-Print .Content th,
+body.Checkout-Print .Content td,
+body.Checkout-Print th,
+body.Checkout-Print td {
+    padding: 3px 3px 2px 2px;
+    box-sizing: border-box;
+}
+
+body.Checkout-Print td,
+body.Checkout-Print th {
+    vertical-align: top;
+    text-align: left;
+    padding-right: 10px;
+}
+
 body.Checkout-Print .Bestellmoeglichkeiten {float: right; width: 5cm; text-align:right}
 .Checkout-Print .Bild a {overflow: hidden;display: inline-block;}
 body.Checkout-Print .Bestellmoeglichkeiten div {margin-bottom: 0.1cm}
