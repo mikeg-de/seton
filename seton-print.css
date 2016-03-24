@@ -14,8 +14,9 @@ body {
     font-weight: normal;
 }
 
-#Header, .article-PDS-Produktbilder {float:right; width: 30%}
-#Logo, #Header a {margin: 0 auto;display: block}
+#Header, .article-PDS-Produktbilder {float:right;width: 6cm;}
+.Logo {display: block}
+.Logo img {width: 100%}
 .wrapper > img:first-of-type {max-width: 7cm; position: absolute; top: 2cm}
 
 .Breadcrumbs, .Breadcrumbs a, .Fax, .Hotline, .Mail, .Anschrift, .Online-Shop, .rsGCaption, .rsCaption {color:#8a8a8a; font-size:10pt}
@@ -27,14 +28,15 @@ body {
 .clear {clear:both}
 .Grid-System:before, .article-PDS-Produktbilder + div:after, .Artikelnummmer:before {content:"."; display:block; height:0; clear:both; visibility:hidden}
 
-.Breadcrumbs :first-child, .editArtikel {display: none}
-.Breadcrumbs:before {content:"www.seton.de"; display: inline-block; margin: 55pt 0 0 0}
+#Breadcrumbs {width: 14cm;top: 0;position: absolute;}
+#Breadcrumbs :first-child, .editArtikel {display: none}
+#Breadcrumbs:before {content:"www.seton.de"; display: inline-block; margin: 55pt 0 0 0}
 
 h1 {font-size: 16pt; margin-top: -24pt}
 h2, h3, h4, h5, h6 {font-size: 12pt}
 
 #gallery {width: auto; height: auto}
-#gallery .rsOverflow {height: auto !important;width: 100% !important;/* display: inline-block; */}
+#gallery .rsOverflow {height: auto !important;width: 100% !important;display: inline-block;}
 
 .royalSlider .rsSlide,
 .royalSlider img {width: auto !important;
@@ -63,8 +65,8 @@ p, .toggle-content, form {margin: 0 0 8pt}
 #AllgArtMerkTabelle, .Tabs-Content table {width: 100%}
 .Tabs-Content table + b {margin: 8pt 0 0 0; display: inline-block}
 #AllgArtMerkTabelle th, .Tabs-Content td:first-child {width: 4cm}
-.article-Dropdowns, .article-Dropdowns + div {width:70%; float:left}
-.article-Dropdowns + div {width: 27%;padding: 8pt;border: 1pt solid #b5b5b5}
+.article-Dropdowns, .article-Dropdowns + div {width: 14cm;float:left;}
+.article-Dropdowns + div {width: 6cm;padding: 8pt;border: 1pt solid #b5b5b5;}
 
 .Blaetterkatalog > a:before {content: "Im Katalog auf"}
 

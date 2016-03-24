@@ -57,7 +57,7 @@ h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 [class^="Sidebar"] .Title1 {font-size: 1.1rem}
 .Titel-Balken-hellgrau, #lastSeenProducts .Titel-Balken-hellgrau, .Produkttabelle th, .Grid-Themen-Index p, .Block h2, .Grid-System-Sitemap .Title4 {background: #eee; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 5px .75rem 3px; margin: .5rem 0 .5rem 0; clear: both; position: relative}
 .Titel-Balken-hellgrau img {vertical-align: middle}
-.PDS h2, .Tab-Title, .Titel-unterstrichen, .Sidebar .Titel-Balken-hellgrau {border-bottom: 1px solid #ccc}
+.PDS h2, .PDS h3, .Tab-Title, .Titel-unterstrichen, .Sidebar .Titel-Balken-hellgrau {border-bottom: 1px solid #ccc}
 .Thema-Name, .Teaser p, .Teaser .p {margin: 0}
 .Homepage .Teaser p, .Footer .Teaser-Newsletter p {float: left; max-width: 55%}
 .Footer .Teaser-Newsletter p {max-width: 65%}
