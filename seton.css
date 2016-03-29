@@ -818,6 +818,7 @@ img.rsImg {max-width: none}
 .Teaser-Newsletter .Eingabefeld {border: 1px solid #ccc}
 .Teaser-Newsletter button {height: 32px}
 .Teaser-Newsletter p.LV_validation_message, .Teaser-Newsletter .Hinweistext {position: absolute; bottom: 100%; margin: 0; max-width: 100%}
+.NL-Feedback-Ajax { margin-top: 5px; margin-bottom: 5px; color: #509e2f }
 
 /* Teaser Ostereiersuche */
 .Teaser-Ostereiersuche .Button-klein-T-Zum-Gewinnspiel {position: absolute; bottom: 0; right: 0}
