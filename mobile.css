@@ -200,7 +200,7 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.Teaser-Vorteile-bei-SETON-bvh ul, .Teaser-Spar-Angebote p {float: left; max-width: 55%}
 	.Trusted-Shop-Kundenbewertung {width: 38%; float: right}
 	.Homepage .Content .Teaser-Katalog {margin-left: 1.25%}
-	.Teaser-Individuell-gestalten {margin-left: 0}
+	.Teaser-Individuell-gestalten, .Teaser-Vorteile-bei-SETON-bvh {margin-left: 0}
 	.Produktergebnis {width: 100%; margin: 0 0 1rem}
 	.Produktergebnis-inner, .Preisstaffel {width: 49.37%; box-sizing: border-box; float: left; clear: none} }
 
@@ -248,8 +248,8 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 
 /* Tablet portrait = iPhone 5 & 6 landscape */
 @media only screen and (min-width:768px) and (max-device-width: 1024px) and (orientation: portrait), (min-device-width: 320px) and (max-device-width: 667px) and (orientation: landscape) {
-	#Header .Artikelsuche {/* margin-left: 2.5%; */ width: 55%}
-	#cc_slider_category_page_customers_choice {width: 100%;/* padding: 0 1.25% */}
+	#Header .Artikelsuche {width: 55%}
+	#cc_slider_category_page_customers_choice {width: 100%}
 	#cc_slider_category_page_customers_choice .item, .cc-slider.items-4 .item {width: 3.33%}
 	.Designcode-Artikelauswahl .Drucken, #socialshareprivacy {float: none; display: inline-block; vertical-align: top}
 	#Service, .PDS #Crosslink, #AehnlicheArtikel, #WeitereArtikel, #cc_slider_item_page_similar_products, #cc_slider_item_page_customers_choice {width: 49.37%; float: left}
@@ -260,6 +260,12 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.PDS .col8, .article-Dropdowns {width: 49.37%}
 	.Grid-System-Sitemap .col3 {width: 49.37%; max-height: 225px}
 	.Grid-System-Sitemap .col3:nth-child(3) {margin-left: 0} }
+
+/* iPhone 5 & 6 landscape fallbacks */
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (orientation: landscape) {
+	.Homepage .Teaser-Newsletter img, .Homepage .Teaser-Individuell-gestalten img {width: 40%;right: .25rem;top: 2rem;}
+	.Teaser-Newsletter .Eingabefeld {max-width: 70%}
+}
 
 /* iPhone 5 strict landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
