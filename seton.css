@@ -95,6 +95,8 @@ aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 .Bullet-Haekchen-2-spaltig li {width: 180px; float: left}
 .Bullet-Plus li {padding: 0 0 0 20px; margin: 0 0 5px 0}
 .Bullet-Plus li .Bullet {background-position: 0 -155px; height: 26px; width: 26px; top: 0}
+.Bullet-Groesser-als li {list-style: none; margin-left: -15px;}
+.Bullet-Groesser-als li:before {content: "\203A"; margin-right:5px}
 .Vorteile {list-style-type: none}
 .BulletPointBereich {margin: 0; padding: 0; list-style-type: none}
 .BulletPointBereich li {padding: 0 0 0 25px; background-repeat: no-repeat; background-position: 0 4px}
@@ -554,8 +556,6 @@ body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggl
 .Info-Icon:before {content: "\72"}
 .icon_info_alt:after {content: "\70"}
 .Bullet-Haekchen li:before, .Vorteile li:before {content: "\4e"; margin: 0 .25rem 0 -1rem}
-.Bullet-Groesser-als li {list-style: none; margin-left: -15px;}
-.Bullet-Groesser-als li:before {content: "\203A"; margin-right:5px}
 .Bullet-Plus li:before {content: "+"; text-align: center; line-height: 20px; display: inline-block; width: 20px; height: 20px; color: #D90F18; font-weight: bold; font-size: 20px; margin: 0 .5rem 0 -20px; background-color: #fff; border-radius: 10px; box-shadow: 1px 1px 5px #C9C9C9; position: relative; top: 2px}
 .arrow_carrot-right:before, .Link-Liste a:before {content: "\35"; font-size: 1.25rem}
 .Filterparameter li:before {content: "\56"; margin: 0 5px 0 -1rem}
