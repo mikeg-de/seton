@@ -532,7 +532,7 @@ li:hover .sub {
 	transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in	}
 .sub a, .Teaser-Blog a, .Footer .Grid-System-Sitemap li a {margin: 0 0 .2rem 0; display: inline-block; max-width: 94%; vertical-align: top}
 .sub .Titel, .Thema-Name a {font-weight: bold; margin-left: 0}
-.nav-third li:before, .Teaser-Blog li:before, .Footer .Grid-System-Sitemap ul li:before, .nav-pri .PfeilLink:before, .Direktbestellung:before, .Weiterfuehrender-Link:before {content: "\203A"; margin-right:5px}
+.nav-third li:before, .Teaser-Blog li:before, .Footer .Grid-System-Sitemap ul li:before, .nav-pri .PfeilLink:before, .Direktbestellung:before, .Weiterfuehrender-Link:before, .Themen-Link ul li:before {content: "\203A"; margin-right:5px}
 #Breadcrumbs, .Breadcrumbs {clear: both; padding: .5rem 1.25%}
 .dropdown-list .sub {position: relative; background: 0 none; box-shadow: none; border: 0 none}
 
