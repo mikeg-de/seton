@@ -114,7 +114,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 .Grid-Themen-Index, .ui-dialog, .Footer, .Footer-Zuletzt-gesehene-Produkte {padding: 1rem 1.25%; clear: both}
 .Content th, .Content td, .Checkout-Print th, .Checkout-Print td {padding: 3px 3px 2px 2px; box-sizing: border-box}
 
-/* French DYO*/
+/* French DYO */
 .tab02 [type="text"] {max-width: 220px}
 .tab02 :disabled {display: inline-block}
 .SETON-Adressen {color: #666; border-top: 1px solid #ccc; margin-top: 30px !important; width: 100%}
@@ -144,14 +144,13 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 .Checkout-Confirmation-Page .Adresseingabe select {width: 150px}
 .Adresseingabe .Faxangebot {margin-top: 10px}
 .Checkbox input {float: left}
-.Checkbox p {padding-left: 25px; margin: 0}
-.Checkbox h4 {padding-left: 25px; margin: 0; line-height: 19px}
+.Checkbox h4, .Checkbox p {padding-left: 25px; margin: 0}
+.Checkbox h4 {line-height: 19px}
 
 /* Info-Layer */
 .Info-Link {cursor: pointer; display: inline-block}
-.Info-Link .Info-Text-JS .Button-close {display: none}
+.Info-Link .Info-Text-JS .Button-close, .Info-Link:hover .Info-Text {display: none}
 .Info-Link .Info-Text p, .Info-Link .Info-Text-JS p {margin-top: 0; width: auto !important}
-.Info-Link:hover .Info-Text {display: block}
 
 /* Basic field definitions */
 label:hover, label:focus {cursor: pointer}
@@ -167,8 +166,8 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 .Checkout-Warenkorb .Artikelsuche, .Checkout-Warenkorb .Warenkorb {display: inline-block; visibility: visible}
 .Checkout fieldset {border: 0 none;padding: 0}
 .Checkout-Adresseingabe fieldset {margin: 0}
-#Add_Lieferadresse ~ fieldset {opacity: 0; max-height: 0; overflow: hidden; visibility: hidden; transition: opacity .25s ease-out .25s, visibility .25s ease-out .25s, max-height .5s ease-out}
-#Add_Lieferadresse:checked ~ .Add_Lieferadresse, #Add_Rechnungsadresse:checked ~ .Add_Rechnungsadresse {opacity: 1; max-height: 2000px; display: block; overflow: initial; visibility: visible; transition: opacity .25s ease-in, max-height .5s ease-in}
+#Add_Lieferadresse ~ fieldset, [id^="question"] ~ .accordion {opacity: 0; max-height: 0; overflow: hidden; visibility: hidden; transition: opacity .25s ease-out .25s, visibility .25s ease-out .25s, max-height .5s ease-out}
+#Add_Lieferadresse:checked ~ .Add_Lieferadresse, #Add_Rechnungsadresse:checked ~ .Add_Rechnungsadresse, [id^="question"]:checked ~ .accordion {opacity: 1; max-height: 2000px; display: block; overflow: initial; visibility: visible; transition: opacity .25s ease-in, max-height .5s ease-in}
 .Adresseingabe p {margin-bottom: 0}
 .Warenkorb-Senden p {margin-bottom: .5rem}
 .Adresseingabe textarea {width: 50%; max-height: 300px}
@@ -534,7 +533,12 @@ li:hover .sub {
 .sub .Titel, .Thema-Name a {font-weight: bold; margin-left: 0}
 .nav-third li:before, .Teaser-Blog li:before, .Footer .Grid-System-Sitemap ul li:before, .nav-pri .PfeilLink:before, .Direktbestellung:before, .Weiterfuehrender-Link:before {content: "\203A"; margin-right:5px}
 #Breadcrumbs, .Breadcrumbs {clear: both; padding: .5rem 1.25%}
+
+/* Content Accordion */
 .dropdown-list .sub {position: relative; background: 0 none; box-shadow: none; border: 0 none}
+input[id^="question"] {display: none}
+label[for^="question"]:before {content: "\33";font-size: 1rem;display: inline-block;transition: all .25s ease-out;vertical-align: text-bottom;}
+[id^="question"]:checked + label:before {-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);-ms-transform: rotate(180deg);-o-transform: rotate(180deg);transform: rotate(180deg);transition: all .25s ease-in;}
 
 body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-overlay[data-overlay='right'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left'] {transition: opacity .25s ease-out, visibility .25s ease-out;opacity: 1;visibility: visible;width: 100%;height: 100%; z-index: initial}
 
