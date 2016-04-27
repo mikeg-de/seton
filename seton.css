@@ -1764,10 +1764,11 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.sub {border: 1px solid #ccc;border-top-width: .35rem;position: absolute; display: -ms-flexbox; display: flex; -ms-align-items: stretch; align-items: stretch; z-index: -1}
 	#topnav1 .sub {width: 76%}
 	#topnav4 .sub, #topnav7 .sub {width: 57%}
+	#topnav4 .sub {left: 19%}
+	#topnav7 .sub {left: 38%}
 	#topnav32 .sub, #topnav10 .sub {left: 0; width: 95%}
 	.col {box-sizing: border-box;margin: 0;padding: 5px 5px 5px 10px;-ms-flex: 1 1 25%;flex: 1 1 25%;border-right: 1px solid #ccc;}
 	.col-Themen {border-right: 0 none; background-color: #eee}
-	#topnavSale .sub {left:79.9%}
 	#topnavSale .col { padding:5px 10px}
 	#topnavSale li { border-bottom:1px solid #ccc; padding:1em 0 }
 	#topnavSale li:last-child { border:0 }
@@ -1777,9 +1778,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	#topnavSale .Weiterfuehrender-Link { position:relative; bottom:0; right:0; display:block; text-align:right }
 	#topnavSale a:hover .Titel,
 	#topnavSale a:hover .Weiterfuehrender-Link { text-decoration:underline }
-	#topnav4 .sub {left: 19%}
-	#topnav7 .sub {left: 38%}
-	#topnavSale .sub {left:79.9%}
+	#topnavSale .sub {left: 81%;width: 19%}
 	#topnavSale .col {padding:5px 10px}
 	#topnavSale li {border-bottom:1px solid #ccc; padding:1em 0}
 	#topnavSale li:last-child {border:0}
