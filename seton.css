@@ -980,12 +980,12 @@ img.rsImg {max-width: none}
 .produkt-name > :first-child, .produkt-name > :last-child {-webkit-flex: 0 1 100%; -ms-flex: 0 1 100%; flex: 0 1 100%}
 
 .produkt-name > :first-child {margin: 0}
-.produkt-name > :nth-child(2) {flex-basis: 15%}
-.produkt-name > :last-child {flex-basis: 20%}
+.produkt-name > :nth-child(2) {-ms-flex-basis: 15%; flex-basis: 15%}
+.produkt-name > :last-child {-ms-flex-basis: 20%; flex-basis: 20%}
 
-.produkt-name span[data-product] {flex-basis: 50%}
-.produkt-name [id^="Preis-Block"] .Preis {flex-basis: 100%}
-.produkt-name [id^="Preis-Block"] button {flex-basis: 30%; padding: 0 1em; align-self: flex-end}
+.produkt-name span[data-product] {-ms-flex-basis: 50%; flex-basis: 50%}
+.produkt-name [id^="Preis-Block"] .Preis {-ms-flex-basis: 100%; flex-basis: 100%}
+.produkt-name [id^="Preis-Block"] button {-ms-flex-basis: 30%; flex-basis: 30%; padding: 0 1em; -ms-align-self: flex-end, align-self: flex-end}
 .produkt-name [id^="Preis-Block"] button:before {color: #fff;margin: 0}
 
 .produkt-name .Weiterfuehrender-Link {position: static; width: 100%}
@@ -1765,7 +1765,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	#topnav1 .sub {width: 76%}
 	#topnav4 .sub, #topnav7 .sub {width: 57%}
 	#topnav32 .sub, #topnav10 .sub {left: 0; width: 95%}
-	.col {margin: 0;padding: 5px 5px 5px 10px;flex-grow: 1;flex-basis: 25%;border-right: 1px solid #ccc}
+	.col {margin: 0;padding: 5px 5px 5px 10px;flex-grow: 1;-ms-flex-basis: 25%; flex-basis: 25%;border-right: 1px solid #ccc}
 	.col-Themen {border-right: 0 none; background-color: #eee}
 	#topnavSale .sub {left:79.9%}
 	#topnavSale .col { padding:5px 10px}
