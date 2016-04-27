@@ -1761,7 +1761,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 @media only screen and (min-width:768px) {
 	.Artikelsuche {position: relative}
 	#suggestContainer {border-top: 0 none}
-	.sub {border: 1px solid #ccc;border-top-width: .35rem;position: absolute; -ms-display: flex; display: flex; -ms-align-items: stretch; align-items: stretch; z-index: -1}
+	.sub {border: 1px solid #ccc;border-top-width: .35rem;position: absolute; display: -ms-flexbox; display: flex; -ms-align-items: stretch; align-items: stretch; z-index: -1}
 	#topnav1 .sub {width: 76%}
 	#topnav4 .sub, #topnav7 .sub {width: 57%}
 	#topnav32 .sub, #topnav10 .sub {left: 0; width: 95%}
