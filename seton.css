@@ -965,7 +965,7 @@ img.rsImg {max-width: none}
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 /* http://caniuse.com/#search=flex */
 #produkt_listing {clear: both}
-.produkt-name, .produkt-name > :nth-child(3), .produkt-name [id^="Preis-Block"] {
+.produkt-name, .produkt-name .flex-select, .produkt-name [id^="Preis-Block"] {
     display: -ms-flexbox; display: -webkit-flex; display: flex;
 	-webkit-flex-flow: row wrap; -ms-flex-flow: row wrap; flex-flow: row wrap;
 	-webkit-align-items: flex-start; -ms-flex-align: flex-start; align-items: flex-start }
@@ -977,11 +977,11 @@ img.rsImg {max-width: none}
 #filter label {display: block}
 #filter select {width: 100%}
 
-.produkt-name > :first-child, .produkt-name > :last-child {-webkit-flex: 0 1 100%; -ms-flex: 0 1 100%; flex: 0 1 100%}
+.produkt-name h3, .produkt-name .flex-form {-webkit-flex: 0 1 100%; -ms-flex: 0 1 100%; flex: 0 1 100%}
 
-.produkt-name > :first-child {margin: 0}
-.produkt-name > :nth-child(2) {-ms-flex-basis: 15%; flex-basis: 15%}
-.produkt-name > :last-child {-ms-flex-basis: 20%; flex-basis: 20%}
+.produkt-name h3 {margin: 0}
+.produkt-name .flex-image {-ms-flex-basis: 15%; flex-basis: 15%}
+.produkt-name .flex-form {-ms-flex-basis: 20%; flex-basis: 20%}
 
 .produkt-name span[data-product] {-ms-flex-basis: 50%; flex-basis: 50%}
 .produkt-name [id^="Preis-Block"] .Preis {-ms-flex-basis: 100%; flex-basis: 100%}
