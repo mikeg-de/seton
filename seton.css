@@ -978,17 +978,16 @@ img.rsImg {max-width: none}
 #filter label {display: block}
 #filter select {width: 100%}
 
-.produkt-name h3, .produkt-name .flex-form {-webkit-flex: 0 1 100%; -ms-flex-positive: 0; -ms-flex-negative: 1; -ms-flex-preferred-size: 100%; flex: 0 1 100%}
+.produkt-name h3, .produkt-name form {-webkit-flex: 0 1 100%; -ms-flex-positive: 0; -ms-flex-negative: 1; -ms-flex-preferred-size: 100%; flex: 0 1 100%}
 
 .produkt-name h3 {margin: 0}
 .produkt-name .flex-image {-ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 15%; flex-basis: 15%}
 .produkt-name .Bildtext {display: inline-block; max-width: 100px}
-.produkt-name .flex-form {-ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 20%; flex-basis: 20%}
+.produkt-name form {-ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 20%; flex-basis: 20%}
 
 .produkt-name .flex-select span {-ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 50%; flex-basis: 50%}
 .produkt-name label {display: block}
 .produkt-name span span, .produkt-name button {display: inline-block}
-.produkt-name .Preis {-ms-flex-preferred-size: 100%; flex-basis: 100%}
 .produkt-name button {-ms-flex-preferred-size: 30%; flex-basis: 30%; padding: 0 1em; -ms-flex-line-pack: flex-end; align-self: flex-end}
 .produkt-name button:before {color: #fff;margin: 0}
 
