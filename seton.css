@@ -981,6 +981,7 @@ img.rsImg {max-width: none}
 
 .produkt-name h3 {margin: 0}
 .produkt-name .flex-image {-ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 15%; flex-basis: 15%}
+.produkt-name .Bildtext {display: inline-block; max-width: 100px}
 .produkt-name .flex-form {-ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 20%; flex-basis: 20%}
 
 .produkt-name span[data-product] {-ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 50%; flex-basis: 50%; display: inline-block; margin: 0; padding: 0}
