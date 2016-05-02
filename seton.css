@@ -818,6 +818,7 @@ img.rsImg {max-width: none}
 .Teaser-Weihnachtsbaum-Gewinnspiel img {position: absolute; left: 0; bottom: 0}
 .Teaser-Neu-bei-SETON img {top: 60px; left: 20px}
 .Teaser-Spar-Angebote img, .Teaser-Katalog img, .Teaser-Individuell-gestalten img, .col3 .NL-Aktion {position: absolute; right: 1rem; top: 1.5rem}
+.col3 .NL-Aktion {right: 0.5rem}
 .Trusted-Shop-Kundenbewertung, .bvh-teaser {text-align: center ; display: block}
 .Trusted-Shop-Kundenbewertung span {font-size: 9px; white-space: nowrap}
 
