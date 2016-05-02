@@ -987,7 +987,7 @@ img.rsImg {max-width: none}
 .produkt-name span[data-product] {-ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 50%; flex-basis: 50%; display: inline-block; margin: 0; padding: 0}
 .produkt-name span, .produkt-name button {display: inline-block}
 .produkt-name .Preis {-ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 100%; flex-basis: 100%}
-.produkt-name button {-ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 30%; flex-basis: 30%; padding: 0 1em; -ms-align-self: flex-end; align-self: flex-end}
+.produkt-name button {-ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 30%; flex-basis: 30%; padding: 0 1em; -ms-flex-line-pack: flex-end; align-self: flex-end}
 .produkt-name button:before {color: #fff;margin: 0}
 
 .produkt-name .Weiterfuehrender-Link {position: static; width: 100%}
