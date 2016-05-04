@@ -993,8 +993,8 @@ img.rsImg {max-width: none}
 
 .produkt-name .Weiterfuehrender-Link {position: static; width: 100%}
 
-span[data-product][data-category]:before {content: attr(data-category) ": "}
-span[data-product]:empty:before, span[data-product]:empty:after {content: initial}
+.flex-select span:before {content: attr(data-category) ": "}
+.flex-select span:empty:before {content: initial}
 
 #rabattdisclaimer {margin: 5px 15px}
 .Designcode-Artikelauswahl .addthis_toolbox {float: right}
