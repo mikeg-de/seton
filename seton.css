@@ -95,6 +95,8 @@ aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 .Bullet-Haekchen-2-spaltig li {width: 180px; float: left}
 .Bullet-Plus li {padding: 0 0 0 20px; margin: 0 0 5px 0}
 .Bullet-Plus li .Bullet {background-position: 0 -155px; height: 26px; width: 26px; top: 0}
+.Bullet-Groesser-als li {list-style: none; margin-left: -15px;}
+.Bullet-Groesser-als li:before {content: "\203A"; margin-right:5px}
 .Vorteile {list-style-type: none}
 .BulletPointBereich {margin: 0; padding: 0; list-style-type: none}
 .BulletPointBereich li {padding: 0 0 0 25px; background-repeat: no-repeat; background-position: 0 4px}
@@ -554,8 +556,6 @@ body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggl
 .Info-Icon:before {content: "\72"}
 .icon_info_alt:after {content: "\70"}
 .Bullet-Haekchen li:before, .Vorteile li:before {content: "\4e"; margin: 0 .25rem 0 -1rem}
-.Bullet-Groesser-als li {list-style: none; margin-left: -15px;}
-.Bullet-Groesser-als li:before {content: "\203A"; margin-right:5px}
 .Bullet-Plus li:before {content: "+"; text-align: center; line-height: 20px; display: inline-block; width: 20px; height: 20px; color: #D90F18; font-weight: bold; font-size: 20px; margin: 0 .5rem 0 -20px; background-color: #fff; border-radius: 10px; box-shadow: 1px 1px 5px #C9C9C9; position: relative; top: 2px}
 .arrow_carrot-right:before, .Link-Liste a:before {content: "\35"; font-size: 1.25rem}
 .Filterparameter li:before {content: "\56"; margin: 0 5px 0 -1rem}
@@ -818,6 +818,7 @@ img.rsImg {max-width: none}
 .Teaser-Weihnachtsbaum-Gewinnspiel img {position: absolute; left: 0; bottom: 0}
 .Teaser-Neu-bei-SETON img {top: 60px; left: 20px}
 .Teaser-Spar-Angebote img, .Teaser-Katalog img, .Teaser-Individuell-gestalten img, .col3 .NL-Aktion {position: absolute; right: 1rem; top: 1.5rem}
+.col3 .NL-Aktion {right: 0.5rem}
 .Trusted-Shop-Kundenbewertung, .bvh-teaser {text-align: center ; display: block}
 .Trusted-Shop-Kundenbewertung span {font-size: 9px; white-space: nowrap}
 
@@ -965,33 +966,35 @@ img.rsImg {max-width: none}
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 /* http://caniuse.com/#search=flex */
 #produkt_listing {clear: both}
-.produkt-name, .produkt-name > :nth-child(3), .produkt-name [id^="Preis-Block"] {
+.produkt-name, .produkt-name .flex-select, .produkt-name .Preis-Block {
     display: -ms-flexbox; display: -webkit-flex; display: flex;
-	-webkit-flex-flow: row wrap; -ms-flex-flow: row wrap; flex-flow: row wrap;
+	-webkit-flex-flow: row wrap; -ms-flex-direction: row; -ms-flex-wrap: wrap; flex-flow: row wrap;
 	-webkit-align-items: flex-start; -ms-flex-align: flex-start; align-items: flex-start }
 
-.produkt-name {margin-bottom: .5rem}
-.produkt-name span, .produkt-name [id^="Preis-Block"] span, .produkt-name [id^="Preis-Block"] button {-webkit-flex: 0 0 65%; -ms-flex: 0 0 65%; flex: 0 0 65%}
+.produkt-name {margin-bottom: .5rem; width: 100%}
+.produkt-name span, .produkt-name button {-webkit-flex: 0 0 65%; -ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 65%; flex: 0 0 65%}
 .produkt-name .preisnachher {display: block}
 
 #filter label {display: block}
 #filter select {width: 100%}
 
-.produkt-name > :first-child, .produkt-name > :last-child {-webkit-flex: 0 1 100%; -ms-flex: 0 1 100%; flex: 0 1 100%}
+.produkt-name h3, .produkt-name form {-webkit-flex: 0 1 100%; -ms-flex-positive: 0; -ms-flex-negative: 1; -ms-flex-preferred-size: 100%; flex: 0 1 100%}
 
-.produkt-name > :first-child {margin: 0}
-.produkt-name > :nth-child(2) {flex-basis: 15%}
-.produkt-name > :last-child {flex-basis: 20%}
+.produkt-name h3 {margin: 0}
+.produkt-name .flex-image {-ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 15%; flex-basis: 15%}
+.produkt-name .Bildtext {display: inline-block; max-width: 100px}
+.produkt-name form {-ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 20%; flex-basis: 20%}
 
-.produkt-name span[data-product] {flex-basis: 50%}
-.produkt-name [id^="Preis-Block"] .Preis {flex-basis: 100%}
-.produkt-name [id^="Preis-Block"] button {flex-basis: 30%; padding: 0 1em; align-self: flex-end}
-.produkt-name [id^="Preis-Block"] button:before {color: #fff;margin: 0}
+.produkt-name .flex-select span {-ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 50%; flex-basis: 50%}
+.produkt-name label {display: block}
+.produkt-name span span, .produkt-name button {display: inline-block}
+.produkt-name button {-ms-flex-preferred-size: 30%; flex-basis: 30%; padding: 0 1em; -ms-flex-line-pack: flex-end; align-self: flex-end}
+.produkt-name button:before {color: #fff;margin: 0}
 
 .produkt-name .Weiterfuehrender-Link {position: static; width: 100%}
 
-span[data-product][data-category]:before {content: attr(data-category) ": "}
-span[data-product]:empty:before, span[data-product]:empty:after {content: initial}
+.flex-select span:before {content: attr(data-category) ": "}
+.flex-select span:empty:before {content: initial}
 
 #rabattdisclaimer {margin: 5px 15px}
 .Designcode-Artikelauswahl .addthis_toolbox {float: right}
@@ -1761,13 +1764,14 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 @media only screen and (min-width:768px) {
 	.Artikelsuche {position: relative}
 	#suggestContainer {border-top: 0 none}
-	.sub {border: 1px solid #ccc;border-top-width: .35rem;position: absolute;/* left: initial; */display: flex;align-items: stretch;z-index: -1}
+	.sub {border: 1px solid #ccc;border-top-width: .35rem;position: absolute; display: -ms-flexbox; display: flex; -ms-align-items: stretch; align-items: stretch; z-index: -1}
 	#topnav1 .sub {width: 76%}
 	#topnav4 .sub, #topnav7 .sub {width: 57%}
+	#topnav4 .sub {left: 19%}
+	#topnav7 .sub {left: 38%}
 	#topnav32 .sub, #topnav10 .sub {left: 0; width: 95%}
-	.col {margin: 0;padding: 5px 5px 5px 10px;flex-grow: 1;flex-basis: 25%;border-right: 1px solid #ccc}
+	.col {box-sizing: border-box;margin: 0;padding: 5px 5px 5px 10px;-ms-flex: 1 1 25%;flex: 1 1 25%;border-right: 1px solid #ccc;}
 	.col-Themen {border-right: 0 none; background-color: #eee}
-	#topnavSale .sub {left:79.9%}
 	#topnavSale .col { padding:5px 10px}
 	#topnavSale li { border-bottom:1px solid #ccc; padding:1em 0 }
 	#topnavSale li:last-child { border:0 }
@@ -1777,11 +1781,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	#topnavSale .Weiterfuehrender-Link { position:relative; bottom:0; right:0; display:block; text-align:right }
 	#topnavSale a:hover .Titel,
 	#topnavSale a:hover .Weiterfuehrender-Link { text-decoration:underline }
-	.sub {/* background: #fff url(/images/Navi/sub-bg.gif) repeat-y right; *//* border: 1px solid #ccc; *//* border-top-width: .35rem; *//* position: absolute; *//* left: 0; *//* z-index: -1; */}
-	#topnav4 .sub {left: 19%}
-	#topnav7 .sub {left: 38%}
-	.col {/* width: 204px; *//* float: left; */margin: 0;padding: 5px 5px 5px 10px;box-sizing: border-box}
-	#topnavSale .sub {left:79.9%}
+	#topnavSale .sub {left: 81%;width: 19%}
 	#topnavSale .col {padding:5px 10px}
 	#topnavSale li {border-bottom:1px solid #ccc; padding:1em 0}
 	#topnavSale li:last-child {border:0}
