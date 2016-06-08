@@ -173,7 +173,7 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 .Adresseingabe p {margin-bottom: 0}
 .Warenkorb-Senden p {margin-bottom: .5rem}
 .Adresseingabe textarea {width: 50%; max-height: 300px}
-.Checkout-Adresseingabe .Adresseingabe label, .Kontakt .Adresseingabe label {display: block; width: 50%}
+.Checkout-Adresseingabe .Adresseingabe label, .Kontakt .Adresseingabe label, .Fax-Angebote .Adresseingabe label {display: block; width: 50%}
 .Adresseingabe .col3 label {width: 100%}
 .Checkout [type="checkbox"] + label {width: 53%; margin-bottom: .75rem}
 .Checkout span.tooltips, .PDF-Download span.tooltips {bottom: 0; right: auto;top: auto}
