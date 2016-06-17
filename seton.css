@@ -84,7 +84,7 @@ h5, .h5, h5 a, .Title5 a {margin: 0 0 .3rem 0}
 /* Listen */
 ul, .PUES-Subnavigation-Kategorien, .Teaser-Blog ul, .Teaser .Bullet-Haekchen, ul.Weihnachtskugeln {margin: 0 0 .5rem 0; padding: 0; list-style-position: outside}
 .col6.Bullet-Haekchen {margin:0}
-.Bullet-Haekchen.thankyou {margin-left: 0; margin-top: 10px;}
+.Bullet-Haekchen.thankyou {margin-left: 0; margin-top: 10px}
 .Content ul, .PUES-Subnavigation-Kategorien {margin-left: 1rem}
 .Teaser-Blog ul, .dropdown-list {margin: 0}
 ul.Bullet-Haekchen, ul.Weihnachtskugeln, .Teaser-Blog ul, .Footer ul, .dropdown-list {list-style-type: none}
@@ -95,7 +95,7 @@ aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 .Bullet-Haekchen-2-spaltig li {width: 180px; float: left}
 .Bullet-Plus li {padding: 0 0 0 20px; margin: 0 0 5px 0}
 .Bullet-Plus li .Bullet {background-position: 0 -155px; height: 26px; width: 26px; top: 0}
-.Bullet-Groesser-als li {list-style: none; margin-left: -15px;}
+.Bullet-Groesser-als li {list-style: none; margin-left: -15px}
 .Bullet-Groesser-als li:before {content: "\203A"; margin-right:5px}
 .Vorteile {list-style-type: none}
 .BulletPointBereich {margin: 0; padding: 0; list-style-type: none}
@@ -179,10 +179,8 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 .Checkout span.tooltips, .PDF-Download span.tooltips {bottom: 0; right: auto;top: auto}
 .Checkout-Adresseingabe .Kundennummer-Prefix {position: absolute; left: .25rem; top: 1.75rem}
 .Checkout-Adresseingabe #kundenadr_Kundennummer {padding-left: 2rem}
-.Checkout-Adresseingabe [class*="_Anrede"], .Warenkorb-Senden [class*="_Anrede"], .Checkout-Adresseingabe [class*="_Land"], .Checkout fieldset [type="checkbox"], .Checkout-Adresseingabe .kundenadr_Kundennummer {clear: both; display: block}
-.Checkout-Adresseingabe [class*="_Anrede"] select, .Warenkorb-Senden [class*="_Anrede"] select, .Checkout-Adresseingabe [class*="_Land"] select, .col3 input {width: 100%}
-.Checkout-Adresseingabe [class*="_Anrede"], .Checkout-Adresseingabe [class*="_Land"], .Checkout fieldset [type="checkbox"], .Checkout-Adresseingabe .kundenadr_Kundennummer {clear: both; display: block}
-.Checkout-Adresseingabe [class*="_Anrede"] select, .Checkout-Adresseingabe [class*="_Land"] select, .col3 input {width: 100%}
+.Checkout-Adresseingabe [class*="_Anrede"], [class*="_Land"], .Checkout fieldset [type="checkbox"], .Checkout-Adresseingabe .kundenadr_Kundennummer, .Warenkorb-Senden [class*="_Anrede"] {clear: both; display: block}
+.Checkout-Adresseingabe [class*="_Anrede"] select, .Warenkorb-Senden [class*="_Anrede"] select, [class*="_Land"] select, .col3 input {width: 100%}
 .Checkout [type="checkbox"] {float: left}
 .Adresseingabe button {margin-left: 32%}
 
@@ -200,7 +198,7 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 .Checkout-Check-and-Send a.col3 {display: block; clear: both}
 
 /* Check Out validation response */
-.Checkout-Adresseingabe .optional :not([class$="tooltip"]) {opacity: .75; transition: opacity .5s ease-out}
+.optional :not([class$="tooltip"]) {opacity: .75; transition: opacity .5s ease-out}
 .Checkout-Adresseingabe .optional:hover :not([class$="tooltip"]), .Checkout-Adresseingabe .optional:focus :not([class$="tooltip"]) {opacity: 1; transition: opacity .5s ease-in}
 
 .required .LV_valid_field, .optional .LV_valid_field {border-color: #19B201}
@@ -214,8 +212,7 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 .LV_invalid, .Hinweistext {position: absolute}
 
 /* http://l-lin.github.io/font-awesome-animation/ */
-@-webkit-keyframes tada {
-	0% {-webkit-transform: scale(1); transform: scale(1)}
+@-webkit-keyframes tada {0% {-webkit-transform: scale(1); transform: scale(1)}
 	10%, 20% {-webkit-transform: scale(.9) rotate(-8deg); transform: scale(.9) rotate(-8deg)}
 	30%, 50%, 70% {-webkit-transform: scale(1.3) rotate(8deg); transform: scale(1.3) rotate(8deg)}
 	40%, 60% {-webkit-transform: scale(1.3) rotate(-8deg); transform: scale(1.3) rotate(-8deg)}
@@ -411,7 +408,7 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 #cboxClose.hover {background-position: -25px -25px}
 
 select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, #ededed 100%)}
-.Checkout select {background: 0 none}
+.Checkout select, #Kontakt select {background: 0 none}
 
 /* Wrapper ==========================*/
 #Wrapper {border-spacing: 0; border: 0; margin-bottom: 1rem}
@@ -529,7 +526,7 @@ li:hover .sub {
 	opacity: 1;
 	max-height: 2000px;
 	/* iOS: visibility breaks transition but required for touch events and block is not animatable */
-	transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in	}
+	transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in}
 .sub a, .Teaser-Blog a, .Footer .Grid-System-Sitemap li a {margin: 0 0 .2rem 0; display: inline-block; max-width: 94%; vertical-align: top}
 .sub .Titel, .Thema-Name a {font-weight: bold; margin-left: 0}
 .nav-third li:before, .Teaser-Blog li:before, .Footer .Grid-System-Sitemap ul li:before, .nav-pri .PfeilLink:before, .Direktbestellung:before, .Weiterfuehrender-Link:before {content: "\203A"; margin-right:5px}
@@ -538,8 +535,8 @@ li:hover .sub {
 /* Content Accordion */
 .dropdown-list .sub {position: relative; background: 0 none; box-shadow: none; border: 0 none}
 input[id^="question"] {display: none}
-label[for^="question"]:before {content: "\33";font-size: 1rem;display: inline-block;transition: all .25s ease-out;vertical-align: text-bottom;}
-[id^="question"]:checked + label:before {-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);-ms-transform: rotate(180deg);-o-transform: rotate(180deg);transform: rotate(180deg);transition: all .25s ease-in;}
+label[for^="question"]:before {content: "\33";font-size: 1rem;display: inline-block;transition: all .25s ease-out;vertical-align: text-bottom}
+[id^="question"]:checked + label:before {-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);-ms-transform: rotate(180deg);-o-transform: rotate(180deg);transform: rotate(180deg);transition: all .25s ease-in}
 
 body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-overlay[data-overlay='right'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left'] {transition: opacity .25s ease-out, visibility .25s ease-out;opacity: 1;visibility: visible;width: 100%;height: 100%; z-index: initial}
 
@@ -826,7 +823,7 @@ img.rsImg {max-width: none}
 .Teaser-Newsletter .Eingabefeld {border: 1px solid #ccc}
 .Teaser-Newsletter button {height: 32px}
 .Teaser-Newsletter p.LV_validation_message, .Teaser-Newsletter .Hinweistext {position: absolute; bottom: 100%; margin: 0; max-width: 100%}
-.NL-Feedback-Ajax { margin-top: 5px; margin-bottom: 5px; color: #509e2f }
+.NL-Feedback-Ajax {margin-top: 5px; margin-bottom: 5px; color: #509e2f}
 
 /* Teaser Ostereiersuche */
 .Teaser-Ostereiersuche .Button-klein-T-Zum-Gewinnspiel {position: absolute; bottom: 0; right: 0}
@@ -957,7 +954,7 @@ img.rsImg {max-width: none}
 .produkt-name, .produkt-name .flex-select, .produkt-name .Preis-Block {
     display: -ms-flexbox; display: -webkit-flex; display: flex;
 	-webkit-flex-flow: row wrap; -ms-flex-direction: row; -ms-flex-wrap: wrap; flex-flow: row wrap;
-	-webkit-align-items: flex-start; -ms-flex-align: flex-start; align-items: flex-start }
+	-webkit-align-items: flex-start; -ms-flex-align: flex-start; align-items: flex-start}
 
 .produkt-name {margin-bottom: .5rem; width: 100%}
 .produkt-name span, .produkt-name button {-webkit-flex: 0 0 65%; -ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 65%; flex: 0 0 65%}
@@ -1358,8 +1355,7 @@ ul.grid-view, ul.list-view {margin: 0}
 	border-left: 0 none;
 	border-bottom: 0 none;
 	border-radius: 0 5px 0 0;
-	z-index: 1
-	}
+	z-index: 1}
 
 .Schritt-2-Bestellung-pruefen {padding: 0 0 0 4%}
 
@@ -1389,7 +1385,7 @@ textarea {height: 4rem;font: inherit}
 .Treue {padding: 10px; border: 1px solid #ccc; margin: 10px 0 0 0; display: none}
 .Social-Network {border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 5px 0 10px 0; margin: 50px 0 20px 0}
 .Twitter-Facebook {margin: 10px 0 0 0}
-.Social-Media li {display: inline-block;}
+.Social-Media li {display: inline-block}
 
 /* Checkout Print ==========================*/
 .Checkout-Print {position: relative; width: 100%}
@@ -1753,17 +1749,17 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	#topnav4 .sub {left: 19%}
 	#topnav7 .sub {left: 38%}
 	#topnav32 .sub, #topnav10 .sub {left: 0; width: 95%}
-	.col {box-sizing: border-box;margin: 0;padding: 5px 5px 5px 10px;-ms-flex: 1 1 25%;flex: 1 1 25%;border-right: 1px solid #ccc;}
+	.col {box-sizing: border-box;margin: 0;padding: 5px 5px 5px 10px;-ms-flex: 1 1 25%;flex: 1 1 25%;border-right: 1px solid #ccc}
 	.col-Themen {border-right: 0 none; background-color: #eee}
-	#topnavSale .col { padding:5px 10px}
-	#topnavSale li { border-bottom:1px solid #ccc; padding:1em 0 }
-	#topnavSale li:last-child { border:0 }
-	#topnavSale .Description { color:#3e3e3e; display:block }
-	#topnavSale > a { display:block;font-size: 2rem;   line-height: 2.5rem}
-	#topnavSale a:hover { text-decoration:none }
-	#topnavSale .Weiterfuehrender-Link { position:relative; bottom:0; right:0; display:block; text-align:right }
+	#topnavSale .col {padding:5px 10px}
+	#topnavSale li {border-bottom:1px solid #ccc; padding:1em 0}
+	#topnavSale li:last-child {border:0}
+	#topnavSale .Description {color:#3e3e3e; display:block}
+	#topnavSale > a {display:block;font-size: 2rem;   line-height: 2.5rem}
+	#topnavSale a:hover {text-decoration:none}
+	#topnavSale .Weiterfuehrender-Link {position:relative; bottom:0; right:0; display:block; text-align:right}
 	#topnavSale a:hover .Titel,
-	#topnavSale a:hover .Weiterfuehrender-Link { text-decoration:underline }
+	#topnavSale a:hover .Weiterfuehrender-Link {text-decoration:underline}
 	#topnavSale .sub {left: 81%;width: 19%}
 	#topnavSale .col {padding:5px 10px}
 	#topnavSale li {border-bottom:1px solid #ccc; padding:1em 0}
