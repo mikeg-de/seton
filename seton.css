@@ -159,7 +159,7 @@ label:hover, label:focus {cursor: pointer}
 input, textarea, select {padding: 5px 5px 2px 5px; border-radius: 0; height: 2rem; box-sizing: border-box; border: 1px solid #999; font-size: inherit}
 [type="checkbox"], [type="radio"] {height: initial}
 :required, .required input, .required select {border-color: #000}
-select {height: 2rem; -webkit-appearance: menulist; -moz-appearance: menulist; appearance: menulist}
+select {-webkit-appearance: menulist;-moz-appearance: menulist;appearance: menulist;}
 select:hover, input:hover {box-shadow: 0 0 3px 1px #999}
 button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #4d90fe}
 
@@ -180,7 +180,7 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 .Checkout-Adresseingabe .Kundennummer-Prefix {position: absolute; left: .25rem; top: 1.75rem}
 .Checkout-Adresseingabe #kundenadr_Kundennummer {padding-left: 2rem}
 .Checkout-Adresseingabe [class*="_Anrede"], [class*="_Land"], .Checkout fieldset [type="checkbox"], .Checkout-Adresseingabe .kundenadr_Kundennummer, .Warenkorb-Senden [class*="_Anrede"] {clear: both; display: block}
-.Checkout-Adresseingabe [class*="_Anrede"] select, .Warenkorb-Senden [class*="_Anrede"] select, [class*="_Land"] select, .col3 input {width: 100%}
+[class*="_Anrede"] select, [class*="_Anrede"] select, [class*="_Land"] select, .col3 input {width: 100%}
 .Checkout [type="checkbox"] {float: left}
 .Adresseingabe button {margin-left: 32%}
 
