@@ -11,7 +11,7 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 
 /* Clear-Fix */
 .clear:after, .content [class*="col"]:after, #Footer [class*="col"]:after, .ASR-Teaser:after {content: "."; display: block; height: 0; clear: both; visibility: hidden}
-#PDS-Content, #produktliste-komplett {clear: both}
+#PDS-Content, #produktliste-komplett, #produkt_listing_hinweis {clear: both}
 
 /* Overflow hidden */
 .overflow {overflow: hidden}
