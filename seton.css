@@ -159,7 +159,7 @@ label:hover, label:focus {cursor: pointer}
 input, textarea, select {padding: 5px 5px 2px 5px; border-radius: 0; height: 2rem; box-sizing: border-box; border: 1px solid #999; font-size: inherit}
 [type="checkbox"], [type="radio"] {height: initial}
 :required, .required input, .required select {border-color: #000}
-select {-webkit-appearance: menulist;-moz-appearance: menulist;appearance: menulist;}
+select {-webkit-appearance: menulist;-moz-appearance: menulist;appearance: menulist}
 select:hover, input:hover {box-shadow: 0 0 3px 1px #999}
 button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #4d90fe}
 
@@ -501,13 +501,14 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 /* Warenkorb-Reminder */
 .Warenkorb-Reminder {background: #EAF5FF; border: 3px solid #00609F; width: 466px; position: absolute; top: 50px; left: 50%; z-index: 100000; margin-left: -226px}
 .Warenkorb-Reminder .Title1 {color: #fff; font-weight: normal; padding: 10px; background: #00609F; margin: 0 0 20px 0}
-.Warenkorb-Reminder .Frau-Einkaufstuete {float: right}
+.Frau-Einkaufstuete {float: right}
 .Warenkorb-Reminder .Fenster-schliessen {position: absolute; top: 5px; right: 5px; color: #fff}
 .Warenkorb-Reminder .Fenster-schliessen:hover, #Header .Hotline a:hover {text-decoration: none}
-.Warenkorb-Reminder .Warenkorb-Reminder-Content {padding: 60px 0 0 30px; text-align: center}
-.Warenkorb-Reminder .Warenkorb-Reminder-Content span {color: #E60F19; font-size: 1.9rem; display: block; margin: .3rem 0}
-.Warenkorb-Reminder .Warenkorb-Reminder-Content .Klein {font-size: 7pt}
-.Warenkorb-Reminder .Warenkorb-Reminder-Content .Fall-2 {font-size: 1.2rem}
+.Warenkorb-Reminder-Content {padding: 20px 0 0 15px; text-align: center}
+.Warenkorb-Reminder-Content span {color: #E60F19; font-size: 1.75rem; display: block; margin: .75rem 0}
+.Warenkorb-Reminder-Content .Klein {font-size: 7pt}
+.Warenkorb-Reminder-Content .Fall-2 {font-size: 1.2rem}
+.Warenkorb-Reminder .Button-gross-gruen {margin: .5em 0 1em 0}
 .Warenkorb-Reminder .Bestellung-abschliessen {text-align: center}
 
 /* Hauptnavigation ==========================*/
