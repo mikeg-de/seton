@@ -452,6 +452,11 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 .Produktreihe-Grid-System .Grid3 .Link-Mehr-Produkte {position: absolute; z-index: 1; bottom: 8px; left: 7px}
 * html .Produktreihe-Grid-System .Grid3 .Link-Mehr-Produkte {left: 0}
 
+/* Inhaltssuche*/
+.contentart {color: #666; margin-top: 0}
+.deeplink {margin: 0 0 .2rem 0; display: inline-block; max-width: 94%; vertical-align: top; color: #0061a0;}
+.deeplink:hover {text-decoration: underline;}
+
 /* Kontakt-Infos ==========================*/
 .Teaser-Kontakt > div, .Hotline, .Fax, .Mail, .Anschrift, .Info, .Online-Shop {text-align: left; position: relative;margin: 0 0 1rem;left: 0; top: 0; padding-left: 1.5rem; color: #8A8A8A}
 .Teaser-Kontakt .Icon, .Info .Icon, .Online-Shop .Icon, .Warenkorb .Icon {position: absolute;left: 0;font-size: 1rem}
@@ -530,7 +535,7 @@ li:hover .sub {
 	transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in}
 .sub a, .Teaser-Blog a, .Footer .Grid-System-Sitemap li a {margin: 0 0 .2rem 0; display: inline-block; max-width: 94%; vertical-align: top}
 .sub .Titel, .Thema-Name a {font-weight: bold; margin-left: 0}
-.nav-third li:before, .Teaser-Blog li:before, .Footer .Grid-System-Sitemap ul li:before, .nav-pri .PfeilLink:before, .Direktbestellung:before, .Weiterfuehrender-Link:before {content: "\203A"; margin-right:5px}
+.nav-third li:before, .Teaser-Blog li:before, .Footer .Grid-System-Sitemap ul li:before, .nav-pri .PfeilLink:before, .Direktbestellung:before, .Weiterfuehrender-Link:before, .deeplink:before  {content: "\203A"; margin-right:5px}
 #Breadcrumbs, .Breadcrumbs {clear: both; padding: .5rem 1.25%}
 
 /* Content Accordion */
@@ -565,6 +570,7 @@ body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggl
 .Mail .Icon:before {content: "@";font-size: 1rem;font-family: Arial}
 .Anschrift .Icon:before {content: "\e010"}
 .icon_documents_alt:before {content: "\69";margin: 0 .5rem 0 0}
+.icon_document_alt:before {content: "\68";}
 
 /* Teaser ==========================*/
 /* Allgemein */
