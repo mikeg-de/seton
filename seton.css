@@ -571,8 +571,9 @@ body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggl
 .Anschrift .Icon:before {content: "\e010"}
 .icon_documents_alt:before {content: "\69";margin: 0 .5rem 0 0}
 .icon_document_alt:before {content: "\68";}
+.icon_download:before {content: "\e092";}
 
-/* Teaser ==========================*/
+    /* Teaser ==========================*/
 /* Allgemein */
 .Teaser {position: relative}
 .Sidebar .Teaser {margin: 0 0 1rem}
