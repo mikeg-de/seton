@@ -456,6 +456,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 .contentart {color: #666; margin-top: 0}
 .deeplink {margin: 0 0 .2rem 0; display: inline-block; max-width: 94%; vertical-align: top; color: #0061a0;}
 .deeplink:hover {text-decoration: underline;}
+.inhalt .Bild {margin-right: 1rem}
 
 /* Kontakt-Infos ==========================*/
 .Teaser-Kontakt > div, .Hotline, .Fax, .Mail, .Anschrift, .Info, .Online-Shop {text-align: left; position: relative;margin: 0 0 1rem;left: 0; top: 0; padding-left: 1.5rem; color: #8A8A8A}
