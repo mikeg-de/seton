@@ -453,7 +453,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 * html .Produktreihe-Grid-System .Grid3 .Link-Mehr-Produkte {left: 0}
 
 /* Inhaltssuche*/
-.contentart {color: #666; margin-top: 0}
+.contentart {color: #666; margin-top: 1rem; display: block}
 .deeplink {margin: 0 0 .2rem 0; display: inline-block; max-width: 94%; vertical-align: top; color: #0061a0;}
 .deeplink:hover {text-decoration: underline;}
 .inhalt .Bild {margin-right: 1rem}
