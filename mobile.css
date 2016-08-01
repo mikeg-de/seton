@@ -33,7 +33,8 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	#Ostereiersuche {position: relative; left: 0; top: 0}
 
 	.Grid-System-Social-Media .col4 {width: 32.5%; margin: 0 0 .75rem 1.25%}
-	.pure-toggle-label[data-toggle-label="left"], .PUES .pure-toggle-label.data-icon {display: block}
+	.pure-toggle-label[data-toggle-label="left"], .PUES .pure-toggle-label.data-icon {display: block; font-size: 2.5em}
+	.pure-toggle-label.bottom {}
 	.PUES-Landingpage .pure-toggle-label[data-toggle-label='left-bottom'] {display: none}
 
 	#Header {height: 2.75rem; background-color: #fff; position: fixed; z-index:90; border-bottom: 1px solid #ccc}
@@ -45,6 +46,7 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	aside.pure-drawer {padding: 0 .5rem}
 	aside li a {display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem}
 	.Filter {height: auto !important}
+	.Filter li a {display: inline-block}
 	.Homepage .Avail .item {width: 130px}
 
 	nav.pure-drawer[data-position="left"], aside.pure-drawer[data-position="left-bottom"], aside.pure-drawer[data-position="right-bottom"] {z-index: 120; margin: 2.75rem 0; max-width: 400px; width: 100%;top: 0}
