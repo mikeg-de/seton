@@ -505,12 +505,12 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 #Header .Warenkorb .Button-klein-grau button:hover {box-shadow: none}
 
 /* Warenkorb-Reminder */
-.Warenkorb-Reminder {background: #EAF5FF; border: 3px solid #00609F; width: 466px; position: absolute; top: 50px; left: 50%; z-index: 100000; margin-left: -226px}
+.Warenkorb-Reminder {background: #EAF5FF;border: 3px solid #00609F; width: 100%; max-width: 466px; position: absolute; top: 50px;left: 50%;z-index: 100000; -webkit-transform: translatex(-50%);-moz-transform: translatex(-50%);-ms-transform: translatex(-50%);-o-transform: translatex(-50%);transform: translatex(-50%)}
 .Warenkorb-Reminder .Title1 {color: #fff; font-weight: normal; padding: 10px; background: #00609F; margin: 0 0 20px 0}
-.Frau-Einkaufstuete {float: right}
+.Frau-Einkaufstuete {float: right; 	max-width: 40%}
 .Warenkorb-Reminder .Fenster-schliessen {position: absolute; top: 5px; right: 5px; color: #fff}
 .Warenkorb-Reminder .Fenster-schliessen:hover, #Header .Hotline a:hover {text-decoration: none}
-.Warenkorb-Reminder-Content {padding: 20px 0 0 15px; text-align: center}
+.Warenkorb-Reminder-Content {padding: 20px 0 0 15px; text-align: center; max-width: 60%}
 .Warenkorb-Reminder-Content span {color: #E60F19; font-size: 1.75rem; display: block; margin: .75rem 0}
 .Warenkorb-Reminder-Content .Klein {font-size: 7pt}
 .Warenkorb-Reminder-Content .Fall-2 {font-size: 1.2rem}
