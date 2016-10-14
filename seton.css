@@ -467,7 +467,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 /* Head ==========================*/
 #Header {width: 100%; position: relative; z-index:90}
 .Logo, .Artikelsuche {margin: 0 0 .75rem 1.25%; vertical-align: top; display: inline-block}
-.Balken {background: #00609F; height: 1.5rem; margin-bottom: 1rem;padding: 10px 1.25% 0; display: block; line-height: 1rem}
+.header-balken-blau {background: #00609F; height: 1.5rem; margin-bottom: 1rem;padding: 10px 1.25% 0; display: block; line-height: 1rem}
 
 /* Meta-Navi */
 #Header .Meta-Navi {position: absolute; right: 28%; list-style-type: none; margin: 0}
