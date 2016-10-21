@@ -1088,7 +1088,7 @@ ul.grid-view, .cc-slides .inner {display: flex;-ms-align-items: stretch;align-it
 	align-items: flex-end;
 	flex-grow: 1;
 }
-.grid-view .Preis-Lieferbarkeit {/* text-align:right; */}
+.grid-view .Preis-Lieferbarkeit {text-align:right;width: 33.33%;}
 
 /* Produktliste */
 .list.products .Bild {height: 150px;}
