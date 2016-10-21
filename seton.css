@@ -1064,7 +1064,7 @@ aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .grid-view .item:nth-child(-n+3),
 .grid-view.items-4 .item:nth-child(-n+4) {border-top: 0 none}
 .list .item {position: relative;box-sizing: border-box;border-right: 1px solid #ccc;padding: 10px;/* float:left; */list-style-type:none;}
-.list .item > a {color: #3a3a3a;height: 100%;display: flex;flex-direction: column;}
+.list .item > a {color: #3a3a3a;height: 100%;display: flex;flex-direction: column;/* justify-content: flex-start; *//* align-items: flex-end; */}
 .list .item > a:hover {color: #3a3a3a; text-decoration: none}
 .list a .Link, .Produkt-Name, .Produkttitel {color: #0061a0}
 .list a:hover .Link, .list a:hover .Produkt-Name, .list a:hover .Produktitel, .No-Link:hover .Link {text-decoration: underline}
@@ -1078,16 +1078,17 @@ ul.grid-view, .cc-slides .inner {display: flex;-ms-align-items: stretch;align-it
 .categories .grid-view .item:nth-child(3n), .PUES .grid-view .item:last-child {border-right: 0}
 .grid-view .product-list-item > a {height: 250px; margin: 15px 10px 10px}
 .Bild {display: block;}
-.grid-view .Artikelanzahl, .grid-view .Preis-Lieferbarkeit {/* position: absolute; *//* bottom:0; */margin: 0;}
-.list .item > a > :nth-last-child(-n+2) {}
+.grid-view .Artikelanzahl, .grid-view .Preis-Lieferbarkeit {/* position: absolute; *//* bottom:0; *//* margin: 0; */}
+.list .item > a > :nth-last-child(-n+2) {
+	margin-top: 10px;
+}
 .grid-view .Artikeldetails {
-	/* flex-direction: row; */
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
-	margin-top: 10px;
+	flex-grow: 1;
 }
-.grid-view .Preis-Lieferbarkeit {text-align:right;}
+.grid-view .Preis-Lieferbarkeit {/* text-align:right; */}
 
 /* Produktliste */
 .list.products .Bild {height: 150px;}
@@ -1101,7 +1102,7 @@ ul.grid-view, .cc-slides .inner {display: flex;-ms-align-items: stretch;align-it
 .list.products .Produkt-nicht-verfuegbar .Bildsperre-Produkt-nicht-verfuegbar {background: #ccc; width: 100%; height: 100%; position: absolute; top: 0; left: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)"; filter: alpha(opacity=30); -khtml-opacity: .3; opacity: .3; z-index: 1}
 
 .grid-view.products h2 + .Bild {height: 150px}
-.grid-view.products .Produkt-Name {text-align: center}
+.grid-view.products .Produkt-Name {text-align: center;}
 .grid-view.products .Produkt-Symbole img {position: absolute; z-index: 1}
 .grid-view.products .Produkt-Symbole .Sparen {top: 0px; left: 0px}
 .grid-view.products .Produkt-Symbole .Angebot-der-Woche {position: absolute; top: -9px; left: -9px; display: none}
