@@ -19,7 +19,8 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.PDS aside, .Checkout aside {padding: 0 1.25% 0}
 	.Checkout aside .Teaser {float: left; margin: 0 0 1.25rem 1.25%}
 
-	.PUES .grid-view .item {height: 280px}
+	.PUES .grid-view .item {min-height: 280px}
+	.grid-view .Artikeldetails {flex-direction: column; align-items: center}
 	.list.categories.buttons .item .Bild, #cc_slider_home_page_top_seller .Bild, #cc_slider_home_page_new_products .Bild, #cc-slider-hp-topseller .Bild, #cc-slider-hp-Neuheiten .Bild, #cc-slider-lsp .Bild {height: 130px;}
 	.Logo {width: 30%}
 
