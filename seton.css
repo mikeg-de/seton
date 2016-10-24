@@ -45,7 +45,7 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .grid-view.items-4 .item {width:25%}
 
 /* Vertical centered*/
-.rsWithThumbsHor .rsSlide img, .Designcode-Artikelauswahl .rsSlide #PDS-RS-Video, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .categries h2 + .Bild img, .grid-view.products .Bild img, .item.box-grey .Text span  {position: relative; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%)}
+.rsWithThumbsHor .rsSlide img, .Designcode-Artikelauswahl .rsSlide #PDS-RS-Video, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .categries h2 + .Bild img, .grid-view.products .Bild img, .item.box-grey .Text span  {position: relative; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%)}
 .rsFullscreen .rsContainer .rsSlide img, .rsFullscreen .rsSlide .Rotating-image {/*-webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0)*/}
 
 /* Text */
@@ -212,21 +212,15 @@ button:hover, button:focus, select:focus, input:focus {box-shadow: 0 0 3px 1px #
 .LV_invalid, .Hinweistext {position: absolute}
 
 /* http://l-lin.github.io/font-awesome-animation/ */
-@-webkit-keyframes tada {0% {-webkit-transform: scale(1); transform: scale(1)}
-	10%, 20% {-webkit-transform: scale(.9) rotate(-8deg); transform: scale(.9) rotate(-8deg)}
-	30%, 50%, 70% {-webkit-transform: scale(1.3) rotate(8deg); transform: scale(1.3) rotate(8deg)}
-	40%, 60% {-webkit-transform: scale(1.3) rotate(-8deg); transform: scale(1.3) rotate(-8deg)}
-	80%, 100% {-webkit-transform: scale(1) rotate(0); transform: scale(1) rotate(0)}}
-
 @keyframes tada {
-	0% {-webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1)}
-	10%, 20% {-webkit-transform: scale(.9) rotate(-8deg); -ms-transform: scale(.9) rotate(-8deg); transform: scale(.9) rotate(-8deg)}
-	30%, 50%, 70% {-webkit-transform: scale(1.3) rotate(8deg); -ms-transform: scale(1.3) rotate(8deg); transform: scale(1.3) rotate(8deg)}
-	40%, 60% {-webkit-transform: scale(1.3) rotate(-8deg); -ms-transform: scale(1.3) rotate(-8deg); transform: scale(1.3) rotate(-8deg)}
-	80%, 100% {-webkit-transform: scale(1) rotate(0); -ms-transform: scale(1) rotate(0); transform: scale(1) rotate(0)}}
+	0% {-ms-transform: scale(1); transform: scale(1)}
+	10%, 20% {-ms-transform: scale(.9) rotate(-8deg); transform: scale(.9) rotate(-8deg)}
+	30%, 50%, 70% {-ms-transform: scale(1.3) rotate(8deg); transform: scale(1.3) rotate(8deg)}
+	40%, 60% {-ms-transform: scale(1.3) rotate(-8deg); transform: scale(1.3) rotate(-8deg)}
+	80%, 100% {-ms-transform: scale(1) rotate(0); transform: scale(1) rotate(0)}}
 
-[name$="_Email"].LV_valid_field ~ [type="checkbox"] {-webkit-animation: tada 2s linear infinite; animation: tada 2s linear infinite}
-[name$="_Email"].LV_valid_field ~ [type="checkbox"]:checked {-webkit-animation: none; animation: none}
+[name$="_Email"].LV_valid_field ~ [type="checkbox"] {animation: tada 2s linear infinite}
+[name$="_Email"].LV_valid_field ~ [type="checkbox"]:checked {animation: none}
 
 [type="checkbox"] {box-shadow: none !important; outline: none !important; margin-left: 0}
 input:in-range {}
@@ -255,7 +249,7 @@ a .Link {color: #0061a0}
 span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor: pointer}
 .tooltips:hover {text-decoration: none}
 .tooltips .tooltip, #Artikelsuche-Hinweis,
-.Info-Link .Info-Text, .Info-Link .Info-Text-JS {position: absolute; color: #3e3e3e; background: #fff; border: 2px solid #ccc; visibility: hidden; border-radius: 5px; padding: 5px; z-index: 250; text-align: center;width: 200px;left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%)}
+.Info-Link .Info-Text, .Info-Link .Info-Text-JS {position: absolute; color: #3e3e3e; background: #fff; border: 2px solid #ccc; visibility: hidden; border-radius: 5px; padding: 5px; z-index: 250; text-align: center;width: 200px;left: 50%; -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%)}
 
 .tooltips-drueber .tooltip:before, .tooltips-drunter .tooltip:before,
 .Info-Link .Info-Text:before, .Info-Link .Info-Text-JS:before,
@@ -454,8 +448,8 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 
 /* Inhaltssuche*/
 .contentart {color: #666; margin-top: 1rem; display: block}
-.deeplink {margin: 0 0 .2rem 0; display: inline-block; max-width: 94%; vertical-align: top; color: #0061a0;}
-.deeplink:hover {text-decoration: underline;}
+.deeplink {margin: 0 0 .2rem 0; display: inline-block; max-width: 94%; vertical-align: top; color: #0061a0}
+.deeplink:hover {text-decoration: underline}
 .inhalt .Bild {margin-right: 1rem}
 
 /* Kontakt-Infos ==========================*/
@@ -505,7 +499,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 #Header .Warenkorb .Button-klein-grau button:hover {box-shadow: none}
 
 /* Warenkorb-Reminder */
-.Warenkorb-Reminder {background: #EAF5FF;border: 3px solid #00609F; width: 100%; max-width: 466px; position: absolute; top: 50px;left: 50%;z-index: 100000; -webkit-transform: translatex(-50%);-moz-transform: translatex(-50%);-ms-transform: translatex(-50%);-o-transform: translatex(-50%);transform: translatex(-50%)}
+.Warenkorb-Reminder {background: #EAF5FF;border: 3px solid #00609F; width: 100%; max-width: 466px; position: absolute; top: 50px;left: 50%;z-index: 100000; -ms-transform: translatex(-50%);transform: translatex(-50%)}
 .Warenkorb-Reminder .Title1 {color: #fff; font-weight: normal; padding: 10px; background: #00609F; margin: 0 0 20px 0}
 .Frau-Einkaufstuete {float: right; 	max-width: 40%}
 .Warenkorb-Reminder .Fenster-schliessen {position: absolute; top: 5px; right: 5px; color: #fff}
@@ -543,7 +537,7 @@ li:hover .sub {
 .dropdown-list .sub {position: relative; background: 0 none; box-shadow: none; border: 0 none}
 input[id^="question"] {display: none}
 label[for^="question"]:before {content: "\33";font-size: 1rem;display: inline-block;transition: all .25s ease-out;vertical-align: text-bottom}
-[id^="question"]:checked + label:before {-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);-ms-transform: rotate(180deg);-o-transform: rotate(180deg);transform: rotate(180deg);transition: all .25s ease-in}
+[id^="question"]:checked + label:before {-ms-transform: rotate(180deg);transform: rotate(180deg);transition: all .25s ease-in}
 
 body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-overlay[data-overlay='right'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left'] {transition: opacity .25s ease-out, visibility .25s ease-out;opacity: 1;visibility: visible;width: 100%;height: 100%; z-index: initial}
 
@@ -571,8 +565,8 @@ body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggl
 .Mail .Icon:before {content: "@";font-size: 1rem;font-family: Arial}
 .Anschrift .Icon:before {content: "\e010"}
 .icon_documents_alt:before {content: "\69";margin: 0 .5rem 0 0}
-.icon_document_alt:before {content: "\68";}
-.icon_download:before {content: "\e092";}
+.icon_document_alt:before {content: "\68"}
+.icon_download:before {content: "\e092"}
 
 /* Teaser ==========================*/
 /* Allgemein */
@@ -596,8 +590,8 @@ body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggl
 /* Core RS CSS file. 95% of time you shouldn't change anything here. */
 .royalSlider {/* width: 600px; */ /* height: 400px; */ position: relative; direction: ltr}
 .royalSlider > * {/*float: left*/}
-.rsWebkit3d .rsSlide {-webkit-transform: translateZ(0)}
-.rsFade.rsWebkit3d .rsSlide, .rsFade.rsWebkit3d img, .rsFade.rsWebkit3d .rsContainer {-webkit-transform: none}
+.rsWebkit3d .rsSlide {transform: translateZ(0)}
+.rsFade.rsWebkit3d .rsSlide, .rsFade.rsWebkit3d img, .rsFade.rsWebkit3d .rsContainer {transform: none}
 .rsOverflow {width: 100%; height:100%; position: relative; overflow: hidden; float: left; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin-bottom:26px}
 .article-PDS-Produktbilder .rsOverflow {height: 245px}
 .rsVisibleNearbyWrap {width: 100%; height: 100%; position: relative; overflow: hidden; left: 0; top: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
@@ -627,7 +621,7 @@ body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggl
 .rsVideoContainer iframe, .rsVideoContainer video, .rsVideoContainer embed, .rsVideoContainer .rsVideoObj {position: absolute; z-index: 50; left: 0; top: 0; width: 100%; height: 100%}
 
 /* ios controls over video bug, shifting video */
-.rsVideoContainer.rsIOSVideo iframe, .rsVideoContainer.rsIOSVideo video, .rsVideoContainer.rsIOSVideo embed {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding-right: 44px}
+.rsVideoContainer.rsIOSVideo iframe, .rsVideoContainer.rsIOSVideo video, .rsVideoContainer.rsIOSVideo embed {box-sizing: border-box; padding-right: 44px}
 .rsABlock {left: 0; top: 0; position: absolute; z-index: 15}
 img.rsImg {max-width: none}
 .grab-cursor {cursor: url('/css/royalslider/grab.png') 8 8, move}
@@ -690,8 +684,8 @@ img.rsImg {max-width: none}
 /* 4. Tabs */
 .rsMinW .rsTabs {width: 100%; height: auto; margin: 0 auto; text-align: center; overflow: hidden; padding-top: 12px; position: relative}
 .rsMinW .rsTab {display: inline-block; cursor: pointer; text-align: center; height: auto; width: auto; color: #333; padding: 5px 13px 6px; min-width: 72px; border: 1px solid #D9D9DD; border-right: 1px solid #f5f5f5; text-decoration: none; background-color: #000; background: linear-gradient(to bottom, #fefefe, #f4f4f4); display: inline; zoom: 1}
-.rsMinW .rsTab:first-child {-webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px}
-.rsMinW .rsTab:last-child {-webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; border-right: 1px solid #cfcfcf}
+.rsMinW .rsTab:first-child {border-top-left-radius: 4px; border-bottom-left-radius: 4px}
+.rsMinW .rsTab:last-child {border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-right: 1px solid #cfcfcf}
 .rsMinW .rsTab:active {border: 1px solid #D9D9DD; background-color: #f4f4f4; box-shadow: 0 1px 4px rgba(0, 0, 0, .2) inset}
 .rsMinW .rsTab.rsNavSelected {color: #000; border: 1px solid #999; text-shadow: 1px 1px #838383; box-shadow: 0 1px 9px rgba(102, 102, 102, .65) inset; background-color:#ACACAC; background: linear-gradient(to bottom, #ACACAC, #BBB)}
 
@@ -701,7 +695,7 @@ img.rsImg {max-width: none}
 
 /* 5. Fullscreen button */
 .rsMinW .rsFullscreenBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 22; display: block; position: absolute; cursor: pointer}
-.rsMinW .rsFullscreenIcn {display: block; margin: 6px; width: 32px; height: 32px;}
+.rsMinW .rsFullscreenIcn {display: block; margin: 6px; width: 32px; height: 32px}
 .rsMinW .rsFullscreenIcn:hover {opacity: .8}
 .rsMinW.rsFullscreen .rsFullscreenIcn {background-position: -32px 0}
 
@@ -710,7 +704,7 @@ img.rsImg {max-width: none}
 .rsMinW .rsPlayBtnIcon {width: 64px; display: block; height: 64px; border-radius: 4px; transition: .3s; background-position: : 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, .75)}
 .rsMinW .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, .9)}
 .rsMinW .rsBtnCenterer {position: absolute; left: 50%; top: 50%; width: 20px; height: 20px}
-.rsMinW .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0)}
+.rsMinW .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; transform: translateZ(0)}
 .rsMinW .rsCloseVideoBtn.rsiOSBtn {top: -38px; right: -6px}
 .rsMinW .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background-position: -64px 0; background-color: #000; background-color: #000; background-color: rgba(0, 0, 0, .75)}
 .rsMinW .rsCloseVideoIcn:hover {background-color: rgba(0, 0, 0, .9)}
@@ -795,7 +789,7 @@ img.rsImg {max-width: none}
 .rsDefault .rsPlayBtnIcon {width: 64px; display: block; height: 64px; border-radius: 4px; transition: .3s; background-position: 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, .75)}
 .rsDefault .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, .9)}
 .rsDefault .rsBtnCenterer {position: absolute; left: 50%; top: 50%; width: 20px; height: 20px}
-.rsDefault .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0)}
+.rsDefault .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; transform: translateZ(0)}
 .rsDefault .rsCloseVideoBtn.rsiOSBtn {top: -38px; right: -6px}
 .rsDefault .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background-position: -64px 0; background-color: #000; background-color: rgba(0, 0, 0, .75)}
 .rsDefault .rsCloseVideoIcn:hover {background-color: rgba(0, 0, 0, .9)}
@@ -885,7 +879,7 @@ img.rsImg {max-width: none}
 .Designcode-Artikelauswahl .Rotating-image #reverse {display: none; visibility: hidden}
 .Designcode-Artikelauswahl .Rotating-image #prev, .Designcode-Artikelauswahl .Rotating-image #toggle, .Designcode-Artikelauswahl .Rotating-image #next {display: inline-block;font-size: 2rem;opacity: .5}
 .Designcode-Artikelauswahl .Rotating-image #prev:hover, .Designcode-Artikelauswahl .Rotating-image #toggle:hover, .Designcode-Artikelauswahl .Rotating-image #next:hover {opacity: 1; box-shadow: none}
-.Designcode-Artikelauswahl .Rotating-image #prev, .Designcode-Artikelauswahl .Rotating-image #toggle, .Designcode-Artikelauswahl .Rotating-image #next {bottom: 0;color: #000;position: relative;top: 50%;   -webkit-transform: translateY(-50%);   -moz-transform: translateY(-50%);   -ms-transform: translateY(-50%);   -o-transform: translateY(-50%);   transform: translateY(-50%)}
+.Designcode-Artikelauswahl .Rotating-image #prev, .Designcode-Artikelauswahl .Rotating-image #toggle, .Designcode-Artikelauswahl .Rotating-image #next {bottom: 0;color: #000;position: relative;top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%)}
 
 /* Fullscreen-Ergaenzungen */
 .Designcode-Artikelauswahl .rsFullscreen .rsArrow {height: 100%; top: 0}
@@ -966,18 +960,18 @@ img.rsImg {max-width: none}
 /* http://caniuse.com/#search=flex */
 #produkt_listing {clear: both}
 .produkt-name, .produkt-name .flex-select, .produkt-name .Preis-Block {
-    display: -ms-flexbox; display: -webkit-flex; display: flex;
-	-webkit-flex-flow: row wrap; -ms-flex-direction: row; -ms-flex-wrap: wrap; flex-flow: row wrap;
-	-webkit-align-items: flex-start; -ms-flex-align: flex-start; align-items: flex-start}
+    display: -ms-flexbox; display: flex;
+	-ms-flex-direction: row; -ms-flex-wrap: wrap; flex-flow: row wrap;
+	-ms-flex-align: flex-start; align-items: flex-start}
 
 .produkt-name {margin-bottom: .5rem; width: 100%}
-.produkt-name span, .produkt-name button {-webkit-flex: 0 0 65%; -ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 65%; flex: 0 0 65%}
+.produkt-name span, .produkt-name button {-ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 65%; flex: 0 0 65%}
 .produkt-name .preisnachher {display: block}
 
 #filter label {display: block}
 #filter select {width: 100%}
 
-.produkt-name h3, .produkt-name form {-webkit-flex: 0 1 100%; -ms-flex-positive: 0; -ms-flex-negative: 1; -ms-flex-preferred-size: 100%; flex: 0 1 100%}
+.produkt-name h3, .produkt-name form {-ms-flex-positive: 0; -ms-flex-negative: 1; -ms-flex-preferred-size: 100%; flex: 0 1 100%}
 
 .produkt-name h3 {margin: 0}
 .produkt-name .flex-image {-ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 15%; flex-basis: 15%}
@@ -1037,7 +1031,7 @@ aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .Filterparameter a:hover, .Filterparameter a:focus, .Filterparameter a.active {text-decoration: none; font-weight: normal}
 .Mehr-Filter {position: absolute; left: -.25rem; bottom: 0; padding: 0; text-align: center; ; cursor: pointer}
 .Mehr-Filter:before {content: "\33"; font-size: 1.25rem; display: inline-block; vertical-align: middle; padding: 0 0 .25rem; transition: all .25s ease}
-.Mehr-Filterparameter:checked + .Mehr-Filter:before {-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg); padding: .25rem 0 0}
+.Mehr-Filterparameter:checked + .Mehr-Filter:before {-ms-transform: rotate(180deg); transform: rotate(180deg); padding: .25rem 0 0}
 .Mehr-Filterparameter {display: none}
 .Filterparameter, .Mehr-Infos {max-height: 7.25rem; overflow: hidden; transition: max-height .5s ease-out}
 .Mehr-Infos {max-height: 0}
@@ -1064,11 +1058,11 @@ aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .Homepage-Grid-System li:nth-child(4n+1) {border-left: 0 none}
 
 /* Listenansichten allgemein*/
-.categories .item, .products .item {border-top: 1px solid #ccc;min-height: 260px;}
+.categories .item, .products .item {border-top: 1px solid #ccc;min-height: 260px}
 .grid-view .item:nth-child(-n+3),
 .grid-view.items-4 .item:nth-child(-n+4) {border-top: 0 none}
-.list .item {position: relative;box-sizing: border-box;border-right: 1px solid #ccc;padding: 10px;float:left;list-style-type:none;}
-.list .item > a {color: #3a3a3a;height: 100%;display: flex;flex-direction: column}
+.list .item {position: relative;box-sizing: border-box;border-right: 1px solid #ccc;padding: 10px;float:left;list-style-type:none}
+.list .item > a {color: #3a3a3a;height: 100%; display: -ms-flexbox; ; display: flex; -ms-flex-direction: column; flex-direction: column}
 .list .item > a:hover {color: #3a3a3a; text-decoration: none}
 .list a .Link, .Produkt-Name, .Produkttitel {color: #0061a0}
 .list a:hover .Link, .list a:hover .Produkt-Name, .list a:hover .Produktitel, .No-Link:hover .Link {text-decoration: underline}
@@ -1077,13 +1071,25 @@ aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 
 /* grid-view allgemein */
 ul.grid-view, ul.list-view {margin: 0}
-ul.grid-view, .cc-slides .inner {display: flex;-ms-align-items: stretch;align-items: stretch;flex-wrap: wrap;}
+ul.grid-view, .cc-slides .inner {
+	display: -ms-flexbox; display: flex;
+	-ms-flex-direction: row; -ms-flex-wrap: wrap; flex-flow: row wrap;
+	-ms-flex-align: stretch; align-items: stretch}
 .Homepage .item, .recs .item, #Crosslink .item, #WeitereArtikel .item, #Crosseller .item, #lastSeenProducts .item {border-top: 0 none; min-height: 100%}
 .categories .grid-view .item:nth-child(3n), .PUES .grid-view .item:last-child {border-right: 0}
 .grid-view .product-list-item > a {height: 250px; margin: 15px 10px 10px}
 .Bild {display: block}
 .list .item > a > :nth-last-child(-n+2) {margin-top: 10px}
-.grid-view .Artikeldetails {display: flex;	justify-content: space-between; align-items: flex-end; flex-grow: 1}
+.grid-view .Artikeldetails {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: flex-end;
+	align-items: flex-end;
+	-ms-flex-grow: 1;
+	flex-grow: 1;
+	-msjustify-content:space-between;
+	justify-content:space-between;
+	}
 .grid-view .Preis-Lieferbarkeit {text-align:right;width: 33.33%}
 
 /* Produktliste */
@@ -1097,7 +1103,7 @@ ul.grid-view, .cc-slides .inner {display: flex;-ms-align-items: stretch;align-it
 .list.products .Produkt-nicht-verfuegbar .Bildsperre-Produkt-nicht-verfuegbar {background: #ccc; width: 100%; height: 100%; position: absolute; top: 0; left: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)"; filter: alpha(opacity=30); -khtml-opacity: .3; opacity: .3; z-index: 1}
 
 .grid-view.products h2 + .Bild {height: 150px}
-.grid-view.products .Produkt-Name {text-align: center;}
+.grid-view.products .Produkt-Name {text-align: center}
 .grid-view.products .Produkt-Symbole img {position: absolute; z-index: 1}
 .grid-view.products .Produkt-Symbole .Sparen {top: 0px; left: 0px}
 .grid-view.products .Produkt-Symbole .Angebot-der-Woche {position: absolute; top: -9px; left: -9px; display: none}
@@ -1156,10 +1162,10 @@ ul.grid-view, .cc-slides .inner {display: flex;-ms-align-items: stretch;align-it
 .list.feedback .item {border:0; float:none; display:block; margin:0 0 .5em 0}
 
 /* Pure CSS Slider ==========================*/
-.cc-slider {position: relative; -webkit-transform: translateZ(0); transition: all .1s ease-out}
+.cc-slider {position: relative; transition: all .1s ease-out}
 .cc-slider label {cursor: pointer; text-decoration: none}
 .cc-slides {width: 100%; box-sizing: border-box}
-.cc-slides .inner {width: 1000%; -webkit-transform: translateZ(0); transition: all 800ms cubic-bezier(0.770, .000, .175, 1.000)}
+.cc-slides .inner {width: 1000%; transition: all 800ms cubic-bezier(0.770, .000, .175, 1.000)}
 
 /* Fuer Thumbnail-Buttons, Verwendung:Testimonials auf Streusalz-Seite */
 .cc-slider-thumbnail-buttons .controls {width: 100%; height: 10px; margin: 0 0 10px 0; display: block}
@@ -1183,7 +1189,7 @@ ul.grid-view, .cc-slides .inner {display: flex;-ms-align-items: stretch;align-it
 .slide9:checked ~ .cc-slides .inner {margin-left: -800%}
 
 .cc-slider label:before {content: "\44"; font-size: 2rem; color: #696969}
-.cc-slider-pfeil-links-rechts .slide1:checked ~ .controls label:nth-child(2), .cc-slider-pfeil-links-rechts .slide2:checked ~ .controls label:nth-child(3) {display: block; right: 0; -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg)}
+.cc-slider-pfeil-links-rechts .slide1:checked ~ .controls label:nth-child(2), .cc-slider-pfeil-links-rechts .slide2:checked ~ .controls label:nth-child(3) {display: block; right: 0; -ms-transform: rotate(180deg); transform: rotate(180deg)}
 .cc-slider-pfeil-links-rechts .slide2:checked ~ .controls label:nth-child(1), .cc-slider-pfeil-links-rechts .slide3:checked ~ .controls label:nth-child(2) {display: block; left: 0}
 
 .rsWithThumbsHor .rsSlide img, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .Designcode-Artikelauswahl .Rotating-image .spritespin-canvas, .Bild img {max-height: 100%; display: block; margin: 0 auto; max-width: 100%; height: auto; width: auto !important}
