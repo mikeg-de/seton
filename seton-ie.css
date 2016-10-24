@@ -5,6 +5,9 @@ button {border: 0 none}
 .Wrapper-Content, .Navi .sub, .Rahmen {border: 1px solid #d5d5d5;}
 .Footer {filter: none}
 
-.grid-view .item a > h2, .grid-view .item a > span , .grid-view .Artikeldetails > span {display: inline-block} /* IE fix */
+.grid-view .item a > h2, .grid-view .item a > span  {display: inline-block} /* IE fix */
 .grid-view .item a span.Bild {display: block}
+.grid-view .Artikeldetails > span {float: left}
+.grid-view .Artikelanzahl {width: 66.67%}
+.grid-view .Preis-Lieferbarkeit {text-align:right;width: 33.33%}
 .grid-view .item:nth-child(3n):after {content: "."; display: block; height: 0; clear: both; visibility: hidden}
