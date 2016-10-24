@@ -959,10 +959,7 @@ img.rsImg {max-width: none}
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 /* http://caniuse.com/#search=flex */
 #produkt_listing {clear: both}
-.produkt-name, .produkt-name .flex-select, .produkt-name .Preis-Block {
-    display: -ms-flexbox; display: flex;
-	-ms-flex-direction: row; -ms-flex-wrap: wrap; flex-flow: row wrap;
-	-ms-flex-align: flex-start; align-items: flex-start}
+.produkt-name, .produkt-name .flex-select, .produkt-name .Preis-Block { display: -ms-flexbox; display: flex; -ms-flex-direction: row; -ms-flex-wrap: wrap; flex-flow: row wrap; -ms-flex-align: flex-start; align-items: flex-start}
 
 .produkt-name {margin-bottom: .5rem; width: 100%}
 .produkt-name span, .produkt-name button {-ms-flex-positive: 0; -ms-flex-negative: 0; -ms-flex-preferred-size: 65%; flex: 0 0 65%}
@@ -1071,25 +1068,15 @@ aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 
 /* grid-view allgemein */
 ul.grid-view, ul.list-view {margin: 0}
-ul.grid-view, .cc-slides .inner {
-	display: -ms-flexbox; display: flex;
-	-ms-flex-direction: row; -ms-flex-wrap: wrap; flex-flow: row wrap;
-	-ms-flex-align: stretch; align-items: stretch}
+ul.grid-view, .cc-slides .inner {display: -ms-flexbox; display: flex; -ms-flex-direction: row; -ms-flex-wrap: wrap; flex-flow: row wrap; -ms-flex-align: stretch; align-items: stretch}
 .Homepage .item, .recs .item, #Crosslink .item, #WeitereArtikel .item, #Crosseller .item, #lastSeenProducts .item {border-top: 0 none; min-height: 100%}
 .categories .grid-view .item:nth-child(3n), .PUES .grid-view .item:last-child {border-right: 0}
 .grid-view .product-list-item > a {height: 250px; margin: 15px 10px 10px}
 .Bild {display: block}
 .list .item > a > :nth-last-child(-n+2) {margin-top: 10px}
-.grid-view .Artikeldetails {
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-align: flex-end;
-	align-items: flex-end;
-	-ms-flex-grow: 1;
-	flex-grow: 1;
-	-msjustify-content:space-between;
-	justify-content:space-between;
-	}
+.grid-view .Artikeldetails {display: -ms-flexbox; display: flex; -ms-flex-align: flex-end; align-items: flex-end; -ms-flex-grow: 1; flex-grow: 1; -msjustify-content:space-between; justify-content:space-between}
+.Artikeldetails {display: inline-block} /* IE fix */
+.grid-view .Anrtikelanzahl {width: 66.67%}
 .grid-view .Preis-Lieferbarkeit {text-align:right;width: 33.33%}
 
 /* Produktliste */
