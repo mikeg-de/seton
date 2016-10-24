@@ -574,7 +574,7 @@ body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggl
 .icon_document_alt:before {content: "\68";}
 .icon_download:before {content: "\e092";}
 
-    /* Teaser ==========================*/
+/* Teaser ==========================*/
 /* Allgemein */
 .Teaser {position: relative}
 .Sidebar .Teaser {margin: 0 0 1rem}
@@ -695,24 +695,28 @@ img.rsImg {max-width: none}
 .rsMinW .rsTab:active {border: 1px solid #D9D9DD; background-color: #f4f4f4; box-shadow: 0 1px 4px rgba(0, 0, 0, .2) inset}
 .rsMinW .rsTab.rsNavSelected {color: #000; border: 1px solid #999; text-shadow: 1px 1px #838383; box-shadow: 0 1px 9px rgba(102, 102, 102, .65) inset; background-color:#ACACAC; background: linear-gradient(to bottom, #ACACAC, #BBB)}
 
+.rsMinW .rsFullscreenIcn, .rsMinW .rsPlayBtnIcon ,.rsMinW .rsCloseVideoIcn {background: url('/css/royalslider/rs-minimal-white.png') no-repeat 0 0 transparent}
+.rsDefault .rsArrowIcn, .rsDefault .rsThumbsArrowIcn, .rsDefault .rsFullscreenIcn, .rsDefault .rsPlayBtnIcon, .rsDefault .rsCloseVideoIcn {background: url('/css/royalslider/rs-default.png') no-repeat 0 0 transparent}
+.rsMinW .rsPreloader, .rsDefault .rsPreloader {background: url('/css/preloaders/preloader-white.gif') no-repeat 0 0 transparent}
+
 /* 5. Fullscreen button */
 .rsMinW .rsFullscreenBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 22; display: block; position: absolute; cursor: pointer}
-.rsMinW .rsFullscreenIcn {display: block; margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-minimal-white.png') 0 0 transparent}
+.rsMinW .rsFullscreenIcn {display: block; margin: 6px; width: 32px; height: 32px;}
 .rsMinW .rsFullscreenIcn:hover {opacity: .8}
 .rsMinW.rsFullscreen .rsFullscreenIcn {background-position: -32px 0}
 
 /* 6. Play/close video button */
 .rsMinW .rsPlayBtn {-webkit-tap-highlight-color: rgba(0, 0, 0, .3); width: 64px; height: 64px; margin-left: -32px; margin-top: -32px; cursor: pointer}
-.rsMinW .rsPlayBtnIcon {width: 64px; display: block; height: 64px; border-radius: 4px; transition: .3s; background: url('/css/royalslider/rs-minimal-white.png') no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, .75); background-color: #000}
+.rsMinW .rsPlayBtnIcon {width: 64px; display: block; height: 64px; border-radius: 4px; transition: .3s; background-position: : 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, .75)}
 .rsMinW .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, .9)}
 .rsMinW .rsBtnCenterer {position: absolute; left: 50%; top: 50%; width: 20px; height: 20px}
 .rsMinW .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0)}
 .rsMinW .rsCloseVideoBtn.rsiOSBtn {top: -38px; right: -6px}
-.rsMinW .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-minimal-white.png') -64px 0; background-color: #000; background-color: rgba(0, 0, 0, .75); background-color: #000}
+.rsMinW .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background-position: -64px 0; background-color: #000; background-color: #000; background-color: rgba(0, 0, 0, .75)}
 .rsMinW .rsCloseVideoIcn:hover {background-color: rgba(0, 0, 0, .9)}
 
 /* 7. Preloader */
-.rsMinW .rsPreloader {width: 20px; height: 20px; background-image: url('/css/preloaders/preloader-white.gif'); left: 50%; top: 50%; margin-left: -10px; margin-top: -10px}
+.rsMinW .rsPreloader {width: 20px; height: 20px; left: 50%; top: 50%; margin-left: -10px; margin-top: -10px}
 
 /* 8. Global caption */
 .rsMinW .rsGCaption {position: absolute; float: none; bottom: 6px; left: 6px; text-align: left; background: #000; background: rgba(0, 0, 0, .75); color: #FFF; padding: 2px 8px; width: auto; font-size: 12px; border-radius: 2px}
@@ -729,7 +733,7 @@ img.rsImg {max-width: none}
 .rsDefault.rsVer .rsArrowRight {bottom: 0; left: 0}
 .rsDefault.rsHor .rsArrowLeft {left: 0; top: 0}
 .rsDefault.rsHor .rsArrowRight {right: 0; top: 0}
-.rsDefault .rsArrowIcn {width: 32px; height: 32px; top: 50%; left: 50%; margin-top: -16px; margin-left: -16px; position: absolute; cursor: pointer; background: url('/css/royalslider/rs-default.png'); background-color: #000; background-color: rgba(0, 0, 0, .75); background-color: #000; border-radius: 2px}
+.rsDefault .rsArrowIcn {width: 32px; height: 32px; top: 50%; left: 50%; margin-top: -16px; margin-left: -16px; position: absolute; cursor: pointer; background-color: #000; background-color: rgba(0, 0, 0, .75); border-radius: 2px}
 .rsDefault .rsArrowIcn:hover {background-color: rgba(0, 0, 0, .9)}
 .rsDefault.rsHor .rsArrowLeft .rsArrowIcn {background-position: -64px -32px}
 .rsDefault.rsHor .rsArrowRight .rsArrowIcn {background-position: -64px -64px}
@@ -765,7 +769,7 @@ img.rsImg {max-width: none}
 .rsDefault.rsWithThumbsVer .rsThumbsArrowRight {bottom: 0; left: 0}
 .rsDefault.rsWithThumbsHor .rsThumbsArrowLeft {left: 0; top: 0}
 .rsDefault.rsWithThumbsHor .rsThumbsArrowRight {right: 0; top: 0}
-.rsDefault .rsThumbsArrowIcn {width: 16px; height: 16px; top: 50%; left: 50%; margin-top: -8px; margin-left: -8px; position: absolute; cursor: pointer; background: url('/css/royalslider/rs-default.png')}
+.rsDefault .rsThumbsArrowIcn {width: 16px; height: 16px; top: 50%; left: 50%; margin-top: -8px; margin-left: -8px; position: absolute; cursor: pointer}
 .rsDefault.rsWithThumbsHor .rsThumbsArrowLeft .rsThumbsArrowIcn {background-position: -128px -32px}
 .rsDefault.rsWithThumbsHor .rsThumbsArrowRight .rsThumbsArrowIcn {background-position: -128px -48px}
 .rsDefault.rsWithThumbsVer .rsThumbsArrowLeft .rsThumbsArrowIcn {background-position: -144px -32px}
@@ -782,22 +786,22 @@ img.rsImg {max-width: none}
 
 /* 5. Fullscreen button */
 .rsDefault .rsFullscreenBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 22; display: block; position: absolute; cursor: pointer}
-.rsDefault .rsFullscreenIcn {display: block; margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-default.png') 0 0; background-color: #000; background-color: rgba(0, 0, 0, .75); background-color: #000; border-radius: 2px}
+.rsDefault .rsFullscreenIcn {display: block; margin: 6px; width: 32px; height: 32px; background-color: #000; background-color: rgba(0, 0, 0, .75); border-radius: 2px}
 .rsDefault .rsFullscreenIcn:hover {background-color: rgba(0, 0, 0, .9)}
 .rsDefault.rsFullscreen .rsFullscreenIcn {background-position: -32px 0}
 
 /* 6. Play/close video button */
 .rsDefault .rsPlayBtn {-webkit-tap-highlight-color: rgba(0, 0, 0, .3); width: 64px; height: 64px; margin-left: -32px; margin-top: -32px; cursor: pointer}
-.rsDefault .rsPlayBtnIcon {width: 64px; display: block; height: 64px; border-radius: 4px; transition: .3s; background: url('/css/royalslider/rs-default.png') no-repeat 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, .75); background-color: #000}
+.rsDefault .rsPlayBtnIcon {width: 64px; display: block; height: 64px; border-radius: 4px; transition: .3s; background-position: 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, .75)}
 .rsDefault .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, .9)}
 .rsDefault .rsBtnCenterer {position: absolute; left: 50%; top: 50%; width: 20px; height: 20px}
 .rsDefault .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; -webkit-transform: translateZ(0)}
 .rsDefault .rsCloseVideoBtn.rsiOSBtn {top: -38px; right: -6px}
-.rsDefault .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background: url('/css/royalslider/rs-default.png') -64px 0; background-color: #000; background-color: rgba(0, 0, 0, .75); background-color: #000}
+.rsDefault .rsCloseVideoIcn {margin: 6px; width: 32px; height: 32px; background-position: -64px 0; background-color: #000; background-color: rgba(0, 0, 0, .75)}
 .rsDefault .rsCloseVideoIcn:hover {background-color: rgba(0, 0, 0, .9)}
 
 /* 7. Preloader */
-.rsDefault .rsPreloader {width: 20px; height: 20px; background-image: url(/css/preloaders/preloader-white.gif); left: 50%; top: 50%; margin-left: -10px; margin-top: -10px}
+.rsDefault .rsPreloader {width: 20px; height: 20px; left: 50%; top: 50%; margin-left: -10px; margin-top: -10px}
 
 /* 8. Global caption */
 .rsDefault .rsGCaption {position: absolute; bottom:46px; left: 0;background-color: rgba(255, 255, 255, .9)}
@@ -918,7 +922,7 @@ img.rsImg {max-width: none}
 .Produktdaten .article-Dropdowns td {padding-right: 0}
 #AllgArtMerkTabelle {width: 100%}
 #Kundenwunsch textarea {width: 96%}
-#alle-artikel-anzeigen {padding: 15px 0 0 0; display: block}
+#alle-artikel-anzeigen {padding: 15px 0 0; display: block}
 .PDS .Produktergebnis-inner, #orderinfo {padding: 1rem 1rem 0 1rem}
 .Artikelnummmer {margin: .5rem 0}
 .Content .Preisbox {text-align: right}
@@ -1022,7 +1026,7 @@ img.rsImg {max-width: none}
 .PUES-Subnavigation-Filter .PUES-Preis-Slider {display: none; overflow: visible}
 .PUES-Subnavigation-Filter .PUES-Preis-Slider .fact-finder-onetouchslider-bar .fact-finder-onetouchslider-triangle {display: none !important}
 .PUES-Subnavigation-Filter .PUES-Preis-Slider .fact-finder-onetouchslider-bar img {background: none !important; display: none}
-.Filter, .PUES-Preis-Slider {margin: 1rem 0 0 0}
+.Filter, .PUES-Preis-Slider {margin: 1rem 0 0}
 aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .Subnavigation ul > li a {padding-left: 0}
 .Filter li a {padding: 0 0 .25rem 0; line-height: 1.5rem}
@@ -1063,8 +1067,8 @@ aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .categories .item, .products .item {border-top: 1px solid #ccc;min-height: 260px;}
 .grid-view .item:nth-child(-n+3),
 .grid-view.items-4 .item:nth-child(-n+4) {border-top: 0 none}
-.list .item {position: relative;box-sizing: border-box;border-right: 1px solid #ccc;padding: 10px;/* float:left; */list-style-type:none;}
-.list .item > a {color: #3a3a3a;height: 100%;display: flex;flex-direction: column;/* justify-content: flex-start; *//* align-items: flex-end; */}
+.list .item {position: relative;box-sizing: border-box;border-right: 1px solid #ccc;padding: 10px;float:left;list-style-type:none;}
+.list .item > a {color: #3a3a3a;height: 100%;display: flex;flex-direction: column}
 .list .item > a:hover {color: #3a3a3a; text-decoration: none}
 .list a .Link, .Produkt-Name, .Produkttitel {color: #0061a0}
 .list a:hover .Link, .list a:hover .Produkt-Name, .list a:hover .Produktitel, .No-Link:hover .Link {text-decoration: underline}
@@ -1077,22 +1081,13 @@ ul.grid-view, .cc-slides .inner {display: flex;-ms-align-items: stretch;align-it
 .Homepage .item, .recs .item, #Crosslink .item, #WeitereArtikel .item, #Crosseller .item, #lastSeenProducts .item {border-top: 0 none; min-height: 100%}
 .categories .grid-view .item:nth-child(3n), .PUES .grid-view .item:last-child {border-right: 0}
 .grid-view .product-list-item > a {height: 250px; margin: 15px 10px 10px}
-.Bild {display: block;}
-.grid-view .Artikelanzahl, .grid-view .Preis-Lieferbarkeit {/* position: absolute; *//* bottom:0; *//* margin: 0; */}
-.list .item > a > :nth-last-child(-n+2) {
-	margin-top: 10px;
-}
-.grid-view .Artikeldetails {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	flex-grow: 1;
-}
-.grid-view .Preis-Lieferbarkeit {text-align:right;width: 33.33%;}
+.Bild {display: block}
+.list .item > a > :nth-last-child(-n+2) {margin-top: 10px}
+.grid-view .Artikeldetails {display: flex;	justify-content: space-between; align-items: flex-end; flex-grow: 1}
+.grid-view .Preis-Lieferbarkeit {text-align:right;width: 33.33%}
 
 /* Produktliste */
-.list.products .Bild {height: 150px;}
-.list.products .Produkt-Name {/* max-height: 60px; *//* overflow: hidden; *//* display: block; */}
+.list.products .Bild {height: 150px}
 .list.products .Preis {color:#3f3f3f}
 .list.products .Edit-Info span {display: block}
 .list.products .Relevanz, .list.products .Editieren {color: #F00; font-size: .9rem; z-index: 2}
@@ -1114,10 +1109,7 @@ ul.grid-view, .cc-slides .inner {display: flex;-ms-align-items: stretch;align-it
 .categories, .products {/* margin:0 */}
 .list-view.products .item:first-child {border: 0 none}
 .list-view .item {padding: 0; display: table; width: 100%; border:0; border-top:1px solid #ccc}
-
-.list-view.products .Artikelanzahl br {display: none}
 .list-view.products .Relevanz {bottom: 9px; right: 10px}
-
 .list-view.products .col3.first {height:150px; text-align:center; margin-top:1rem}
 .list-view.products .col3.first .Bild img {max-height:150px}
 .list-view.products .col3.first  [id*="Wischerrabatt_"]  {position:absolute; top:0; left:0}
@@ -1131,15 +1123,12 @@ ul.grid-view, .cc-slides .inner {display: flex;-ms-align-items: stretch;align-it
 .list-view.products [id*="Dropdowns_"] {margin: 1.5em 0 .5rem 0}
 
 .list-view.products [id*="AllgArtMerkTabelle_"] {border-collapse:separate; border-spacing:0; width:100%}
-.list-view.products [id*="AllgArtMerkTabelle_"] th,
-.list-view.products [id*="AllgArtMerkTabelle_"] td {padding:0}
+.list-view.products [id*="AllgArtMerkTabelle_"] th, .list-view.products [id*="AllgArtMerkTabelle_"] td {padding:0}
 .list-view.products [id*="AllgArtMerkTabelle_"] th {width:35%; font-weight:normal}
 .list-view.products .Weiterfuehrender-Link {position:relative; bottom:0; right:0}
 
-.list-view.products .Produktergebnis-inner,
-.list-view.products [id*="orderinfo_"] {padding:0}
-.list-view.products .Menge {width:30%}
-.list-view.products .Menge + .col8 {margin: 1.25em 0 0}
+.list-view.products .Produktergebnis-inner, .list-view.products [id*="orderinfo_"] {padding:0}
+.list-view.products .Menge {width:30%} .list-view.products .Menge + .col8 {margin: 1.25em 0 0}
 .list-view.products .Produktergebnis-inner .col8 {text-align:right}
 .list-view.products .Produktergebnis-inner .col8 .Anzahl {display:block}
 .list-view.products .Produktergebnis-inner .col8 .Streich-Preis {margin-right:0.5em}
@@ -1157,7 +1146,7 @@ ul.grid-view, .cc-slides .inner {display: flex;-ms-align-items: stretch;align-it
 .list.categories.buttons .item .Bild {height: 180px}
 
 .item.box-grey {height:260px}
-.list .item.box-grey > * {background:#CCCCCC; text-align:center; padding:1rem; display:block; height:100%; box-sizing:border-box}
+.list .item.box-grey > * {background:#ccc; text-align:center; padding:1rem; display:block; height:100%; box-sizing:border-box}
 .item.box-grey .Text {font-size:1.4rem; line-height:1.9rem; height:80%; display:block}
 .item.box-grey .Text span {display:block}
 
@@ -1282,7 +1271,7 @@ ul.grid-view, .cc-slides .inner {display: flex;-ms-align-items: stretch;align-it
 .Schilder-Suche-Teaser-Content {width: 460px}
 .Schilder-Banner h2 {color: #fff !important; font-size: 1.2rem; margin: 0}
 .Schilder-Banner h3 {color: #eaf4ff; font-size: 1.1rem; margin: 0}
-.Schilder-Banner ul {color: #eaf4ff; padding: 0; margin: 10px 0 0 0; list-style-type: none}
+.Schilder-Banner ul {color: #eaf4ff; padding: 0; margin: 10px 0 0; list-style-type: none}
 .Schilder-Banner li {color: #eaf4ff; margin: .5rem 0}
 .Schilder-Banner .Schilder-Suchformular {position: absolute; top: 75px; right: 125px; z-index: 3; width: 165px; height: 10px}
 .Schilder-Banner #searchQuery {position: absolute; top: 0; left: 0; height: 21px; width: 130px; padding: 0; line-height: 21px}
@@ -1290,13 +1279,12 @@ ul.grid-view, .cc-slides .inner {display: flex;-ms-align-items: stretch;align-it
 .suggestLayer-Schildersuche {position: absolute; display: none; top: 29px !important; left: 150px !important; z-index: 999999999999 !important; zoom: 1}
 .suggestLayer-Schildersuche table {border: 1px solid #000; margin: 0}
 .Schilder-Grid-System .Grid4 {width: 251px !important; height: 215px; border: 1px solid #335F8A; text-align: center}
-.Schilder-Grid-System .Grid4 h5 {height: 28px; padding: 5px; text-align: left; background: url(/images/Allgemein/Hintergruende-horizontal.jpg) repeat-x 0 -157px}
-.Schilder-Grid-System .Grid4 img, .Schilder-Rubrik img {margin: 5px 0 0 0}
+.Schilder-Grid-System .Grid4 h5 {height: 28px; padding: 5px; text-align: left}
+.Schilder-Grid-System .Grid4 img, .Schilder-Rubrik img {margin: 5px 0 0}
 .Schilder-Grid-System .Grid4 p {margin: 5px 5px 0 5px; text-align: left; font-size: .9rem}
 .Schilder-Rubrik {width: 225px; height: 215px; float: left; border: 1px solid #335F8A; margin: 0 10px 10px 0; text-align: center}
 .Schilder-Rubrik p {margin: 5px 5px 0 5px; text-align: left; font-size: .9rem}
 .Schilder-Info {border: 1px solid #bf0d18 !important}
-.Schilder-Info h5 {background: url(/images/Allgemein/Hintergruende-horizontal.jpg) repeat-x 0 -205px !important}
 .Schilder-Info h5 a {color: #fff !important}
 .Content-Schilder .last {width: 224px; float: right; margin-right: 0}
 
@@ -1326,7 +1314,7 @@ ul.grid-view, .cc-slides .inner {display: flex;-ms-align-items: stretch;align-it
 .warenkorbItem .rabattinfo {color:#F00; position:absolute; bottom:5px; width:94%; text-align:center; white-space:nowrap}
 .warenkorbItem .sparinfo {color:#F00}
 .sparinfo-gesamt:empty {display:none}
-.sparinfo-gesamt {color: #F00;border: 1px dashed #ccc;padding:0.5em;text-align:center;margin:1em 0 0 0}
+.sparinfo-gesamt {color: #F00;border: 1px dashed #ccc;padding:0.5em;text-align:center;margin:1em 0 0}
 
 /* Direktbestellung */
 .Warenkorb-Direktbestellung {overflow-x: hidden; overflow-y: auto; width: 96%; padding: 0 2%}
@@ -1531,19 +1519,7 @@ textarea {height: 4rem;font: inherit}
 .tabSchilderRaetselHell {background-color: #E9EFF6}
 
 /* SETON Historie*/
-.Zeitstrahl {font-size: 11pt; padding: 0 7px 0 0; margin: 0 0 5px 0; color: #fff; font-weight: bold; text-align: right; border-bottom: 1px solid #000}
-.ZeitstrahlJahreszahl p {font-size: 8pt; margin: 0pt}
-.SeitenkastenContentZeitstrahl {margin-right: 20px; background-color: #E0EDF8; padding: 8px; margin: 0; background-image: url(/images/20Jahre/SETONHistorie/bg_Zeitstrahl.gif); background-repeat: repeat-y}
-.ZeitstrahlJahreszahl img {float: left; margin: 0 3px 5px 0}
 .Historie {border-bottom: 1px solid #ccc; clear: both}
-
-/* Jubilaeums-Angebote*/
-.JubiAngebot {width: 330px; height: 115px; float: left; margin: 0 15px 15px 0; background-color: #F0F7FD; border: 1px solid #335F8A}
-.JubiAngebotInhalt {width: 277px; float: left; margin: 7px; position: absolute}
-.JubiAngebotBild, .BilderLinks {float: left}
-.JubiAngebotText {width: 178px; float: right}
-.JubiAngebotLogo {width: 50px; height: 51px; float: right; position: relative; top: -9px; left: 9px; background-image: url(/images/20Jahre/JubilaeumsAngebote/Logo_JubiAngebot.gif)}
-.JubiAngebotNummer {margin: 11px 0 0 8px}
 
 /* Bilderdetektiv*/
 .Bilderdetektiv {color: #00925B; border-bottom: 2px solid #65aa00; font-weight: normal; margin: 20pt 0 3pt 0}
@@ -1587,9 +1563,6 @@ textarea {height: 4rem;font: inherit}
 .Block-Unsere-Produkte .Grid-Content img {margin: 0 auto; display: block}
 .Block-Unsere-Produkte .Grid-Materialmuster img {margin: 15px auto 0}
 .Block-Unsere-Produkte .Grid-Katalog-anfordern img {float: left; margin-right: 10px}
-.Block-Wir-helfen-Ihnen-weiter {background: url(/images/Service-Beratung/Service.jpg) transparent no-repeat bottom right}
-.Block-Wir-informieren-Sie {background: url(/images/Service-Beratung/Aktuelle-Themen.jpg) transparent no-repeat bottom right}
-.Block-Downloads {background: url(/images/Service-Beratung/Downloads.jpg) transparent no-repeat bottom right}
 .NL_Bestelladresse {margin: 3px 0 3px 0}
 .NL_Bestelladresse dt {width: 20px; float: left; margin: 0; padding: 0; text-align: center}
 .NL_Bestelladresse dd {margin: 0 0 5px 30px; padding: 0}
@@ -1656,7 +1629,7 @@ textarea {height: 4rem;font: inherit}
 .Seite-nicht-gefunden .Kein-Rahmen {padding-top: 50px; padding-bottom: 50px}
 
 /* SUPER KICK&WIN ==========================*/
-.KICK-WIN .Header-Banner {margin: -22px 0 0 0}
+.KICK-WIN .Header-Banner {margin: -22px 0 0}
 .KICK-WIN .SETON-SUPER-KICK-WIN b {font-weight: normal !important}
 .KICK-WIN h1 .SETON-SUPER-KICK-WIN, .KICK-WIN h1 .SETON-SUPER-KICK-WIN b {color: #3a3a3a; font-weight: bold !important}
 .KontoKl {cursor: pointer; color: #0061a0}
@@ -1694,7 +1667,7 @@ img.Praemien {position: absolute; top: 0; right: 0; z-index: -1}
 .Footer .Social-Media {margin: 35px 0 0 0}
 .Footer .Social-Media li {float: left; margin-right: 5px}
 .Footer .Social-Media li:last-child {margin: 0}
-.Social-Media-Icon {background: url(/images/Allgemein/Social-Media-Icons.gif) no-repeat; display: block; height: 45px; width: 45px; overflow: hidden; text-indent: -9999px ; display: inline-block; margin: 0 .25rem 0 0}
+.Social-Media-Icon {background: url('/images/Allgemein/Social-Media-Icons.gif') no-repeat; display: block; height: 45px; width: 45px; overflow: hidden; text-indent: -9999px ; display: inline-block; margin: 0 .25rem 0 0}
 .Google {background-position: -45px 0}
 .Twitter {background-position: -90px 0}
 .YouTube {background-position: -135px 0}
