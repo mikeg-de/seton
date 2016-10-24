@@ -1075,7 +1075,7 @@ ul.grid-view, .cc-slides .inner {display: -ms-flexbox; display: flex; -ms-flex-d
 .Bild {display: block}
 .list .item > a > :nth-last-child(-n+2) {margin-top: 10px}
 .grid-view .Artikeldetails {display: -ms-flexbox; display: flex; -ms-flex-align: flex-end; align-items: flex-end; -ms-flex-grow: 1; flex-grow: 1; -msjustify-content:space-between; justify-content:space-between}
-.grid-view .Anrtikelanzahl {width: 66.67%}
+.grid-view .Artikelanzahl {width: 66.67%}
 .grid-view .Preis-Lieferbarkeit {text-align:right;width: 33.33%}
 
 /* Produktliste */
