@@ -17,7 +17,7 @@ header, nav, section, article, aside, footer, hgroup {display: block}
 #PDS-Content {clear:both}
 
 .produkt-name {display: block; width: 100%}
-.grid-view.products .Produkt-Name {max-height: 60px; overflow: hidden}
+.grid-view.products .Produkt-Name {height: 60px; overflow: hidden}
 .produkt-name > span {float: left; width: 65%}
 .produkt-name > :nth-child(2) {width: 15%}
 .produkt-name > :last-child {width: 20%}
