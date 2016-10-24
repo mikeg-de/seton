@@ -6,4 +6,5 @@ button {border: 0 none}
 .Footer {filter: none}
 
 .grid-view .item a > h2, .grid-view .item a > span , .grid-view .Artikeldetails > span {display: inline-block} /* IE fix */
+.grid-view .item a span.Bild {display: block}
 .grid-view .item:nth-child(3n):after {content: "."; display: block; height: 0; clear: both; visibility: hidden}
