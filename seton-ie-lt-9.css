@@ -16,6 +16,8 @@ header, nav, section, article, aside, footer, hgroup {display: block}
 #topnav-Home, .Schritt-1-Adresseingabe:after {display:none}
 #PDS-Content {clear:both}
 
+.item a > h2, .item a > span , .Artikeldetails > span {display: inline-block} /* IE fix */
+
 .produkt-name {display: block; width: 100%}
 .produkt-name > span {float: left; width: 65%}
 .produkt-name > :nth-child(2) {width: 15%}

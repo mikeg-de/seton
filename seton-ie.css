@@ -5,3 +5,4 @@ button {border: 0 none}
 .Wrapper-Content, .Navi .sub, .Rahmen {border: 1px solid #d5d5d5;}
 .Footer {filter: none}
 
+.item a > h2, .item a > span , .Artikeldetails > span {display: inline-block} /* IE fix */
