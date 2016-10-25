@@ -521,7 +521,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 .nav-pri li:nth-child(6n+2) a {border-left: 0 none}
 .sub {box-sizing:border-box; visibility: hidden; opacity: 0; max-height: 0; z-index:70; position: relative; transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; overflow: hidden}
 .nav-pri .sub {background-color: #fff}
-li:hover .sub {
+li:hover > ul {
 	visibility: visible;
 	opacity: 1;
 	max-height: 2000px;
