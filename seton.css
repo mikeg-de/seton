@@ -516,8 +516,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 .nav-pri ul {list-style-type: none; margin: 0; position: relative; z-index:70}
 [id^="topnav"] {width: 19%;}
 #topnavSale {width: 5%}
-[id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc; background-color: #0061a0}
-[id^="topnav"] > a:hover {background-color: #ccc}
+[id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc}
 .nav-pri li:nth-child(6n+2) a {border-left: 0 none}
 .sub {box-sizing:border-box; visibility: hidden; opacity: 0; max-height: 0; z-index:70; position: relative; transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; overflow: hidden}
 .nav-pri .sub {background-color: #fff}
@@ -1707,7 +1706,8 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 /* 1024px standard width */
 @media only screen and (max-width: 1024px) {body {width: 996px}}
 @media only screen and (min-width:960px) {
-	[id^="topnav"] {float: left}
+	[id^="topnav"] {float: left;background-color: #0061a0}
+	[id^="topnav"]:hover, [id^="topnav"]:focus {background-color: #ccc; max-height: 2000px}
 	#topnav1 .sub {width: 76%}
 	#topnav4 .sub, #topnav7 .sub {width: 57%}
 	#topnav4 .sub {left: 19%;}
