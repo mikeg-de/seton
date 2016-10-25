@@ -63,14 +63,14 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	/* Navigation */
 	nav {-webkit-overflow-scrolling: touch}
 	.nav-pri > ul > li, .sub, .col, #topnavSale, #topnavdirectOrder, nav .Hotline {/* float: left; */width: 100%;/* background-image: none; *//* padding: 0; */}
-	.sub, .nav-third {border: 0 none; position: initial; visibility: hidden; opacity: 0; max-height: 0; -webkit-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -moz-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -ms-transition: opacity .25s ease-out .25s, max-height .5s ease-out; -o-transition: opacity .25s ease-out .25s, max-height .5s ease-out; transition: opacity .25s ease-out .25s, max-height .5s ease-out}
-	li:hover > ul, li:focus > ul, li:active > .ul {visibility: visible; opacity: 1; max-height: 2000px; -webkit-transition: opacity .25s ease-in, max-height .5s ease-in; -moz-transition: opacity .25s ease-in, max-height .5s ease-in; -ms-transition: opacity .25s ease-in, max-height .5s ease-in; -o-transition: opacity .25s ease-in, max-height .5s ease-in; transition: opacity .25s ease-in, max-height .5s ease-in}
+	.sub, .nav-third {border: 0 none; position: initial; visibility: hidden; opacity: 0; max-height: 0; -ms-transition: opacity .25s ease-out .25s, max-height .5s ease-out; transition: opacity .25s ease-out .25s, max-height .5s ease-out}
+	li:hover > .sub, li:focus > .sub, li:hover > .nav-third, li:focus > .nav-third {visibility: visible; opacity: 1; max-height: 2000px; -ms-transition: opacity .25s ease-in, max-height .5s ease-in; transition: opacity .25s ease-in, max-height .5s ease-in}
 	.nav-pri [id^="topnav"] > a {border: 0 none; border-top: 1px solid #ccc}
 	#topnav4 .sub, #topnav7 .sub {/* left: 0 */}
 	[id^="sub"] > a {padding: .75rem .5rem .4rem 1rem;display: block;margin: 0;height: 2rem;}
 	.subnav a:hover {margin-right:3rem}
 	.subnav .Titel:after {content: "\33";position: absolute;font-size: 1.25rem;left: -.05em;}
-	.subnav .Titel:hover:after, .subnav .Titel:focus:after, .subnav .Titel:active:after {-webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg);margin-right: -3rem;}
+	.subnav .Titel:hover:after, .subnav .Titel:focus:after, .subnav .Titel:active:after {-ms-transform: rotate(180deg); transform: rotate(180deg);margin-right: -3rem;}
 	.col-Themen {background-color: #eee; border-top: 1px solid #ccc}
 	.Thema {padding: .75rem .5rem .4rem 1rem}
 	.Thema-Name a, .Thema p, .Thema .PfeilLink {padding: 0; margin: 0}
@@ -108,11 +108,11 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.pure-toggle-label:hover .pure-toggle-icon, .pure-toggle-label:hover .pure-toggle-icon:before, .pure-toggle-label:hover .pure-toggle-icon:after {/* background-color: #1fc08e; */}
 	.pure-toggle-label:active {-webkit-tap-highlight-color: rgba(0, 0, 0, 0)}
 	.pure-toggle-label .pure-toggle-icon, .pure-toggle-label .pure-toggle-icon:before, .pure-toggle-label .pure-toggle-icon:after {position: absolute; top: 50%; height: .2rem; width: inherit; cursor: pointer; background: #5d809d; display: block; content: ''; transition: all 500ms ease-in-out}
-	.pure-toggle-label .pure-toggle-icon:before {transform: translate3d(0, -.75rem, 0); -webkit-transform: translate3d(0, -.75rem, 0)}
-	.pure-toggle-label .pure-toggle-icon:after {transform: translate3d(0, .6rem, 0); -webkit-transform: translate3d(0, .6rem, 0)}
+	.pure-toggle-label .pure-toggle-icon:before {transform: translate3d(0, -.75rem, 0)}
+	.pure-toggle-label .pure-toggle-icon:after {transform: translate3d(0, .6rem, 0)}
 	.pure-toggle-label[data-toggle-label='left'], .pure-toggle-label[data-toggle-label='left-bottom'] {left: 1.25%; right: auto}
 	.pure-toggle-label[data-toggle-label='right'], .pure-toggle-label[data-toggle-label='right-bottom'] {right: 1rem; left: auto}
-	.pure-toggle-label[data-toggle-label='top'] {left: 50%; -webkit-transform: translate3d(-50%, 0, 0); transform: translate3d(-50%, 0, 0)}
+	.pure-toggle-label[data-toggle-label='top'] {left: 50%; transform: translate3d(-50%, 0, 0)}
 	.pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label:not([data-toggle-label='left']), .pure-toggle[data-toggle='right']:checked ~ .pure-toggle-label:not([data-toggle-label='right']), .pure-toggle[data-toggle='top']:checked ~ .pure-toggle-label:not([data-toggle-label='top']), .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-toggle-label:not([data-toggle-label='left-bottom']), .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-toggle-label:not([data-toggle-label='right-bottom']) {opacity: 0; z-index: -1}
 	.pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label[data-toggle-label='left'], .pure-toggle[data-toggle='right']:checked ~ .pure-toggle-label[data-toggle-label='right'], .pure-toggle[data-toggle='top']:checked ~ .pure-toggle-label[data-toggle-label='top'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-toggle-label[data-toggle-label='left-bottom'] {border-color: #1fc08e; color: #1fc08e}
 	.pure-toggle[data-toggle='left']:checked ~ .pure-toggle-label[data-toggle-label='left'] .pure-toggle-icon, .pure-toggle[data-toggle='right']:checked ~ .pure-toggle-label[data-toggle-label='right'] .pure-toggle-icon, .pure-toggle[data-toggle='top']:checked ~ .pure-toggle-label[data-toggle-label='top'] .pure-toggle-icon, .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-toggle-label[data-toggle-label='left-bottom'] .pure-toggle-icon {background-color: transparent}
@@ -149,34 +149,34 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.pure-overlay {position: fixed; top: 0; bottom: 0; right: 0;width: 0;height: 0; opacity: 0;visibility: hidden;background-color: rgba(255,255,255,.5);transition: opacity .25s ease-in .25s, visibility .25s ease-in .25s; z-index:-1}
 	[data-effect="pure-effect-fade"] .pure-overlay {transition-duration: 1000ms; transition-delay: 500ms}
 
-	@-webkit-keyframes fadeInLeft { 0% { opacity: 0; -webkit-transform: translate3d(-100%, 0, 0); transform: translate3d(-100%, 0, 0)}
-		100% {	opacity: 1; -webkit-transform: none; transform: none} }
+	@-webkit-keyframes fadeInLeft { 0% { opacity: 0; transform: translate3d(-100%, 0, 0)}
+		100% {	opacity: 1; transform: none} }
 
-	@keyframes fadeInLeft { 0% { opacity: 0; -webkit-transform: translate3d(-100%, 0, 0); transform: translate3d(-100%, 0, 0)}
-		100% {	opacity: 1; -webkit-transform: none; transform: none} }
+	@keyframes fadeInLeft { 0% { opacity: 0; transform: translate3d(-100%, 0, 0)}
+		100% {	opacity: 1; transform: none} }
 
-	.fadeInLeft, [data-effect="pure-effect-fade"] .pure-toggle[data-toggle="left"]:checked ~ .pure-drawer[data-position="left"], [data-effect="pure-effect-fade"] .pure-toggle[data-toggle="left-bottom"]:checked ~ .pure-drawer[data-position="left-bottom"] {-webkit-animation-name: fadeInLeft; animation-name: fadeInLeft}
+	.fadeInLeft, [data-effect="pure-effect-fade"] .pure-toggle[data-toggle="left"]:checked ~ .pure-drawer[data-position="left"], [data-effect="pure-effect-fade"] .pure-toggle[data-toggle="left-bottom"]:checked ~ .pure-drawer[data-position="left-bottom"] {animation-name: fadeInLeft}
 	@-webkit-keyframes fadeOutLeft { 0% { opacity: 1}
-		100% {	opacity: 0; -webkit-transform: translate3d(-100%, 0, 0); transform: translate3d(-100%, 0, 0)} }
+		100% {	opacity: 0; transform: translate3d(-100%, 0, 0)} }
 
 	@keyframes fadeOutLeft { 0% { opacity: 1}
-		100% {	opacity: 0; -webkit-transform: translate3d(-100%, 0, 0); transform: translate3d(-100%, 0, 0)} }
+		100% {	opacity: 0; transform: translate3d(-100%, 0, 0)} }
 
-	.fadeOutLeft, [data-effect="pure-effect-fade"] .pure-drawer[data-position='left'], [data-effect="pure-effect-fade"] .pure-drawer[data-position='left-bottom'] {-webkit-animation-name: fadeOutLeft; animation-name: fadeOutLeft}
-	@-webkit-keyframes fadeInRight { 0% { opacity: 0; -webkit-transform: translate3d(100%, 0, 0); transform: translate3d(100%, 0, 0)}
-		100% {	opacity: 1; -webkit-transform: none; transform: none} }
+	.fadeOutLeft, [data-effect="pure-effect-fade"] .pure-drawer[data-position='left'], [data-effect="pure-effect-fade"] .pure-drawer[data-position='left-bottom'] {animation-name: fadeOutLeft}
+	@-webkit-keyframes fadeInRight { 0% { opacity: 0; transform: translate3d(100%, 0, 0)}
+		100% {	opacity: 1; transform: none} }
 
-	@keyframes fadeInRight { 0% { opacity: 0; -webkit-transform: translate3d(100%, 0, 0); transform: translate3d(100%, 0, 0)}
-		100% {	opacity: 1; -webkit-transform: none; transform: none} }
+	@keyframes fadeInRight { 0% { opacity: 0; transform: translate3d(100%, 0, 0)}
+		100% {	opacity: 1; transform: none} }
 
-	.fadeInRight, [data-effect="pure-effect-fade"] .pure-toggle[data-toggle='right']:checked ~ .pure-drawer[data-position='right'], [data-effect="pure-effect-fade"] .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-drawer[data-position='right-bottom'] {-webkit-animation-name: fadeInRight; animation-name: fadeInRight}
+	.fadeInRight, [data-effect="pure-effect-fade"] .pure-toggle[data-toggle='right']:checked ~ .pure-drawer[data-position='right'], [data-effect="pure-effect-fade"] .pure-toggle[data-toggle='right-bottom']:checked ~ .pure-drawer[data-position='right-bottom'] {animation-name: fadeInRight}
 	@-webkit-keyframes fadeOutRight { 0% { opacity: 1}
-		100% {	opacity: 0; -webkit-transform: translate3d(100%, 0, 0); transform: translate3d(100%, 0, 0)} }
+		100% {	opacity: 0; transform: translate3d(100%, 0, 0)} }
 
 	@keyframes fadeOutRight { 0% { opacity: 1}
-		100% {	opacity: 0; -webkit-transform: translate3d(100%, 0, 0); transform: translate3d(100%, 0, 0)} }
+		100% {	opacity: 0; transform: translate3d(100%, 0, 0)} }
 
-	.fadeOutRight, [data-effect="pure-effect-fade"] .pure-drawer[data-position='right'], [data-effect="pure-effect-fade"] .pure-drawer[data-position='right-bottom'] {-webkit-animation-name: fadeOutRight; animation-name: fadeOutRight} }
+	.fadeOutRight, [data-effect="pure-effect-fade"] .pure-drawer[data-position='right'], [data-effect="pure-effect-fade"] .pure-drawer[data-position='right-bottom'] {animation-name: fadeOutRight} }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
 	.Homepage .col9 {width: 74.68%}
