@@ -453,7 +453,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 .inhalt .Bild {margin-right: 1rem}
 
 /* Kontakt-Infos ==========================*/
-.Teaser-Kontakt > div, .Hotline, .Fax, .Mail, .Anschrift, .Info, .Online-Shop {text-align: left; position: relative;margin: 0 0 1rem;left: 0; top: 0; padding-left: 1.5rem; color: #8A8A8A}
+.Teaser-Kontakt > div, .Hotline, .Fax, .Mail, .Anschrift, .Info, .Online-Shop {text-align: left;position: relative;margin: 0 0 1rem;left: 0;top: 0;padding-left: 1.5rem;color: #8A8A8A;}
 .Teaser-Kontakt .Icon, .Info .Icon, .Online-Shop .Icon, .Warenkorb .Icon {position: absolute;left: 0;font-size: 1rem}
 .Teaser-Kontakt div {color: #06609f}
 .Fax span, .Hotline span, .Mail span a, .Anschrift span, .Info span a, .Online-Shop span a, .Warenkorb span a {display: block}
@@ -514,11 +514,10 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 /* Hauptnavigation ==========================*/
 .nav-pri {position: relative; z-index:80}
 .nav-pri ul {list-style-type: none; margin: 0; position: relative; z-index:70}
-.nav-pri > ul > li {float: left;width: 19%}
-.nav-pri > ul > li#topnavSale {width: 5%}
-.nav-pri #topnavSale {width:12.5%}
-.nav-pri [id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc; background-color: #0061a0}
-.nav-pri > ul > li:hover > a {background-color: #ccc}
+[id^="topnav"] {float: left;width: 19%}
+#topnavSale {width: 5%}
+[id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc; background-color: #0061a0}
+[id^="topnav"] > a:hover {background-color: #ccc}
 .nav-pri li:nth-child(6n+2) a {border-left: 0 none}
 .sub {box-sizing:border-box; visibility: hidden; opacity: 0; max-height: 0; z-index:70; position: relative; transition: visibility .25s ease-out .25s, opacity .25s ease-out .25s, max-height .5s ease-out; overflow: hidden}
 .nav-pri .sub {background-color: #fff}
@@ -1733,7 +1732,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	#topnav4 .sub {left: 19%}
 	#topnav7 .sub {left: 38%}
 	#topnav32 .sub, #topnav10 .sub {left: 0; width: 95%}
-	.col {box-sizing: border-box;margin: 0;padding: 5px 5px 5px 10px;-ms-flex: 1 1 25%;flex: 1 1 25%;border-right: 1px solid #ccc}
+	.col {/* box-sizing: border-box; */margin: 0;padding: 5px 5px 5px 10px;-ms-flex: 1 1 20%;flex: 1 1 20%;border-right: 1px solid #ccc;display: flex;flex-direction: column;}
 	.col-Themen {border-right: 0 none; background-color: #eee}
 	#topnavSale .col {padding:5px 10px}
 	#topnavSale li {border-bottom:1px solid #ccc; padding:1em 0}
