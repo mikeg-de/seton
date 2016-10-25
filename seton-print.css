@@ -126,7 +126,7 @@ body.Checkout-Print th {
 
 body.Checkout-Print .Bestellmoeglichkeiten {float: right; width: 5cm; text-align:right}
 .Checkout-Print .Bild a {overflow: hidden;display: inline-block;}
-body.Checkout-Print .Bestellmoeglichkeiten div {margin-bottom: 0.1cm}
+body.Checkout-Print .Bestellmoeglichkeiten div {margin: 0 0.1cm 0 -.7cm;float: left;}
 table.Produkttabelle td.Position {max-width: 0.5cm}
 
 
