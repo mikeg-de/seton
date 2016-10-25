@@ -142,6 +142,7 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.pure-toggle[data-toggle='left']:checked ~ .pure-overlay[data-overlay='left'], .pure-toggle[data-toggle='left-bottom']:checked ~ .pure-overlay[data-overlay='left-bottom'] {left: 0;}
 
 	/* OVERLAY */
+	.pure-overlay {position: fixed; top: 0; bottom: 0; right: 0;width: 0;height: 0; opacity: 0;visibility: hidden;background-color: rgba(255,255,255,.5);transition: opacity .25s ease-in .25s, visibility .25s ease-in .25s; z-index:-1}
 	[data-effect="pure-effect-fade"] .pure-overlay {transition-duration: 1000ms; transition-delay: 500ms}
 
 	@-webkit-keyframes fadeInLeft { 0% { opacity: 0; -webkit-transform: translate3d(-100%, 0, 0); transform: translate3d(-100%, 0, 0)}

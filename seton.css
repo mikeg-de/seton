@@ -1753,7 +1753,6 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	#topnavSale a:hover {text-decoration:none}
 	#topnavSale .Weiterfuehrender-Link {position:relative; bottom:0; right:0; display:block; text-align:right}
 	#topnavSale a:hover .Titel, #topnavSale a:hover .Weiterfuehrender-Link {text-decoration:underline}
-	.pure-overlay {position: fixed; top: 0; bottom: 0; right: 0;width: 0;height: 0; opacity: 0;visibility: hidden;background-color: rgba(255,255,255,.5);transition: opacity .25s ease-in .25s, visibility .25s ease-in .25s; z-index:-1}
 	.Homepage .royalSlider {height: 250px}
 	.Zwei-Spalter-Sidebar-left .Content {margin-left: -24.06%}
 	.Zwei-Spalter-Sidebar-left .Content, .Drei-Spalter .Content, #Footer_Bereichstext {float: right; padding: 0 1.25% 0}
