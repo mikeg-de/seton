@@ -514,7 +514,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 /* Hauptnavigation ==========================*/
 .nav-pri {position: relative; z-index:80}
 .nav-pri ul {list-style-type: none; margin: 0; position: relative; z-index:70}
-[id^="topnav"] {float: left;width: 19%}
+[id^="topnav"] {width: 19%;}
 #topnavSale {width: 5%}
 [id^="topnav"] > a {color: #fff; display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; font-weight: normal; border-left: 1px solid #ccc; background-color: #0061a0}
 [id^="topnav"] > a:hover {background-color: #ccc}
@@ -1727,6 +1727,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.Artikelsuche {position: relative}
 	#suggestContainer {border-top: 0 none}
 	.sub {border: 1px solid #ccc;border-top-width: .35rem;position: absolute; display: -ms-flexbox; display: flex; -ms-align-items: stretch; align-items: stretch; z-index: -1}
+	[id^="topnav"] {float: left}
 	#topnav1 .sub {width: 76%}
 	#topnav4 .sub, #topnav7 .sub {width: 57%}
 	#topnav4 .sub {left: 19%}
