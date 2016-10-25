@@ -1707,6 +1707,14 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 /* 1024px standard width */
 @media only screen and (max-width: 1024px) {body {width: 996px}}
 @media only screen and (min-width:960px) {
+	[id^="topnav"] {float: left}
+	#topnav1 .sub {width: 76%}
+	#topnav4 .sub, #topnav7 .sub {width: 57%}
+	#topnav4 .sub {left: 19%;}
+	#topnav7 .sub {left: 38%}
+	#topnav32 .sub, #topnav10 .sub {left: 0; width: 95%}
+	.sub {border: 1px solid #ccc;border-top-width: .35rem;position: absolute; display: -ms-flexbox; display: flex; -ms-align-items: stretch; align-items: stretch; z-index: -1}
+	.col {/* box-sizing: border-box; */margin: 0;padding: 5px 5px 5px 10px;-ms-flex: 1 1 20%;flex: 1 1 20%;border-right: 1px solid #ccc;display: flex;flex-direction: column;}
 	.Content .Sidebar-left {float: right}
 	.Button-gross.data-icon:before, .Icon:before, .icon_phone:before {margin-right: .5rem}
 	.data-icon:after {margin-left: .2rem}
@@ -1723,17 +1731,10 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.Checkout #nav-home {display: inline-block}
 	.Checkout nav a {display: block; height: 2.5rem; padding: .35rem .5rem .3rem .75rem; color: #fff}}
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 768px) {
 	.Artikelsuche {position: relative}
 	#suggestContainer {border-top: 0 none}
-	.sub {border: 1px solid #ccc;border-top-width: .35rem;position: absolute; display: -ms-flexbox; display: flex; -ms-align-items: stretch; align-items: stretch; z-index: -1}
-	[id^="topnav"] {float: left}
-	#topnav1 .sub {width: 76%}
-	#topnav4 .sub, #topnav7 .sub {width: 57%}
-	#topnav4 .sub {left: 19%}
-	#topnav7 .sub {left: 38%}
-	#topnav32 .sub, #topnav10 .sub {left: 0; width: 95%}
-	.col {/* box-sizing: border-box; */margin: 0;padding: 5px 5px 5px 10px;-ms-flex: 1 1 20%;flex: 1 1 20%;border-right: 1px solid #ccc;display: flex;flex-direction: column;}
+
 	.col-Themen {border-right: 0 none; background-color: #eee}
 	#topnavSale .col {padding:5px 10px}
 	#topnavSale li {border-bottom:1px solid #ccc; padding:1em 0}
