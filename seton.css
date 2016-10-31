@@ -699,7 +699,7 @@ img.rsImg {max-width: none}
 
 /* 6. Play/close video button */
 .rsMinW .rsPlayBtn {-webkit-tap-highlight-color: rgba(0, 0, 0, .3); width: 64px; height: 64px; margin-left: -32px; margin-top: -32px; cursor: pointer}
-.rsMinW .rsPlayBtnIcon {width: 64px; display: block; height: 64px; border-radius: 4px; transition: .3s; background-position: : 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, .75)}
+.rsMinW .rsPlayBtnIcon {width: 64px; display: block; height: 64px; border-radius: 4px; transition: .3s; background-position: 0 -32px; background-color: #000; background-color: rgba(0, 0, 0, .75)}
 .rsMinW .rsPlayBtn:hover .rsPlayBtnIcon {background-color: rgba(0, 0, 0, .9)}
 .rsMinW .rsBtnCenterer {position: absolute; left: 50%; top: 50%; width: 20px; height: 20px}
 .rsMinW .rsCloseVideoBtn {right: 0; top: 0; width: 44px; height: 44px; z-index: 500; position: absolute; cursor: pointer; -webkit-backface-visibility: hidden; transform: translateZ(0)}
