@@ -984,7 +984,6 @@ img.rsImg {max-width: none}
 .flex-select span:before {content: attr(data-category) ": "}
 .flex-select span:empty:before {content: initial}
 
-#rabattdisclaimer {margin: 5px 15px}
 .Designcode-Artikelauswahl .addthis_toolbox {float: right}
 .social_share_privacy_area {margin: 0}
 .social_share_privacy_area .dummy_btn {margin-left: 5px !important}
