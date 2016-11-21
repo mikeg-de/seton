@@ -511,6 +511,15 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 .Warenkorb-Reminder .Button-gross-gruen {margin: .5em 0 1em 0}
 .Warenkorb-Reminder .Bestellung-abschliessen {text-align: center}
 
+/*Vorteilsnummern-Info*/
+.Vorteilsnummern-Info {background: #EAF5FF;border: 3px solid #00609F; width: 100%; max-width: 466px; position: absolute; top: 50px;left: 50%;z-index: 100000; -ms-transform: translatex(-50%);transform: translatex(-50%)}
+.Vorteilsnummern-Info .Title1 {color: #fff; font-weight: normal; padding: 10px; background: #00609F; margin: 0 0 20px 0}
+.Vorteilsnummern-Info .Fenster-schliessen {position: absolute; top: 5px; right: 5px; color: #fff}
+.Vorteilsnummern-Info .Fenster-schliessen:hover, #Header .Hotline a:hover {text-decoration: none}
+.Vorteilsnummern-Info-Content {padding: 20px 0 0 15px; text-align: left; max-width: 90%}
+.Vorteilsnummern-Info .Button-gross-gruen {margin: .5em 0 1em 0}
+
+
 /* Hauptnavigation ==========================*/
 .nav-pri {position: relative; z-index:80}
 .nav-pri ul {list-style-type: none; margin: 0; position: relative; z-index:70}
