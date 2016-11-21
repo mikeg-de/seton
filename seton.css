@@ -517,7 +517,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 .Vorteilsnummern-Info .Fenster-schliessen {position: absolute; top: 5px; right: 5px; color: #fff}
 .Vorteilsnummern-Info .Fenster-schliessen:hover, #Header .Hotline a:hover {text-decoration: none}
 .Vorteilsnummern-Info-Content {padding: 20px 0 0 15px; text-align: left; max-width: 90%}
-.Vorteilsnummern-Info-Content span {color: #E60F19; font-size: 1.75rem; display: block; margin: .75rem 0}
+.Vorteilsnummern-Info-Content span {display: block; margin: 0}
 .Vorteilsnummern-Info .Button-gross-gruen {margin: .5em 0 1em 0}
 
 
