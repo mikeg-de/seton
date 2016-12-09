@@ -1766,6 +1766,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.Homepage .royalSlider {height: 250px}
 	.Zwei-Spalter-Sidebar-left .Content {margin-left: -24.06%}
 	.Zwei-Spalter-Sidebar-left .Content, .Drei-Spalter .Content, #Footer_Bereichstext {float: right; padding: 0 1.25% 0}
+	#Footer_Bereichstext {width: 100%; padding: 0}
 	.Drei-Spalter .Content {margin-left: -74.68%; margin-right: 25.31%}
 	.Zwei-Spalter-Sidebar-right .Content {float: left; padding: 0 1.25% 0}
 	.Zwei-Spalter-Sidebar-right .Sidebar.right {margin: 0 1.25% .75rem 0; float:right}
