@@ -1299,6 +1299,7 @@ ul.grid-view, .cc-slides .inner {display: -ms-flexbox; display: flex; -ms-flex-d
 /* Symbole ==========================*/
 #main {padding: 10px; margin-left: 10px; margin-right: 10px}
 .symbole {float: left; margin: 0 5px 0 0}
+.floatbox div.symbole:last-child {float: none;}
 
 /* Warenkorb ==========================*/
 .Anzahl .updateLink {display: none}
