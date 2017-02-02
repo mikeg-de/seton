@@ -1662,6 +1662,7 @@ img.Praemien {position: absolute; top: 0; right: 0; z-index: -1}
 .Grid-System-Social-Media .col4 {border-right: 1px solid #ccc; min-height: 120px; margin-bottom: 0; border-collapse: collapse}
 .Grid-System-Social-Media div:last-child {border-right: 0 none}
 .Footer .NL-Aktion {float: right;margin: 0 .5rem 0 0}
+.col3.LP-Footer .NL-Aktion {position: unset}
 .Footer .Grid-System-Sitemap ul li a:hover:before {text-decoration: none !important; color: #63666a !important}
 .Footer .Social-Media {margin: 35px 0 0 0}
 .Footer .Social-Media li {float: left; margin-right: 5px}
