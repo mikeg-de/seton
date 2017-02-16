@@ -1694,6 +1694,55 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 .NL-Gewinnspiel-Teilnahmebedingungen {width: 100%}
 .NL-Gewinnspiel-Teilnahmebedingungen-Content {font-size: .8rem; color: #666; width: 100%; line-height: 1.2rem}
 
+.fbanner-placeholder{height:100px}
+.NL-Layer{left:0;right:0;clear:both;text-align:left;border-collapse:separate;position:fixed;display:none;bottom:0;width:100%;z-index:250;background:#dfdada repeat scroll top left;border-top:4px solid #0367a5}
+.NL-Layer .Container-Content{width:1024px;height:220px;margin:auto;position:relative;display:block}
+.NL-Layer #fbannerimg, .NL-Layer #fbannermess,.NL-Layer #fbannernews,.NL-Layer form.fbannernewsletter input.text-field,.NL-Layer form.fbannernewsletter .submit,.NL-Layer .submit-field{margin:0}
+.NL-Layer #fbannermess a{text-decoration:none}
+.NL-Layer #fbannermess{list-style:none;position:relative;height:90px}
+.NL-Layer #fbannermess h3{margin:0;font-weight:300}
+.NL-Layer #fbannerimg{position:absolute;right:0}
+.NL-Layer #fbannerimg img{border:0;max-width:100%}
+.NL-Layer #fbannernews{position:relative;top:30px;max-width:420px}
+.NL-Layer #fbannernews input{width:200px}
+.NL-Layer #fbannernews .Weiterfuehrender-Link{bottom:inherit;right:inherit}
+.NL-Layer #fbannernews .tooltips .tooltip{width:387px;text-align:left;left:140%}
+.NL-Layer #fbannernews .tooltips-drueber .tooltip::before,#fbannernews .tooltips-drueber .tooltip::after{left:18%}
+.NL-Layer .hiderzone{position:absolute;right:2px;bottom:auto;top:2px;list-style:none}
+.NL-Layer-Header{width:1024px;margin:auto}
+.NL-Layer-Button{-webkit-border-top-left-radius:5px;-moz-border-top-left-radius:5px;border-top-left-radius:5px;-webkit-border-top-right-radius:5px;-moz-border-top-right-radius:5px;border-top-right-radius:5px;color:#fff;background:#0367a5;padding:8px 10px 2px;width:320px;top:-40px;position:absolute;cursor:pointer}
+.NL-Layer-Button h2,.NL-Layer-Button h2 a{color:#fff;font-size:20px;font-weight:700}
+.NL-Layer #fbannermess h3,#fbannermess h3 a{color:#e30613;font-size:25px;font-weight:700;margin-bottom:10px}
+.NL-Layer #fbannermess li,#fbannermess li a{color:#0367a5;font-weight:400;font-size:16px}
+.NL-Layer .hiderzone a{color:#0367a5;font-size:10px;font-weight:400;font-style:normal;cursor:pointer;text-decoration:none}
+.NL-Layer .fbanner-top-text{color:#fff;font-size:10px;font-weight:700;font-style:normal}
+@media (min-width: 1200px) {
+	.NL-Layer .hiderzone{right:10px;top:10px;bottom:2px;list-style:none}
+	.NL-Layer #fbannermess{top:12px}
+}
+@media (max-width: 1200px) {
+	.NL-Layer .newsfields{top:10px}
+	.NL-Layer .newsfields li{float:none;margin:0 0 2px}
+	.NL-Layer .newssubmit{float:left;margin:-28px 0 0 150px;position:relative}
+	.NL-Layer .fbanner-top-text.both-fields{top:8px}
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+	.NL-Layer .newssubmit{margin:-27px 0 0 170px}
+	.NL-Layer #fbannermess{top:12px}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+	.NL-Layer .Container-Content{width:980px}
+	.NL-Layer #fbannermess{top:10px}
+	.NL-Layer #fbannernews{top:50px}
+	.NL-Layer form.fbannernewsletter input.text-field{width:130px}
+	.NL-Layer #no-name-field{top:58px}
+	.NL-Layer .hiderzone{bottom:auto;top:2px;right:4px}
+	.NL-Layer .hiderzone a{font-size:10px}
+}
+@media (max-width: 767px) {
+	.NL-Layer{display:none}
+}
+
 /* Blog:Vorstellung einer Kategorie oder Produktes */
 .Vorstellung-Kategorie-Produkt {display: table; width: 471px}
 .Vorstellung-Kategorie-Produkt .Praesentiert {color: #555; font-size: 1.5rem; font-weight: bold; text-align: left}
