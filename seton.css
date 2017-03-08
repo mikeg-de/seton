@@ -287,6 +287,19 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .Upsell .tooltip .Upsellnein:hover, .Upsell .tooltip .Upsellja:hover {text-decoration: underline}
 .Upsell.tooltips:hover .tooltip {visibility: hidden; opacity: 0}
 
+/*Sticky Button*/
+.Sticky-Button-Service-Seiten {
+	position: fixed;
+	top: 10%;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #0061a0;
+	background: #0061a0;
+	border-radius: 10px;
+	padding: 15px;
+	color: #fff;
+}
+
 /* Formulare */
 form {margin: 0}
 #oneTouchSlider1 input {max-width: 20%}
