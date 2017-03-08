@@ -292,6 +292,8 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 
 /*Sticky Button*/
 .Sticky-Button-Service-Seiten {position: fixed; z-index: 300; top: 380px; left: 50%; margin-left:466px; width: 30px; height: 30px; background: #0061a0; padding: 8px;}
+.Sticky-Button-Service-Seiten .tooltips .tooltip {border-radius: 0}
+.Sticky-Button-Service-Seiten .tooltips .tooltip .Hotline {display: block; margin: 5px 0; color: #0061a0; font-size: 18px}
 .Sticky-Button-Service-Seiten:hover:after { z-index: 260; right: 100%; top: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(0, 97, 160, 0); border-right-color: #0061a0; border-width: 12px; margin-top: -12px;}
 .Sticky-Button-Service-Seiten i {color: #fff; font-size: 30px; line-height: 32px;}
 
