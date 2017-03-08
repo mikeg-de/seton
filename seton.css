@@ -257,12 +257,8 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 #Artikelsuche-Hinweis:after,
 .Info-Link .Info-Text:after, .Info-Link .Info-Text-JS:after {content: ''; position: absolute; left: 50%; width: 0; height: 0; text-decoration: none !important}
 
-.tooltips-links .tooltip:before {border: 12px solid #C9C9C9}
-
 .tooltips-drueber .tooltip:after {margin-left: -8px; border-top: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
-.tooltips-links .tooltip:after {margin-left: -8px; border-top: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
 .tooltips-drueber .tooltip:before {margin-left: -12px; border-top: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
-.tooltips-links .tooltip:before {margin-left: -12px; border-top: 12px solid transparent; border-right: 12px solid transparent; border-left: 12px solid transparent}
 
 .tooltips-drueber .tooltip {bottom: 130%}
 .tooltips-drueber .tooltip:before, .tooltips-drueber .tooltip:after {top: 100%}
@@ -296,7 +292,7 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 
 /*Sticky Button*/
 .Sticky-Button-Service-Seiten {position: fixed; z-index: 300; top: 380px; left: 50%; margin-left:466px; width: 30px; height: 30px; background: #0061a0; padding: 8px;}
-.Sticky-Button-Service-Seiten:hover:after { right: 100%; top: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(0, 97, 160, 0); border-right-color: #0061a0; border-width: 20px; margin-top: -20px;}
+.Sticky-Button-Service-Seiten:hover:after { right: 100%; top: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(0, 97, 160, 0); border-right-color: #0061a0; border-width: 12px; margin-top: -12px;}
 .Sticky-Button-Service-Seiten i {color: #fff; font-size: 30px; line-height: 32px;}
 
 /* Formulare */
