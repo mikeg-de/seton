@@ -288,17 +288,9 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .Upsell.tooltips:hover .tooltip {visibility: hidden; opacity: 0}
 
 /*Sticky Button*/
-.Sticky-Button-Service-Seiten {
-	position: fixed;
-	top: 10%;
-	width: 20px;
-	height: 20px;
-	border: 1px solid #0061a0;
-	background: #0061a0;
-	border-radius: 10px;
-	padding: 15px;
-	color: #fff;
-}
+.Sticky-Button-Service-Seiten {position: fixed; top: 40%; left: 50%; margin-left:512px; width: 18px; height: 18px; background: #0061a0; padding: 15px;}
+
+.Sticky-Button-Service-Seiten span.tooltips {color: #fff;}
 
 /* Formulare */
 form {margin: 0}
