@@ -290,7 +290,7 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 /*Sticky Button*/
 .Sticky-Button-Service-Seiten {position: fixed; z-index: 300; top: 380px; left: 50%; margin-left:466px; width: 30px; height: 30px; background: #0061a0; padding: 8px;}
 
-.Sticky-Button-Service-Seiten span.tooltips {color: #fff; font-size: 30px; line-height: 32px;}
+.Sticky-Button-Service-Seiten i {color: #fff; font-size: 30px; line-height: 32px;}
 
 /* Formulare */
 form {margin: 0}
