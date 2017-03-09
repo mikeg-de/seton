@@ -266,7 +266,7 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .tooltips-drueber .tooltip {bottom: 130%}
 .tooltips-drueber .tooltip:before, .tooltips-drueber .tooltip:after {top: 100%}
 
-.tooltips-links .tooltip {left: -310%; top: -70%;}
+.tooltips-links .tooltip {left: -320%; top: -70%;}
 .tooltips-links .tooltip:before, .tooltips-links .tooltip:after {top: 12%; left: 92%; }
 
 .tooltips-drunter .tooltip {top: 110%}
@@ -295,7 +295,7 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 
 /*Sticky Button*/
 .Sticky-Button-Service-Seiten {position: fixed; z-index: 260; cursor: pointer; top: 380px; left: 50%; margin-left:466px; width: 30px; height: 30px; background: #06609f; padding: 8px;}
-.Sticky-Button-Service-Seiten .tooltips .tooltip {border-radius: 0; font-size: 0.9rem}
+.Sticky-Button-Service-Seiten .tooltips .tooltip {border-radius: 0; font-size: 0.9rem; padding: 10px;}
 .Sticky-Button-Service-Seiten .tooltips .tooltip .Hotline {display: block; margin: 5px 0; color: #06609f; font-size: 1.1rem; font-weight: bold; text-align: center; padding-left: 0;}
 .Sticky-Button-Service-Seiten i {color: #fff; font-size: 1.9rem; line-height: 32px;}
 .Sticky-Button-Service-Seiten strong {font-size: 1rem;}
