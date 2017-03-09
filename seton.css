@@ -260,14 +260,14 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .tooltips-drueber .tooltip:after {margin-left: -8px; border-top: 8px solid #fff; border-right: 8px solid transparent; border-left: 8px solid transparent}
 .tooltips-drueber .tooltip:before {margin-left: -12px; border-top: 12px solid #C9C9C9; border-right: 12px solid transparent; border-left: 12px solid transparent}
 
-.tooltips-links .tooltip:after {margin-left: 0; border-top: 12px solid transparent;	border-bottom: 12px solid transparent;	border-left: 12px solid transparent;	border-right: 12px solid #0061a0;}
-.tooltips-links .tooltip:before {margin-left: 0; border-top: 12px solid transparent;	border-bottom: 12px solid transparent;	border-left: 12px solid transparent;	border-right: 12px solid #0061a0;}
+.tooltips-links .tooltip:after {margin-left: 0; border-top: 12px solid transparent;	border-bottom: 12px solid transparent;	border-left: 12px solid transparent;	border-right: 12px solid #06609f;}
+.tooltips-links .tooltip:before {margin-left: 0; border-top: 12px solid transparent;	border-bottom: 12px solid transparent;	border-left: 12px solid transparent;	border-right: 12px solid #06609f;}
 
 .tooltips-drueber .tooltip {bottom: 130%}
 .tooltips-drueber .tooltip:before, .tooltips-drueber .tooltip:after {top: 100%}
 
 .tooltips-links .tooltip {left: -310%; top: -70%;}
-.tooltips-links .tooltip:before, .tooltips-links .tooltip:after {top: 20%; left: 92%; }
+.tooltips-links .tooltip:before, .tooltips-links .tooltip:after {top: 12%; left: 92%; }
 
 .tooltips-drunter .tooltip {top: 110%}
 .tooltips-drunter .tooltip:before, .tooltips-drunter .tooltip:after,
@@ -294,9 +294,9 @@ span.tooltips {position: relative; display: inline-block; color: #0061a0; cursor
 .Upsell.tooltips:hover .tooltip {visibility: hidden; opacity: 0}
 
 /*Sticky Button*/
-.Sticky-Button-Service-Seiten {position: fixed; z-index: 260; cursor: pointer; top: 380px; left: 50%; margin-left:466px; width: 30px; height: 30px; background: #0061a0; padding: 8px;}
+.Sticky-Button-Service-Seiten {position: fixed; z-index: 260; cursor: pointer; top: 380px; left: 50%; margin-left:466px; width: 30px; height: 30px; background: #06609f; padding: 8px;}
 .Sticky-Button-Service-Seiten .tooltips .tooltip {border-radius: 0; font-size: 0.9rem}
-.Sticky-Button-Service-Seiten .tooltips .tooltip .Hotline {display: block; margin: 5px 0; color: #0061a0; font-size: 1.1rem; text-align: center; padding-left: 0;}
+.Sticky-Button-Service-Seiten .tooltips .tooltip .Hotline {display: block; margin: 5px 0; color: #06609f; font-size: 1.1rem; font-weight: bold; text-align: center; padding-left: 0;}
 .Sticky-Button-Service-Seiten i {color: #fff; font-size: 1.9rem; line-height: 32px;}
 .Sticky-Button-Service-Seiten strong {font-size: 1rem;}
 
