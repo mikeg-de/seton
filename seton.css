@@ -381,8 +381,8 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 .Banner-Abfallbehaelter-No-Fingerprint .Produktbild {margin-left: 50px}
 
 /* Ajax Loading Animation ==========================*/
-#bio_ep_bg {z-index:20001}
-#bio_ep {z-index:20002; border:1px solid #8c8c8c; font-size:inherit; font-family:inherit}
+#bio_ep_bg {z-index:20001 !important}
+#bio_ep {z-index:20002 !important; border:1px solid #8c8c8c; font-size:inherit; font-family:inherit}
 #bio_ep h2 {position:absolute; top:165px; right:0; background-color:#8c8c8c; color:#fff; padding:5px 10px; font-size:24px;}
 #bio_ep ul {padding: inherit; margin-bottom:.8rem;}
 #bio_ep .padding010 {padding: 0 10px;}
