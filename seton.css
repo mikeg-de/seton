@@ -91,7 +91,7 @@ ul.Bullet-Haekchen, ul.Bullet-Waage, ul.Weihnachtskugeln, .Teaser-Blog ul, .Foot
 .Bullet-Haekchen li, .Weihnachtskugeln li, .Bullet-Haekchen-weiss li, .Bullet-Plus li, .Bullet-Checkbox li, .Vorteile li {list-style-type: none; margin: 0 0 0 .75rem; padding: 0 0 0 .25rem}
 .Weihnachtskugeln li:before {display:block; float:left; width:27px; height:29px; background:url('/images/Apfelbaum/Kugel.gif') no-repeat; content:''; margin-right:.75rem}
 .Bullet-Waage li:before {display:block; float:left; width:23px; height:19px; background:url('/images/Allgemein/Waage.png') no-repeat; content:''; margin-right:.75rem}
-.Bullet-Waage li span {display: inline-block;}
+.Bullet-Waage li span {display: inline-block; max-width: 90%;}
 aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
 .Bullet-Haekchen-weiss li .Bullet {background-position: -22px -130px}
 .Bullet-Haekchen-2-spaltig li {width: 180px; float: left}
