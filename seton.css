@@ -88,7 +88,7 @@ ul, .PUES-Subnavigation-Kategorien, .Teaser-Blog ul, .Teaser .Bullet-Haekchen, u
 .Content ul, .PUES-Subnavigation-Kategorien {margin-left: 1rem}
 .Teaser-Blog ul, .dropdown-list {margin: 0}
 ul.Bullet-Haekchen, ul.Bullet-Waage, ul.Weihnachtskugeln, .Teaser-Blog ul, .Footer ul, .dropdown-list {list-style-type: none}
-.Bullet-Haekchen li, .Bullet-Waage li, .Weihnachtskugeln li, .Bullet-Haekchen-weiss li, .Bullet-Plus li, .Bullet-Checkbox li, .Vorteile li {list-style-type: none; margin: 0 0 0 .75rem; padding: 0 0 0 .25rem}
+.Bullet-Haekchen li, .Weihnachtskugeln li, .Bullet-Haekchen-weiss li, .Bullet-Plus li, .Bullet-Checkbox li, .Vorteile li {list-style-type: none; margin: 0 0 0 .75rem; padding: 0 0 0 .25rem}
 .Weihnachtskugeln li:before {display:block; float:left; width:27px; height:29px; background:url('/images/Apfelbaum/Kugel.gif') no-repeat; content:''; margin-right:.75rem}
 .Bullet-Waage li:before {display:block; float:left; width:23px; height:19px; background:url('/images/Allgemein/Waage.png') no-repeat; content:''; margin-right:.75rem}
 aside .Teaser .Bullet-Haekchen, .Bullet-Checkbox {margin: 0}
