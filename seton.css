@@ -1726,7 +1726,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 .NL-Gewinnspiel-Teilnahmebedingungen-Content {font-size: .8rem; color: #666; width: 100%; line-height: 1.2rem}
 
 .fbanner-placeholder{height:100px}
-.NL-Layer{left:0;right:0;clear:both;text-align:left;border-collapse:separate;position:fixed;display:none;bottom:0;width:100%;z-index:250;background:#dfdada repeat scroll top left;border-top:4px solid #E30613}
+.NL-Layer{left:0;right:0;clear:both;text-align:left;border-collapse:separate;position:fixed;display:none;bottom:0;width:100%;z-index:250;background:#DCD6D6 repeat scroll top left;border-top:4px solid #539D37}
 .NL-Layer .Container-Content{width:1024px;height:220px;margin:auto;position:relative;display:block}
 .NL-Layer #fbannerimg, .NL-Layer #fbannermess,.NL-Layer #fbannernews,.NL-Layer form.fbannernewsletter input.text-field,.NL-Layer form.fbannernewsletter .submit,.NL-Layer .submit-field{margin:0}
 .NL-Layer #fbannermess a{text-decoration:none}
