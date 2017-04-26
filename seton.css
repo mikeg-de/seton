@@ -1743,7 +1743,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 .NL-Layer-Header{width:1024px;margin:auto}
 .NL-Layer-Button{-webkit-border-top-left-radius:5px;-moz-border-top-left-radius:5px;border-top-left-radius:5px;-webkit-border-top-right-radius:5px;-moz-border-top-right-radius:5px;border-top-right-radius:5px;color:#fff;background:#539D37;padding:8px 10px 2px;width:320px;top:-40px;position:absolute;cursor:pointer}
 .NL-Layer-Button h2,.NL-Layer-Button h2 a{color:#fff;font-size:20px;font-weight:700}
-.NL-Layer-Button h2::after {content: url('/images/Banner/free-postauto.jpg'); position: absolute; right: 10px;}
+.NL-Layer-Button h2::after {content: url('/images/Banner/free-postauto.jpg'); position: absolute; right: 10px; top: 5px;}
 .NL-Layer #fbannermess h3,#fbannermess h3 a{color:#e30613;font-size:25px;font-weight:700;margin-bottom:10px}
 .NL-Layer #fbannermess li,#fbannermess li a{color:#0367a5;font-weight:400;font-size:16px}
 .NL-Layer .hiderzone a{color:#0367a5;font-size:10px;font-weight:400;font-style:normal;cursor:pointer;text-decoration:none}
