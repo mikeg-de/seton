@@ -954,6 +954,7 @@ img.rsImg {max-width: none}
 .Produktdaten .article-Dropdowns th {font-weight: normal; width: 30%; height: 1.5rem; padding-left: 0}
 .Produktdaten .article-Dropdowns td {padding-right: 0}
 #AllgArtMerkTabelle {width: 100%}
+#AllgArtMerkTabelle th {white-space: nowrap;}
 #Kundenwunsch textarea {width: 96%}
 #alle-artikel-anzeigen {padding: 15px 0 0; display: block}
 .PDS .Produktergebnis-inner, #orderinfo {padding: 1rem 1rem 0 1rem}
