@@ -133,6 +133,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 .Produkttabelle .Bild {text-align:center; display:table-cell; vertical-align:top; position:relative; min-width:120px; padding-bottom:20px}
 .Produkttabelle .Bild a {display: block}
 .Produkttabelle .Bild img {max-height: 80px}
+.Produkttabelle .DYO-Bild img {max-width: 80px}
 .Produkttabelle .Produktinfo p {overflow: hidden; margin: 0}
 .Produkttabelle .Produktinfo .Datei-Upload, .Produkttabelle .Produktinfo .Datei-Uploads {margin: .3rem 0}
 .Produkttabelle .editArtikel {display: none}
