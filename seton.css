@@ -45,7 +45,7 @@ td, th {vertical-align: top; text-align: left; padding-right: 10px}
 .grid-view.items-4 .item {width:25%}
 
 /* Vertical centered*/
-.rsWithThumbsHor .rsSlide img, .Designcode-Artikelauswahl .rsSlide #PDS-RS-Video, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .categries h2 + .Bild img, .grid-view.products .Bild img, .item.box-grey .Text span  {position: relative; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%)}
+.rsWithThumbsHor .rsSlide img, .Designcode-Artikelauswahl .rsSlide #PDS-RS-Video, .rsWithThumbsHor .rsSlide .Rotating-image, .Designcode-Artikelauswahl .rsDefault .rsThumb img, .cc-slides img, .categries h2 + .Bild img, .grid-view.products .Bild img, .DYO-Thumbnail img, .item.box-grey .Text span  {position: relative; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%)}
 .rsFullscreen .rsContainer .rsSlide img, .rsFullscreen .rsSlide .Rotating-image {/*-webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0)*/}
 
 /* Text */
@@ -123,6 +123,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 .tab02 [type="text"] {max-width: 220px}
 .tab02 :disabled {display: inline-block}
 .SETON-Adressen {color: #666; border-top: 1px solid #ccc; margin-top: 30px !important; width: 100%}
+.DYO-Thumbnail {height: 150px}
 
 /* Produkttabelle */
 .Produkttabelle {width: 100%; border-spacing: 0; border-collapse: collapse; margin: 1rem 0 0}
