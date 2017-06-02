@@ -359,6 +359,8 @@ button {font-size: .8rem}
 .ui-dialog-buttonpane, .ui-state-focus, .ui-state-active {border: 0}
 .Verlauf-weiss-grau {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, #c1c1c1 100%)}
 button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:default}
+.Produkttyp .Button-gross.Button-weiss.zwei-Zeilen {height: 40px}
+.Produkttyp .Button-gross.Button-weiss.zwei-Zeilen a {position: relative; top: 50%;	transform: translateY(-50%); display: block;}
 
 /* Titel blau */
 .Titel-Sichern-Sie-sich-den-Kalender {background-position: -290px -75px}
