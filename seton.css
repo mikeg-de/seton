@@ -1144,6 +1144,7 @@ ul.grid-view, .cc-slides .inner {display: -ms-flexbox; display: flex; -ms-flex-d
 .feefo-stars-gross { display: none; position: absolute; top: 10px; left: 100px; }
 .feefo-stars-rahmen { width: 70px; overflow: hidden; }
 .feefo-stars { position: relative; left: -102px; display: inline; }
+.feefo-stars img, .feefo-stars-gross img { max-width: inherit }
 .feefo-stars-rahmen:hover + .feefo-stars-gross { display: block; }
 
 /* list-view allgemein */
