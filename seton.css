@@ -1141,7 +1141,7 @@ ul.grid-view, .cc-slides .inner {display: -ms-flexbox; display: flex; -ms-flex-d
 .grid-view.products .Editieren {position: absolute; top: 0; right: 0; padding: 10px; background: #EEE}
 
 /*Feefo Bewertung*/
-.feefo-stars-gross { display: none; position: absolute; left: 70px; z-index: 50; }
+.feefo-stars-gross { display: none; position: absolute; right: 10px; z-index: 50; }
 .feefo-stars-rahmen { width: 60px; overflow: hidden; margin-left: 165px; }
 .feefo-stars-rahmen-liste { width: 60px; overflow: hidden; margin-left: 105px; }
 .feefo-stars { position: relative; left: -102px; display: inline; }
