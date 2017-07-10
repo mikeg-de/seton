@@ -1140,6 +1140,12 @@ ul.grid-view, .cc-slides .inner {display: -ms-flexbox; display: flex; -ms-flex-d
 .grid-view.products .Relevanz {position: absolute; top: 9px; right: 40px}
 .grid-view.products .Editieren {position: absolute; top: 0; right: 0; padding: 10px; background: #EEE}
 
+/*Feefo Bewertung*/
+.feefo-stars-gross { display: none; position: absolute; top: 10px; left: 100px; }
+.feefo-stars-rahmen { width: 70px; overflow: hidden; }
+.feefo-stars { position: relative; left: -102px; display: inline; }
+.feefo-stars-rahmen:hover + .feefo-stars-gross { display: block; }
+
 /* list-view allgemein */
 .categories, .products {/* margin:0 */}
 .list-view.products .item:first-child {border: 0 none}
