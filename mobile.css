@@ -236,7 +236,8 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.Checkout-Adresseingabe .Adresseingabe label, .Checkout .Hinweis {width: 100%; top: -1rem;}
 	.Adresseingabe button {margin: 0;}
 	.Checkout-Adresseingabe .Adresseingabe [type="text"], .Checkout .Adresseingabe [type="tel"], .Checkout .Adresseingabe [type="email"] {width: 100%;}
-	.Adresseingabe .Eingabefeld-PLZ, .Checkout .Adresseingabe .Eingabefeld-PLZ[type="text"] {width: 19.5%} }
+	.Adresseingabe .Eingabefeld-PLZ, .Checkout .Adresseingabe .Eingabefeld-PLZ[type="text"] {width: 19.5%}
+	.feefo-stars-rahmen { margin-left: 80px; } }
 
 /* iPhone 5 & 6 */
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width: 320px) and (max-device-width: 667px) {
@@ -252,7 +253,8 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.cc-slides .item:nth-child(3n) {border: 0 none}
 	#cc-slider-lsp .item:nth-child(3n+1) {clear: both}
 	#cc-slider-lsp .item:nth-child(-n+3) {border-top: 0 none}
-	#cc-slider-lsp .item {border-top: 1px solid #ccc} }
+	#cc-slider-lsp .item {border-top: 1px solid #ccc}
+	.feefo-stars-rahmen { margin-left: 80px; } }
 
 /* Tablet portrait = iPhone 5 & 6 landscape */
 @media only screen and (min-width:768px) and (max-device-width: 1024px) and (orientation: portrait), (min-device-width: 320px) and (max-device-width: 667px) and (orientation: landscape) {
