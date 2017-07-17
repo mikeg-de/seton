@@ -303,7 +303,8 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 /* iPhone 6 strict portrait*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
 	#Header .Artikelsuche {width: 55%; margin-left: 1.5%}
-	#suggestContainer {top: 2.5rem} }
+	#suggestContainer {top: 2.5rem}
+	.Homepage .royalSlider {height: 124px} }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {.pure-drawer {/* height: 100%; */ /* overflow-y: scroll; */} }
 
