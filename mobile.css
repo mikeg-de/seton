@@ -279,6 +279,11 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.Teaser-Newsletter .Eingabefeld {max-width: 70%}
 }
 
+/* iPhone 6+ strict landscape */
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 3) {
+	.Homepage .royalSlider {height: 235px}
+}
+
 /* iPhone 6 strict landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
 	.Homepage .royalSlider {height: 221px}
@@ -305,6 +310,11 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	#Header .Artikelsuche {width: 55%; margin-left: 1.5%}
 	#suggestContainer {top: 2.5rem}
 	.Homepage .royalSlider {height: 124px} }
+
+/* iPhone 6+ strict portrait*/
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (device-width : 414px) and (device-height : 736px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 3) and (-webkit-device-pixel-ratio : 3) {
+	.Homepage .royalSlider {height: 136px}
+}
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {.pure-drawer {/* height: 100%; */ /* overflow-y: scroll; */} }
 
