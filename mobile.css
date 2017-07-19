@@ -279,16 +279,16 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.Teaser-Newsletter .Eingabefeld {max-width: 70%}
 }
 
+/* iPhone 6 strict landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+	.Homepage .royalSlider {height: 221px}
+	/*.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 325px !important;} */}
+
 /* iPhone 5 strict landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
 	#Header .Artikelsuche {width: 50%}
 	.Homepage .royalSlider {height: 185px}
 	/*.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 275px !important} */}
-
-/* iPhone 6 strict landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-	.Homepage .royalSlider {height: 165px}
-	/*.Designcode-Artikelauswahl .rsFullscreen .rsOverflow {min-height: 325px !important;} */}
 
 /* iPhone 5 and 6 portrait*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait), (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
