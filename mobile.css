@@ -281,7 +281,7 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 
 /* iPhone 6+ strict landscape */
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 3) {
-	.Homepage .royalSlider {height: 235px}
+	.Homepage .royalSlider {height: 240px}
 }
 
 /* iPhone 6 strict landscape */
