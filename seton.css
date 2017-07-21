@@ -1154,6 +1154,7 @@ ul.grid-view, .cc-slides .inner {display: -ms-flexbox; display: flex; -ms-flex-d
 .categories, .products {/* margin:0 */}
 .list-view.products .item:first-child {border: 0 none}
 .list-view .item {padding: 0; display: table; width: 100%; border:0; border-top:1px solid #ccc}
+.list-view .item.bottom30 {padding-bottom: 0;}
 .list-view.products .Relevanz {bottom: 9px; right: 10px}
 .list-view.products .col3.first {height:150px; text-align:center; margin-top:1rem}
 .list-view.products .col3.first .Bild img {max-height:150px}
