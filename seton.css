@@ -1103,7 +1103,7 @@ aside nav a, .Subnavigation li a {padding: 5px 0 3px 0; display: block}
 .grid-view .item:nth-child(-n+3),
 .grid-view.items-4 .item:nth-child(-n+4) {border-top: 0 none}
 .list .item {position: relative;box-sizing: border-box;border-right: 1px solid #ccc;padding: 10px;float:left;list-style-type:none}
-.bottom30 {padding-bottom: 30px;}
+.list .item.bottom30 {padding-bottom: 30px;}
 .list .item > a {color: #3a3a3a;height: 100%; display: -ms-flexbox; ; display: flex; -ms-flex-direction: column; flex-direction: column}
 .list .item > a:hover {color: #3a3a3a; text-decoration: none}
 .list a .Link, .Produkt-Name, .Produkttitel {color: #0061a0}
