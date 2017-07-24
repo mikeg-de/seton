@@ -306,13 +306,13 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.Homepage .royalSlider {height: 105px} }
 
 /* iPhone 6 strict portrait*/
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
 	#Header .Artikelsuche {width: 55%; margin-left: 1.5%}
 	#suggestContainer {top: 2.5rem}
 	.Homepage .royalSlider {height: 124px} }
 
 /* iPhone 6+ strict portrait*/
-@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (device-width : 414px) and (device-height : 736px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 3) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (device-width : 414px) and (device-height : 736px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 3) {
 	.Homepage .royalSlider {height: 136px}
 }
 
