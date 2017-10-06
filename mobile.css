@@ -194,7 +194,7 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 
 @media only screen and (max-device-width: 767px) {
 	#neue-aktion-hinweis {font-size: 10px; height: 12px; width: 12px;}
-	#neue-aktion-hinweis span {top: -4px; right: 4px;}
+	#neue-aktion-hinweis span {top: -4px;}
 	 }
 
 /* Mobiles portrait */
