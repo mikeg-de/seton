@@ -7,7 +7,7 @@
 /* Mobiles (tablets & smartphones)
 http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 @media only screen and (max-device-width: 1024px) {
-	.disable-mobil, .header-balken-blau, #Header .Direktbestellung, .Sortiert-nach, .Seiten-blaettern a:last-child, #SuchButton span, .PUES-Hauptkategorie .pure-toggle-label[data-toggle-label='left-bottom'] {display: none !important}
+	.header-balken-blau, #Header .Direktbestellung, .Sortiert-nach, .Seiten-blaettern a:last-child, #SuchButton span, .PUES-Hauptkategorie .pure-toggle-label[data-toggle-label='left-bottom'] {display: none !important}
 
 	/* Size adjustements */
 	.col1, .col2, .col3, .Sidebar, .Checkout .Sidebar .Teaser, .Grid-System .Grid-1-5, .Grid-System .Grid-1-8, .Grid-System .Grid-1-5-last, .Grid-System .Grid-1-4, .Ein-Spalter .Grid6, .Sidebar-left, .Sidebar-right, .Direktverkauf .Content .Grid-last, .Grid-1-3, .Inventarketiketten-Designer .col-left, .Inventarketiketten-Designer .col-right-1, .Inventarketiketten-Designer .col-right-2, .Newsletter-Anforderung .article-Newsletter-Abo-Downloads .Grid-1-3 {width: 32.5%;}
@@ -193,6 +193,7 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.Homepage .Content .Teaser-Individuell-gestalten {margin-left: 0} }
 
 @media only screen and (max-device-width: 767px) {
+	.disable-mobil {display: none !important}
 	#neue-aktion-hinweis {font-size: 10px; height: 12px; width: 12px;}
 	#neue-aktion-hinweis span {top: -4px;}
 	 }
