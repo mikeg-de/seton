@@ -67,7 +67,7 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	li:hover > .sub, li:focus > .sub, li:hover > .nav-third, li:focus > .nav-third {visibility: visible; opacity: 1; max-height: 2000px; -ms-transition: opacity .25s ease-in, max-height .5s ease-in; transition: opacity .25s ease-in, max-height .5s ease-in}
 	.nav-pri [id^="topnav"] > a {border: 0 none; border-top: 1px solid #ccc}
 	#topnav4 .sub, #topnav7 .sub {/* left: 0 */}
-	#neue-aktion-hinweis { display: none; font-size: 12px; font-weight: bold; color: white; position: absolute; background: red; height: 14px; width: 14px; top: 4px; right: 4px;}
+	#neue-aktion-hinweis { display: none; font-size: 12px; font-weight: bold; color: white; position: absolute; background: red; height: 14px; width: 14px; top: 264px; right: 40px;}
 	#neue-aktion-hinweis span {position: absolute; top: -12px; right: 4px;}
 	[id^="sub"] > a {padding: .75rem .5rem .4rem 1rem;display: block;margin: 0;height: 2rem;}
 	nav a:hover {padding-right:3rem}
