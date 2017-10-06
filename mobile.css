@@ -192,6 +192,11 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
 	.Homepage .Content .Teaser-Individuell-gestalten {margin-left: 0} }
 
+@media only screen and (max-device-width: 767px) {
+	#neue-aktion-hinweis {font-size: 10px; height: 12px; width: 12px;}
+	#neue-aktion-hinweis span {top: -4px; right: 4px;}
+	 }
+
 /* Mobiles portrait */
 @media only screen and (max-device-width: 768px) and (orientation: portrait) {
 	.article-Dropdowns {width: 66.25%}
