@@ -530,7 +530,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 /* Versandkostenfrei */
 #Header .Versandkostenfrei {float: left;color: #fff;margin: 0;padding: 0;letter-spacing: .025rem;font-size: 1rem}
 .Versandkostenfrei:hover {text-decoration: none}
-.Versandkostenfrei:before {content:url('/images/Free-Delivery-20px-white.png');}
+.icon_transport:before {content:url('/images/Free-Delivery-20px-white.png');}
 
 /* Warenkorb */
 .Warenkorb {position: absolute; top: 53px;right: 1.25%}
