@@ -528,7 +528,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 .Hotline:hover {cursor: default; text-decoration: none}
 
 /* Versandkostenfrei */
-#Header .Versandkostenfrei {float: left;color: #fff;margin: 0;padding: 0;letter-spacing: .025rem;font-size: 1rem}
+#Header .Versandkostenfrei {float: left;color: #fff;margin: 0;padding: 0;letter-spacing: .025rem; font-size: 1rem}
 .Versandkostenfrei:hover {text-decoration: none}
 .icon_transport:before {content:url('/images/Free-Delivery-20px-white.png'); vertical-align: sub; padding-right: 5px;}
 
