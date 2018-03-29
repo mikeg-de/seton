@@ -527,6 +527,11 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 #Header .Hotline {float: right;color: #fff;margin: 0;padding: 0;letter-spacing: .025rem;font-size: 1rem}
 .Hotline:hover {cursor: default; text-decoration: none}
 
+/* Versandkostenfrei */
+#Header .Versandkostenfrei {float: left;color: #fff;margin: 0;padding: 0;letter-spacing: .025rem;font-size: 1rem}
+.Versandkostenfrei:hover {text-decoration: none}
+.Versandkostenfrei:before {content:url('/images/Free-Delivery-20px-white.png');}
+
 /* Warenkorb */
 .Warenkorb {position: absolute; top: 53px;right: 1.25%}
 #Header .Warenkorb b {font-size: 1.1rem}
@@ -867,7 +872,7 @@ img.rsImg {max-width: none}
 .Teaser-Neu-bei-SETON img {top: 60px; left: 20px}
 .Teaser-Spar-Angebote img, .Teaser-Katalog img, .Teaser-Individuell-gestalten img, .col3 .NL-Aktion {position: absolute; right: 1rem; top: 1.5rem}
 .col3 .NL-Aktion {right: 0.5rem}
-.Trusted-Shop-Kundenbewertung, .bvh-teaser {/*text-align: center*/ ; display: block}
+.Trusted-Shop-Kundenbewertung, .bvh-teaser {/*text-align: center ;*/ display: block}
 .Trusted-Shop-Kundenbewertung span {font-size: 9px; white-space: nowrap}
 
 /* Teaser Newsletter */
