@@ -527,7 +527,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 /* Hotline */
 #Header .Hotline {float: right;color: #fff;margin: 0;padding: 0;letter-spacing: .025rem;font-size: 1rem}
 .Hotline:hover {cursor: default; text-decoration: none}
-.ersatz-rueckruf {font-size: .8rem}
+#Header .ersatz-rueckruf {font-size: .8rem}
 
 /* Versandkostenfrei */
 #Header .Versandkostenfrei {float: left;color: #fff;margin: 0;padding: 0;letter-spacing: .025rem; font-size: 1rem}
