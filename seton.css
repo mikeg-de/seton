@@ -1750,7 +1750,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 .NL-Gewinnspiel-Teilnahmebedingungen-Content {font-size: .8rem; color: #666; width: 100%; line-height: 1.2rem}
 
 .fbanner-placeholder{height:100px}
-.NL-Layer{left:0;right:0;clear:both;text-align:left;border-collapse:separate;position:fixed;display:none;bottom:0;width:100%;z-index:250;background:#DCD6D6 repeat scroll top left;border-top:4px solid #0A4493}
+.NL-Layer{left:0;right:0;clear:both;text-align:left;border-collapse:separate;position:fixed;display:none;bottom:0;width:100%;z-index:250;background:#DCD6D6 repeat scroll top left;border-top:4px solid #152c78}
 .NL-Layer .Container-Content{width:1024px;height:100px;margin:auto;position:relative;display:block}
 .NL-Layer #fbannerimg, .NL-Layer #fbannermess,.NL-Layer #fbannernews,.NL-Layer form.fbannernewsletter input.text-field,.NL-Layer form.fbannernewsletter .submit,.NL-Layer .submit-field{margin:0}
 .NL-Layer #fbannermess a{text-decoration:none}
@@ -1765,7 +1765,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 .NL-Layer #fbannernews .tooltips-drueber .tooltip::before,#fbannernews .tooltips-drueber .tooltip::after{left:18%}
 .NL-Layer .hiderzone{position:absolute;right:2px;bottom:auto;top:2px;list-style:none}
 .NL-Layer-Header{width:1024px;margin:auto}
-.NL-Layer-Button{-webkit-border-top-left-radius:5px;-moz-border-top-left-radius:5px;border-top-left-radius:5px;-webkit-border-top-right-radius:5px;-moz-border-top-right-radius:5px;border-top-right-radius:5px;color:#fff;background:#0A4493;padding:8px 10px 2px;width:320px;top:-40px;position:absolute;cursor:pointer}
+.NL-Layer-Button{-webkit-border-top-left-radius:5px;-moz-border-top-left-radius:5px;border-top-left-radius:5px;-webkit-border-top-right-radius:5px;-moz-border-top-right-radius:5px;border-top-right-radius:5px;color:#fff;background:#152c78;padding:8px 10px 2px;width:320px;top:-40px;position:absolute;cursor:pointer}
 .NL-Layer-Button h2,.NL-Layer-Button h2 a{color:#fff;font-size:20px;font-weight:700}
 /* .NL-Layer-Button h2::after {content: url('/images/Banner/free-postauto.jpg'); position: absolute; right: 10px; top: 5px;} */
 .NL-Layer #fbannermess h3,#fbannermess h3 a{color:#e30613;font-size:25px;font-weight:700;margin-bottom:10px}
