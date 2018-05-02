@@ -1803,6 +1803,8 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 }
 @media (max-width: 767px) {
 	/*.NL-Layer{display:none}*/
+    .NL-Layer .Container-Content{height:auto}
+    .NL-Layer #fbannerimg {position: relative;}
     .show-desktop{display: none}
     .show-mobil{display: inherit}
 }
