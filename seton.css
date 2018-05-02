@@ -1796,8 +1796,15 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	.NL-Layer .hiderzone{bottom:auto;top:2px;right:4px}
 	.NL-Layer .hiderzone a{font-size:10px}
 }
+@media (min-width: 768px) {
+	/*.NL-Layer{display:none}*/
+    .show-desktop{display: inherit}
+    .show-mobil{display: none}
+}
 @media (max-width: 767px) {
-	.NL-Layer{display:none}
+	/*.NL-Layer{display:none}*/
+    .show-desktop{display: none}
+    .show-mobil{display: inherit}
 }
 
 /* Blog:Vorstellung einer Kategorie oder Produktes */
