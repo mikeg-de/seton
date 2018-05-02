@@ -1805,6 +1805,7 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	/*.NL-Layer{display:none}*/
     .NL-Layer .Container-Content{height:auto}
     .NL-Layer #fbannerimg {position: relative;}
+    .NL-Layer #fbannerimg img {width:100%}
     .show-desktop{display: none}
     .show-mobil{display: inherit}
 }
