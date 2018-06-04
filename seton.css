@@ -128,6 +128,7 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 /* Produkttabelle */
 .Produkttabelle {width: 100%; border-spacing: 0; border-collapse: collapse; margin: 1rem 0 0}
 .Produkttabelle.smaller {font-size: smaller}
+.Produkttabelle.smaller th, .Produkttabelle.smaller td {min-width: 23%}
 .Produkttabelle th, .Produkttabelle td {font-weight: normal}
 .Produkttabelle tr {border-top: 1px solid #ccc}
 .Produkttabelle .inactive {color: #888}
