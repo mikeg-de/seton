@@ -625,6 +625,7 @@ body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggl
 .icon_document_alt:before {content: "\68"}
 .icon_download:before {content: "\e092"}
 .icon_prozent, .icon_geschenk, .icon_transport-grey {margin-left: 2em}
+.icon_prozent:before {content:"%"; color: grey; padding-right: 8px; padding-left: 4px; margin-left: -2em}
 .icon_geschenk:before {content:url('/images/geschenk-box-20px.png'); vertical-align: sub; padding-right: 5px; margin-left: -2em}
 
 
