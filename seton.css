@@ -538,7 +538,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 #Header .Versandkostenfrei {float: left;color: #fff;margin: 0;padding: 0;letter-spacing: .025rem; font-size: 1rem}
 .Versandkostenfrei:hover {text-decoration: none}
 .icon_transport:before {content:url('/images/Free-Delivery-20px-white.png'); vertical-align: sub; padding-right: 5px;}
-.icon_transport-grey:before {content:url('/images/Free-Delivery-20px-grey.png'); vertical-align: sub; padding-right: 5px;}
+.icon_transport-grey:before {content:url('/images/Free-Delivery-20px-grey.png'); vertical-align: sub; padding-right: 5px; margin-left: -2em}
 
 /* Warenkorb */
 .Warenkorb {position: absolute; top: 53px;right: 1.25%}
@@ -624,8 +624,8 @@ body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggl
 .icon_documents_alt:before {content: "\69";margin: 0 .5rem 0 0}
 .icon_document_alt:before {content: "\68"}
 .icon_download:before {content: "\e092"}
-.icon_prozent:before {content:"%"; vertical-align: sub; padding-right: 5px;}
-.icon_geschenk:before {content:url('/images/geschenk-box-20px.png'); vertical-align: sub; padding-right: 5px;}
+.icon_prozent, .icon_geschenk, .icon_transport-grey {margin-left: 2em}
+.icon_geschenk:before {content:url('/images/geschenk-box-20px.png'); vertical-align: sub; padding-right: 5px; margin-left: -2em}
 
 
 /* Teaser ==========================*/
