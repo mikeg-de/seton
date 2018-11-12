@@ -401,6 +401,9 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 #bio_ep .col6 .Button-klein, #bio_ep .col12 .Button-klein {display: -ms-flexbox; ; display: flex; -ms-flex-direction: column; flex-direction: column}
 #bio_ep .col6 a:hover, #bio_ep .col12 a:hover  {text-decoration:none}
 
+/* Flyout ======================*/
+
+
 /* Ajax Loading Animation ==========================*/
 .loading-indicator {height: 80px; width: 80px; background: url( '/images/Allgemein/loadinfo_48x48.gif' ); background-repeat: no-repeat; background-position: center center}
 .loading-indicator-overlay {background-color: #fff; opacity: .6; filter: alpha(opacity = 60)}
@@ -535,6 +538,7 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 #Header .Versandkostenfrei {float: left;color: #fff;margin: 0;padding: 0;letter-spacing: .025rem; font-size: 1rem}
 .Versandkostenfrei:hover {text-decoration: none}
 .icon_transport:before {content:url('/images/Free-Delivery-20px-white.png'); vertical-align: sub; padding-right: 5px;}
+.icon_transport-grey:before {content:url('/images/Free-Delivery-20px-grey.png'); vertical-align: sub; padding-right: 5px;}
 
 /* Warenkorb */
 .Warenkorb {position: absolute; top: 53px;right: 1.25%}
@@ -620,6 +624,9 @@ body:not([class*="Checkout"]) nav:hover ~ .pure-overlay, .pure-toggle[data-toggl
 .icon_documents_alt:before {content: "\69";margin: 0 .5rem 0 0}
 .icon_document_alt:before {content: "\68"}
 .icon_download:before {content: "\e092"}
+.icon_prozent:before {content:"%"; vertical-align: sub; padding-right: 5px;}
+.icon_geschenk:before {content:url('/images/geschenk-box-20px.png'); vertical-align: sub; padding-right: 5px;}
+
 
 /* Teaser ==========================*/
 /* Allgemein */
