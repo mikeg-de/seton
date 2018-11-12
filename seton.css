@@ -411,71 +411,27 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 	/* alternativ ein nicht fixierter Button */
 	/* position: absolute; */
 	top: 180px;
-	right: -240px;
-	-webkit-transition: all 600ms ease;
-	-moz-transition: all 600ms ease;
-	-ms-transition: all 600ms ease;
-	-o-transition: all 600ms ease;
-	transition: all 600ms ease;
+	right: 0;
 	-webkit-border-radius: 4px 0 0 4px;
 	border-radius: 4px 0 0 4px;
 	padding: 15px;
 	z-index: 10000;
 }
 
-#flyout .btn-defult {
-	background-color: #fff;
-	border: none;
-	color: #0061a0;
-}
-#flyout .btn-defult:hover {
-	opacity: 0.4;
-}
-
-#flyout #button {
+#flyout-close {
 	position: absolute;
-	top: 113px;
-	left: -71px;
-	border-bottom: 1px solid #E0E0E0;
-	-webkit-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-	-webkit-transition: all 600ms ease;
-	-moz-transition: all 600ms ease;
-	-ms-transition: all 600ms ease;
-	-o-transition: all 600ms ease;
-	transition: all 600ms ease;
+	left: 100%;
+	margin: -8px 0 0 -12px;
+	width: 20px;
+	height: 20px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #5c5c5c;
 	cursor: pointer;
 }
-#flyout #button .text {
-	-webkit-border-radius: 4px 4px 0 0;
-	border-radius: 4px 4px 0 0;
-	padding: 10px 20px 15px 20px;
-	opacity: 1;
-	-webkit-transition: all 600ms ease;
-	-moz-transition: all 600ms ease;
-	-ms-transition: all 600ms ease;
-	-o-transition: all 600ms ease;
-	transition: all 600ms ease;
-	border-bottom: none;
-}
-#flyout #button .btn-primary {
-	color: #fff;
-	background-color: #0061a0;
-	border-color: #0061a0;
-}
-
-#flyout:hover {
-	right: 0;
-	-webkit-transition: all 600ms ease;
-	-moz-transition: all 600ms ease;
-	-ms-transition: all 600ms ease;
-	-o-transition: all 600ms ease;
-	transition: all 600ms ease;
-}
-
 
 /* Ajax Loading Animation ==========================*/
 .loading-indicator {height: 80px; width: 80px; background: url( '/images/Allgemein/loadinfo_48x48.gif' ); background-repeat: no-repeat; background-position: center center}
