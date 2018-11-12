@@ -407,6 +407,7 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 	min-height: 220px;
 	border: 1px solid #0061a0;
 	position: fixed;
+	background: #fff;
 	/* alternativ ein nicht fixierter Button */
 	/* position: absolute; */
 	top: 180px;
