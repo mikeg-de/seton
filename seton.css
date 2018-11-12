@@ -404,7 +404,7 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 /* Flyout Info Box ======================*/
 #flyout {
 	width: 205px;
-	min-height: 150px;
+	min-height: 220px;
 	border: 1px solid #0061a0;
 	position: fixed;
 	/* alternativ ein nicht fixierter Button */
@@ -434,7 +434,7 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 #flyout #button {
 	position: absolute;
 	top: 113px;
-	left: -93px;
+	left: -71px;
 	border-bottom: 1px solid #E0E0E0;
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
@@ -446,6 +446,7 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 	-ms-transition: all 600ms ease;
 	-o-transition: all 600ms ease;
 	transition: all 600ms ease;
+	cursor: pointer;
 }
 #flyout #button .text {
 	-webkit-border-radius: 4px 4px 0 0;
