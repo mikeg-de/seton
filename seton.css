@@ -401,7 +401,78 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 #bio_ep .col6 .Button-klein, #bio_ep .col12 .Button-klein {display: -ms-flexbox; ; display: flex; -ms-flex-direction: column; flex-direction: column}
 #bio_ep .col6 a:hover, #bio_ep .col12 a:hover  {text-decoration:none}
 
-/* Flyout ======================*/
+/* Flyout Info Box ======================*/
+#flyout {
+	width: 205px;
+	min-height: 150px;
+	border: 1px solid #0061a0;
+	position: fixed;
+	/* alternativ ein nicht fixierter Button */
+	/* position: absolute; */
+	top: 180px;
+	right: -240px;
+	-webkit-transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	transition: all 600ms ease;
+	-webkit-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+	padding: 15px;
+	z-index: 10000;
+}
+
+#flyout .btn-defult {
+	background-color: #fff;
+	border: none;
+	color: #0061a0;
+}
+#flyout .btn-defult:hover {
+	opacity: 0.4;
+}
+
+#flyout #button {
+	position: absolute;
+	top: 113px;
+	left: -93px;
+	border-bottom: 1px solid #E0E0E0;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	-webkit-transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	transition: all 600ms ease;
+}
+#flyout #button .text {
+	-webkit-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+	padding: 10px 20px 15px 20px;
+	opacity: 1;
+	-webkit-transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	transition: all 600ms ease;
+	border-bottom: none;
+}
+#flyout #button .btn-primary {
+	color: #fff;
+	background-color: #0061a0;
+	border-color: #0061a0;
+}
+
+#flyout:hover {
+	right: 0;
+	-webkit-transition: all 600ms ease;
+	-moz-transition: all 600ms ease;
+	-ms-transition: all 600ms ease;
+	-o-transition: all 600ms ease;
+	transition: all 600ms ease;
+}
 
 
 /* Ajax Loading Animation ==========================*/
