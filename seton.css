@@ -463,7 +463,7 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 	}
 	100% {
 		opacity:0;
-		transform:  scaleX(0.00) scaleY(0.00) ;
+		transform:  scaleX(0.10) scaleY(0.10) ;
 	}
 }
 
@@ -474,7 +474,7 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 	}
 	100% {
 		opacity:0;
-		-moz-transform:  scaleX(0.00) scaleY(0.00) ;
+		-moz-transform:  scaleX(0.10) scaleY(0.10) ;
 	}
 }
 
@@ -485,7 +485,7 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 	}
 	100% {
 		opacity:0;
-		-webkit-transform:  scaleX(0.00) scaleY(0.00) ;
+		-webkit-transform:  scaleX(0.10) scaleY(0.10) ;
 	}
 }
 
@@ -496,7 +496,7 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 	}
 	100% {
 		opacity:0;
-		-o-transform:  scaleX(0.00) scaleY(0.00) ;
+		-o-transform:  scaleX(0.10) scaleY(0.10) ;
 	}
 }
 
@@ -507,7 +507,7 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 	}
 	100% {
 		opacity:0;
-		-ms-transform:  scaleX(0.00) scaleY(0.00) ;
+		-ms-transform:  scaleX(0.10) scaleY(0.10) ;
 	}
 }
 
