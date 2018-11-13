@@ -459,55 +459,55 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 @keyframes animationFlyout{
 	0% {
 		opacity:1;
-		transform:  translate(0px,-25px)  ;
+		transform:  translate(0px,0px)  ;
 	}
 	100% {
 		opacity:0;
-		transform:  translate(-104px,-85px)  ;
+		transform:  translate(-200px,-120px)  ;
 	}
 }
 
 @-moz-keyframes animationFlyout{
 	0% {
 		opacity:1;
-		-moz-transform:  translate(0px,-25px)  ;
+		-moz-transform:  translate(0px,0px)  ;
 	}
 	100% {
 		opacity:0;
-		-moz-transform:  translate(-104px,-85px)  ;
+		-moz-transform:  translate(-200px,-120px)  ;
 	}
 }
 
 @-webkit-keyframes animationFlyout {
 	0% {
 		opacity:1;
-		-webkit-transform:  translate(0px,-25px)  ;
+		-webkit-transform:  translate(0px,0px)  ;
 	}
 	100% {
 		opacity:0;
-		-webkit-transform:  translate(-104px,-85px)  ;
+		-webkit-transform:  translate(-200px,-120px)  ;
 	}
 }
 
 @-o-keyframes animationFlyout {
 	0% {
 		opacity:1;
-		-o-transform:  translate(0px,-25px)  ;
+		-o-transform:  translate(0px,0px)  ;
 	}
 	100% {
 		opacity:0;
-		-o-transform:  translate(-104px,-85px)  ;
+		-o-transform:  translate(-200px,-120px)  ;
 	}
 }
 
 @-ms-keyframes animationFlyout {
 	0% {
 		opacity:1;
-		-ms-transform:  translate(0px,-25px)  ;
+		-ms-transform:  translate(0px,0px)  ;
 	}
 	100% {
 		opacity:0;
-		-ms-transform:  translate(-104px,-85px)  ;
+		-ms-transform:  translate(-200px,-120px)  ;
 	}
 }
 
