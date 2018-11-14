@@ -401,8 +401,8 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 #bio_ep .col6 .Button-klein, #bio_ep .col12 .Button-klein {display: -ms-flexbox; ; display: flex; -ms-flex-direction: column; flex-direction: column}
 #bio_ep .col6 a:hover, #bio_ep .col12 a:hover  {text-decoration:none}
 
-/* Flyout Info Box ======================*/
-#flyout {
+/* Dealbox ======================*/
+#dealbox {
 	width: 205px;
 	min-height: 220px;
 	border: 1px solid #0061a0;
@@ -418,7 +418,7 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 	z-index: 10000;
 }
 
-#flyout-close {
+#dealbox-close {
 	position: absolute;
 	left: 100%;
 	margin: -24px 0 0 -14px;
@@ -433,30 +433,30 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 	cursor: pointer;
 }
 
-.transformFlyout{
-	animation: animationFlyout ease 1s;
+.transformDealbox{
+	animation: animationDealbox ease 1s;
 	animation-iteration-count: 1;
 	transform-origin: 0% 0%;
 	animation-fill-mode:forwards; /*when the spec is finished*/
-	-webkit-animation: animationFlyout ease 1s;
+	-webkit-animation: animationDealbox ease 1s;
 	-webkit-animation-iteration-count: 1;
 	-webkit-transform-origin: 0% 0%;
 	-webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/
-	-moz-animation: animationFlyout ease 1s;
+	-moz-animation: animationDealbox ease 1s;
 	-moz-animation-iteration-count: 1;
 	-moz-transform-origin: 0% 0%;
 	-moz-animation-fill-mode:forwards; /*FF 5+*/
-	-o-animation: animationFlyout ease 1s;
+	-o-animation: animationDealbox ease 1s;
 	-o-animation-iteration-count: 1;
 	-o-transform-origin: 0% 0%;
 	-o-animation-fill-mode:forwards; /*Not implemented yet*/
-	-ms-animation: animationFlyout ease 1s;
+	-ms-animation: animationDealbox ease 1s;
 	-ms-animation-iteration-count: 1;
 	-ms-transform-origin: 0% 0%;
 	-ms-animation-fill-mode:forwards; /*IE 10+*/
 }
 
-@keyframes animationFlyout{
+@keyframes animationDealbox{
 	0% {
 		opacity:1;
 		transform:  scaleX(1.00) scaleY(1.00) ;
@@ -467,7 +467,7 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 	}
 }
 
-@-moz-keyframes animationFlyout{
+@-moz-keyframes animationDealbox{
 	0% {
 		opacity:1;
 		-moz-transform:  scaleX(1.00) scaleY(1.00) ;
@@ -478,7 +478,7 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 	}
 }
 
-@-webkit-keyframes animationFlyout {
+@-webkit-keyframes animationDealbox {
 	0% {
 		opacity:1;
 		-webkit-transform:  scaleX(1.00) scaleY(1.00) ;
@@ -489,7 +489,7 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 	}
 }
 
-@-o-keyframes animationFlyout {
+@-o-keyframes animationDealbox {
 	0% {
 		opacity:1;
 		-o-transform:  scaleX(1.00) scaleY(1.00) ;
@@ -500,7 +500,7 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 	}
 }
 
-@-ms-keyframes animationFlyout {
+@-ms-keyframes animationDealbox {
 	0% {
 		opacity:1;
 		-ms-transform:  scaleX(1.00) scaleY(1.00) ;
