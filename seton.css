@@ -692,7 +692,7 @@ li:hover > .sub, li:focus > .sub, li:hover > .nav-third, li:focus > .nav-third {
 	/* iOS: visibility breaks transition but required for touch events and block is not animatable */
 	transition: visibility .25s ease-in, opacity .25s ease-in, max-height .5s ease-in}
 .sub a, .Teaser-Blog a, .Footer .Grid-System-Sitemap li a {margin: 0 0 .2rem 0; display: inline-block; max-width: 94%; vertical-align: top}
-.sub .Titel, .Thema-Name a {font-weight: bold; margin-left: 0}
+.sub .Titel, .Thema-Name a, #dealbox a .Titel {font-weight: bold; margin-left: 0}
 .nav-third li:before, .Teaser-Blog li:before, .Footer .Grid-System-Sitemap ul li:before, .nav-pri .PfeilLink:before, .Direktbestellung:before, .Weiterfuehrender-Link:before, .deeplink:before  {content: "\203A"; margin-right:5px}
 #Breadcrumbs, .Breadcrumbs {clear: both; padding: .5rem 1.25%}
 
