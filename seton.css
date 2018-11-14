@@ -454,6 +454,7 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 	-ms-animation-iteration-count: 1;
 	-ms-transform-origin: 0% 0%;
 	-ms-animation-fill-mode:forwards; /*IE 10+*/
+	right: 6px;
 }
 
 @keyframes animationDealbox{
