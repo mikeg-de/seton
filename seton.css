@@ -454,7 +454,6 @@ button[disabled=disabled], button:disabled:hover {box-shadow:none; cursor:defaul
 	-ms-animation-iteration-count: 1;
 	-ms-transform-origin: 0% 0%;
 	-ms-animation-fill-mode:forwards; /*IE 10+*/
-	right: 6px;
 }
 
 @keyframes animationDealbox{
@@ -1981,24 +1980,24 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 	#suggestContainer {border-top: 0 none}
 
 	.col-Themen {border-right: 0 none; background-color: #eee}
-	#topnavSale .col {padding:5px 10px}
-	#topnavSale li {border-bottom:1px solid #ccc; padding:1em 0}
-	#topnavSale li:last-child {border:0}
-	#topnavSale .Description {color:#3e3e3e; display:block}
-	#topnavSale > a {display:block;font-size: 2rem;   line-height: 2.5rem}
-	#topnavSale a:hover {text-decoration:none}
-	#topnavSale .Weiterfuehrender-Link {position:relative; bottom:0; right:0; display:block; text-align:right}
-	#topnavSale a:hover .Titel,
-	#topnavSale a:hover .Weiterfuehrender-Link {text-decoration:underline}
+	#topnavSale > a,
+	#dealbox > a {display:block;font-size: 2rem;   line-height: 2.5rem}
 	#topnavSale .sub {left: 77%;width: 23%}
 	#topnavSale .col {padding:5px 10px}
 	#topnavSale li {border-bottom:1px solid #ccc; padding:1em 0}
 	#topnavSale li:last-child {border:0}
-	#topnavSale .Description {color:#3e3e3e; display:block}
-	#topnavSale a {display:block}
-	#topnavSale a:hover {text-decoration:none}
-	#topnavSale .Weiterfuehrender-Link {position:relative; bottom:0; right:0; display:block; text-align:right}
-	#topnavSale a:hover .Titel, #topnavSale a:hover .Weiterfuehrender-Link {text-decoration:underline}
+	#topnavSale .Description,
+	#dealbox .Description {color:#3e3e3e; display:block}
+	#topnavSale a,
+	#dealbox a {display:block}
+	#topnavSale a:hover,
+	#dealbox a:hover {text-decoration:none}
+	#topnavSale .Weiterfuehrender-Link,
+	#dealbox .Weiterfuehrender-Link {position:relative; bottom:0; right:0; display:block; text-align:right}
+	#topnavSale a:hover .Titel,
+	#topnavSale a:hover .Weiterfuehrender-Link,
+	#dealbox a:hover .Titel,
+	#dealbox a:hover .Weiterfuehrender-Link {text-decoration:underline}
 	#neue-aktion-hinweis { display: none; font-size: 12px; font-weight: bold; color: white; position: absolute; background: red; height: 14px; width: 14px; top: 4px; right: 4px;}
 	#neue-aktion-hinweis span {position: absolute; top: -12px; right: 4px;}
 	.Homepage .royalSlider {height: 250px}
