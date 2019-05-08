@@ -119,6 +119,12 @@ ol.AGB li ol li:before {content: counter(level1, decimal) "." counter(level2, de
 .Grid-Themen-Index, .ui-dialog, .Footer, .Footer-Zuletzt-gesehene-Produkte {padding: 1rem 1.25%; clear: both}
 .Content th, .Content td, .Checkout-Print th, .Checkout-Print td {padding: 3px 3px 2px 2px; box-sizing: border-box}
 
+.table-responsive { width: 100%; overflow-y: auto; margin: 0 0 1em; }
+.table-responsive td, .table-responsive th { text-align: center; padding: 5px; }
+.table-responsive th { background: #d8d8d8; }
+.table-responsive::-webkit-scrollbar { -webkit-appearance: none; width: 14px; height: 14px; }
+.table-responsive::-webkit-scrollbar-thumb { border-radius: 8px; border: 3px solid #fff; background-color: rgba(0, 0, 0, .3); }
+
 /* French DYO */
 .tab02 [type="text"] {max-width: 220px}
 .tab02 :disabled {display: inline-block}
