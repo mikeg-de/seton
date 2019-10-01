@@ -1,7 +1,7 @@
 [id^="topnav"] {float: none}
 [id^="topnav"] .sub {width: 100% !important;}
 .sub, .col {display: block}
-#Breadcrumbs {height: 2.75rem; text-indent: -99999px; display: block; margin: 46px 0 0}
+#Breadcrumbs {height: 2.75rem; /*text-indent: -99999px;*/ display: block; margin: 46px 0 0}
 [type="text"] {border-radius: 0}
 
 .clearfix::before,
