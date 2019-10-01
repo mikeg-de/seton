@@ -71,7 +71,7 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	nav.pure-drawer[data-position="left"], aside.pure-drawer[data-position="left-bottom"], aside.pure-drawer[data-position="right-bottom"] {z-index: 120; margin: 2.75rem 0; max-width: 400px; width: 100%;top: 0}
 	aside.pure-drawer[data-position="left-bottom"], aside.pure-drawer[data-position="right-bottom"] {border-bottom: 4rem solid #fff}
 	aside.pure-drawer[data-position="right-bottom"] {left: auto; right: 0}
-	.PUES #asideBackground {position: fixed; bottom: 0; background-color: #fff; height: 2.75rem; width: 100%; border-top: 1px solid #ccc;z-index: 1;}
+	.PUES #asideBackground {position: fixed; bottom: 0; background-color: #fff; height: 2.75rem; width: 100%; border-top: 1px solid #ccc;z-index: 99;}
 	.nav-pri {background-color: #0061a0; z-index:80; position:relative }
 	aside.pure-drawer {background-color: #fff}
 
