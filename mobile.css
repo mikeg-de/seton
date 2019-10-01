@@ -1,8 +1,23 @@
 [id^="topnav"] {float: none}
 [id^="topnav"] .sub {width: 100% !important;}
 .sub, .col {display: block}
-#Breadcrumbs {height: 2.75rem; text-indent: -99999px; display: block; margin: 0 0 1rem}
+#Breadcrumbs {height: 2.75rem; /*text-indent: -99999px;*/ display: block; margin: 46px 0 1rem}
 [type="text"] {border-radius: 0}
+
+.clearfix::before,
+.clearfix::after {
+	content: " ";
+	display: table;
+}
+
+.clearfix::after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1; /* Für den IE6 und IE7 */
+}
+
 
 /* Mobiles (tablets & smartphones)
 http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
