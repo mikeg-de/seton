@@ -1,7 +1,7 @@
 [id^="topnav"] {float: none}
 [id^="topnav"] .sub {width: 100% !important;}
 .sub, .col {display: block}
-#Breadcrumbs {height: 2.75rem; /*text-indent: -99999px;*/ display: block; margin: 46px 0 1rem}
+#Breadcrumbs {height: 2.75rem; text-indent: -99999px; display: block; margin: 46px 0 0}
 [type="text"] {border-radius: 0}
 
 .clearfix::before,
@@ -56,7 +56,7 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.pure-toggle-label.bottom {}
 	.PUES-Landingpage .pure-toggle-label[data-toggle-label='left-bottom'] {display: none}
 
-	#Header {height: 2.75rem; background-color: #fff; position: fixed; z-index:90; border-bottom: 1px solid #ccc}
+	#Header {height: 2.75rem; background-color: #fff; position: fixed; top: 0; z-index:90; border-bottom: 1px solid #ccc}
 	.Logo {margin: .5rem 0 .5rem 3.5rem; overflow: hidden; width: 2rem; height: 2rem}
 	.Logo img {max-width: 175px}
 	#Header .Artikelsuche {width: 65%; margin: .15rem 0 0 5%}
