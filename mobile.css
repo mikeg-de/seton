@@ -4,21 +4,6 @@
 #Breadcrumbs {/*height: 2.75rem;*/ /*text-indent: -99999px;*/ display: block; margin: 46px 0 0}
 [type="text"] {border-radius: 0}
 
-.clearfix::before,
-.clearfix::after {
-	content: " ";
-	display: table;
-}
-
-.clearfix::after {
-	clear: both;
-}
-
-.clearfix {
-	*zoom: 1; /* Für den IE6 und IE7 */
-}
-
-
 /* Mobiles (tablets & smartphones)
 http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 @media only screen and (max-device-width: 1024px) {
