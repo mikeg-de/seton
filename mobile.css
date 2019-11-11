@@ -178,7 +178,8 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	@keyframes fadeOutRight { 0% { opacity: 1}
 		100% {	opacity: 0; transform: translate3d(100%, 0, 0)} }
 
-	.fadeOutRight, [data-effect="pure-effect-fade"] .pure-drawer[data-position='right'], [data-effect="pure-effect-fade"] .pure-drawer[data-position='right-bottom'] {animation-name: fadeOutRight} }
+	.fadeOutRight, [data-effect="pure-effect-fade"] .pure-drawer[data-position='right'], [data-effect="pure-effect-fade"] .pure-drawer[data-position='right-bottom'] {animation-name: fadeOutRight}
+}
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
 	.Homepage .col9 {width: 74.68%}
@@ -196,7 +197,30 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 	.disable-mobil {display: none !important}
 	#neue-aktion-hinweis {font-size: 10px; height: 12px; width: 12px;}
 	#neue-aktion-hinweis span {top: -4px;}
-	 }
+
+	._reassurance_box .col3.colxs6 { width: 49.37% }
+
+	}
+
+@media screen and (max-width: 848px) {
+	._reassurance_img { padding: 1em 3em; }
+}
+
+@media screen and (max-width: 638px) {
+	._reassurance_img { padding: 1em 2em; }
+}
+
+@media screen and (max-width: 538px) {
+	._reassurance_img { padding: 1em 5em; }
+}
+
+@media screen and (max-width: 450px) {
+	._reassurance_img { padding: 1em 3em; }
+}
+
+@media screen and (max-width: 360px) {
+	._reassurance_img { padding: 1em 2em; }
+}
 
 /* Mobiles portrait */
 @media only screen and (max-device-width: 768px) and (orientation: portrait) {

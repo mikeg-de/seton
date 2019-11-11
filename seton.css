@@ -1856,6 +1856,53 @@ a.Blog {width: 98px; background-position: -180px 0; margin: 0}
 .Footer .Trusted-Shop {width: 150px; display: inline-block}
 .Footer .bewertung {margin: 0 0 0 10px}
 
+
+/* Reassurance Box */
+._reassurance_box {
+	margin: 10px auto 10px auto;
+	box-sizing: border-box;
+	background: #084c85;
+	text-align: center;
+	float: left
+}
+
+._reassurance_img {
+	display: inline-block;
+	position: relative;
+	max-width: 120px;
+	transition: .5s ease;
+	top: 0;
+	vertical-align: top;
+}
+
+._reassurance_img img {
+	margin-bottom: auto;
+	width: 50px;
+	display: inline-block;
+}
+
+._reassurance_img:hover {
+	top: -5px;
+	cursor: pointer;
+}
+
+._reassurance_box figcaption {
+	text-align: center;
+	font-size: 1em;
+	color: #fff;
+	margin-top: 1em;
+}
+
+.fa-check-square-o {
+	color: #fff;
+	font-size: 54px !important;
+}
+
+.footer-headline-blue {
+	color: #084c85; font-size: 15px; font-weight: 600; padding: 0 0 14px;
+}
+
+
 /* Footer Kundenmeinung */
 .Klein, .preisvorher, .Streich-Preis, .Artikelanzahl, .hreview-aggregate .rating, .Vorrat, .Fax span, .Hotline span, .Mail span a, .Anschrift span, .Info span a, .Online-Shop span a, .Warenkorb span a, .Disclaimer, .Bildunterschrift, .Upsell .tooltip .Upsellnein, .Designcode-Artikelauswahl .rsWithThumbsHor .rsGCaption figure, .Listenansicht a {color: #8A8A8A}
 .Checkout .NL-Layer, .Checkout-Adresseingabe .NL-Layer, .Checkout-Check-and-Send .NL-Layer {display: none !important}
