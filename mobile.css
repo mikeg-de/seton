@@ -202,26 +202,6 @@ http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions */
 
 	}
 
-@media screen and (max-width: 848px) {
-	._reassurance_img { padding: 1em 3em; }
-}
-
-@media screen and (max-width: 638px) {
-	._reassurance_img { padding: 1em 2em; }
-}
-
-@media screen and (max-width: 538px) {
-	._reassurance_img { padding: 1em 5em; }
-}
-
-@media screen and (max-width: 450px) {
-	._reassurance_img { padding: 1em 3em; }
-}
-
-@media screen and (max-width: 360px) {
-	._reassurance_img { padding: 1em 2em; }
-}
-
 /* Mobiles portrait */
 @media only screen and (max-device-width: 768px) and (orientation: portrait) {
 	.article-Dropdowns {width: 66.25%}
