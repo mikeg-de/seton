@@ -651,7 +651,8 @@ select {background-color: #fff; background: linear-gradient(to bottom, #fff 0%, 
 .Artikelsuche .Button-klein-gruen {display: inline-block}
 .Artikelsuche .suggestLayer {margin-top: 5px}
 .suggestContainer {display: none; width: 100%; top: auto; left: 0; padding: 0; margin: 0; background-color: white; z-index: 10001; position: absolute; border: 3px solid #00609F; box-sizing: border-box}
-.suggestContainer a {display: block;padding: .5rem .5rem .2rem;height: 1.25rem; overflow: hidden; line-height: 1.25rem}
+.suggestContainer a {display: block;padding: .5rem .5rem .2rem;height: 3rem; overflow: hidden; line-height: 3rem}
+.suggestContainer a img {height: 3rem; vertical-align: middle; padding-right: 10px;}
 .suggestContainer a:hover, .suggestContainer a:focus {text-decoration: underline; background-color: #eee; cursor: pointer}
 .suggestContainer .suggestEntry {width: 75%; display: inline-table; overflow: hidden}
 .suggestContainer .suggestContent {color: #f00}
